@@ -30,7 +30,7 @@ An explanation of the various fields is in order:
 
 * `name` - The offical Unicode name, in SHOUTY UPPERCASE
 * `unified` - The Unicode codepoint, as 4-5 hex digits. Where an emoji
-   needs 2 codepoints, they are specified like ``.
+   needs 2 codepoints, they are specified like `1F1EA-1F1F8`.
 * `docomo`, `au`, `softbank`, `google` - The Unicdoe codepoints used
    by various mobile vendors.
 * `images` - The name of the image file in `gemoji/images/emoji/unicode/`
