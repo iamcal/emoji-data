@@ -1,0 +1,17 @@
+smile			:)
+smiley			:)
+grinning		:D
+satisified		:D
+stuck_out_tongue_winking_eye	;p
+wink			;)
+stuck_out_tongue	:p
+cry			:'(
+sob			:'(
+disappointed		:(
+unamusedunamused	:(
+heart			<3
+yellow_heart		<3
+blue_heart		<3
+purple_heart		<3
+green_heart		<3
+broken_heart		</3

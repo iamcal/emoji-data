@@ -21,7 +21,8 @@ look like this:
 			"image": "2600.png",
 			"sheet_x": 25,
 			"sheet_y": 6,
-			"short_name": "sunny"
+			"short_name": "sunny",
+			"text": null,
 		},
 		...
 	]
@@ -37,6 +38,8 @@ An explanation of the various fields is in order:
 * `sheet_x` & `sheet_y` - The position of the image in the spritesheets.
 * `short_name` - The commonly-agreed upon short name for the image, as
    supported in campfire, github etc via the :colon-syntax:
+* `text` - An ASCII version of the emoji (e.g. `:)`), or null where
+   none exists.
 
 
 ## Rebuilding the data

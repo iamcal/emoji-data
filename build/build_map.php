@@ -3,6 +3,17 @@
 	include('catalog_positions.php');
 	include('catalog_names.php');
 
+	# load text mappings
+	$lines = file('catalog_text.txt');
+	$text = array();
+	foreach ($lines as $line){
+		$line = trim($line);
+		if (strlen($line)){
+			$bits = preg_split('!\s+!', $line, 2);
+			$text[$bits[0]] = $bits[1];
+		}
+	}
+
 	# pre-process names into a map
 	$names_map = array();
 	foreach ($catalog_names as $row){
@@ -40,6 +51,7 @@
 			'sheet_x'	=> $position['x'],
 			'sheet_y'	=> $position['y'],
 			'short_name'	=> $short,
+			'text'		=> $text[$short],
 		);
 	}
 
