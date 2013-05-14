@@ -1,45 +1,27 @@
 <?php
 	# find all input images
-	$path = dirname(__FILE__).'/gemoji/images/emoji/unicode';
-	$files = glob("$path/*");
+	$gemoji_path = dirname(__FILE__).'/../gemoji/images/emoji/unicode';
+	$files = glob("$gemoji_path/*");
 
-	# create small versions of each image
-	$temp = dirname(__FILE__).'/temp';
-	@mkdir($temp);
 
-	echo "Resizing images ";
-	$images = array();
+	echo "Mapping images     ... ";
+
+	$map= array();
+
 	foreach ($files as $file){
-
 		if (!preg_match('!\.png$!', $file)) continue;
-
 		$last = basename($file);
-		$target = $temp.'/'.$last;
-
-		exec("convert {$file} -resize 20x20 {$target}", $out, $code);
-		if ($code){
-			echo 'x';
-		}else{
-			echo '.';
-		}
-
-		$images[] = array($last);
-		#echo "$file -> $target\n";
+		$base = pathinfo($last, PATHINFO_FILENAME);
+		$map[$base] = array();
 	}
-	echo " DONE\n";
 
-
-	# quick step - decide on images dimensions and icon
-	# positions
-	$map = array();
 	$y = 0;
 	$x = 0;
-	$num = ceil(sqrt(count($images)));
-	foreach ($images as $k => $v){
-		$images[$k][1] = $x * 20;
-		$images[$k][2] = $y * 20;
-		$map[pathinfo($v[0], PATHINFO_FILENAME)] = array($x*20, $y*20);
+	$num = ceil(sqrt(count($map)));
 
+	foreach ($map as $k => $v){
+		$map[$k]['x'] = $x;
+		$map[$k]['y'] = $y;
 		$y++;
 		if ($y == $num){
 			$x++;
@@ -47,10 +29,12 @@
 		}
 	}
 
+	echo "DONE\n";
 
-	echo "Writing image map ... ";
-	$fh = fopen('css_catalog.php', 'w');
-	fwrite($fh, '<'.'?php $css_data = ');
+
+	echo "Writing image map  ... ";
+	$fh = fopen('catalog_positions.php', 'w');
+	fwrite($fh, '<'.'?php $position_data = ');
 	fwrite($fh, var_export($map, true));
 	fwrite($fh, ";\n");
 	fclose($fh);
@@ -58,26 +42,24 @@
 	#exit;
 
 
-	echo "Compositing images ";
-	$pw = 20 * $num;
-	$ph = 20 * $num;
+	echo "Compositing images ... ";
+	$pw = 64 * $num;
+	$ph = 64 * $num;
+	$dst = dirname(__FILE__).'/../sheet_64.png';
 
-	#echo shell_exec("convert -size {$pw}x{$ph} xc:red {$temp}/sheet.png");
-	echo shell_exec("convert -size {$pw}x{$ph} null: -matte -compose Clear -composite -compose Over {$temp}/sheet.png");
+	echo shell_exec("convert -size {$pw}x{$ph} null: -matte -compose Clear -composite -compose Over {$dst}");
 
-	foreach ($images as $image){
+	foreach ($map as $k => $v){
 
-		$px = $image[1];
-		$py = $image[2];
+		$src = "{$gemoji_path}/{$k}.png";
+		$px = $v['x']*64;;
+		$py = $v['y']*64;
 
-		echo shell_exec("composite -geometry +{$px}+{$py} {$temp}/{$image[0]} {$temp}/sheet.png {$temp}/sheet.png");
+		echo shell_exec("composite -geometry +{$px}+{$py} {$src} {$dst} {$dst}");
 		echo '.';
 	}
 	echo " DONE\n";
 
-	echo shell_exec("convert {$temp}/sheet.png png32:{$temp}/sheet2.png");
-
-	echo "Moving final images ";
-	rename("{$temp}/sheet2.png", dirname(__FILE__).'/../emoji.png');
-	shell_exec("rm -rf {$temp}/");
-	echo " DONE\n";
+	echo "Optimizing sheet   ... ";
+	echo shell_exec("convert {$dst} png32:{$dst}");
+	echo "DONE\n";
