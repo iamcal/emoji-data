@@ -31,7 +31,7 @@
 	echo "Writing names map ....... ";
 	$fh = fopen('catalog_names.php', 'w');
 	fwrite($fh, '<'.'?php $catalog_names = ');
-	fwrite($fh, var_export($map, true));
+	fwrite($fh, var_export($out, true));
 	fwrite($fh, ";\n");
 	fclose($fh);
 	echo "DONE\n";
