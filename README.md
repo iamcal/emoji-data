@@ -1,6 +1,42 @@
+This project provides easy-to-parse data about emoji, along with a spritesheet-style 
+image for use on the web.
+
+The original images come from <a href="https://github.com/github/gemoji">gemoji</a>
+abnd you can use the individual images directly too.
+
+
 ## Using the data
 
-...
+The file you want is `emoji.json`. It contains an array of entries for emoji that 
+look like this:
+
+	[
+		{
+			"name": "BLACK SUN WITH RAYS",
+			"unified": "2600",
+			"docomo": "E63E",
+			"au": "E488",
+			"softbank": "E04A",
+			"google": "FE000",
+			"image": "2600.png",
+			"sheet_x": 25,
+			"sheet_y": 6,
+			"short_name": "sunny"
+		},
+		...
+	]
+
+An explanation of the various fields is in order:
+
+* `name` - The offical Unicode name, in SHOUTY UPPERCASE
+* `unified` - The Unicode codepoint, as 4-5 hex digits. Where an emoji
+   needs 2 codepoints, they are specified like ``.
+* `docomo`, `au`, `softbank`, `google` - The Unicdoe codepoints used
+   by various mobile vendors.
+* `images` - The name of the image file in `gemoji/images/emoji/unicode/`
+* `sheet_x` & `sheet_y` - The position of the image in the spritesheets.
+* `short_name` - The commonly-agreed upon short name for the image, as
+   supported in campfire, github etc via the :colon-syntax:
 
 
 ## Rebuilding the data
