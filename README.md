@@ -1,8 +1,8 @@
 This project provides easy-to-parse data about emoji, along with a spritesheet-style 
-image for use on the web.
+images for use on the web.
 
 The original images come from <a href="https://github.com/github/gemoji">gemoji</a>
-abnd you can use the individual images directly too.
+and you can use the individual images directly with the data too.
 
 
 ## Using the data
