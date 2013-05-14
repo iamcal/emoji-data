@@ -19,9 +19,9 @@ You can rebuild by following these steps:
 
 	# Rebuild positions and naming catalogs, and make the master spritesheets
 	# (This step requires ImageMagick or GraphicsMagick)
-	php build_image.php
-	php build_names.php
+	php build_image.php # this is slow!
 	php build_sheets.php
+	php build_names.php
 
 	# Finally, build a single mapping file
-	php build_map.php > ../emoji.json
+	php build_map.php
