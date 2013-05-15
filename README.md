@@ -64,3 +64,6 @@ You can rebuild by following these steps:
 
 	# Finally, build a single mapping file
 	php build_map.php
+
+	# From the final mapping, build a preview table
+	php build_table.php > ../table.htm
