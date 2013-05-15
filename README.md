@@ -1,6 +1,8 @@
 This project provides easy-to-parse data about emoji, along with a spritesheet-style 
 images for use on the web.
 
+You can see a catalog of the emoji data here: http://unicodey.com/emoji-data/table.htm
+
 The original images come from <a href="https://github.com/github/gemoji">gemoji</a>
 and you can use the individual images directly with the data too.
 
