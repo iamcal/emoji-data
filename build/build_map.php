@@ -23,6 +23,7 @@
 	}
 
 	$out = array();
+	$out_unis = array();
 
 	foreach ($catalog as $row){
 
@@ -53,11 +54,67 @@
 			'short_name'	=> $short,
 			'text'		=> $text[$short],
 		);
+
+		$out_unis[$img_key] = 1;
 	}
+
+
+	#
+	# were there any codepoints we have an image for, but no data for?
+	#
+
+	echo "Finding extra emoji from UCD: ";
+
+	foreach ($catalog_names as $row){
+		if ($row[0] && $row[1]){
+			if (!$out_unis[$row[0]]){
+				echo  '.';
+				$out[] = build_character_data($row[0], $row[1]);
+			}
+		}
+	}
+	echo " DONE\n";
+
+	function build_character_data($img_key, $short_name){
+
+		global $text, $position_data;
+
+		$position = $position_data[$img_key];
+
+		if (!is_array($position)){
+			echo "No image for $img_key: {$row['char_name']['title']}\n";
+			continue;
+		}
+
+		$uni = StrToUpper($img_key);
+
+		$line = shell_exec("grep -e ^{$uni}\\; UnicodeData.txt");
+		list($junk, $name) = explode(';', $line);
+
+		$row = array(
+			'name'		=> $name,
+			'unified'	=> $uni,
+			'docomo'	=> '',
+			'au'		=> '',
+			'softbank'	=> '',
+			'google'	=> '',
+			'image'		=> $img_key.'.png',
+			'sheet_x'	=> $position['x'],
+			'sheet_y'	=> $position['y'],
+			'short_name'	=> $short_name,
+			'text'		=> $text[$short],		
+		);
+
+		return $row;
+	}
+
+
+	echo "Writing map: ";
 
 	$fh = fopen('../emoji.json', 'w');
 	fwrite($fh, json_encode($out));
 	fclose($fh);
+
 	echo "DONE\n";
 
 

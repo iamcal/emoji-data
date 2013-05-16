@@ -65,6 +65,7 @@ You can rebuild by following these steps:
 	php build_names.php
 
 	# Finally, build a single mapping file
+	wget http://www.unicode.org/Public/UNIDATA/UnicodeData.txt
 	php build_map.php
 
 	# From the final mapping, build a preview table
