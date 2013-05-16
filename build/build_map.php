@@ -109,6 +109,30 @@
 	}
 
 
+	#
+	# sort everything into a nice order
+	#
+
+	foreach ($out as $k => $v){
+		$out[$k]['sort'] = str_pad($v['unified'], 20, '0', STR_PAD_LEFT);
+	}
+
+	usort($out, 'sort_rows');
+
+	foreach ($out as $k => $v){
+		unset($out[$k]['sort']);
+	}
+
+	function sort_rows($a, $b){
+		return strcmp($a['sort'], $b['sort']);
+	}
+
+
+
+	#
+	# write map
+	#
+
 	echo "Writing map: ";
 
 	$fh = fopen('../emoji.json', 'w');
