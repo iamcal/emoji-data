@@ -5,27 +5,27 @@
 
 
 	echo "Calculating checksums ... ";
-	$map1 = array();
-	$map2 = array();
-	foreach ($files1 as $f) $map1[md5_file($f)] = $f;
-	foreach ($files2 as $f) $map2[md5_file($f)] = $f;
+	$map = array();
+	foreach ($files2 as $f) $map[md5_file($f)] = $f;
 	echo "DONE\n";
 
 	echo "Matching up ............. ";
 	$out = array();
-	foreach ($map1 as $k => $v){
+	foreach ($files1 as $f){
 
-		if ($map2[$k]){
-			$n1 = pathinfo($map1[$k], PATHINFO_FILENAME);
-			$n2 = pathinfo($map2[$k], PATHINFO_FILENAME);
-			$out[] = array($n2, $n1);
-			unset($map2[$k]);
+		$sum = md5_file($f);
+		$n_text =  pathinfo($f, PATHINFO_FILENAME);
+
+		if ($map[$sum]){
+			$n_code = pathinfo($map[$sum], PATHINFO_FILENAME);
+
+			#echo "$n_text -> $n_code\n";
+			$out[$n_code][] = $n_text;
 		}else{
-			$n1 = pathinfo($map1[$k], PATHINFO_FILENAME);
-			$out[] = array(null, $n1);
+			#echo "$n_text -> ???????????????????????????\n";
+			$out['_'][] = $n_text;
 		}
 	}
-	foreach ($map2 as $v) $out[] = array(pathinfo($v, PATHINFO_FILENAME), null);
 	echo "DONE\n";
 
 	echo "Writing names map ....... ";

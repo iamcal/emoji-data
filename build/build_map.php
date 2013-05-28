@@ -14,14 +14,6 @@
 		}
 	}
 
-	# pre-process names into a map
-	$names_map = array();
-	foreach ($catalog_names as $row){
-		if ($row[0] && $row[1]){
-			$names_map[$row[0]] = $row[1];
-		}
-	}
-
 	$out = array();
 	$out_unis = array();
 
@@ -33,7 +25,14 @@
 		if (preg_match('!^(\S{4})-20e3$!', $img_key, $m)) $img_key = $m[1];
 
 		$position = $position_data[$img_key];
-		$short = $names_map[$img_key];
+
+		$shorts = $catalog_names[$img_key];
+		if (is_array($shorts)){
+			$short = $shorts[0];
+		}else{
+			$shorts = array();
+			$short = null;
+		}
 
 		if (!is_array($position)){
 			echo "No image for $img_key: {$row['char_name']['title']}\n";
@@ -52,6 +51,7 @@
 			'sheet_x'	=> $position['x'],
 			'sheet_y'	=> $position['y'],
 			'short_name'	=> $short,
+			'short_names'	=> $shorts,
 			'text'		=> $text[$short],
 		);
 
@@ -65,17 +65,18 @@
 
 	echo "Finding extra emoji from UCD: ";
 
-	foreach ($catalog_names as $row){
-		if ($row[0] && $row[1]){
-			if (!$out_unis[$row[0]]){
-				echo  '.';
-				$out[] = build_character_data($row[0], $row[1]);
-			}
+	foreach ($catalog_names as $uid => $names){
+		if ($uid == '_') continue;
+
+		if (!$out_unis[$uid]){
+			echo  '.';
+			$out[] = build_character_data($uid, $names);
 		}
 	}
 	echo " DONE\n";
 
-	function build_character_data($img_key, $short_name){
+
+	function build_character_data($img_key, $short_names){
 
 		global $text, $position_data;
 
@@ -101,7 +102,8 @@
 			'image'		=> $img_key.'.png',
 			'sheet_x'	=> $position['x'],
 			'sheet_y'	=> $position['y'],
-			'short_name'	=> $short_name,
+			'short_name'	=> $short_names[0],
+			'short_names'	=> $short_names,
 			'text'		=> $text[$short],		
 		);
 
