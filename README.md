@@ -40,6 +40,7 @@ An explanation of the various fields is in order:
 * `sheet_x` & `sheet_y` - The position of the image in the spritesheets.
 * `short_name` - The commonly-agreed upon short name for the image, as
    supported in campfire, github etc via the :colon-syntax:
+* `short_names` - An array of all the known short names.
 * `text` - An ASCII version of the emoji (e.g. `:)`), or null where
    none exists.
 
