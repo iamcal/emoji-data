@@ -33,11 +33,12 @@
 			$img = $code.'.png';
 		}
 
-		$url = "https://ssl.gstatic.com/chat/emoji/3/emoji_u{$code}.png";
+		#$url = "https://ssl.gstatic.com/chat/emoji/3/emoji_u{$code}.png";
+		$url = "https://mail.google.com/mail/e/{$code}";
 
 		$out = array();
 		$ret = 0;
-		exec("wget -qO ../../img-hangouts/{$img} \"{$url}\"", $out, $ret);
+		exec("wget -qO ../../img-hangouts-28/{$img} \"{$url}\"", $out, $ret);
 
 		if ($ret){
 			echo 'X';
