@@ -2,6 +2,7 @@
 	include('catalog.php');
 	include('catalog_positions.php');
 	include('catalog_names.php');
+	include('catalog_vars.php');
 
 	# load text mappings
 	$lines = file('catalog_text.txt');
@@ -36,10 +37,14 @@
 			continue;
 		}
 
+		$vars = $catalog_vars[$img_key];
+		if (!is_array($vars)) $vars = array();
+		foreach ($vars as $k => $v) $vars[$k] = StrToUpper($v);
 
 		$out[] = array(
 			'name'		=> $row['char_name']['title'],
 			'unified'	=> encode_points($row['unicode']),
+			'variations'	=> $vars,
 			'docomo'	=> encode_points($row['docomo'  ]['unicode']),
 			'au'		=> encode_points($row['au'      ]['unicode']),
 			'softbank'	=> encode_points($row['softbank']['unicode']),
