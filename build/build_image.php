@@ -1,7 +1,7 @@
 <?php
 	# find all input images
-	include('catalog_names.php');
-
+	$in = file_get_contents('../emoji.json');
+	$catalog = json_decode($in, true);
 
 	$gemoji_path = dirname(__FILE__).'/../gemoji/images/emoji/unicode';
 
@@ -9,8 +9,8 @@
 
 	$map = array();
 
-	foreach ($catalog_names as $file => $names){
-		if ($file == '_') continue;
+	foreach ($catalog as $row){
+		list($file) = explode('.', $row['image']);
 		$map[$file] = array();
 	}
 
