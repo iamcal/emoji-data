@@ -4,7 +4,8 @@
 
 
 
-	create_alt_sheet(72, 'twitter');
+	#create_alt_sheet(72, 'twitter');
+	create_alt_sheet(128, 'hangouts');
 
 
 	function create_alt_sheet($img_w, $type){
