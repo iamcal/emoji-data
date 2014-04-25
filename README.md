@@ -59,17 +59,17 @@ You can rebuild by following these steps:
 	patch < source_html.patch
 	php build_catalog.php full.html > catalog.php
 
-	# Rebuild positions and naming catalogs, and make the master spritesheets
-	# (This step requires ImageMagick or GraphicsMagick)
-	php build_image.php # this is slow!
-	php build_alts.php # also slow
-	php build_sheets.php
+	# Rebuild the master mapping
 	php build_names.php
-
-	# Finally, build a single mapping file
 	wget http://www.unicode.org/Public/UNIDATA/UnicodeData.txt
 	php build_map.php
 	php build_pretty.php
 
 	# From the final mapping, build a preview table
 	php build_table.php > ../table.htm
+
+	# Rebuild positions and make the master spritesheets
+	# (This step requires ImageMagick or GraphicsMagick)
+	php build_image.php # this is slow!
+	php build_alts.php # also slow
+	php build_sheets.php
