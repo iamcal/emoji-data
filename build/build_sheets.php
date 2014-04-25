@@ -1,30 +1,37 @@
 <?php
 	$dir = dirname(__FILE__).'/..';
 
+	build_sheet(64, null, 32);
+	build_sheet(64, null, 20);
+	build_sheet(64, null, 16);
 
-	# get sheet size
-	$ident_out = shell_exec("identify -format \"%w|%h|%m\" {$dir}/sheet_64.png 2>&1");
-	$ident_lines = explode("\n", trim($ident_out));
-	if (!count($ident_lines)) die("cant ident master sheet");
-	list($w, $h, $format) = explode('|', $ident_lines[count($ident_lines)-1]);
+	build_sheet(72, 'twitter', 64);
+	build_sheet(72, 'twitter', 32);
+	build_sheet(72, 'twitter', 20);
+	build_sheet(72, 'twitter', 16);
 
-	$iw = $w / 64;
-	$ih = $h / 64;
+	function build_sheet($src_size, $type, $size){
 
-	build_sheet(32);
-	build_sheet(20);
-	build_sheet(16);
+		global $dir;
 
-	function build_sheet($size){
+		$src = $type ? "sheet_{$type}_{$src_size}.png" : "sheet_{$src_size}.png";
+		$dst = $type ? "sheet_{$type}_{$size}.png" : "sheet_{$size}.png";
 
-		global $iw, $ih, $dir;
+		# get sheet size
+		$ident_out = shell_exec("identify -format \"%w|%h|%m\" {$dir}/{$src} 2>&1");
+		$ident_lines = explode("\n", trim($ident_out));
+		if (!count($ident_lines)) die("cant ident master sheet");
+		list($w, $h, $format) = explode('|', $ident_lines[count($ident_lines)-1]);
+
+		$iw = $w / 64;
+		$ih = $h / 64;
 
 		$pw = $iw * $size;
 		$ph = $ih * $size;
 
-		echo "Sheet $size : ";
+		echo "Sheet $src -> $dst : ";
 
-		exec("convert {$dir}/sheet_64.png -resize {$pw}x{$ph} png32:{$dir}/sheet_{$size}.png", $out, $code);
+		exec("convert {$dir}/{$src} -resize {$pw}x{$ph} png32:{$dir}/{$dst}", $out, $code);
 
 		if ($code){
 			echo "ERROR:\n";
