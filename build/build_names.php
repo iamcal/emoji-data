@@ -7,13 +7,15 @@
 	echo "Calculating checksums ... ";
 	$map = array();
 	foreach ($files2 as $f) {
+		if (strpos($f, '-fe0f')) continue;
 		$sum = md5_file($f);
 		if (!isset($map[$sum])) {
 			$map[$sum] = array();
 		}
 		$map[$sum][] = $f;
-	} 
+	}
 	echo "DONE\n";
+
 
 	echo "Matching up ............. ";
 	$out = array();
