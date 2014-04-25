@@ -21,9 +21,6 @@
 
 		$img_key = StrToLower(encode_points($row['unicode']));
 
-		# for some reason, gemoji names 0023-20e3 as just 0023
-		if (preg_match('!^(\S{4})-20e3$!', $img_key, $m)) $img_key = $m[1];
-
 		$position = $position_data[$img_key];
 
 		$shorts = $catalog_names[$img_key];

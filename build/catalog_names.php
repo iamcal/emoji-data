@@ -45,6 +45,10 @@
   array (
     0 => 'aerial_tramway',
   ),
+  '2708-fe0f' => 
+  array (
+    0 => 'airplane',
+  ),
   2708 => 
   array (
     0 => 'airplane',
@@ -60,6 +64,10 @@
   '1f691' => 
   array (
     0 => 'ambulance',
+  ),
+  '2693-fe0f' => 
+  array (
+    0 => 'anchor',
   ),
   2693 => 
   array (
@@ -89,13 +97,25 @@
   array (
     0 => 'apple',
   ),
+  '2652-fe0f' => 
+  array (
+    0 => 'aquarius',
+  ),
   2652 => 
   array (
     0 => 'aquarius',
   ),
+  '2648-fe0f' => 
+  array (
+    0 => 'aries',
+  ),
   2648 => 
   array (
     0 => 'aries',
+  ),
+  '25c0-fe0f' => 
+  array (
+    0 => 'arrow_backward',
   ),
   '25c0' => 
   array (
@@ -109,6 +129,10 @@
   array (
     0 => 'arrow_double_up',
   ),
+  '2b07-fe0f' => 
+  array (
+    0 => 'arrow_down',
+  ),
   '2b07' => 
   array (
     0 => 'arrow_down',
@@ -117,41 +141,81 @@
   array (
     0 => 'arrow_down_small',
   ),
+  '25b6-fe0f' => 
+  array (
+    0 => 'arrow_forward',
+  ),
   '25b6' => 
   array (
     0 => 'arrow_forward',
+  ),
+  '2935-fe0f' => 
+  array (
+    0 => 'arrow_heading_down',
   ),
   2935 => 
   array (
     0 => 'arrow_heading_down',
   ),
+  '2934-fe0f' => 
+  array (
+    0 => 'arrow_heading_up',
+  ),
   2934 => 
   array (
     0 => 'arrow_heading_up',
+  ),
+  '2b05-fe0f' => 
+  array (
+    0 => 'arrow_left',
   ),
   '2b05' => 
   array (
     0 => 'arrow_left',
   ),
+  '2199-fe0f' => 
+  array (
+    0 => 'arrow_lower_left',
+  ),
   2199 => 
   array (
     0 => 'arrow_lower_left',
+  ),
+  '2198-fe0f' => 
+  array (
+    0 => 'arrow_lower_right',
   ),
   2198 => 
   array (
     0 => 'arrow_lower_right',
   ),
+  '27a1-fe0f' => 
+  array (
+    0 => 'arrow_right',
+  ),
   '27a1' => 
   array (
     0 => 'arrow_right',
+  ),
+  '21aa-fe0f' => 
+  array (
+    0 => 'arrow_right_hook',
   ),
   '21aa' => 
   array (
     0 => 'arrow_right_hook',
   ),
+  '2b06-fe0f' => 
+  array (
+    0 => 'arrow_up',
+  ),
   '2b06' => 
   array (
     0 => 'arrow_up',
+  ),
+  '2195-fe0f' => 
+  array (
+    0 => 'arrow_up_down',
   ),
   2195 => 
   array (
@@ -161,9 +225,17 @@
   array (
     0 => 'arrow_up_small',
   ),
+  '2196-fe0f' => 
+  array (
+    0 => 'arrow_upper_left',
+  ),
   2196 => 
   array (
     0 => 'arrow_upper_left',
+  ),
+  '2197-fe0f' => 
+  array (
+    0 => 'arrow_upper_right',
   ),
   2197 => 
   array (
@@ -229,6 +301,10 @@
   array (
     0 => 'balloon',
   ),
+  '2611-fe0f' => 
+  array (
+    0 => 'ballot_box_with_check',
+  ),
   2611 => 
   array (
     0 => 'ballot_box_with_check',
@@ -240,6 +316,10 @@
   '1f34c' => 
   array (
     0 => 'banana',
+  ),
+  '203c-fe0f' => 
+  array (
+    0 => 'bangbang',
   ),
   '203c' => 
   array (
@@ -256,6 +336,10 @@
   '1f488' => 
   array (
     0 => 'barber',
+  ),
+  '26be-fe0f' => 
+  array (
+    0 => 'baseball',
   ),
   '26be' => 
   array (
@@ -330,6 +414,10 @@
   array (
     0 => 'birthday',
   ),
+  '26ab-fe0f' => 
+  array (
+    0 => 'black_circle',
+  ),
   '26ab' => 
   array (
     0 => 'black_circle',
@@ -338,21 +426,41 @@
   array (
     0 => 'black_joker',
   ),
+  '2b1b-fe0f' => 
+  array (
+    0 => 'black_large_square',
+  ),
   '2b1b' => 
   array (
     0 => 'black_large_square',
+  ),
+  '25fe-fe0f' => 
+  array (
+    0 => 'black_medium_small_square',
   ),
   '25fe' => 
   array (
     0 => 'black_medium_small_square',
   ),
+  '25fc-fe0f' => 
+  array (
+    0 => 'black_medium_square',
+  ),
   '25fc' => 
   array (
     0 => 'black_medium_square',
   ),
+  '2712-fe0f' => 
+  array (
+    0 => 'black_nib',
+  ),
   2712 => 
   array (
     0 => 'black_nib',
+  ),
+  '25aa-fe0f' => 
+  array (
+    0 => 'black_small_square',
   ),
   '25aa' => 
   array (
@@ -389,6 +497,11 @@
   '1f417' => 
   array (
     0 => 'boar',
+  ),
+  '26f5-fe0f' => 
+  array (
+    0 => 'boat',
+    1 => 'sailboat',
   ),
   '26f5' => 
   array (
@@ -538,6 +651,10 @@
   array (
     0 => 'camera',
   ),
+  '264b-fe0f' => 
+  array (
+    0 => 'cancer',
+  ),
   '264b' => 
   array (
     0 => 'cancer',
@@ -549,6 +666,10 @@
   '1f520' => 
   array (
     0 => 'capital_abcd',
+  ),
+  '2651-fe0f' => 
+  array (
+    0 => 'capricorn',
   ),
   2651 => 
   array (
@@ -622,6 +743,10 @@
   '1f384' => 
   array (
     0 => 'christmas_tree',
+  ),
+  '26ea-fe0f' => 
+  array (
+    0 => 'church',
   ),
   '26ea' => 
   array (
@@ -767,9 +892,17 @@
   array (
     0 => 'closed_umbrella',
   ),
+  '2601-fe0f' => 
+  array (
+    0 => 'cloud',
+  ),
   2601 => 
   array (
     0 => 'cloud',
+  ),
+  '2663-fe0f' => 
+  array (
+    0 => 'clubs',
   ),
   2663 => 
   array (
@@ -782,6 +915,10 @@
   '1f378' => 
   array (
     0 => 'cocktail',
+  ),
+  '2615-fe0f' => 
+  array (
+    0 => 'coffee',
   ),
   2615 => 
   array (
@@ -806,6 +943,10 @@
   '1f615' => 
   array (
     0 => 'confused',
+  ),
+  '3297-fe0f' => 
+  array (
+    0 => 'congratulations',
   ),
   3297 => 
   array (
@@ -963,6 +1104,10 @@
   array (
     0 => 'diamond_shape_with_a_dot_inside',
   ),
+  '2666-fe0f' => 
+  array (
+    0 => 'diamonds',
+  ),
   2666 => 
   array (
     0 => 'diamonds',
@@ -1072,13 +1217,25 @@
   array (
     0 => 'eggplant',
   ),
-  '0038' => 
+  '0038-20e3' => 
   array (
     0 => 'eight',
+  ),
+  '0038-fe0f-20e3' => 
+  array (
+    0 => 'eight',
+  ),
+  '2734-fe0f' => 
+  array (
+    0 => 'eight_pointed_black_star',
   ),
   2734 => 
   array (
     0 => 'eight_pointed_black_star',
+  ),
+  '2733-fe0f' => 
+  array (
+    0 => 'eight_spoked_asterisk',
   ),
   2733 => 
   array (
@@ -1091,6 +1248,11 @@
   '1f418' => 
   array (
     0 => 'elephant',
+  ),
+  '2709-fe0f' => 
+  array (
+    0 => 'email',
+    1 => 'envelope',
   ),
   2709 => 
   array (
@@ -1124,6 +1286,11 @@
   '1f332' => 
   array (
     0 => 'evergreen_tree',
+  ),
+  '2757-fe0f' => 
+  array (
+    0 => 'exclamation',
+    1 => 'heavy_exclamation_mark',
   ),
   2757 => 
   array (
@@ -1220,7 +1387,11 @@
   array (
     0 => 'fist',
   ),
-  '0035' => 
+  '0035-20e3' => 
+  array (
+    0 => 'five',
+  ),
+  '0035-fe0f-20e3' => 
   array (
     0 => 'five',
   ),
@@ -1260,11 +1431,19 @@
   array (
     0 => 'fork_and_knife',
   ),
+  '26f2-fe0f' => 
+  array (
+    0 => 'fountain',
+  ),
   '26f2' => 
   array (
     0 => 'fountain',
   ),
-  '0034' => 
+  '0034-20e3' => 
+  array (
+    0 => 'four',
+  ),
+  '0034-fe0f-20e3' => 
   array (
     0 => 'four',
   ),
@@ -1296,6 +1475,10 @@
   array (
     0 => 'frowning',
   ),
+  '26fd-fe0f' => 
+  array (
+    0 => 'fuelpump',
+  ),
   '26fd' => 
   array (
     0 => 'fuelpump',
@@ -1320,6 +1503,10 @@
   '1f48e' => 
   array (
     0 => 'gem',
+  ),
+  '264a-fe0f' => 
+  array (
+    0 => 'gemini',
   ),
   '264a' => 
   array (
@@ -1348,6 +1535,10 @@
   '1f410' => 
   array (
     0 => 'goat',
+  ),
+  '26f3-fe0f' => 
+  array (
+    0 => 'golf',
   ),
   '26f3' => 
   array (
@@ -1432,7 +1623,11 @@
     1 => 'poop',
     2 => 'shit',
   ),
-  '0023' => 
+  '0023-20e3' => 
+  array (
+    0 => 'hash',
+  ),
+  '0023-fe0f-20e3' => 
   array (
     0 => 'hash',
   ),
@@ -1451,6 +1646,10 @@
   '1f649' => 
   array (
     0 => 'hear_no_evil',
+  ),
+  '2764-fe0f' => 
+  array (
+    0 => 'heart',
   ),
   2764 => 
   array (
@@ -1476,9 +1675,17 @@
   array (
     0 => 'heartpulse',
   ),
+  '2665-fe0f' => 
+  array (
+    0 => 'hearts',
+  ),
   2665 => 
   array (
     0 => 'hearts',
+  ),
+  '2714-fe0f' => 
+  array (
+    0 => 'heavy_check_mark',
   ),
   2714 => 
   array (
@@ -1495,6 +1702,10 @@
   2796 => 
   array (
     0 => 'heavy_minus_sign',
+  ),
+  '2716-fe0f' => 
+  array (
+    0 => 'heavy_multiplication_x',
   ),
   2716 => 
   array (
@@ -1527,6 +1738,7 @@
   '1f52a' => 
   array (
     0 => 'hocho',
+    1 => 'knife',
   ),
   '1f36f' => 
   array (
@@ -1548,9 +1760,17 @@
   array (
     0 => 'hotel',
   ),
+  '2668-fe0f' => 
+  array (
+    0 => 'hotsprings',
+  ),
   2668 => 
   array (
     0 => 'hotsprings',
+  ),
+  '231b-fe0f' => 
+  array (
+    0 => 'hourglass',
   ),
   '231b' => 
   array (
@@ -1604,6 +1824,10 @@
   array (
     0 => 'information_desk_person',
   ),
+  '2139-fe0f' => 
+  array (
+    0 => 'information_source',
+  ),
   2139 => 
   array (
     0 => 'information_source',
@@ -1611,6 +1835,10 @@
   '1f607' => 
   array (
     0 => 'innocent',
+  ),
+  '2049-fe0f' => 
+  array (
+    0 => 'interrobang',
   ),
   2049 => 
   array (
@@ -1750,9 +1978,17 @@
   array (
     0 => 'left_luggage',
   ),
+  '2194-fe0f' => 
+  array (
+    0 => 'left_right_arrow',
+  ),
   2194 => 
   array (
     0 => 'left_right_arrow',
+  ),
+  '21a9-fe0f' => 
+  array (
+    0 => 'leftwards_arrow_with_hook',
   ),
   '21a9' => 
   array (
@@ -1762,6 +1998,10 @@
   array (
     0 => 'lemon',
   ),
+  '264c-fe0f' => 
+  array (
+    0 => 'leo',
+  ),
   '264c' => 
   array (
     0 => 'leo',
@@ -1769,6 +2009,10 @@
   '1f406' => 
   array (
     0 => 'leopard',
+  ),
+  '264e-fe0f' => 
+  array (
+    0 => 'libra',
   ),
   '264e' => 
   array (
@@ -1806,6 +2050,10 @@
   array (
     0 => 'loop',
   ),
+  '1f50a' => 
+  array (
+    0 => 'loud_sound',
+  ),
   '1f4e2' => 
   array (
     0 => 'loudspeaker',
@@ -1822,6 +2070,10 @@
   array (
     0 => 'low_brightness',
   ),
+  '24c2-fe0f' => 
+  array (
+    0 => 'm',
+  ),
   '24c2' => 
   array (
     0 => 'm',
@@ -1833,6 +2085,10 @@
   '1f50e' => 
   array (
     0 => 'mag_right',
+  ),
+  '1f004-fe0f' => 
+  array (
+    0 => 'mahjong',
   ),
   '1f004' => 
   array (
@@ -2057,7 +2313,15 @@
   array (
     0 => 'ng',
   ),
-  '0039' => 
+  '1f303' => 
+  array (
+    0 => 'night_with_stars',
+  ),
+  '0039-20e3' => 
+  array (
+    0 => 'nine',
+  ),
+  '0039-fe0f-20e3' => 
   array (
     0 => 'nine',
   ),
@@ -2068,6 +2332,10 @@
   '1f6b3' => 
   array (
     0 => 'no_bicycles',
+  ),
+  '26d4-fe0f' => 
+  array (
+    0 => 'no_entry',
   ),
   '26d4' => 
   array (
@@ -2120,6 +2388,10 @@
   '1f529' => 
   array (
     0 => 'nut_and_bolt',
+  ),
+  '2b55-fe0f' => 
+  array (
+    0 => 'o',
   ),
   '2b55' => 
   array (
@@ -2185,7 +2457,11 @@
   array (
     0 => 'oncoming_taxi',
   ),
-  '0031' => 
+  '0031-20e3' => 
+  array (
+    0 => 'one',
+  ),
+  '0031-fe0f-20e3' => 
   array (
     0 => 'one',
   ),
@@ -2245,13 +2521,25 @@
   array (
     0 => 'paperclip',
   ),
+  '1f17f-fe0f' => 
+  array (
+    0 => 'parking',
+  ),
   '1f17f' => 
   array (
     0 => 'parking',
   ),
+  '303d-fe0f' => 
+  array (
+    0 => 'part_alternation_mark',
+  ),
   '303d' => 
   array (
     0 => 'part_alternation_mark',
+  ),
+  '26c5-fe0f' => 
+  array (
+    0 => 'partly_sunny',
   ),
   '26c5' => 
   array (
@@ -2268,6 +2556,10 @@
   '1f350' => 
   array (
     0 => 'pear',
+  ),
+  '270f-fe0f' => 
+  array (
+    0 => 'pencil2',
   ),
   '270f' => 
   array (
@@ -2301,6 +2593,11 @@
   array (
     0 => 'person_with_pouting_face',
   ),
+  '260e-fe0f' => 
+  array (
+    0 => 'phone',
+    1 => 'telephone',
+  ),
   '260e' => 
   array (
     0 => 'phone',
@@ -2326,6 +2623,10 @@
   array (
     0 => 'pineapple',
   ),
+  '2653-fe0f' => 
+  array (
+    0 => 'pisces',
+  ),
   2653 => 
   array (
     0 => 'pisces',
@@ -2345,6 +2646,10 @@
   '1f449' => 
   array (
     0 => 'point_right',
+  ),
+  '261d-fe0f' => 
+  array (
+    0 => 'point_up',
   ),
   '261d' => 
   array (
@@ -2449,7 +2754,6 @@
   '1f683' => 
   array (
     0 => 'railway_car',
-    1 => 'train',
   ),
   '1f308' => 
   array (
@@ -2475,6 +2779,10 @@
   array (
     0 => 'rat',
   ),
+  '267b-fe0f' => 
+  array (
+    0 => 'recycle',
+  ),
   '267b' => 
   array (
     0 => 'recycle',
@@ -2486,6 +2794,10 @@
   '00ae' => 
   array (
     0 => 'registered',
+  ),
+  '263a-fe0f' => 
+  array (
+    0 => 'relaxed',
   ),
   '263a' => 
   array (
@@ -2588,6 +2900,10 @@
   array (
     0 => 'sa',
   ),
+  '2650-fe0f' => 
+  array (
+    0 => 'sagittarius',
+  ),
   2650 => 
   array (
     0 => 'sagittarius',
@@ -2620,9 +2936,17 @@
   array (
     0 => 'school_satchel',
   ),
+  '2702-fe0f' => 
+  array (
+    0 => 'scissors',
+  ),
   2702 => 
   array (
     0 => 'scissors',
+  ),
+  '264f-fe0f' => 
+  array (
+    0 => 'scorpius',
   ),
   '264f' => 
   array (
@@ -2644,6 +2968,10 @@
   array (
     0 => 'seat',
   ),
+  '3299-fe0f' => 
+  array (
+    0 => 'secret',
+  ),
   3299 => 
   array (
     0 => 'secret',
@@ -2656,7 +2984,11 @@
   array (
     0 => 'seedling',
   ),
-  '0037' => 
+  '0037-20e3' => 
+  array (
+    0 => 'seven',
+  ),
+  '0037-fe0f-20e3' => 
   array (
     0 => 'seven',
   ),
@@ -2689,7 +3021,11 @@
   array (
     0 => 'signal_strength',
   ),
-  '0036' => 
+  '0036-20e3' => 
+  array (
+    0 => 'six',
+  ),
+  '0036-fe0f-20e3' => 
   array (
     0 => 'six',
   ),
@@ -2777,9 +3113,17 @@
   array (
     0 => 'snowboarder',
   ),
+  '2744-fe0f' => 
+  array (
+    0 => 'snowflake',
+  ),
   2744 => 
   array (
     0 => 'snowflake',
+  ),
+  '26c4-fe0f' => 
+  array (
+    0 => 'snowman',
   ),
   '26c4' => 
   array (
@@ -2788,6 +3132,10 @@
   '1f62d' => 
   array (
     0 => 'sob',
+  ),
+  '26bd-fe0f' => 
+  array (
+    0 => 'soccer',
   ),
   '26bd' => 
   array (
@@ -2809,6 +3157,10 @@
   array (
     0 => 'space_invader',
   ),
+  '2660-fe0f' => 
+  array (
+    0 => 'spades',
+  ),
   2660 => 
   array (
     0 => 'spades',
@@ -2816,6 +3168,10 @@
   '1f35d' => 
   array (
     0 => 'spaghetti',
+  ),
+  '2747-fe0f' => 
+  array (
+    0 => 'sparkle',
   ),
   2747 => 
   array (
@@ -2837,7 +3193,7 @@
   array (
     0 => 'speak_no_evil',
   ),
-  '1f50a' => 
+  '1f508' => 
   array (
     0 => 'speaker',
   ),
@@ -2849,6 +3205,10 @@
   array (
     0 => 'speedboat',
   ),
+  '2b50-fe0f' => 
+  array (
+    0 => 'star',
+  ),
   '2b50' => 
   array (
     0 => 'star',
@@ -2857,7 +3217,7 @@
   array (
     0 => 'star2',
   ),
-  '1f303' => 
+  '1f320' => 
   array (
     0 => 'stars',
   ),
@@ -2908,6 +3268,10 @@
   '1f60e' => 
   array (
     0 => 'sunglasses',
+  ),
+  '2600-fe0f' => 
+  array (
+    0 => 'sunny',
   ),
   2600 => 
   array (
@@ -2973,6 +3337,10 @@
   array (
     0 => 'tangerine',
   ),
+  '2649-fe0f' => 
+  array (
+    0 => 'taurus',
+  ),
   2649 => 
   array (
     0 => 'taurus',
@@ -2997,6 +3365,10 @@
   array (
     0 => 'tennis',
   ),
+  '26fa-fe0f' => 
+  array (
+    0 => 'tent',
+  ),
   '26fa' => 
   array (
     0 => 'tent',
@@ -3005,7 +3377,11 @@
   array (
     0 => 'thought_balloon',
   ),
-  '0033' => 
+  '0033-20e3' => 
+  array (
+    0 => 'three',
+  ),
+  '0033-fe0f-20e3' => 
   array (
     0 => 'three',
   ),
@@ -3060,6 +3436,10 @@
   '1f6a5' => 
   array (
     0 => 'traffic_light',
+  ),
+  '1f68b' => 
+  array (
+    0 => 'train',
   ),
   '1f686' => 
   array (
@@ -3125,7 +3505,11 @@
   array (
     0 => 'twisted_rightwards_arrows',
   ),
-  '0032' => 
+  '0032-20e3' => 
+  array (
+    0 => 'two',
+  ),
+  '0032-fe0f-20e3' => 
   array (
     0 => 'two',
   ),
@@ -3153,6 +3537,10 @@
   array (
     0 => 'u55b6',
   ),
+  '1f22f-fe0f' => 
+  array (
+    0 => 'u6307',
+  ),
   '1f22f' => 
   array (
     0 => 'u6307',
@@ -3169,6 +3557,10 @@
   array (
     0 => 'u6e80',
   ),
+  '1f21a-fe0f' => 
+  array (
+    0 => 'u7121',
+  ),
   '1f21a' => 
   array (
     0 => 'u7121',
@@ -3184,6 +3576,10 @@
   '1f233' => 
   array (
     0 => 'u7a7a',
+  ),
+  '2614-fe0f' => 
+  array (
+    0 => 'umbrella',
   ),
   2614 => 
   array (
@@ -3208,6 +3604,10 @@
   '1f1fa-1f1f8' => 
   array (
     0 => 'us',
+  ),
+  '270c-fe0f' => 
+  array (
+    0 => 'v',
   ),
   '270c' => 
   array (
@@ -3237,6 +3637,10 @@
   array (
     0 => 'violin',
   ),
+  '264d-fe0f' => 
+  array (
+    0 => 'virgo',
+  ),
   '264d' => 
   array (
     0 => 'virgo',
@@ -3261,9 +3665,17 @@
   array (
     0 => 'waning_gibbous_moon',
   ),
+  '26a0-fe0f' => 
+  array (
+    0 => 'warning',
+  ),
   '26a0' => 
   array (
     0 => 'warning',
+  ),
+  '231a-fe0f' => 
+  array (
+    0 => 'watch',
   ),
   '231a' => 
   array (
@@ -3309,6 +3721,10 @@
   array (
     0 => 'whale2',
   ),
+  '267f-fe0f' => 
+  array (
+    0 => 'wheelchair',
+  ),
   '267f' => 
   array (
     0 => 'wheelchair',
@@ -3316,6 +3732,10 @@
   2705 => 
   array (
     0 => 'white_check_mark',
+  ),
+  '26aa-fe0f' => 
+  array (
+    0 => 'white_circle',
   ),
   '26aa' => 
   array (
@@ -3325,17 +3745,33 @@
   array (
     0 => 'white_flower',
   ),
+  '2b1c-fe0f' => 
+  array (
+    0 => 'white_large_square',
+  ),
   '2b1c' => 
   array (
     0 => 'white_large_square',
+  ),
+  '25fd-fe0f' => 
+  array (
+    0 => 'white_medium_small_square',
   ),
   '25fd' => 
   array (
     0 => 'white_medium_small_square',
   ),
+  '25fb-fe0f' => 
+  array (
+    0 => 'white_medium_square',
+  ),
   '25fb' => 
   array (
     0 => 'white_medium_square',
+  ),
+  '25ab-fe0f' => 
+  array (
+    0 => 'white_small_square',
   ),
   '25ab' => 
   array (
@@ -3401,11 +3837,19 @@
   array (
     0 => 'yum',
   ),
+  '26a1-fe0f' => 
+  array (
+    0 => 'zap',
+  ),
   '26a1' => 
   array (
     0 => 'zap',
   ),
-  '0030' => 
+  '0030-20e3' => 
+  array (
+    0 => 'zero',
+  ),
+  '0030-fe0f-20e3' => 
   array (
     0 => 'zero',
   ),

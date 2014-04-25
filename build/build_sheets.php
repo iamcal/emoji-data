@@ -3,7 +3,7 @@
 
 
 	# get sheet size
-	$ident_out = shell_exec("/usr/bin/identify -format \"%w|%h|%m\" {$dir}/sheet_64.png 2>&1");
+	$ident_out = shell_exec("identify -format \"%w|%h|%m\" {$dir}/sheet_64.png 2>&1");
 	$ident_lines = explode("\n", trim($ident_out));
 	if (!count($ident_lines)) die("cant ident master sheet");
 	list($w, $h, $format) = explode('|', $ident_lines[count($ident_lines)-1]);
