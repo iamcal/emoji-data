@@ -47,7 +47,7 @@
 	$ph = 64 * $num;
 	$dst = dirname(__FILE__).'/../sheet_64.png';
 
-	echo shell_exec("convert -size {$pw}x{$ph} null: -matte -compose Clear -composite -compose Over {$dst}");
+	echo shell_exec("convert -size {$pw}x{$ph} null: -matte -compose Clear {$dst}");
 
 	foreach ($map as $k => $v){
 
