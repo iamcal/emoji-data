@@ -29,15 +29,15 @@
 		echo "Compositing images ... ";
 		$dst = dirname(__FILE__)."/../sheet_{$type}_{$img_w}.png";
 
-		echo "convert -size {$pw}x{$ph} null: -matte -compose Clear -composite -compose Over {$dst}";
-exit;
-
-		echo shell_exec("convert -size {$pw}x{$ph} null: -matte -compose Clear -composite -compose Over {$dst}");
+		echo shell_exec("convert -size {$pw}x{$ph} xc:none {$dst}");
 
 		foreach ($position_data as $k => $pos){
 
 			$src = "{$img_path}{$k}.png";
-			if (!file_exists($src)) contrinue;
+			if (!file_exists($src)){
+				# placeholder
+				$src = "{$img_path}2753.png";
+			}
 
 			$px = $pos['x'] * $img_w;
 			$py = $pos['y'] * $img_w;
