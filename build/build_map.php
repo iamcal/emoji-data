@@ -81,7 +81,7 @@
 
 		if (!is_array($position)){
 			echo "No image for $img_key: {$row['char_name']['title']}\n";
-			continue;
+			return;
 		}
 
 		$uni = StrToUpper($img_key);
