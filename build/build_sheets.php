@@ -5,10 +5,14 @@
 	#build_sheet(64, null, 20);
 	#build_sheet(64, null, 16);
 
-	build_sheet(72, 'twitter', 64);
-	build_sheet(72, 'twitter', 32);
-	build_sheet(72, 'twitter', 20);
-	build_sheet(72, 'twitter', 16);
+	#build_sheet(72, 'twitter', 64);
+	#build_sheet(72, 'twitter', 32);
+	#build_sheet(72, 'twitter', 20);
+	#build_sheet(72, 'twitter', 16);
+
+	build_sheet(64, 'hangouts', 32);
+	build_sheet(64, 'hangouts', 20);
+	build_sheet(64, 'hangouts', 16);
 
 	function build_sheet($src_size, $type, $size){
 
