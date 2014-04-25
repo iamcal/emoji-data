@@ -1,18 +1,17 @@
 <?php
 	# find all input images
-	$gemoji_path = dirname(__FILE__).'/../gemoji/images/emoji/unicode';
-	$files = glob("$gemoji_path/*");
+	include('catalog_names.php');
 
+
+	$gemoji_path = dirname(__FILE__).'/../gemoji/images/emoji/unicode';
 
 	echo "Mapping images     ... ";
 
-	$map= array();
+	$map = array();
 
-	foreach ($files as $file){
-		if (!preg_match('!\.png$!', $file)) continue;
-		$last = basename($file);
-		$base = pathinfo($last, PATHINFO_FILENAME);
-		$map[$base] = array();
+	foreach ($catalog_names as $file => $names){
+		if ($file == '_') continue;
+		$map[$file] = array();
 	}
 
 	$y = 0;
