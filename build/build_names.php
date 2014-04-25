@@ -6,7 +6,13 @@
 
 	echo "Calculating checksums ... ";
 	$map = array();
-	foreach ($files2 as $f) $map[md5_file($f)] = $f;
+	foreach ($files2 as $f) {
+		$sum = md5_file($f);
+		if (!isset($map[$sum])) {
+			$map[$sum] = array();
+		}
+		$map[$sum][] = $f;
+	} 
 	echo "DONE\n";
 
 	echo "Matching up ............. ";
@@ -17,10 +23,11 @@
 		$n_text =  pathinfo($f, PATHINFO_FILENAME);
 
 		if ($map[$sum]){
-			$n_code = pathinfo($map[$sum], PATHINFO_FILENAME);
-
-			#echo "$n_text -> $n_code\n";
-			$out[$n_code][] = $n_text;
+			foreach ($map[$sum] as $map_file) {
+				$n_code = pathinfo($map_file, PATHINFO_FILENAME);
+				#echo "$n_text -> $n_code\n";
+				$out[$n_code][] = $n_text;
+			}
 		}else{
 			#echo "$n_text -> ???????????????????????????\n";
 			$out['_'][] = $n_text;
