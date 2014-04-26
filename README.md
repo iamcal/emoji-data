@@ -16,6 +16,7 @@ look like this:
 		{
 			"name": "BLACK SUN WITH RAYS",
 			"unified": "2600",
+			"variations": [ "2600-FE0F" ],
 			"docomo": "E63E",
 			"au": "E488",
 			"softbank": "E04A",
@@ -24,6 +25,7 @@ look like this:
 			"sheet_x": 25,
 			"sheet_y": 6,
 			"short_name": "sunny",
+			"short_names": [ "sunny" ],
 			"text": null,
 		},
 		...
@@ -33,10 +35,11 @@ An explanation of the various fields is in order:
 
 * `name` - The offical Unicode name, in SHOUTY UPPERCASE
 * `unified` - The Unicode codepoint, as 4-5 hex digits. Where an emoji
-   needs 2 codepoints, they are specified like `1F1EA-1F1F8`.
-* `docomo`, `au`, `softbank`, `google` - The Unicdoe codepoints used
+   needs 2 or more codepoints, they are specified like `1F1EA-1F1F8`.
+* `variations` - An array of commonly used codepoint variations.
+* `docomo`, `au`, `softbank`, `google` - The Unicode codepoints used
    by various mobile vendors.
-* `images` - The name of the image file in `gemoji/images/emoji/unicode/`
+* `image` - The name of the image file in `gemoji/images/emoji/unicode/`
 * `sheet_x` & `sheet_y` - The position of the image in the spritesheets.
 * `short_name` - The commonly-agreed upon short name for the image, as
    supported in campfire, github etc via the :colon-syntax:
