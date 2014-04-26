@@ -27,8 +27,8 @@
 		if (!count($ident_lines)) die("cant ident master sheet");
 		list($w, $h, $format) = explode('|', $ident_lines[count($ident_lines)-1]);
 
-		$iw = $w / 64;
-		$ih = $h / 64;
+		$iw = $w / $src_size;
+		$ih = $h / $src_size;
 
 		$pw = $iw * $size;
 		$ph = $ih * $size;
