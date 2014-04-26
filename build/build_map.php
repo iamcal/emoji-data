@@ -1,6 +1,5 @@
 <?php
 	include('catalog.php');
-	include('catalog_positions.php');
 	include('catalog_names.php');
 	include('catalog_vars.php');
 
@@ -22,19 +21,12 @@
 
 		$img_key = StrToLower(encode_points($row['unicode']));
 
-		$position = $position_data[$img_key];
-
 		$shorts = $catalog_names[$img_key];
 		if (is_array($shorts)){
 			$short = $shorts[0];
 		}else{
 			$shorts = array();
 			$short = null;
-		}
-
-		if (!is_array($position)){
-			echo "No image for $img_key: {$row['char_name']['title']}\n";
-			continue;
 		}
 
 		$vars = $catalog_vars[$img_key];
@@ -50,8 +42,8 @@
 			'softbank'	=> encode_points($row['softbank']['unicode']),
 			'google'	=> encode_points($row['google'  ]['unicode']),
 			'image'		=> $img_key.'.png',
-			'sheet_x'	=> $position['x'],
-			'sheet_y'	=> $position['y'],
+			'sheet_x'	=> 0,
+			'sheet_y'	=> 0,
 			'short_name'	=> $short,
 			'short_names'	=> $shorts,
 			'text'		=> $text[$short],
@@ -80,14 +72,7 @@
 
 	function build_character_data($img_key, $short_names){
 
-		global $text, $position_data;
-
-		$position = $position_data[$img_key];
-
-		if (!is_array($position)){
-			echo "No image for $img_key: {$row['char_name']['title']}\n";
-			return;
-		}
+		global $text;
 
 		$uni = StrToUpper($img_key);
 
@@ -102,8 +87,8 @@
 			'softbank'	=> '',
 			'google'	=> '',
 			'image'		=> $img_key.'.png',
-			'sheet_x'	=> $position['x'],
-			'sheet_y'	=> $position['y'],
+			'sheet_x'	=> 0,
+			'sheet_y'	=> 0,
 			'short_name'	=> $short_names[0],
 			'short_names'	=> $short_names,
 			'text'		=> $text[$short],		
@@ -131,6 +116,24 @@
 		return strcmp($a['sort'], $b['sort']);
 	}
 
+
+	#
+	# assign positions
+	#
+
+	$y = 0;
+	$x = 0;
+	$num = ceil(sqrt(count($out)));
+
+	foreach ($out as $k => $v){
+		$out[$k]['sheet_x'] = $x;
+		$out[$k]['sheet_y'] = $y;
+		$y++;
+		if ($y == $num){
+			$x++;
+			$y = 0;
+		}
+	}
 
 
 	#
