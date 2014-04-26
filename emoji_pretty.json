@@ -3085,6 +3085,9 @@
     {
         "name": "EARTH GLOBE EUROPE-AFRICA",
         "unified": "1F30D",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -3101,6 +3104,9 @@
     {
         "name": "EARTH GLOBE AMERICAS",
         "unified": "1F30E",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -3136,6 +3142,9 @@
     {
         "name": "GLOBE WITH MERIDIANS",
         "unified": "1F310",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -3171,6 +3180,9 @@
     {
         "name": "WAXING CRESCENT MOON SYMBOL",
         "unified": "1F312",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -3245,6 +3257,9 @@
     {
         "name": "WANING GIBBOUS MOON SYMBOL",
         "unified": "1F316",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -3261,6 +3276,9 @@
     {
         "name": "LAST QUARTER MOON SYMBOL",
         "unified": "1F317",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -3277,6 +3295,9 @@
     {
         "name": "WANING CRESCENT MOON SYMBOL",
         "unified": "1F318",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -3312,6 +3333,9 @@
     {
         "name": "NEW MOON WITH FACE",
         "unified": "1F31A",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -3347,6 +3371,9 @@
     {
         "name": "LAST QUARTER MOON WITH FACE",
         "unified": "1F31C",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -3363,6 +3390,9 @@
     {
         "name": "FULL MOON WITH FACE",
         "unified": "1F31D",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -3379,6 +3409,9 @@
     {
         "name": "SUN WITH FACE",
         "unified": "1F31E",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -3471,6 +3504,9 @@
     {
         "name": "EVERGREEN TREE",
         "unified": "1F332",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -3487,6 +3523,9 @@
     {
         "name": "DECIDUOUS TREE",
         "unified": "1F333",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -3921,6 +3960,9 @@
     {
         "name": "LEMON",
         "unified": "1F34B",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -4013,6 +4055,9 @@
     {
         "name": "PEAR",
         "unified": "1F350",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -4846,6 +4891,9 @@
     {
         "name": "BABY BOTTLE",
         "unified": "1F37C",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -5965,6 +6013,9 @@
     {
         "name": "HORSE RACING",
         "unified": "1F3C7",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -6000,6 +6051,9 @@
     {
         "name": "RUGBY FOOTBALL",
         "unified": "1F3C9",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -6111,6 +6165,9 @@
     {
         "name": "EUROPEAN POST OFFICE",
         "unified": "1F3E4",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -6356,6 +6413,9 @@
     {
         "name": "RAT",
         "unified": "1F400",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -6372,6 +6432,9 @@
     {
         "name": "MOUSE",
         "unified": "1F401",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -6388,6 +6451,9 @@
     {
         "name": "OX",
         "unified": "1F402",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -6404,6 +6470,9 @@
     {
         "name": "WATER BUFFALO",
         "unified": "1F403",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -6420,6 +6489,9 @@
     {
         "name": "COW",
         "unified": "1F404",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -6436,6 +6508,9 @@
     {
         "name": "TIGER",
         "unified": "1F405",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -6452,6 +6527,9 @@
     {
         "name": "LEOPARD",
         "unified": "1F406",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -6468,6 +6546,9 @@
     {
         "name": "RABBIT",
         "unified": "1F407",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -6484,6 +6565,9 @@
     {
         "name": "CAT",
         "unified": "1F408",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -6500,6 +6584,9 @@
     {
         "name": "DRAGON",
         "unified": "1F409",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -6516,6 +6603,9 @@
     {
         "name": "CROCODILE",
         "unified": "1F40A",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -6532,6 +6622,9 @@
     {
         "name": "WHALE",
         "unified": "1F40B",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -6605,6 +6698,9 @@
     {
         "name": "RAM",
         "unified": "1F40F",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -6621,6 +6717,9 @@
     {
         "name": "GOAT",
         "unified": "1F410",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -6675,6 +6774,9 @@
     {
         "name": "ROOSTER",
         "unified": "1F413",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -6710,6 +6812,9 @@
     {
         "name": "DOG",
         "unified": "1F415",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -6726,6 +6831,9 @@
     {
         "name": "PIG",
         "unified": "1F416",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -7104,6 +7212,9 @@
     {
         "name": "DROMEDARY CAMEL",
         "unified": "1F42A",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -8191,6 +8302,9 @@
     {
         "name": "BUSTS IN SILHOUETTE",
         "unified": "1F465",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -8321,6 +8435,9 @@
     {
         "name": "TWO MEN HOLDING HANDS",
         "unified": "1F46C",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -8337,6 +8454,9 @@
     {
         "name": "TWO WOMEN HOLDING HANDS",
         "unified": "1F46D",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -9553,6 +9673,9 @@
     {
         "name": "THOUGHT BALLOON",
         "unified": "1F4AD",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -9721,6 +9844,9 @@
     {
         "name": "BANKNOTE WITH EURO SIGN",
         "unified": "1F4B6",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -9737,6 +9863,9 @@
     {
         "name": "BANKNOTE WITH POUND SIGN",
         "unified": "1F4B7",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -10743,6 +10872,9 @@
     {
         "name": "OPEN MAILBOX WITH RAISED FLAG",
         "unified": "1F4EC",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -10759,6 +10891,9 @@
     {
         "name": "OPEN MAILBOX WITH LOWERED FLAG",
         "unified": "1F4ED",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -10794,6 +10929,9 @@
     {
         "name": "POSTAL HORN",
         "unified": "1F4EF",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -10905,6 +11043,9 @@
     {
         "name": "NO MOBILE PHONES",
         "unified": "1F4F5",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -11035,6 +11176,9 @@
     {
         "name": "TWISTED RIGHTWARDS ARROWS",
         "unified": "1F500",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -11051,6 +11195,9 @@
     {
         "name": "CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS",
         "unified": "1F501",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -11067,6 +11214,9 @@
     {
         "name": "CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS WITH CIRCLED ONE OVERLAY",
         "unified": "1F502",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -11102,6 +11252,9 @@
     {
         "name": "ANTICLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS",
         "unified": "1F504",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -11118,6 +11271,9 @@
     {
         "name": "LOW BRIGHTNESS SYMBOL",
         "unified": "1F505",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -11134,6 +11290,9 @@
     {
         "name": "HIGH BRIGHTNESS SYMBOL",
         "unified": "1F506",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -11150,6 +11309,9 @@
     {
         "name": "SPEAKER WITH CANCELLATION STROKE",
         "unified": "1F507",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -11166,6 +11328,9 @@
     {
         "name": "SPEAKER",
         "unified": "1F508",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -11182,6 +11347,9 @@
     {
         "name": "SPEAKER WITH ONE SOUND WAVE",
         "unified": "1F509",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -11407,6 +11575,9 @@
     {
         "name": "BELL WITH CANCELLATION STROKE",
         "unified": "1F515",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -11842,6 +12013,9 @@
     {
         "name": "MICROSCOPE",
         "unified": "1F52C",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -11858,6 +12032,9 @@
     {
         "name": "TELESCOPE",
         "unified": "1F52D",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -12406,6 +12583,9 @@
     {
         "name": "CLOCK FACE ONE-THIRTY",
         "unified": "1F55C",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -12422,6 +12602,9 @@
     {
         "name": "CLOCK FACE TWO-THIRTY",
         "unified": "1F55D",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -12438,6 +12621,9 @@
     {
         "name": "CLOCK FACE THREE-THIRTY",
         "unified": "1F55E",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -12454,6 +12640,9 @@
     {
         "name": "CLOCK FACE FOUR-THIRTY",
         "unified": "1F55F",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -12470,6 +12659,9 @@
     {
         "name": "CLOCK FACE FIVE-THIRTY",
         "unified": "1F560",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -12486,6 +12678,9 @@
     {
         "name": "CLOCK FACE SIX-THIRTY",
         "unified": "1F561",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -12502,6 +12697,9 @@
     {
         "name": "CLOCK FACE SEVEN-THIRTY",
         "unified": "1F562",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -12518,6 +12716,9 @@
     {
         "name": "CLOCK FACE EIGHT-THIRTY",
         "unified": "1F563",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -12534,6 +12735,9 @@
     {
         "name": "CLOCK FACE NINE-THIRTY",
         "unified": "1F564",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -12550,6 +12754,9 @@
     {
         "name": "CLOCK FACE TEN-THIRTY",
         "unified": "1F565",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -12566,6 +12773,9 @@
     {
         "name": "CLOCK FACE ELEVEN-THIRTY",
         "unified": "1F566",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -12582,6 +12792,9 @@
     {
         "name": "CLOCK FACE TWELVE-THIRTY",
         "unified": "1F567",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -12693,6 +12906,9 @@
     {
         "name": "GRINNING FACE",
         "unified": "1F600",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -12824,6 +13040,9 @@
     {
         "name": "SMILING FACE WITH HALO",
         "unified": "1F607",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -12840,6 +13059,9 @@
     {
         "name": "SMILING FACE WITH HORNS",
         "unified": "1F608",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -12951,6 +13173,9 @@
     {
         "name": "SMILING FACE WITH SUNGLASSES",
         "unified": "1F60E",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -12986,6 +13211,9 @@
     {
         "name": "NEUTRAL FACE",
         "unified": "1F610",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -13002,6 +13230,9 @@
     {
         "name": "EXPRESSIONLESS FACE",
         "unified": "1F611",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -13075,6 +13306,9 @@
     {
         "name": "CONFUSED FACE",
         "unified": "1F615",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -13110,6 +13344,9 @@
     {
         "name": "KISSING FACE",
         "unified": "1F617",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -13145,6 +13382,9 @@
     {
         "name": "KISSING FACE WITH SMILING EYES",
         "unified": "1F619",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -13180,6 +13420,9 @@
     {
         "name": "FACE WITH STUCK-OUT TONGUE",
         "unified": "1F61B",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -13253,6 +13496,9 @@
     {
         "name": "WORRIED FACE",
         "unified": "1F61F",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -13383,6 +13629,9 @@
     {
         "name": "FROWNING FACE WITH OPEN MOUTH",
         "unified": "1F626",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -13399,6 +13648,9 @@
     {
         "name": "ANGUISHED FACE",
         "unified": "1F627",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -13491,6 +13743,9 @@
     {
         "name": "GRIMACING FACE",
         "unified": "1F62C",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -13526,6 +13781,9 @@
     {
         "name": "FACE WITH OPEN MOUTH",
         "unified": "1F62E",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -13542,6 +13800,9 @@
     {
         "name": "HUSHED FACE",
         "unified": "1F62F",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -13634,6 +13895,9 @@
     {
         "name": "SLEEPING FACE",
         "unified": "1F634",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -13669,6 +13933,9 @@
     {
         "name": "FACE WITHOUT MOUTH",
         "unified": "1F636",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -14103,6 +14370,9 @@
     {
         "name": "HELICOPTER",
         "unified": "1F681",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -14119,6 +14389,9 @@
     {
         "name": "STEAM LOCOMOTIVE",
         "unified": "1F682",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -14192,6 +14465,9 @@
     {
         "name": "TRAIN",
         "unified": "1F686",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -14227,6 +14503,9 @@
     {
         "name": "LIGHT RAIL",
         "unified": "1F688",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -14262,6 +14541,9 @@
     {
         "name": "TRAM",
         "unified": "1F68A",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -14278,6 +14560,9 @@
     {
         "name": "TRAM CAR",
         "unified": "1F68B",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -14313,6 +14598,9 @@
     {
         "name": "ONCOMING BUS",
         "unified": "1F68D",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -14329,6 +14617,9 @@
     {
         "name": "TROLLEYBUS",
         "unified": "1F68E",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -14364,6 +14655,9 @@
     {
         "name": "MINIBUS",
         "unified": "1F690",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -14437,6 +14731,9 @@
     {
         "name": "ONCOMING POLICE CAR",
         "unified": "1F694",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -14472,6 +14769,9 @@
     {
         "name": "ONCOMING TAXI",
         "unified": "1F696",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -14508,6 +14808,9 @@
     {
         "name": "ONCOMING AUTOMOBILE",
         "unified": "1F698",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -14562,6 +14865,9 @@
     {
         "name": "ARTICULATED LORRY",
         "unified": "1F69B",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -14578,6 +14884,9 @@
     {
         "name": "TRACTOR",
         "unified": "1F69C",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -14594,6 +14903,9 @@
     {
         "name": "MONORAIL",
         "unified": "1F69D",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -14610,6 +14922,9 @@
     {
         "name": "MOUNTAIN RAILWAY",
         "unified": "1F69E",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -14626,6 +14941,9 @@
     {
         "name": "SUSPENSION RAILWAY",
         "unified": "1F69F",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -14642,6 +14960,9 @@
     {
         "name": "MOUNTAIN CABLEWAY",
         "unified": "1F6A0",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -14658,6 +14979,9 @@
     {
         "name": "AERIAL TRAMWAY",
         "unified": "1F6A1",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -14693,6 +15017,9 @@
     {
         "name": "ROWBOAT",
         "unified": "1F6A3",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -14747,6 +15074,9 @@
     {
         "name": "VERTICAL TRAFFIC LIGHT",
         "unified": "1F6A6",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -14896,6 +15226,9 @@
     {
         "name": "PUT LITTER IN ITS PLACE SYMBOL",
         "unified": "1F6AE",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -14912,6 +15245,9 @@
     {
         "name": "DO NOT LITTER SYMBOL",
         "unified": "1F6AF",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -14928,6 +15264,9 @@
     {
         "name": "POTABLE WATER SYMBOL",
         "unified": "1F6B0",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -14944,6 +15283,9 @@
     {
         "name": "NON-POTABLE WATER SYMBOL",
         "unified": "1F6B1",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -14979,6 +15321,9 @@
     {
         "name": "NO BICYCLES",
         "unified": "1F6B3",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -14995,6 +15340,9 @@
     {
         "name": "BICYCLIST",
         "unified": "1F6B4",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -15011,6 +15359,9 @@
     {
         "name": "MOUNTAIN BICYCLIST",
         "unified": "1F6B5",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -15046,6 +15397,9 @@
     {
         "name": "NO PEDESTRIANS",
         "unified": "1F6B7",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -15062,6 +15416,9 @@
     {
         "name": "CHILDREN CROSSING",
         "unified": "1F6B8",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -15192,6 +15549,9 @@
     {
         "name": "SHOWER",
         "unified": "1F6BF",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -15227,6 +15587,9 @@
     {
         "name": "BATHTUB",
         "unified": "1F6C1",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -15243,6 +15606,9 @@
     {
         "name": "PASSPORT CONTROL",
         "unified": "1F6C2",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -15259,6 +15625,9 @@
     {
         "name": "CUSTOMS",
         "unified": "1F6C3",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -15275,6 +15644,9 @@
     {
         "name": "BAGGAGE CLAIM",
         "unified": "1F6C4",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",
@@ -15291,6 +15663,9 @@
     {
         "name": "LEFT LUGGAGE",
         "unified": "1F6C5",
+        "variations": [
+
+        ],
         "docomo": "",
         "au": "",
         "softbank": "",

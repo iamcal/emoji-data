@@ -79,9 +79,14 @@
 		$line = shell_exec("grep -e ^{$uni}\\; UnicodeData.txt");
 		list($junk, $name) = explode(';', $line);
 
+		$vars = $catalog_vars[$img_key];
+		if (!is_array($vars)) $vars = array();
+		foreach ($vars as $k => $v) $vars[$k] = StrToUpper($v);
+
 		$row = array(
 			'name'		=> $name,
 			'unified'	=> $uni,
+			'variations'	=> $vars,
 			'docomo'	=> '',
 			'au'		=> '',
 			'softbank'	=> '',
