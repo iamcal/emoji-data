@@ -3,7 +3,7 @@
 	include('catalog_positions.php');
 
 
-	#create_alt_sheet(72, 'twitter');
+	create_alt_sheet(72, 'twitter');
 	create_alt_sheet(64, 'hangouts');
 
 

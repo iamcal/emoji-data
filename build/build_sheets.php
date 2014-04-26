@@ -1,14 +1,14 @@
 <?php
 	$dir = dirname(__FILE__).'/..';
 
-	#build_sheet(64, null, 32);
-	#build_sheet(64, null, 20);
-	#build_sheet(64, null, 16);
+	build_sheet(64, null, 32);
+	build_sheet(64, null, 20);
+	build_sheet(64, null, 16);
 
-	#build_sheet(72, 'twitter', 64);
-	#build_sheet(72, 'twitter', 32);
-	#build_sheet(72, 'twitter', 20);
-	#build_sheet(72, 'twitter', 16);
+	build_sheet(72, 'twitter', 64);
+	build_sheet(72, 'twitter', 32);
+	build_sheet(72, 'twitter', 20);
+	build_sheet(72, 'twitter', 16);
 
 	build_sheet(64, 'hangouts', 32);
 	build_sheet(64, 'hangouts', 20);
