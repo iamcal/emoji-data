@@ -87,10 +87,10 @@
 			'name'		=> $name,
 			'unified'	=> $uni,
 			'variations'	=> $vars,
-			'docomo'	=> '',
-			'au'		=> '',
-			'softbank'	=> '',
-			'google'	=> '',
+			'docomo'	=> null,
+			'au'		=> null,
+			'softbank'	=> null,
+			'google'	=> null,
 			'image'		=> $img_key.'.png',
 			'sheet_x'	=> 0,
 			'sheet_y'	=> 0,
@@ -161,5 +161,6 @@
 				$bits[] = sprintf('%04X', $p);
 			}
 		}
+		if (!count($bits)) return null;
 		return implode('-', $bits);
 	}
