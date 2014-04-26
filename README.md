@@ -74,5 +74,4 @@ You can rebuild by following these steps:
 	# Rebuild positions and make the master spritesheets
 	# (This step requires ImageMagick or GraphicsMagick)
 	php build_image.php # this is slow!
-	php build_alts.php # also slow
 	php build_sheets.php
