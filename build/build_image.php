@@ -1,64 +1,74 @@
 <?php
-	# find all input images
+	$dir = dirname(__FILE__);
+
+	#
+	# load master catalog
+	#
+
 	$in = file_get_contents('../emoji.json');
 	$catalog = json_decode($in, true);
 
-	$gemoji_path = dirname(__FILE__).'/../gemoji/images/emoji/unicode';
 
-	echo "Mapping images     ... ";
+	#
+	# figure out image extent
+	#
 
-	$map = array();
+	$max_x = 0;
+	$max_y = 0;
 
 	foreach ($catalog as $row){
-		list($file) = explode('.', $row['image']);
-		$map[$file] = array();
+
+		$max_x = max($max_x, $row['sheet_x']);
+		$max_y = max($max_x, $row['sheet_y']);
 	}
 
-	$y = 0;
-	$x = 0;
-	$num = ceil(sqrt(count($map)));
 
-	foreach ($map as $k => $v){
-		$map[$k]['x'] = $x;
-		$map[$k]['y'] = $y;
-		$y++;
-		if ($y == $num){
-			$x++;
-			$y = 0;
+	#
+	# bake sheets
+	#
+
+	create_sheet(64, null,		$dir.'/../gemoji/images/emoji/unicode/');
+	create_sheet(72, 'twitter',	$dir.'/../img-twitter-72/');
+	create_sheet(64, 'hangouts',	$dir.'/../img-hangouts-64/');
+
+
+
+	function create_sheet($img_w, $type, $img_path){
+
+		global $catalog, $max_x, $max_y;
+
+		$pw = ($max_x+1) * $img_w;
+		$ph = ($max_y+1) * $img_w;
+
+
+		echo "Compositing images ... ";
+
+		if ($type){
+			$dst = dirname(__FILE__)."/../sheet_{$type}_{$img_w}.png";
+		}else{
+			$dst = dirname(__FILE__)."/../sheet_{$img_w}.png";
 		}
+
+		echo shell_exec("convert -size {$pw}x{$ph} xc:none {$dst}");
+
+		foreach ($catalog as $row){
+
+			$src = "{$img_path}{$row['image']}";
+			if (!file_exists($src)){
+				# placeholder
+				$src = "{$img_path}2753.png";
+			}
+
+			$px = $row['sheet_x'] * $img_w;
+			$py = $row['sheet_y'] * $img_w;
+
+			echo shell_exec("composite -geometry +{$px}+{$py} {$src} {$dst} {$dst}");
+			echo '.';
+		}
+
+		echo " DONE\n";
+
+		echo "Optimizing sheet   ... ";
+		echo shell_exec("convert {$dst} png32:{$dst}");
+		echo "DONE\n";
 	}
-
-	echo "DONE\n";
-
-
-	echo "Writing image map  ... ";
-	$fh = fopen('catalog_positions.php', 'w');
-	fwrite($fh, '<'.'?php $position_data = ');
-	fwrite($fh, var_export($map, true));
-	fwrite($fh, ";\n");
-	fclose($fh);
-	echo "DONE\n";
-	#exit;
-
-
-	echo "Compositing images ... ";
-	$pw = 64 * $num;
-	$ph = 64 * $num;
-	$dst = dirname(__FILE__).'/../sheet_64.png';
-
-	echo shell_exec("convert -size {$pw}x{$ph} null: -matte -compose Clear {$dst}");
-
-	foreach ($map as $k => $v){
-
-		$src = "{$gemoji_path}/{$k}.png";
-		$px = $v['x']*64;;
-		$py = $v['y']*64;
-
-		echo shell_exec("composite -geometry +{$px}+{$py} {$src} {$dst} {$dst}");
-		echo '.';
-	}
-	echo " DONE\n";
-
-	echo "Optimizing sheet   ... ";
-	echo shell_exec("convert {$dst} png32:{$dst}");
-	echo "DONE\n";
