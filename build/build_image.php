@@ -13,13 +13,12 @@
 	# figure out image extent
 	#
 
-	$max_x = 0;
-	$max_y = 0;
+	$max = 0;
 
 	foreach ($catalog as $row){
 
-		$max_x = max($max_x, $row['sheet_x']);
-		$max_y = max($max_x, $row['sheet_y']);
+		$max = max($max, $row['sheet_x']);
+		$max = max($max, $row['sheet_y']);
 	}
 
 
@@ -35,10 +34,10 @@
 
 	function create_sheet($img_w, $type, $img_path){
 
-		global $catalog, $max_x, $max_y;
+		global $catalog, $max;
 
-		$pw = ($max_x+1) * $img_w;
-		$ph = ($max_y+1) * $img_w;
+		$pw = ($max+1) * $img_w;
+		$ph = ($max+1) * $img_w;
 
 
 		echo "Compositing images ... ";
