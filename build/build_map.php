@@ -1,4 +1,6 @@
 <?php
+	$dir = dirname(__FILE__);
+
 	include('catalog.php');
 	include('catalog_names.php');
 	include('catalog_vars.php');
@@ -93,6 +95,9 @@
 			'short_name'	=> $short,
 			'short_names'	=> $shorts,
 			'text'		=> $GLOBALS['text'][$short],
+			'apple_img'	=> file_exists("{$GLOBALS['dir']}/../gemoji/images/emoji/unicode/{$img_key}.png"),
+			'hangouts_img'	=> file_exists("{$GLOBALS['dir']}/../img-hangouts-64/{$img_key}.png"),
+			'twitter_img'	=> file_exists("{$GLOBALS['dir']}/../img-twitter-72/{$img_key}.png"),
 		);
 
 		foreach ($props as $k => $v) $ret[$k] = $v;
