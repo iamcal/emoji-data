@@ -22,32 +22,15 @@
 		$img_key = StrToLower(encode_points($row['unicode']));
 
 		$shorts = $catalog_names[$img_key];
-		if (is_array($shorts)){
-			$short = $shorts[0];
-		}else{
-			$shorts = array();
-			$short = null;
-		}
 
-		$vars = $catalog_vars[$img_key];
-		if (!is_array($vars)) $vars = array();
-		foreach ($vars as $k => $v) $vars[$k] = StrToUpper($v);
-
-		$out[] = array(
+		$out[] = simple_row($img_key, $shorts, array(
 			'name'		=> $row['char_name']['title'],
 			'unified'	=> encode_points($row['unicode']),
-			'variations'	=> $vars,
 			'docomo'	=> encode_points($row['docomo'  ]['unicode']),
 			'au'		=> encode_points($row['au'      ]['unicode']),
 			'softbank'	=> encode_points($row['softbank']['unicode']),
 			'google'	=> encode_points($row['google'  ]['unicode']),
-			'image'		=> $img_key.'.png',
-			'sheet_x'	=> 0,
-			'sheet_y'	=> 0,
-			'short_name'	=> $short,
-			'short_names'	=> $shorts,
-			'text'		=> $text[$short],
-		);
+		));
 
 		$out_unis[$img_key] = 1;
 	}
@@ -79,13 +62,26 @@
 		$line = shell_exec("grep -e ^{$uni}\\; UnicodeData.txt");
 		list($junk, $name) = explode(';', $line);
 
-		$vars = $catalog_vars[$img_key];
-		if (!is_array($vars)) $vars = array();
-		foreach ($vars as $k => $v) $vars[$k] = StrToUpper($v);
 
-		$row = array(
+		return simple_row($img_key, $short_names, array(
 			'name'		=> $name,
 			'unified'	=> $uni,
+		));
+	}
+
+
+	function simple_row($img_key, $shorts, $props){
+
+		$vars = $GLOBALS['catalog_vars'][$img_key];
+		if (!is_array($vars)) $vars = array();
+		foreach ($vars as $k => $v) $vars[$k] = StrToUpper($v);	
+
+		if (!is_array($shorts)) $shorts = array();
+		$short = count($shorts) ? $shorts[0] : null;
+
+		$ret = array(
+			'name'		=> null,
+			'unified'	=> null,
 			'variations'	=> $vars,
 			'docomo'	=> null,
 			'au'		=> null,
@@ -94,12 +90,14 @@
 			'image'		=> $img_key.'.png',
 			'sheet_x'	=> 0,
 			'sheet_y'	=> 0,
-			'short_name'	=> $short_names[0],
-			'short_names'	=> $short_names,
-			'text'		=> $text[$short],		
+			'short_name'	=> $short,
+			'short_names'	=> $shorts,
+			'text'		=> $GLOBALS['text'][$short],
 		);
 
-		return $row;
+		foreach ($props as $k => $v) $ret[$k] = $v;
+
+		return $ret;
 	}
 
 
