@@ -6,7 +6,7 @@
 	include('catalog_vars.php');
 
 	# load text mappings
-	$lines = file('catalog_text.txt');
+	$lines = file('catalog_text_toascii.txt');
 	$text = array();
 	foreach ($lines as $line){
 		$line = trim($line);
