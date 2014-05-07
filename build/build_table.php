@@ -89,7 +89,7 @@ table tbody td {
 
 		echo "\t<tr>\n";
 		echo "\t\t<td><img src=\"gemoji/images/emoji/unicode/{$gemoji_img}\" width=\"20\" height=\"20\" /></td>\n";
-		echo "\t\t<td><img src=\"img-hangouts-20/{$row['image']}\" width=\"20\" height=\"20\" /></td>\n";
+		echo "\t\t<td><img src=\"img-hangouts-64/{$row['image']}\" width=\"20\" height=\"20\" /></td>\n";
 		echo "\t\t<td><img src=\"img-twitter-72/{$row['image']}\" width=\"20\" height=\"20\" /></td>\n";
 		echo "\t\t<td>".HtmlSpecialChars(StrToLower($row['name']))."</td>\n";
 
