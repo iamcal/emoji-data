@@ -1,3 +1,6 @@
 [submodule "gemoji"]
 	path = gemoji
 	url = git://github.com/github/gemoji.git
+[submodule "emojione"]
+	path = emojione
+	url = git@github.com:Ranks/emojione.git
