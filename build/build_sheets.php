@@ -14,6 +14,10 @@
 	build_sheet(64, 'hangouts', 20);
 	build_sheet(64, 'hangouts', 16);
 
+	build_sheet(64, 'emojione', 32);
+	build_sheet(64, 'emojione', 20);
+	build_sheet(64, 'emojione', 16);
+
 	function build_sheet($src_size, $type, $size){
 
 		global $dir;
