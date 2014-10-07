@@ -6,6 +6,11 @@ You can see a catalog of the emoji data here: http://unicodey.com/emoji-data/tab
 The original images come from <a href="https://github.com/github/gemoji">gemoji</a>
 and you can use the individual images directly with the data too.
 
+* Apple Emoji: Copyright &copy; Apple Inc.
+* Android Emoji: Copyright &copy; [The Android Open Source Project](https://s3-eu-west-1.amazonaws.com/tw-font/android/NOTICE)
+* Twitter Emoji Copyright &copy; Twitter, Inc.
+* Emoji One Emoji: Copyright &copy; [Ranks.com Inc.](http://www.emojione.com/developers)
+
 
 ## Using the data
 
