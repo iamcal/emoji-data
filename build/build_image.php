@@ -29,6 +29,7 @@
 	create_sheet(64, null,		$dir.'/../gemoji/images/emoji/unicode/');
 	create_sheet(72, 'twitter',	$dir.'/../img-twitter-72/');
 	create_sheet(64, 'hangouts',	$dir.'/../img-hangouts-64/');
+	create_sheet(64, 'emojione',	$dir.'/../emojione/assets/png/');
 
 
 
@@ -53,6 +54,13 @@
 		foreach ($catalog as $row){
 
 			$src = "{$img_path}{$row['image']}";
+
+			if (!file_exists($src)){
+				list($a, $b) = explode('.', $row['image']);
+				$upper_name = StrToUpper($a).'.'.$b;
+				$src = "{$img_path}{$upper_name}";
+			}
+
 			if (!file_exists($src)){
 				# placeholder
 				$src = "{$img_path}2753.png";
