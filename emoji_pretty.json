@@ -17216,8 +17216,9 @@
         "image": "1f1e8-1f1f3.png",
         "sheet_x": 28,
         "sheet_y": 8,
-        "short_name": "cn",
+        "short_name": "cn-flag",
         "short_names": [
+            "cn-flag",
             "cn"
         ],
         "text": null,
@@ -17257,8 +17258,9 @@
         "image": "1f1e9-1f1ea.png",
         "sheet_x": 28,
         "sheet_y": 10,
-        "short_name": "de",
+        "short_name": "de-flag",
         "short_names": [
+            "de-flag",
             "de"
         ],
         "text": null,
@@ -17298,8 +17300,9 @@
         "image": "1f1ea-1f1f8.png",
         "sheet_x": 28,
         "sheet_y": 12,
-        "short_name": "es",
+        "short_name": "es-flag",
         "short_names": [
+            "es-flag",
             "es"
         ],
         "text": null,
@@ -17339,8 +17342,9 @@
         "image": "1f1eb-1f1f7.png",
         "sheet_x": 28,
         "sheet_y": 14,
-        "short_name": "fr",
+        "short_name": "fr-flag",
         "short_names": [
+            "fr-flag",
             "fr"
         ],
         "text": null,
@@ -17359,8 +17363,9 @@
         "image": "1f1ec-1f1e7.png",
         "sheet_x": 28,
         "sheet_y": 15,
-        "short_name": "gb",
+        "short_name": "gb-flag",
         "short_names": [
+            "gb-flag",
             "gb",
             "uk"
         ],
@@ -17485,8 +17490,9 @@
         "image": "1f1ee-1f1f9.png",
         "sheet_x": 28,
         "sheet_y": 21,
-        "short_name": "it",
+        "short_name": "it-flag",
         "short_names": [
+            "it-flag",
             "it"
         ],
         "text": null,
@@ -17505,8 +17511,9 @@
         "image": "1f1ef-1f1f5.png",
         "sheet_x": 28,
         "sheet_y": 22,
-        "short_name": "jp",
+        "short_name": "jp-flag",
         "short_names": [
+            "jp-flag",
             "jp"
         ],
         "text": null,
@@ -17525,8 +17532,9 @@
         "image": "1f1f0-1f1f7.png",
         "sheet_x": 28,
         "sheet_y": 23,
-        "short_name": "kr",
+        "short_name": "kr-flag",
         "short_names": [
+            "kr-flag",
             "kr"
         ],
         "text": null,
@@ -17755,8 +17763,9 @@
         "image": "1f1f7-1f1fa.png",
         "sheet_x": 29,
         "sheet_y": 4,
-        "short_name": "ru",
+        "short_name": "ru-flag",
         "short_names": [
+            "ru-flag",
             "ru"
         ],
         "text": null,
@@ -17859,8 +17868,9 @@
         "image": "1f1fa-1f1f8.png",
         "sheet_x": 29,
         "sheet_y": 9,
-        "short_name": "us",
+        "short_name": "us-flag",
         "short_names": [
+            "us-flag",
             "us"
         ],
         "text": null,

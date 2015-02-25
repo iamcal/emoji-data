@@ -24,11 +24,15 @@
 	foreach ($catalog as $row){
 
 		$img_key = StrToLower(encode_points($row['unicode']));
-
 		$shorts = $catalog_names[$img_key];
+		$name = $row['char_name']['title'];
+
+		if (preg_match("!^REGIONAL INDICATOR SYMBOL LETTERS !", $name)){
+			array_unshift($shorts, $shorts[0].'-flag');
+		}
 
 		$out[] = simple_row($img_key, $shorts, array(
-			'name'		=> $row['char_name']['title'],
+			'name'		=> $name,
 			'unified'	=> encode_points($row['unicode']),
 			'docomo'	=> encode_points($row['docomo'  ]['unicode']),
 			'au'		=> encode_points($row['au'      ]['unicode']),
