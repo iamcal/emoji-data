@@ -1,4 +1,6 @@
 <?php
+	error_reporting((E_ALL | E_STRICT) ^ E_NOTICE);
+
 	$dir = dirname(__FILE__);
 
 	include('catalog.php');
@@ -53,6 +55,37 @@
 		}
 	}
 	echo " DONE\n";
+
+
+	#
+	# extra non-standard CPs
+	#
+
+	echo "Adding extra Apple emoji: ";
+
+	$json = file_get_contents('apple_10_10_3.json');
+	$list = json_decode($json, true);
+	foreach ($list as $cps => $arr){
+
+		$img_key = StrToLower($cps);
+		$img_key = str_replace('200d-', '', $img_key);
+
+		$short_names = array($arr[0]);
+		$name = StrToUpper($arr[1]);
+
+		if (substr($arr[0], 0, 5) == 'flag-'){
+			$short_names[] = substr($arr[0], 5);
+			$name = "REGIONAL INDICATOR SYMBOL LETTERS ".StrToUpper(substr($arr[0], 5));
+		}
+
+		echo  '.';
+		$out[] = simple_row($img_key, $short_names, array(
+			'name'		=> $name,
+			'unified'	=> $cps,
+		));
+	}
+
+	echo "OK\n";
 
 
 	function build_character_data($img_key, $short_names){

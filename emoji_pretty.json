@@ -6940,6 +6940,106 @@
         "twitter_img": true
     },
     {
+        "name": "EMOJI MODIFIER FITZPATRICK TYPE-1-2",
+        "unified": "1F3FB",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f3fb.png",
+        "sheet_x": 11,
+        "sheet_y": 7,
+        "short_name": "skin-tone-2",
+        "short_names": [
+            "skin-tone-2"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "EMOJI MODIFIER FITZPATRICK TYPE-3",
+        "unified": "1F3FC",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f3fc.png",
+        "sheet_x": 11,
+        "sheet_y": 8,
+        "short_name": "skin-tone-3",
+        "short_names": [
+            "skin-tone-3"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "EMOJI MODIFIER FITZPATRICK TYPE-4",
+        "unified": "1F3FD",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f3fd.png",
+        "sheet_x": 11,
+        "sheet_y": 9,
+        "short_name": "skin-tone-4",
+        "short_names": [
+            "skin-tone-4"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "EMOJI MODIFIER FITZPATRICK TYPE-5",
+        "unified": "1F3FE",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f3fe.png",
+        "sheet_x": 11,
+        "sheet_y": 10,
+        "short_name": "skin-tone-5",
+        "short_names": [
+            "skin-tone-5"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "EMOJI MODIFIER FITZPATRICK TYPE-6",
+        "unified": "1F3FF",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f3ff.png",
+        "sheet_x": 11,
+        "sheet_y": 11,
+        "short_name": "skin-tone-6",
+        "short_names": [
+            "skin-tone-6"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
         "name": "RAT",
         "unified": "1F400",
         "variations": [],
@@ -6949,7 +7049,7 @@
         "google": null,
         "image": "1f400.png",
         "sheet_x": 11,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "rat",
         "short_names": [
             "rat"
@@ -6969,7 +7069,7 @@
         "google": null,
         "image": "1f401.png",
         "sheet_x": 11,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "mouse2",
         "short_names": [
             "mouse2"
@@ -6989,7 +7089,7 @@
         "google": null,
         "image": "1f402.png",
         "sheet_x": 11,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "ox",
         "short_names": [
             "ox"
@@ -7009,7 +7109,7 @@
         "google": null,
         "image": "1f403.png",
         "sheet_x": 11,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "water_buffalo",
         "short_names": [
             "water_buffalo"
@@ -7029,7 +7129,7 @@
         "google": null,
         "image": "1f404.png",
         "sheet_x": 11,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "cow2",
         "short_names": [
             "cow2"
@@ -7049,7 +7149,7 @@
         "google": null,
         "image": "1f405.png",
         "sheet_x": 11,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "tiger2",
         "short_names": [
             "tiger2"
@@ -7069,7 +7169,7 @@
         "google": null,
         "image": "1f406.png",
         "sheet_x": 11,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "leopard",
         "short_names": [
             "leopard"
@@ -7089,7 +7189,7 @@
         "google": null,
         "image": "1f407.png",
         "sheet_x": 11,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "rabbit2",
         "short_names": [
             "rabbit2"
@@ -7109,7 +7209,7 @@
         "google": null,
         "image": "1f408.png",
         "sheet_x": 11,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "cat2",
         "short_names": [
             "cat2"
@@ -7129,7 +7229,7 @@
         "google": null,
         "image": "1f409.png",
         "sheet_x": 11,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "dragon",
         "short_names": [
             "dragon"
@@ -7149,7 +7249,7 @@
         "google": null,
         "image": "1f40a.png",
         "sheet_x": 11,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "crocodile",
         "short_names": [
             "crocodile"
@@ -7169,7 +7269,7 @@
         "google": null,
         "image": "1f40b.png",
         "sheet_x": 11,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "whale2",
         "short_names": [
             "whale2"
@@ -7189,7 +7289,7 @@
         "google": "FE1B9",
         "image": "1f40c.png",
         "sheet_x": 11,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "snail",
         "short_names": [
             "snail"
@@ -7209,7 +7309,7 @@
         "google": "FE1D3",
         "image": "1f40d.png",
         "sheet_x": 11,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "snake",
         "short_names": [
             "snake"
@@ -7229,7 +7329,7 @@
         "google": "FE7DC",
         "image": "1f40e.png",
         "sheet_x": 11,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "racehorse",
         "short_names": [
             "racehorse"
@@ -7249,7 +7349,7 @@
         "google": null,
         "image": "1f40f.png",
         "sheet_x": 11,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "ram",
         "short_names": [
             "ram"
@@ -7269,7 +7369,7 @@
         "google": null,
         "image": "1f410.png",
         "sheet_x": 11,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "goat",
         "short_names": [
             "goat"
@@ -7289,7 +7389,7 @@
         "google": "FE1CF",
         "image": "1f411.png",
         "sheet_x": 11,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "sheep",
         "short_names": [
             "sheep"
@@ -7308,8 +7408,8 @@
         "softbank": "E528",
         "google": "FE1CE",
         "image": "1f412.png",
-        "sheet_x": 11,
-        "sheet_y": 25,
+        "sheet_x": 12,
+        "sheet_y": 0,
         "short_name": "monkey",
         "short_names": [
             "monkey"
@@ -7328,8 +7428,8 @@
         "softbank": null,
         "google": null,
         "image": "1f413.png",
-        "sheet_x": 11,
-        "sheet_y": 26,
+        "sheet_x": 12,
+        "sheet_y": 1,
         "short_name": "rooster",
         "short_names": [
             "rooster"
@@ -7348,8 +7448,8 @@
         "softbank": "E52E",
         "google": "FE1D4",
         "image": "1f414.png",
-        "sheet_x": 11,
-        "sheet_y": 27,
+        "sheet_x": 12,
+        "sheet_y": 2,
         "short_name": "chicken",
         "short_names": [
             "chicken"
@@ -7368,8 +7468,8 @@
         "softbank": null,
         "google": null,
         "image": "1f415.png",
-        "sheet_x": 11,
-        "sheet_y": 28,
+        "sheet_x": 12,
+        "sheet_y": 3,
         "short_name": "dog2",
         "short_names": [
             "dog2"
@@ -7388,8 +7488,8 @@
         "softbank": null,
         "google": null,
         "image": "1f416.png",
-        "sheet_x": 11,
-        "sheet_y": 29,
+        "sheet_x": 12,
+        "sheet_y": 4,
         "short_name": "pig2",
         "short_names": [
             "pig2"
@@ -7409,7 +7509,7 @@
         "google": "FE1D5",
         "image": "1f417.png",
         "sheet_x": 12,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "boar",
         "short_names": [
             "boar"
@@ -7429,7 +7529,7 @@
         "google": "FE1CC",
         "image": "1f418.png",
         "sheet_x": 12,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "elephant",
         "short_names": [
             "elephant"
@@ -7449,7 +7549,7 @@
         "google": "FE1C5",
         "image": "1f419.png",
         "sheet_x": 12,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "octopus",
         "short_names": [
             "octopus"
@@ -7469,7 +7569,7 @@
         "google": "FE1C6",
         "image": "1f41a.png",
         "sheet_x": 12,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "shell",
         "short_names": [
             "shell"
@@ -7489,7 +7589,7 @@
         "google": "FE1CB",
         "image": "1f41b.png",
         "sheet_x": 12,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "bug",
         "short_names": [
             "bug"
@@ -7509,7 +7609,7 @@
         "google": "FE1DA",
         "image": "1f41c.png",
         "sheet_x": 12,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "ant",
         "short_names": [
             "ant"
@@ -7529,7 +7629,7 @@
         "google": "FE1E1",
         "image": "1f41d.png",
         "sheet_x": 12,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "bee",
         "short_names": [
             "bee",
@@ -7550,7 +7650,7 @@
         "google": "FE1E2",
         "image": "1f41e.png",
         "sheet_x": 12,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "beetle",
         "short_names": [
             "beetle"
@@ -7570,7 +7670,7 @@
         "google": "FE1BD",
         "image": "1f41f.png",
         "sheet_x": 12,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "fish",
         "short_names": [
             "fish"
@@ -7590,7 +7690,7 @@
         "google": "FE1C9",
         "image": "1f420.png",
         "sheet_x": 12,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "tropical_fish",
         "short_names": [
             "tropical_fish"
@@ -7610,7 +7710,7 @@
         "google": "FE1D9",
         "image": "1f421.png",
         "sheet_x": 12,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "blowfish",
         "short_names": [
             "blowfish"
@@ -7630,7 +7730,7 @@
         "google": "FE1DC",
         "image": "1f422.png",
         "sheet_x": 12,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "turtle",
         "short_names": [
             "turtle"
@@ -7650,7 +7750,7 @@
         "google": "FE1DD",
         "image": "1f423.png",
         "sheet_x": 12,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "hatching_chick",
         "short_names": [
             "hatching_chick"
@@ -7670,7 +7770,7 @@
         "google": "FE1BA",
         "image": "1f424.png",
         "sheet_x": 12,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "baby_chick",
         "short_names": [
             "baby_chick"
@@ -7690,7 +7790,7 @@
         "google": "FE1BB",
         "image": "1f425.png",
         "sheet_x": 12,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "hatched_chick",
         "short_names": [
             "hatched_chick"
@@ -7710,7 +7810,7 @@
         "google": "FE1C8",
         "image": "1f426.png",
         "sheet_x": 12,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "bird",
         "short_names": [
             "bird"
@@ -7730,7 +7830,7 @@
         "google": "FE1BC",
         "image": "1f427.png",
         "sheet_x": 12,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "penguin",
         "short_names": [
             "penguin"
@@ -7750,7 +7850,7 @@
         "google": "FE1CD",
         "image": "1f428.png",
         "sheet_x": 12,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "koala",
         "short_names": [
             "koala"
@@ -7770,7 +7870,7 @@
         "google": "FE1D8",
         "image": "1f429.png",
         "sheet_x": 12,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "poodle",
         "short_names": [
             "poodle"
@@ -7790,7 +7890,7 @@
         "google": null,
         "image": "1f42a.png",
         "sheet_x": 12,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "dromedary_camel",
         "short_names": [
             "dromedary_camel"
@@ -7810,7 +7910,7 @@
         "google": "FE1D6",
         "image": "1f42b.png",
         "sheet_x": 12,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "camel",
         "short_names": [
             "camel"
@@ -7830,7 +7930,7 @@
         "google": "FE1C7",
         "image": "1f42c.png",
         "sheet_x": 12,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "dolphin",
         "short_names": [
             "dolphin",
@@ -7851,7 +7951,7 @@
         "google": "FE1C2",
         "image": "1f42d.png",
         "sheet_x": 12,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "mouse",
         "short_names": [
             "mouse"
@@ -7871,7 +7971,7 @@
         "google": "FE1D1",
         "image": "1f42e.png",
         "sheet_x": 12,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "cow",
         "short_names": [
             "cow"
@@ -7891,7 +7991,7 @@
         "google": "FE1C0",
         "image": "1f42f.png",
         "sheet_x": 12,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "tiger",
         "short_names": [
             "tiger"
@@ -7910,8 +8010,8 @@
         "softbank": "E52C",
         "google": "FE1D2",
         "image": "1f430.png",
-        "sheet_x": 12,
-        "sheet_y": 25,
+        "sheet_x": 13,
+        "sheet_y": 0,
         "short_name": "rabbit",
         "short_names": [
             "rabbit"
@@ -7930,8 +8030,8 @@
         "softbank": "E04F",
         "google": "FE1B8",
         "image": "1f431.png",
-        "sheet_x": 12,
-        "sheet_y": 26,
+        "sheet_x": 13,
+        "sheet_y": 1,
         "short_name": "cat",
         "short_names": [
             "cat"
@@ -7950,8 +8050,8 @@
         "softbank": null,
         "google": "FE1DE",
         "image": "1f432.png",
-        "sheet_x": 12,
-        "sheet_y": 27,
+        "sheet_x": 13,
+        "sheet_y": 2,
         "short_name": "dragon_face",
         "short_names": [
             "dragon_face"
@@ -7970,8 +8070,8 @@
         "softbank": "E054",
         "google": "FE1C3",
         "image": "1f433.png",
-        "sheet_x": 12,
-        "sheet_y": 28,
+        "sheet_x": 13,
+        "sheet_y": 3,
         "short_name": "whale",
         "short_names": [
             "whale"
@@ -7990,8 +8090,8 @@
         "softbank": "E01A",
         "google": "FE1BE",
         "image": "1f434.png",
-        "sheet_x": 12,
-        "sheet_y": 29,
+        "sheet_x": 13,
+        "sheet_y": 4,
         "short_name": "horse",
         "short_names": [
             "horse"
@@ -8011,7 +8111,7 @@
         "google": "FE1C4",
         "image": "1f435.png",
         "sheet_x": 13,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "monkey_face",
         "short_names": [
             "monkey_face"
@@ -8031,7 +8131,7 @@
         "google": "FE1B7",
         "image": "1f436.png",
         "sheet_x": 13,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "dog",
         "short_names": [
             "dog"
@@ -8051,7 +8151,7 @@
         "google": "FE1BF",
         "image": "1f437.png",
         "sheet_x": 13,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "pig",
         "short_names": [
             "pig"
@@ -8071,7 +8171,7 @@
         "google": "FE1D7",
         "image": "1f438.png",
         "sheet_x": 13,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "frog",
         "short_names": [
             "frog"
@@ -8091,7 +8191,7 @@
         "google": "FE1CA",
         "image": "1f439.png",
         "sheet_x": 13,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "hamster",
         "short_names": [
             "hamster"
@@ -8111,7 +8211,7 @@
         "google": "FE1D0",
         "image": "1f43a.png",
         "sheet_x": 13,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "wolf",
         "short_names": [
             "wolf"
@@ -8131,7 +8231,7 @@
         "google": "FE1C1",
         "image": "1f43b.png",
         "sheet_x": 13,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "bear",
         "short_names": [
             "bear"
@@ -8151,7 +8251,7 @@
         "google": "FE1DF",
         "image": "1f43c.png",
         "sheet_x": 13,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "panda_face",
         "short_names": [
             "panda_face"
@@ -8171,7 +8271,7 @@
         "google": "FE1E0",
         "image": "1f43d.png",
         "sheet_x": 13,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "pig_nose",
         "short_names": [
             "pig_nose"
@@ -8191,7 +8291,7 @@
         "google": "FE1DB",
         "image": "1f43e.png",
         "sheet_x": 13,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "feet",
         "short_names": [
             "feet",
@@ -8212,7 +8312,7 @@
         "google": "FE190",
         "image": "1f440.png",
         "sheet_x": 13,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "eyes",
         "short_names": [
             "eyes"
@@ -8232,7 +8332,7 @@
         "google": "FE191",
         "image": "1f442.png",
         "sheet_x": 13,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "ear",
         "short_names": [
             "ear"
@@ -8252,7 +8352,7 @@
         "google": "FE192",
         "image": "1f443.png",
         "sheet_x": 13,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "nose",
         "short_names": [
             "nose"
@@ -8272,7 +8372,7 @@
         "google": "FE193",
         "image": "1f444.png",
         "sheet_x": 13,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "lips",
         "short_names": [
             "lips"
@@ -8292,7 +8392,7 @@
         "google": "FE194",
         "image": "1f445.png",
         "sheet_x": 13,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "tongue",
         "short_names": [
             "tongue"
@@ -8312,7 +8412,7 @@
         "google": "FEB99",
         "image": "1f446.png",
         "sheet_x": 13,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "point_up_2",
         "short_names": [
             "point_up_2"
@@ -8332,7 +8432,7 @@
         "google": "FEB9A",
         "image": "1f447.png",
         "sheet_x": 13,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "point_down",
         "short_names": [
             "point_down"
@@ -8352,7 +8452,7 @@
         "google": "FEB9B",
         "image": "1f448.png",
         "sheet_x": 13,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "point_left",
         "short_names": [
             "point_left"
@@ -8372,7 +8472,7 @@
         "google": "FEB9C",
         "image": "1f449.png",
         "sheet_x": 13,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "point_right",
         "short_names": [
             "point_right"
@@ -8392,7 +8492,7 @@
         "google": "FEB96",
         "image": "1f44a.png",
         "sheet_x": 13,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "facepunch",
         "short_names": [
             "facepunch",
@@ -8413,7 +8513,7 @@
         "google": "FEB9D",
         "image": "1f44b.png",
         "sheet_x": 13,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "wave",
         "short_names": [
             "wave"
@@ -8433,7 +8533,7 @@
         "google": "FEB9F",
         "image": "1f44c.png",
         "sheet_x": 13,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "ok_hand",
         "short_names": [
             "ok_hand"
@@ -8453,7 +8553,7 @@
         "google": "FEB97",
         "image": "1f44d.png",
         "sheet_x": 13,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "+1",
         "short_names": [
             "+1",
@@ -8474,7 +8574,7 @@
         "google": "FEBA0",
         "image": "1f44e.png",
         "sheet_x": 13,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "-1",
         "short_names": [
             "-1",
@@ -8495,7 +8595,7 @@
         "google": "FEB9E",
         "image": "1f44f.png",
         "sheet_x": 13,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "clap",
         "short_names": [
             "clap"
@@ -8514,8 +8614,8 @@
         "softbank": "E422",
         "google": "FEBA1",
         "image": "1f450.png",
-        "sheet_x": 13,
-        "sheet_y": 25,
+        "sheet_x": 14,
+        "sheet_y": 0,
         "short_name": "open_hands",
         "short_names": [
             "open_hands"
@@ -8534,8 +8634,8 @@
         "softbank": "E10E",
         "google": "FE4D1",
         "image": "1f451.png",
-        "sheet_x": 13,
-        "sheet_y": 26,
+        "sheet_x": 14,
+        "sheet_y": 1,
         "short_name": "crown",
         "short_names": [
             "crown"
@@ -8554,8 +8654,8 @@
         "softbank": "E318",
         "google": "FE4D4",
         "image": "1f452.png",
-        "sheet_x": 13,
-        "sheet_y": 27,
+        "sheet_x": 14,
+        "sheet_y": 2,
         "short_name": "womans_hat",
         "short_names": [
             "womans_hat"
@@ -8574,8 +8674,8 @@
         "softbank": null,
         "google": "FE4CE",
         "image": "1f453.png",
-        "sheet_x": 13,
-        "sheet_y": 28,
+        "sheet_x": 14,
+        "sheet_y": 3,
         "short_name": "eyeglasses",
         "short_names": [
             "eyeglasses"
@@ -8594,8 +8694,8 @@
         "softbank": "E302",
         "google": "FE4D3",
         "image": "1f454.png",
-        "sheet_x": 13,
-        "sheet_y": 29,
+        "sheet_x": 14,
+        "sheet_y": 4,
         "short_name": "necktie",
         "short_names": [
             "necktie"
@@ -8615,7 +8715,7 @@
         "google": "FE4CF",
         "image": "1f455.png",
         "sheet_x": 14,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "shirt",
         "short_names": [
             "shirt",
@@ -8636,7 +8736,7 @@
         "google": "FE4D0",
         "image": "1f456.png",
         "sheet_x": 14,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "jeans",
         "short_names": [
             "jeans"
@@ -8656,7 +8756,7 @@
         "google": "FE4D5",
         "image": "1f457.png",
         "sheet_x": 14,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "dress",
         "short_names": [
             "dress"
@@ -8676,7 +8776,7 @@
         "google": "FE4D9",
         "image": "1f458.png",
         "sheet_x": 14,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "kimono",
         "short_names": [
             "kimono"
@@ -8696,7 +8796,7 @@
         "google": "FE4DA",
         "image": "1f459.png",
         "sheet_x": 14,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "bikini",
         "short_names": [
             "bikini"
@@ -8716,7 +8816,7 @@
         "google": "FE4DB",
         "image": "1f45a.png",
         "sheet_x": 14,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "womans_clothes",
         "short_names": [
             "womans_clothes"
@@ -8736,7 +8836,7 @@
         "google": "FE4DC",
         "image": "1f45b.png",
         "sheet_x": 14,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "purse",
         "short_names": [
             "purse"
@@ -8756,7 +8856,7 @@
         "google": "FE4F0",
         "image": "1f45c.png",
         "sheet_x": 14,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "handbag",
         "short_names": [
             "handbag"
@@ -8776,7 +8876,7 @@
         "google": "FE4F1",
         "image": "1f45d.png",
         "sheet_x": 14,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "pouch",
         "short_names": [
             "pouch"
@@ -8796,7 +8896,7 @@
         "google": "FE4CC",
         "image": "1f45e.png",
         "sheet_x": 14,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "mans_shoe",
         "short_names": [
             "mans_shoe",
@@ -8817,7 +8917,7 @@
         "google": "FE4CD",
         "image": "1f45f.png",
         "sheet_x": 14,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "athletic_shoe",
         "short_names": [
             "athletic_shoe"
@@ -8837,7 +8937,7 @@
         "google": "FE4D6",
         "image": "1f460.png",
         "sheet_x": 14,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "high_heel",
         "short_names": [
             "high_heel"
@@ -8857,7 +8957,7 @@
         "google": "FE4D7",
         "image": "1f461.png",
         "sheet_x": 14,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "sandal",
         "short_names": [
             "sandal"
@@ -8877,7 +8977,7 @@
         "google": "FE4D8",
         "image": "1f462.png",
         "sheet_x": 14,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "boot",
         "short_names": [
             "boot"
@@ -8897,7 +8997,7 @@
         "google": "FE553",
         "image": "1f463.png",
         "sheet_x": 14,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "footprints",
         "short_names": [
             "footprints"
@@ -8917,7 +9017,7 @@
         "google": "FE19A",
         "image": "1f464.png",
         "sheet_x": 14,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "bust_in_silhouette",
         "short_names": [
             "bust_in_silhouette"
@@ -8937,7 +9037,7 @@
         "google": null,
         "image": "1f465.png",
         "sheet_x": 14,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "busts_in_silhouette",
         "short_names": [
             "busts_in_silhouette"
@@ -8957,7 +9057,7 @@
         "google": "FE19B",
         "image": "1f466.png",
         "sheet_x": 14,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "boy",
         "short_names": [
             "boy"
@@ -8977,7 +9077,7 @@
         "google": "FE19C",
         "image": "1f467.png",
         "sheet_x": 14,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "girl",
         "short_names": [
             "girl"
@@ -8997,7 +9097,7 @@
         "google": "FE19D",
         "image": "1f468.png",
         "sheet_x": 14,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "man",
         "short_names": [
             "man"
@@ -9017,7 +9117,7 @@
         "google": "FE19E",
         "image": "1f469.png",
         "sheet_x": 14,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "woman",
         "short_names": [
             "woman"
@@ -9037,7 +9137,7 @@
         "google": "FE19F",
         "image": "1f46a.png",
         "sheet_x": 14,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "family",
         "short_names": [
             "family"
@@ -9057,7 +9157,7 @@
         "google": "FE1A0",
         "image": "1f46b.png",
         "sheet_x": 14,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "couple",
         "short_names": [
             "couple"
@@ -9077,7 +9177,7 @@
         "google": null,
         "image": "1f46c.png",
         "sheet_x": 14,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "two_men_holding_hands",
         "short_names": [
             "two_men_holding_hands"
@@ -9097,7 +9197,7 @@
         "google": null,
         "image": "1f46d.png",
         "sheet_x": 14,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "two_women_holding_hands",
         "short_names": [
             "two_women_holding_hands"
@@ -9116,8 +9216,8 @@
         "softbank": "E152",
         "google": "FE1A1",
         "image": "1f46e.png",
-        "sheet_x": 14,
-        "sheet_y": 25,
+        "sheet_x": 15,
+        "sheet_y": 0,
         "short_name": "cop",
         "short_names": [
             "cop"
@@ -9136,8 +9236,8 @@
         "softbank": "E429",
         "google": "FE1A2",
         "image": "1f46f.png",
-        "sheet_x": 14,
-        "sheet_y": 26,
+        "sheet_x": 15,
+        "sheet_y": 1,
         "short_name": "dancers",
         "short_names": [
             "dancers"
@@ -9156,8 +9256,8 @@
         "softbank": null,
         "google": "FE1A3",
         "image": "1f470.png",
-        "sheet_x": 14,
-        "sheet_y": 27,
+        "sheet_x": 15,
+        "sheet_y": 2,
         "short_name": "bride_with_veil",
         "short_names": [
             "bride_with_veil"
@@ -9176,8 +9276,8 @@
         "softbank": "E515",
         "google": "FE1A4",
         "image": "1f471.png",
-        "sheet_x": 14,
-        "sheet_y": 28,
+        "sheet_x": 15,
+        "sheet_y": 3,
         "short_name": "person_with_blond_hair",
         "short_names": [
             "person_with_blond_hair"
@@ -9196,8 +9296,8 @@
         "softbank": "E516",
         "google": "FE1A5",
         "image": "1f472.png",
-        "sheet_x": 14,
-        "sheet_y": 29,
+        "sheet_x": 15,
+        "sheet_y": 4,
         "short_name": "man_with_gua_pi_mao",
         "short_names": [
             "man_with_gua_pi_mao"
@@ -9217,7 +9317,7 @@
         "google": "FE1A6",
         "image": "1f473.png",
         "sheet_x": 15,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "man_with_turban",
         "short_names": [
             "man_with_turban"
@@ -9237,7 +9337,7 @@
         "google": "FE1A7",
         "image": "1f474.png",
         "sheet_x": 15,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "older_man",
         "short_names": [
             "older_man"
@@ -9257,7 +9357,7 @@
         "google": "FE1A8",
         "image": "1f475.png",
         "sheet_x": 15,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "older_woman",
         "short_names": [
             "older_woman"
@@ -9277,7 +9377,7 @@
         "google": "FE1A9",
         "image": "1f476.png",
         "sheet_x": 15,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "baby",
         "short_names": [
             "baby"
@@ -9297,7 +9397,7 @@
         "google": "FE1AA",
         "image": "1f477.png",
         "sheet_x": 15,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "construction_worker",
         "short_names": [
             "construction_worker"
@@ -9317,7 +9417,7 @@
         "google": "FE1AB",
         "image": "1f478.png",
         "sheet_x": 15,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "princess",
         "short_names": [
             "princess"
@@ -9337,7 +9437,7 @@
         "google": "FE1AC",
         "image": "1f479.png",
         "sheet_x": 15,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "japanese_ogre",
         "short_names": [
             "japanese_ogre"
@@ -9357,7 +9457,7 @@
         "google": "FE1AD",
         "image": "1f47a.png",
         "sheet_x": 15,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "japanese_goblin",
         "short_names": [
             "japanese_goblin"
@@ -9377,7 +9477,7 @@
         "google": "FE1AE",
         "image": "1f47b.png",
         "sheet_x": 15,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "ghost",
         "short_names": [
             "ghost"
@@ -9397,7 +9497,7 @@
         "google": "FE1AF",
         "image": "1f47c.png",
         "sheet_x": 15,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "angel",
         "short_names": [
             "angel"
@@ -9417,7 +9517,7 @@
         "google": "FE1B0",
         "image": "1f47d.png",
         "sheet_x": 15,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "alien",
         "short_names": [
             "alien"
@@ -9437,7 +9537,7 @@
         "google": "FE1B1",
         "image": "1f47e.png",
         "sheet_x": 15,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "space_invader",
         "short_names": [
             "space_invader"
@@ -9457,7 +9557,7 @@
         "google": "FE1B2",
         "image": "1f47f.png",
         "sheet_x": 15,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "imp",
         "short_names": [
             "imp"
@@ -9477,7 +9577,7 @@
         "google": "FE1B3",
         "image": "1f480.png",
         "sheet_x": 15,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "skull",
         "short_names": [
             "skull"
@@ -9497,7 +9597,7 @@
         "google": "FE1B4",
         "image": "1f481.png",
         "sheet_x": 15,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "information_desk_person",
         "short_names": [
             "information_desk_person"
@@ -9517,7 +9617,7 @@
         "google": "FE1B5",
         "image": "1f482.png",
         "sheet_x": 15,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "guardsman",
         "short_names": [
             "guardsman"
@@ -9537,7 +9637,7 @@
         "google": "FE1B6",
         "image": "1f483.png",
         "sheet_x": 15,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "dancer",
         "short_names": [
             "dancer"
@@ -9557,7 +9657,7 @@
         "google": "FE195",
         "image": "1f484.png",
         "sheet_x": 15,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "lipstick",
         "short_names": [
             "lipstick"
@@ -9577,7 +9677,7 @@
         "google": "FE196",
         "image": "1f485.png",
         "sheet_x": 15,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "nail_care",
         "short_names": [
             "nail_care"
@@ -9597,7 +9697,7 @@
         "google": "FE197",
         "image": "1f486.png",
         "sheet_x": 15,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "massage",
         "short_names": [
             "massage"
@@ -9617,7 +9717,7 @@
         "google": "FE198",
         "image": "1f487.png",
         "sheet_x": 15,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "haircut",
         "short_names": [
             "haircut"
@@ -9637,7 +9737,7 @@
         "google": "FE199",
         "image": "1f488.png",
         "sheet_x": 15,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "barber",
         "short_names": [
             "barber"
@@ -9657,7 +9757,7 @@
         "google": "FE509",
         "image": "1f489.png",
         "sheet_x": 15,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "syringe",
         "short_names": [
             "syringe"
@@ -9677,7 +9777,7 @@
         "google": "FE50A",
         "image": "1f48a.png",
         "sheet_x": 15,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "pill",
         "short_names": [
             "pill"
@@ -9697,7 +9797,7 @@
         "google": "FE823",
         "image": "1f48b.png",
         "sheet_x": 15,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "kiss",
         "short_names": [
             "kiss"
@@ -9716,8 +9816,8 @@
         "softbank": "E103-E328",
         "google": "FE824",
         "image": "1f48c.png",
-        "sheet_x": 15,
-        "sheet_y": 25,
+        "sheet_x": 16,
+        "sheet_y": 0,
         "short_name": "love_letter",
         "short_names": [
             "love_letter"
@@ -9736,8 +9836,8 @@
         "softbank": "E034",
         "google": "FE825",
         "image": "1f48d.png",
-        "sheet_x": 15,
-        "sheet_y": 26,
+        "sheet_x": 16,
+        "sheet_y": 1,
         "short_name": "ring",
         "short_names": [
             "ring"
@@ -9756,8 +9856,8 @@
         "softbank": "E035",
         "google": "FE826",
         "image": "1f48e.png",
-        "sheet_x": 15,
-        "sheet_y": 27,
+        "sheet_x": 16,
+        "sheet_y": 2,
         "short_name": "gem",
         "short_names": [
             "gem"
@@ -9776,8 +9876,8 @@
         "softbank": "E111",
         "google": "FE827",
         "image": "1f48f.png",
-        "sheet_x": 15,
-        "sheet_y": 28,
+        "sheet_x": 16,
+        "sheet_y": 3,
         "short_name": "couplekiss",
         "short_names": [
             "couplekiss"
@@ -9796,8 +9896,8 @@
         "softbank": "E306",
         "google": "FE828",
         "image": "1f490.png",
-        "sheet_x": 15,
-        "sheet_y": 29,
+        "sheet_x": 16,
+        "sheet_y": 4,
         "short_name": "bouquet",
         "short_names": [
             "bouquet"
@@ -9817,7 +9917,7 @@
         "google": "FE829",
         "image": "1f491.png",
         "sheet_x": 16,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "couple_with_heart",
         "short_names": [
             "couple_with_heart"
@@ -9837,7 +9937,7 @@
         "google": "FE82A",
         "image": "1f492.png",
         "sheet_x": 16,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "wedding",
         "short_names": [
             "wedding"
@@ -9857,7 +9957,7 @@
         "google": "FEB0D",
         "image": "1f493.png",
         "sheet_x": 16,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "heartbeat",
         "short_names": [
             "heartbeat"
@@ -9877,7 +9977,7 @@
         "google": "FEB0E",
         "image": "1f494.png",
         "sheet_x": 16,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "broken_heart",
         "short_names": [
             "broken_heart"
@@ -9897,7 +9997,7 @@
         "google": "FEB0F",
         "image": "1f495.png",
         "sheet_x": 16,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "two_hearts",
         "short_names": [
             "two_hearts"
@@ -9917,7 +10017,7 @@
         "google": "FEB10",
         "image": "1f496.png",
         "sheet_x": 16,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "sparkling_heart",
         "short_names": [
             "sparkling_heart"
@@ -9937,7 +10037,7 @@
         "google": "FEB11",
         "image": "1f497.png",
         "sheet_x": 16,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "heartpulse",
         "short_names": [
             "heartpulse"
@@ -9957,7 +10057,7 @@
         "google": "FEB12",
         "image": "1f498.png",
         "sheet_x": 16,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "cupid",
         "short_names": [
             "cupid"
@@ -9977,7 +10077,7 @@
         "google": "FEB13",
         "image": "1f499.png",
         "sheet_x": 16,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "blue_heart",
         "short_names": [
             "blue_heart"
@@ -9997,7 +10097,7 @@
         "google": "FEB14",
         "image": "1f49a.png",
         "sheet_x": 16,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "green_heart",
         "short_names": [
             "green_heart"
@@ -10017,7 +10117,7 @@
         "google": "FEB15",
         "image": "1f49b.png",
         "sheet_x": 16,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "yellow_heart",
         "short_names": [
             "yellow_heart"
@@ -10037,7 +10137,7 @@
         "google": "FEB16",
         "image": "1f49c.png",
         "sheet_x": 16,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "purple_heart",
         "short_names": [
             "purple_heart"
@@ -10057,7 +10157,7 @@
         "google": "FEB17",
         "image": "1f49d.png",
         "sheet_x": 16,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "gift_heart",
         "short_names": [
             "gift_heart"
@@ -10077,7 +10177,7 @@
         "google": "FEB18",
         "image": "1f49e.png",
         "sheet_x": 16,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "revolving_hearts",
         "short_names": [
             "revolving_hearts"
@@ -10097,7 +10197,7 @@
         "google": "FEB19",
         "image": "1f49f.png",
         "sheet_x": 16,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "heart_decoration",
         "short_names": [
             "heart_decoration"
@@ -10117,7 +10217,7 @@
         "google": "FEB55",
         "image": "1f4a0.png",
         "sheet_x": 16,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "diamond_shape_with_a_dot_inside",
         "short_names": [
             "diamond_shape_with_a_dot_inside"
@@ -10137,7 +10237,7 @@
         "google": "FEB56",
         "image": "1f4a1.png",
         "sheet_x": 16,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "bulb",
         "short_names": [
             "bulb"
@@ -10157,7 +10257,7 @@
         "google": "FEB57",
         "image": "1f4a2.png",
         "sheet_x": 16,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "anger",
         "short_names": [
             "anger"
@@ -10177,7 +10277,7 @@
         "google": "FEB58",
         "image": "1f4a3.png",
         "sheet_x": 16,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "bomb",
         "short_names": [
             "bomb"
@@ -10197,7 +10297,7 @@
         "google": "FEB59",
         "image": "1f4a4.png",
         "sheet_x": 16,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "zzz",
         "short_names": [
             "zzz"
@@ -10217,7 +10317,7 @@
         "google": "FEB5A",
         "image": "1f4a5.png",
         "sheet_x": 16,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "boom",
         "short_names": [
             "boom",
@@ -10238,7 +10338,7 @@
         "google": "FEB5B",
         "image": "1f4a6.png",
         "sheet_x": 16,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "sweat_drops",
         "short_names": [
             "sweat_drops"
@@ -10258,7 +10358,7 @@
         "google": "FEB5C",
         "image": "1f4a7.png",
         "sheet_x": 16,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "droplet",
         "short_names": [
             "droplet"
@@ -10278,7 +10378,7 @@
         "google": "FEB5D",
         "image": "1f4a8.png",
         "sheet_x": 16,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "dash",
         "short_names": [
             "dash"
@@ -10298,7 +10398,7 @@
         "google": "FE4F4",
         "image": "1f4a9.png",
         "sheet_x": 16,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "hankey",
         "short_names": [
             "hankey",
@@ -10319,8 +10419,8 @@
         "softbank": "E14C",
         "google": "FEB5E",
         "image": "1f4aa.png",
-        "sheet_x": 16,
-        "sheet_y": 25,
+        "sheet_x": 17,
+        "sheet_y": 0,
         "short_name": "muscle",
         "short_names": [
             "muscle"
@@ -10339,8 +10439,8 @@
         "softbank": "E407",
         "google": "FEB5F",
         "image": "1f4ab.png",
-        "sheet_x": 16,
-        "sheet_y": 26,
+        "sheet_x": 17,
+        "sheet_y": 1,
         "short_name": "dizzy",
         "short_names": [
             "dizzy"
@@ -10359,8 +10459,8 @@
         "softbank": null,
         "google": "FE532",
         "image": "1f4ac.png",
-        "sheet_x": 16,
-        "sheet_y": 27,
+        "sheet_x": 17,
+        "sheet_y": 2,
         "short_name": "speech_balloon",
         "short_names": [
             "speech_balloon"
@@ -10379,8 +10479,8 @@
         "softbank": null,
         "google": null,
         "image": "1f4ad.png",
-        "sheet_x": 16,
-        "sheet_y": 28,
+        "sheet_x": 17,
+        "sheet_y": 3,
         "short_name": "thought_balloon",
         "short_names": [
             "thought_balloon"
@@ -10399,8 +10499,8 @@
         "softbank": null,
         "google": "FEB7A",
         "image": "1f4ae.png",
-        "sheet_x": 16,
-        "sheet_y": 29,
+        "sheet_x": 17,
+        "sheet_y": 4,
         "short_name": "white_flower",
         "short_names": [
             "white_flower"
@@ -10420,7 +10520,7 @@
         "google": "FEB7B",
         "image": "1f4af.png",
         "sheet_x": 17,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "100",
         "short_names": [
             "100"
@@ -10440,7 +10540,7 @@
         "google": "FE4DD",
         "image": "1f4b0.png",
         "sheet_x": 17,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "moneybag",
         "short_names": [
             "moneybag"
@@ -10460,7 +10560,7 @@
         "google": "FE4DE",
         "image": "1f4b1.png",
         "sheet_x": 17,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "currency_exchange",
         "short_names": [
             "currency_exchange"
@@ -10480,7 +10580,7 @@
         "google": "FE4E0",
         "image": "1f4b2.png",
         "sheet_x": 17,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "heavy_dollar_sign",
         "short_names": [
             "heavy_dollar_sign"
@@ -10500,7 +10600,7 @@
         "google": "FE4E1",
         "image": "1f4b3.png",
         "sheet_x": 17,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "credit_card",
         "short_names": [
             "credit_card"
@@ -10520,7 +10620,7 @@
         "google": "FE4E2",
         "image": "1f4b4.png",
         "sheet_x": 17,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "yen",
         "short_names": [
             "yen"
@@ -10540,7 +10640,7 @@
         "google": "FE4E3",
         "image": "1f4b5.png",
         "sheet_x": 17,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "dollar",
         "short_names": [
             "dollar"
@@ -10560,7 +10660,7 @@
         "google": null,
         "image": "1f4b6.png",
         "sheet_x": 17,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "euro",
         "short_names": [
             "euro"
@@ -10580,7 +10680,7 @@
         "google": null,
         "image": "1f4b7.png",
         "sheet_x": 17,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "pound",
         "short_names": [
             "pound"
@@ -10600,7 +10700,7 @@
         "google": "FE4E4",
         "image": "1f4b8.png",
         "sheet_x": 17,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "money_with_wings",
         "short_names": [
             "money_with_wings"
@@ -10620,7 +10720,7 @@
         "google": "FE4DF",
         "image": "1f4b9.png",
         "sheet_x": 17,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "chart",
         "short_names": [
             "chart"
@@ -10640,7 +10740,7 @@
         "google": "FE537",
         "image": "1f4ba.png",
         "sheet_x": 17,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "seat",
         "short_names": [
             "seat"
@@ -10660,7 +10760,7 @@
         "google": "FE538",
         "image": "1f4bb.png",
         "sheet_x": 17,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "computer",
         "short_names": [
             "computer"
@@ -10680,7 +10780,7 @@
         "google": "FE53B",
         "image": "1f4bc.png",
         "sheet_x": 17,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "briefcase",
         "short_names": [
             "briefcase"
@@ -10700,7 +10800,7 @@
         "google": "FE53C",
         "image": "1f4bd.png",
         "sheet_x": 17,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "minidisc",
         "short_names": [
             "minidisc"
@@ -10720,7 +10820,7 @@
         "google": "FE53D",
         "image": "1f4be.png",
         "sheet_x": 17,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "floppy_disk",
         "short_names": [
             "floppy_disk"
@@ -10740,7 +10840,7 @@
         "google": "FE81D",
         "image": "1f4bf.png",
         "sheet_x": 17,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "cd",
         "short_names": [
             "cd"
@@ -10760,7 +10860,7 @@
         "google": "FE81E",
         "image": "1f4c0.png",
         "sheet_x": 17,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "dvd",
         "short_names": [
             "dvd"
@@ -10780,7 +10880,7 @@
         "google": "FE543",
         "image": "1f4c1.png",
         "sheet_x": 17,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "file_folder",
         "short_names": [
             "file_folder"
@@ -10800,7 +10900,7 @@
         "google": "FE544",
         "image": "1f4c2.png",
         "sheet_x": 17,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "open_file_folder",
         "short_names": [
             "open_file_folder"
@@ -10820,7 +10920,7 @@
         "google": "FE540",
         "image": "1f4c3.png",
         "sheet_x": 17,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "page_with_curl",
         "short_names": [
             "page_with_curl"
@@ -10840,7 +10940,7 @@
         "google": "FE541",
         "image": "1f4c4.png",
         "sheet_x": 17,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "page_facing_up",
         "short_names": [
             "page_facing_up"
@@ -10860,7 +10960,7 @@
         "google": "FE542",
         "image": "1f4c5.png",
         "sheet_x": 17,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "date",
         "short_names": [
             "date"
@@ -10880,7 +10980,7 @@
         "google": "FE549",
         "image": "1f4c6.png",
         "sheet_x": 17,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "calendar",
         "short_names": [
             "calendar"
@@ -10900,7 +11000,7 @@
         "google": "FE54D",
         "image": "1f4c7.png",
         "sheet_x": 17,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "card_index",
         "short_names": [
             "card_index"
@@ -10919,8 +11019,8 @@
         "softbank": "E14A",
         "google": "FE54B",
         "image": "1f4c8.png",
-        "sheet_x": 17,
-        "sheet_y": 25,
+        "sheet_x": 18,
+        "sheet_y": 0,
         "short_name": "chart_with_upwards_trend",
         "short_names": [
             "chart_with_upwards_trend"
@@ -10939,8 +11039,8 @@
         "softbank": null,
         "google": "FE54C",
         "image": "1f4c9.png",
-        "sheet_x": 17,
-        "sheet_y": 26,
+        "sheet_x": 18,
+        "sheet_y": 1,
         "short_name": "chart_with_downwards_trend",
         "short_names": [
             "chart_with_downwards_trend"
@@ -10959,8 +11059,8 @@
         "softbank": "E14A",
         "google": "FE54A",
         "image": "1f4ca.png",
-        "sheet_x": 17,
-        "sheet_y": 27,
+        "sheet_x": 18,
+        "sheet_y": 2,
         "short_name": "bar_chart",
         "short_names": [
             "bar_chart"
@@ -10979,8 +11079,8 @@
         "softbank": "E301",
         "google": "FE548",
         "image": "1f4cb.png",
-        "sheet_x": 17,
-        "sheet_y": 28,
+        "sheet_x": 18,
+        "sheet_y": 3,
         "short_name": "clipboard",
         "short_names": [
             "clipboard"
@@ -10999,8 +11099,8 @@
         "softbank": null,
         "google": "FE54E",
         "image": "1f4cc.png",
-        "sheet_x": 17,
-        "sheet_y": 29,
+        "sheet_x": 18,
+        "sheet_y": 4,
         "short_name": "pushpin",
         "short_names": [
             "pushpin"
@@ -11020,7 +11120,7 @@
         "google": "FE53F",
         "image": "1f4cd.png",
         "sheet_x": 18,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "round_pushpin",
         "short_names": [
             "round_pushpin"
@@ -11040,7 +11140,7 @@
         "google": "FE53A",
         "image": "1f4ce.png",
         "sheet_x": 18,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "paperclip",
         "short_names": [
             "paperclip"
@@ -11060,7 +11160,7 @@
         "google": "FE550",
         "image": "1f4cf.png",
         "sheet_x": 18,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "straight_ruler",
         "short_names": [
             "straight_ruler"
@@ -11080,7 +11180,7 @@
         "google": "FE551",
         "image": "1f4d0.png",
         "sheet_x": 18,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "triangular_ruler",
         "short_names": [
             "triangular_ruler"
@@ -11100,7 +11200,7 @@
         "google": "FE552",
         "image": "1f4d1.png",
         "sheet_x": 18,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "bookmark_tabs",
         "short_names": [
             "bookmark_tabs"
@@ -11120,7 +11220,7 @@
         "google": "FE54F",
         "image": "1f4d2.png",
         "sheet_x": 18,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "ledger",
         "short_names": [
             "ledger"
@@ -11140,7 +11240,7 @@
         "google": "FE545",
         "image": "1f4d3.png",
         "sheet_x": 18,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "notebook",
         "short_names": [
             "notebook"
@@ -11160,7 +11260,7 @@
         "google": "FE547",
         "image": "1f4d4.png",
         "sheet_x": 18,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "notebook_with_decorative_cover",
         "short_names": [
             "notebook_with_decorative_cover"
@@ -11180,7 +11280,7 @@
         "google": "FE502",
         "image": "1f4d5.png",
         "sheet_x": 18,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "closed_book",
         "short_names": [
             "closed_book"
@@ -11200,7 +11300,7 @@
         "google": "FE546",
         "image": "1f4d6.png",
         "sheet_x": 18,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "book",
         "short_names": [
             "book",
@@ -11221,7 +11321,7 @@
         "google": "FE4FF",
         "image": "1f4d7.png",
         "sheet_x": 18,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "green_book",
         "short_names": [
             "green_book"
@@ -11241,7 +11341,7 @@
         "google": "FE500",
         "image": "1f4d8.png",
         "sheet_x": 18,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "blue_book",
         "short_names": [
             "blue_book"
@@ -11261,7 +11361,7 @@
         "google": "FE501",
         "image": "1f4d9.png",
         "sheet_x": 18,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "orange_book",
         "short_names": [
             "orange_book"
@@ -11281,7 +11381,7 @@
         "google": "FE503",
         "image": "1f4da.png",
         "sheet_x": 18,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "books",
         "short_names": [
             "books"
@@ -11301,7 +11401,7 @@
         "google": "FE504",
         "image": "1f4db.png",
         "sheet_x": 18,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "name_badge",
         "short_names": [
             "name_badge"
@@ -11321,7 +11421,7 @@
         "google": "FE4FD",
         "image": "1f4dc.png",
         "sheet_x": 18,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "scroll",
         "short_names": [
             "scroll"
@@ -11341,7 +11441,7 @@
         "google": "FE527",
         "image": "1f4dd.png",
         "sheet_x": 18,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "memo",
         "short_names": [
             "memo",
@@ -11362,7 +11462,7 @@
         "google": "FE524",
         "image": "1f4de.png",
         "sheet_x": 18,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "telephone_receiver",
         "short_names": [
             "telephone_receiver"
@@ -11382,7 +11482,7 @@
         "google": "FE522",
         "image": "1f4df.png",
         "sheet_x": 18,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "pager",
         "short_names": [
             "pager"
@@ -11402,7 +11502,7 @@
         "google": "FE528",
         "image": "1f4e0.png",
         "sheet_x": 18,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "fax",
         "short_names": [
             "fax"
@@ -11422,7 +11522,7 @@
         "google": "FE531",
         "image": "1f4e1.png",
         "sheet_x": 18,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "satellite",
         "short_names": [
             "satellite"
@@ -11442,7 +11542,7 @@
         "google": "FE52F",
         "image": "1f4e2.png",
         "sheet_x": 18,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "loudspeaker",
         "short_names": [
             "loudspeaker"
@@ -11462,7 +11562,7 @@
         "google": "FE530",
         "image": "1f4e3.png",
         "sheet_x": 18,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "mega",
         "short_names": [
             "mega"
@@ -11482,7 +11582,7 @@
         "google": "FE533",
         "image": "1f4e4.png",
         "sheet_x": 18,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "outbox_tray",
         "short_names": [
             "outbox_tray"
@@ -11502,7 +11602,7 @@
         "google": "FE534",
         "image": "1f4e5.png",
         "sheet_x": 18,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "inbox_tray",
         "short_names": [
             "inbox_tray"
@@ -11521,8 +11621,8 @@
         "softbank": "E112",
         "google": "FE535",
         "image": "1f4e6.png",
-        "sheet_x": 18,
-        "sheet_y": 25,
+        "sheet_x": 19,
+        "sheet_y": 0,
         "short_name": "package",
         "short_names": [
             "package"
@@ -11541,8 +11641,8 @@
         "softbank": "E103",
         "google": "FEB92",
         "image": "1f4e7.png",
-        "sheet_x": 18,
-        "sheet_y": 26,
+        "sheet_x": 19,
+        "sheet_y": 1,
         "short_name": "e-mail",
         "short_names": [
             "e-mail"
@@ -11561,8 +11661,8 @@
         "softbank": "E103",
         "google": "FE52A",
         "image": "1f4e8.png",
-        "sheet_x": 18,
-        "sheet_y": 27,
+        "sheet_x": 19,
+        "sheet_y": 2,
         "short_name": "incoming_envelope",
         "short_names": [
             "incoming_envelope"
@@ -11581,8 +11681,8 @@
         "softbank": "E103",
         "google": "FE52B",
         "image": "1f4e9.png",
-        "sheet_x": 18,
-        "sheet_y": 28,
+        "sheet_x": 19,
+        "sheet_y": 3,
         "short_name": "envelope_with_arrow",
         "short_names": [
             "envelope_with_arrow"
@@ -11601,8 +11701,8 @@
         "softbank": "E101",
         "google": "FE52C",
         "image": "1f4ea.png",
-        "sheet_x": 18,
-        "sheet_y": 29,
+        "sheet_x": 19,
+        "sheet_y": 4,
         "short_name": "mailbox_closed",
         "short_names": [
             "mailbox_closed"
@@ -11622,7 +11722,7 @@
         "google": "FE52D",
         "image": "1f4eb.png",
         "sheet_x": 19,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "mailbox",
         "short_names": [
             "mailbox"
@@ -11642,7 +11742,7 @@
         "google": null,
         "image": "1f4ec.png",
         "sheet_x": 19,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "mailbox_with_mail",
         "short_names": [
             "mailbox_with_mail"
@@ -11662,7 +11762,7 @@
         "google": null,
         "image": "1f4ed.png",
         "sheet_x": 19,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "mailbox_with_no_mail",
         "short_names": [
             "mailbox_with_no_mail"
@@ -11682,7 +11782,7 @@
         "google": "FE52E",
         "image": "1f4ee.png",
         "sheet_x": 19,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "postbox",
         "short_names": [
             "postbox"
@@ -11702,7 +11802,7 @@
         "google": null,
         "image": "1f4ef.png",
         "sheet_x": 19,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "postal_horn",
         "short_names": [
             "postal_horn"
@@ -11722,7 +11822,7 @@
         "google": "FE822",
         "image": "1f4f0.png",
         "sheet_x": 19,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "newspaper",
         "short_names": [
             "newspaper"
@@ -11742,7 +11842,7 @@
         "google": "FE525",
         "image": "1f4f1.png",
         "sheet_x": 19,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "iphone",
         "short_names": [
             "iphone"
@@ -11762,7 +11862,7 @@
         "google": "FE526",
         "image": "1f4f2.png",
         "sheet_x": 19,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "calling",
         "short_names": [
             "calling"
@@ -11782,7 +11882,7 @@
         "google": "FE839",
         "image": "1f4f3.png",
         "sheet_x": 19,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "vibration_mode",
         "short_names": [
             "vibration_mode"
@@ -11802,7 +11902,7 @@
         "google": "FE83A",
         "image": "1f4f4.png",
         "sheet_x": 19,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "mobile_phone_off",
         "short_names": [
             "mobile_phone_off"
@@ -11822,7 +11922,7 @@
         "google": null,
         "image": "1f4f5.png",
         "sheet_x": 19,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "no_mobile_phones",
         "short_names": [
             "no_mobile_phones"
@@ -11842,7 +11942,7 @@
         "google": "FE838",
         "image": "1f4f6.png",
         "sheet_x": 19,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "signal_strength",
         "short_names": [
             "signal_strength"
@@ -11862,7 +11962,7 @@
         "google": "FE4EF",
         "image": "1f4f7.png",
         "sheet_x": 19,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "camera",
         "short_names": [
             "camera"
@@ -11882,7 +11982,7 @@
         "google": "FE4F9",
         "image": "1f4f9.png",
         "sheet_x": 19,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "video_camera",
         "short_names": [
             "video_camera"
@@ -11902,7 +12002,7 @@
         "google": "FE81C",
         "image": "1f4fa.png",
         "sheet_x": 19,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "tv",
         "short_names": [
             "tv"
@@ -11922,7 +12022,7 @@
         "google": "FE81F",
         "image": "1f4fb.png",
         "sheet_x": 19,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "radio",
         "short_names": [
             "radio"
@@ -11942,7 +12042,7 @@
         "google": "FE820",
         "image": "1f4fc.png",
         "sheet_x": 19,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "vhs",
         "short_names": [
             "vhs"
@@ -11962,7 +12062,7 @@
         "google": null,
         "image": "1f500.png",
         "sheet_x": 19,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "twisted_rightwards_arrows",
         "short_names": [
             "twisted_rightwards_arrows"
@@ -11982,7 +12082,7 @@
         "google": null,
         "image": "1f501.png",
         "sheet_x": 19,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "repeat",
         "short_names": [
             "repeat"
@@ -12002,7 +12102,7 @@
         "google": null,
         "image": "1f502.png",
         "sheet_x": 19,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "repeat_one",
         "short_names": [
             "repeat_one"
@@ -12022,7 +12122,7 @@
         "google": "FEB91",
         "image": "1f503.png",
         "sheet_x": 19,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "arrows_clockwise",
         "short_names": [
             "arrows_clockwise"
@@ -12042,7 +12142,7 @@
         "google": null,
         "image": "1f504.png",
         "sheet_x": 19,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "arrows_counterclockwise",
         "short_names": [
             "arrows_counterclockwise"
@@ -12062,7 +12162,7 @@
         "google": null,
         "image": "1f505.png",
         "sheet_x": 19,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "low_brightness",
         "short_names": [
             "low_brightness"
@@ -12082,7 +12182,7 @@
         "google": null,
         "image": "1f506.png",
         "sheet_x": 19,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "high_brightness",
         "short_names": [
             "high_brightness"
@@ -12102,7 +12202,7 @@
         "google": null,
         "image": "1f507.png",
         "sheet_x": 19,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "mute",
         "short_names": [
             "mute"
@@ -12121,8 +12221,8 @@
         "softbank": null,
         "google": null,
         "image": "1f508.png",
-        "sheet_x": 19,
-        "sheet_y": 25,
+        "sheet_x": 20,
+        "sheet_y": 0,
         "short_name": "speaker",
         "short_names": [
             "speaker"
@@ -12141,8 +12241,8 @@
         "softbank": null,
         "google": null,
         "image": "1f509.png",
-        "sheet_x": 19,
-        "sheet_y": 26,
+        "sheet_x": 20,
+        "sheet_y": 1,
         "short_name": "sound",
         "short_names": [
             "sound"
@@ -12161,8 +12261,8 @@
         "softbank": "E141",
         "google": "FE821",
         "image": "1f50a.png",
-        "sheet_x": 19,
-        "sheet_y": 27,
+        "sheet_x": 20,
+        "sheet_y": 2,
         "short_name": "loud_sound",
         "short_names": [
             "loud_sound"
@@ -12181,8 +12281,8 @@
         "softbank": null,
         "google": "FE4FC",
         "image": "1f50b.png",
-        "sheet_x": 19,
-        "sheet_y": 28,
+        "sheet_x": 20,
+        "sheet_y": 3,
         "short_name": "battery",
         "short_names": [
             "battery"
@@ -12201,8 +12301,8 @@
         "softbank": null,
         "google": "FE4FE",
         "image": "1f50c.png",
-        "sheet_x": 19,
-        "sheet_y": 29,
+        "sheet_x": 20,
+        "sheet_y": 4,
         "short_name": "electric_plug",
         "short_names": [
             "electric_plug"
@@ -12222,7 +12322,7 @@
         "google": "FEB85",
         "image": "1f50d.png",
         "sheet_x": 20,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "mag",
         "short_names": [
             "mag"
@@ -12242,7 +12342,7 @@
         "google": "FEB8D",
         "image": "1f50e.png",
         "sheet_x": 20,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "mag_right",
         "short_names": [
             "mag_right"
@@ -12262,7 +12362,7 @@
         "google": "FEB90",
         "image": "1f50f.png",
         "sheet_x": 20,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "lock_with_ink_pen",
         "short_names": [
             "lock_with_ink_pen"
@@ -12282,7 +12382,7 @@
         "google": "FEB8A",
         "image": "1f510.png",
         "sheet_x": 20,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "closed_lock_with_key",
         "short_names": [
             "closed_lock_with_key"
@@ -12302,7 +12402,7 @@
         "google": "FEB82",
         "image": "1f511.png",
         "sheet_x": 20,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "key",
         "short_names": [
             "key"
@@ -12322,7 +12422,7 @@
         "google": "FEB86",
         "image": "1f512.png",
         "sheet_x": 20,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "lock",
         "short_names": [
             "lock"
@@ -12342,7 +12442,7 @@
         "google": "FEB87",
         "image": "1f513.png",
         "sheet_x": 20,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "unlock",
         "short_names": [
             "unlock"
@@ -12362,7 +12462,7 @@
         "google": "FE4F2",
         "image": "1f514.png",
         "sheet_x": 20,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "bell",
         "short_names": [
             "bell"
@@ -12382,7 +12482,7 @@
         "google": null,
         "image": "1f515.png",
         "sheet_x": 20,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "no_bell",
         "short_names": [
             "no_bell"
@@ -12402,7 +12502,7 @@
         "google": "FEB8F",
         "image": "1f516.png",
         "sheet_x": 20,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "bookmark",
         "short_names": [
             "bookmark"
@@ -12422,7 +12522,7 @@
         "google": "FEB4B",
         "image": "1f517.png",
         "sheet_x": 20,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "link",
         "short_names": [
             "link"
@@ -12442,7 +12542,7 @@
         "google": "FEB8C",
         "image": "1f518.png",
         "sheet_x": 20,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "radio_button",
         "short_names": [
             "radio_button"
@@ -12462,7 +12562,7 @@
         "google": "FEB8E",
         "image": "1f519.png",
         "sheet_x": 20,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "back",
         "short_names": [
             "back"
@@ -12482,7 +12582,7 @@
         "google": "FE01A",
         "image": "1f51a.png",
         "sheet_x": 20,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "end",
         "short_names": [
             "end"
@@ -12502,7 +12602,7 @@
         "google": "FE019",
         "image": "1f51b.png",
         "sheet_x": 20,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "on",
         "short_names": [
             "on"
@@ -12522,7 +12622,7 @@
         "google": "FE018",
         "image": "1f51c.png",
         "sheet_x": 20,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "soon",
         "short_names": [
             "soon"
@@ -12542,7 +12642,7 @@
         "google": "FEB42",
         "image": "1f51d.png",
         "sheet_x": 20,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "top",
         "short_names": [
             "top"
@@ -12562,7 +12662,7 @@
         "google": "FEB25",
         "image": "1f51e.png",
         "sheet_x": 20,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "underage",
         "short_names": [
             "underage"
@@ -12582,7 +12682,7 @@
         "google": "FE83B",
         "image": "1f51f.png",
         "sheet_x": 20,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "keycap_ten",
         "short_names": [
             "keycap_ten"
@@ -12602,7 +12702,7 @@
         "google": "FEB7C",
         "image": "1f520.png",
         "sheet_x": 20,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "capital_abcd",
         "short_names": [
             "capital_abcd"
@@ -12622,7 +12722,7 @@
         "google": "FEB7D",
         "image": "1f521.png",
         "sheet_x": 20,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "abcd",
         "short_names": [
             "abcd"
@@ -12642,7 +12742,7 @@
         "google": "FEB7E",
         "image": "1f522.png",
         "sheet_x": 20,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "1234",
         "short_names": [
             "1234"
@@ -12662,7 +12762,7 @@
         "google": "FEB7F",
         "image": "1f523.png",
         "sheet_x": 20,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "symbols",
         "short_names": [
             "symbols"
@@ -12682,7 +12782,7 @@
         "google": "FEB80",
         "image": "1f524.png",
         "sheet_x": 20,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "abc",
         "short_names": [
             "abc"
@@ -12702,7 +12802,7 @@
         "google": "FE4F6",
         "image": "1f525.png",
         "sheet_x": 20,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "fire",
         "short_names": [
             "fire"
@@ -12721,8 +12821,8 @@
         "softbank": null,
         "google": "FE4FB",
         "image": "1f526.png",
-        "sheet_x": 20,
-        "sheet_y": 25,
+        "sheet_x": 21,
+        "sheet_y": 0,
         "short_name": "flashlight",
         "short_names": [
             "flashlight"
@@ -12741,8 +12841,8 @@
         "softbank": null,
         "google": "FE4C9",
         "image": "1f527.png",
-        "sheet_x": 20,
-        "sheet_y": 26,
+        "sheet_x": 21,
+        "sheet_y": 1,
         "short_name": "wrench",
         "short_names": [
             "wrench"
@@ -12761,8 +12861,8 @@
         "softbank": "E116",
         "google": "FE4CA",
         "image": "1f528.png",
-        "sheet_x": 20,
-        "sheet_y": 27,
+        "sheet_x": 21,
+        "sheet_y": 2,
         "short_name": "hammer",
         "short_names": [
             "hammer"
@@ -12781,8 +12881,8 @@
         "softbank": null,
         "google": "FE4CB",
         "image": "1f529.png",
-        "sheet_x": 20,
-        "sheet_y": 28,
+        "sheet_x": 21,
+        "sheet_y": 3,
         "short_name": "nut_and_bolt",
         "short_names": [
             "nut_and_bolt"
@@ -12801,8 +12901,8 @@
         "softbank": null,
         "google": "FE4FA",
         "image": "1f52a.png",
-        "sheet_x": 20,
-        "sheet_y": 29,
+        "sheet_x": 21,
+        "sheet_y": 4,
         "short_name": "hocho",
         "short_names": [
             "hocho",
@@ -12823,7 +12923,7 @@
         "google": "FE4F5",
         "image": "1f52b.png",
         "sheet_x": 21,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "gun",
         "short_names": [
             "gun"
@@ -12843,7 +12943,7 @@
         "google": null,
         "image": "1f52c.png",
         "sheet_x": 21,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "microscope",
         "short_names": [
             "microscope"
@@ -12863,7 +12963,7 @@
         "google": null,
         "image": "1f52d.png",
         "sheet_x": 21,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "telescope",
         "short_names": [
             "telescope"
@@ -12883,7 +12983,7 @@
         "google": "FE4F7",
         "image": "1f52e.png",
         "sheet_x": 21,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "crystal_ball",
         "short_names": [
             "crystal_ball"
@@ -12903,7 +13003,7 @@
         "google": "FE4F8",
         "image": "1f52f.png",
         "sheet_x": 21,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "six_pointed_star",
         "short_names": [
             "six_pointed_star"
@@ -12923,7 +13023,7 @@
         "google": "FE044",
         "image": "1f530.png",
         "sheet_x": 21,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "beginner",
         "short_names": [
             "beginner"
@@ -12943,7 +13043,7 @@
         "google": "FE4D2",
         "image": "1f531.png",
         "sheet_x": 21,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "trident",
         "short_names": [
             "trident"
@@ -12963,7 +13063,7 @@
         "google": "FEB64",
         "image": "1f532.png",
         "sheet_x": 21,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "black_square_button",
         "short_names": [
             "black_square_button"
@@ -12983,7 +13083,7 @@
         "google": "FEB67",
         "image": "1f533.png",
         "sheet_x": 21,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "white_square_button",
         "short_names": [
             "white_square_button"
@@ -13003,7 +13103,7 @@
         "google": "FEB63",
         "image": "1f534.png",
         "sheet_x": 21,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "red_circle",
         "short_names": [
             "red_circle"
@@ -13023,7 +13123,7 @@
         "google": "FEB64",
         "image": "1f535.png",
         "sheet_x": 21,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "large_blue_circle",
         "short_names": [
             "large_blue_circle"
@@ -13043,7 +13143,7 @@
         "google": "FEB73",
         "image": "1f536.png",
         "sheet_x": 21,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "large_orange_diamond",
         "short_names": [
             "large_orange_diamond"
@@ -13063,7 +13163,7 @@
         "google": "FEB74",
         "image": "1f537.png",
         "sheet_x": 21,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "large_blue_diamond",
         "short_names": [
             "large_blue_diamond"
@@ -13083,7 +13183,7 @@
         "google": "FEB75",
         "image": "1f538.png",
         "sheet_x": 21,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "small_orange_diamond",
         "short_names": [
             "small_orange_diamond"
@@ -13103,7 +13203,7 @@
         "google": "FEB76",
         "image": "1f539.png",
         "sheet_x": 21,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "small_blue_diamond",
         "short_names": [
             "small_blue_diamond"
@@ -13123,7 +13223,7 @@
         "google": "FEB78",
         "image": "1f53a.png",
         "sheet_x": 21,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "small_red_triangle",
         "short_names": [
             "small_red_triangle"
@@ -13143,7 +13243,7 @@
         "google": "FEB79",
         "image": "1f53b.png",
         "sheet_x": 21,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "small_red_triangle_down",
         "short_names": [
             "small_red_triangle_down"
@@ -13163,7 +13263,7 @@
         "google": "FEB01",
         "image": "1f53c.png",
         "sheet_x": 21,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "arrow_up_small",
         "short_names": [
             "arrow_up_small"
@@ -13183,7 +13283,7 @@
         "google": "FEB00",
         "image": "1f53d.png",
         "sheet_x": 21,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "arrow_down_small",
         "short_names": [
             "arrow_down_small"
@@ -13203,7 +13303,7 @@
         "google": "FE01E",
         "image": "1f550.png",
         "sheet_x": 21,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "clock1",
         "short_names": [
             "clock1"
@@ -13223,7 +13323,7 @@
         "google": "FE01F",
         "image": "1f551.png",
         "sheet_x": 21,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "clock2",
         "short_names": [
             "clock2"
@@ -13243,7 +13343,7 @@
         "google": "FE020",
         "image": "1f552.png",
         "sheet_x": 21,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "clock3",
         "short_names": [
             "clock3"
@@ -13263,7 +13363,7 @@
         "google": "FE021",
         "image": "1f553.png",
         "sheet_x": 21,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "clock4",
         "short_names": [
             "clock4"
@@ -13283,7 +13383,7 @@
         "google": "FE022",
         "image": "1f554.png",
         "sheet_x": 21,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "clock5",
         "short_names": [
             "clock5"
@@ -13303,7 +13403,7 @@
         "google": "FE023",
         "image": "1f555.png",
         "sheet_x": 21,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "clock6",
         "short_names": [
             "clock6"
@@ -13322,8 +13422,8 @@
         "softbank": "E02A",
         "google": "FE024",
         "image": "1f556.png",
-        "sheet_x": 21,
-        "sheet_y": 25,
+        "sheet_x": 22,
+        "sheet_y": 0,
         "short_name": "clock7",
         "short_names": [
             "clock7"
@@ -13342,8 +13442,8 @@
         "softbank": "E02B",
         "google": "FE025",
         "image": "1f557.png",
-        "sheet_x": 21,
-        "sheet_y": 26,
+        "sheet_x": 22,
+        "sheet_y": 1,
         "short_name": "clock8",
         "short_names": [
             "clock8"
@@ -13362,8 +13462,8 @@
         "softbank": "E02C",
         "google": "FE026",
         "image": "1f558.png",
-        "sheet_x": 21,
-        "sheet_y": 27,
+        "sheet_x": 22,
+        "sheet_y": 2,
         "short_name": "clock9",
         "short_names": [
             "clock9"
@@ -13382,8 +13482,8 @@
         "softbank": "E02D",
         "google": "FE027",
         "image": "1f559.png",
-        "sheet_x": 21,
-        "sheet_y": 28,
+        "sheet_x": 22,
+        "sheet_y": 3,
         "short_name": "clock10",
         "short_names": [
             "clock10"
@@ -13402,8 +13502,8 @@
         "softbank": "E02E",
         "google": "FE028",
         "image": "1f55a.png",
-        "sheet_x": 21,
-        "sheet_y": 29,
+        "sheet_x": 22,
+        "sheet_y": 4,
         "short_name": "clock11",
         "short_names": [
             "clock11"
@@ -13423,7 +13523,7 @@
         "google": "FE029",
         "image": "1f55b.png",
         "sheet_x": 22,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "clock12",
         "short_names": [
             "clock12"
@@ -13443,7 +13543,7 @@
         "google": null,
         "image": "1f55c.png",
         "sheet_x": 22,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "clock130",
         "short_names": [
             "clock130"
@@ -13463,7 +13563,7 @@
         "google": null,
         "image": "1f55d.png",
         "sheet_x": 22,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "clock230",
         "short_names": [
             "clock230"
@@ -13483,7 +13583,7 @@
         "google": null,
         "image": "1f55e.png",
         "sheet_x": 22,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "clock330",
         "short_names": [
             "clock330"
@@ -13503,7 +13603,7 @@
         "google": null,
         "image": "1f55f.png",
         "sheet_x": 22,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "clock430",
         "short_names": [
             "clock430"
@@ -13523,7 +13623,7 @@
         "google": null,
         "image": "1f560.png",
         "sheet_x": 22,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "clock530",
         "short_names": [
             "clock530"
@@ -13543,7 +13643,7 @@
         "google": null,
         "image": "1f561.png",
         "sheet_x": 22,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "clock630",
         "short_names": [
             "clock630"
@@ -13563,7 +13663,7 @@
         "google": null,
         "image": "1f562.png",
         "sheet_x": 22,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "clock730",
         "short_names": [
             "clock730"
@@ -13583,7 +13683,7 @@
         "google": null,
         "image": "1f563.png",
         "sheet_x": 22,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "clock830",
         "short_names": [
             "clock830"
@@ -13603,7 +13703,7 @@
         "google": null,
         "image": "1f564.png",
         "sheet_x": 22,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "clock930",
         "short_names": [
             "clock930"
@@ -13623,7 +13723,7 @@
         "google": null,
         "image": "1f565.png",
         "sheet_x": 22,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "clock1030",
         "short_names": [
             "clock1030"
@@ -13643,7 +13743,7 @@
         "google": null,
         "image": "1f566.png",
         "sheet_x": 22,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "clock1130",
         "short_names": [
             "clock1130"
@@ -13663,7 +13763,7 @@
         "google": null,
         "image": "1f567.png",
         "sheet_x": 22,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "clock1230",
         "short_names": [
             "clock1230"
@@ -13683,7 +13783,7 @@
         "google": "FE4C3",
         "image": "1f5fb.png",
         "sheet_x": 22,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "mount_fuji",
         "short_names": [
             "mount_fuji"
@@ -13703,7 +13803,7 @@
         "google": "FE4C4",
         "image": "1f5fc.png",
         "sheet_x": 22,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "tokyo_tower",
         "short_names": [
             "tokyo_tower"
@@ -13723,7 +13823,7 @@
         "google": "FE4C6",
         "image": "1f5fd.png",
         "sheet_x": 22,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "statue_of_liberty",
         "short_names": [
             "statue_of_liberty"
@@ -13743,7 +13843,7 @@
         "google": "FE4C7",
         "image": "1f5fe.png",
         "sheet_x": 22,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "japan",
         "short_names": [
             "japan"
@@ -13763,7 +13863,7 @@
         "google": "FE4C8",
         "image": "1f5ff.png",
         "sheet_x": 22,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "moyai",
         "short_names": [
             "moyai"
@@ -13783,7 +13883,7 @@
         "google": null,
         "image": "1f600.png",
         "sheet_x": 22,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "grinning",
         "short_names": [
             "grinning"
@@ -13803,7 +13903,7 @@
         "google": "FE333",
         "image": "1f601.png",
         "sheet_x": 22,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "grin",
         "short_names": [
             "grin"
@@ -13823,7 +13923,7 @@
         "google": "FE334",
         "image": "1f602.png",
         "sheet_x": 22,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "joy",
         "short_names": [
             "joy"
@@ -13843,7 +13943,7 @@
         "google": "FE330",
         "image": "1f603.png",
         "sheet_x": 22,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "smiley",
         "short_names": [
             "smiley"
@@ -13863,7 +13963,7 @@
         "google": "FE338",
         "image": "1f604.png",
         "sheet_x": 22,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "smile",
         "short_names": [
             "smile"
@@ -13883,7 +13983,7 @@
         "google": "FE331",
         "image": "1f605.png",
         "sheet_x": 22,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "sweat_smile",
         "short_names": [
             "sweat_smile"
@@ -13903,7 +14003,7 @@
         "google": "FE332",
         "image": "1f606.png",
         "sheet_x": 22,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "laughing",
         "short_names": [
             "laughing",
@@ -13923,8 +14023,8 @@
         "softbank": null,
         "google": null,
         "image": "1f607.png",
-        "sheet_x": 22,
-        "sheet_y": 25,
+        "sheet_x": 23,
+        "sheet_y": 0,
         "short_name": "innocent",
         "short_names": [
             "innocent"
@@ -13943,8 +14043,8 @@
         "softbank": null,
         "google": null,
         "image": "1f608.png",
-        "sheet_x": 22,
-        "sheet_y": 26,
+        "sheet_x": 23,
+        "sheet_y": 1,
         "short_name": "smiling_imp",
         "short_names": [
             "smiling_imp"
@@ -13963,8 +14063,8 @@
         "softbank": "E405",
         "google": "FE347",
         "image": "1f609.png",
-        "sheet_x": 22,
-        "sheet_y": 27,
+        "sheet_x": 23,
+        "sheet_y": 2,
         "short_name": "wink",
         "short_names": [
             "wink"
@@ -13983,8 +14083,8 @@
         "softbank": "E056",
         "google": "FE335",
         "image": "1f60a.png",
-        "sheet_x": 22,
-        "sheet_y": 28,
+        "sheet_x": 23,
+        "sheet_y": 3,
         "short_name": "blush",
         "short_names": [
             "blush"
@@ -14003,8 +14103,8 @@
         "softbank": "E056",
         "google": "FE32B",
         "image": "1f60b.png",
-        "sheet_x": 22,
-        "sheet_y": 29,
+        "sheet_x": 23,
+        "sheet_y": 4,
         "short_name": "yum",
         "short_names": [
             "yum"
@@ -14024,7 +14124,7 @@
         "google": "FE33E",
         "image": "1f60c.png",
         "sheet_x": 23,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "relieved",
         "short_names": [
             "relieved"
@@ -14044,7 +14144,7 @@
         "google": "FE327",
         "image": "1f60d.png",
         "sheet_x": 23,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "heart_eyes",
         "short_names": [
             "heart_eyes"
@@ -14064,7 +14164,7 @@
         "google": null,
         "image": "1f60e.png",
         "sheet_x": 23,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "sunglasses",
         "short_names": [
             "sunglasses"
@@ -14084,7 +14184,7 @@
         "google": "FE343",
         "image": "1f60f.png",
         "sheet_x": 23,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "smirk",
         "short_names": [
             "smirk"
@@ -14104,7 +14204,7 @@
         "google": null,
         "image": "1f610.png",
         "sheet_x": 23,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "neutral_face",
         "short_names": [
             "neutral_face"
@@ -14124,7 +14224,7 @@
         "google": null,
         "image": "1f611.png",
         "sheet_x": 23,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "expressionless",
         "short_names": [
             "expressionless"
@@ -14144,7 +14244,7 @@
         "google": "FE326",
         "image": "1f612.png",
         "sheet_x": 23,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "unamused",
         "short_names": [
             "unamused"
@@ -14164,7 +14264,7 @@
         "google": "FE344",
         "image": "1f613.png",
         "sheet_x": 23,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "sweat",
         "short_names": [
             "sweat"
@@ -14184,7 +14284,7 @@
         "google": "FE340",
         "image": "1f614.png",
         "sheet_x": 23,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "pensive",
         "short_names": [
             "pensive"
@@ -14204,7 +14304,7 @@
         "google": null,
         "image": "1f615.png",
         "sheet_x": 23,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "confused",
         "short_names": [
             "confused"
@@ -14224,7 +14324,7 @@
         "google": "FE33F",
         "image": "1f616.png",
         "sheet_x": 23,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "confounded",
         "short_names": [
             "confounded"
@@ -14244,7 +14344,7 @@
         "google": null,
         "image": "1f617.png",
         "sheet_x": 23,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "kissing",
         "short_names": [
             "kissing"
@@ -14264,7 +14364,7 @@
         "google": "FE32C",
         "image": "1f618.png",
         "sheet_x": 23,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "kissing_heart",
         "short_names": [
             "kissing_heart"
@@ -14284,7 +14384,7 @@
         "google": null,
         "image": "1f619.png",
         "sheet_x": 23,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "kissing_smiling_eyes",
         "short_names": [
             "kissing_smiling_eyes"
@@ -14304,7 +14404,7 @@
         "google": "FE32D",
         "image": "1f61a.png",
         "sheet_x": 23,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "kissing_closed_eyes",
         "short_names": [
             "kissing_closed_eyes"
@@ -14324,7 +14424,7 @@
         "google": null,
         "image": "1f61b.png",
         "sheet_x": 23,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "stuck_out_tongue",
         "short_names": [
             "stuck_out_tongue"
@@ -14344,7 +14444,7 @@
         "google": "FE329",
         "image": "1f61c.png",
         "sheet_x": 23,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "stuck_out_tongue_winking_eye",
         "short_names": [
             "stuck_out_tongue_winking_eye"
@@ -14364,7 +14464,7 @@
         "google": "FE32A",
         "image": "1f61d.png",
         "sheet_x": 23,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "stuck_out_tongue_closed_eyes",
         "short_names": [
             "stuck_out_tongue_closed_eyes"
@@ -14384,7 +14484,7 @@
         "google": "FE323",
         "image": "1f61e.png",
         "sheet_x": 23,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "disappointed",
         "short_names": [
             "disappointed"
@@ -14404,7 +14504,7 @@
         "google": null,
         "image": "1f61f.png",
         "sheet_x": 23,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "worried",
         "short_names": [
             "worried"
@@ -14424,7 +14524,7 @@
         "google": "FE320",
         "image": "1f620.png",
         "sheet_x": 23,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "angry",
         "short_names": [
             "angry"
@@ -14444,7 +14544,7 @@
         "google": "FE33D",
         "image": "1f621.png",
         "sheet_x": 23,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "rage",
         "short_names": [
             "rage"
@@ -14464,7 +14564,7 @@
         "google": "FE339",
         "image": "1f622.png",
         "sheet_x": 23,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "cry",
         "short_names": [
             "cry"
@@ -14484,7 +14584,7 @@
         "google": "FE33C",
         "image": "1f623.png",
         "sheet_x": 23,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "persevere",
         "short_names": [
             "persevere"
@@ -14504,7 +14604,7 @@
         "google": "FE328",
         "image": "1f624.png",
         "sheet_x": 23,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "triumph",
         "short_names": [
             "triumph"
@@ -14523,8 +14623,8 @@
         "softbank": "E401",
         "google": "FE345",
         "image": "1f625.png",
-        "sheet_x": 23,
-        "sheet_y": 25,
+        "sheet_x": 24,
+        "sheet_y": 0,
         "short_name": "disappointed_relieved",
         "short_names": [
             "disappointed_relieved"
@@ -14543,8 +14643,8 @@
         "softbank": null,
         "google": null,
         "image": "1f626.png",
-        "sheet_x": 23,
-        "sheet_y": 26,
+        "sheet_x": 24,
+        "sheet_y": 1,
         "short_name": "frowning",
         "short_names": [
             "frowning"
@@ -14563,8 +14663,8 @@
         "softbank": null,
         "google": null,
         "image": "1f627.png",
-        "sheet_x": 23,
-        "sheet_y": 27,
+        "sheet_x": 24,
+        "sheet_y": 2,
         "short_name": "anguished",
         "short_names": [
             "anguished"
@@ -14583,8 +14683,8 @@
         "softbank": "E40B",
         "google": "FE33B",
         "image": "1f628.png",
-        "sheet_x": 23,
-        "sheet_y": 28,
+        "sheet_x": 24,
+        "sheet_y": 3,
         "short_name": "fearful",
         "short_names": [
             "fearful"
@@ -14603,8 +14703,8 @@
         "softbank": "E403",
         "google": "FE321",
         "image": "1f629.png",
-        "sheet_x": 23,
-        "sheet_y": 29,
+        "sheet_x": 24,
+        "sheet_y": 4,
         "short_name": "weary",
         "short_names": [
             "weary"
@@ -14624,7 +14724,7 @@
         "google": "FE342",
         "image": "1f62a.png",
         "sheet_x": 24,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "sleepy",
         "short_names": [
             "sleepy"
@@ -14644,7 +14744,7 @@
         "google": "FE346",
         "image": "1f62b.png",
         "sheet_x": 24,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "tired_face",
         "short_names": [
             "tired_face"
@@ -14664,7 +14764,7 @@
         "google": null,
         "image": "1f62c.png",
         "sheet_x": 24,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "grimacing",
         "short_names": [
             "grimacing"
@@ -14684,7 +14784,7 @@
         "google": "FE33A",
         "image": "1f62d.png",
         "sheet_x": 24,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "sob",
         "short_names": [
             "sob"
@@ -14704,7 +14804,7 @@
         "google": null,
         "image": "1f62e.png",
         "sheet_x": 24,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "open_mouth",
         "short_names": [
             "open_mouth"
@@ -14724,7 +14824,7 @@
         "google": null,
         "image": "1f62f.png",
         "sheet_x": 24,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "hushed",
         "short_names": [
             "hushed"
@@ -14744,7 +14844,7 @@
         "google": "FE325",
         "image": "1f630.png",
         "sheet_x": 24,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "cold_sweat",
         "short_names": [
             "cold_sweat"
@@ -14764,7 +14864,7 @@
         "google": "FE341",
         "image": "1f631.png",
         "sheet_x": 24,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "scream",
         "short_names": [
             "scream"
@@ -14784,7 +14884,7 @@
         "google": "FE322",
         "image": "1f632.png",
         "sheet_x": 24,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "astonished",
         "short_names": [
             "astonished"
@@ -14804,7 +14904,7 @@
         "google": "FE32F",
         "image": "1f633.png",
         "sheet_x": 24,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "flushed",
         "short_names": [
             "flushed"
@@ -14824,7 +14924,7 @@
         "google": null,
         "image": "1f634.png",
         "sheet_x": 24,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "sleeping",
         "short_names": [
             "sleeping"
@@ -14844,7 +14944,7 @@
         "google": "FE324",
         "image": "1f635.png",
         "sheet_x": 24,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "dizzy_face",
         "short_names": [
             "dizzy_face"
@@ -14864,7 +14964,7 @@
         "google": null,
         "image": "1f636.png",
         "sheet_x": 24,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "no_mouth",
         "short_names": [
             "no_mouth"
@@ -14884,7 +14984,7 @@
         "google": "FE32E",
         "image": "1f637.png",
         "sheet_x": 24,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "mask",
         "short_names": [
             "mask"
@@ -14904,7 +15004,7 @@
         "google": "FE349",
         "image": "1f638.png",
         "sheet_x": 24,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "smile_cat",
         "short_names": [
             "smile_cat"
@@ -14924,7 +15024,7 @@
         "google": "FE34A",
         "image": "1f639.png",
         "sheet_x": 24,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "joy_cat",
         "short_names": [
             "joy_cat"
@@ -14944,7 +15044,7 @@
         "google": "FE348",
         "image": "1f63a.png",
         "sheet_x": 24,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "smiley_cat",
         "short_names": [
             "smiley_cat"
@@ -14964,7 +15064,7 @@
         "google": "FE34C",
         "image": "1f63b.png",
         "sheet_x": 24,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "heart_eyes_cat",
         "short_names": [
             "heart_eyes_cat"
@@ -14984,7 +15084,7 @@
         "google": "FE34F",
         "image": "1f63c.png",
         "sheet_x": 24,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "smirk_cat",
         "short_names": [
             "smirk_cat"
@@ -15004,7 +15104,7 @@
         "google": "FE34B",
         "image": "1f63d.png",
         "sheet_x": 24,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "kissing_cat",
         "short_names": [
             "kissing_cat"
@@ -15024,7 +15124,7 @@
         "google": "FE34E",
         "image": "1f63e.png",
         "sheet_x": 24,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "pouting_cat",
         "short_names": [
             "pouting_cat"
@@ -15044,7 +15144,7 @@
         "google": "FE34D",
         "image": "1f63f.png",
         "sheet_x": 24,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "crying_cat_face",
         "short_names": [
             "crying_cat_face"
@@ -15064,7 +15164,7 @@
         "google": "FE350",
         "image": "1f640.png",
         "sheet_x": 24,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "scream_cat",
         "short_names": [
             "scream_cat"
@@ -15084,7 +15184,7 @@
         "google": "FE351",
         "image": "1f645.png",
         "sheet_x": 24,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "no_good",
         "short_names": [
             "no_good"
@@ -15104,7 +15204,7 @@
         "google": "FE352",
         "image": "1f646.png",
         "sheet_x": 24,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "ok_woman",
         "short_names": [
             "ok_woman"
@@ -15123,8 +15223,8 @@
         "softbank": "E426",
         "google": "FE353",
         "image": "1f647.png",
-        "sheet_x": 24,
-        "sheet_y": 25,
+        "sheet_x": 25,
+        "sheet_y": 0,
         "short_name": "bow",
         "short_names": [
             "bow"
@@ -15143,8 +15243,8 @@
         "softbank": null,
         "google": "FE354",
         "image": "1f648.png",
-        "sheet_x": 24,
-        "sheet_y": 26,
+        "sheet_x": 25,
+        "sheet_y": 1,
         "short_name": "see_no_evil",
         "short_names": [
             "see_no_evil"
@@ -15163,8 +15263,8 @@
         "softbank": null,
         "google": "FE356",
         "image": "1f649.png",
-        "sheet_x": 24,
-        "sheet_y": 27,
+        "sheet_x": 25,
+        "sheet_y": 2,
         "short_name": "hear_no_evil",
         "short_names": [
             "hear_no_evil"
@@ -15183,8 +15283,8 @@
         "softbank": null,
         "google": "FE355",
         "image": "1f64a.png",
-        "sheet_x": 24,
-        "sheet_y": 28,
+        "sheet_x": 25,
+        "sheet_y": 3,
         "short_name": "speak_no_evil",
         "short_names": [
             "speak_no_evil"
@@ -15203,8 +15303,8 @@
         "softbank": "E012",
         "google": "FE357",
         "image": "1f64b.png",
-        "sheet_x": 24,
-        "sheet_y": 29,
+        "sheet_x": 25,
+        "sheet_y": 4,
         "short_name": "raising_hand",
         "short_names": [
             "raising_hand"
@@ -15224,7 +15324,7 @@
         "google": "FE358",
         "image": "1f64c.png",
         "sheet_x": 25,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "raised_hands",
         "short_names": [
             "raised_hands"
@@ -15244,7 +15344,7 @@
         "google": "FE359",
         "image": "1f64d.png",
         "sheet_x": 25,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "person_frowning",
         "short_names": [
             "person_frowning"
@@ -15264,7 +15364,7 @@
         "google": "FE35A",
         "image": "1f64e.png",
         "sheet_x": 25,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "person_with_pouting_face",
         "short_names": [
             "person_with_pouting_face"
@@ -15284,7 +15384,7 @@
         "google": "FE35B",
         "image": "1f64f.png",
         "sheet_x": 25,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "pray",
         "short_names": [
             "pray"
@@ -15304,7 +15404,7 @@
         "google": "FE7ED",
         "image": "1f680.png",
         "sheet_x": 25,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "rocket",
         "short_names": [
             "rocket"
@@ -15324,7 +15424,7 @@
         "google": null,
         "image": "1f681.png",
         "sheet_x": 25,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "helicopter",
         "short_names": [
             "helicopter"
@@ -15344,7 +15444,7 @@
         "google": null,
         "image": "1f682.png",
         "sheet_x": 25,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "steam_locomotive",
         "short_names": [
             "steam_locomotive"
@@ -15364,7 +15464,7 @@
         "google": "FE7DF",
         "image": "1f683.png",
         "sheet_x": 25,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "railway_car",
         "short_names": [
             "railway_car"
@@ -15384,7 +15484,7 @@
         "google": "FE7E2",
         "image": "1f684.png",
         "sheet_x": 25,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "bullettrain_side",
         "short_names": [
             "bullettrain_side"
@@ -15404,7 +15504,7 @@
         "google": "FE7E3",
         "image": "1f685.png",
         "sheet_x": 25,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "bullettrain_front",
         "short_names": [
             "bullettrain_front"
@@ -15424,7 +15524,7 @@
         "google": null,
         "image": "1f686.png",
         "sheet_x": 25,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "train2",
         "short_names": [
             "train2"
@@ -15444,7 +15544,7 @@
         "google": "FE7E0",
         "image": "1f687.png",
         "sheet_x": 25,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "metro",
         "short_names": [
             "metro"
@@ -15464,7 +15564,7 @@
         "google": null,
         "image": "1f688.png",
         "sheet_x": 25,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "light_rail",
         "short_names": [
             "light_rail"
@@ -15484,7 +15584,7 @@
         "google": "FE7EC",
         "image": "1f689.png",
         "sheet_x": 25,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "station",
         "short_names": [
             "station"
@@ -15504,7 +15604,7 @@
         "google": null,
         "image": "1f68a.png",
         "sheet_x": 25,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "tram",
         "short_names": [
             "tram"
@@ -15524,7 +15624,7 @@
         "google": null,
         "image": "1f68b.png",
         "sheet_x": 25,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "train",
         "short_names": [
             "train"
@@ -15544,7 +15644,7 @@
         "google": "FE7E6",
         "image": "1f68c.png",
         "sheet_x": 25,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "bus",
         "short_names": [
             "bus"
@@ -15564,7 +15664,7 @@
         "google": null,
         "image": "1f68d.png",
         "sheet_x": 25,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "oncoming_bus",
         "short_names": [
             "oncoming_bus"
@@ -15584,7 +15684,7 @@
         "google": null,
         "image": "1f68e.png",
         "sheet_x": 25,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "trolleybus",
         "short_names": [
             "trolleybus"
@@ -15604,7 +15704,7 @@
         "google": "FE7E7",
         "image": "1f68f.png",
         "sheet_x": 25,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "busstop",
         "short_names": [
             "busstop"
@@ -15624,7 +15724,7 @@
         "google": null,
         "image": "1f690.png",
         "sheet_x": 25,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "minibus",
         "short_names": [
             "minibus"
@@ -15644,7 +15744,7 @@
         "google": "FE7F3",
         "image": "1f691.png",
         "sheet_x": 25,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "ambulance",
         "short_names": [
             "ambulance"
@@ -15664,7 +15764,7 @@
         "google": "FE7F2",
         "image": "1f692.png",
         "sheet_x": 25,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "fire_engine",
         "short_names": [
             "fire_engine"
@@ -15684,7 +15784,7 @@
         "google": "FE7F4",
         "image": "1f693.png",
         "sheet_x": 25,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "police_car",
         "short_names": [
             "police_car"
@@ -15704,7 +15804,7 @@
         "google": null,
         "image": "1f694.png",
         "sheet_x": 25,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "oncoming_police_car",
         "short_names": [
             "oncoming_police_car"
@@ -15723,8 +15823,8 @@
         "softbank": "E15A",
         "google": "FE7EF",
         "image": "1f695.png",
-        "sheet_x": 25,
-        "sheet_y": 25,
+        "sheet_x": 26,
+        "sheet_y": 0,
         "short_name": "taxi",
         "short_names": [
             "taxi"
@@ -15743,8 +15843,8 @@
         "softbank": null,
         "google": null,
         "image": "1f696.png",
-        "sheet_x": 25,
-        "sheet_y": 26,
+        "sheet_x": 26,
+        "sheet_y": 1,
         "short_name": "oncoming_taxi",
         "short_names": [
             "oncoming_taxi"
@@ -15763,8 +15863,8 @@
         "softbank": "E01B",
         "google": "FE7E4",
         "image": "1f697.png",
-        "sheet_x": 25,
-        "sheet_y": 27,
+        "sheet_x": 26,
+        "sheet_y": 2,
         "short_name": "car",
         "short_names": [
             "car",
@@ -15784,8 +15884,8 @@
         "softbank": null,
         "google": null,
         "image": "1f698.png",
-        "sheet_x": 25,
-        "sheet_y": 28,
+        "sheet_x": 26,
+        "sheet_y": 3,
         "short_name": "oncoming_automobile",
         "short_names": [
             "oncoming_automobile"
@@ -15804,8 +15904,8 @@
         "softbank": "E42E",
         "google": "FE7E5",
         "image": "1f699.png",
-        "sheet_x": 25,
-        "sheet_y": 29,
+        "sheet_x": 26,
+        "sheet_y": 4,
         "short_name": "blue_car",
         "short_names": [
             "blue_car"
@@ -15825,7 +15925,7 @@
         "google": "FE7F1",
         "image": "1f69a.png",
         "sheet_x": 26,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "truck",
         "short_names": [
             "truck"
@@ -15845,7 +15945,7 @@
         "google": null,
         "image": "1f69b.png",
         "sheet_x": 26,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "articulated_lorry",
         "short_names": [
             "articulated_lorry"
@@ -15865,7 +15965,7 @@
         "google": null,
         "image": "1f69c.png",
         "sheet_x": 26,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "tractor",
         "short_names": [
             "tractor"
@@ -15885,7 +15985,7 @@
         "google": null,
         "image": "1f69d.png",
         "sheet_x": 26,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "monorail",
         "short_names": [
             "monorail"
@@ -15905,7 +16005,7 @@
         "google": null,
         "image": "1f69e.png",
         "sheet_x": 26,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "mountain_railway",
         "short_names": [
             "mountain_railway"
@@ -15925,7 +16025,7 @@
         "google": null,
         "image": "1f69f.png",
         "sheet_x": 26,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "suspension_railway",
         "short_names": [
             "suspension_railway"
@@ -15945,7 +16045,7 @@
         "google": null,
         "image": "1f6a0.png",
         "sheet_x": 26,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "mountain_cableway",
         "short_names": [
             "mountain_cableway"
@@ -15965,7 +16065,7 @@
         "google": null,
         "image": "1f6a1.png",
         "sheet_x": 26,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "aerial_tramway",
         "short_names": [
             "aerial_tramway"
@@ -15985,7 +16085,7 @@
         "google": "FE7E8",
         "image": "1f6a2.png",
         "sheet_x": 26,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "ship",
         "short_names": [
             "ship"
@@ -16005,7 +16105,7 @@
         "google": null,
         "image": "1f6a3.png",
         "sheet_x": 26,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "rowboat",
         "short_names": [
             "rowboat"
@@ -16025,7 +16125,7 @@
         "google": "FE7EE",
         "image": "1f6a4.png",
         "sheet_x": 26,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "speedboat",
         "short_names": [
             "speedboat"
@@ -16045,7 +16145,7 @@
         "google": "FE7F7",
         "image": "1f6a5.png",
         "sheet_x": 26,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "traffic_light",
         "short_names": [
             "traffic_light"
@@ -16065,7 +16165,7 @@
         "google": null,
         "image": "1f6a6.png",
         "sheet_x": 26,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "vertical_traffic_light",
         "short_names": [
             "vertical_traffic_light"
@@ -16085,7 +16185,7 @@
         "google": "FE7F8",
         "image": "1f6a7.png",
         "sheet_x": 26,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "construction",
         "short_names": [
             "construction"
@@ -16105,7 +16205,7 @@
         "google": "FE7F9",
         "image": "1f6a8.png",
         "sheet_x": 26,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "rotating_light",
         "short_names": [
             "rotating_light"
@@ -16125,7 +16225,7 @@
         "google": "FEB22",
         "image": "1f6a9.png",
         "sheet_x": 26,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "triangular_flag_on_post",
         "short_names": [
             "triangular_flag_on_post"
@@ -16145,7 +16245,7 @@
         "google": "FE4F3",
         "image": "1f6aa.png",
         "sheet_x": 26,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "door",
         "short_names": [
             "door"
@@ -16165,7 +16265,7 @@
         "google": "FEB48",
         "image": "1f6ab.png",
         "sheet_x": 26,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "no_entry_sign",
         "short_names": [
             "no_entry_sign"
@@ -16185,7 +16285,7 @@
         "google": "FEB1E",
         "image": "1f6ac.png",
         "sheet_x": 26,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "smoking",
         "short_names": [
             "smoking"
@@ -16205,7 +16305,7 @@
         "google": "FEB1F",
         "image": "1f6ad.png",
         "sheet_x": 26,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "no_smoking",
         "short_names": [
             "no_smoking"
@@ -16225,7 +16325,7 @@
         "google": null,
         "image": "1f6ae.png",
         "sheet_x": 26,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "put_litter_in_its_place",
         "short_names": [
             "put_litter_in_its_place"
@@ -16245,7 +16345,7 @@
         "google": null,
         "image": "1f6af.png",
         "sheet_x": 26,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "do_not_litter",
         "short_names": [
             "do_not_litter"
@@ -16265,7 +16365,7 @@
         "google": null,
         "image": "1f6b0.png",
         "sheet_x": 26,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "potable_water",
         "short_names": [
             "potable_water"
@@ -16285,7 +16385,7 @@
         "google": null,
         "image": "1f6b1.png",
         "sheet_x": 26,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "non-potable_water",
         "short_names": [
             "non-potable_water"
@@ -16305,7 +16405,7 @@
         "google": "FE7EB",
         "image": "1f6b2.png",
         "sheet_x": 26,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "bike",
         "short_names": [
             "bike"
@@ -16324,8 +16424,8 @@
         "softbank": null,
         "google": null,
         "image": "1f6b3.png",
-        "sheet_x": 26,
-        "sheet_y": 25,
+        "sheet_x": 27,
+        "sheet_y": 0,
         "short_name": "no_bicycles",
         "short_names": [
             "no_bicycles"
@@ -16344,8 +16444,8 @@
         "softbank": null,
         "google": null,
         "image": "1f6b4.png",
-        "sheet_x": 26,
-        "sheet_y": 26,
+        "sheet_x": 27,
+        "sheet_y": 1,
         "short_name": "bicyclist",
         "short_names": [
             "bicyclist"
@@ -16364,8 +16464,8 @@
         "softbank": null,
         "google": null,
         "image": "1f6b5.png",
-        "sheet_x": 26,
-        "sheet_y": 27,
+        "sheet_x": 27,
+        "sheet_y": 2,
         "short_name": "mountain_bicyclist",
         "short_names": [
             "mountain_bicyclist"
@@ -16384,8 +16484,8 @@
         "softbank": "E201",
         "google": "FE7F0",
         "image": "1f6b6.png",
-        "sheet_x": 26,
-        "sheet_y": 28,
+        "sheet_x": 27,
+        "sheet_y": 3,
         "short_name": "walking",
         "short_names": [
             "walking"
@@ -16404,8 +16504,8 @@
         "softbank": null,
         "google": null,
         "image": "1f6b7.png",
-        "sheet_x": 26,
-        "sheet_y": 29,
+        "sheet_x": 27,
+        "sheet_y": 4,
         "short_name": "no_pedestrians",
         "short_names": [
             "no_pedestrians"
@@ -16425,7 +16525,7 @@
         "google": null,
         "image": "1f6b8.png",
         "sheet_x": 27,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "children_crossing",
         "short_names": [
             "children_crossing"
@@ -16445,7 +16545,7 @@
         "google": "FEB33",
         "image": "1f6b9.png",
         "sheet_x": 27,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "mens",
         "short_names": [
             "mens"
@@ -16465,7 +16565,7 @@
         "google": "FEB34",
         "image": "1f6ba.png",
         "sheet_x": 27,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "womens",
         "short_names": [
             "womens"
@@ -16485,7 +16585,7 @@
         "google": "FE506",
         "image": "1f6bb.png",
         "sheet_x": 27,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "restroom",
         "short_names": [
             "restroom"
@@ -16505,7 +16605,7 @@
         "google": "FEB35",
         "image": "1f6bc.png",
         "sheet_x": 27,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "baby_symbol",
         "short_names": [
             "baby_symbol"
@@ -16525,7 +16625,7 @@
         "google": "FE507",
         "image": "1f6bd.png",
         "sheet_x": 27,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "toilet",
         "short_names": [
             "toilet"
@@ -16545,7 +16645,7 @@
         "google": "FE508",
         "image": "1f6be.png",
         "sheet_x": 27,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "wc",
         "short_names": [
             "wc"
@@ -16565,7 +16665,7 @@
         "google": null,
         "image": "1f6bf.png",
         "sheet_x": 27,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "shower",
         "short_names": [
             "shower"
@@ -16585,7 +16685,7 @@
         "google": "FE505",
         "image": "1f6c0.png",
         "sheet_x": 27,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "bath",
         "short_names": [
             "bath"
@@ -16605,7 +16705,7 @@
         "google": null,
         "image": "1f6c1.png",
         "sheet_x": 27,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "bathtub",
         "short_names": [
             "bathtub"
@@ -16625,7 +16725,7 @@
         "google": null,
         "image": "1f6c2.png",
         "sheet_x": 27,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "passport_control",
         "short_names": [
             "passport_control"
@@ -16645,7 +16745,7 @@
         "google": null,
         "image": "1f6c3.png",
         "sheet_x": 27,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "customs",
         "short_names": [
             "customs"
@@ -16665,7 +16765,7 @@
         "google": null,
         "image": "1f6c4.png",
         "sheet_x": 27,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "baggage_claim",
         "short_names": [
             "baggage_claim"
@@ -16685,7 +16785,7 @@
         "google": null,
         "image": "1f6c5.png",
         "sheet_x": 27,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "left_luggage",
         "short_names": [
             "left_luggage"
@@ -16707,7 +16807,7 @@
         "google": "FE82C",
         "image": "0023-20e3.png",
         "sheet_x": 27,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "hash",
         "short_names": [
             "hash"
@@ -16729,7 +16829,7 @@
         "google": "FE837",
         "image": "0030-20e3.png",
         "sheet_x": 27,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "zero",
         "short_names": [
             "zero"
@@ -16751,7 +16851,7 @@
         "google": "FE82E",
         "image": "0031-20e3.png",
         "sheet_x": 27,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "one",
         "short_names": [
             "one"
@@ -16773,7 +16873,7 @@
         "google": "FE82F",
         "image": "0032-20e3.png",
         "sheet_x": 27,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "two",
         "short_names": [
             "two"
@@ -16795,7 +16895,7 @@
         "google": "FE830",
         "image": "0033-20e3.png",
         "sheet_x": 27,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "three",
         "short_names": [
             "three"
@@ -16817,7 +16917,7 @@
         "google": "FE831",
         "image": "0034-20e3.png",
         "sheet_x": 27,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "four",
         "short_names": [
             "four"
@@ -16839,7 +16939,7 @@
         "google": "FE832",
         "image": "0035-20e3.png",
         "sheet_x": 27,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "five",
         "short_names": [
             "five"
@@ -16861,7 +16961,7 @@
         "google": "FE833",
         "image": "0036-20e3.png",
         "sheet_x": 27,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "six",
         "short_names": [
             "six"
@@ -16883,7 +16983,7 @@
         "google": "FE834",
         "image": "0037-20e3.png",
         "sheet_x": 27,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "seven",
         "short_names": [
             "seven"
@@ -16905,7 +17005,7 @@
         "google": "FE835",
         "image": "0038-20e3.png",
         "sheet_x": 27,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "eight",
         "short_names": [
             "eight"
@@ -16927,7 +17027,7 @@
         "google": "FE836",
         "image": "0039-20e3.png",
         "sheet_x": 27,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "nine",
         "short_names": [
             "nine"
@@ -16938,6 +17038,174 @@
         "twitter_img": true
     },
     {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS AE",
+        "unified": "1F1E6-1F1EA",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1e6-1f1ea.png",
+        "sheet_x": 28,
+        "sheet_y": 0,
+        "short_name": "flag-ae",
+        "short_names": [
+            "flag-ae",
+            "ae"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS AT",
+        "unified": "1F1E6-1F1F9",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1e6-1f1f9.png",
+        "sheet_x": 28,
+        "sheet_y": 1,
+        "short_name": "flag-at",
+        "short_names": [
+            "flag-at",
+            "at"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS AU",
+        "unified": "1F1E6-1F1FA",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1e6-1f1fa.png",
+        "sheet_x": 28,
+        "sheet_y": 2,
+        "short_name": "flag-au",
+        "short_names": [
+            "flag-au",
+            "au"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS BE",
+        "unified": "1F1E7-1F1EA",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1e7-1f1ea.png",
+        "sheet_x": 28,
+        "sheet_y": 3,
+        "short_name": "flag-be",
+        "short_names": [
+            "flag-be",
+            "be"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS BR",
+        "unified": "1F1E7-1F1F7",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1e7-1f1f7.png",
+        "sheet_x": 28,
+        "sheet_y": 4,
+        "short_name": "flag-br",
+        "short_names": [
+            "flag-br",
+            "br"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS CA",
+        "unified": "1F1E8-1F1E6",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1e8-1f1e6.png",
+        "sheet_x": 28,
+        "sheet_y": 5,
+        "short_name": "flag-ca",
+        "short_names": [
+            "flag-ca",
+            "ca"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS CH",
+        "unified": "1F1E8-1F1ED",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1e8-1f1ed.png",
+        "sheet_x": 28,
+        "sheet_y": 6,
+        "short_name": "flag-ch",
+        "short_names": [
+            "flag-ch",
+            "ch"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS CL",
+        "unified": "1F1E8-1F1F1",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1e8-1f1f1.png",
+        "sheet_x": 28,
+        "sheet_y": 7,
+        "short_name": "flag-cl",
+        "short_names": [
+            "flag-cl",
+            "cl"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS CN",
         "unified": "1F1E8-1F1F3",
         "variations": [],
@@ -16946,8 +17214,8 @@
         "softbank": "E513",
         "google": "FE4ED",
         "image": "1f1e8-1f1f3.png",
-        "sheet_x": 27,
-        "sheet_y": 25,
+        "sheet_x": 28,
+        "sheet_y": 8,
         "short_name": "cn",
         "short_names": [
             "cn"
@@ -16958,6 +17226,27 @@
         "twitter_img": true
     },
     {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS CO",
+        "unified": "1F1E8-1F1F4",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1e8-1f1f4.png",
+        "sheet_x": 28,
+        "sheet_y": 9,
+        "short_name": "flag-co",
+        "short_names": [
+            "flag-co",
+            "co"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS DE",
         "unified": "1F1E9-1F1EA",
         "variations": [],
@@ -16966,8 +17255,8 @@
         "softbank": "E50E",
         "google": "FE4E8",
         "image": "1f1e9-1f1ea.png",
-        "sheet_x": 27,
-        "sheet_y": 26,
+        "sheet_x": 28,
+        "sheet_y": 10,
         "short_name": "de",
         "short_names": [
             "de"
@@ -16978,6 +17267,27 @@
         "twitter_img": true
     },
     {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS DK",
+        "unified": "1F1E9-1F1F0",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1e9-1f1f0.png",
+        "sheet_x": 28,
+        "sheet_y": 11,
+        "short_name": "flag-dk",
+        "short_names": [
+            "flag-dk",
+            "dk"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS ES",
         "unified": "1F1EA-1F1F8",
         "variations": [],
@@ -16986,8 +17296,8 @@
         "softbank": "E511",
         "google": "FE4EB",
         "image": "1f1ea-1f1f8.png",
-        "sheet_x": 27,
-        "sheet_y": 27,
+        "sheet_x": 28,
+        "sheet_y": 12,
         "short_name": "es",
         "short_names": [
             "es"
@@ -16998,6 +17308,27 @@
         "twitter_img": true
     },
     {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS FI",
+        "unified": "1F1EB-1F1EE",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1eb-1f1ee.png",
+        "sheet_x": 28,
+        "sheet_y": 13,
+        "short_name": "flag-fi",
+        "short_names": [
+            "flag-fi",
+            "fi"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS FR",
         "unified": "1F1EB-1F1F7",
         "variations": [],
@@ -17006,8 +17337,8 @@
         "softbank": "E50D",
         "google": "FE4E7",
         "image": "1f1eb-1f1f7.png",
-        "sheet_x": 27,
-        "sheet_y": 28,
+        "sheet_x": 28,
+        "sheet_y": 14,
         "short_name": "fr",
         "short_names": [
             "fr"
@@ -17026,8 +17357,8 @@
         "softbank": "E510",
         "google": "FE4EA",
         "image": "1f1ec-1f1e7.png",
-        "sheet_x": 27,
-        "sheet_y": 29,
+        "sheet_x": 28,
+        "sheet_y": 15,
         "short_name": "gb",
         "short_names": [
             "gb",
@@ -17039,6 +17370,111 @@
         "twitter_img": true
     },
     {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS HK",
+        "unified": "1F1ED-1F1F0",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1ed-1f1f0.png",
+        "sheet_x": 28,
+        "sheet_y": 16,
+        "short_name": "flag-hk",
+        "short_names": [
+            "flag-hk",
+            "hk"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS ID",
+        "unified": "1F1EE-1F1E9",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1ee-1f1e9.png",
+        "sheet_x": 28,
+        "sheet_y": 17,
+        "short_name": "flag-id",
+        "short_names": [
+            "flag-id",
+            "id"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS IE",
+        "unified": "1F1EE-1F1EA",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1ee-1f1ea.png",
+        "sheet_x": 28,
+        "sheet_y": 18,
+        "short_name": "flag-ie",
+        "short_names": [
+            "flag-ie",
+            "ie"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS IL",
+        "unified": "1F1EE-1F1F1",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1ee-1f1f1.png",
+        "sheet_x": 28,
+        "sheet_y": 19,
+        "short_name": "flag-il",
+        "short_names": [
+            "flag-il",
+            "il"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS IN",
+        "unified": "1F1EE-1F1F3",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1ee-1f1f3.png",
+        "sheet_x": 28,
+        "sheet_y": 20,
+        "short_name": "flag-in",
+        "short_names": [
+            "flag-in",
+            "in"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS IT",
         "unified": "1F1EE-1F1F9",
         "variations": [],
@@ -17048,7 +17484,7 @@
         "google": "FE4E9",
         "image": "1f1ee-1f1f9.png",
         "sheet_x": 28,
-        "sheet_y": 0,
+        "sheet_y": 21,
         "short_name": "it",
         "short_names": [
             "it"
@@ -17068,7 +17504,7 @@
         "google": "FE4E5",
         "image": "1f1ef-1f1f5.png",
         "sheet_x": 28,
-        "sheet_y": 1,
+        "sheet_y": 22,
         "short_name": "jp",
         "short_names": [
             "jp"
@@ -17088,7 +17524,7 @@
         "google": "FE4EE",
         "image": "1f1f0-1f1f7.png",
         "sheet_x": 28,
-        "sheet_y": 2,
+        "sheet_y": 23,
         "short_name": "kr",
         "short_names": [
             "kr"
@@ -17099,6 +17535,216 @@
         "twitter_img": true
     },
     {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS MO",
+        "unified": "1F1F2-1F1F4",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1f2-1f1f4.png",
+        "sheet_x": 28,
+        "sheet_y": 24,
+        "short_name": "flag-mo",
+        "short_names": [
+            "flag-mo",
+            "mo"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS MX",
+        "unified": "1F1F2-1F1FD",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1f2-1f1fd.png",
+        "sheet_x": 28,
+        "sheet_y": 25,
+        "short_name": "flag-mx",
+        "short_names": [
+            "flag-mx",
+            "mx"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS MY",
+        "unified": "1F1F2-1F1FE",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1f2-1f1fe.png",
+        "sheet_x": 28,
+        "sheet_y": 26,
+        "short_name": "flag-my",
+        "short_names": [
+            "flag-my",
+            "my"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS NL",
+        "unified": "1F1F3-1F1F1",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1f3-1f1f1.png",
+        "sheet_x": 28,
+        "sheet_y": 27,
+        "short_name": "flag-nl",
+        "short_names": [
+            "flag-nl",
+            "nl"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS NO",
+        "unified": "1F1F3-1F1F4",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1f3-1f1f4.png",
+        "sheet_x": 28,
+        "sheet_y": 28,
+        "short_name": "flag-no",
+        "short_names": [
+            "flag-no",
+            "no"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS NZ",
+        "unified": "1F1F3-1F1FF",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1f3-1f1ff.png",
+        "sheet_x": 28,
+        "sheet_y": 29,
+        "short_name": "flag-nz",
+        "short_names": [
+            "flag-nz",
+            "nz"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS PH",
+        "unified": "1F1F5-1F1ED",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1f5-1f1ed.png",
+        "sheet_x": 29,
+        "sheet_y": 0,
+        "short_name": "flag-ph",
+        "short_names": [
+            "flag-ph",
+            "ph"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS PL",
+        "unified": "1F1F5-1F1F1",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1f5-1f1f1.png",
+        "sheet_x": 29,
+        "sheet_y": 1,
+        "short_name": "flag-pl",
+        "short_names": [
+            "flag-pl",
+            "pl"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS PR",
+        "unified": "1F1F5-1F1F7",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1f5-1f1f7.png",
+        "sheet_x": 29,
+        "sheet_y": 2,
+        "short_name": "flag-pr",
+        "short_names": [
+            "flag-pr",
+            "pr"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS PT",
+        "unified": "1F1F5-1F1F9",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1f5-1f1f9.png",
+        "sheet_x": 29,
+        "sheet_y": 3,
+        "short_name": "flag-pt",
+        "short_names": [
+            "flag-pt",
+            "pt"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS RU",
         "unified": "1F1F7-1F1FA",
         "variations": [],
@@ -17107,8 +17753,8 @@
         "softbank": "E512",
         "google": "FE4EC",
         "image": "1f1f7-1f1fa.png",
-        "sheet_x": 28,
-        "sheet_y": 3,
+        "sheet_x": 29,
+        "sheet_y": 4,
         "short_name": "ru",
         "short_names": [
             "ru"
@@ -17119,6 +17765,90 @@
         "twitter_img": true
     },
     {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS SA",
+        "unified": "1F1F8-1F1E6",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1f8-1f1e6.png",
+        "sheet_x": 29,
+        "sheet_y": 5,
+        "short_name": "flag-sa",
+        "short_names": [
+            "flag-sa",
+            "sa"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS SE",
+        "unified": "1F1F8-1F1EA",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1f8-1f1ea.png",
+        "sheet_x": 29,
+        "sheet_y": 6,
+        "short_name": "flag-se",
+        "short_names": [
+            "flag-se",
+            "se"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS SG",
+        "unified": "1F1F8-1F1EC",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1f8-1f1ec.png",
+        "sheet_x": 29,
+        "sheet_y": 7,
+        "short_name": "flag-sg",
+        "short_names": [
+            "flag-sg",
+            "sg"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS TR",
+        "unified": "1F1F9-1F1F7",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1f9-1f1f7.png",
+        "sheet_x": 29,
+        "sheet_y": 8,
+        "short_name": "flag-tr",
+        "short_names": [
+            "flag-tr",
+            "tr"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS US",
         "unified": "1F1FA-1F1F8",
         "variations": [],
@@ -17127,8 +17857,8 @@
         "softbank": "E50C",
         "google": "FE4E6",
         "image": "1f1fa-1f1f8.png",
-        "sheet_x": 28,
-        "sheet_y": 4,
+        "sheet_x": 29,
+        "sheet_y": 9,
         "short_name": "us",
         "short_names": [
             "us"
@@ -17137,5 +17867,407 @@
         "apple_img": true,
         "hangouts_img": true,
         "twitter_img": true
+    },
+    {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS VN",
+        "unified": "1F1FB-1F1F3",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1fb-1f1f3.png",
+        "sheet_x": 29,
+        "sheet_y": 10,
+        "short_name": "flag-vn",
+        "short_names": [
+            "flag-vn",
+            "vn"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "REGIONAL INDICATOR SYMBOL LETTERS ZA",
+        "unified": "1F1FF-1F1E6",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f1ff-1f1e6.png",
+        "sheet_x": 29,
+        "sheet_y": 11,
+        "short_name": "flag-za",
+        "short_names": [
+            "flag-za",
+            "za"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "",
+        "unified": "1F468-200D-1F468-200D-1F466",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f468-1f468-1f466.png",
+        "sheet_x": 29,
+        "sheet_y": 12,
+        "short_name": "man-man-boy",
+        "short_names": [
+            "man-man-boy"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "",
+        "unified": "1F468-200D-1F468-200D-1F466-200D-1F466",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f468-1f468-1f466-1f466.png",
+        "sheet_x": 29,
+        "sheet_y": 13,
+        "short_name": "man-man-boy-boy",
+        "short_names": [
+            "man-man-boy-boy"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "",
+        "unified": "1F468-200D-1F468-200D-1F467",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f468-1f468-1f467.png",
+        "sheet_x": 29,
+        "sheet_y": 14,
+        "short_name": "man-man-girl",
+        "short_names": [
+            "man-man-girl"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "",
+        "unified": "1F468-200D-1F468-200D-1F467-200D-1F466",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f468-1f468-1f467-1f466.png",
+        "sheet_x": 29,
+        "sheet_y": 15,
+        "short_name": "man-man-girl-boy",
+        "short_names": [
+            "man-man-girl-boy"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "",
+        "unified": "1F468-200D-1F468-200D-1F467-200D-1F467",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f468-1f468-1f467-1f467.png",
+        "sheet_x": 29,
+        "sheet_y": 16,
+        "short_name": "man-man-girl-girl",
+        "short_names": [
+            "man-man-girl-girl"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "",
+        "unified": "1F468-200D-1F469-200D-1F466",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f468-1f469-1f466.png",
+        "sheet_x": 29,
+        "sheet_y": 17,
+        "short_name": "man-woman-boy",
+        "short_names": [
+            "man-woman-boy"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "",
+        "unified": "1F468-200D-1F469-200D-1F466-200D-1F466",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f468-1f469-1f466-1f466.png",
+        "sheet_x": 29,
+        "sheet_y": 18,
+        "short_name": "man-woman-boy-boy",
+        "short_names": [
+            "man-woman-boy-boy"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "",
+        "unified": "1F468-200D-1F469-200D-1F467",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f468-1f469-1f467.png",
+        "sheet_x": 29,
+        "sheet_y": 19,
+        "short_name": "man-woman-girl",
+        "short_names": [
+            "man-woman-girl"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "",
+        "unified": "1F468-200D-1F469-200D-1F467-200D-1F467",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f468-1f469-1f467-1f467.png",
+        "sheet_x": 29,
+        "sheet_y": 20,
+        "short_name": "man-woman-girl-girl",
+        "short_names": [
+            "man-woman-girl-girl"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "",
+        "unified": "1F468-200D-2764-FE0F-200D-1F468",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f468-2764-fe0f-1f468.png",
+        "sheet_x": 29,
+        "sheet_y": 21,
+        "short_name": "man-heart-man",
+        "short_names": [
+            "man-heart-man"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "",
+        "unified": "1F468-200D-2764-FE0F-200D-1F48B-200D-1F468",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f468-2764-fe0f-1f48b-1f468.png",
+        "sheet_x": 29,
+        "sheet_y": 22,
+        "short_name": "man-kiss-man",
+        "short_names": [
+            "man-kiss-man"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "",
+        "unified": "1F469-200D-1F469-200D-1F466",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f469-1f469-1f466.png",
+        "sheet_x": 29,
+        "sheet_y": 23,
+        "short_name": "woman-woman-boy",
+        "short_names": [
+            "woman-woman-boy"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "",
+        "unified": "1F469-200D-1F469-200D-1F466-200D-1F466",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f469-1f469-1f466-1f466.png",
+        "sheet_x": 29,
+        "sheet_y": 24,
+        "short_name": "woman-woman-boy-boy",
+        "short_names": [
+            "woman-woman-boy-boy"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "",
+        "unified": "1F469-200D-1F469-200D-1F467",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f469-1f469-1f467.png",
+        "sheet_x": 29,
+        "sheet_y": 25,
+        "short_name": "woman-woman-girl",
+        "short_names": [
+            "woman-woman-girl"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "",
+        "unified": "1F469-200D-1F469-200D-1F467-200D-1F466",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f469-1f469-1f467-1f466.png",
+        "sheet_x": 29,
+        "sheet_y": 26,
+        "short_name": "woman-woman-girl-boy",
+        "short_names": [
+            "woman-woman-girl-boy"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "",
+        "unified": "1F469-200D-1F469-200D-1F467-200D-1F467",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f469-1f469-1f467-1f467.png",
+        "sheet_x": 29,
+        "sheet_y": 27,
+        "short_name": "woman-woman-girl-girl",
+        "short_names": [
+            "woman-woman-girl-girl"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "",
+        "unified": "1F469-200D-2764-FE0F-200D-1F469",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f469-2764-fe0f-1f469.png",
+        "sheet_x": 29,
+        "sheet_y": 28,
+        "short_name": "woman-heart-woman",
+        "short_names": [
+            "woman-heart-woman"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
+    },
+    {
+        "name": "",
+        "unified": "1F469-200D-2764-FE0F-200D-1F48B-200D-1F469",
+        "variations": [],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f469-2764-fe0f-1f48b-1f469.png",
+        "sheet_x": 29,
+        "sheet_y": 29,
+        "short_name": "woman-kiss-woman",
+        "short_names": [
+            "woman-kiss-woman"
+        ],
+        "text": null,
+        "apple_img": false,
+        "hangouts_img": false,
+        "twitter_img": false
     }
 ]
