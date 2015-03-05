@@ -1,88 +1,117 @@
 <?php
-	# find all input images
-	$files1 = glob(dirname(__FILE__).'/../gemoji/images/emoji/*.png');
-	$files2 = glob(dirname(__FILE__).'/../gemoji/images/emoji/unicode/*.png');
+	#
+	# use the names DB from gemoji
+	#
+
+	$json = file_get_contents(dirname(__FILE__).'/../gemoji/db/emoji.json');
+	$obj = json_decode($json, true);
 
 
-	echo "Calculating checksums ... ";
-	$map = array();
-	foreach ($files2 as $f) {
-		$sum = md5_file($f);
-		if (!isset($map[$sum])) {
-			$map[$sum] = array();
-		}
-		$map[$sum][] = $f;
-	}
-	echo "DONE\n";
+	#
+	# but also use our own older variations catalog, since some seem to
+	# have gome missing in gemoji, but we still want to support them.
+	#
+
+	include('catalog_vars_old.php');
+	$old_vars = $catalog_vars;
 
 
-	echo "Matching up ............. ";
-	$out = array();
-	foreach ($files1 as $f){
+	#
+	# build the mapping array
+	#
 
-		$sum = md5_file($f);
-		$n_text =  pathinfo($f, PATHINFO_FILENAME);
+	$names = array();
+	$vars = array();
 
-		if ($map[$sum]){
-			foreach ($map[$sum] as $map_file) {
-				if (strpos($map_file, '-fe0f')) continue;
-				$n_code = pathinfo($map_file, PATHINFO_FILENAME);
-				#echo "$n_text -> $n_code\n";
-				$out[$n_code][] = $n_text;
+	foreach ($obj as $row){
+
+		if (!strlen($row['emoji'])){
+			foreach ($row['aliases'] as $alias){
+				$names['_'][] = $alias;
 			}
-		}else{
-			#echo "$n_text -> ???????????????????????????\n";
-			$out['_'][] = $n_text;
+			continue;
 		}
-	}
-	echo "DONE\n";
 
-	ksort($out);
-	foreach ($out as $k => $v){
-		sort($out[$k]);
+		$uni = $row['emoji'];
+		$chars = preg_split('/(?<!^)(?!$)/u', $uni);
+
+		$unis_all = array();
+		$unis_basic = array();
+
+		foreach ($chars as $char){
+			$uni = utf8_bytes_to_uni_hex($char);
+			$unis_all[] = $uni;
+			if ($uni !== 'fe0f'){
+				$unis_basic[] = $uni;
+			}
+		}
+
+		$simple_basic = implode('-', $unis_basic);
+		$simple_full = implode('-', $unis_all);
+
+
+		#
+		# variation?
+		#
+
+		if ($simple_basic !== $simple_full){
+			$vars[$simple_basic] = array($simple_full);
+		}else{
+			if (count($old_vars[$simple_basic])){
+				$vars[$simple_basic] = $old_vars[$simple_basic];
+			}
+		}
+
+
+		#
+		# name
+		#
+
+		sort($row['aliases']);
+
+		$names[$simple_basic] = $row['aliases'];
 	}
+
+	sort($names['_']);
+	ksort($names);
+
+	ksort($vars);
+
+	function utf8_bytes_to_uni_hex($utf8_bytes){
+
+		$bytes = array();
+
+		foreach (str_split($utf8_bytes) as $ch){
+			$bytes[] = ord($ch);
+		}
+
+		$codepoint = 0;
+		if (count($bytes) == 1) $codepoint = $bytes[0];
+		if (count($bytes) == 2) $codepoint = (($bytes[0] & 0x1F) << 6) | ($bytes[1] & 0x3F);
+		if (count($bytes) == 3) $codepoint = (($bytes[0] & 0x0F) << 12) | (($bytes[1] & 0x3F) << 6) | ($bytes[2] & 0x3F);
+		if (count($bytes) == 4) $codepoint = (($bytes[0] & 0x07) << 18) | (($bytes[1] & 0x3F) << 12) | (($bytes[2] & 0x3F) << 6) | ($bytes[3] & 0x3F);
+		if (count($bytes) == 5) $codepoint = (($bytes[0] & 0x03) << 24) | (($bytes[1] & 0x3F) << 18) | (($bytes[2] & 0x3F) << 12) | (($bytes[3] & 0x3F) << 6) | ($bytes[4] & 0x3F);
+		if (count($bytes) == 6) $codepoint = (($bytes[0] & 0x01) << 30) | (($bytes[1] & 0x3F) << 24) | (($bytes[2] & 0x3F) << 18) | (($bytes[3] & 0x3F) << 12) | (($bytes[4] & 0x3F) << 6) | ($bytes[5] & 0x3F);
+
+		$str = sprintf('%x', $codepoint);
+		return str_pad($str, 4, '0', STR_PAD_LEFT);
+	}
+
 
 
 	echo "Writing names map ....... ";
 	$fh = fopen('catalog_names.php', 'w');
 	fwrite($fh, '<'.'?php $catalog_names = ');
-	fwrite($fh, var_export($out, true));
+	fwrite($fh, var_export($names, true));
 	fwrite($fh, ";\n");
 	fclose($fh);
 	echo "DONE\n";
 
 
-	echo "Building variations ..... ";
-	$flat = array();
-	foreach ($map as $sum => $files){
-		foreach ($files as $file){
-			if (strpos($file, '-fe0f')) continue;
-			if (isset($flat[$sum])) continue;
-			$flat[$sum] = $file;
-		}
-	}
-
-	$vars_map = array();
-	foreach ($map as $sum => $files){
-		foreach ($files as $file){
-			if (strpos($file, '-fe0f')){
-				$plain =  pathinfo($flat[$sum], PATHINFO_FILENAME);
-				$vari =  pathinfo($file, PATHINFO_FILENAME);
-
-				$vars_map[$plain][] = $vari;
-			}
-		}
-	}
-
-
-	ksort($vars_map);
-	foreach ($vars_map as $k => $v){
-		sort($vars_map[$k]);
-	}
-
+	echo "Writing variations map ....... ";
 	$fh = fopen('catalog_vars.php', 'w');
 	fwrite($fh, '<'.'?php $catalog_vars = ');	
-	fwrite($fh, var_export($vars_map, true));
+	fwrite($fh, var_export($vars, true));
 	fwrite($fh, ";\n");
 	fclose($fh);
 	echo "DONE\n";
