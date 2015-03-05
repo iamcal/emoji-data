@@ -28,7 +28,7 @@
 		$name = $row['char_name']['title'];
 
 		if (preg_match("!^REGIONAL INDICATOR SYMBOL LETTERS !", $name)){
-			array_unshift($shorts, $shorts[0].'-flag');
+			array_unshift($shorts, 'flag-'.$shorts[0]);
 		}
 
 		$out[] = simple_row($img_key, $shorts, array(

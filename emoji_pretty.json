@@ -22940,9 +22940,9 @@
         "image": "1f1e8-1f1f3.png",
         "sheet_x": 28,
         "sheet_y": 8,
-        "short_name": "cn-flag",
+        "short_name": "flag-cn",
         "short_names": [
-            "cn-flag",
+            "flag-cn",
             "cn"
         ],
         "text": null,
@@ -22996,9 +22996,9 @@
         "image": "1f1e9-1f1ea.png",
         "sheet_x": 28,
         "sheet_y": 10,
-        "short_name": "de-flag",
+        "short_name": "flag-de",
         "short_names": [
-            "de-flag",
+            "flag-de",
             "de"
         ],
         "text": null,
@@ -23052,9 +23052,9 @@
         "image": "1f1ea-1f1f8.png",
         "sheet_x": 28,
         "sheet_y": 12,
-        "short_name": "es-flag",
+        "short_name": "flag-es",
         "short_names": [
-            "es-flag",
+            "flag-es",
             "es"
         ],
         "text": null,
@@ -23108,9 +23108,9 @@
         "image": "1f1eb-1f1f7.png",
         "sheet_x": 28,
         "sheet_y": 14,
-        "short_name": "fr-flag",
+        "short_name": "flag-fr",
         "short_names": [
-            "fr-flag",
+            "flag-fr",
             "fr"
         ],
         "text": null,
@@ -23136,9 +23136,9 @@
         "image": "1f1ec-1f1e7.png",
         "sheet_x": 28,
         "sheet_y": 15,
-        "short_name": "gb-flag",
+        "short_name": "flag-gb",
         "short_names": [
-            "gb-flag",
+            "flag-gb",
             "gb",
             "uk"
         ],
@@ -23305,9 +23305,9 @@
         "image": "1f1ee-1f1f9.png",
         "sheet_x": 28,
         "sheet_y": 21,
-        "short_name": "it-flag",
+        "short_name": "flag-it",
         "short_names": [
-            "it-flag",
+            "flag-it",
             "it"
         ],
         "text": null,
@@ -23333,9 +23333,9 @@
         "image": "1f1ef-1f1f5.png",
         "sheet_x": 28,
         "sheet_y": 22,
-        "short_name": "jp-flag",
+        "short_name": "flag-jp",
         "short_names": [
-            "jp-flag",
+            "flag-jp",
             "jp"
         ],
         "text": null,
@@ -23361,9 +23361,9 @@
         "image": "1f1f0-1f1f7.png",
         "sheet_x": 28,
         "sheet_y": 23,
-        "short_name": "kr-flag",
+        "short_name": "flag-kr",
         "short_names": [
-            "kr-flag",
+            "flag-kr",
             "kr"
         ],
         "text": null,
@@ -23669,9 +23669,9 @@
         "image": "1f1f7-1f1fa.png",
         "sheet_x": 29,
         "sheet_y": 4,
-        "short_name": "ru-flag",
+        "short_name": "flag-ru",
         "short_names": [
-            "ru-flag",
+            "flag-ru",
             "ru"
         ],
         "text": null,
@@ -23809,9 +23809,9 @@
         "image": "1f1fa-1f1f8.png",
         "sheet_x": 29,
         "sheet_y": 9,
-        "short_name": "us-flag",
+        "short_name": "flag-us",
         "short_names": [
-            "us-flag",
+            "flag-us",
             "us"
         ],
         "text": null,
