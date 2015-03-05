@@ -22725,11 +22725,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1E6-1F1EA.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS AT",
@@ -22753,11 +22753,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1E6-1F1F9.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS AU",
@@ -22781,11 +22781,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1E6-1F1FA.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS BE",
@@ -22809,11 +22809,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1E7-1F1EA.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS BR",
@@ -22837,11 +22837,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1E7-1F1F7.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS CA",
@@ -22865,11 +22865,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1E8-1F1E6.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS CH",
@@ -22893,11 +22893,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1E8-1F1ED.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS CL",
@@ -22921,11 +22921,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1E8-1F1F1.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS CN",
@@ -22977,11 +22977,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1E8-1F1F4.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS DE",
@@ -23033,11 +23033,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1E9-1F1F0.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS ES",
@@ -23089,11 +23089,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1EB-1F1EE.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS FR",
@@ -23174,11 +23174,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1ED-1F1F0.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS ID",
@@ -23202,11 +23202,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1EE-1F1E9.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS IE",
@@ -23230,11 +23230,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1EE-1F1EA.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS IL",
@@ -23258,11 +23258,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1EE-1F1F1.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS IN",
@@ -23286,11 +23286,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1EE-1F1F3.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS IT",
@@ -23398,11 +23398,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1F2-1F1F4.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS MX",
@@ -23426,11 +23426,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1F2-1F1FD.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS MY",
@@ -23454,11 +23454,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1F2-1F1FE.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS NL",
@@ -23482,11 +23482,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1F3-1F1F1.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS NO",
@@ -23510,11 +23510,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1F3-1F1F4.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS NZ",
@@ -23538,11 +23538,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1F3-1F1FF.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS PH",
@@ -23566,11 +23566,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1F5-1F1ED.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS PL",
@@ -23594,11 +23594,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1F5-1F1F1.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS PR",
@@ -23622,11 +23622,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1F5-1F1F7.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS PT",
@@ -23650,11 +23650,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1F5-1F1F9.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS RU",
@@ -23706,11 +23706,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1F8-1F1E6.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS SE",
@@ -23734,11 +23734,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1F8-1F1EA.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS SG",
@@ -23762,11 +23762,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1F8-1F1EC.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS TR",
@@ -23790,11 +23790,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1F9-1F1F7.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS US",
@@ -23846,11 +23846,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1FB-1F1F3.png"
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS ZA",
@@ -23874,11 +23874,11 @@
         "apple_img": false,
         "hangouts_img": false,
         "twitter_img": false,
-        "emojione_img": false,
+        "emojione_img": true,
         "apple_img_path": null,
         "hangouts_img_path": null,
         "twitter_img_path": null,
-        "emojione_img_path": null
+        "emojione_img_path": "emojione\/assets\/png\/1F1FF-1F1E6.png"
     },
     {
         "name": "",
