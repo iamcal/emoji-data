@@ -37,6 +37,12 @@
 	}
 	echo "DONE\n";
 
+	ksort($out);
+	foreach ($out as $k => $v){
+		sort($out[$k]);
+	}
+
+
 	echo "Writing names map ....... ";
 	$fh = fopen('catalog_names.php', 'w');
 	fwrite($fh, '<'.'?php $catalog_names = ');
@@ -67,6 +73,13 @@
 			}
 		}
 	}
+
+
+	ksort($vars_map);
+	foreach ($vars_map as $k => $v){
+		sort($vars_map[$k]);
+	}
+
 	$fh = fopen('catalog_vars.php', 'w');
 	fwrite($fh, '<'.'?php $catalog_vars = ');	
 	fwrite($fh, var_export($vars_map, true));
