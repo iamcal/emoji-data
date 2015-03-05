@@ -132,14 +132,40 @@
 			'short_name'	=> $short,
 			'short_names'	=> $shorts,
 			'text'		=> $GLOBALS['text'][$short],
-			'apple_img'	=> file_exists("{$GLOBALS['dir']}/../gemoji/images/emoji/unicode/{$img_key}.png"),
-			'hangouts_img'	=> file_exists("{$GLOBALS['dir']}/../img-hangouts-64/{$img_key}.png"),
-			'twitter_img'	=> file_exists("{$GLOBALS['dir']}/../img-twitter-72/{$img_key}.png"),
+			'apple_img'	=> null,
+			'hangouts_img'	=> null,
+			'twitter_img'	=> null,
+			'emojione_img'	=> null,
 		);
+
+		$ret['apple_img_path']		= find_image($ret['image'], "gemoji/images/emoji/unicode/");
+		$ret['hangouts_img_path']	= find_image($ret['image'], "img-hangouts-64/");
+		$ret['twitter_img_path']	= find_image($ret['image'], "img-twitter-72/");
+		$ret['emojione_img_path']	= find_image($ret['image'], "emojione/assets/png/");
+
+		$ret['apple_img']		= !is_null($ret['apple_img_path']);
+		$ret['hangouts_img']		= !is_null($ret['hangouts_img_path']);
+		$ret['twitter_img']		= !is_null($ret['twitter_img_path']);
+		$ret['emojione_img']		= !is_null($ret['emojione_img_path']);
 
 		foreach ($props as $k => $v) $ret[$k] = $v;
 
 		return $ret;
+	}
+
+	function find_image($image, $img_path){
+
+		$root = "{$GLOBALS['dir']}/../";
+
+		$src = "{$img_path}{$image}";
+		if (file_exists($root.$src)) return $src;
+
+		list($a, $b) = explode('.', $image);
+		$upper_name = StrToUpper($a).'.'.$b;
+		$src = "{$img_path}{$upper_name}";
+		if (file_exists($root.$src)) return $src;
+
+		return null;
 	}
 
 
