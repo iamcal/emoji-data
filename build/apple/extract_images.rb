@@ -1,2 +1,3 @@
 require 'emoji/extractor'
-Emoji::Extractor.new(128, "../../apple_128").extract!
+dir = File.dirname(File.realpath(__FILE__))
+Emoji::Extractor.new(128, "#{dir}/../../apple_128").extract!
