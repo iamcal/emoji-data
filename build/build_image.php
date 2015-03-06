@@ -19,6 +19,14 @@
 
 		$max = max($max, $row['sheet_x']);
 		$max = max($max, $row['sheet_y']);
+
+		if (count($row['skin_variations'])){
+			foreach ($row['skin_variations'] as $row2){
+
+				$max = max($max, $row2['sheet_x']);
+				$max = max($max, $row2['sheet_y']);
+			}
+		}
 	}
 
 
@@ -26,14 +34,13 @@
 	# bake sheets
 	#
 
-	create_sheet(64, null,		$dir.'/../gemoji/images/emoji/unicode/');
-	create_sheet(72, 'twitter',	$dir.'/../img-twitter-72/');
-	create_sheet(64, 'hangouts',	$dir.'/../img-hangouts-64/');
-	create_sheet(64, 'emojione',	$dir.'/../emojione/assets/png/');
+	create_sheet(64, 'apple');
+	#create_sheet(72, 'twitter');
+	#create_sheet(64, 'hangouts');
+	#create_sheet(64, 'emojione');
 
 
-
-	function create_sheet($img_w, $type, $img_path){
+	function create_sheet($img_w, $type){
 
 		global $catalog, $max;
 
@@ -53,24 +60,40 @@
 
 		foreach ($catalog as $row){
 
-			$src = "{$img_path}{$row['image']}";
+			#
+			# do we have the image in this set?
+			#
 
-			if (!file_exists($src)){
-				list($a, $b) = explode('.', $row['image']);
-				$upper_name = StrToUpper($a).'.'.$b;
-				$src = "{$img_path}{$upper_name}";
+			$main_img = null;
+
+			if (!is_null($row["{$type}_img_path"])){
+
+				$main_img = $row["{$type}_img_path"];
+				composite($row['sheet_x'], $row['sheet_y'], $img_w, $main_img, $dst);
+
+			}else{
+
+				# we should putr the substitutuion image in here
+				# 2753.png
 			}
 
-			if (!file_exists($src)){
-				# placeholder
-				$src = "{$img_path}2753.png";
+
+			#
+			# skin variations?
+			#
+
+			if (count($row['skin_variations'])){
+				foreach ($row['skin_variations'] as $row2){
+
+					$vari_img = $row2["{$type}_img_path"];
+					if (is_null($vari_img)) $vari_img = $main_img;
+
+					if ($vari_img){
+
+						composite($row2['sheet_x'], $row2['sheet_y'], $img_w, $vari_img, $dst);
+					}
+				}
 			}
-
-			$px = $row['sheet_x'] * $img_w;
-			$py = $row['sheet_y'] * $img_w;
-
-			echo shell_exec("composite -geometry +{$px}+{$py} {$src} {$dst} {$dst}");
-			echo '.';
 		}
 
 		echo " DONE\n";
@@ -78,4 +101,19 @@
 		echo "Optimizing sheet   ... ";
 		echo shell_exec("convert {$dst} png32:{$dst}");
 		echo "DONE\n";
+	}
+
+	function composite($sheet_x, $sheet_y, $img_w, $src, $dst){
+
+		$px = $sheet_x * $img_w;
+		$py = $sheet_y * $img_w;
+
+		$path = $GLOBALS['dir'].'/../'.$src;
+		if (file_exists($path)){
+
+			echo shell_exec("composite -geometry +{$px}+{$py} {$path} {$dst} {$dst}");
+			echo '.';
+		}else{
+			echo "(not found: $src)";
+		}
 	}
