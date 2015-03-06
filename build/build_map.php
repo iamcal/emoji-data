@@ -186,7 +186,7 @@
 
 		$ret['apple_img_path']		= find_image($props['unified'], $ret['image'], "img-apple-64/");
 		$ret['hangouts_img_path']	= find_image($props['unified'], $ret['image'], "img-hangouts-64/");
-		$ret['twitter_img_path']	= find_image($props['unified'], $ret['image'], "img-twitter-72/");
+		$ret['twitter_img_path']	= find_image($props['unified'], $ret['image'], "img-twitter-64/");
 		$ret['emojione_img_path']	= find_image($props['unified'], $ret['image'], "emojione/assets/png/");
 
 		$ret['apple_img']		= !is_null($ret['apple_img_path']);
