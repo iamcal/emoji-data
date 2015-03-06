@@ -53,6 +53,14 @@
 
 	echo "OK\n";
 
+	$skin_varation_suffixes = array(
+		1 => '1F3FB',
+		2 => '1F3FC',
+		3 => '1F3FD',
+		4 => '1F3FE',
+		5 => '1F3FF',
+	);
+
 
 	#
 	# build the simple ones first
@@ -188,6 +196,30 @@
 
 		foreach ($props as $k => $v) $ret[$k] = $v;
 
+		$skin_key = StrToLower($props['unified']);
+		if (count($GLOBALS['skin_variations'][$skin_key])){
+
+			$ret['skin_variations'] = array();
+			foreach ($GLOBALS['skin_variations'][$skin_key] as $id){
+				if (!$id) continue;
+
+				$apple_path = substr($ret['apple_img_path'], 0, -6).".{$id}.png";
+
+				$variation = array(
+					'unified'		=> $props['unified'].'-'.$GLOBALS['skin_varation_suffixes'][$id],
+					'sheet_x'		=> 0,
+					'sheet_y'		=> 0,
+					'apple_img_path'	=> $apple_path,
+					'hangouts_img_path'	=> null,
+					'twitter_img_path'	=> null,
+					'emojione_img_path'	=> null,
+				);
+
+				$ret['skin_variations'][$variation['unified']] = $variation;
+			}
+		}
+
+
 		return $ret;
 	}
 
@@ -244,7 +276,13 @@
 
 	$y = 0;
 	$x = 0;
-	$num = ceil(sqrt(count($out)));
+	$total = 0;
+	foreach ($out as $row){
+		$total++;
+		$total += count($row['skin_variations']);
+	}
+	$num = ceil(sqrt($total));
+
 
 	foreach ($out as $k => $v){
 		$out[$k]['sheet_x'] = $x;
@@ -253,6 +291,19 @@
 		if ($y == $num){
 			$x++;
 			$y = 0;
+		}
+
+		if (count($out[$k]['skin_variations'])){
+			foreach ($out[$k]['skin_variations'] as $k2 => $v2){
+				$out[$k]['skin_variations'][$k2]['sheet_x'] = $x;
+				$out[$k]['skin_variations'][$k2]['sheet_y'] = $y;
+
+				$y++;
+				if ($y == $num){
+					$x++;
+					$y = 0;
+				}
+			}
 		}
 	}
 
