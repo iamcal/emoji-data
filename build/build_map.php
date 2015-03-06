@@ -7,7 +7,11 @@
 	include('catalog_names.php');
 	include('catalog_vars.php');
 
+
+	#
 	# load text mappings
+	#
+
 	$lines = file('catalog_text_toascii.txt');
 	$text = array();
 	foreach ($lines as $line){
@@ -17,6 +21,19 @@
 			$text[$bits[0]] = $bits[1];
 		}
 	}
+
+
+	#
+	# load extra apple data
+	#
+
+	$json = file_get_contents('apple_10_10_3.json');
+	$apple_data = json_decode($json, true);
+
+
+	#
+	# build the simple ones first
+	#
 
 	$out = array();
 	$out_unis = array();
@@ -67,9 +84,7 @@
 
 	echo "Adding extra Apple emoji: ";
 
-	$json = file_get_contents('apple_10_10_3.json');
-	$list = json_decode($json, true);
-	foreach ($list as $cps => $arr){
+	foreach ($apple_data['emoji'] as $cps => $arr){
 
 		$img_key = StrToLower($cps);
 		$img_key = str_replace('200d-', '', $img_key);
