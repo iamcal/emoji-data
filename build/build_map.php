@@ -32,6 +32,29 @@
 
 
 	#
+	# find which apple images have skin variations
+	#
+
+	echo "Finding emoji with skin variations ... ";
+
+	$skin_variations = array();
+
+	$out = shell_exec(" ls -1 ../img-apple-160/ | grep \"\\.0\\.png\"");
+	$files = explode("\n", trim($out));
+	foreach ($files as $file){
+		list($key) = explode('.', $file);
+		$skin_variations[$key] = array(0);
+		for ($i=1; $i<=5; $i++){
+			if (file_exists("../img-apple-160/{$key}.{$i}.png")){
+				$skin_variations[$key][] = $i;
+			}
+		}
+	}
+
+	echo "OK\n";
+
+
+	#
 	# build the simple ones first
 	#
 
@@ -153,10 +176,10 @@
 			'emojione_img'	=> null,
 		);
 
-		$ret['apple_img_path']		= find_image($ret['image'], "gemoji/images/emoji/unicode/");
-		$ret['hangouts_img_path']	= find_image($ret['image'], "img-hangouts-64/");
-		$ret['twitter_img_path']	= find_image($ret['image'], "img-twitter-72/");
-		$ret['emojione_img_path']	= find_image($ret['image'], "emojione/assets/png/");
+		$ret['apple_img_path']		= find_image($props['unified'], $ret['image'], "img-apple-64/");
+		$ret['hangouts_img_path']	= find_image($props['unified'], $ret['image'], "img-hangouts-64/");
+		$ret['twitter_img_path']	= find_image($props['unified'], $ret['image'], "img-twitter-72/");
+		$ret['emojione_img_path']	= find_image($props['unified'], $ret['image'], "emojione/assets/png/");
 
 		$ret['apple_img']		= !is_null($ret['apple_img_path']);
 		$ret['hangouts_img']		= !is_null($ret['hangouts_img_path']);
@@ -168,7 +191,7 @@
 		return $ret;
 	}
 
-	function find_image($image, $img_path){
+	function find_image($unified, $image, $img_path){
 
 		$root = "{$GLOBALS['dir']}/../";
 
@@ -179,6 +202,18 @@
 		$upper_name = StrToUpper($a).'.'.$b;
 		$src = "{$img_path}{$upper_name}";
 		if (file_exists($root.$src)) return $src;
+
+		$key = StrToLower($unified);
+		if (count($GLOBALS['skin_variations'][$key])){
+			$src = "{$img_path}{$key}.0.png";
+			if (file_exists($root.$src)) return $src;
+		}
+
+		$key_upper = StrToUpper($unified);
+		if ($GLOBALS['apple_data']['images'][$key_upper]){
+			$src = "{$img_path}{$GLOBALS['apple_data']['images'][$key_upper]}";
+			if (file_exists($root.$src)) return $src;
+		}
 
 		return null;
 	}
