@@ -1,29 +1,30 @@
 <?php
 	$dir = dirname(__FILE__).'/..';
 
-	build_sheet(64, null, 32);
-	build_sheet(64, null, 20);
-	build_sheet(64, null, 16);
+	build_sheet('apple', 32);
+	build_sheet('apple', 20);
+	build_sheet('apple', 16);
 
-	build_sheet(72, 'twitter', 64);
-	build_sheet(72, 'twitter', 32);
-	build_sheet(72, 'twitter', 20);
-	build_sheet(72, 'twitter', 16);
+	build_sheet('twitter', 32);
+	build_sheet('twitter', 20);
+	build_sheet('twitter', 16);
 
-	build_sheet(64, 'hangouts', 32);
-	build_sheet(64, 'hangouts', 20);
-	build_sheet(64, 'hangouts', 16);
+	build_sheet('hangouts', 32);
+	build_sheet('hangouts', 20);
+	build_sheet('hangouts', 16);
 
-	build_sheet(64, 'emojione', 32);
-	build_sheet(64, 'emojione', 20);
-	build_sheet(64, 'emojione', 16);
+	build_sheet('emojione', 32);
+	build_sheet('emojione', 20);
+	build_sheet('emojione', 16);
 
-	function build_sheet($src_size, $type, $size){
+	function build_sheet($type, $size){
+
+		$src_size = 64;
 
 		global $dir;
 
-		$src = $type ? "sheet_{$type}_{$src_size}.png" : "sheet_{$src_size}.png";
-		$dst = $type ? "sheet_{$type}_{$size}.png" : "sheet_{$size}.png";
+		$src = "sheet_{$type}_{$src_size}.png";
+		$dst = "sheet_{$type}_{$size}.png";
 
 		# get sheet size
 		$ident_out = shell_exec("identify -format \"%w|%h|%m\" {$dir}/{$src} 2>&1");
