@@ -34,31 +34,41 @@
 	# bake sheets
 	#
 
-	create_sheet(64, 'apple');
-	#create_sheet(72, 'twitter');
-	#create_sheet(64, 'hangouts');
-	#create_sheet(64, 'emojione');
+	#create_sheet('apple');
+	create_sheet('twitter');
+	#create_sheet('hangouts');
+	#create_sheet('emojione');
 
 
-	function create_sheet($img_w, $type){
+	function create_sheet($type){
+
+		$img_w = 64;
+
+		echo "Creating $type : \n";
 
 		global $catalog, $max;
 
-		$pw = ($max+1) * $img_w;
-		$ph = ($max+1) * $img_w;
 
+		#
+		# find the replacement glyph for this set
+		#
 
-		echo "Compositing images ... ";
-
-		if ($type){
-			$dst = dirname(__FILE__)."/../sheet_{$type}_{$img_w}.png";
-		}else{
-			$dst = dirname(__FILE__)."/../sheet_{$img_w}.png";
+		$replacement = null;
+		foreach ($catalog as $row){
+			if ($row['unified'] == '2753'){
+				$replacement = $row["{$type}_img_path"];
+			}
 		}
 
-		echo shell_exec("convert -size {$pw}x{$ph} xc:none {$dst}");
+
+		#
+		# first, build out the compositing list
+		#
+
+		$comp = array();
 
 		foreach ($catalog as $row){
+
 
 			#
 			# do we have the image in this set?
@@ -69,12 +79,28 @@
 			if (!is_null($row["{$type}_img_path"])){
 
 				$main_img = $row["{$type}_img_path"];
-				composite($row['sheet_x'], $row['sheet_y'], $img_w, $main_img, $dst);
-
+				$comp[] = array($row['sheet_x'], $row['sheet_y'], $main_img);
 			}else{
 
-				# we should putr the substitutuion image in here
-				# 2753.png
+				# apple is always our first fallback. after that, we'll try emojione
+				# (since it has the missing flags), else fall back to the replacement glyph
+
+				if ($row["apple_img_path"]){
+
+					$main_img = $row["apple_img_path"];
+					$comp[] = array($row['sheet_x'], $row['sheet_y'], $main_img);
+
+				}elseif ($row["emojione_img_path"]){
+
+					$main_img = $row["emojione_img_path"];
+					$comp[] = array($row['sheet_x'], $row['sheet_y'], $main_img);
+
+				}elseif ($replacement){
+
+					# it's missing - try the fallback (2753)
+					$main_img = $replacement;
+					$comp[] = array($row['sheet_x'], $row['sheet_y'], $main_img);
+				}
 			}
 
 
@@ -90,17 +116,79 @@
 
 					if ($vari_img){
 
-						composite($row2['sheet_x'], $row2['sheet_y'], $img_w, $vari_img, $dst);
+						$comp[] = array($row2['sheet_x'], $row2['sheet_y'], $vari_img);
 					}
 				}
 			}
+
 		}
 
-		echo " DONE\n";
+
+		#
+		# next, build the strips one by one. we do this instead of doing it all
+		# in one go so that we canm load/save the intermediate image much faster.
+		#
+
+		$mp = $max + 1;
+
+		$pw = $mp * $img_w;
+		$ph = $mp * $img_w;
+
+		for ($i=0; $i<$mp; $i++){
+			$ip = $i + 1;
+			echo "col $ip/$mp : ";
+
+			$dst = $GLOBALS['dir']."/../sheet_{$type}_{$img_w}_col{$i}.png";
+
+			echo shell_exec("convert -size {$img_w}x{$ph} xc:none {$dst}");
+
+			foreach ($comp as $row){
+				if ($row[0] != $i) continue;
+
+				$px = 0;
+				$py = $row[1] * $img_w;
+
+				$path = $GLOBALS['dir'].'/../'.$row[2];
+				if (file_exists($path)){
+
+					echo shell_exec("composite -geometry +{$px}+{$py} {$path} {$dst} {$dst}");
+					echo '.';
+				}else{
+					echo "(not found: $src)";
+				}		
+			}
+
+			echo " OK\n";
+		}
+
+
+		#
+		# merge the strips
+		#
+
+		echo "merging ... ";
+
+		$dst = $GLOBALS['dir']."/../sheet_{$type}_{$img_w}.png";
+
+		echo shell_exec("convert -size {$pw}x{$ph} xc:none {$dst}");
+
+		for ($i=0; $i<$mp; $i++){
+			$src = $GLOBALS['dir']."/../sheet_{$type}_{$img_w}_col{$i}.png";
+
+			$px = $i * $img_w;
+			$py = 0;
+
+			echo shell_exec("composite -geometry +{$px}+{$py} {$src} {$dst} {$dst}");
+			echo '.';
+
+			unlink($src);
+		}
+
+		echo " OK\n";
 
 		echo "Optimizing sheet   ... ";
 		echo shell_exec("convert {$dst} png32:{$dst}");
-		echo "DONE\n";
+		echo "DONE\n\n";
 	}
 
 	function composite($sheet_x, $sheet_y, $img_w, $src, $dst){
