@@ -27,7 +27,7 @@
 	# load extra apple data
 	#
 
-	$json = file_get_contents('apple_10_10_3.json');
+	$json = file_get_contents('apple_extra.json');
 	$apple_data = json_decode($json, true);
 
 
