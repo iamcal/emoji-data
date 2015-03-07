@@ -15,8 +15,44 @@ my $filename = "NotoColorEmoji_lollipop.ttf";
 
 my $f = Font::TTF::Font->open($filename) || die "Unable to read $filename";
 
+
+#
+# use the cmap to build a simple mapping of glyph ID -> filename
+#
+
 $f->{'cmap'}->read();
-my @map = $f->{'cmap'}->reverse();
+
+my $filenames = {};
+for my $uni (keys %{$f->{'cmap'}{'Tables'}[0]{'val'}}){
+	my $idx = $f->{'cmap'}{'Tables'}[0]{'val'}{$uni};
+	$filenames->{$idx} = sprintf('%04x', $uni);
+}
+
+
+#
+# read the GSUB table to build a list of ligatures
+#
+
+$f->{'GSUB'}->read();
+my $groups = $f->{'GSUB'}{'LOOKUP'}[0]{'SUB'}[0]{'RULES'};
+my $cover = $f->{'GSUB'}{'LOOKUP'}[0]{'SUB'}[0]{'COVERAGE'};
+my %map;
+
+for my $glyph(keys %{$cover->{'val'}}){
+	my $idx = $cover->{'val'}{$glyph};
+	for my $row (@{$groups->[$idx]}){
+
+		my $uni_a = $filenames->{$glyph};
+		my $uni_b = $filenames->{$row->{'MATCH'}[0]};
+		my $idx2 = $row->{'ACTION'}[0];
+
+		$filenames->{$idx2} = "${uni_a}-${uni_b}";
+	}
+}
+
+#
+# now read the data chunk and extract the glyphs
+#
 
 $f->{'CBLC'}->read();
 $f->{'CBDT'}->read();
@@ -25,12 +61,11 @@ my @keys = keys(%{$f->{'CBDT'}{'bitmap'}[0]});
 
 foreach my $key (@keys){
 
-	my $uni = $map[$key];
-	my $flat = $uni ? sprintf('%04x', $uni) : "unknown_${key}";
+	my $name = $filenames->{$key} || "unknown_${key}";
 
-	open(my $fh, '>', "images/${flat}.png");
+	open(my $fh, '>', "images/${name}.png");
 	print($fh $f->{'CBDT'}{'bitmap'}[0]{$key}{imageData});
 	close($fh);
 
-	print "key $key, $flat \n";
+	print "key $key, $name.png \n";
 }
