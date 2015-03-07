@@ -37,7 +37,7 @@
 	#create_sheet('apple');
 	#create_sheet('twitter');
 	create_sheet('google');
-	create_sheet('emojione');
+	#create_sheet('emojione');
 
 
 	function create_sheet($type){
