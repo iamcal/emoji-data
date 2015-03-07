@@ -36,7 +36,7 @@ def extract_png(input)
     break if  chunk_type.nil? || chunk_type == 'IEND'
   end
 
-  FileUtils.mkdir_p(dir = "images/#{height}x#{width}")
+  FileUtils.mkdir_p(dir = "images")
   if @prev != dir
     @n = 0
     @prev = dir
