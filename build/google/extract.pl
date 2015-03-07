@@ -63,7 +63,7 @@ foreach my $key (@keys){
 
 	my $name = $filenames->{$key} || "unknown_${key}";
 
-	open(my $fh, '>', "images/${name}.png");
+	open(my $fh, '>', "../../img-google-136/${name}.png");
 	print($fh $f->{'CBDT'}{'bitmap'}[0]{$key}{imageData});
 	close($fh);
 
