@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ruby -I../lib extract_images.rb
+/opt/chef/embedded/bin/ruby extract_images.rb
