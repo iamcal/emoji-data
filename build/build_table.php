@@ -101,7 +101,7 @@ table tbody td {
 
 <table cellspacing="0" cellpadding="0">
 	<tr>
-		<th colspan="5">Name</th>
+		<th colspan="6">Name</th>
 		<th>Short Name</th>
 		<th>ASCII</th>
 		<th>Unified</th>
@@ -117,15 +117,11 @@ table tbody td {
 <?
 	foreach ($catalog as $row){
 
-		$gemoji_img = $row['image'];
-		if (substr($row['image'], 0, 3) == '002' || (substr($row['image'], 0, 3) == '003')){
-			$gemoji_img = substr($row['image'], 0, 4).'-20e3.png';
-		}
-
 		echo "\t<tr>\n";
-		echo "\t\t<td><img src=\"gemoji/images/emoji/unicode/{$gemoji_img}\" width=\"20\" height=\"20\" /></td>\n";
-		echo "\t\t<td><img src=\"img-hangouts-64/{$row['image']}\" width=\"20\" height=\"20\" /></td>\n";
-		echo "\t\t<td><img src=\"img-twitter-72/{$row['image']}\" width=\"20\" height=\"20\" /></td>\n";
+		echo "\t\t<td><img src=\"{$row['apple_img_path'   ]}\" width=\"20\" height=\"20\" /></td>\n";
+		echo "\t\t<td><img src=\"{$row['google_img_path'  ]}\" width=\"20\" height=\"20\" /></td>\n";
+		echo "\t\t<td><img src=\"{$row['twitter_img_path' ]}\" width=\"20\" height=\"20\" /></td>\n";
+		echo "\t\t<td><img src=\"{$row['emojione_img_path']}\" width=\"20\" height=\"20\" /></td>\n";
 		echo "\t\t<td>".unicode_bytes($row['unified'])."</td>\n";
 		echo "\t\t<td>".HtmlSpecialChars(StrToLower($row['name']))."</td>\n";
 

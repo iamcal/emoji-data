@@ -3,13 +3,14 @@ images for use on the web.
 
 You can see a catalog of the emoji data here: http://unicodey.com/emoji-data/table.htm
 
-The original images come from <a href="https://github.com/github/gemoji">gemoji</a>
-and you can use the individual images directly with the data too.
+Images are extracted from their sources and this library attempts to track the latest
+available versions. If you're looking for older versions of Apple of Android images
+(such as the Hairy Heart) then you'll need to look at previous revisions.
 
-* Apple Emoji: Copyright &copy; Apple Inc.
-* Android Emoji: Copyright &copy; [The Android Open Source Project](https://s3-eu-west-1.amazonaws.com/tw-font/android/NOTICE)
-* Twitter Emoji Copyright &copy; Twitter, Inc.
-* Emoji One Emoji: Copyright &copy; [Ranks.com Inc.](http://www.emojione.com/developers)
+* Apple Emoji: Copyright &copy; Apple Inc. - OS X 10.10.3
+* Android Emoji: Copyright &copy; [The Android Open Source Project](https://s3-eu-west-1.amazonaws.com/tw-font/android/NOTICE) - Lollipop
+* Twitter Emoji Copyright &copy; Twitter, Inc. - The original release
+* Emoji One Emoji: Copyright &copy; [Ranks.com Inc.](http://www.emojione.com/developers) - master as of 2015-03-05
 
 
 ## Using the data
@@ -19,44 +20,66 @@ look like this:
 
 	[
 		{
-			"name": "BLACK SUN WITH RAYS",
-			"unified": "2600",
-			"variations": [ "2600-FE0F" ],
-			"docomo": "E63E",
-			"au": "E488",
-			"softbank": "E04A",
-			"google": "FE000",
-			"image": "2600.png",
-			"sheet_x": 25,
-			"sheet_y": 6,
-			"short_name": "sunny",
-			"short_names": [ "sunny" ],
+			"name": "WHITE UP POINTING INDEX",
+			"unified": "261D",
+			"variations": [
+				"261D-FE0F"
+			],
+			"docomo": null,
+			"au": "E4F6",
+			"softbank": "E00F",
+			"google": "FEB98",
+			"image": "261d.png",
+			"sheet_x": 1,
+			"sheet_y": 2,
+			"short_name": "point_up",
+			"short_names": [
+				"point_up"
+			],
 			"text": null,
+			"apple_img_path": "img-apple-64\/261d.0.png",
+			"google_img_path": "img-google-64\/261d.png",
+			"twitter_img_path": "img-twitter-64\/261d.png",
+			"emojione_img_path": "emojione\/assets\/png\/261D.png",
+			"skin_variations": {
+				"261D-1F3FB": {
+					"unified": "261D-1F3FB",
+					"sheet_x": 1,
+					"sheet_y": 3,
+					"apple_img_path": "img-apple-64\/261d.1.png",
+					"google_img_path": null,
+					"twitter_img_path": null,
+					"emojione_img_path": null
+				},
+				...
+			}
 		},
 		...
 	]
 
 An explanation of the various fields is in order:
 
-* `name` - The offical Unicode name, in SHOUTY UPPERCASE
+* `name` - The offical Unicode name, in SHOUTY UPPERCASE.
 * `unified` - The Unicode codepoint, as 4-5 hex digits. Where an emoji
    needs 2 or more codepoints, they are specified like `1F1EA-1F1F8`.
 * `variations` - An array of commonly used codepoint variations.
 * `docomo`, `au`, `softbank`, `google` - The Unicode codepoints used
    by various mobile vendors.
-* `image` - The name of the image file in `gemoji/images/emoji/unicode/`
+* `image` - The name of the image file.
 * `sheet_x` & `sheet_y` - The position of the image in the spritesheets.
 * `short_name` - The commonly-agreed upon short name for the image, as
    supported in campfire, github etc via the :colon-syntax:
 * `short_names` - An array of all the known short names.
 * `text` - An ASCII version of the emoji (e.g. `:)`), or null where
    none exists.
+* `*_img_path` - Path (relative to the root of this repo) to the image.
+* `skin_variations` - For skin-varying emoji, a list of alternative glyphs.
 
 
 ## Rebuilding the data
 
 The scripts in the `build/` sub directory allow you to rebuild the data files 
-from the unicode.org source materials and the images from the gemoji project.
+from the unicode.org source materials and the data from the gemoji project.
 
 You can rebuild by following these steps:
 
@@ -80,3 +103,6 @@ You can rebuild by following these steps:
 	# (This step requires ImageMagick or GraphicsMagick)
 	php build_image.php # this is slow!
 	php build_sheets.php
+
+To find out how to extract the original source glyphs, look inside the sub
+directories under `build/`.
