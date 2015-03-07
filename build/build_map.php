@@ -178,21 +178,12 @@
 			'short_name'	=> $short,
 			'short_names'	=> $shorts,
 			'text'		=> $GLOBALS['text'][$short],
-			'apple_img'	=> null,
-			'hangouts_img'	=> null,
-			'twitter_img'	=> null,
-			'emojione_img'	=> null,
 		);
 
 		$ret['apple_img_path']		= find_image($props['unified'], $ret['image'], "img-apple-64/");
-		$ret['hangouts_img_path']	= find_image($props['unified'], $ret['image'], "img-hangouts-64/");
+		$ret['google_img_path']		= find_image($props['unified'], $ret['image'], "img-google-64/");
 		$ret['twitter_img_path']	= find_image($props['unified'], $ret['image'], "img-twitter-64/");
 		$ret['emojione_img_path']	= find_image($props['unified'], $ret['image'], "emojione/assets/png/");
-
-		$ret['apple_img']		= !is_null($ret['apple_img_path']);
-		$ret['hangouts_img']		= !is_null($ret['hangouts_img_path']);
-		$ret['twitter_img']		= !is_null($ret['twitter_img_path']);
-		$ret['emojione_img']		= !is_null($ret['emojione_img_path']);
 
 		foreach ($props as $k => $v) $ret[$k] = $v;
 
@@ -210,7 +201,7 @@
 					'sheet_x'		=> 0,
 					'sheet_y'		=> 0,
 					'apple_img_path'	=> $apple_path,
-					'hangouts_img_path'	=> null,
+					'google_img_path'	=> null,
 					'twitter_img_path'	=> null,
 					'emojione_img_path'	=> null,
 				);

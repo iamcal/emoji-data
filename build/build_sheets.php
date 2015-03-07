@@ -9,9 +9,9 @@
 	build_sheet('twitter', 20);
 	build_sheet('twitter', 16);
 
-	build_sheet('hangouts', 32);
-	build_sheet('hangouts', 20);
-	build_sheet('hangouts', 16);
+	build_sheet('google', 32);
+	build_sheet('google', 20);
+	build_sheet('google', 16);
 
 	build_sheet('emojione', 32);
 	build_sheet('emojione', 20);

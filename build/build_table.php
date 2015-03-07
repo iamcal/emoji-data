@@ -119,7 +119,7 @@ table tbody td {
 
 		echo "\t<tr>\n";
 		echo "\t\t<td><img src=\"{$row['apple_img_path'   ]}\" width=\"20\" height=\"20\" /></td>\n";
-		echo "\t\t<td><img src=\"{$row['hangouts_img_path']}\" width=\"20\" height=\"20\" /></td>\n";
+		echo "\t\t<td><img src=\"{$row['google_img_path'  ]}\" width=\"20\" height=\"20\" /></td>\n";
 		echo "\t\t<td><img src=\"{$row['twitter_img_path' ]}\" width=\"20\" height=\"20\" /></td>\n";
 		echo "\t\t<td><img src=\"{$row['emojione_img_path']}\" width=\"20\" height=\"20\" /></td>\n";
 		echo "\t\t<td>".unicode_bytes($row['unified'])."</td>\n";
