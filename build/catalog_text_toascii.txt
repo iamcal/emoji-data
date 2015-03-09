@@ -1,5 +1,6 @@
 smile			:)
 smiley			:)
+blush			:)
 grinning		:D
 satisified		:D
 stuck_out_tongue_winking_eye	;p
@@ -8,7 +9,7 @@ stuck_out_tongue	:p
 cry			:'(
 sob			:'(
 disappointed		:(
-unamusedunamused	:(
+unamused		:(
 heart			<3
 yellow_heart		<3
 blue_heart		<3
