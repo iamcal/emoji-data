@@ -12,13 +12,24 @@
 	# load text mappings
 	#
 
+	$text = array();	# smile -> :)
+	$texts = array();	# smile -> [:) (: :D]
+
 	$lines = file('catalog_text_toascii.txt');
-	$text = array();
 	foreach ($lines as $line){
 		$line = trim($line);
 		if (strlen($line)){
 			$bits = preg_split('!\s+!', $line, 2);
 			$text[$bits[0]] = $bits[1];
+		}
+	}
+
+	$lines = file('catalog_text_toemoji.txt');
+	foreach ($lines as $line){
+		$line = trim($line);
+		if (strlen($line)){
+			$bits = preg_split('!\s+!', $line, 2);
+			$texts[$bits[1]][] = $bits[0];
 		}
 	}
 
@@ -178,6 +189,7 @@
 			'short_name'	=> $short,
 			'short_names'	=> $shorts,
 			'text'		=> $GLOBALS['text'][$short],
+			'texts'		=> $GLOBALS['texts'][$short],
 		);
 
 		$ret['apple_img_path']		= find_image($props['unified'], $ret['image'], "img-apple-64/");

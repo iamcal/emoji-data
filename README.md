@@ -37,6 +37,7 @@ look like this:
 				"point_up"
 			],
 			"text": null,
+			"texts": null,
 			"apple_img_path": "img-apple-64\/261d.0.png",
 			"google_img_path": "img-google-64\/261d.png",
 			"twitter_img_path": "img-twitter-64\/261d.png",
@@ -72,6 +73,8 @@ An explanation of the various fields is in order:
 * `short_names` - An array of all the known short names.
 * `text` - An ASCII version of the emoji (e.g. `:)`), or null where
    none exists.
+* `texts` - An array of ASCII emoji that should convert into this emoji.
+   Each ASCII emoji will only appear against a single emoji entry.
 * `*_img_path` - Path (relative to the root of this repo) to the image.
 * `skin_variations` - For skin-varying emoji, a list of alternative glyphs.
 
