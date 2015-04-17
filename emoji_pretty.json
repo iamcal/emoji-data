@@ -22942,8 +22942,7 @@
         "sheet_y": 5,
         "short_name": "flag-ae",
         "short_names": [
-            "flag-ae",
-            "ae"
+            "flag-ae"
         ],
         "text": null,
         "texts": null,
@@ -22967,8 +22966,7 @@
         "sheet_y": 6,
         "short_name": "flag-at",
         "short_names": [
-            "flag-at",
-            "at"
+            "flag-at"
         ],
         "text": null,
         "texts": null,
@@ -22992,8 +22990,7 @@
         "sheet_y": 7,
         "short_name": "flag-au",
         "short_names": [
-            "flag-au",
-            "au"
+            "flag-au"
         ],
         "text": null,
         "texts": null,
@@ -23017,8 +23014,7 @@
         "sheet_y": 8,
         "short_name": "flag-be",
         "short_names": [
-            "flag-be",
-            "be"
+            "flag-be"
         ],
         "text": null,
         "texts": null,
@@ -23042,8 +23038,7 @@
         "sheet_y": 9,
         "short_name": "flag-br",
         "short_names": [
-            "flag-br",
-            "br"
+            "flag-br"
         ],
         "text": null,
         "texts": null,
@@ -23067,8 +23062,7 @@
         "sheet_y": 10,
         "short_name": "flag-ca",
         "short_names": [
-            "flag-ca",
-            "ca"
+            "flag-ca"
         ],
         "text": null,
         "texts": null,
@@ -23092,8 +23086,7 @@
         "sheet_y": 11,
         "short_name": "flag-ch",
         "short_names": [
-            "flag-ch",
-            "ch"
+            "flag-ch"
         ],
         "text": null,
         "texts": null,
@@ -23117,8 +23110,7 @@
         "sheet_y": 12,
         "short_name": "flag-cl",
         "short_names": [
-            "flag-cl",
-            "cl"
+            "flag-cl"
         ],
         "text": null,
         "texts": null,
@@ -23167,8 +23159,7 @@
         "sheet_y": 14,
         "short_name": "flag-co",
         "short_names": [
-            "flag-co",
-            "co"
+            "flag-co"
         ],
         "text": null,
         "texts": null,
@@ -23217,8 +23208,7 @@
         "sheet_y": 16,
         "short_name": "flag-dk",
         "short_names": [
-            "flag-dk",
-            "dk"
+            "flag-dk"
         ],
         "text": null,
         "texts": null,
@@ -23267,8 +23257,7 @@
         "sheet_y": 18,
         "short_name": "flag-fi",
         "short_names": [
-            "flag-fi",
-            "fi"
+            "flag-fi"
         ],
         "text": null,
         "texts": null,
@@ -23343,8 +23332,7 @@
         "sheet_y": 21,
         "short_name": "flag-hk",
         "short_names": [
-            "flag-hk",
-            "hk"
+            "flag-hk"
         ],
         "text": null,
         "texts": null,
@@ -23368,8 +23356,7 @@
         "sheet_y": 22,
         "short_name": "flag-id",
         "short_names": [
-            "flag-id",
-            "id"
+            "flag-id"
         ],
         "text": null,
         "texts": null,
@@ -23393,8 +23380,7 @@
         "sheet_y": 23,
         "short_name": "flag-ie",
         "short_names": [
-            "flag-ie",
-            "ie"
+            "flag-ie"
         ],
         "text": null,
         "texts": null,
@@ -23418,8 +23404,7 @@
         "sheet_y": 24,
         "short_name": "flag-il",
         "short_names": [
-            "flag-il",
-            "il"
+            "flag-il"
         ],
         "text": null,
         "texts": null,
@@ -23443,8 +23428,7 @@
         "sheet_y": 25,
         "short_name": "flag-in",
         "short_names": [
-            "flag-in",
-            "in"
+            "flag-in"
         ],
         "text": null,
         "texts": null,
@@ -23543,8 +23527,7 @@
         "sheet_y": 29,
         "short_name": "flag-mo",
         "short_names": [
-            "flag-mo",
-            "mo"
+            "flag-mo"
         ],
         "text": null,
         "texts": null,
@@ -23568,8 +23551,7 @@
         "sheet_y": 30,
         "short_name": "flag-mx",
         "short_names": [
-            "flag-mx",
-            "mx"
+            "flag-mx"
         ],
         "text": null,
         "texts": null,
@@ -23593,8 +23575,7 @@
         "sheet_y": 31,
         "short_name": "flag-my",
         "short_names": [
-            "flag-my",
-            "my"
+            "flag-my"
         ],
         "text": null,
         "texts": null,
@@ -23618,8 +23599,7 @@
         "sheet_y": 32,
         "short_name": "flag-nl",
         "short_names": [
-            "flag-nl",
-            "nl"
+            "flag-nl"
         ],
         "text": null,
         "texts": null,
@@ -23643,8 +23623,7 @@
         "sheet_y": 33,
         "short_name": "flag-no",
         "short_names": [
-            "flag-no",
-            "no"
+            "flag-no"
         ],
         "text": null,
         "texts": null,
@@ -23668,8 +23647,7 @@
         "sheet_y": 34,
         "short_name": "flag-nz",
         "short_names": [
-            "flag-nz",
-            "nz"
+            "flag-nz"
         ],
         "text": null,
         "texts": null,
@@ -23693,8 +23671,7 @@
         "sheet_y": 0,
         "short_name": "flag-ph",
         "short_names": [
-            "flag-ph",
-            "ph"
+            "flag-ph"
         ],
         "text": null,
         "texts": null,
@@ -23718,8 +23695,7 @@
         "sheet_y": 1,
         "short_name": "flag-pl",
         "short_names": [
-            "flag-pl",
-            "pl"
+            "flag-pl"
         ],
         "text": null,
         "texts": null,
@@ -23743,8 +23719,7 @@
         "sheet_y": 2,
         "short_name": "flag-pr",
         "short_names": [
-            "flag-pr",
-            "pr"
+            "flag-pr"
         ],
         "text": null,
         "texts": null,
@@ -23768,8 +23743,7 @@
         "sheet_y": 3,
         "short_name": "flag-pt",
         "short_names": [
-            "flag-pt",
-            "pt"
+            "flag-pt"
         ],
         "text": null,
         "texts": null,
@@ -23818,8 +23792,7 @@
         "sheet_y": 5,
         "short_name": "flag-sa",
         "short_names": [
-            "flag-sa",
-            "sa"
+            "flag-sa"
         ],
         "text": null,
         "texts": null,
@@ -23843,8 +23816,7 @@
         "sheet_y": 6,
         "short_name": "flag-se",
         "short_names": [
-            "flag-se",
-            "se"
+            "flag-se"
         ],
         "text": null,
         "texts": null,
@@ -23868,8 +23840,7 @@
         "sheet_y": 7,
         "short_name": "flag-sg",
         "short_names": [
-            "flag-sg",
-            "sg"
+            "flag-sg"
         ],
         "text": null,
         "texts": null,
@@ -23893,8 +23864,7 @@
         "sheet_y": 8,
         "short_name": "flag-tr",
         "short_names": [
-            "flag-tr",
-            "tr"
+            "flag-tr"
         ],
         "text": null,
         "texts": null,
@@ -23943,8 +23913,7 @@
         "sheet_y": 10,
         "short_name": "flag-vn",
         "short_names": [
-            "flag-vn",
-            "vn"
+            "flag-vn"
         ],
         "text": null,
         "texts": null,
@@ -23968,8 +23937,7 @@
         "sheet_y": 11,
         "short_name": "flag-za",
         "short_names": [
-            "flag-za",
-            "za"
+            "flag-za"
         ],
         "text": null,
         "texts": null,

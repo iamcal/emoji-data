@@ -135,7 +135,6 @@
 		$name = StrToUpper($arr[1]);
 
 		if (substr($arr[0], 0, 5) == 'flag-'){
-			$short_names[] = substr($arr[0], 5);
 			$name = "REGIONAL INDICATOR SYMBOL LETTERS ".StrToUpper(substr($arr[0], 5));
 		}
 
