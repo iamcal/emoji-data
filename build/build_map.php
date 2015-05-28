@@ -303,6 +303,15 @@
 	echo "DONE\n";
 
 
+	echo "Writing pretty map: ";
+
+	$fh = fopen('../emoji_pretty.json', 'w');
+	fwrite($fh, json_encode($out, JSON_PRETTY_PRINT));
+	fclose($fh);
+
+	echo "DONE\n";
+
+
 	function encode_points($points){
 		$bits = array();
 		if (is_array($points)){
