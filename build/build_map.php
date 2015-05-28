@@ -35,6 +35,30 @@
 
 
 	#
+	# load category data
+	#
+
+	$category_map = array();
+	$category_list = array();
+
+	$json = file_get_contents('emoji_categoires.json');
+	$obj = json_decode($json, true);
+
+	foreach ($obj['EmojiDataArray'] as $cat){
+		list($junk, $cat_name) = explode('-', $cat['CVDataTitle']);
+		$p = 1;
+		foreach (explode(',', $cat['CVCategoryData']['Data']) as $glyph){
+
+			$hex = StrToUpper(utf8_bytes_to_hex($glyph));
+			$category_map[$hex] = array($cat_name, $p);
+			$p++;
+		}
+
+		$category_list[] = $cat_name;
+	}
+
+
+	#
 	# load extra apple data
 	#
 
@@ -152,6 +176,8 @@
 		if (!is_array($shorts)) $shorts = array();
 		$short = count($shorts) ? $shorts[0] : null;
 
+		$category = $GLOBALS['category_map'][$props['unified']];
+
 		$ret = array(
 			'name'		=> null,
 			'unified'	=> null,
@@ -167,6 +193,8 @@
 			'short_names'	=> $shorts,
 			'text'		=> $GLOBALS['text'][$short],
 			'texts'		=> $GLOBALS['texts'][$short],
+			'category'	=> is_array($category) ? $category[0] : null,
+			'sort_order'	=> is_array($category) ? $category[1] : null,
 		);
 
 		$ret['has_img_apple']		= file_exists("{$GLOBALS['dir']}/../img-apple-64/{$ret['image']}");
@@ -285,3 +313,37 @@
 		if (!count($bits)) return null;
 		return implode('-', $bits);
 	}
+
+
+
+
+	function utf8_bytes_to_uni_hex($utf8_bytes){
+
+		$bytes = array();
+
+		foreach (str_split($utf8_bytes) as $ch){
+			$bytes[] = ord($ch);
+		}
+
+		$codepoint = 0;
+		if (count($bytes) == 1) $codepoint = $bytes[0];
+		if (count($bytes) == 2) $codepoint = (($bytes[0] & 0x1F) << 6) | ($bytes[1] & 0x3F);
+		if (count($bytes) == 3) $codepoint = (($bytes[0] & 0x0F) << 12) | (($bytes[1] & 0x3F) << 6) | ($bytes[2] & 0x3F);
+		if (count($bytes) == 4) $codepoint = (($bytes[0] & 0x07) << 18) | (($bytes[1] & 0x3F) << 12) | (($bytes[2] & 0x3F) << 6) | ($bytes[3] & 0x3F);
+		if (count($bytes) == 5) $codepoint = (($bytes[0] & 0x03) << 24) | (($bytes[1] & 0x3F) << 18) | (($bytes[2] & 0x3F) << 12) | (($bytes[3] & 0x3F) << 6) | ($bytes[4] & 0x3F);
+		if (count($bytes) == 6) $codepoint = (($bytes[0] & 0x01) << 30) | (($bytes[1] & 0x3F) << 24) | (($bytes[2] & 0x3F) << 18) | (($bytes[3] & 0x3F) << 12) | (($bytes[4] & 0x3F) << 6) | ($bytes[5] & 0x3F);
+
+		$str = sprintf('%x', $codepoint);
+		return str_pad($str, 4, '0', STR_PAD_LEFT);
+	}
+
+	function utf8_bytes_to_hex($str){
+		mb_internal_encoding('UTF-8');
+		$out = array();
+		while (strlen($str)){
+			$out[] = utf8_bytes_to_uni_hex(mb_substr($str, 0, 1));
+			$str = mb_substr($str, 1);
+		}
+		return implode('-', $out);
+	}
+
