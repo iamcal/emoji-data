@@ -41,30 +41,9 @@
 	$json = file_get_contents('apple_extra.json');
 	$apple_data = json_decode($json, true);
 
-
-	#
-	# find which apple images have skin variations
-	#
-
-	echo "Finding emoji with skin variations ... ";
-
-	$skin_variations = array();
-
-	$out = shell_exec(" ls -1 ../img-apple-160/ | grep \"\\.0\\.png\"");
-	$files = explode("\n", trim($out));
-	foreach ($files as $file){
-		list($key) = explode('.', $file);
-		$skin_variations[$key] = array(0);
-		for ($i=1; $i<=5; $i++){
-			if (file_exists("../img-apple-160/{$key}.{$i}.png")){
-				$skin_variations[$key][] = $i;
-			}
-		}
-	}
-
 	echo "OK\n";
 
-	$skin_varation_suffixes = array(
+	$skin_variation_suffixes = array(
 		1 => '1F3FB',
 		2 => '1F3FC',
 		3 => '1F3FD',
@@ -198,26 +177,27 @@
 
 		foreach ($props as $k => $v) $ret[$k] = $v;
 
-		$skin_key = StrToLower($props['unified']);
-		if (count($GLOBALS['skin_variations'][$skin_key])){
+		if (file_exists("../img-apple-64/{$img_key}-1f3fb.png")){
 
 			$ret['skin_variations'] = array();
-			foreach ($GLOBALS['skin_variations'][$skin_key] as $id){
-				if (!$id) continue;
 
-				$apple_path = substr($ret['apple_img_path'], 0, -6).".{$id}.png";
+			foreach ($GLOBALS['skin_variation_suffixes'] as $suffix){
+
+				$var_uni = $props['unified'].'-'.$suffix;
+				$var_img = $img_key.'-'.StrToLower($suffix).'.png';
 
 				$variation = array(
-					'unified'		=> $props['unified'].'-'.$GLOBALS['skin_varation_suffixes'][$id],
+					'unified'		=> $var_uni,
+					'image'			=> $var_img,
 					'sheet_x'		=> 0,
 					'sheet_y'		=> 0,
-					'apple_img_path'	=> $apple_path,
+					'apple_img_path'	=> find_image($var_uni, $var_img, "img-apple-64/"),
 					'google_img_path'	=> null,
 					'twitter_img_path'	=> null,
 					'emojione_img_path'	=> null,
 				);
 
-				$ret['skin_variations'][$variation['unified']] = $variation;
+				$ret['skin_variations'][$var_uni] = $variation;
 			}
 		}
 
