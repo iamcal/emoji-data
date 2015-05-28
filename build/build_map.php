@@ -211,23 +211,6 @@
 		$src = "{$img_path}{$image}";
 		if (file_exists($root.$src)) return $src;
 
-		list($a, $b) = explode('.', $image);
-		$upper_name = StrToUpper($a).'.'.$b;
-		$src = "{$img_path}{$upper_name}";
-		if (file_exists($root.$src)) return $src;
-
-		$key = StrToLower($unified);
-		if (count($GLOBALS['skin_variations'][$key])){
-			$src = "{$img_path}{$key}.0.png";
-			if (file_exists($root.$src)) return $src;
-		}
-
-		$key_upper = StrToUpper($unified);
-		if ($GLOBALS['apple_data']['images'][$key_upper]){
-			$src = "{$img_path}{$GLOBALS['apple_data']['images'][$key_upper]}";
-			if (file_exists($root.$src)) return $src;
-		}
-
 		return null;
 	}
 
