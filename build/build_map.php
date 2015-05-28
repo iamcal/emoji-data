@@ -169,10 +169,10 @@
 			'texts'		=> $GLOBALS['texts'][$short],
 		);
 
-		$ret['apple_img_path']		= find_image($props['unified'], $ret['image'], "img-apple-64/");
-		$ret['google_img_path']		= find_image($props['unified'], $ret['image'], "img-google-64/");
-		$ret['twitter_img_path']	= find_image($props['unified'], $ret['image'], "img-twitter-64/");
-		$ret['emojione_img_path']	= find_image($props['unified'], $ret['image'], "img-emojione-64/");
+		$ret['has_img_apple']		= file_exists("{$GLOBALS['dir']}/../img-apple-64/{$ret['image']}");
+		$ret['has_img_google']		= file_exists("{$GLOBALS['dir']}/../img-google-64/{$ret['image']}");
+		$ret['has_img_twitter']		= file_exists("{$GLOBALS['dir']}/../img-twitter-64/{$ret['image']}");
+		$ret['has_img_emojione']	= file_exists("{$GLOBALS['dir']}/../img-emojione-64/{$ret['image']}");
 
 		foreach ($props as $k => $v) $ret[$k] = $v;
 
@@ -190,10 +190,10 @@
 					'image'			=> $var_img,
 					'sheet_x'		=> 0,
 					'sheet_y'		=> 0,
-					'apple_img_path'	=> find_image($var_uni, $var_img, "img-apple-64/"),
-					'google_img_path'	=> null,
-					'twitter_img_path'	=> null,
-					'emojione_img_path'	=> null,
+					'has_img_apple'		=> file_exists("{$GLOBALS['dir']}/../img-apple-64/{$var_img}"),
+					'has_img_google'	=> file_exists("{$GLOBALS['dir']}/../img-google-64/{$var_img}"),
+					'has_img_twitter'	=> file_exists("{$GLOBALS['dir']}/../img-twitter-64/{$var_img}"),
+					'has_img_emojione'	=> file_exists("{$GLOBALS['dir']}/../img-emojione-64/{$var_img}"),
 				);
 
 				$ret['skin_variations'][$var_uni] = $variation;
@@ -202,16 +202,6 @@
 
 
 		return $ret;
-	}
-
-	function find_image($unified, $image, $img_path){
-
-		$root = "{$GLOBALS['dir']}/../";
-
-		$src = "{$img_path}{$image}";
-		if (file_exists($root.$src)) return $src;
-
-		return null;
 	}
 
 
