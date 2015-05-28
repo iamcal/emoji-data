@@ -34,10 +34,10 @@
 	# bake sheets
 	#
 
-	#create_sheet('apple');
-	#create_sheet('twitter');
+	create_sheet('apple');
+	create_sheet('twitter');
 	create_sheet('google');
-	#create_sheet('emojione');
+	create_sheet('emojione');
 
 
 	function create_sheet($type){
@@ -112,7 +112,11 @@
 				foreach ($row['skin_variations'] as $row2){
 
 					$vari_img = $row2["{$type}_img_path"];
-					if (is_null($vari_img)) $vari_img = $main_img;
+
+					# uncomment this line if you want each variations position to
+					# have the 'main' image inserted. this makes using it slightly
+					# easier, at the cost of heavier sheets.
+					#if (is_null($vari_img)) $vari_img = $main_img;
 
 					if ($vari_img){
 
