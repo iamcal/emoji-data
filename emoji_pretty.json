@@ -8584,7 +8584,7 @@
         ],
         "text": null,
         "texts": null,
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": false,
         "has_img_twitter": false,
         "has_img_emojione": false
@@ -8608,7 +8608,7 @@
         ],
         "text": null,
         "texts": null,
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": false,
         "has_img_twitter": false,
         "has_img_emojione": false
@@ -8632,7 +8632,7 @@
         ],
         "text": null,
         "texts": null,
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": false,
         "has_img_twitter": false,
         "has_img_emojione": false
@@ -8656,7 +8656,7 @@
         ],
         "text": null,
         "texts": null,
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": false,
         "has_img_twitter": false,
         "has_img_emojione": false
@@ -8680,7 +8680,7 @@
         ],
         "text": null,
         "texts": null,
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": false,
         "has_img_twitter": false,
         "has_img_emojione": false
