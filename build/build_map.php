@@ -172,7 +172,7 @@
 		$ret['apple_img_path']		= find_image($props['unified'], $ret['image'], "img-apple-64/");
 		$ret['google_img_path']		= find_image($props['unified'], $ret['image'], "img-google-64/");
 		$ret['twitter_img_path']	= find_image($props['unified'], $ret['image'], "img-twitter-64/");
-		$ret['emojione_img_path']	= find_image($props['unified'], $ret['image'], "emojione/assets/png/");
+		$ret['emojione_img_path']	= find_image($props['unified'], $ret['image'], "img-emojione-64/");
 
 		foreach ($props as $k => $v) $ret[$k] = $v;
 
