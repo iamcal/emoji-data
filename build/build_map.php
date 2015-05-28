@@ -108,7 +108,6 @@
 	foreach ($apple_data['emoji'] as $cps => $arr){
 
 		$img_key = StrToLower($cps);
-		$img_key = str_replace('200d-', '', $img_key);
 
 		$short_names = array($arr[0]);
 		$name = StrToUpper($arr[1]);
