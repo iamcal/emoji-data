@@ -56,7 +56,7 @@
 		$replacement = null;
 		foreach ($catalog as $row){
 			if ($row['unified'] == '2753'){
-				$replacement = $row["{$type}_img_path"];
+				$replacement = "img-{$type}-64/{$row['image']}";
 			}
 		}
 
@@ -76,23 +76,23 @@
 
 			$main_img = null;
 
-			if (!is_null($row["{$type}_img_path"])){
+			if ($row["has_img_{$type}"]){
 
-				$main_img = $row["{$type}_img_path"];
+				$main_img = "img-{$type}-64/{$row['image']}";
 				$comp[] = array($row['sheet_x'], $row['sheet_y'], $main_img);
 			}else{
 
 				# apple is always our first fallback. after that, we'll try emojione
 				# (since it has the missing flags), else fall back to the replacement glyph
 
-				if ($row["apple_img_path"]){
+				if ($row["has_img_apple"]){
 
-					$main_img = $row["apple_img_path"];
+					$main_img = "img-apple-64/{$row['image']}";
 					$comp[] = array($row['sheet_x'], $row['sheet_y'], $main_img);
 
-				}elseif ($row["emojione_img_path"]){
+				}elseif ($row["has_img_emojione"]){
 
-					$main_img = $row["emojione_img_path"];
+					$main_img = "img-emojione-64/{$row['image']}";
 					$comp[] = array($row['sheet_x'], $row['sheet_y'], $main_img);
 
 				}elseif ($replacement){
@@ -111,7 +111,7 @@
 			if (count($row['skin_variations'])){
 				foreach ($row['skin_variations'] as $row2){
 
-					$vari_img = $row2["{$type}_img_path"];
+					$vari_img = $row2["has_img_{$type}"];
 
 					# uncomment this line if you want each variations position to
 					# have the 'main' image inserted. this makes using it slightly
@@ -120,7 +120,7 @@
 
 					if ($vari_img){
 
-						$comp[] = array($row2['sheet_x'], $row2['sheet_y'], $vari_img);
+						$comp[] = array($row2['sheet_x'], $row2['sheet_y'], "img-{$type}-64/{$row2['image']}");
 					}
 				}
 			}
