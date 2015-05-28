@@ -177,6 +177,13 @@
 		$short = count($shorts) ? $shorts[0] : null;
 
 		$category = $GLOBALS['category_map'][$props['unified']];
+		if (!is_array($category)){
+			foreach ($vars as $v){
+				if (is_array($GLOBALS['category_map'][$v])){
+					$category = $GLOBALS['category_map'][$v];
+				}
+			}
+		}
 
 		$ret = array(
 			'name'		=> null,
