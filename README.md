@@ -38,19 +38,22 @@ look like this:
 			],
 			"text": null,
 			"texts": null,
-			"apple_img_path": "img-apple-64\/261d.0.png",
-			"google_img_path": "img-google-64\/261d.png",
-			"twitter_img_path": "img-twitter-64\/261d.png",
-			"emojione_img_path": "emojione\/assets\/png\/261D.png",
+			"category": "People",
+			"sort_order": 116,
+			"has_img_apple": true,
+			"has_img_google": true,
+			"has_img_twitter": true,
+			"has_img_emojione": false,
 			"skin_variations": {
 				"261D-1F3FB": {
 					"unified": "261D-1F3FB",
+					"image": "261d-1f3fb.png",
 					"sheet_x": 1,
 					"sheet_y": 3,
-					"apple_img_path": "img-apple-64\/261d.1.png",
-					"google_img_path": null,
-					"twitter_img_path": null,
-					"emojione_img_path": null
+					"has_img_apple": true,
+					"has_img_google": false,
+					"has_img_twitter": false,
+					"has_img_emojione": false
 				},
 				...
 			}
@@ -75,7 +78,7 @@ An explanation of the various fields is in order:
    none exists.
 * `texts` - An array of ASCII emoji that should convert into this emoji.
    Each ASCII emoji will only appear against a single emoji entry.
-* `*_img_path` - Path (relative to the root of this repo) to the image.
+* `has_img_*` - A flag for whether the given image set has an image (named by the `image` prop) available.
 * `skin_variations` - For skin-varying emoji, a list of alternative glyphs.
 
 
