@@ -117,11 +117,16 @@ table tbody td {
 <?
 	foreach ($catalog as $row){
 
+		$url_apple    = $row['has_img_apple'   ] ? "img-apple-64/{$row['image']}"    : '';
+		$url_google   = $row['has_img_google'  ] ? "img-google-64/{$row['image']}"   : '';
+		$url_twitter  = $row['has_img_twitter' ] ? "img-twitter-64/{$row['image']}"  : '';
+		$url_emojione = $row['has_img_emojione'] ? "img-emojione-64/{$row['image']}" : '';
+
 		echo "\t<tr>\n";
-		echo "\t\t<td><img src=\"{$row['apple_img_path'   ]}\" width=\"20\" height=\"20\" /></td>\n";
-		echo "\t\t<td><img src=\"{$row['google_img_path'  ]}\" width=\"20\" height=\"20\" /></td>\n";
-		echo "\t\t<td><img src=\"{$row['twitter_img_path' ]}\" width=\"20\" height=\"20\" /></td>\n";
-		echo "\t\t<td><img src=\"{$row['emojione_img_path']}\" width=\"20\" height=\"20\" /></td>\n";
+		echo "\t\t<td><img src=\"{$url_apple}\" width=\"20\" height=\"20\" /></td>\n";
+		echo "\t\t<td><img src=\"{$url_google}\" width=\"20\" height=\"20\" /></td>\n";
+		echo "\t\t<td><img src=\"{$url_twitter}\" width=\"20\" height=\"20\" /></td>\n";
+		echo "\t\t<td><img src=\"{$url_emojione}\" width=\"20\" height=\"20\" /></td>\n";
 		echo "\t\t<td>".unicode_bytes($row['unified'])."</td>\n";
 		echo "\t\t<td>".HtmlSpecialChars(StrToLower($row['name']))."</td>\n";
 
