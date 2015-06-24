@@ -8,8 +8,10 @@
 
 		"1F468-200D-1F469-200D-1F466"			: ["man-woman-boy", ""],
 		"1F468-200D-1F469-200D-1F467"			: ["man-woman-girl", ""],
+		"1F468-200D-1F469-200D-1F467-200D-1F466"	: ["man-woman-girl-boy", ""],
 		"1F468-200D-1F469-200D-1F466-200D-1F466"	: ["man-woman-boy-boy", ""],
 		"1F468-200D-1F469-200D-1F467-200D-1F467"	: ["man-woman-girl-girl", ""],
+
 		"1F469-200D-1F469-200D-1F466"			: ["woman-woman-boy", ""],
 		"1F469-200D-1F469-200D-1F467"			: ["woman-woman-girl", ""],
 		"1F469-200D-1F469-200D-1F467-200D-1F466"	: ["woman-woman-girl-boy", ""],

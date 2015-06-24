@@ -26205,6 +26205,32 @@
     },
     {
         "name": "",
+        "unified": "1F468-200D-1F469-200D-1F467-200D-1F466",
+        "variations": [
+
+        ],
+        "docomo": null,
+        "au": null,
+        "softbank": null,
+        "google": null,
+        "image": "1f468-200d-1f469-200d-1f467-200d-1f466.png",
+        "sheet_x": 33,
+        "sheet_y": 20,
+        "short_name": "man-woman-girl-boy",
+        "short_names": [
+            "man-woman-girl-boy"
+        ],
+        "text": null,
+        "texts": null,
+        "category": null,
+        "sort_order": null,
+        "has_img_apple": false,
+        "has_img_google": false,
+        "has_img_twitter": false,
+        "has_img_emojione": false
+    },
+    {
+        "name": "",
         "unified": "1F468-200D-1F469-200D-1F467-200D-1F467",
         "variations": [
 
@@ -26215,7 +26241,7 @@
         "google": null,
         "image": "1f468-200d-1f469-200d-1f467-200d-1f467.png",
         "sheet_x": 33,
-        "sheet_y": 20,
+        "sheet_y": 21,
         "short_name": "man-woman-girl-girl",
         "short_names": [
             "man-woman-girl-girl"
@@ -26241,7 +26267,7 @@
         "google": null,
         "image": "1f468-200d-2764-fe0f-200d-1f468.png",
         "sheet_x": 33,
-        "sheet_y": 21,
+        "sheet_y": 22,
         "short_name": "man-heart-man",
         "short_names": [
             "man-heart-man"
@@ -26267,7 +26293,7 @@
         "google": null,
         "image": "1f468-200d-2764-fe0f-200d-1f48b-200d-1f468.png",
         "sheet_x": 33,
-        "sheet_y": 22,
+        "sheet_y": 23,
         "short_name": "man-kiss-man",
         "short_names": [
             "man-kiss-man"
@@ -26293,7 +26319,7 @@
         "google": null,
         "image": "1f469-200d-1f469-200d-1f466.png",
         "sheet_x": 33,
-        "sheet_y": 23,
+        "sheet_y": 24,
         "short_name": "woman-woman-boy",
         "short_names": [
             "woman-woman-boy"
@@ -26319,7 +26345,7 @@
         "google": null,
         "image": "1f469-200d-1f469-200d-1f466-200d-1f466.png",
         "sheet_x": 33,
-        "sheet_y": 24,
+        "sheet_y": 25,
         "short_name": "woman-woman-boy-boy",
         "short_names": [
             "woman-woman-boy-boy"
@@ -26345,7 +26371,7 @@
         "google": null,
         "image": "1f469-200d-1f469-200d-1f467.png",
         "sheet_x": 33,
-        "sheet_y": 25,
+        "sheet_y": 26,
         "short_name": "woman-woman-girl",
         "short_names": [
             "woman-woman-girl"
@@ -26371,7 +26397,7 @@
         "google": null,
         "image": "1f469-200d-1f469-200d-1f467-200d-1f466.png",
         "sheet_x": 33,
-        "sheet_y": 26,
+        "sheet_y": 27,
         "short_name": "woman-woman-girl-boy",
         "short_names": [
             "woman-woman-girl-boy"
@@ -26397,7 +26423,7 @@
         "google": null,
         "image": "1f469-200d-1f469-200d-1f467-200d-1f467.png",
         "sheet_x": 33,
-        "sheet_y": 27,
+        "sheet_y": 28,
         "short_name": "woman-woman-girl-girl",
         "short_names": [
             "woman-woman-girl-girl"
@@ -26423,7 +26449,7 @@
         "google": null,
         "image": "1f469-200d-2764-fe0f-200d-1f469.png",
         "sheet_x": 33,
-        "sheet_y": 28,
+        "sheet_y": 29,
         "short_name": "woman-heart-woman",
         "short_names": [
             "woman-heart-woman"
@@ -26449,7 +26475,7 @@
         "google": null,
         "image": "1f469-200d-2764-fe0f-200d-1f48b-200d-1f469.png",
         "sheet_x": 33,
-        "sheet_y": 29,
+        "sheet_y": 30,
         "short_name": "woman-kiss-woman",
         "short_names": [
             "woman-kiss-woman"
