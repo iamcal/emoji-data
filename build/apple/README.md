@@ -51,3 +51,7 @@ The breakdown of tables in the Apple font (ordered by size) are as follows:
 | maxp  |     32 | ? |
 
 The actual images are stored in the sbix table: https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6sbix.html
+
+For simple characters, the mapping of character to glyph ID can be found in the cmap table: https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6cmap.html
+
+For compound characters, the mapping can be found in the ligatures feature of the morx table: https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6morx.html
