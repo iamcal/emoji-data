@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 use Data::Dumper;
-use lib 'lib';
+use lib '../lib';
 use Font::TTF::Font;
 use Font::TTF::CBLC;
 use Font::TTF::CBDT;
