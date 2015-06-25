@@ -1,11 +1,10 @@
 # Building the Apple emoji images
 
+Get a copy of the TTF file from a mac - `/System/Library/Fonts/Apple Color Emoji.ttf`.
 
-On a Mac running OS X:
+Then run the extractor script:
 
-    gem install bundler
-    bundler
-    ./extract_images.sh
+    perl extract.pl
 
 This will populate the latest image files into `../../img-apple-160`.
 
@@ -52,4 +51,3 @@ The breakdown of tables in the Apple font (ordered by size) are as follows:
 | maxp  |     32 | ? |
 
 The actual images are stored in the sbix table: https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6sbix.html
-
