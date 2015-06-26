@@ -23,9 +23,9 @@ my $f = Font::TTF::Font->open($filename) || die "Unable to read $filename : $!";
 my $filenames = {};
 
 
-$f->{'morx'}->read();
-print Dumper $f->{'morx'}->{'header'}->{'chains'}->[0]->{'subtables'};
-exit;
+#$f->{'morx'}->read();
+#print Dumper $f->{'morx'}->{'header'}->{'chains'}->[0]->{'subtables'};
+#exit;
 
 
 #
@@ -49,10 +49,16 @@ if (1){
 #
 
 $f->{'sbix'}->read();
+$f->{'maxp'}->read();
 
-for my $glyph_id(keys %{$filenames}){
+for my $glyph_id(0..$f->{'maxp'}->{'numGlyphs'}-1){
+
 	my $filename = $filenames->{$glyph_id};
+	unless ($filename){
+		$filename = "unknown_$glyph_id.png";
+	}
 	my $strike = $f->{'sbix'}->read_strike(160, 0 + $glyph_id, 1);
+
 	if ($strike->{'graphicType'} eq 'png '){
 		# all good - save it
 		print "ok - $filename\n";
@@ -60,6 +66,11 @@ for my $glyph_id(keys %{$filenames}){
 		open(my $fh, '>', "../../img-apple-160-perl/$filename");
 		print($fh  $strike->{'data'});
 		close($fh);
+
+	}elsif ($strike->{'graphicType'} eq 'zero-length'){
+
+		print "no glyph for $filename\n";
+
 	}else{
 		# something we don't expect
 		print "unexpected glyph type ($strike->{'graphicType'}) for index $glyph_id (filename $filename)\n";
