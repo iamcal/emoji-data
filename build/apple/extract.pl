@@ -24,7 +24,7 @@ my $filenames = {};
 
 
 $f->{'morx'}->read();
-print Dumper $f->{'morx'};
+print Dumper $f->{'morx'}->{'header'}->{'chains'}->[0]->{'subtables'};
 exit;
 
 
