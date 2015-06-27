@@ -136,10 +136,20 @@ sub read_ligatures
 	$fh->read($dat, $len);
 	$tables->{'ligatures'} = [unpack('n*', $dat)];
 
-print Dumper $tables->{'ligatures'};
-die();
 
-	#$subtable->{'tables'} = $tables;
+	# now comes the fun part - building a map of ligatures.
+	# first step is to use the stateArray and entryTable to come up with a list
+	# of transformations that looks like this:
+	# [[class, class, class, class], ligature-action]
+
+	my $transforms = [];
+	$self->fanout_states($transforms, $tables->{'stateArray'}, $tables->{'entryTable'});
+
+#print Dumper $tables->{'ligatures'};
+#die();
+
+	#$subtable->{'tables'} = $tables;	
+	$subtable->{'states'} = $tables->{'classTable'};
 }
 
 
