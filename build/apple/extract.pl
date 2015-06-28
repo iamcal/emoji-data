@@ -79,7 +79,7 @@ $filenames->{'859'} = '1f469-200d-1f469-200d-1f467-200d-1f467.png'; # wwgg
 $filenames->{'982'} = '1f468-200d-2764-fe0f-200d-1f48b-200d-1f468.png'; # m-kiss-m
 $filenames->{'983'} = '1f469-200d-2764-fe0f-200d-1f48b-200d-1f469.png'; # w-kiss-w
 $filenames->{'986'} = '1f468-200d-2764-fe0f-200d-1f468.png'; # m-heart-m
-$filenames->{'987'} = '1f469-200d-2764-fe0f-200d-1f461.png'; # w-heart-w
+$filenames->{'987'} = '1f469-200d-2764-fe0f-200d-1f469.png'; # w-heart-w
 
 
 # flags are complicated because there are 214 of them, but we currently
