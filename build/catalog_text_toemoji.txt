@@ -20,8 +20,8 @@ c:	smile
 :>	laughing
 :->	laughing
 8)	sunglasses
-:\\	confused
-:-\\	confused
+:\	confused
+:-\	confused
 :/	confused
 :-/	confused
 :|	neutral_face
