@@ -41,7 +41,7 @@
 	$category_map = array();
 	$category_list = array();
 
-	$json = file_get_contents('emoji_categoires.json');
+	$json = file_get_contents('emoji_categories.json');
 	$obj = json_decode($json, true);
 
 	foreach ($obj['EmojiDataArray'] as $cat){
