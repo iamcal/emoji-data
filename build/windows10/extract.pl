@@ -8,6 +8,9 @@ use Font::TTF::Font;
 use Font::TTF::COLR;
 use Font::TTF::CPAL;
 
+# notes on TTF->SVG:
+# https://github.com/donbright/font_to_svg/blob/master/README.md
+
 $Font::TTF::Font::tables{'COLR'} = 'Font::TTF::COLR';
 $Font::TTF::Font::tables{'CPAL'} = 'Font::TTF::CPAL';
 
@@ -50,6 +53,8 @@ for my $glyph(keys %{$cover->{'val'}}){
 	}
 }
 
+print Dumper $filenames;
+exit;
 
 #
 # now read the data chunks for glyphs:
