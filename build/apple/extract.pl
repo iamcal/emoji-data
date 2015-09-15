@@ -11,7 +11,7 @@ use Font::TTF::Morx;
 $Font::TTF::Font::tables{'sbix'} = 'Font::TTF::Sbix';
 $Font::TTF::Font::tables{'morx'} = 'Font::TTF::Morx';
 
-my $filename = "apple_color_emoji_10_10_3.ttf";
+my $filename = "apple_color_emoji_10_11_15A279b.ttf";
 
 my $f = Font::TTF::Font->open($filename) || die "Unable to read $filename : $!";
 
@@ -235,6 +235,7 @@ if (0){
 		}
 	}
 	exit;
+}
 }
 
 
