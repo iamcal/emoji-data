@@ -11,9 +11,19 @@ use Font::TTF::Morx;
 $Font::TTF::Font::tables{'sbix'} = 'Font::TTF::Sbix';
 $Font::TTF::Font::tables{'morx'} = 'Font::TTF::Morx';
 
-my $filename = "apple_color_emoji_10_10_3.ttf";
+my $filename = "apple_color_emoji_10_11_15A279b.ttf";
 
 my $f = Font::TTF::Font->open($filename) || die "Unable to read $filename : $!";
+
+
+#
+# these settings allow us to find skin-tone group references
+#
+
+my $use_statics = 1;
+my $use_flags = 1;
+my $use_skins = 1;
+my $find_skins = 0;
 
 
 #
@@ -44,43 +54,45 @@ my $filenames = {};
 # for now, we're doing some manual
 #
 
-# keycaps
-$filenames->{'44'} = '0023-20e3.png';
-$filenames->{'45'} = '0030-20e3.png';
-$filenames->{'46'} = '0031-20e3.png';
-$filenames->{'47'} = '0032-20e3.png';
-$filenames->{'48'} = '0033-20e3.png';
-$filenames->{'49'} = '0034-20e3.png';
-$filenames->{'50'} = '0035-20e3.png';
-$filenames->{'51'} = '0036-20e3.png';
-$filenames->{'52'} = '0037-20e3.png';
-$filenames->{'53'} = '0038-20e3.png';
-$filenames->{'54'} = '0039-20e3.png';
+if ($use_statics){
 
-# families
-$filenames->{'846'} = '1f468-200d-1f468-200d-1f466.png'; # mmb
-$filenames->{'847'} = '1f468-200d-1f468-200d-1f466-200d-1f466.png'; # mmbb
-$filenames->{'848'} = '1f468-200d-1f468-200d-1f467.png'; # mmg
-$filenames->{'849'} = '1f468-200d-1f468-200d-1f467-200d-1f466.png'; # mmgb
-$filenames->{'850'} = '1f468-200d-1f468-200d-1f467-200d-1f467.png'; # mmgg
+	# keycaps
+	$filenames->{'44'} = '0023-20e3.png';
+	$filenames->{'45'} = '0030-20e3.png';
+	$filenames->{'46'} = '0031-20e3.png';
+	$filenames->{'47'} = '0032-20e3.png';
+	$filenames->{'48'} = '0033-20e3.png';
+	$filenames->{'49'} = '0034-20e3.png';
+	$filenames->{'50'} = '0035-20e3.png';
+	$filenames->{'51'} = '0036-20e3.png';
+	$filenames->{'52'} = '0037-20e3.png';
+	$filenames->{'53'} = '0038-20e3.png';
+	$filenames->{'54'} = '0039-20e3.png';
 
-$filenames->{'851'} = '1f468-200d-1f469-200d-1f466-200d-1f466.png'; # mwbb
-$filenames->{'852'} = '1f468-200d-1f469-200d-1f467.png'; # mwg
-$filenames->{'853'} = '1f468-200d-1f469-200d-1f467-200d-1f466.png'; # mwgb
-$filenames->{'854'} = '1f468-200d-1f469-200d-1f467-200d-1f467.png'; # mwgg
+	# families
+	$filenames->{'879'} = '1f468-200d-1f468-200d-1f466.png'; # mmb
+	$filenames->{'880'} = '1f468-200d-1f468-200d-1f466-200d-1f466.png'; # mmbb
+	$filenames->{'881'} = '1f468-200d-1f468-200d-1f467.png'; # mmg
+	$filenames->{'882'} = '1f468-200d-1f468-200d-1f467-200d-1f466.png'; # mmgb
+	$filenames->{'883'} = '1f468-200d-1f468-200d-1f467-200d-1f467.png'; # mmgg
 
-$filenames->{'855'} = '1f469-200d-1f469-200d-1f466.png'; # wwb
-$filenames->{'856'} = '1f469-200d-1f469-200d-1f466-200d-1f466.png'; # wwbb
-$filenames->{'857'} = '1f469-200d-1f469-200d-1f467.png'; # wwg
-$filenames->{'858'} = '1f469-200d-1f469-200d-1f467-200d-1f466.png'; # wwgb
-$filenames->{'859'} = '1f469-200d-1f469-200d-1f467-200d-1f467.png'; # wwgg
+	$filenames->{'884'} = '1f468-200d-1f469-200d-1f466-200d-1f466.png'; # mwbb
+	$filenames->{'885'} = '1f468-200d-1f469-200d-1f467.png'; # mwg
+	$filenames->{'886'} = '1f468-200d-1f469-200d-1f467-200d-1f466.png'; # mwgb
+	$filenames->{'887'} = '1f468-200d-1f469-200d-1f467-200d-1f467.png'; # mwgg
 
-# couples
-$filenames->{'982'} = '1f468-200d-2764-fe0f-200d-1f48b-200d-1f468.png'; # m-kiss-m
-$filenames->{'983'} = '1f469-200d-2764-fe0f-200d-1f48b-200d-1f469.png'; # w-kiss-w
-$filenames->{'986'} = '1f468-200d-2764-fe0f-200d-1f468.png'; # m-heart-m
-$filenames->{'987'} = '1f469-200d-2764-fe0f-200d-1f469.png'; # w-heart-w
+	$filenames->{'888'} = '1f469-200d-1f469-200d-1f466.png'; # wwb
+	$filenames->{'889'} = '1f469-200d-1f469-200d-1f466-200d-1f466.png'; # wwbb
+	$filenames->{'890'} = '1f469-200d-1f469-200d-1f467.png'; # wwg
+	$filenames->{'891'} = '1f469-200d-1f469-200d-1f467-200d-1f466.png'; # wwgb
+	$filenames->{'892'} = '1f469-200d-1f469-200d-1f467-200d-1f467.png'; # wwgg
 
+	# couples
+	$filenames->{'1015'} = '1f468-200d-2764-fe0f-200d-1f48b-200d-1f468.png'; # m-kiss-m
+	$filenames->{'1016'} = '1f469-200d-2764-fe0f-200d-1f48b-200d-1f469.png'; # w-kiss-w
+	$filenames->{'1019'} = '1f468-200d-2764-fe0f-200d-1f468.png'; # m-heart-m
+	$filenames->{'1020'} = '1f469-200d-2764-fe0f-200d-1f469.png'; # w-heart-w
+}
 
 # flags are complicated because there are 214 of them, but we currently
 # have very few in the actual data set. once i figure out ligatures we
@@ -302,6 +314,7 @@ my %flags = (
 	422 => '',
 );
 
+if ($use_flags){
 for my $idx (keys %flags){
 	next unless $flags{$idx};
 	my @letters = split(//, $flags{$idx});
@@ -313,6 +326,7 @@ for my $idx (keys %flags){
 
 	$filenames->{$idx} = $chars.'.png';
 	#print "flag $idx is $flags{$idx} - $chars\n";
+}
 }
 #exit;
 
@@ -339,27 +353,76 @@ if (1){
 
 my @skin_tones = qw(1f3fb 1f3fc 1f3fd 1f3fe 1f3ff);
 
+
+#
+# this is a list of skin-neutral glyphs that have skin-tone
+# glyphs following them.
+#
+# to find them:
+# 1) blank out the list and run this script to generate all images
+# 2) enable skin-finding mode below
+# 3) perl extract.pl > skins.htm, then view that page
+# 4) for actual skin-color sets, use the number at the start of each row
+#
+
 my @skin_ids = (
-	92,139,145,151,552,607,613,
-	620,628,720,726,734,740,746,
-	752,758,764,770,776,782,788,
-	794,821,827,833,839,863,870,
-	876,882,888,894,900,906,912,
-	918,927,937,943,949,956,962,
-	968,1012,1185,1261,1267,1273,
-	1282,1288,1294,1300,1306,
-	1347,1369,1375,1381,1396
+	92,139,145,151,585,640,646,
+	653,661,753,759,767,773,779,
+	785,791,797,803,809,815,821,
+	827,854,860,866,872,896,
+	903,909,915,921,927,933,939,
+	945,951,960,970,976,982,989,
+	995,1001,1045,1218,1294,1300,
+	1306,1315,1321,1327,1333,1339,
+	1380,1402,1408,1414,1429
 );
 
+if ($use_skins){
 for my $i (@skin_ids){
 	my $base = $filenames->{$i};
-	($base) = split /\./, $base;
 	die "can't find base for skin at $i" unless $base;
+	($base) = split /\./, $base;
 	for my $s(1..5){
-		die "already have a filename at $i+$s" if ($filenames->{$i+$s});
+		print("already have a filename at $i+$s\n") if ($filenames->{$i+$s});
 		$filenames->{$i+$s} = $base.'-'.$skin_tones[$s-1].'.png';
 	}
 }
+}
+
+
+#
+# skin-finding candidate mode
+#
+
+if ($find_skins){
+	print qq!<table border="1">\n!;
+
+	for my $glyph_id(0..$f->{'maxp'}->{'numGlyphs'}-1){
+
+		if ($filenames->{$glyph_id}
+			&& !$filenames->{$glyph_id+1}
+			&& !$filenames->{$glyph_id+2}
+			&& !$filenames->{$glyph_id+3}
+			&& !$filenames->{$glyph_id+4}
+			&& !$filenames->{$glyph_id+5}){
+
+			print "\t<tr>\n";
+			print "\t\t<td>${glyph_id}</td>\n";
+			print qq!\t\t<td><img src="../../img-apple-160/$filenames->{$glyph_id}"></td>\n!;
+			print qq!\t\t<td><img src="../../img-apple-160/!.($glyph_id+1).qq!_UNKNOWN.png"></td>\n!;
+			print qq!\t\t<td><img src="../../img-apple-160/!.($glyph_id+2).qq!_UNKNOWN.png"></td>\n!;
+			print qq!\t\t<td><img src="../../img-apple-160/!.($glyph_id+3).qq!_UNKNOWN.png"></td>\n!;
+			print qq!\t\t<td><img src="../../img-apple-160/!.($glyph_id+4).qq!_UNKNOWN.png"></td>\n!;
+			print qq!\t\t<td><img src="../../img-apple-160/!.($glyph_id+5).qq!_UNKNOWN.png"></td>\n!;
+			print "\t</tr>\n";
+		}
+	}
+
+	print "</table>\n";
+
+	exit;
+}
+
 
 
 #
