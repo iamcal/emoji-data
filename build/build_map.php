@@ -147,6 +147,7 @@
 	foreach ($extra_emoji as $cps => $short_name){
 
 		$img_key = StrToLower($cps);
+		if ($out_unis[$img_key]) continue;
 
 		$short_names = array($short_name);
 
