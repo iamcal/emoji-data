@@ -1,5 +1,5 @@
 <?php
-	$obj = json_decode(file_get_contents('../emoji_categoires.json'), true);
+	$obj = json_decode(file_get_contents('../emoji_categories.json'), true);
 
 foreach ($obj['EmojiDataArray'] as $group){
 

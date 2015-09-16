@@ -11,7 +11,7 @@ use Font::TTF::Morx;
 $Font::TTF::Font::tables{'sbix'} = 'Font::TTF::Sbix';
 $Font::TTF::Font::tables{'morx'} = 'Font::TTF::Morx';
 
-my $filename = "apple_color_emoji_10_10_3.ttf";
+my $filename = "apple_color_emoji_10_11_15A279b.ttf";
 
 my $f = Font::TTF::Font->open($filename) || die "Unable to read $filename : $!";
 
@@ -21,6 +21,7 @@ my $f = Font::TTF::Font->open($filename) || die "Unable to read $filename : $!";
 #
 
 my $filenames = {};
+my $duplicates = [];
 
 
 #
@@ -50,19 +51,20 @@ push @ligatures, [0x0039, 0x20e3]; # keycap 9
 
 # families
 push @ligatures, [0x1f468, 0x200d, 0x1f468, 0x200d, 0x1f466]; # mmb
-#push @ligatures, [0x1f468, 0x200d, 0x1f468, 0x200d, 0x1f466, 0x200d, 0x1f466]; # mmbb
 push @ligatures, [0x1f468, 0x200d, 0x1f468, 0x200d, 0x1f467]; # mmg
+#push @ligatures, [0x1f468, 0x200d, 0x1f468, 0x200d, 0x1f466, 0x200d, 0x1f466]; # mmbb
 #push @ligatures, [0x1f468, 0x200d, 0x1f468, 0x200d, 0x1f467, 0x200d, 0x1f466]; # mmgb
 #push @ligatures, [0x1f468, 0x200d, 0x1f468, 0x200d, 0x1f467, 0x200d, 0x1f467]; # mmgg
 
-push @ligatures, [0x1f468, 0x200d, 0x1f469, 0x200d, 0x1f466, 0x200d, 0x1f466]; # mwbb
+push @ligatures, [0x1f468, 0x200d, 0x1f469, 0x200d, 0x1f466]; # mwb
 push @ligatures, [0x1f468, 0x200d, 0x1f469, 0x200d, 0x1f467]; # mwg
+#push @ligatures, [0x1f468, 0x200d, 0x1f469, 0x200d, 0x1f466, 0x200d, 0x1f466]; # mwbb
 #push @ligatures, [0x1f468, 0x200d, 0x1f469, 0x200d, 0x1f467, 0x200d, 0x1f466]; # mwgb
 #push @ligatures, [0x1f468, 0x200d, 0x1f469, 0x200d, 0x1f467, 0x200d, 0x1f467]; # mwgg
 
 push @ligatures, [0x1f469, 0x200d, 0x1f469, 0x200d, 0x1f466]; # wwb
-#push @ligatures, [0x1f469, 0x200d, 0x1f469, 0x200d, 0x1f466, 0x200d, 0x1f466]; # wwbb
 push @ligatures, [0x1f469, 0x200d, 0x1f469, 0x200d, 0x1f467]; # wwg
+#push @ligatures, [0x1f469, 0x200d, 0x1f469, 0x200d, 0x1f466, 0x200d, 0x1f466]; # wwbb
 #push @ligatures, [0x1f469, 0x200d, 0x1f469, 0x200d, 0x1f467, 0x200d, 0x1f466]; # wwgb
 #push @ligatures, [0x1f469, 0x200d, 0x1f469, 0x200d, 0x1f467, 0x200d, 0x1f467]; # wwgg
 
@@ -76,17 +78,17 @@ push @ligatures, [0x1f469, 0x200d, 0x2764, 0xfe0f, 0x200d, 0x1f469]; # w-heart-w
 # extended/ambiguous ligatures are still broken, so these are all manual.
 # when upgrading the TTF, blank these out before running this - values will have changed!
 
-$filenames->{'847'} = '1f468-200d-1f468-200d-1f466-200d-1f466.png'; # mmbb
-$filenames->{'849'} = '1f468-200d-1f468-200d-1f467-200d-1f466.png'; # mmgb
-$filenames->{'850'} = '1f468-200d-1f468-200d-1f467-200d-1f467.png'; # mmgg
+$filenames->{'880'} = '1f468-200d-1f468-200d-1f466-200d-1f466.png'; # mmbb
+$filenames->{'882'} = '1f468-200d-1f468-200d-1f467-200d-1f466.png'; # mmgb
+$filenames->{'883'} = '1f468-200d-1f468-200d-1f467-200d-1f467.png'; # mmgg
 
-$filenames->{'851'} = '1f468-200d-1f469-200d-1f466-200d-1f466.png'; # mwbb
-$filenames->{'853'} = '1f468-200d-1f469-200d-1f467-200d-1f466.png'; # mwgb
-$filenames->{'854'} = '1f468-200d-1f469-200d-1f467-200d-1f467.png'; # mwgg
+$filenames->{'884'} = '1f468-200d-1f469-200d-1f466-200d-1f466.png'; # mwbb
+$filenames->{'886'} = '1f468-200d-1f469-200d-1f467-200d-1f466.png'; # mwgb
+$filenames->{'887'} = '1f468-200d-1f469-200d-1f467-200d-1f467.png'; # mwgg
 
-$filenames->{'856'} = '1f469-200d-1f469-200d-1f466-200d-1f466.png'; # wwbb
-$filenames->{'858'} = '1f469-200d-1f469-200d-1f467-200d-1f466.png'; # wwgb
-$filenames->{'859'} = '1f469-200d-1f469-200d-1f467-200d-1f467.png'; # wwgg
+$filenames->{'889'} = '1f469-200d-1f469-200d-1f466-200d-1f466.png'; # wwbb
+$filenames->{'891'} = '1f469-200d-1f469-200d-1f467-200d-1f466.png'; # wwgb
+$filenames->{'892'} = '1f469-200d-1f469-200d-1f467-200d-1f467.png'; # wwgg
 
 
 #
@@ -187,8 +189,14 @@ for my $lig(@ligatures){
 		for my $cp(@{$lig}){
 			push @components, sprintf('%04x', $cp);
 		}
+		my $key = ''.$glyph;
+		my $path = join('-', @components).'.png';
 
-		$filenames->{''.$glyph} = join('-', @components).'.png';
+		if ($filenames->{$key}){
+			push @{$duplicates}, [$key, $path];
+		}else{
+			$filenames->{$key} = $path;
+		}
 	}
 }
 
@@ -204,7 +212,14 @@ if (1){
 
 	for my $uni (keys %{$f->{'cmap'}{'Tables'}[0]{'val'}}){
 		my $idx = $f->{'cmap'}{'Tables'}[0]{'val'}{$uni};
-		$filenames->{$idx} = sprintf('%04x', $uni).'.png';
+
+		my $path = sprintf('%04x', $uni).'.png';
+
+		if ($filenames->{$idx}){
+			push @{$duplicates}, [$idx, $path];
+		}else{
+			$filenames->{$idx} = $path;
+		}
 
 		$simple_map->{$idx} = $uni;
 	}
@@ -253,6 +268,19 @@ for my $glyph_id(0..$f->{'maxp'}->{'numGlyphs'}-1){
 	unless ($filename){
 		$filename = $glyph_id."_UNKNOWN.png";
 	}
+
+	&store_image($glyph_id, $filename);
+}
+
+for my $pair(@{$duplicates}){
+
+	&store_image($pair->[0], $pair->[1]);
+}
+
+
+sub store_image {
+	my ($glyph_id, $filename) = @_;
+
 	my $strike = $f->{'sbix'}->read_strike(160, 0 + $glyph_id, 1);
 
 	if ($strike->{'graphicType'} eq 'png '){
