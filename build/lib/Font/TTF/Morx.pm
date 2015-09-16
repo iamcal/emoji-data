@@ -136,20 +136,44 @@ sub read_ligatures
 	$fh->read($dat, $len);
 	$tables->{'ligatures'} = [unpack('n*', $dat)];
 
+	$subtable->{'tables'} = $tables;	
+}
 
-	# now comes the fun part - building a map of ligatures.
-	# first step is to use the stateArray and entryTable to come up with a list
-	# of transformations that looks like this:
-	# [[class, class, class, class], ligature-action]
+sub resolve_ligature {
+	my ($self, $cps) = @_;
 
-	my $transforms = [];
-	$self->fanout_states($transforms, $tables->{'stateArray'}, $tables->{'entryTable'});
+	for my $chain_id(0..scalar(@{$self->{'header'}->{'chains'}})-1){
+		#print "scanning chain ${chain_id}...\n";
 
-#print Dumper $tables->{'ligatures'};
-#die();
+		for my $subtable_id(0..scalar(@{$self->{'header'}->{'chains'}->[$chain_id]->{'subtables'}})-1){
 
-	#$subtable->{'tables'} = $tables;	
-	$subtable->{'states'} = $tables->{'classTable'};
+			#print "  scanning subtable ${subtable_id}...\n";
+
+			my $ret = $self->resolve_ligature_table($cps, $self->{'header'}->{'chains'}->[$chain_id]->{'subtables'}->[$subtable_id]);
+			return $ret if $ret;
+		}
+	}
+
+	return 0;
+}
+
+sub resolve_ligature_table {
+	my ($self, $cps, $table) = @_;
+
+	#
+	# only resolve from ligature subtables, not swashes, etc.
+	#
+
+	if ($table->{'type'} != 2){
+		#print "not a lig table\n";
+		return 0;
+	}
+
+	my $num = scalar(%{$table->{'tables'}->{'classTable'}});
+
+	print "classTable size: ${num}\n";
+
+	return 0;
 }
 
 
