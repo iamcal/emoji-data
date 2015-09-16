@@ -59,13 +59,28 @@
 
 
 	#
-	# load extra apple data
+	# load extra emoji definitions
 	#
 
-	$json = file_get_contents('apple_extra.json');
-	$apple_data = json_decode($json, true);
+	$raw = file('emoji_data.txt');
+
+	$extra_emoji = array();
+	foreach ($raw as $line){
+
+		if (strpos($line, '#') === 0) continue;
+		$line = trim($line);
+		if (!strlen($line)) continue;
+
+		list($cp, $name) = explode(';', $line);
+		$extra_emoji[$cp] = $name;
+	}
 
 	echo "OK\n";
+
+
+	#
+	# list of skin variations
+	#
 
 	$skin_variation_suffixes = array(
 		1 => '1F3FB',
@@ -127,24 +142,26 @@
 	# extra non-standard CPs
 	#
 
-	echo "Adding extra Apple emoji: ";
+	echo "Adding our own extra emoji: ";
 
-	foreach ($apple_data['emoji'] as $cps => $arr){
+	foreach ($extra_emoji as $cps => $short_name){
 
 		$img_key = StrToLower($cps);
 
-		$short_names = array($arr[0]);
-		$name = StrToUpper($arr[1]);
-
-		if (substr($arr[0], 0, 5) == 'flag-'){
-			$name = "REGIONAL INDICATOR SYMBOL LETTERS ".StrToUpper(substr($arr[0], 5));
-		}
+		$short_names = array($short_name);
 
 		echo  '.';
-		$out[] = simple_row($img_key, $short_names, array(
-			'name'		=> $name,
-			'unified'	=> $cps,
-		));
+
+		if (substr($short_name, 0, 5) == 'flag-'){
+
+			$out[] = simple_row($img_key, $short_names, array(
+				'unified'	=> $cps,
+				'name'		=> "REGIONAL INDICATOR SYMBOL LETTERS ".StrToUpper(substr($short_name, 5)),
+			));
+
+		}else{
+			$out[] =  build_character_data($img_key, $short_names);
+		}
 	}
 
 	echo "OK\n";
