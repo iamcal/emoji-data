@@ -20,7 +20,9 @@ my $f = Font::TTF::Font->open($filename) || die "Unable to read $filename : $!";
 
 $f->{'morx'}->read();
 
-print $f->{'morx'}->resolve_ligature([0x1f1ea, 0x1f1f8])."\n"; # spanish flag
-print $f->{'morx'}->resolve_ligature([0x1f1ea, 0x1f1f9])."\n"; # some other flag
-print $f->{'morx'}->resolve_ligature([0x1f3ca, 0x1f3ff])."\n"; # swimmer, black skin
+#print $f->{'morx'}->resolve_ligature([0x1f1ea, 0x1f1f8])."\n"; # spanish flag
+#print $f->{'morx'}->resolve_ligature([0x1f1ea, 0x1f1f9])."\n"; # some other flag
+#print $f->{'morx'}->resolve_ligature([0x1f3ca, 0x1f3ff])."\n"; # swimmer, black skin
 
+print $f->{'morx'}->resolve_ligature([0x1f469, 0x200d, 0x1f469, 0x200d, 0x1f467])."\n";
+print $f->{'morx'}->resolve_ligature([0x1f469, 0x200d, 0x1f469, 0x200d, 0x1f467, 0x200d, 0x1f466])."\n";
