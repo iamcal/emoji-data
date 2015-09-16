@@ -14,6 +14,9 @@ sub read
     my ($self) = shift;
     my ($fh, $dat);
 
+    my $cmap = $self->{' PARENT'}->{'cmap'};
+    $cmap->read;
+
     $self->SUPER::read || return $self;
     $fh = $self->{' INFILE'};
 
@@ -169,11 +172,94 @@ sub resolve_ligature_table {
 		return 0;
 	}
 
-	my $num = scalar(%{$table->{'tables'}->{'classTable'}});
 
-	print "classTable size: ${num}\n";
+	#
+	# we need the cmap for getting the cp indexes
+	#
+
+	my $cmap = $self->{' PARENT'}->{'cmap'};
+
+
+	#
+	# we reverse the codepoints into a stack and change them from codepoints to character indexes.
+	# start with $state of 1. if we get back to state 0 or 1 then give up.
+	#
+
+	my $stack = [];
+	for my $cp (@{$cps}){
+		my $index = $cmap->{'Tables'}[0]{'val'}->{$cp};
+		my $class = $table->{'tables'}->{'classTable'}->{$index};
+
+		if (!$index || !$class){ return 0; }
+
+		unshift @{$stack}, [$index, $class];
+	}
+
+	my $proc_stack = [];
+	my $state = 1;
+
+
+	#
+	# now loop
+	#
+
+	while (scalar(@{$stack})){
+
+		my ($next, $class) = @{pop @{$stack}};
+		my $entry = $table->{'tables'}->{'stateArray'}->[$state]->[$class];
+
+		print "state $state: idx $next, cls $class, ent $entry\n";
+
+		my ($next_state, $flags, $action) = @{$table->{'tables'}->{'entryTable'}->[$entry]};
+
+		if ($flags & 0x8000){
+			push @{$proc_stack}, $next;
+		}
+		if ($flags & 0x4000){
+			push @{$stack}, [$next, $class];
+		}
+		if ($flags & 0x2000){
+			print "running lig action $action!\n";
+
+			while (scalar(@{$proc_stack})){
+
+				my $idx = pop @{$proc_stack};
+				my $action_val = $table->{'tables'}->{'ligActions'}->[$action];
+
+				print "processing idx $idx with action value $action_val\n";
+
+				if ($action_val & 0x80000000){ print "last!\n"; }
+				if ($action_val & 0x40000000){ print "store!\n"; }
+				my $offset = $self->sign_extend_30($action_val & 0x3FFFFFFF);
+				print "num = $offset\n";
+
+				$action++;
+			}
+
+			#print Dumper $table->{'tables'}->{'ligActions'};
+			return 0;
+		}
+
+		$state = $next_state;
+		if ($state == 0 || $state == 1){
+			return 0;
+		}
+	}
 
 	return 0;
+}
+
+sub sign_extend_30 {
+	my ($self, $num) = @_;
+
+	my $last = 0x20000000 & $num;
+	if ($last){
+		$num = $num | 0xC0000000;
+	}
+
+	$num = unpack('l', pack('L', $num));
+
+	return $num;
 }
 
 
