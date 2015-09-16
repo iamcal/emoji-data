@@ -7,7 +7,7 @@ Images are extracted from their sources and this library attempts to track the l
 available versions. If you're looking for older versions of Apple of Android images
 (such as the Hairy Heart) then you'll need to look at previous revisions.
 
-* Apple Emoji: Copyright &copy; Apple Inc. - OS X 10.10.3
+* Apple Emoji: Copyright &copy; Apple Inc. - OS X 10.11 beta
 * Android Emoji: Copyright &copy; [The Android Open Source Project](https://s3-eu-west-1.amazonaws.com/tw-font/android/NOTICE) - Lollipop
 * Twitter Emoji Copyright &copy; Twitter, Inc. - The original release
 * Emoji One Emoji: Copyright &copy; [Ranks.com Inc.](http://www.emojione.com/developers) - master as of 2015-03-05
@@ -80,3 +80,9 @@ An explanation of the various fields is in order:
    Each ASCII emoji will only appear against a single emoji entry.
 * `has_img_*` - A flag for whether the given image set has an image (named by the `image` prop) available.
 * `skin_variations` - For skin-varying emoji, a list of alternative glyphs.
+
+
+## Version history
+
+* 2015-05-28 : v2.0.0 - First tagged version, tracking new iOS 8 skin-tone emoji
+* 2015-09-16 : v2.1.0 - Updated to OS X 10.11 beta, added new flags and spock emoji
