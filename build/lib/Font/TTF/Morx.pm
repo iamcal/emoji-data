@@ -195,6 +195,13 @@ sub resolve_ligature_table {
 		unshift @{$stack}, [$index, $class];
 	}
 
+	return $self->resolve_ligature_stack($stack, $table);
+}
+
+sub resolve_ligature_stack {
+
+	my ($self, $stack, $table) = @_;
+
 	my $proc_stack = [];
 	my $state = 1;
 
@@ -208,18 +215,23 @@ sub resolve_ligature_table {
 		my ($next, $class) = @{pop @{$stack}};
 		my $entry = $table->{'tables'}->{'stateArray'}->[$state]->[$class];
 
-		#print "state $state: idx $next, cls $class, ent $entry\n";
+		print "state $state: idx $next, cls $class, ent $entry\n";
 
 		my ($next_state, $flags, $action) = @{$table->{'tables'}->{'entryTable'}->[$entry]};
 
+		print "next state = $next_state\n";
+
 		if ($flags & 0x8000){
+			print "flags=setComponent\n";
 			push @{$proc_stack}, $next;
 		}
 		if ($flags & 0x4000){
+			print "flags=dontAdvance\n";
 			push @{$stack}, [$next, $class];
 		}
 		if ($flags & 0x2000){
-			#print "running lig action $action!\n";
+			print "flags=performAction\n";
+			print "running lig action $action!\n";
 
 			my $acc = 0;
 
@@ -228,38 +240,53 @@ sub resolve_ligature_table {
 				my $idx = pop @{$proc_stack};
 				my $action_val = $table->{'tables'}->{'ligActions'}->[$action];
 
-				#print "processing idx $idx with action value $action_val\n";
+				print "processing idx $idx with action value $action_val\n";
 
 				my $offset = $self->sign_extend_30($action_val & 0x3FFFFFFF);
-				#print "num = $offset\n";
+				print "num = $offset\n";
 
 				my $component = $idx + $offset;
 				my $component_value = $table->{'tables'}->{'components'}->[$component];
 
-				#print "component $component, value $component_value\n";
+				print "component $component, value $component_value\n";
 				$acc += $component_value;
 				$action++;
 
 				if ($action_val & 0x40000000 || $action_val & 0x80000000){
-					#print "store!\n";
+					print "store!\n" if $action_val & 0x40000000;
+					print "last/store!\n" if $action_val & 0x80000000;
+
+					print "proc stack remaining: ".scalar(@{$proc_stack})."\n";
+					print "cp stack remaining: ".scalar(@{$stack})."\n";
 
 					my $glyph = $table->{'tables'}->{'ligatures'}->[$acc];
 
-					#print "accum $acc -> glyph $glyph\n";
-					#print "\n";
+					print "accum $acc -> glyph $glyph\n";
+					print "\n";
 
 					#print Dumper $table->{'tables'}->{'ligatures'};
 
-					return $glyph;
+					if (scalar(@{$stack})){
+						print "still have units in the stack - recurse\n";
+					#	my $next_class = $table->{'tables'}->{'classTable'}->{$glyph};
+
+					#	push @{$stack}, [$glyph, $next_class];
+					#	return $self->resolve_ligature_stack($stack, $table);
+					}else{
+
+						return $glyph;
+					}
 				}
 			}
 
 			#print Dumper $table->{'tables'}->{'ligActions'};
-			return 0;
+		#	print "dropped out of stack processing\n";
+		#	return 0;
 		}
 
 		$state = $next_state;
 		if ($state == 0 || $state == 1){
+			print "state has been reset\n";
 			return 0;
 		}
 	}
