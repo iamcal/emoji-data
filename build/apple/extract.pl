@@ -73,6 +73,22 @@ push @ligatures, [0x1f468, 0x200d, 0x2764, 0xfe0f, 0x200d, 0x1f468]; # m-heart-m
 push @ligatures, [0x1f469, 0x200d, 0x2764, 0xfe0f, 0x200d, 0x1f469]; # w-heart-w
 
 
+# extended/ambiguous ligatures are still broken, so these are all manual.
+# when upgrading the TTF, blank these out before running this - values will have changed!
+
+$filenames->{'847'} = '1f468-200d-1f468-200d-1f466-200d-1f466.png'; # mmbb
+$filenames->{'849'} = '1f468-200d-1f468-200d-1f467-200d-1f466.png'; # mmgb
+$filenames->{'850'} = '1f468-200d-1f468-200d-1f467-200d-1f467.png'; # mmgg
+
+$filenames->{'851'} = '1f468-200d-1f469-200d-1f466-200d-1f466.png'; # mwbb
+$filenames->{'853'} = '1f468-200d-1f469-200d-1f467-200d-1f466.png'; # mwgb
+$filenames->{'854'} = '1f468-200d-1f469-200d-1f467-200d-1f467.png'; # mwgg
+
+$filenames->{'856'} = '1f469-200d-1f469-200d-1f466-200d-1f466.png'; # wwbb
+$filenames->{'858'} = '1f469-200d-1f469-200d-1f467-200d-1f466.png'; # wwgb
+$filenames->{'859'} = '1f469-200d-1f469-200d-1f467-200d-1f467.png'; # wwgg
+
+
 #
 # for skin tones, we'll take a list of known emoji with skin variations,
 # and pair each with the 5 skin tones
