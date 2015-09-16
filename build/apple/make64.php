@@ -2,7 +2,7 @@
 	# apple images are too big to composite at speed, so we'll make 64px
 	# versions from the 160px source.
 
-	shell_exec("rm -f ../../image-apple-64/*.png");
+	shell_exec("rm -f ../../img-apple-64/*.png");
 
 	$files = glob("../../img-apple-160/*.png");
 
