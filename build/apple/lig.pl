@@ -20,23 +20,7 @@ my $f = Font::TTF::Font->open($filename) || die "Unable to read $filename : $!";
 
 $f->{'morx'}->read();
 
-$f->{'morx'}->resolve_ligature([0x1f1ea, 0x1f1f8]);
-
-exit;
-
-
-print scalar @{$f->{'morx'}->{'header'}->{'chains'}};
-
-exit;
-
-#resolve_ligature
-
-my $tbl = $f->{'morx'}->{'header'}->{'chains'}->[0]->{'subtables'}[1];
-
-print Dumper $tbl;
-
-for my $i(0..scalar(@{$tbl->{states}})-1){
-	my $h = sprintf('%04x', $tbl->{states}->[$i]->[1]);
-	print "$i : [$tbl->{states}->[$i]->[0], 0x$h, $tbl->{states}->[$i]->[2]]\n";
-}
+print $f->{'morx'}->resolve_ligature([0x1f1ea, 0x1f1f8])."\n"; # spanish flag
+print $f->{'morx'}->resolve_ligature([0x1f1ea, 0x1f1f9])."\n"; # some other flag
+print $f->{'morx'}->resolve_ligature([0x1f3ca, 0x1f3ff])."\n"; # swimmer, black skin
 

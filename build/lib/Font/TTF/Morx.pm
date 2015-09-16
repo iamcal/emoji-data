@@ -129,7 +129,7 @@ sub read_ligatures
 
 	# read component
 	my $len = $header->{'ligatureOffset'} - $header->{'componentOffset'};
-	$fh->seek($start + $header->{'ligatureOffset'}, 0);
+	$fh->seek($start + $header->{'componentOffset'}, 0);
 	$fh->read($dat, $len);
 	$tables->{'components'} = [unpack('n*', $dat)];
 
@@ -139,7 +139,7 @@ sub read_ligatures
 	$fh->read($dat, $len);
 	$tables->{'ligatures'} = [unpack('n*', $dat)];
 
-	$subtable->{'tables'} = $tables;	
+	$subtable->{'tables'} = $tables;
 }
 
 sub resolve_ligature {
@@ -208,7 +208,7 @@ sub resolve_ligature_table {
 		my ($next, $class) = @{pop @{$stack}};
 		my $entry = $table->{'tables'}->{'stateArray'}->[$state]->[$class];
 
-		print "state $state: idx $next, cls $class, ent $entry\n";
+		#print "state $state: idx $next, cls $class, ent $entry\n";
 
 		my ($next_state, $flags, $action) = @{$table->{'tables'}->{'entryTable'}->[$entry]};
 
@@ -219,21 +219,39 @@ sub resolve_ligature_table {
 			push @{$stack}, [$next, $class];
 		}
 		if ($flags & 0x2000){
-			print "running lig action $action!\n";
+			#print "running lig action $action!\n";
+
+			my $acc = 0;
 
 			while (scalar(@{$proc_stack})){
 
 				my $idx = pop @{$proc_stack};
 				my $action_val = $table->{'tables'}->{'ligActions'}->[$action];
 
-				print "processing idx $idx with action value $action_val\n";
+				#print "processing idx $idx with action value $action_val\n";
 
-				if ($action_val & 0x80000000){ print "last!\n"; }
-				if ($action_val & 0x40000000){ print "store!\n"; }
 				my $offset = $self->sign_extend_30($action_val & 0x3FFFFFFF);
-				print "num = $offset\n";
+				#print "num = $offset\n";
 
+				my $component = $idx + $offset;
+				my $component_value = $table->{'tables'}->{'components'}->[$component];
+
+				#print "component $component, value $component_value\n";
+				$acc += $component_value;
 				$action++;
+
+				if ($action_val & 0x40000000 || $action_val & 0x80000000){
+					#print "store!\n";
+
+					my $glyph = $table->{'tables'}->{'ligatures'}->[$acc];
+
+					#print "accum $acc -> glyph $glyph\n";
+					#print "\n";
+
+					#print Dumper $table->{'tables'}->{'ligatures'};
+
+					return $glyph;
+				}
 			}
 
 			#print Dumper $table->{'tables'}->{'ligActions'};
