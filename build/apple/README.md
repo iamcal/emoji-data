@@ -26,6 +26,10 @@ On a Mac running OS X you can also extract the latest version of the emoji categ
 
     ./extract_categories.sh
 
+You can then use this data to check for new ligatures:
+
+    php categories.php
+
 
 ## Apple's TTF Format
 
