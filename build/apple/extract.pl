@@ -21,6 +21,7 @@ my $f = Font::TTF::Font->open($filename) || die "Unable to read $filename : $!";
 #
 
 my $filenames = {};
+my $duplicates = [];
 
 
 #
@@ -187,8 +188,14 @@ for my $lig(@ligatures){
 		for my $cp(@{$lig}){
 			push @components, sprintf('%04x', $cp);
 		}
+		my $key = ''.$glyph;
+		my $path = join('-', @components).'.png';
 
-		$filenames->{''.$glyph} = join('-', @components).'.png';
+		if ($filenames->{$key}){
+			push @{$duplicates}, [$key, $path];
+		}else{
+			$filenames->{$key} = $path;
+		}
 	}
 }
 
@@ -204,7 +211,14 @@ if (1){
 
 	for my $uni (keys %{$f->{'cmap'}{'Tables'}[0]{'val'}}){
 		my $idx = $f->{'cmap'}{'Tables'}[0]{'val'}{$uni};
-		$filenames->{$idx} = sprintf('%04x', $uni).'.png';
+
+		my $path = sprintf('%04x', $uni).'.png';
+
+		if ($filenames->{$idx}){
+			push @{$duplicates}, [$idx, $path];
+		}else{
+			$filenames->{$idx} = $path;
+		}
 
 		$simple_map->{$idx} = $uni;
 	}
@@ -253,6 +267,19 @@ for my $glyph_id(0..$f->{'maxp'}->{'numGlyphs'}-1){
 	unless ($filename){
 		$filename = $glyph_id."_UNKNOWN.png";
 	}
+
+	&store_image($glyph_id, $filename);
+}
+
+for my $pair(@{$duplicates}){
+
+	&store_image($pair->[0], $pair->[1]);
+}
+
+
+sub store_image {
+	my ($glyph_id, $filename) = @_;
+
 	my $strike = $f->{'sbix'}->read_strike(160, 0 + $glyph_id, 1);
 
 	if ($strike->{'graphicType'} eq 'png '){
