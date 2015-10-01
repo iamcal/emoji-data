@@ -4,7 +4,6 @@
 	$dir = dirname(__FILE__);
 
 	include('catalog.php');
-	include('catalog_vars.php');
 
 
 	#
@@ -84,6 +83,20 @@
 			}
 		}
 	}
+
+
+	#
+	# load codepoint variations
+	#
+
+	$raw = file('data_variations.txt');
+
+	$variations = array();
+	foreach ($raw as $line){
+		list($key, $vars) = explode(';', trim($line));
+		$variations[$key] = explode('/', $vars);
+	}
+
 
 	echo "OK\n";
 
@@ -178,7 +191,7 @@
 
 	function simple_row($img_key, $shorts, $props){
 
-		$vars = $GLOBALS['catalog_vars'][$img_key];
+		$vars = $GLOBALS['variations'][$img_key];
 		if (!is_array($vars)) $vars = array();
 		foreach ($vars as $k => $v) $vars[$k] = StrToUpper($v);	
 

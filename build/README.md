@@ -13,7 +13,6 @@ You can rebuild by following these steps:
 	php build_catalog.php full.html > catalog.php
 
 	# Rebuild the master mapping
-	php build_names.php
 	wget http://www.unicode.org/Public/UNIDATA/UnicodeData.txt
 	php build_map.php
 
