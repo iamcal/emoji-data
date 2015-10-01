@@ -99,15 +99,6 @@
 
 
 
-	echo "Writing names map ....... ";
-	$fh = fopen('catalog_names.php', 'w');
-	fwrite($fh, '<'.'?php $catalog_names = ');
-	fwrite($fh, var_export($names, true));
-	fwrite($fh, ";\n");
-	fclose($fh);
-	echo "DONE\n";
-
-
 	echo "Writing variations map ....... ";
 	$fh = fopen('catalog_vars.php', 'w');
 	fwrite($fh, '<'.'?php $catalog_vars = ');	
