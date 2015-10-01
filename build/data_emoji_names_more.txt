@@ -114,7 +114,7 @@
 1F58C;lower-left-paintbrush
 1F58D;lower-left-crayon
 1F590;raised-hand-with-fingers-splayed
-1F595;reversed-hand-with-middle-finger-extended
+1F595;middle-finger/reversed-hand-with-middle-finger-extended
 1F5A5;desktop-computer
 1F5A8;printer
 1F5B1;three-button-mouse
@@ -164,7 +164,7 @@
 1F915;face-with-head-bandage
 1F916;robot-face
 1F917;hugging-face
-1F918;sign-of-the-horns
+1F918;the-horns/sign-of-the-horns
 1F980;crab
 1F981;lion-face
 1F982;scorpian
