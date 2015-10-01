@@ -11,7 +11,7 @@ use Font::TTF::Morx;
 $Font::TTF::Font::tables{'sbix'} = 'Font::TTF::Sbix';
 $Font::TTF::Font::tables{'morx'} = 'Font::TTF::Morx';
 
-my $filename = "apple_color_emoji_10_11_15A279b.ttf";
+my $filename = "apple_color_emoji_10_11_1.ttf";
 
 my $f = Font::TTF::Font->open($filename) || die "Unable to read $filename : $!";
 
@@ -48,6 +48,7 @@ push @ligatures, [0x0036, 0x20e3]; # keycap 6
 push @ligatures, [0x0037, 0x20e3]; # keycap 7
 push @ligatures, [0x0038, 0x20e3]; # keycap 8
 push @ligatures, [0x0039, 0x20e3]; # keycap 9
+push @ligatures, [0x002a, 0x20e3]; # keycap *
 
 # families
 push @ligatures, [0x1f468, 0x200d, 0x1f468, 0x200d, 0x1f466]; # mmb
@@ -78,17 +79,17 @@ push @ligatures, [0x1f469, 0x200d, 0x2764, 0xfe0f, 0x200d, 0x1f469]; # w-heart-w
 # extended/ambiguous ligatures are still broken, so these are all manual.
 # when upgrading the TTF, blank these out before running this - values will have changed!
 
-$filenames->{'880'} = '1f468-200d-1f468-200d-1f466-200d-1f466.png'; # mmbb
-$filenames->{'882'} = '1f468-200d-1f468-200d-1f467-200d-1f466.png'; # mmgb
-$filenames->{'883'} = '1f468-200d-1f468-200d-1f467-200d-1f467.png'; # mmgg
+$filenames->{'999'} = '1f468-200d-1f468-200d-1f466-200d-1f466.png'; # mmbb
+$filenames->{'1001'} = '1f468-200d-1f468-200d-1f467-200d-1f466.png'; # mmgb
+$filenames->{'1002'} = '1f468-200d-1f468-200d-1f467-200d-1f467.png'; # mmgg
 
-$filenames->{'884'} = '1f468-200d-1f469-200d-1f466-200d-1f466.png'; # mwbb
-$filenames->{'886'} = '1f468-200d-1f469-200d-1f467-200d-1f466.png'; # mwgb
-$filenames->{'887'} = '1f468-200d-1f469-200d-1f467-200d-1f467.png'; # mwgg
+$filenames->{'1003'} = '1f468-200d-1f469-200d-1f466-200d-1f466.png'; # mwbb
+$filenames->{'1005'} = '1f468-200d-1f469-200d-1f467-200d-1f466.png'; # mwgb
+$filenames->{'1006'} = '1f468-200d-1f469-200d-1f467-200d-1f467.png'; # mwgg
 
-$filenames->{'889'} = '1f469-200d-1f469-200d-1f466-200d-1f466.png'; # wwbb
-$filenames->{'891'} = '1f469-200d-1f469-200d-1f467-200d-1f466.png'; # wwgb
-$filenames->{'892'} = '1f469-200d-1f469-200d-1f467-200d-1f467.png'; # wwgg
+$filenames->{'1008'} = '1f469-200d-1f469-200d-1f466-200d-1f466.png'; # wwbb
+$filenames->{'1010'} = '1f469-200d-1f469-200d-1f467-200d-1f466.png'; # wwgb
+$filenames->{'1011'} = '1f469-200d-1f469-200d-1f467-200d-1f467.png'; # wwgg
 
 
 #
@@ -157,6 +158,14 @@ my @skin_ids = (
 	0x1f6b6, # pedestrian
 	0x1f6c0, # bath
 	0x1f6c5, # left luggage
+
+	# added in OSX 10.11.1 / iOS 9.1
+	0x26f9, # 
+	0x270d, # 
+	0x1f3cb, # 
+	0x1f590, # 
+	0x1f595, # 
+	0x1f918, # 
 );
 
 for my $cp(@skin_ids){
