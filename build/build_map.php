@@ -14,7 +14,7 @@
 	$text = array();	# smile -> :)
 	$texts = array();	# smile -> [:) (: :D]
 
-	$lines = file('catalog_text_toascii.txt');
+	$lines = file('data_text_toascii.txt');
 	foreach ($lines as $line){
 		$line = trim($line);
 		if (strlen($line)){
@@ -23,7 +23,7 @@
 		}
 	}
 
-	$lines = file('catalog_text_toemoji.txt');
+	$lines = file('data_text_toemoji.txt');
 	foreach ($lines as $line){
 		$line = trim($line);
 		if (strlen($line)){
