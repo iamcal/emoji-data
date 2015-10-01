@@ -36,187 +36,187 @@
 
 # iOS 9.1 additions
 1F321;thermometer
-#1F324;WHITE SUN WITH SMALL CLOUD
-#1F325;WHITE SUN BEHIND CLOUD
-#1F326;WHITE SUN BEHIND CLOUD WITH RAIN
-#1F327;CLOUD WITH RAIN
-#1F328;CLOUD WITH SNOW
-#1F329;CLOUD WITH LIGHTNING
-#1F32A;CLOUD WITH TORNADO
+1F324;mostly_sunny/sun-small-cloud
+1F325;barely_sunny/sun-behind-cloud
+1F326;partly_sunny_rain/sun-behind-rain-cloud
+1F327;rain-cloud
+1F328;snow-cloud
+1F329;lightening/lightening-cloud
+1F32A;tornado/tornado-cloud
 1F32B;fog
-#1F32C;WIND BLOWING FACE
+1F32C;wind-blowing-face
 1F32D;hotdog
 1F32E;taco
 1F32F;burrito
 1F336;hot-pepper
-#1F37D;FORK AND KNIFE WITH PLATE
-#1F37E;BOTTLE WITH POPPING CORK
+1F37D;knife-fork-plate
+1F37E;champagne
 1F37F;popcorn
-#1F396;MILITARY MEDAL
-#1F397;REMINDER RIBBON
-#1F399;STUDIO MICROPHONE
-#1F39A;LEVEL SLIDER
-#1F39B;CONTROL KNOBS
-#1F39E;FILM FRAMES
-#1F39F;ADMISSION TICKETS
-#1F3C5;SPORTS MEDAL
-#1F3CB;WEIGHT LIFTER
+1F396;medal
+1F397;reminder-ribbon
+1F399;studio-microphone
+1F39A;level-slider
+1F39B;control-knobs
+1F39E;film-frames
+1F39F;admission-tickets
+1F3C5;sports-medal
+1F3CB;weight-lifter
 1F3CC;golfer
-#1F3CD;RACING MOTORCYCLE
-#1F3CE;RACING CAR
-#1F3CF;CRICKET BAT AND BALL
+1F3CD;racing-motorcycle
+1F3CE;racing-car
+1F3CF;cricket-bat-and-ball
 1F3D0;volleyball
-#1F3D1;FIELD HOCKEY STICK AND BALL
-#1F3D2;ICE HOCKEY STICK AND PUCK
-#1F3D3;TABLE TENNIS PADDLE AND BALL
-#1F3D4;SNOW CAPPED MOUNTAIN
+1F3D1;field-hockey-stick-and-ball
+1F3D2;ice-hockey-stick-and-puck
+1F3D3;table-tennis-paddle-and-ball
+1F3D4;snow-capped-mountain
 1F3D5;camping
-#1F3D6;BEACH WITH UMBRELLA
-#1F3D7;BUILDING CONSTRUCTION
-#1F3D8;HOUSE BUILDINGS
+1F3D6;beach-with-umbrella
+1F3D7;building-construction
+1F3D8;house-buildings
 1F3D9;cityscape
-#1F3DA;DERELICT HOUSE BUILDING
-#1F3DB;CLASSICAL BUILDING
+1F3DA;derelict-house-building
+1F3DB;classical-building
 1F3DC;desert
 1F3DD;desert-island
-#1F3DE;NATIONAL PARK
+1F3DE;national-park
 1F3DF;stadium
-#1F3F3;WAVING WHITE FLAG
-#1F3F4;WAVING BLACK FLAG
+1F3F3;waving-white-flag
+1F3F4;waving-black-flag
 1F3F5;rosette
 1F3F7;label
-#1F3F8;BADMINTON RACQUET AND SHUTTLECOCK
-#1F3F9;BOW AND ARROW
+1F3F8;badminton-racquet-and-shuttlecock
+1F3F9;bow-and-arrow
 1F3FA;amphora
 1F43F;chipmunk
 1F441;eye
-#1F4F8;CAMERA WITH FLASH
-#1F4FD;FILM PROJECTOR
-#1F4FF;PRAYER BEADS
-#1F549;OM SYMBOL
-#1F54A;DOVE OF PEACE
+1F4F8;camera-with-flash
+1F4FD;film-projector
+1F4FF;prayer-beads
+1F549;om-symbol
+1F54A;dove-of-peace
 1F54B;kaaba
 1F54C;mosque
 1F54D;synagogue
-#1F54E;MENORAH WITH NINE BRANCHES
+1F54E;menorah-with-nine-branches
 1F56F;candle
-#1F570;MANTELPIECE CLOCK
+1F570;mantelpiece-clock
 1F573;hole
-#1F574;MAN IN BUSINESS SUIT LEVITATING
-#1F575;SLEUTH OR SPY
-#1F576;DARK SUNGLASSES
+1F574;man-in-business-suit-levitating
+1F575;sleuth-or-spy
+1F576;dark-sunglasses
 1F577;spider
-#1F578;SPIDER WEB
+1F578;spider-web
 1F579;joystick
-#1F587;LINKED PAPERCLIPS
-#1F58A;LOWER LEFT BALLPOINT PEN
-#1F58B;LOWER LEFT FOUNTAIN PEN
-#1F58C;LOWER LEFT PAINTBRUSH
-#1F58D;LOWER LEFT CRAYON
-#1F590;RAISED HAND WITH FINGERS SPLAYED
-#1F595;REVERSED HAND WITH MIDDLE FINGER EXTENDED
-#1F5A5;DESKTOP COMPUTER
+1F587;linked-paperclips
+1F58A;lower-left-ballpoint-pen
+1F58B;lower-left-fountain-pen
+1F58C;lower-left-paintbrush
+1F58D;lower-left-crayon
+1F590;raised-hand-with-fingers-splayed
+1F595;reversed-hand-with-middle-finger-extended
+1F5A5;desktop-computer
 1F5A8;printer
-#1F5B1;THREE BUTTON MOUSE
+1F5B1;three-button-mouse
 1F5B2;trackball
-#1F5BC;FRAME WITH PICTURE
-#1F5C2;CARD INDEX DIVIDERS
-#1F5C3;CARD FILE BOX
-#1F5C4;FILE CABINET
+1F5BC;frame-with-picture
+1F5C2;card-index-dividers
+1F5C3;card-file-box
+1F5C4;file-cabinet
 1F5D1;wastebasket
-#1F5D2;SPIRAL NOTE PAD
-#1F5D3;SPIRAL CALENDAR PAD
+1F5D2;spiral-note-pad
+1F5D3;spiral-calendar-pad
 1F5DC;compression
-#1F5DD;OLD KEY
-#1F5DE;ROLLED-UP NEWSPAPER
-#1F5E1;DAGGER KNIFE
-#1F5E3;SPEAKING HEAD IN SILHOUETTE
-#1F5E8;LEFT SPEECH BUBBLE
-#1F5EF;RIGHT ANGER BUBBLE
-#1F5F3;BALLOT BOX WITH BALLOT
-#1F5FA;WORLD MAP
-#1F641;SLIGHTLY FROWNING FACE
-#1F642;SLIGHTLY SMILING FACE
-#1F643PSIDE-DOWN FACE
-#1F644;FACE WITH ROLLING EYES
-#1F6CB;COUCH AND LAMP
-#1F6CC;SLEEPING ACCOMMODATION
-#1F6CD;SHOPPING BAGS
-#1F6CE;BELLHOP BELL
+1F5DD;old-key
+1F5DE;rolled-up-newspaper
+1F5E1;dagger-knife
+1F5E3;speaking-head-in-silhouette
+1F5E8;left-speech-bubble
+1F5EF;right-anger-bubble
+1F5F3;ballot-box-with-ballot
+1F5FA;world-map
+1F641;slightly-frowning-face
+1F642;slightly-smiling-face
+1F643;upside-down-face
+1F644;face-with-rolling-eyes
+1F6CB;couch-and-lamp
+1F6CC;sleeping-accommodation
+1F6CD;shopping-bags
+1F6CE;bellhop-bell
 1F6CF;bed
-#1F6D0;PLACE OF WORSHIP
-#1F6E0;HAMMER AND WRENCH
+1F6D0;place-of-worship
+1F6E0;hammer-and-wrench
 1F6E1;shield
-#1F6E2;OIL DRUM
+1F6E2;oil-drum
 1F6E3;motorway
-#1F6E4;RAILWAY TRACK
-#1F6E5;MOTOR BOAT
-#1F6E9;SMALL AIRPLANE
-#1F6EB;AIRPLANE DEPARTURE
-#1F6EC;AIRPLANE ARRIVING
+1F6E4;railway-track
+1F6E5;motor-boat
+1F6E9;small-airplane
+1F6EB;airplane-departure
+1F6EC;airplane-arriving
 1F6F0;satellite
-#1F6F3;PASSENGER SHIP
-#1F910;ZIPPER-MOUTH FACE
-#1F911;MONEY-MOUTH FACE
-#1F912;FACE WITH THERMOMETER
-#1F913;NERD FACE
-#1F914;THINKING FACE
-#1F915;FACE WITH HEAD-BANDAGE
-#1F916;ROBOT FACE
-#1F917;HUGGING FACE
-#1F918;SIGN OF THE HORNS
+1F6F3;passenger-ship
+1F910;zipper-mouth-face
+1F911;money-mouth-face
+1F912;face-with-thermometer
+1F913;nerd-face
+1F914;thinking-face
+1F915;face-with-head-bandage
+1F916;robot-face
+1F917;hugging-face
+1F918;sign-of-the-horns
 1F980;crab
-#1F981;LION FACE
+1F981;lion-face
 1F982;scorpian
 1F983;turkey
-#1F984NICORN FACE
-#1F9C0;CHEESE WEDGE
+1F984;unicorn-face
+1F9C0;cheese-wedge
 2328;keyboard
-#23ED;BLACK RIGHT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR
-#23EE;BLACK LEFT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR
-#23EF;BLACK RIGHT-POINTING TRIANGLE WITH DOUBLE VERTICAL BAR
+23ED;black-right-pointing-double-triangle-with-vertical-bar
+23EE;black-left-pointing-double-triangle-with-vertical-bar
+23EF;black-right-pointing-triangle-with-double-vertical-bar
 23F1;stopwatch
-#23F2;TIMER CLOCK
-#23F8;DOUBLE VERTICAL BAR
-#23F9;BLACK SQUARE FOR STOP
-#23FA;BLACK CIRCLE FOR RECORD
+23F2;timer-clock
+23F8;double-vertical-bar
+23F9;black-square-for-stop
+23FA;black-circle-for-record
 2602;umbrella
 2603;showman
 2604;comet
 2618;shamrock
-#2620;SKULL AND CROSSBONES
-#2622;RADIOACTIVE SIGN
-#2623;BIOHAZARD SIGN
-#2626;ORTHODOX CROSS
-#262A;STAR AND CRESCENT
-#262E;PEACE SYMBOL
-#262F;YIN YANG
-#2638;WHEEL OF DHARMA
-#2639;WHITE FROWNING FACE
-#2692;HAMMER AND PICK
-#2694;CROSSED SWORDS
+2620;skull-and-crossbones
+2622;radioactive-sign
+2623;biohazard-sign
+2626;orthodox-cross
+262A;star-and-crescent
+262E;peace-symbol
+262F;yin-yang
+2638;wheel-of-dharma
+2639;white-frowning-face
+2692;hammer-and-pick
+2694;crossed-swords
 2696;scales
 2697;alembic
 2699;gear
-#269B;ATOM SYMBOL
-#269C;FLEUR-DE-LIS
+269B;atom-symbol
+269C;fleur-de-lis
 26B0;coffin
-#26B1;FUNERAL URN
-#26C8;THUNDER CLOUD AND RAIN
+26B1;funeral-urn
+26C8;thunder-cloud-and-rain
 26CF;pick
-#26D1;HELMET WITH WHITE CROSS
+26D1;helmet-with-white-cross
 26D3;chains
-#26E9;SHINTO SHRINE
+26E9;shinto-shrine
 26F0;mountain
-#26F1;UMBRELLA ON GROUND
+26F1;umbrella-on-ground
 26F4;ferry
 26F7;skier
-#26F8;ICE SKATE
-#26F9;PERSON WITH BALL
-#270D;WRITING HAND
-#271D;LATIN CROSS
-#2721;STAR OF DAVID
-#2763;HEAVY HEART EXCLAMATION MARK ORNAMENT
+26F8;ice-skate
+26F9;person-with-ball
+270D;writing-hand
+271D;latin-cross
+2721;star-of-david
+2763;heavy-heart-exclamation-mark-ornament
 
 # flags
 # generated by find_flags.php
