@@ -4,7 +4,6 @@
 	$dir = dirname(__FILE__);
 
 	include('catalog.php');
-	include('catalog_names.php');
 	include('catalog_vars.php');
 
 
@@ -59,20 +58,31 @@
 
 
 	#
-	# load extra emoji definitions
+	# load emoji names
 	#
 
-	$raw = file('emoji_data.txt');
+	$short_names = array();
 
-	$extra_emoji = array();
-	foreach ($raw as $line){
+	load_short_names('data_emoji_names.txt');
+	load_short_names('data_emoji_names_more.txt');
 
-		if (strpos($line, '#') === 0) continue;
-		$line = trim($line);
-		if (!strlen($line)) continue;
+	function load_short_names($file){
 
-		list($cp, $name) = explode(';', $line);
-		$extra_emoji[$cp] = $name;
+		$raw = file($file);
+
+		foreach ($raw as $line){
+
+			if (strpos($line, '#') === 0) continue;
+			$line = trim($line);
+			if (!strlen($line)) continue;
+
+			list($cp, $names) = explode(';', $line);
+			if (isset($GLOBALS['short_names'][$cp])){
+				echo "ignoring def for $line\n";
+			}else{
+				$GLOBALS['short_names'][$cp] = explode('/', $names);
+			}
+		}
 	}
 
 	echo "OK\n";
@@ -101,11 +111,13 @@
 	foreach ($catalog as $row){
 
 		$img_key = StrToLower(encode_points($row['unicode']));
-		$shorts = $catalog_names[$img_key];
+		$shorts = $short_names[StrToUpper($img_key)];
 		$name = $row['char_name']['title'];
 
 		if (preg_match("!^REGIONAL INDICATOR SYMBOL LETTERS !", $name)){
-			array_unshift($shorts, 'flag-'.$shorts[0]);
+			if (strlen($shorts[0]) == '2'){
+				array_unshift($shorts, 'flag-'.$shorts[0]);
+			}
 		}
 
 		$out[] = simple_row($img_key, $shorts, array(
@@ -125,47 +137,26 @@
 	# were there any codepoints we have an image for, but no data for?
 	#
 
-	echo "Finding extra emoji from UCD: ";
+	echo "Finding emoji we have names for: ";
 
-	foreach ($catalog_names as $uid => $names){
-		if ($uid == '_') continue;
+	foreach ($short_names as $uid => $names){
 
-		if (!$out_unis[$uid]){
-			echo  '.';
-			$out[] = build_character_data($uid, $names);
+		$img_key = StrToLower($uid);
+		if ($out_unis[$img_key]) continue;
+
+		echo '.';
+
+		if (substr($names[0], 0, 5) == 'flag-'){
+
+			$out[] = simple_row($img_key, $names, array(
+				'unified'	=> $uid,
+				'name'		=> "REGIONAL INDICATOR SYMBOL LETTERS ".StrToUpper(substr($names[0], 5)),
+			));
+		}else{
+			$out[] = build_character_data($img_key, $names);
 		}
 	}
 	echo " DONE\n";
-
-
-	#
-	# extra non-standard CPs
-	#
-
-	echo "Adding our own extra emoji: ";
-
-	foreach ($extra_emoji as $cps => $short_name){
-
-		$img_key = StrToLower($cps);
-		if ($out_unis[$img_key]) continue;
-
-		$short_names = array($short_name);
-
-		echo  '.';
-
-		if (substr($short_name, 0, 5) == 'flag-'){
-
-			$out[] = simple_row($img_key, $short_names, array(
-				'unified'	=> $cps,
-				'name'		=> "REGIONAL INDICATOR SYMBOL LETTERS ".StrToUpper(substr($short_name, 5)),
-			));
-
-		}else{
-			$out[] =  build_character_data($img_key, $short_names);
-		}
-	}
-
-	echo "OK\n";
 
 
 	function build_character_data($img_key, $short_names){
