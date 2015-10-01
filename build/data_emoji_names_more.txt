@@ -8,6 +8,9 @@
 # spock hand
 1F596;spock-hand
 
+# new keycap. :star: is already used by U+2B50
+002A-20E3;keycap_star
+
 # families
 1F468-200D-1F469-200D-1F466;man-woman-boy
 1F468-200D-1F469-200D-1F467;man-woman-girl
