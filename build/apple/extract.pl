@@ -160,12 +160,12 @@ my @skin_ids = (
 	0x1f6c5, # left luggage
 
 	# added in OSX 10.11.1 / iOS 9.1
-	0x26f9, # 
-	0x270d, # 
-	0x1f3cb, # 
-	0x1f590, # 
-	0x1f595, # 
-	0x1f918, # 
+	0x26f9, # person-with-ball
+	0x270d, # writing-hand
+	0x1f3cb, # weight-lifter
+	0x1f590, # raised-hand-with-fingers-splayed
+	0x1f595, # reversed-hand-with-middle-finger-extended
+	0x1f918, # sign-of-the-horns
 );
 
 for my $cp(@skin_ids){
