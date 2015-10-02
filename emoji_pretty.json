@@ -2337,7 +2337,7 @@
         "sort_order": 92,
         "has_img_apple": true,
         "has_img_google": false,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": false
     },
     {
@@ -3014,7 +3014,7 @@
         "sort_order": 19,
         "has_img_apple": true,
         "has_img_google": false,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": false
     },
     {
@@ -6535,7 +6535,7 @@
         "sort_order": 28,
         "has_img_apple": true,
         "has_img_google": false,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": false
     },
     {
@@ -6561,7 +6561,7 @@
         "sort_order": 31,
         "has_img_apple": true,
         "has_img_google": false,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": false
     },
     {
@@ -6587,7 +6587,7 @@
         "sort_order": 32,
         "has_img_apple": true,
         "has_img_google": false,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": false
     },
     {
@@ -10904,7 +10904,7 @@
         "sort_order": 6,
         "has_img_apple": true,
         "has_img_google": false,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": true
     },
     {
@@ -10930,7 +10930,7 @@
         "sort_order": 15,
         "has_img_apple": true,
         "has_img_google": false,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": false
     },
     {
@@ -10956,7 +10956,7 @@
         "sort_order": 6,
         "has_img_apple": true,
         "has_img_google": false,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": false
     },
     {
@@ -11008,7 +11008,7 @@
         "sort_order": 13,
         "has_img_apple": true,
         "has_img_google": false,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": false
     },
     {
@@ -11997,7 +11997,7 @@
         "sort_order": null,
         "has_img_apple": true,
         "has_img_google": false,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": false
     },
     {
@@ -12023,7 +12023,7 @@
         "sort_order": null,
         "has_img_apple": true,
         "has_img_google": false,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": false
     },
     {
@@ -12049,7 +12049,7 @@
         "sort_order": null,
         "has_img_apple": true,
         "has_img_google": false,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": false
     },
     {
@@ -12075,7 +12075,7 @@
         "sort_order": null,
         "has_img_apple": true,
         "has_img_google": false,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": false
     },
     {
@@ -12101,7 +12101,7 @@
         "sort_order": null,
         "has_img_apple": true,
         "has_img_google": false,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": false
     },
     {
@@ -28977,7 +28977,7 @@
         "sort_order": 93,
         "has_img_apple": true,
         "has_img_google": false,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": true
     },
     {
@@ -29445,7 +29445,7 @@
         "sort_order": 67,
         "has_img_apple": true,
         "has_img_google": false,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": false
     },
     {
@@ -29471,7 +29471,7 @@
         "sort_order": 78,
         "has_img_apple": true,
         "has_img_google": false,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": false
     },
     {
@@ -29524,7 +29524,7 @@
         "sort_order": 108,
         "has_img_apple": true,
         "has_img_google": false,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": false,
         "skin_variations": {
             "1F918-1F3FB": {
@@ -30330,7 +30330,7 @@
         "sort_order": 11,
         "has_img_apple": true,
         "has_img_google": true,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": true
     },
     {
@@ -30408,7 +30408,7 @@
         "sort_order": 14,
         "has_img_apple": true,
         "has_img_google": true,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": true
     },
     {
@@ -30876,7 +30876,7 @@
         "sort_order": 31,
         "has_img_apple": true,
         "has_img_google": true,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": true
     },
     {
@@ -31058,7 +31058,7 @@
         "sort_order": 41,
         "has_img_apple": true,
         "has_img_google": true,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": true
     },
     {
@@ -31397,7 +31397,7 @@
         "sort_order": 55,
         "has_img_apple": true,
         "has_img_google": true,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": true
     },
     {
@@ -31736,7 +31736,7 @@
         "sort_order": 4,
         "has_img_apple": true,
         "has_img_google": true,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": true
     },
     {
@@ -31788,7 +31788,7 @@
         "sort_order": 65,
         "has_img_apple": true,
         "has_img_google": true,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": true
     },
     {
@@ -32728,7 +32728,7 @@
         "sort_order": 56,
         "has_img_apple": true,
         "has_img_google": true,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": true
     },
     {
@@ -32936,7 +32936,7 @@
         "sort_order": 102,
         "has_img_apple": true,
         "has_img_google": true,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": true
     },
     {
@@ -33014,7 +33014,7 @@
         "sort_order": 104,
         "has_img_apple": true,
         "has_img_google": true,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": true
     },
     {
@@ -34291,7 +34291,7 @@
         "sort_order": 143,
         "has_img_apple": true,
         "has_img_google": true,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": true
     },
     {
@@ -34993,7 +34993,7 @@
         "sort_order": 178,
         "has_img_apple": true,
         "has_img_google": true,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": true
     },
     {
@@ -35228,7 +35228,7 @@
         "sort_order": 194,
         "has_img_apple": true,
         "has_img_google": true,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": true
     },
     {
@@ -35358,7 +35358,7 @@
         "sort_order": 199,
         "has_img_apple": true,
         "has_img_google": true,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": true
     },
     {
@@ -36086,7 +36086,7 @@
         "sort_order": 227,
         "has_img_apple": true,
         "has_img_google": true,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": true
     },
     {
@@ -36321,7 +36321,7 @@
         "sort_order": 237,
         "has_img_apple": true,
         "has_img_google": true,
-        "has_img_twitter": false,
+        "has_img_twitter": true,
         "has_img_emojione": true
     },
     {
