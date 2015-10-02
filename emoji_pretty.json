@@ -558,9 +558,9 @@
         "image": "23ed.png",
         "sheet_x": 0,
         "sheet_y": 21,
-        "short_name": "black-right-pointing-double-triangle-with-vertical-bar",
+        "short_name": "black_right_pointing_double_triangle_with_vertical_bar",
         "short_names": [
-            "black-right-pointing-double-triangle-with-vertical-bar"
+            "black_right_pointing_double_triangle_with_vertical_bar"
         ],
         "text": null,
         "texts": null,
@@ -584,9 +584,9 @@
         "image": "23ee.png",
         "sheet_x": 0,
         "sheet_y": 22,
-        "short_name": "black-left-pointing-double-triangle-with-vertical-bar",
+        "short_name": "black_left_pointing_double_triangle_with_vertical_bar",
         "short_names": [
-            "black-left-pointing-double-triangle-with-vertical-bar"
+            "black_left_pointing_double_triangle_with_vertical_bar"
         ],
         "text": null,
         "texts": null,
@@ -610,9 +610,9 @@
         "image": "23ef.png",
         "sheet_x": 0,
         "sheet_y": 23,
-        "short_name": "black-right-pointing-triangle-with-double-vertical-bar",
+        "short_name": "black_right_pointing_triangle_with_double_vertical_bar",
         "short_names": [
-            "black-right-pointing-triangle-with-double-vertical-bar"
+            "black_right_pointing_triangle_with_double_vertical_bar"
         ],
         "text": null,
         "texts": null,
@@ -688,9 +688,9 @@
         "image": "23f2.png",
         "sheet_x": 0,
         "sheet_y": 26,
-        "short_name": "timer-clock",
+        "short_name": "timer_clock",
         "short_names": [
-            "timer-clock"
+            "timer_clock"
         ],
         "text": null,
         "texts": null,
@@ -740,9 +740,9 @@
         "image": "23f8.png",
         "sheet_x": 0,
         "sheet_y": 28,
-        "short_name": "double-vertical-bar",
+        "short_name": "double_vertical_bar",
         "short_names": [
-            "double-vertical-bar"
+            "double_vertical_bar"
         ],
         "text": null,
         "texts": null,
@@ -766,9 +766,9 @@
         "image": "23f9.png",
         "sheet_x": 0,
         "sheet_y": 29,
-        "short_name": "black-square-for-stop",
+        "short_name": "black_square_for_stop",
         "short_names": [
-            "black-square-for-stop"
+            "black_square_for_stop"
         ],
         "text": null,
         "texts": null,
@@ -792,9 +792,9 @@
         "image": "23fa.png",
         "sheet_x": 0,
         "sheet_y": 30,
-        "short_name": "black-circle-for-record",
+        "short_name": "black_circle_for_record",
         "short_names": [
-            "black-circle-for-record"
+            "black_circle_for_record"
         ],
         "text": null,
         "texts": null,
@@ -1391,9 +1391,9 @@
         "image": "2620.png",
         "sheet_x": 1,
         "sheet_y": 15,
-        "short_name": "skull-and-crossbones",
+        "short_name": "skull_and_crossbones",
         "short_names": [
-            "skull-and-crossbones"
+            "skull_and_crossbones"
         ],
         "text": null,
         "texts": null,
@@ -1417,9 +1417,9 @@
         "image": "2622.png",
         "sheet_x": 1,
         "sheet_y": 16,
-        "short_name": "radioactive-sign",
+        "short_name": "radioactive_sign",
         "short_names": [
-            "radioactive-sign"
+            "radioactive_sign"
         ],
         "text": null,
         "texts": null,
@@ -1443,9 +1443,9 @@
         "image": "2623.png",
         "sheet_x": 1,
         "sheet_y": 17,
-        "short_name": "biohazard-sign",
+        "short_name": "biohazard_sign",
         "short_names": [
-            "biohazard-sign"
+            "biohazard_sign"
         ],
         "text": null,
         "texts": null,
@@ -1469,9 +1469,9 @@
         "image": "2626.png",
         "sheet_x": 1,
         "sheet_y": 18,
-        "short_name": "orthodox-cross",
+        "short_name": "orthodox_cross",
         "short_names": [
-            "orthodox-cross"
+            "orthodox_cross"
         ],
         "text": null,
         "texts": null,
@@ -1495,9 +1495,9 @@
         "image": "262a.png",
         "sheet_x": 1,
         "sheet_y": 19,
-        "short_name": "star-and-crescent",
+        "short_name": "star_and_crescent",
         "short_names": [
-            "star-and-crescent"
+            "star_and_crescent"
         ],
         "text": null,
         "texts": null,
@@ -1521,9 +1521,9 @@
         "image": "262e.png",
         "sheet_x": 1,
         "sheet_y": 20,
-        "short_name": "peace-symbol",
+        "short_name": "peace_symbol",
         "short_names": [
-            "peace-symbol"
+            "peace_symbol"
         ],
         "text": null,
         "texts": null,
@@ -1547,9 +1547,9 @@
         "image": "262f.png",
         "sheet_x": 1,
         "sheet_y": 21,
-        "short_name": "yin-yang",
+        "short_name": "yin_yang",
         "short_names": [
-            "yin-yang"
+            "yin_yang"
         ],
         "text": null,
         "texts": null,
@@ -1573,9 +1573,9 @@
         "image": "2638.png",
         "sheet_x": 1,
         "sheet_y": 22,
-        "short_name": "wheel-of-dharma",
+        "short_name": "wheel_of_dharma",
         "short_names": [
-            "wheel-of-dharma"
+            "wheel_of_dharma"
         ],
         "text": null,
         "texts": null,
@@ -1599,9 +1599,9 @@
         "image": "2639.png",
         "sheet_x": 1,
         "sheet_y": 23,
-        "short_name": "white-frowning-face",
+        "short_name": "white_frowning_face",
         "short_names": [
-            "white-frowning-face"
+            "white_frowning_face"
         ],
         "text": null,
         "texts": null,
@@ -2145,9 +2145,9 @@
         "image": "2692.png",
         "sheet_x": 2,
         "sheet_y": 3,
-        "short_name": "hammer-and-pick",
+        "short_name": "hammer_and_pick",
         "short_names": [
-            "hammer-and-pick"
+            "hammer_and_pick"
         ],
         "text": null,
         "texts": null,
@@ -2197,9 +2197,9 @@
         "image": "2694.png",
         "sheet_x": 2,
         "sheet_y": 5,
-        "short_name": "crossed-swords",
+        "short_name": "crossed_swords",
         "short_names": [
-            "crossed-swords"
+            "crossed_swords"
         ],
         "text": null,
         "texts": null,
@@ -2301,9 +2301,9 @@
         "image": "269b.png",
         "sheet_x": 2,
         "sheet_y": 9,
-        "short_name": "atom-symbol",
+        "short_name": "atom_symbol",
         "short_names": [
-            "atom-symbol"
+            "atom_symbol"
         ],
         "text": null,
         "texts": null,
@@ -2327,9 +2327,9 @@
         "image": "269c.png",
         "sheet_x": 2,
         "sheet_y": 10,
-        "short_name": "fleur-de-lis",
+        "short_name": "fleur_de_lis",
         "short_names": [
-            "fleur-de-lis"
+            "fleur_de_lis"
         ],
         "text": null,
         "texts": null,
@@ -2483,9 +2483,9 @@
         "image": "26b1.png",
         "sheet_x": 2,
         "sheet_y": 16,
-        "short_name": "funeral-urn",
+        "short_name": "funeral_urn",
         "short_names": [
-            "funeral-urn"
+            "funeral_urn"
         ],
         "text": null,
         "texts": null,
@@ -2613,9 +2613,9 @@
         "image": "26c8.png",
         "sheet_x": 2,
         "sheet_y": 21,
-        "short_name": "thunder-cloud-and-rain",
+        "short_name": "thunder_cloud_and_rain",
         "short_names": [
-            "thunder-cloud-and-rain"
+            "thunder_cloud_and_rain"
         ],
         "text": null,
         "texts": null,
@@ -2691,9 +2691,9 @@
         "image": "26d1.png",
         "sheet_x": 2,
         "sheet_y": 24,
-        "short_name": "helmet-with-white-cross",
+        "short_name": "helmet_with_white_cross",
         "short_names": [
-            "helmet-with-white-cross"
+            "helmet_with_white_cross"
         ],
         "text": null,
         "texts": null,
@@ -2769,9 +2769,9 @@
         "image": "26e9.png",
         "sheet_x": 2,
         "sheet_y": 27,
-        "short_name": "shinto-shrine",
+        "short_name": "shinto_shrine",
         "short_names": [
-            "shinto-shrine"
+            "shinto_shrine"
         ],
         "text": null,
         "texts": null,
@@ -2847,9 +2847,9 @@
         "image": "26f1.png",
         "sheet_x": 2,
         "sheet_y": 30,
-        "short_name": "umbrella-on-ground",
+        "short_name": "umbrella_on_ground",
         "short_names": [
-            "umbrella-on-ground"
+            "umbrella_on_ground"
         ],
         "text": null,
         "texts": null,
@@ -3004,9 +3004,9 @@
         "image": "26f8.png",
         "sheet_x": 2,
         "sheet_y": 36,
-        "short_name": "ice-skate",
+        "short_name": "ice_skate",
         "short_names": [
-            "ice-skate"
+            "ice_skate"
         ],
         "text": null,
         "texts": null,
@@ -3030,9 +3030,9 @@
         "image": "26f9.png",
         "sheet_x": 2,
         "sheet_y": 37,
-        "short_name": "person-with-ball",
+        "short_name": "person_with_ball",
         "short_names": [
-            "person-with-ball"
+            "person_with_ball"
         ],
         "text": null,
         "texts": null,
@@ -3500,9 +3500,9 @@
         "image": "270d.png",
         "sheet_x": 3,
         "sheet_y": 26,
-        "short_name": "writing-hand",
+        "short_name": "writing_hand",
         "short_names": [
-            "writing-hand"
+            "writing_hand"
         ],
         "text": null,
         "texts": null,
@@ -3682,9 +3682,9 @@
         "image": "271d.png",
         "sheet_x": 3,
         "sheet_y": 36,
-        "short_name": "latin-cross",
+        "short_name": "latin_cross",
         "short_names": [
-            "latin-cross"
+            "latin_cross"
         ],
         "text": null,
         "texts": null,
@@ -3708,9 +3708,9 @@
         "image": "2721.png",
         "sheet_x": 3,
         "sheet_y": 37,
-        "short_name": "star-of-david",
+        "short_name": "star_of_david",
         "short_names": [
-            "star-of-david"
+            "star_of_david"
         ],
         "text": null,
         "texts": null,
@@ -4021,9 +4021,9 @@
         "image": "2763.png",
         "sheet_x": 4,
         "sheet_y": 8,
-        "short_name": "heavy-heart-exclamation-mark-ornament",
+        "short_name": "heavy_heart_exclamation_mark_ornament",
         "short_names": [
-            "heavy-heart-exclamation-mark-ornament"
+            "heavy_heart_exclamation_mark_ornament"
         ],
         "text": null,
         "texts": null,
@@ -6289,7 +6289,7 @@
         "short_name": "mostly_sunny",
         "short_names": [
             "mostly_sunny",
-            "sun-small-cloud"
+            "sun_small_cloud"
         ],
         "text": null,
         "texts": null,
@@ -6316,7 +6316,7 @@
         "short_name": "barely_sunny",
         "short_names": [
             "barely_sunny",
-            "sun-behind-cloud"
+            "sun_behind_cloud"
         ],
         "text": null,
         "texts": null,
@@ -6343,7 +6343,7 @@
         "short_name": "partly_sunny_rain",
         "short_names": [
             "partly_sunny_rain",
-            "sun-behind-rain-cloud"
+            "sun_behind_rain_cloud"
         ],
         "text": null,
         "texts": null,
@@ -6367,9 +6367,9 @@
         "image": "1f327.png",
         "sheet_x": 6,
         "sheet_y": 16,
-        "short_name": "rain-cloud",
+        "short_name": "rain_cloud",
         "short_names": [
-            "rain-cloud"
+            "rain_cloud"
         ],
         "text": null,
         "texts": null,
@@ -6393,9 +6393,9 @@
         "image": "1f328.png",
         "sheet_x": 6,
         "sheet_y": 17,
-        "short_name": "snow-cloud",
+        "short_name": "snow_cloud",
         "short_names": [
-            "snow-cloud"
+            "snow_cloud"
         ],
         "text": null,
         "texts": null,
@@ -6422,7 +6422,7 @@
         "short_name": "lightening",
         "short_names": [
             "lightening",
-            "lightening-cloud"
+            "lightening_cloud"
         ],
         "text": null,
         "texts": null,
@@ -6449,7 +6449,7 @@
         "short_name": "tornado",
         "short_names": [
             "tornado",
-            "tornado-cloud"
+            "tornado_cloud"
         ],
         "text": null,
         "texts": null,
@@ -6499,9 +6499,9 @@
         "image": "1f32c.png",
         "sheet_x": 6,
         "sheet_y": 21,
-        "short_name": "wind-blowing-face",
+        "short_name": "wind_blowing_face",
         "short_names": [
-            "wind-blowing-face"
+            "wind_blowing_face"
         ],
         "text": null,
         "texts": null,
@@ -6759,9 +6759,9 @@
         "image": "1f336.png",
         "sheet_x": 6,
         "sheet_y": 31,
-        "short_name": "hot-pepper",
+        "short_name": "hot_pepper",
         "short_names": [
-            "hot-pepper"
+            "hot_pepper"
         ],
         "text": null,
         "texts": null,
@@ -8605,9 +8605,9 @@
         "image": "1f37d.png",
         "sheet_x": 8,
         "sheet_y": 20,
-        "short_name": "knife-fork-plate",
+        "short_name": "knife_fork_plate",
         "short_names": [
-            "knife-fork-plate"
+            "knife_fork_plate"
         ],
         "text": null,
         "texts": null,
@@ -9281,9 +9281,9 @@
         "image": "1f397.png",
         "sheet_x": 9,
         "sheet_y": 8,
-        "short_name": "reminder-ribbon",
+        "short_name": "reminder_ribbon",
         "short_names": [
-            "reminder-ribbon"
+            "reminder_ribbon"
         ],
         "text": null,
         "texts": null,
@@ -9307,9 +9307,9 @@
         "image": "1f399.png",
         "sheet_x": 9,
         "sheet_y": 9,
-        "short_name": "studio-microphone",
+        "short_name": "studio_microphone",
         "short_names": [
-            "studio-microphone"
+            "studio_microphone"
         ],
         "text": null,
         "texts": null,
@@ -9333,9 +9333,9 @@
         "image": "1f39a.png",
         "sheet_x": 9,
         "sheet_y": 10,
-        "short_name": "level-slider",
+        "short_name": "level_slider",
         "short_names": [
-            "level-slider"
+            "level_slider"
         ],
         "text": null,
         "texts": null,
@@ -9359,9 +9359,9 @@
         "image": "1f39b.png",
         "sheet_x": 9,
         "sheet_y": 11,
-        "short_name": "control-knobs",
+        "short_name": "control_knobs",
         "short_names": [
-            "control-knobs"
+            "control_knobs"
         ],
         "text": null,
         "texts": null,
@@ -9385,9 +9385,9 @@
         "image": "1f39e.png",
         "sheet_x": 9,
         "sheet_y": 12,
-        "short_name": "film-frames",
+        "short_name": "film_frames",
         "short_names": [
-            "film-frames"
+            "film_frames"
         ],
         "text": null,
         "texts": null,
@@ -9411,9 +9411,9 @@
         "image": "1f39f.png",
         "sheet_x": 9,
         "sheet_y": 13,
-        "short_name": "admission-tickets",
+        "short_name": "admission_tickets",
         "short_names": [
-            "admission-tickets"
+            "admission_tickets"
         ],
         "text": null,
         "texts": null,
@@ -10504,9 +10504,9 @@
         "image": "1f3c5.png",
         "sheet_x": 10,
         "sheet_y": 20,
-        "short_name": "sports-medal",
+        "short_name": "sports_medal",
         "short_names": [
-            "sports-medal"
+            "sports_medal"
         ],
         "text": null,
         "texts": null,
@@ -10764,9 +10764,9 @@
         "image": "1f3cb.png",
         "sheet_x": 10,
         "sheet_y": 36,
-        "short_name": "weight-lifter",
+        "short_name": "weight_lifter",
         "short_names": [
-            "weight-lifter"
+            "weight_lifter"
         ],
         "text": null,
         "texts": null,
@@ -10868,9 +10868,9 @@
         "image": "1f3cd.png",
         "sheet_x": 11,
         "sheet_y": 2,
-        "short_name": "racing-motorcycle",
+        "short_name": "racing_motorcycle",
         "short_names": [
-            "racing-motorcycle"
+            "racing_motorcycle"
         ],
         "text": null,
         "texts": null,
@@ -10894,9 +10894,9 @@
         "image": "1f3ce.png",
         "sheet_x": 11,
         "sheet_y": 3,
-        "short_name": "racing-car",
+        "short_name": "racing_car",
         "short_names": [
-            "racing-car"
+            "racing_car"
         ],
         "text": null,
         "texts": null,
@@ -10920,9 +10920,9 @@
         "image": "1f3cf.png",
         "sheet_x": 11,
         "sheet_y": 4,
-        "short_name": "cricket-bat-and-ball",
+        "short_name": "cricket_bat_and_ball",
         "short_names": [
-            "cricket-bat-and-ball"
+            "cricket_bat_and_ball"
         ],
         "text": null,
         "texts": null,
@@ -10972,9 +10972,9 @@
         "image": "1f3d1.png",
         "sheet_x": 11,
         "sheet_y": 6,
-        "short_name": "field-hockey-stick-and-ball",
+        "short_name": "field_hockey_stick_and_ball",
         "short_names": [
-            "field-hockey-stick-and-ball"
+            "field_hockey_stick_and_ball"
         ],
         "text": null,
         "texts": null,
@@ -10998,9 +10998,9 @@
         "image": "1f3d2.png",
         "sheet_x": 11,
         "sheet_y": 7,
-        "short_name": "ice-hockey-stick-and-puck",
+        "short_name": "ice_hockey_stick_and_puck",
         "short_names": [
-            "ice-hockey-stick-and-puck"
+            "ice_hockey_stick_and_puck"
         ],
         "text": null,
         "texts": null,
@@ -11024,9 +11024,9 @@
         "image": "1f3d3.png",
         "sheet_x": 11,
         "sheet_y": 8,
-        "short_name": "table-tennis-paddle-and-ball",
+        "short_name": "table_tennis_paddle_and_ball",
         "short_names": [
-            "table-tennis-paddle-and-ball"
+            "table_tennis_paddle_and_ball"
         ],
         "text": null,
         "texts": null,
@@ -11050,9 +11050,9 @@
         "image": "1f3d4.png",
         "sheet_x": 11,
         "sheet_y": 9,
-        "short_name": "snow-capped-mountain",
+        "short_name": "snow_capped_mountain",
         "short_names": [
-            "snow-capped-mountain"
+            "snow_capped_mountain"
         ],
         "text": null,
         "texts": null,
@@ -11102,9 +11102,9 @@
         "image": "1f3d6.png",
         "sheet_x": 11,
         "sheet_y": 11,
-        "short_name": "beach-with-umbrella",
+        "short_name": "beach_with_umbrella",
         "short_names": [
-            "beach-with-umbrella"
+            "beach_with_umbrella"
         ],
         "text": null,
         "texts": null,
@@ -11128,9 +11128,9 @@
         "image": "1f3d7.png",
         "sheet_x": 11,
         "sheet_y": 12,
-        "short_name": "building-construction",
+        "short_name": "building_construction",
         "short_names": [
-            "building-construction"
+            "building_construction"
         ],
         "text": null,
         "texts": null,
@@ -11154,9 +11154,9 @@
         "image": "1f3d8.png",
         "sheet_x": 11,
         "sheet_y": 13,
-        "short_name": "house-buildings",
+        "short_name": "house_buildings",
         "short_names": [
-            "house-buildings"
+            "house_buildings"
         ],
         "text": null,
         "texts": null,
@@ -11206,9 +11206,9 @@
         "image": "1f3da.png",
         "sheet_x": 11,
         "sheet_y": 15,
-        "short_name": "derelict-house-building",
+        "short_name": "derelict_house_building",
         "short_names": [
-            "derelict-house-building"
+            "derelict_house_building"
         ],
         "text": null,
         "texts": null,
@@ -11232,9 +11232,9 @@
         "image": "1f3db.png",
         "sheet_x": 11,
         "sheet_y": 16,
-        "short_name": "classical-building",
+        "short_name": "classical_building",
         "short_names": [
-            "classical-building"
+            "classical_building"
         ],
         "text": null,
         "texts": null,
@@ -11284,9 +11284,9 @@
         "image": "1f3dd.png",
         "sheet_x": 11,
         "sheet_y": 18,
-        "short_name": "desert-island",
+        "short_name": "desert_island",
         "short_names": [
-            "desert-island"
+            "desert_island"
         ],
         "text": null,
         "texts": null,
@@ -11310,9 +11310,9 @@
         "image": "1f3de.png",
         "sheet_x": 11,
         "sheet_y": 19,
-        "short_name": "national-park",
+        "short_name": "national_park",
         "short_names": [
-            "national-park"
+            "national_park"
         ],
         "text": null,
         "texts": null,
@@ -11805,9 +11805,9 @@
         "image": "1f3f3.png",
         "sheet_x": 11,
         "sheet_y": 38,
-        "short_name": "waving-white-flag",
+        "short_name": "waving_white_flag",
         "short_names": [
-            "waving-white-flag"
+            "waving_white_flag"
         ],
         "text": null,
         "texts": null,
@@ -11831,9 +11831,9 @@
         "image": "1f3f4.png",
         "sheet_x": 11,
         "sheet_y": 39,
-        "short_name": "waving-black-flag",
+        "short_name": "waving_black_flag",
         "short_names": [
-            "waving-black-flag"
+            "waving_black_flag"
         ],
         "text": null,
         "texts": null,
@@ -11909,9 +11909,9 @@
         "image": "1f3f8.png",
         "sheet_x": 12,
         "sheet_y": 1,
-        "short_name": "badminton-racquet-and-shuttlecock",
+        "short_name": "badminton_racquet_and_shuttlecock",
         "short_names": [
-            "badminton-racquet-and-shuttlecock"
+            "badminton_racquet_and_shuttlecock"
         ],
         "text": null,
         "texts": null,
@@ -11935,9 +11935,9 @@
         "image": "1f3f9.png",
         "sheet_x": 12,
         "sheet_y": 2,
-        "short_name": "bow-and-arrow",
+        "short_name": "bow_and_arrow",
         "short_names": [
-            "bow-and-arrow"
+            "bow_and_arrow"
         ],
         "text": null,
         "texts": null,
@@ -20405,9 +20405,9 @@
         "image": "1f4f8.png",
         "sheet_x": 22,
         "sheet_y": 22,
-        "short_name": "camera-with-flash",
+        "short_name": "camera_with_flash",
         "short_names": [
-            "camera-with-flash"
+            "camera_with_flash"
         ],
         "text": null,
         "texts": null,
@@ -20535,9 +20535,9 @@
         "image": "1f4fd.png",
         "sheet_x": 22,
         "sheet_y": 27,
-        "short_name": "film-projector",
+        "short_name": "film_projector",
         "short_names": [
-            "film-projector"
+            "film_projector"
         ],
         "text": null,
         "texts": null,
@@ -20561,9 +20561,9 @@
         "image": "1f4ff.png",
         "sheet_x": 22,
         "sheet_y": 28,
-        "short_name": "prayer-beads",
+        "short_name": "prayer_beads",
         "short_names": [
-            "prayer-beads"
+            "prayer_beads"
         ],
         "text": null,
         "texts": null,
@@ -22200,9 +22200,9 @@
         "image": "1f549.png",
         "sheet_x": 24,
         "sheet_y": 9,
-        "short_name": "om-symbol",
+        "short_name": "om_symbol",
         "short_names": [
-            "om-symbol"
+            "om_symbol"
         ],
         "text": null,
         "texts": null,
@@ -22226,9 +22226,9 @@
         "image": "1f54a.png",
         "sheet_x": 24,
         "sheet_y": 10,
-        "short_name": "dove-of-peace",
+        "short_name": "dove_of_peace",
         "short_names": [
-            "dove-of-peace"
+            "dove_of_peace"
         ],
         "text": null,
         "texts": null,
@@ -22330,9 +22330,9 @@
         "image": "1f54e.png",
         "sheet_x": 24,
         "sheet_y": 14,
-        "short_name": "menorah-with-nine-branches",
+        "short_name": "menorah_with_nine_branches",
         "short_names": [
-            "menorah-with-nine-branches"
+            "menorah_with_nine_branches"
         ],
         "text": null,
         "texts": null,
@@ -23006,9 +23006,9 @@
         "image": "1f570.png",
         "sheet_x": 24,
         "sheet_y": 40,
-        "short_name": "mantelpiece-clock",
+        "short_name": "mantelpiece_clock",
         "short_names": [
-            "mantelpiece-clock"
+            "mantelpiece_clock"
         ],
         "text": null,
         "texts": null,
@@ -23058,9 +23058,9 @@
         "image": "1f574.png",
         "sheet_x": 25,
         "sheet_y": 1,
-        "short_name": "man-in-business-suit-levitating",
+        "short_name": "man_in_business_suit_levitating",
         "short_names": [
-            "man-in-business-suit-levitating"
+            "man_in_business_suit_levitating"
         ],
         "text": null,
         "texts": null,
@@ -23084,9 +23084,9 @@
         "image": "1f575.png",
         "sheet_x": 25,
         "sheet_y": 2,
-        "short_name": "sleuth-or-spy",
+        "short_name": "sleuth_or_spy",
         "short_names": [
-            "sleuth-or-spy"
+            "sleuth_or_spy"
         ],
         "text": null,
         "texts": null,
@@ -23110,9 +23110,9 @@
         "image": "1f576.png",
         "sheet_x": 25,
         "sheet_y": 3,
-        "short_name": "dark-sunglasses",
+        "short_name": "dark_sunglasses",
         "short_names": [
-            "dark-sunglasses"
+            "dark_sunglasses"
         ],
         "text": null,
         "texts": null,
@@ -23162,9 +23162,9 @@
         "image": "1f578.png",
         "sheet_x": 25,
         "sheet_y": 5,
-        "short_name": "spider-web",
+        "short_name": "spider_web",
         "short_names": [
-            "spider-web"
+            "spider_web"
         ],
         "text": null,
         "texts": null,
@@ -23214,9 +23214,9 @@
         "image": "1f587.png",
         "sheet_x": 25,
         "sheet_y": 7,
-        "short_name": "linked-paperclips",
+        "short_name": "linked_paperclips",
         "short_names": [
-            "linked-paperclips"
+            "linked_paperclips"
         ],
         "text": null,
         "texts": null,
@@ -23240,9 +23240,9 @@
         "image": "1f58a.png",
         "sheet_x": 25,
         "sheet_y": 8,
-        "short_name": "lower-left-ballpoint-pen",
+        "short_name": "lower_left_ballpoint_pen",
         "short_names": [
-            "lower-left-ballpoint-pen"
+            "lower_left_ballpoint_pen"
         ],
         "text": null,
         "texts": null,
@@ -23266,9 +23266,9 @@
         "image": "1f58b.png",
         "sheet_x": 25,
         "sheet_y": 9,
-        "short_name": "lower-left-fountain-pen",
+        "short_name": "lower_left_fountain_pen",
         "short_names": [
-            "lower-left-fountain-pen"
+            "lower_left_fountain_pen"
         ],
         "text": null,
         "texts": null,
@@ -23292,9 +23292,9 @@
         "image": "1f58c.png",
         "sheet_x": 25,
         "sheet_y": 10,
-        "short_name": "lower-left-paintbrush",
+        "short_name": "lower_left_paintbrush",
         "short_names": [
-            "lower-left-paintbrush"
+            "lower_left_paintbrush"
         ],
         "text": null,
         "texts": null,
@@ -23318,9 +23318,9 @@
         "image": "1f58d.png",
         "sheet_x": 25,
         "sheet_y": 11,
-        "short_name": "lower-left-crayon",
+        "short_name": "lower_left_crayon",
         "short_names": [
-            "lower-left-crayon"
+            "lower_left_crayon"
         ],
         "text": null,
         "texts": null,
@@ -23344,9 +23344,9 @@
         "image": "1f590.png",
         "sheet_x": 25,
         "sheet_y": 12,
-        "short_name": "raised-hand-with-fingers-splayed",
+        "short_name": "raised_hand_with_fingers_splayed",
         "short_names": [
-            "raised-hand-with-fingers-splayed"
+            "raised_hand_with_fingers_splayed"
         ],
         "text": null,
         "texts": null,
@@ -23422,10 +23422,10 @@
         "image": "1f595.png",
         "sheet_x": 25,
         "sheet_y": 18,
-        "short_name": "middle-finger",
+        "short_name": "middle_finger",
         "short_names": [
-            "middle-finger",
-            "reversed-hand-with-middle-finger-extended"
+            "middle_finger",
+            "reversed_hand_with_middle_finger_extended"
         ],
         "text": null,
         "texts": null,
@@ -23579,9 +23579,9 @@
         "image": "1f5a5.png",
         "sheet_x": 25,
         "sheet_y": 30,
-        "short_name": "desktop-computer",
+        "short_name": "desktop_computer",
         "short_names": [
-            "desktop-computer"
+            "desktop_computer"
         ],
         "text": null,
         "texts": null,
@@ -23631,9 +23631,9 @@
         "image": "1f5b1.png",
         "sheet_x": 25,
         "sheet_y": 32,
-        "short_name": "three-button-mouse",
+        "short_name": "three_button_mouse",
         "short_names": [
-            "three-button-mouse"
+            "three_button_mouse"
         ],
         "text": null,
         "texts": null,
@@ -23683,9 +23683,9 @@
         "image": "1f5bc.png",
         "sheet_x": 25,
         "sheet_y": 34,
-        "short_name": "frame-with-picture",
+        "short_name": "frame_with_picture",
         "short_names": [
-            "frame-with-picture"
+            "frame_with_picture"
         ],
         "text": null,
         "texts": null,
@@ -23709,9 +23709,9 @@
         "image": "1f5c2.png",
         "sheet_x": 25,
         "sheet_y": 35,
-        "short_name": "card-index-dividers",
+        "short_name": "card_index_dividers",
         "short_names": [
-            "card-index-dividers"
+            "card_index_dividers"
         ],
         "text": null,
         "texts": null,
@@ -23735,9 +23735,9 @@
         "image": "1f5c3.png",
         "sheet_x": 25,
         "sheet_y": 36,
-        "short_name": "card-file-box",
+        "short_name": "card_file_box",
         "short_names": [
-            "card-file-box"
+            "card_file_box"
         ],
         "text": null,
         "texts": null,
@@ -23761,9 +23761,9 @@
         "image": "1f5c4.png",
         "sheet_x": 25,
         "sheet_y": 37,
-        "short_name": "file-cabinet",
+        "short_name": "file_cabinet",
         "short_names": [
-            "file-cabinet"
+            "file_cabinet"
         ],
         "text": null,
         "texts": null,
@@ -23813,9 +23813,9 @@
         "image": "1f5d2.png",
         "sheet_x": 25,
         "sheet_y": 39,
-        "short_name": "spiral-note-pad",
+        "short_name": "spiral_note_pad",
         "short_names": [
-            "spiral-note-pad"
+            "spiral_note_pad"
         ],
         "text": null,
         "texts": null,
@@ -23839,9 +23839,9 @@
         "image": "1f5d3.png",
         "sheet_x": 25,
         "sheet_y": 40,
-        "short_name": "spiral-calendar-pad",
+        "short_name": "spiral_calendar_pad",
         "short_names": [
-            "spiral-calendar-pad"
+            "spiral_calendar_pad"
         ],
         "text": null,
         "texts": null,
@@ -23891,9 +23891,9 @@
         "image": "1f5dd.png",
         "sheet_x": 26,
         "sheet_y": 1,
-        "short_name": "old-key",
+        "short_name": "old_key",
         "short_names": [
-            "old-key"
+            "old_key"
         ],
         "text": null,
         "texts": null,
@@ -23917,9 +23917,9 @@
         "image": "1f5de.png",
         "sheet_x": 26,
         "sheet_y": 2,
-        "short_name": "rolled-up-newspaper",
+        "short_name": "rolled_up_newspaper",
         "short_names": [
-            "rolled-up-newspaper"
+            "rolled_up_newspaper"
         ],
         "text": null,
         "texts": null,
@@ -23943,9 +23943,9 @@
         "image": "1f5e1.png",
         "sheet_x": 26,
         "sheet_y": 3,
-        "short_name": "dagger-knife",
+        "short_name": "dagger_knife",
         "short_names": [
-            "dagger-knife"
+            "dagger_knife"
         ],
         "text": null,
         "texts": null,
@@ -23969,9 +23969,9 @@
         "image": "1f5e3.png",
         "sheet_x": 26,
         "sheet_y": 4,
-        "short_name": "speaking-head-in-silhouette",
+        "short_name": "speaking_head_in_silhouette",
         "short_names": [
-            "speaking-head-in-silhouette"
+            "speaking_head_in_silhouette"
         ],
         "text": null,
         "texts": null,
@@ -23995,9 +23995,9 @@
         "image": "1f5e8.png",
         "sheet_x": 26,
         "sheet_y": 5,
-        "short_name": "left-speech-bubble",
+        "short_name": "left_speech_bubble",
         "short_names": [
-            "left-speech-bubble"
+            "left_speech_bubble"
         ],
         "text": null,
         "texts": null,
@@ -24021,9 +24021,9 @@
         "image": "1f5ef.png",
         "sheet_x": 26,
         "sheet_y": 6,
-        "short_name": "right-anger-bubble",
+        "short_name": "right_anger_bubble",
         "short_names": [
-            "right-anger-bubble"
+            "right_anger_bubble"
         ],
         "text": null,
         "texts": null,
@@ -24047,9 +24047,9 @@
         "image": "1f5f3.png",
         "sheet_x": 26,
         "sheet_y": 7,
-        "short_name": "ballot-box-with-ballot",
+        "short_name": "ballot_box_with_ballot",
         "short_names": [
-            "ballot-box-with-ballot"
+            "ballot_box_with_ballot"
         ],
         "text": null,
         "texts": null,
@@ -24073,9 +24073,9 @@
         "image": "1f5fa.png",
         "sheet_x": 26,
         "sheet_y": 8,
-        "short_name": "world-map",
+        "short_name": "world_map",
         "short_names": [
-            "world-map"
+            "world_map"
         ],
         "text": null,
         "texts": null,
@@ -25976,9 +25976,9 @@
         "image": "1f641.png",
         "sheet_x": 27,
         "sheet_y": 38,
-        "short_name": "slightly-frowning-face",
+        "short_name": "slightly_frowning_face",
         "short_names": [
-            "slightly-frowning-face"
+            "slightly_frowning_face"
         ],
         "text": null,
         "texts": null,
@@ -26002,9 +26002,9 @@
         "image": "1f642.png",
         "sheet_x": 27,
         "sheet_y": 39,
-        "short_name": "slightly-smiling-face",
+        "short_name": "slightly_smiling_face",
         "short_names": [
-            "slightly-smiling-face"
+            "slightly_smiling_face"
         ],
         "text": null,
         "texts": null,
@@ -26028,9 +26028,9 @@
         "image": "1f643.png",
         "sheet_x": 27,
         "sheet_y": 40,
-        "short_name": "upside-down-face",
+        "short_name": "upside_down_face",
         "short_names": [
-            "upside-down-face"
+            "upside_down_face"
         ],
         "text": null,
         "texts": null,
@@ -26054,9 +26054,9 @@
         "image": "1f644.png",
         "sheet_x": 28,
         "sheet_y": 0,
-        "short_name": "face-with-rolling-eyes",
+        "short_name": "face_with_rolling_eyes",
         "short_names": [
-            "face-with-rolling-eyes"
+            "face_with_rolling_eyes"
         ],
         "text": null,
         "texts": null,
@@ -28863,9 +28863,9 @@
         "image": "1f6cb.png",
         "sheet_x": 31,
         "sheet_y": 24,
-        "short_name": "couch-and-lamp",
+        "short_name": "couch_and_lamp",
         "short_names": [
-            "couch-and-lamp"
+            "couch_and_lamp"
         ],
         "text": null,
         "texts": null,
@@ -28889,9 +28889,9 @@
         "image": "1f6cc.png",
         "sheet_x": 31,
         "sheet_y": 25,
-        "short_name": "sleeping-accommodation",
+        "short_name": "sleeping_accommodation",
         "short_names": [
-            "sleeping-accommodation"
+            "sleeping_accommodation"
         ],
         "text": null,
         "texts": null,
@@ -28915,9 +28915,9 @@
         "image": "1f6cd.png",
         "sheet_x": 31,
         "sheet_y": 26,
-        "short_name": "shopping-bags",
+        "short_name": "shopping_bags",
         "short_names": [
-            "shopping-bags"
+            "shopping_bags"
         ],
         "text": null,
         "texts": null,
@@ -28941,9 +28941,9 @@
         "image": "1f6ce.png",
         "sheet_x": 31,
         "sheet_y": 27,
-        "short_name": "bellhop-bell",
+        "short_name": "bellhop_bell",
         "short_names": [
-            "bellhop-bell"
+            "bellhop_bell"
         ],
         "text": null,
         "texts": null,
@@ -28993,9 +28993,9 @@
         "image": "1f6d0.png",
         "sheet_x": 31,
         "sheet_y": 29,
-        "short_name": "place-of-worship",
+        "short_name": "place_of_worship",
         "short_names": [
-            "place-of-worship"
+            "place_of_worship"
         ],
         "text": null,
         "texts": null,
@@ -29019,9 +29019,9 @@
         "image": "1f6e0.png",
         "sheet_x": 31,
         "sheet_y": 30,
-        "short_name": "hammer-and-wrench",
+        "short_name": "hammer_and_wrench",
         "short_names": [
-            "hammer-and-wrench"
+            "hammer_and_wrench"
         ],
         "text": null,
         "texts": null,
@@ -29071,9 +29071,9 @@
         "image": "1f6e2.png",
         "sheet_x": 31,
         "sheet_y": 32,
-        "short_name": "oil-drum",
+        "short_name": "oil_drum",
         "short_names": [
-            "oil-drum"
+            "oil_drum"
         ],
         "text": null,
         "texts": null,
@@ -29123,9 +29123,9 @@
         "image": "1f6e4.png",
         "sheet_x": 31,
         "sheet_y": 34,
-        "short_name": "railway-track",
+        "short_name": "railway_track",
         "short_names": [
-            "railway-track"
+            "railway_track"
         ],
         "text": null,
         "texts": null,
@@ -29149,9 +29149,9 @@
         "image": "1f6e5.png",
         "sheet_x": 31,
         "sheet_y": 35,
-        "short_name": "motor-boat",
+        "short_name": "motor_boat",
         "short_names": [
-            "motor-boat"
+            "motor_boat"
         ],
         "text": null,
         "texts": null,
@@ -29175,9 +29175,9 @@
         "image": "1f6e9.png",
         "sheet_x": 31,
         "sheet_y": 36,
-        "short_name": "small-airplane",
+        "short_name": "small_airplane",
         "short_names": [
-            "small-airplane"
+            "small_airplane"
         ],
         "text": null,
         "texts": null,
@@ -29201,9 +29201,9 @@
         "image": "1f6eb.png",
         "sheet_x": 31,
         "sheet_y": 37,
-        "short_name": "airplane-departure",
+        "short_name": "airplane_departure",
         "short_names": [
-            "airplane-departure"
+            "airplane_departure"
         ],
         "text": null,
         "texts": null,
@@ -29227,9 +29227,9 @@
         "image": "1f6ec.png",
         "sheet_x": 31,
         "sheet_y": 38,
-        "short_name": "airplane-arriving",
+        "short_name": "airplane_arriving",
         "short_names": [
-            "airplane-arriving"
+            "airplane_arriving"
         ],
         "text": null,
         "texts": null,
@@ -29279,9 +29279,9 @@
         "image": "1f6f3.png",
         "sheet_x": 31,
         "sheet_y": 40,
-        "short_name": "passenger-ship",
+        "short_name": "passenger_ship",
         "short_names": [
-            "passenger-ship"
+            "passenger_ship"
         ],
         "text": null,
         "texts": null,
@@ -29305,9 +29305,9 @@
         "image": "1f910.png",
         "sheet_x": 32,
         "sheet_y": 0,
-        "short_name": "zipper-mouth-face",
+        "short_name": "zipper_mouth_face",
         "short_names": [
-            "zipper-mouth-face"
+            "zipper_mouth_face"
         ],
         "text": null,
         "texts": null,
@@ -29331,9 +29331,9 @@
         "image": "1f911.png",
         "sheet_x": 32,
         "sheet_y": 1,
-        "short_name": "money-mouth-face",
+        "short_name": "money_mouth_face",
         "short_names": [
-            "money-mouth-face"
+            "money_mouth_face"
         ],
         "text": null,
         "texts": null,
@@ -29357,9 +29357,9 @@
         "image": "1f912.png",
         "sheet_x": 32,
         "sheet_y": 2,
-        "short_name": "face-with-thermometer",
+        "short_name": "face_with_thermometer",
         "short_names": [
-            "face-with-thermometer"
+            "face_with_thermometer"
         ],
         "text": null,
         "texts": null,
@@ -29383,9 +29383,9 @@
         "image": "1f913.png",
         "sheet_x": 32,
         "sheet_y": 3,
-        "short_name": "nerd-face",
+        "short_name": "nerd_face",
         "short_names": [
-            "nerd-face"
+            "nerd_face"
         ],
         "text": null,
         "texts": null,
@@ -29409,9 +29409,9 @@
         "image": "1f914.png",
         "sheet_x": 32,
         "sheet_y": 4,
-        "short_name": "thinking-face",
+        "short_name": "thinking_face",
         "short_names": [
-            "thinking-face"
+            "thinking_face"
         ],
         "text": null,
         "texts": null,
@@ -29435,9 +29435,9 @@
         "image": "1f915.png",
         "sheet_x": 32,
         "sheet_y": 5,
-        "short_name": "face-with-head-bandage",
+        "short_name": "face_with_head_bandage",
         "short_names": [
-            "face-with-head-bandage"
+            "face_with_head_bandage"
         ],
         "text": null,
         "texts": null,
@@ -29461,9 +29461,9 @@
         "image": "1f916.png",
         "sheet_x": 32,
         "sheet_y": 6,
-        "short_name": "robot-face",
+        "short_name": "robot_face",
         "short_names": [
-            "robot-face"
+            "robot_face"
         ],
         "text": null,
         "texts": null,
@@ -29487,9 +29487,9 @@
         "image": "1f917.png",
         "sheet_x": 32,
         "sheet_y": 7,
-        "short_name": "hugging-face",
+        "short_name": "hugging_face",
         "short_names": [
-            "hugging-face"
+            "hugging_face"
         ],
         "text": null,
         "texts": null,
@@ -29513,10 +29513,10 @@
         "image": "1f918.png",
         "sheet_x": 32,
         "sheet_y": 8,
-        "short_name": "the-horns",
+        "short_name": "the_horns",
         "short_names": [
-            "the-horns",
-            "sign-of-the-horns"
+            "the_horns",
+            "sign_of_the_horns"
         ],
         "text": null,
         "texts": null,
@@ -29618,9 +29618,9 @@
         "image": "1f981.png",
         "sheet_x": 32,
         "sheet_y": 15,
-        "short_name": "lion-face",
+        "short_name": "lion_face",
         "short_names": [
-            "lion-face"
+            "lion_face"
         ],
         "text": null,
         "texts": null,
@@ -29696,9 +29696,9 @@
         "image": "1f984.png",
         "sheet_x": 32,
         "sheet_y": 18,
-        "short_name": "unicorn-face",
+        "short_name": "unicorn_face",
         "short_names": [
-            "unicorn-face"
+            "unicorn_face"
         ],
         "text": null,
         "texts": null,
@@ -29722,9 +29722,9 @@
         "image": "1f9c0.png",
         "sheet_x": 32,
         "sheet_y": 19,
-        "short_name": "cheese-wedge",
+        "short_name": "cheese_wedge",
         "short_names": [
-            "cheese-wedge"
+            "cheese_wedge"
         ],
         "text": null,
         "texts": null,
