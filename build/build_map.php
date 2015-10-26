@@ -49,6 +49,11 @@
 
 			$hex = StrToUpper(utf8_bytes_to_hex($glyph));
 			$category_map[$hex] = array($cat_name, $p);
+
+			if (preg_match('!-FE0F$!', $hex)){
+				$category_map[substr($hex, 0, -5)] = array($cat_name, $p);
+			}
+
 			$p++;
 		}
 
