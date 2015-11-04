@@ -23,6 +23,7 @@ You can rebuild by following these steps:
 	# (This step requires ImageMagick or GraphicsMagick)
 	php build_image.php # this is slow!
 	php build_sheets.php
+	optipng -o7 ../sheet_*.png # this is _very_ slow
 
 To find out how to extract the original source glyphs, look inside the sub
 directories under `build/`.
