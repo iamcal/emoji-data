@@ -167,7 +167,7 @@
 1F918;the_horns/sign_of_the_horns
 1F980;crab
 1F981;lion_face
-1F982;scorpian
+1F982;scorpion
 1F983;turkey
 1F984;unicorn_face
 1F9C0;cheese_wedge
