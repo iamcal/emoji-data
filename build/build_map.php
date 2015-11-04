@@ -102,6 +102,8 @@
 		$variations[$key] = explode('/', $vars);
 	}
 
+	# manually patch in the ligature version of family/man-woman-boy
+	$variations['1f46a'][] = '1f468-200d-1f469-200d-1f466';
 
 	echo "OK\n";
 

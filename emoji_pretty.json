@@ -15758,7 +15758,7 @@
         "name": "FAMILY",
         "unified": "1F46A",
         "variations": [
-
+            "1F468-200D-1F469-200D-1F466"
         ],
         "docomo": null,
         "au": "E501",
@@ -36872,32 +36872,6 @@
     },
     {
         "name": null,
-        "unified": "1F468-200D-1F469-200D-1F466",
-        "variations": [
-
-        ],
-        "docomo": null,
-        "au": null,
-        "softbank": null,
-        "google": null,
-        "image": "1f468-200d-1f469-200d-1f466.png",
-        "sheet_x": 39,
-        "sheet_y": 7,
-        "short_name": "man-woman-boy",
-        "short_names": [
-            "man-woman-boy"
-        ],
-        "text": null,
-        "texts": null,
-        "category": null,
-        "sort_order": null,
-        "has_img_apple": true,
-        "has_img_google": false,
-        "has_img_twitter": false,
-        "has_img_emojione": false
-    },
-    {
-        "name": null,
         "unified": "1F468-200D-1F469-200D-1F466-200D-1F466",
         "variations": [
 
@@ -36908,7 +36882,7 @@
         "google": null,
         "image": "1f468-200d-1f469-200d-1f466-200d-1f466.png",
         "sheet_x": 39,
-        "sheet_y": 8,
+        "sheet_y": 7,
         "short_name": "man-woman-boy-boy",
         "short_names": [
             "man-woman-boy-boy"
@@ -36934,7 +36908,7 @@
         "google": null,
         "image": "1f468-200d-1f469-200d-1f467.png",
         "sheet_x": 39,
-        "sheet_y": 9,
+        "sheet_y": 8,
         "short_name": "man-woman-girl",
         "short_names": [
             "man-woman-girl"
@@ -36960,7 +36934,7 @@
         "google": null,
         "image": "1f468-200d-1f469-200d-1f467-200d-1f466.png",
         "sheet_x": 39,
-        "sheet_y": 10,
+        "sheet_y": 9,
         "short_name": "man-woman-girl-boy",
         "short_names": [
             "man-woman-girl-boy"
@@ -36986,7 +36960,7 @@
         "google": null,
         "image": "1f468-200d-1f469-200d-1f467-200d-1f467.png",
         "sheet_x": 39,
-        "sheet_y": 11,
+        "sheet_y": 10,
         "short_name": "man-woman-girl-girl",
         "short_names": [
             "man-woman-girl-girl"
@@ -37012,7 +36986,7 @@
         "google": null,
         "image": "1f468-200d-2764-fe0f-200d-1f468.png",
         "sheet_x": 39,
-        "sheet_y": 12,
+        "sheet_y": 11,
         "short_name": "man-heart-man",
         "short_names": [
             "man-heart-man"
@@ -37038,7 +37012,7 @@
         "google": null,
         "image": "1f468-200d-2764-fe0f-200d-1f48b-200d-1f468.png",
         "sheet_x": 39,
-        "sheet_y": 13,
+        "sheet_y": 12,
         "short_name": "man-kiss-man",
         "short_names": [
             "man-kiss-man"
@@ -37064,7 +37038,7 @@
         "google": null,
         "image": "1f469-200d-1f469-200d-1f466.png",
         "sheet_x": 39,
-        "sheet_y": 14,
+        "sheet_y": 13,
         "short_name": "woman-woman-boy",
         "short_names": [
             "woman-woman-boy"
@@ -37090,7 +37064,7 @@
         "google": null,
         "image": "1f469-200d-1f469-200d-1f466-200d-1f466.png",
         "sheet_x": 39,
-        "sheet_y": 15,
+        "sheet_y": 14,
         "short_name": "woman-woman-boy-boy",
         "short_names": [
             "woman-woman-boy-boy"
@@ -37116,7 +37090,7 @@
         "google": null,
         "image": "1f469-200d-1f469-200d-1f467.png",
         "sheet_x": 39,
-        "sheet_y": 16,
+        "sheet_y": 15,
         "short_name": "woman-woman-girl",
         "short_names": [
             "woman-woman-girl"
@@ -37142,7 +37116,7 @@
         "google": null,
         "image": "1f469-200d-1f469-200d-1f467-200d-1f466.png",
         "sheet_x": 39,
-        "sheet_y": 17,
+        "sheet_y": 16,
         "short_name": "woman-woman-girl-boy",
         "short_names": [
             "woman-woman-girl-boy"
@@ -37168,7 +37142,7 @@
         "google": null,
         "image": "1f469-200d-1f469-200d-1f467-200d-1f467.png",
         "sheet_x": 39,
-        "sheet_y": 18,
+        "sheet_y": 17,
         "short_name": "woman-woman-girl-girl",
         "short_names": [
             "woman-woman-girl-girl"
@@ -37194,7 +37168,7 @@
         "google": null,
         "image": "1f469-200d-2764-fe0f-200d-1f469.png",
         "sheet_x": 39,
-        "sheet_y": 19,
+        "sheet_y": 18,
         "short_name": "woman-heart-woman",
         "short_names": [
             "woman-heart-woman"
@@ -37220,7 +37194,7 @@
         "google": null,
         "image": "1f469-200d-2764-fe0f-200d-1f48b-200d-1f469.png",
         "sheet_x": 39,
-        "sheet_y": 20,
+        "sheet_y": 19,
         "short_name": "woman-kiss-woman",
         "short_names": [
             "woman-kiss-woman"
