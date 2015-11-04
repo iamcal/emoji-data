@@ -15769,7 +15769,8 @@
         "sheet_y": 36,
         "short_name": "family",
         "short_names": [
-            "family"
+            "family",
+            "man-woman-boy"
         ],
         "text": null,
         "texts": null,

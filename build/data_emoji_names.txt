@@ -345,7 +345,7 @@
 1F467;girl
 1F468;man
 1F469;woman
-1F46A;family
+1F46A;family/man-woman-boy
 1F46B;couple
 1F46C;two_men_holding_hands
 1F46D;two_women_holding_hands
