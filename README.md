@@ -87,4 +87,4 @@ An explanation of the various fields is in order:
 * 2015-05-28 : v2.0.0 - First tagged version, tracking new iOS 8 skin-tone emoji
 * 2015-09-16 : v2.1.0 - Updated to OS X 10.11 beta, added new flags and spock emoji
 * 2015-10-22 : v2.2.0 - Updated to OS X 10.11.1 final, with lots of new emoji
-
+* 2015-11-04 : v2.2.1 - Fixed :scorpion: name and removed the duplicate family emoji
