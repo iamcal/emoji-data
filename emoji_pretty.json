@@ -6419,10 +6419,10 @@
         "image": "1f329.png",
         "sheet_x": 6,
         "sheet_y": 18,
-        "short_name": "lightening",
+        "short_name": "lightning",
         "short_names": [
-            "lightening",
-            "lightening_cloud"
+            "lightning",
+            "lightning_cloud"
         ],
         "text": null,
         "texts": null,

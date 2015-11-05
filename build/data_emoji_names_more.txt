@@ -41,7 +41,7 @@
 1F326;partly_sunny_rain/sun_behind_rain_cloud
 1F327;rain_cloud
 1F328;snow_cloud
-1F329;lightening/lightening_cloud
+1F329;lightning/lightning_cloud
 1F32A;tornado/tornado_cloud
 1F32B;fog
 1F32C;wind_blowing_face
