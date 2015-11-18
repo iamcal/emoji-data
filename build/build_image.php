@@ -38,7 +38,7 @@
 	create_sheet('twitter');
 	create_sheet('google');
 	create_sheet('emojione');
-
+	create_sheet('windows');
 
 	function create_sheet($type){
 

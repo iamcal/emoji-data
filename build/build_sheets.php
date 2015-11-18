@@ -17,6 +17,10 @@
 	build_sheet('emojione', 20);
 	build_sheet('emojione', 16);
 
+	build_sheet('windows', 32);
+	build_sheet('windows', 20);
+	build_sheet('windows', 16);
+
 	function build_sheet($type, $size){
 
 		$src_size = 64;

@@ -101,7 +101,7 @@ table tbody td {
 
 <table cellspacing="0" cellpadding="0">
 	<tr>
-		<th colspan="6">Name</th>
+		<th colspan="7">Name</th>
 		<th>Short Name</th>
 		<th>ASCII</th>
 		<th>Unified</th>
@@ -121,12 +121,14 @@ table tbody td {
 		$url_google   = $row['has_img_google'  ] ? "img-google-64/{$row['image']}"   : '';
 		$url_twitter  = $row['has_img_twitter' ] ? "img-twitter-64/{$row['image']}"  : '';
 		$url_emojione = $row['has_img_emojione'] ? "img-emojione-64/{$row['image']}" : '';
+		$url_windows  = $row['has_img_windows' ] ? "img-windows-64/{$row['image']}"  : '';
 
 		echo "\t<tr>\n";
 		echo "\t\t<td><img src=\"{$url_apple}\" width=\"20\" height=\"20\" /></td>\n";
 		echo "\t\t<td><img src=\"{$url_google}\" width=\"20\" height=\"20\" /></td>\n";
 		echo "\t\t<td><img src=\"{$url_twitter}\" width=\"20\" height=\"20\" /></td>\n";
 		echo "\t\t<td><img src=\"{$url_emojione}\" width=\"20\" height=\"20\" /></td>\n";
+		echo "\t\t<td><img src=\"{$url_windows}\" width=\"20\" height=\"20\" /></td>\n";
 		echo "\t\t<td>".unicode_bytes($row['unified'])."</td>\n";
 		echo "\t\t<td>".HtmlSpecialChars(StrToLower($row['name']))."</td>\n";
 
