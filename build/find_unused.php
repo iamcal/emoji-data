@@ -20,6 +20,20 @@
 
 
 	#
+	# now build a list of every dumb codepoint we never care about
+	#
+
+	$skip = array();
+
+	$skip[] = "0023.png"; # hash
+	$skip[] = "002a.png"; # star
+	foreach (range(0x30, 0x39) as $a) $skip[] = sprintf('%04x.png', $a); # digits 0-9
+	foreach (range(0x1f1e6, 0x1f1ff) as $a) $skip[] = sprintf('%04x.png', $a); # country codes A-Z
+
+	foreach ($skip as $filename) $files[$filename]++;
+
+
+	#
 	# now find unused ones
 	#
 
