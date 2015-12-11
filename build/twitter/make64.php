@@ -1,6 +1,8 @@
 <?php
 	$files = glob("../../img-twitter-72/*.png");
 
+	shell_exec("rm -f ../../img-twitter-64/*.png");
+
 	foreach ($files as $src){
 
 		$bits = explode('/', $src);
