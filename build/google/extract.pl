@@ -23,9 +23,11 @@ my $f = Font::TTF::Font->open($filename) || die "Unable to read $filename";
 $f->{'cmap'}->read();
 
 my $filenames = {};
-for my $uni (keys %{$f->{'cmap'}{'Tables'}[1]{'val'}}){
-	my $idx = $f->{'cmap'}{'Tables'}[1]{'val'}{$uni};
-	$filenames->{$idx} = sprintf('%04x', $uni);
+for my $tbl (@{$f->{'cmap'}{'Tables'}}){
+	for my $uni (keys %{$tbl->{'val'}}){
+		my $idx = $tbl->{'val'}{$uni};
+		$filenames->{$idx} = sprintf('%04x', $uni);
+	}
 }
 
 
@@ -42,11 +44,15 @@ for my $glyph(keys %{$cover->{'val'}}){
 	my $idx = $cover->{'val'}{$glyph};
 	for my $row (@{$groups->[$idx]}){
 
-		my $uni_a = $filenames->{$glyph};
-		my $uni_b = $filenames->{$row->{'MATCH'}[0]};
 		my $idx2 = $row->{'ACTION'}[0];
+		my $name = $filenames->{$glyph};
 
-		$filenames->{$idx2} = "${uni_a}-${uni_b}";
+		for my $uni_idx (@{$row->{'MATCH'}}){
+			my $uni = $filenames->{$uni_idx};
+			$name .= "-".$uni;
+		}
+
+		$filenames->{$idx2} = $name;
 	}
 }
 
