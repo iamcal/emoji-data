@@ -78,3 +78,57 @@ foreach my $key (@keys){
 
 	print "key $key, $name.png \n";
 }
+
+
+#
+# for unknown reasons, the google ligatures are in a different order to the apple ones.
+# we'll move them here to be consistent since we want all the filenames to match.
+#
+# map is google -> apple
+#
+
+my $map = {
+	'1f466-200d-1f466-200d-1f468-200d-1f468' => '1f468-200d-1f468-200d-1f466-200d-1f466',	# mmbb
+	'1f466-200d-1f466-200d-1f469-200d-1f468' => '1f468-200d-1f469-200d-1f466-200d-1f466',	# mwbb
+	'1f466-200d-1f466-200d-1f469-200d-1f469' => '1f469-200d-1f469-200d-1f466-200d-1f466',	# wwbb
+
+	'1f466-200d-1f467-200d-1f468-200d-1f468' => '1f468-200d-1f468-200d-1f467-200d-1f466',	# mmbg
+	'1f466-200d-1f467-200d-1f469-200d-1f468' => '1f468-200d-1f469-200d-1f467-200d-1f466',	# mwbg
+	'1f466-200d-1f467-200d-1f469-200d-1f469' => '1f469-200d-1f469-200d-1f467-200d-1f466',	# wwbg
+
+	'1f467-200d-1f467-200d-1f468-200d-1f468' => '1f468-200d-1f468-200d-1f467-200d-1f467',	# mmgg
+	'1f467-200d-1f467-200d-1f469-200d-1f468' => '1f468-200d-1f469-200d-1f467-200d-1f467',	# mwgg
+	'1f467-200d-1f467-200d-1f469-200d-1f469' => '1f469-200d-1f469-200d-1f467-200d-1f467',	# wwgg
+
+	'1f466-200d-1f468-200d-1f468' => '1f468-200d-1f468-200d-1f466',	# mm
+	'1f466-200d-1f469-200d-1f468' => '1f468-200d-1f469-200d-1f466',	# mw
+	'1f466-200d-1f469-200d-1f469' => '1f469-200d-1f469-200d-1f466',	# ww
+
+	'1f467-200d-1f468-200d-1f468' => '1f468-200d-1f468-200d-1f467',	# mm
+	'1f467-200d-1f469-200d-1f468' => '1f468-200d-1f469-200d-1f467',	# mw
+	'1f467-200d-1f469-200d-1f469' => '1f469-200d-1f469-200d-1f467',	# ww
+
+	'1f468-200d-1f48b-200d-2764-200d-1f468' => '1f468-200d-2764-fe0f-200d-1f48b-200d-1f468',	# m-m-kiss
+	'1f469-200d-2764-200d-1f48b-200d-1f468' => '1f468-200d-2764-fe0f-200d-1f48b-200d-1f469',	# m-w-kiss
+	'1f469-200d-1f48b-200d-2764-200d-1f469' => '1f469-200d-2764-fe0f-200d-1f48b-200d-1f469',	# w-w-kiss
+
+	'1f468-200d-2764-200d-1f468' => '1f468-200d-2764-fe0f-200d-1f468',	# m-m-heart
+	'1f469-200d-2764-200d-1f468' => '1f468-200d-2764-fe0f-200d-1f469',	# m-w-heart
+	'1f469-200d-2764-200d-1f469' => '1f469-200d-2764-fe0f-200d-1f469',	# w-w-heart
+
+	
+};
+
+for my $google (keys %{$map}){
+	`mv ../../img-google-136/${google}.png ../../img-google-136/$map->{$google}.png`;
+}
+
+
+#
+# we're still using the old (short) codepoints for family, couple and kiss. copy the images to those names
+#
+
+`cp ../../img-google-136/1f468-200d-1f469-200d-1f467-200d-1f466.png     ../../img-google-136/1f46a.png`; # family
+`cp ../../img-google-136/1f468-200d-2764-fe0f-200d-1f48b-200d-1f469.png ../../img-google-136/1f48f.png`; # couplekiss
+`cp ../../img-google-136/1f468-200d-2764-fe0f-200d-1f469.png            ../../img-google-136/1f491.png`; # couple_with_heart
+

@@ -3,6 +3,8 @@
 	# versions from the 136px source. they are also of mixed size and aspect
 	# ratio, so this helps normalize them.
 
+	echo shell_exec("rm -f ../../img-google-64/*.png");
+
 	$files = glob("../../img-google-136/*.png");
 
 	foreach ($files as $src){
