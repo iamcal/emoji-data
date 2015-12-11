@@ -11,7 +11,7 @@ use Font::TTF::CBDT;
 $Font::TTF::Font::tables{'CBLC'} = 'Font::TTF::CBLC';
 $Font::TTF::Font::tables{'CBDT'} = 'Font::TTF::CBDT';
 
-my $filename = "NotoColorEmoji_lollipop.ttf";
+my $filename = "NotoColorEmoji_6.0.1_r3.ttf";
 
 my $f = Font::TTF::Font->open($filename) || die "Unable to read $filename";
 
@@ -23,8 +23,8 @@ my $f = Font::TTF::Font->open($filename) || die "Unable to read $filename";
 $f->{'cmap'}->read();
 
 my $filenames = {};
-for my $uni (keys %{$f->{'cmap'}{'Tables'}[0]{'val'}}){
-	my $idx = $f->{'cmap'}{'Tables'}[0]{'val'}{$uni};
+for my $uni (keys %{$f->{'cmap'}{'Tables'}[1]{'val'}}){
+	my $idx = $f->{'cmap'}{'Tables'}[1]{'val'}{$uni};
 	$filenames->{$idx} = sprintf('%04x', $uni);
 }
 
@@ -50,12 +50,15 @@ for my $glyph(keys %{$cover->{'val'}}){
 	}
 }
 
+
 #
 # now read the data chunk and extract the glyphs
 #
 
 $f->{'CBLC'}->read();
 $f->{'CBDT'}->read();
+
+`rm -f ../../img-google-136/*.png`;
 
 my @keys = keys(%{$f->{'CBDT'}{'bitmap'}[0]});
 
