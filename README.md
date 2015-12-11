@@ -89,3 +89,4 @@ An explanation of the various fields is in order:
 * 2015-10-22 : v2.2.0 - Updated to OS X 10.11.1 final, with lots of new emoji
 * 2015-11-04 : v2.2.1 - Fixed :scorpion: name and removed the duplicate family emoji
 * 2015-11-05 : v2.2.2 - Fixed :lightning: names and added :man-woman-boy: back as an alias
+* 2015-12-11 : v2.3.0 - Updated Google images to Android 6.0.1, Twitter images to include skin tones
