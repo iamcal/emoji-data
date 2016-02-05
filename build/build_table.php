@@ -1,4 +1,4 @@
-<?
+<?php
 	$in = file_get_contents('../emoji.json');
 	$catalog = json_decode($in, true);
 
@@ -114,7 +114,7 @@ table tbody td {
 	</tr>
 	<tbody>
 
-<?
+<?php
 	foreach ($catalog as $row){
 
 		$url_apple    = $row['has_img_apple'   ] ? "img-apple-64/{$row['image']}"    : '';
