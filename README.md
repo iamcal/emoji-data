@@ -12,6 +12,11 @@ available versions. If you're looking for older versions of Apple of Android ima
 * Twitter Emoji Copyright &copy; Twitter, Inc. - The original release
 * Emoji One Emoji: Copyright &copy; [Ranks.com Inc.](http://www.emojione.com/developers) - master as of 2015-03-05
 
+## Libraries which use this data
+
+* https://github.com/iamcal/js-emoji - for handling emoji in JavaScript
+* https://github.com/iamcal/php-emoji - for handling emoji in PHP
+* https://github.com/needim/wdt-emoji-bundle - a Slack-style JavaScript emoji picker
 
 ## Using the data
 
