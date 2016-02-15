@@ -1,0 +1,19 @@
+{
+  "name": "emoji-data",
+  "version": "2.4.0",
+  "description": "Emoji data and images",
+  "main": "emoji.json",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iamcal/emoji-data.git"
+  },
+  "keywords": [
+    "emoji"
+  ],
+  "author": "Cal Henderson <cal@iamcal.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamcal/emoji-data/issues"
+  },
+  "homepage": "https://github.com/iamcal/emoji-data"
+}
