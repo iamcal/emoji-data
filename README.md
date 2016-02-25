@@ -14,9 +14,13 @@ available versions. If you're looking for older versions of Apple of Android ima
 
 ## Libraries which use this data
 
-* https://github.com/iamcal/js-emoji - for handling emoji in JavaScript
-* https://github.com/iamcal/php-emoji - for handling emoji in PHP
+* https://github.com/iamcal/js-emoji - JavaScript emoji library
+* https://github.com/iamcal/php-emoji - PHP emoji library
+* https://github.com/mroth/emoji-data-js - NodeJS emoji library
+* https://github.com/mroth/emoji_data.rb - Ruby emoji library
+* https://github.com/mroth/exmoji - Elixir/Erlang emoji library
 * https://github.com/needim/wdt-emoji-bundle - a Slack-style JavaScript emoji picker
+* https://github.com/mroth/emojistatic - emoji image CDN
 
 ## Using the data
 
