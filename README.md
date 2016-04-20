@@ -100,3 +100,4 @@ An explanation of the various fields is in order:
 * 2015-11-05 : v2.2.2 - Fixed :lightning: names and added :man-woman-boy: back as an alias
 * 2015-12-11 : v2.3.0 - Updated Google images to Android 6.0.1, Twitter images to include skin tones
 * 2016-02-09 : v2.4.0 - Updated emojione images to the Q1 2016 release (v2.1.0)
+* 2016-04-20 : v2.4.1 - Fixed the duplicate :satellite: short names
