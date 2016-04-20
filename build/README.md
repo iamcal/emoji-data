@@ -27,3 +27,13 @@ You can rebuild by following these steps:
 
 To find out how to extract the original source glyphs, look inside the sub
 directories under `build/`.
+
+
+## Cutting a new release
+
+1. Land new commits onto master
+2. Update `README.md` with version history
+3. Update `package.json` with new version number
+4. Add a git tag
+5. Update downstream libraries
+
