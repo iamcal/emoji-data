@@ -19809,9 +19809,9 @@
         "image": "1f4e1.png",
         "sheet_x": 21,
         "sheet_y": 40,
-        "short_name": "satellite",
+        "short_name": "satellite_antenna",
         "short_names": [
-            "satellite"
+            "satellite_antenna"
         ],
         "text": null,
         "texts": null,

@@ -464,7 +464,7 @@
 1F4DE;telephone_receiver
 1F4DF;pager
 1F4E0;fax
-1F4E1;satellite
+1F4E1;satellite_antenna
 1F4E2;loudspeaker
 1F4E3;mega
 1F4E4;outbox_tray
