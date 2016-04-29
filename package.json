@@ -12,6 +12,15 @@
   ],
   "author": "Cal Henderson <cal@iamcal.com>",
   "license": "MIT",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "emoji.json",
+    "emoji_pretty.json"
+  ],
+  "dependencies": {
+    "images": "https://github.com/iamcal/emoji-data/archive/v2.4.1.tar.gz"
+  },
   "bugs": {
     "url": "https://github.com/iamcal/emoji-data/issues"
   },
