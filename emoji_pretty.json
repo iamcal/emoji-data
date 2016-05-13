@@ -23097,7 +23097,59 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_emojione": true
+        "has_img_emojione": true,
+        "skin_variations": {
+            "1F575-1F3FB": {
+                "unified": "1F575-1F3FB",
+                "image": "1f575-1f3fb.png",
+                "sheet_x": 25,
+                "sheet_y": 3,
+                "has_img_apple": false,
+                "has_img_google": false,
+                "has_img_twitter": false,
+                "has_img_emojione": true
+            },
+            "1F575-1F3FC": {
+                "unified": "1F575-1F3FC",
+                "image": "1f575-1f3fc.png",
+                "sheet_x": 25,
+                "sheet_y": 4,
+                "has_img_apple": false,
+                "has_img_google": false,
+                "has_img_twitter": false,
+                "has_img_emojione": true
+            },
+            "1F575-1F3FD": {
+                "unified": "1F575-1F3FD",
+                "image": "1f575-1f3fd.png",
+                "sheet_x": 25,
+                "sheet_y": 5,
+                "has_img_apple": false,
+                "has_img_google": false,
+                "has_img_twitter": false,
+                "has_img_emojione": true
+            },
+            "1F575-1F3FE": {
+                "unified": "1F575-1F3FE",
+                "image": "1f575-1f3fe.png",
+                "sheet_x": 25,
+                "sheet_y": 6,
+                "has_img_apple": false,
+                "has_img_google": false,
+                "has_img_twitter": false,
+                "has_img_emojione": true
+            },
+            "1F575-1F3FF": {
+                "unified": "1F575-1F3FF",
+                "image": "1f575-1f3ff.png",
+                "sheet_x": 25,
+                "sheet_y": 7,
+                "has_img_apple": false,
+                "has_img_google": false,
+                "has_img_twitter": false,
+                "has_img_emojione": true
+            }
+        }
     },
     {
         "name": "DARK SUNGLASSES",
@@ -23111,7 +23163,7 @@
         "google": null,
         "image": "1f576.png",
         "sheet_x": 25,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "dark_sunglasses",
         "short_names": [
             "dark_sunglasses"
@@ -23137,7 +23189,7 @@
         "google": null,
         "image": "1f577.png",
         "sheet_x": 25,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "spider",
         "short_names": [
             "spider"
@@ -23163,7 +23215,7 @@
         "google": null,
         "image": "1f578.png",
         "sheet_x": 25,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "spider_web",
         "short_names": [
             "spider_web"
@@ -23189,7 +23241,7 @@
         "google": null,
         "image": "1f579.png",
         "sheet_x": 25,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "joystick",
         "short_names": [
             "joystick"
@@ -23215,7 +23267,7 @@
         "google": null,
         "image": "1f587.png",
         "sheet_x": 25,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "linked_paperclips",
         "short_names": [
             "linked_paperclips"
@@ -23241,7 +23293,7 @@
         "google": null,
         "image": "1f58a.png",
         "sheet_x": 25,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "lower_left_ballpoint_pen",
         "short_names": [
             "lower_left_ballpoint_pen"
@@ -23267,7 +23319,7 @@
         "google": null,
         "image": "1f58b.png",
         "sheet_x": 25,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "lower_left_fountain_pen",
         "short_names": [
             "lower_left_fountain_pen"
@@ -23293,7 +23345,7 @@
         "google": null,
         "image": "1f58c.png",
         "sheet_x": 25,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "lower_left_paintbrush",
         "short_names": [
             "lower_left_paintbrush"
@@ -23319,7 +23371,7 @@
         "google": null,
         "image": "1f58d.png",
         "sheet_x": 25,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "lower_left_crayon",
         "short_names": [
             "lower_left_crayon"
@@ -23345,7 +23397,7 @@
         "google": null,
         "image": "1f590.png",
         "sheet_x": 25,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "raised_hand_with_fingers_splayed",
         "short_names": [
             "raised_hand_with_fingers_splayed"
@@ -23363,7 +23415,7 @@
                 "unified": "1F590-1F3FB",
                 "image": "1f590-1f3fb.png",
                 "sheet_x": 25,
-                "sheet_y": 13,
+                "sheet_y": 18,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -23373,7 +23425,7 @@
                 "unified": "1F590-1F3FC",
                 "image": "1f590-1f3fc.png",
                 "sheet_x": 25,
-                "sheet_y": 14,
+                "sheet_y": 19,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -23383,7 +23435,7 @@
                 "unified": "1F590-1F3FD",
                 "image": "1f590-1f3fd.png",
                 "sheet_x": 25,
-                "sheet_y": 15,
+                "sheet_y": 20,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -23393,7 +23445,7 @@
                 "unified": "1F590-1F3FE",
                 "image": "1f590-1f3fe.png",
                 "sheet_x": 25,
-                "sheet_y": 16,
+                "sheet_y": 21,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -23403,7 +23455,7 @@
                 "unified": "1F590-1F3FF",
                 "image": "1f590-1f3ff.png",
                 "sheet_x": 25,
-                "sheet_y": 17,
+                "sheet_y": 22,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -23423,7 +23475,7 @@
         "google": null,
         "image": "1f595.png",
         "sheet_x": 25,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "middle_finger",
         "short_names": [
             "middle_finger",
@@ -23442,7 +23494,7 @@
                 "unified": "1F595-1F3FB",
                 "image": "1f595-1f3fb.png",
                 "sheet_x": 25,
-                "sheet_y": 19,
+                "sheet_y": 24,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -23452,7 +23504,7 @@
                 "unified": "1F595-1F3FC",
                 "image": "1f595-1f3fc.png",
                 "sheet_x": 25,
-                "sheet_y": 20,
+                "sheet_y": 25,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -23462,7 +23514,7 @@
                 "unified": "1F595-1F3FD",
                 "image": "1f595-1f3fd.png",
                 "sheet_x": 25,
-                "sheet_y": 21,
+                "sheet_y": 26,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -23472,7 +23524,7 @@
                 "unified": "1F595-1F3FE",
                 "image": "1f595-1f3fe.png",
                 "sheet_x": 25,
-                "sheet_y": 22,
+                "sheet_y": 27,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -23482,7 +23534,7 @@
                 "unified": "1F595-1F3FF",
                 "image": "1f595-1f3ff.png",
                 "sheet_x": 25,
-                "sheet_y": 23,
+                "sheet_y": 28,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -23502,7 +23554,7 @@
         "google": null,
         "image": "1f596.png",
         "sheet_x": 25,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "spock-hand",
         "short_names": [
             "spock-hand"
@@ -23520,7 +23572,7 @@
                 "unified": "1F596-1F3FB",
                 "image": "1f596-1f3fb.png",
                 "sheet_x": 25,
-                "sheet_y": 25,
+                "sheet_y": 30,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -23530,7 +23582,7 @@
                 "unified": "1F596-1F3FC",
                 "image": "1f596-1f3fc.png",
                 "sheet_x": 25,
-                "sheet_y": 26,
+                "sheet_y": 31,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -23540,7 +23592,7 @@
                 "unified": "1F596-1F3FD",
                 "image": "1f596-1f3fd.png",
                 "sheet_x": 25,
-                "sheet_y": 27,
+                "sheet_y": 32,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -23550,7 +23602,7 @@
                 "unified": "1F596-1F3FE",
                 "image": "1f596-1f3fe.png",
                 "sheet_x": 25,
-                "sheet_y": 28,
+                "sheet_y": 33,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -23560,7 +23612,7 @@
                 "unified": "1F596-1F3FF",
                 "image": "1f596-1f3ff.png",
                 "sheet_x": 25,
-                "sheet_y": 29,
+                "sheet_y": 34,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -23580,7 +23632,7 @@
         "google": null,
         "image": "1f5a5.png",
         "sheet_x": 25,
-        "sheet_y": 30,
+        "sheet_y": 35,
         "short_name": "desktop_computer",
         "short_names": [
             "desktop_computer"
@@ -23606,7 +23658,7 @@
         "google": null,
         "image": "1f5a8.png",
         "sheet_x": 25,
-        "sheet_y": 31,
+        "sheet_y": 36,
         "short_name": "printer",
         "short_names": [
             "printer"
@@ -23632,7 +23684,7 @@
         "google": null,
         "image": "1f5b1.png",
         "sheet_x": 25,
-        "sheet_y": 32,
+        "sheet_y": 37,
         "short_name": "three_button_mouse",
         "short_names": [
             "three_button_mouse"
@@ -23658,7 +23710,7 @@
         "google": null,
         "image": "1f5b2.png",
         "sheet_x": 25,
-        "sheet_y": 33,
+        "sheet_y": 38,
         "short_name": "trackball",
         "short_names": [
             "trackball"
@@ -23684,7 +23736,7 @@
         "google": null,
         "image": "1f5bc.png",
         "sheet_x": 25,
-        "sheet_y": 34,
+        "sheet_y": 39,
         "short_name": "frame_with_picture",
         "short_names": [
             "frame_with_picture"
@@ -23710,7 +23762,7 @@
         "google": null,
         "image": "1f5c2.png",
         "sheet_x": 25,
-        "sheet_y": 35,
+        "sheet_y": 40,
         "short_name": "card_index_dividers",
         "short_names": [
             "card_index_dividers"
@@ -23735,8 +23787,8 @@
         "softbank": null,
         "google": null,
         "image": "1f5c3.png",
-        "sheet_x": 25,
-        "sheet_y": 36,
+        "sheet_x": 26,
+        "sheet_y": 0,
         "short_name": "card_file_box",
         "short_names": [
             "card_file_box"
@@ -23761,8 +23813,8 @@
         "softbank": null,
         "google": null,
         "image": "1f5c4.png",
-        "sheet_x": 25,
-        "sheet_y": 37,
+        "sheet_x": 26,
+        "sheet_y": 1,
         "short_name": "file_cabinet",
         "short_names": [
             "file_cabinet"
@@ -23787,8 +23839,8 @@
         "softbank": null,
         "google": null,
         "image": "1f5d1.png",
-        "sheet_x": 25,
-        "sheet_y": 38,
+        "sheet_x": 26,
+        "sheet_y": 2,
         "short_name": "wastebasket",
         "short_names": [
             "wastebasket"
@@ -23813,8 +23865,8 @@
         "softbank": null,
         "google": null,
         "image": "1f5d2.png",
-        "sheet_x": 25,
-        "sheet_y": 39,
+        "sheet_x": 26,
+        "sheet_y": 3,
         "short_name": "spiral_note_pad",
         "short_names": [
             "spiral_note_pad"
@@ -23839,8 +23891,8 @@
         "softbank": null,
         "google": null,
         "image": "1f5d3.png",
-        "sheet_x": 25,
-        "sheet_y": 40,
+        "sheet_x": 26,
+        "sheet_y": 4,
         "short_name": "spiral_calendar_pad",
         "short_names": [
             "spiral_calendar_pad"
@@ -23866,7 +23918,7 @@
         "google": null,
         "image": "1f5dc.png",
         "sheet_x": 26,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "compression",
         "short_names": [
             "compression"
@@ -23892,7 +23944,7 @@
         "google": null,
         "image": "1f5dd.png",
         "sheet_x": 26,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "old_key",
         "short_names": [
             "old_key"
@@ -23918,7 +23970,7 @@
         "google": null,
         "image": "1f5de.png",
         "sheet_x": 26,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "rolled_up_newspaper",
         "short_names": [
             "rolled_up_newspaper"
@@ -23944,7 +23996,7 @@
         "google": null,
         "image": "1f5e1.png",
         "sheet_x": 26,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "dagger_knife",
         "short_names": [
             "dagger_knife"
@@ -23970,7 +24022,7 @@
         "google": null,
         "image": "1f5e3.png",
         "sheet_x": 26,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "speaking_head_in_silhouette",
         "short_names": [
             "speaking_head_in_silhouette"
@@ -23996,7 +24048,7 @@
         "google": null,
         "image": "1f5e8.png",
         "sheet_x": 26,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "left_speech_bubble",
         "short_names": [
             "left_speech_bubble"
@@ -24022,7 +24074,7 @@
         "google": null,
         "image": "1f5ef.png",
         "sheet_x": 26,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "right_anger_bubble",
         "short_names": [
             "right_anger_bubble"
@@ -24048,7 +24100,7 @@
         "google": null,
         "image": "1f5f3.png",
         "sheet_x": 26,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "ballot_box_with_ballot",
         "short_names": [
             "ballot_box_with_ballot"
@@ -24074,7 +24126,7 @@
         "google": null,
         "image": "1f5fa.png",
         "sheet_x": 26,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "world_map",
         "short_names": [
             "world_map"
@@ -24100,7 +24152,7 @@
         "google": "FE4C3",
         "image": "1f5fb.png",
         "sheet_x": 26,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "mount_fuji",
         "short_names": [
             "mount_fuji"
@@ -24126,7 +24178,7 @@
         "google": "FE4C4",
         "image": "1f5fc.png",
         "sheet_x": 26,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "tokyo_tower",
         "short_names": [
             "tokyo_tower"
@@ -24152,7 +24204,7 @@
         "google": "FE4C6",
         "image": "1f5fd.png",
         "sheet_x": 26,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "statue_of_liberty",
         "short_names": [
             "statue_of_liberty"
@@ -24178,7 +24230,7 @@
         "google": "FE4C7",
         "image": "1f5fe.png",
         "sheet_x": 26,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "japan",
         "short_names": [
             "japan"
@@ -24204,7 +24256,7 @@
         "google": "FE4C8",
         "image": "1f5ff.png",
         "sheet_x": 26,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "moyai",
         "short_names": [
             "moyai"
@@ -24230,7 +24282,7 @@
         "google": null,
         "image": "1f600.png",
         "sheet_x": 26,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "grinning",
         "short_names": [
             "grinning"
@@ -24256,7 +24308,7 @@
         "google": "FE333",
         "image": "1f601.png",
         "sheet_x": 26,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "grin",
         "short_names": [
             "grin"
@@ -24282,7 +24334,7 @@
         "google": "FE334",
         "image": "1f602.png",
         "sheet_x": 26,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "joy",
         "short_names": [
             "joy"
@@ -24308,7 +24360,7 @@
         "google": "FE330",
         "image": "1f603.png",
         "sheet_x": 26,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "smiley",
         "short_names": [
             "smiley"
@@ -24337,7 +24389,7 @@
         "google": "FE338",
         "image": "1f604.png",
         "sheet_x": 26,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "smile",
         "short_names": [
             "smile"
@@ -24368,7 +24420,7 @@
         "google": "FE331",
         "image": "1f605.png",
         "sheet_x": 26,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "sweat_smile",
         "short_names": [
             "sweat_smile"
@@ -24394,7 +24446,7 @@
         "google": "FE332",
         "image": "1f606.png",
         "sheet_x": 26,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "laughing",
         "short_names": [
             "laughing",
@@ -24424,7 +24476,7 @@
         "google": null,
         "image": "1f607.png",
         "sheet_x": 26,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "innocent",
         "short_names": [
             "innocent"
@@ -24450,7 +24502,7 @@
         "google": null,
         "image": "1f608.png",
         "sheet_x": 26,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "smiling_imp",
         "short_names": [
             "smiling_imp"
@@ -24476,7 +24528,7 @@
         "google": "FE347",
         "image": "1f609.png",
         "sheet_x": 26,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "wink",
         "short_names": [
             "wink"
@@ -24505,7 +24557,7 @@
         "google": "FE335",
         "image": "1f60a.png",
         "sheet_x": 26,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "blush",
         "short_names": [
             "blush"
@@ -24531,7 +24583,7 @@
         "google": "FE32B",
         "image": "1f60b.png",
         "sheet_x": 26,
-        "sheet_y": 25,
+        "sheet_y": 30,
         "short_name": "yum",
         "short_names": [
             "yum"
@@ -24557,7 +24609,7 @@
         "google": "FE33E",
         "image": "1f60c.png",
         "sheet_x": 26,
-        "sheet_y": 26,
+        "sheet_y": 31,
         "short_name": "relieved",
         "short_names": [
             "relieved"
@@ -24583,7 +24635,7 @@
         "google": "FE327",
         "image": "1f60d.png",
         "sheet_x": 26,
-        "sheet_y": 27,
+        "sheet_y": 32,
         "short_name": "heart_eyes",
         "short_names": [
             "heart_eyes"
@@ -24609,7 +24661,7 @@
         "google": null,
         "image": "1f60e.png",
         "sheet_x": 26,
-        "sheet_y": 28,
+        "sheet_y": 33,
         "short_name": "sunglasses",
         "short_names": [
             "sunglasses"
@@ -24637,7 +24689,7 @@
         "google": "FE343",
         "image": "1f60f.png",
         "sheet_x": 26,
-        "sheet_y": 29,
+        "sheet_y": 34,
         "short_name": "smirk",
         "short_names": [
             "smirk"
@@ -24663,7 +24715,7 @@
         "google": null,
         "image": "1f610.png",
         "sheet_x": 26,
-        "sheet_y": 30,
+        "sheet_y": 35,
         "short_name": "neutral_face",
         "short_names": [
             "neutral_face"
@@ -24692,7 +24744,7 @@
         "google": null,
         "image": "1f611.png",
         "sheet_x": 26,
-        "sheet_y": 31,
+        "sheet_y": 36,
         "short_name": "expressionless",
         "short_names": [
             "expressionless"
@@ -24718,7 +24770,7 @@
         "google": "FE326",
         "image": "1f612.png",
         "sheet_x": 26,
-        "sheet_y": 32,
+        "sheet_y": 37,
         "short_name": "unamused",
         "short_names": [
             "unamused"
@@ -24744,7 +24796,7 @@
         "google": "FE344",
         "image": "1f613.png",
         "sheet_x": 26,
-        "sheet_y": 33,
+        "sheet_y": 38,
         "short_name": "sweat",
         "short_names": [
             "sweat"
@@ -24770,7 +24822,7 @@
         "google": "FE340",
         "image": "1f614.png",
         "sheet_x": 26,
-        "sheet_y": 34,
+        "sheet_y": 39,
         "short_name": "pensive",
         "short_names": [
             "pensive"
@@ -24796,7 +24848,7 @@
         "google": null,
         "image": "1f615.png",
         "sheet_x": 26,
-        "sheet_y": 35,
+        "sheet_y": 40,
         "short_name": "confused",
         "short_names": [
             "confused"
@@ -24826,8 +24878,8 @@
         "softbank": "E407",
         "google": "FE33F",
         "image": "1f616.png",
-        "sheet_x": 26,
-        "sheet_y": 36,
+        "sheet_x": 27,
+        "sheet_y": 0,
         "short_name": "confounded",
         "short_names": [
             "confounded"
@@ -24852,8 +24904,8 @@
         "softbank": null,
         "google": null,
         "image": "1f617.png",
-        "sheet_x": 26,
-        "sheet_y": 37,
+        "sheet_x": 27,
+        "sheet_y": 1,
         "short_name": "kissing",
         "short_names": [
             "kissing"
@@ -24878,8 +24930,8 @@
         "softbank": "E418",
         "google": "FE32C",
         "image": "1f618.png",
-        "sheet_x": 26,
-        "sheet_y": 38,
+        "sheet_x": 27,
+        "sheet_y": 2,
         "short_name": "kissing_heart",
         "short_names": [
             "kissing_heart"
@@ -24904,8 +24956,8 @@
         "softbank": null,
         "google": null,
         "image": "1f619.png",
-        "sheet_x": 26,
-        "sheet_y": 39,
+        "sheet_x": 27,
+        "sheet_y": 3,
         "short_name": "kissing_smiling_eyes",
         "short_names": [
             "kissing_smiling_eyes"
@@ -24930,8 +24982,8 @@
         "softbank": "E417",
         "google": "FE32D",
         "image": "1f61a.png",
-        "sheet_x": 26,
-        "sheet_y": 40,
+        "sheet_x": 27,
+        "sheet_y": 4,
         "short_name": "kissing_closed_eyes",
         "short_names": [
             "kissing_closed_eyes"
@@ -24957,7 +25009,7 @@
         "google": null,
         "image": "1f61b.png",
         "sheet_x": 27,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "stuck_out_tongue",
         "short_names": [
             "stuck_out_tongue"
@@ -24990,7 +25042,7 @@
         "google": "FE329",
         "image": "1f61c.png",
         "sheet_x": 27,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "stuck_out_tongue_winking_eye",
         "short_names": [
             "stuck_out_tongue_winking_eye"
@@ -25023,7 +25075,7 @@
         "google": "FE32A",
         "image": "1f61d.png",
         "sheet_x": 27,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "stuck_out_tongue_closed_eyes",
         "short_names": [
             "stuck_out_tongue_closed_eyes"
@@ -25049,7 +25101,7 @@
         "google": "FE323",
         "image": "1f61e.png",
         "sheet_x": 27,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "disappointed",
         "short_names": [
             "disappointed"
@@ -25079,7 +25131,7 @@
         "google": null,
         "image": "1f61f.png",
         "sheet_x": 27,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "worried",
         "short_names": [
             "worried"
@@ -25105,7 +25157,7 @@
         "google": "FE320",
         "image": "1f620.png",
         "sheet_x": 27,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "angry",
         "short_names": [
             "angry"
@@ -25134,7 +25186,7 @@
         "google": "FE33D",
         "image": "1f621.png",
         "sheet_x": 27,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "rage",
         "short_names": [
             "rage"
@@ -25160,7 +25212,7 @@
         "google": "FE339",
         "image": "1f622.png",
         "sheet_x": 27,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "cry",
         "short_names": [
             "cry"
@@ -25188,7 +25240,7 @@
         "google": "FE33C",
         "image": "1f623.png",
         "sheet_x": 27,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "persevere",
         "short_names": [
             "persevere"
@@ -25214,7 +25266,7 @@
         "google": "FE328",
         "image": "1f624.png",
         "sheet_x": 27,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "triumph",
         "short_names": [
             "triumph"
@@ -25240,7 +25292,7 @@
         "google": "FE345",
         "image": "1f625.png",
         "sheet_x": 27,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "disappointed_relieved",
         "short_names": [
             "disappointed_relieved"
@@ -25266,7 +25318,7 @@
         "google": null,
         "image": "1f626.png",
         "sheet_x": 27,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "frowning",
         "short_names": [
             "frowning"
@@ -25292,7 +25344,7 @@
         "google": null,
         "image": "1f627.png",
         "sheet_x": 27,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "anguished",
         "short_names": [
             "anguished"
@@ -25320,7 +25372,7 @@
         "google": "FE33B",
         "image": "1f628.png",
         "sheet_x": 27,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "fearful",
         "short_names": [
             "fearful"
@@ -25346,7 +25398,7 @@
         "google": "FE321",
         "image": "1f629.png",
         "sheet_x": 27,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "weary",
         "short_names": [
             "weary"
@@ -25372,7 +25424,7 @@
         "google": "FE342",
         "image": "1f62a.png",
         "sheet_x": 27,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "sleepy",
         "short_names": [
             "sleepy"
@@ -25398,7 +25450,7 @@
         "google": "FE346",
         "image": "1f62b.png",
         "sheet_x": 27,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "tired_face",
         "short_names": [
             "tired_face"
@@ -25424,7 +25476,7 @@
         "google": null,
         "image": "1f62c.png",
         "sheet_x": 27,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "grimacing",
         "short_names": [
             "grimacing"
@@ -25450,7 +25502,7 @@
         "google": "FE33A",
         "image": "1f62d.png",
         "sheet_x": 27,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "sob",
         "short_names": [
             "sob"
@@ -25476,7 +25528,7 @@
         "google": null,
         "image": "1f62e.png",
         "sheet_x": 27,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "open_mouth",
         "short_names": [
             "open_mouth"
@@ -25507,7 +25559,7 @@
         "google": null,
         "image": "1f62f.png",
         "sheet_x": 27,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "hushed",
         "short_names": [
             "hushed"
@@ -25533,7 +25585,7 @@
         "google": "FE325",
         "image": "1f630.png",
         "sheet_x": 27,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "cold_sweat",
         "short_names": [
             "cold_sweat"
@@ -25559,7 +25611,7 @@
         "google": "FE341",
         "image": "1f631.png",
         "sheet_x": 27,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "scream",
         "short_names": [
             "scream"
@@ -25585,7 +25637,7 @@
         "google": "FE322",
         "image": "1f632.png",
         "sheet_x": 27,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "astonished",
         "short_names": [
             "astonished"
@@ -25611,7 +25663,7 @@
         "google": "FE32F",
         "image": "1f633.png",
         "sheet_x": 27,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "flushed",
         "short_names": [
             "flushed"
@@ -25637,7 +25689,7 @@
         "google": null,
         "image": "1f634.png",
         "sheet_x": 27,
-        "sheet_y": 25,
+        "sheet_y": 30,
         "short_name": "sleeping",
         "short_names": [
             "sleeping"
@@ -25663,7 +25715,7 @@
         "google": "FE324",
         "image": "1f635.png",
         "sheet_x": 27,
-        "sheet_y": 26,
+        "sheet_y": 31,
         "short_name": "dizzy_face",
         "short_names": [
             "dizzy_face"
@@ -25689,7 +25741,7 @@
         "google": null,
         "image": "1f636.png",
         "sheet_x": 27,
-        "sheet_y": 27,
+        "sheet_y": 32,
         "short_name": "no_mouth",
         "short_names": [
             "no_mouth"
@@ -25715,7 +25767,7 @@
         "google": "FE32E",
         "image": "1f637.png",
         "sheet_x": 27,
-        "sheet_y": 28,
+        "sheet_y": 33,
         "short_name": "mask",
         "short_names": [
             "mask"
@@ -25741,7 +25793,7 @@
         "google": "FE349",
         "image": "1f638.png",
         "sheet_x": 27,
-        "sheet_y": 29,
+        "sheet_y": 34,
         "short_name": "smile_cat",
         "short_names": [
             "smile_cat"
@@ -25767,7 +25819,7 @@
         "google": "FE34A",
         "image": "1f639.png",
         "sheet_x": 27,
-        "sheet_y": 30,
+        "sheet_y": 35,
         "short_name": "joy_cat",
         "short_names": [
             "joy_cat"
@@ -25793,7 +25845,7 @@
         "google": "FE348",
         "image": "1f63a.png",
         "sheet_x": 27,
-        "sheet_y": 31,
+        "sheet_y": 36,
         "short_name": "smiley_cat",
         "short_names": [
             "smiley_cat"
@@ -25819,7 +25871,7 @@
         "google": "FE34C",
         "image": "1f63b.png",
         "sheet_x": 27,
-        "sheet_y": 32,
+        "sheet_y": 37,
         "short_name": "heart_eyes_cat",
         "short_names": [
             "heart_eyes_cat"
@@ -25845,7 +25897,7 @@
         "google": "FE34F",
         "image": "1f63c.png",
         "sheet_x": 27,
-        "sheet_y": 33,
+        "sheet_y": 38,
         "short_name": "smirk_cat",
         "short_names": [
             "smirk_cat"
@@ -25871,7 +25923,7 @@
         "google": "FE34B",
         "image": "1f63d.png",
         "sheet_x": 27,
-        "sheet_y": 34,
+        "sheet_y": 39,
         "short_name": "kissing_cat",
         "short_names": [
             "kissing_cat"
@@ -25897,7 +25949,7 @@
         "google": "FE34E",
         "image": "1f63e.png",
         "sheet_x": 27,
-        "sheet_y": 35,
+        "sheet_y": 40,
         "short_name": "pouting_cat",
         "short_names": [
             "pouting_cat"
@@ -25922,8 +25974,8 @@
         "softbank": "E413",
         "google": "FE34D",
         "image": "1f63f.png",
-        "sheet_x": 27,
-        "sheet_y": 36,
+        "sheet_x": 28,
+        "sheet_y": 0,
         "short_name": "crying_cat_face",
         "short_names": [
             "crying_cat_face"
@@ -25948,8 +26000,8 @@
         "softbank": "E403",
         "google": "FE350",
         "image": "1f640.png",
-        "sheet_x": 27,
-        "sheet_y": 37,
+        "sheet_x": 28,
+        "sheet_y": 1,
         "short_name": "scream_cat",
         "short_names": [
             "scream_cat"
@@ -25974,8 +26026,8 @@
         "softbank": null,
         "google": null,
         "image": "1f641.png",
-        "sheet_x": 27,
-        "sheet_y": 38,
+        "sheet_x": 28,
+        "sheet_y": 2,
         "short_name": "slightly_frowning_face",
         "short_names": [
             "slightly_frowning_face"
@@ -26000,8 +26052,8 @@
         "softbank": null,
         "google": null,
         "image": "1f642.png",
-        "sheet_x": 27,
-        "sheet_y": 39,
+        "sheet_x": 28,
+        "sheet_y": 3,
         "short_name": "slightly_smiling_face",
         "short_names": [
             "slightly_smiling_face"
@@ -26030,8 +26082,8 @@
         "softbank": null,
         "google": null,
         "image": "1f643.png",
-        "sheet_x": 27,
-        "sheet_y": 40,
+        "sheet_x": 28,
+        "sheet_y": 4,
         "short_name": "upside_down_face",
         "short_names": [
             "upside_down_face"
@@ -26057,7 +26109,7 @@
         "google": null,
         "image": "1f644.png",
         "sheet_x": 28,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "face_with_rolling_eyes",
         "short_names": [
             "face_with_rolling_eyes"
@@ -26083,7 +26135,7 @@
         "google": "FE351",
         "image": "1f645.png",
         "sheet_x": 28,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "no_good",
         "short_names": [
             "no_good"
@@ -26101,7 +26153,7 @@
                 "unified": "1F645-1F3FB",
                 "image": "1f645-1f3fb.png",
                 "sheet_x": 28,
-                "sheet_y": 2,
+                "sheet_y": 7,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26111,7 +26163,7 @@
                 "unified": "1F645-1F3FC",
                 "image": "1f645-1f3fc.png",
                 "sheet_x": 28,
-                "sheet_y": 3,
+                "sheet_y": 8,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26121,7 +26173,7 @@
                 "unified": "1F645-1F3FD",
                 "image": "1f645-1f3fd.png",
                 "sheet_x": 28,
-                "sheet_y": 4,
+                "sheet_y": 9,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26131,7 +26183,7 @@
                 "unified": "1F645-1F3FE",
                 "image": "1f645-1f3fe.png",
                 "sheet_x": 28,
-                "sheet_y": 5,
+                "sheet_y": 10,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26141,7 +26193,7 @@
                 "unified": "1F645-1F3FF",
                 "image": "1f645-1f3ff.png",
                 "sheet_x": 28,
-                "sheet_y": 6,
+                "sheet_y": 11,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26161,7 +26213,7 @@
         "google": "FE352",
         "image": "1f646.png",
         "sheet_x": 28,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "ok_woman",
         "short_names": [
             "ok_woman"
@@ -26179,7 +26231,7 @@
                 "unified": "1F646-1F3FB",
                 "image": "1f646-1f3fb.png",
                 "sheet_x": 28,
-                "sheet_y": 8,
+                "sheet_y": 13,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26189,7 +26241,7 @@
                 "unified": "1F646-1F3FC",
                 "image": "1f646-1f3fc.png",
                 "sheet_x": 28,
-                "sheet_y": 9,
+                "sheet_y": 14,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26199,7 +26251,7 @@
                 "unified": "1F646-1F3FD",
                 "image": "1f646-1f3fd.png",
                 "sheet_x": 28,
-                "sheet_y": 10,
+                "sheet_y": 15,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26209,7 +26261,7 @@
                 "unified": "1F646-1F3FE",
                 "image": "1f646-1f3fe.png",
                 "sheet_x": 28,
-                "sheet_y": 11,
+                "sheet_y": 16,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26219,7 +26271,7 @@
                 "unified": "1F646-1F3FF",
                 "image": "1f646-1f3ff.png",
                 "sheet_x": 28,
-                "sheet_y": 12,
+                "sheet_y": 17,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26239,7 +26291,7 @@
         "google": "FE353",
         "image": "1f647.png",
         "sheet_x": 28,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "bow",
         "short_names": [
             "bow"
@@ -26257,7 +26309,7 @@
                 "unified": "1F647-1F3FB",
                 "image": "1f647-1f3fb.png",
                 "sheet_x": 28,
-                "sheet_y": 14,
+                "sheet_y": 19,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26267,7 +26319,7 @@
                 "unified": "1F647-1F3FC",
                 "image": "1f647-1f3fc.png",
                 "sheet_x": 28,
-                "sheet_y": 15,
+                "sheet_y": 20,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26277,7 +26329,7 @@
                 "unified": "1F647-1F3FD",
                 "image": "1f647-1f3fd.png",
                 "sheet_x": 28,
-                "sheet_y": 16,
+                "sheet_y": 21,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26287,7 +26339,7 @@
                 "unified": "1F647-1F3FE",
                 "image": "1f647-1f3fe.png",
                 "sheet_x": 28,
-                "sheet_y": 17,
+                "sheet_y": 22,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26297,7 +26349,7 @@
                 "unified": "1F647-1F3FF",
                 "image": "1f647-1f3ff.png",
                 "sheet_x": 28,
-                "sheet_y": 18,
+                "sheet_y": 23,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26317,7 +26369,7 @@
         "google": "FE354",
         "image": "1f648.png",
         "sheet_x": 28,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "see_no_evil",
         "short_names": [
             "see_no_evil"
@@ -26343,7 +26395,7 @@
         "google": "FE356",
         "image": "1f649.png",
         "sheet_x": 28,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "hear_no_evil",
         "short_names": [
             "hear_no_evil"
@@ -26369,7 +26421,7 @@
         "google": "FE355",
         "image": "1f64a.png",
         "sheet_x": 28,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "speak_no_evil",
         "short_names": [
             "speak_no_evil"
@@ -26395,7 +26447,7 @@
         "google": "FE357",
         "image": "1f64b.png",
         "sheet_x": 28,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "raising_hand",
         "short_names": [
             "raising_hand"
@@ -26413,7 +26465,7 @@
                 "unified": "1F64B-1F3FB",
                 "image": "1f64b-1f3fb.png",
                 "sheet_x": 28,
-                "sheet_y": 23,
+                "sheet_y": 28,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26423,7 +26475,7 @@
                 "unified": "1F64B-1F3FC",
                 "image": "1f64b-1f3fc.png",
                 "sheet_x": 28,
-                "sheet_y": 24,
+                "sheet_y": 29,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26433,7 +26485,7 @@
                 "unified": "1F64B-1F3FD",
                 "image": "1f64b-1f3fd.png",
                 "sheet_x": 28,
-                "sheet_y": 25,
+                "sheet_y": 30,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26443,7 +26495,7 @@
                 "unified": "1F64B-1F3FE",
                 "image": "1f64b-1f3fe.png",
                 "sheet_x": 28,
-                "sheet_y": 26,
+                "sheet_y": 31,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26453,7 +26505,7 @@
                 "unified": "1F64B-1F3FF",
                 "image": "1f64b-1f3ff.png",
                 "sheet_x": 28,
-                "sheet_y": 27,
+                "sheet_y": 32,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26473,7 +26525,7 @@
         "google": "FE358",
         "image": "1f64c.png",
         "sheet_x": 28,
-        "sheet_y": 28,
+        "sheet_y": 33,
         "short_name": "raised_hands",
         "short_names": [
             "raised_hands"
@@ -26491,7 +26543,7 @@
                 "unified": "1F64C-1F3FB",
                 "image": "1f64c-1f3fb.png",
                 "sheet_x": 28,
-                "sheet_y": 29,
+                "sheet_y": 34,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26501,7 +26553,7 @@
                 "unified": "1F64C-1F3FC",
                 "image": "1f64c-1f3fc.png",
                 "sheet_x": 28,
-                "sheet_y": 30,
+                "sheet_y": 35,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26511,7 +26563,7 @@
                 "unified": "1F64C-1F3FD",
                 "image": "1f64c-1f3fd.png",
                 "sheet_x": 28,
-                "sheet_y": 31,
+                "sheet_y": 36,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26521,7 +26573,7 @@
                 "unified": "1F64C-1F3FE",
                 "image": "1f64c-1f3fe.png",
                 "sheet_x": 28,
-                "sheet_y": 32,
+                "sheet_y": 37,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26531,7 +26583,7 @@
                 "unified": "1F64C-1F3FF",
                 "image": "1f64c-1f3ff.png",
                 "sheet_x": 28,
-                "sheet_y": 33,
+                "sheet_y": 38,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26551,7 +26603,7 @@
         "google": "FE359",
         "image": "1f64d.png",
         "sheet_x": 28,
-        "sheet_y": 34,
+        "sheet_y": 39,
         "short_name": "person_frowning",
         "short_names": [
             "person_frowning"
@@ -26569,7 +26621,7 @@
                 "unified": "1F64D-1F3FB",
                 "image": "1f64d-1f3fb.png",
                 "sheet_x": 28,
-                "sheet_y": 35,
+                "sheet_y": 40,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26578,8 +26630,8 @@
             "1F64D-1F3FC": {
                 "unified": "1F64D-1F3FC",
                 "image": "1f64d-1f3fc.png",
-                "sheet_x": 28,
-                "sheet_y": 36,
+                "sheet_x": 29,
+                "sheet_y": 0,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26588,8 +26640,8 @@
             "1F64D-1F3FD": {
                 "unified": "1F64D-1F3FD",
                 "image": "1f64d-1f3fd.png",
-                "sheet_x": 28,
-                "sheet_y": 37,
+                "sheet_x": 29,
+                "sheet_y": 1,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26598,8 +26650,8 @@
             "1F64D-1F3FE": {
                 "unified": "1F64D-1F3FE",
                 "image": "1f64d-1f3fe.png",
-                "sheet_x": 28,
-                "sheet_y": 38,
+                "sheet_x": 29,
+                "sheet_y": 2,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26608,8 +26660,8 @@
             "1F64D-1F3FF": {
                 "unified": "1F64D-1F3FF",
                 "image": "1f64d-1f3ff.png",
-                "sheet_x": 28,
-                "sheet_y": 39,
+                "sheet_x": 29,
+                "sheet_y": 3,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26628,8 +26680,8 @@
         "softbank": "E416",
         "google": "FE35A",
         "image": "1f64e.png",
-        "sheet_x": 28,
-        "sheet_y": 40,
+        "sheet_x": 29,
+        "sheet_y": 4,
         "short_name": "person_with_pouting_face",
         "short_names": [
             "person_with_pouting_face"
@@ -26647,7 +26699,7 @@
                 "unified": "1F64E-1F3FB",
                 "image": "1f64e-1f3fb.png",
                 "sheet_x": 29,
-                "sheet_y": 0,
+                "sheet_y": 5,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26657,7 +26709,7 @@
                 "unified": "1F64E-1F3FC",
                 "image": "1f64e-1f3fc.png",
                 "sheet_x": 29,
-                "sheet_y": 1,
+                "sheet_y": 6,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26667,7 +26719,7 @@
                 "unified": "1F64E-1F3FD",
                 "image": "1f64e-1f3fd.png",
                 "sheet_x": 29,
-                "sheet_y": 2,
+                "sheet_y": 7,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26677,7 +26729,7 @@
                 "unified": "1F64E-1F3FE",
                 "image": "1f64e-1f3fe.png",
                 "sheet_x": 29,
-                "sheet_y": 3,
+                "sheet_y": 8,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26687,7 +26739,7 @@
                 "unified": "1F64E-1F3FF",
                 "image": "1f64e-1f3ff.png",
                 "sheet_x": 29,
-                "sheet_y": 4,
+                "sheet_y": 9,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26707,7 +26759,7 @@
         "google": "FE35B",
         "image": "1f64f.png",
         "sheet_x": 29,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "pray",
         "short_names": [
             "pray"
@@ -26725,7 +26777,7 @@
                 "unified": "1F64F-1F3FB",
                 "image": "1f64f-1f3fb.png",
                 "sheet_x": 29,
-                "sheet_y": 6,
+                "sheet_y": 11,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26735,7 +26787,7 @@
                 "unified": "1F64F-1F3FC",
                 "image": "1f64f-1f3fc.png",
                 "sheet_x": 29,
-                "sheet_y": 7,
+                "sheet_y": 12,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26745,7 +26797,7 @@
                 "unified": "1F64F-1F3FD",
                 "image": "1f64f-1f3fd.png",
                 "sheet_x": 29,
-                "sheet_y": 8,
+                "sheet_y": 13,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26755,7 +26807,7 @@
                 "unified": "1F64F-1F3FE",
                 "image": "1f64f-1f3fe.png",
                 "sheet_x": 29,
-                "sheet_y": 9,
+                "sheet_y": 14,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26765,7 +26817,7 @@
                 "unified": "1F64F-1F3FF",
                 "image": "1f64f-1f3ff.png",
                 "sheet_x": 29,
-                "sheet_y": 10,
+                "sheet_y": 15,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -26785,7 +26837,7 @@
         "google": "FE7ED",
         "image": "1f680.png",
         "sheet_x": 29,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "rocket",
         "short_names": [
             "rocket"
@@ -26811,7 +26863,7 @@
         "google": null,
         "image": "1f681.png",
         "sheet_x": 29,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "helicopter",
         "short_names": [
             "helicopter"
@@ -26837,7 +26889,7 @@
         "google": null,
         "image": "1f682.png",
         "sheet_x": 29,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "steam_locomotive",
         "short_names": [
             "steam_locomotive"
@@ -26863,7 +26915,7 @@
         "google": "FE7DF",
         "image": "1f683.png",
         "sheet_x": 29,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "railway_car",
         "short_names": [
             "railway_car"
@@ -26889,7 +26941,7 @@
         "google": "FE7E2",
         "image": "1f684.png",
         "sheet_x": 29,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "bullettrain_side",
         "short_names": [
             "bullettrain_side"
@@ -26915,7 +26967,7 @@
         "google": "FE7E3",
         "image": "1f685.png",
         "sheet_x": 29,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "bullettrain_front",
         "short_names": [
             "bullettrain_front"
@@ -26941,7 +26993,7 @@
         "google": null,
         "image": "1f686.png",
         "sheet_x": 29,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "train2",
         "short_names": [
             "train2"
@@ -26967,7 +27019,7 @@
         "google": "FE7E0",
         "image": "1f687.png",
         "sheet_x": 29,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "metro",
         "short_names": [
             "metro"
@@ -26993,7 +27045,7 @@
         "google": null,
         "image": "1f688.png",
         "sheet_x": 29,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "light_rail",
         "short_names": [
             "light_rail"
@@ -27019,7 +27071,7 @@
         "google": "FE7EC",
         "image": "1f689.png",
         "sheet_x": 29,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "station",
         "short_names": [
             "station"
@@ -27045,7 +27097,7 @@
         "google": null,
         "image": "1f68a.png",
         "sheet_x": 29,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "tram",
         "short_names": [
             "tram"
@@ -27071,7 +27123,7 @@
         "google": null,
         "image": "1f68b.png",
         "sheet_x": 29,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "train",
         "short_names": [
             "train"
@@ -27097,7 +27149,7 @@
         "google": "FE7E6",
         "image": "1f68c.png",
         "sheet_x": 29,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "bus",
         "short_names": [
             "bus"
@@ -27123,7 +27175,7 @@
         "google": null,
         "image": "1f68d.png",
         "sheet_x": 29,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "oncoming_bus",
         "short_names": [
             "oncoming_bus"
@@ -27149,7 +27201,7 @@
         "google": null,
         "image": "1f68e.png",
         "sheet_x": 29,
-        "sheet_y": 25,
+        "sheet_y": 30,
         "short_name": "trolleybus",
         "short_names": [
             "trolleybus"
@@ -27175,7 +27227,7 @@
         "google": "FE7E7",
         "image": "1f68f.png",
         "sheet_x": 29,
-        "sheet_y": 26,
+        "sheet_y": 31,
         "short_name": "busstop",
         "short_names": [
             "busstop"
@@ -27201,7 +27253,7 @@
         "google": null,
         "image": "1f690.png",
         "sheet_x": 29,
-        "sheet_y": 27,
+        "sheet_y": 32,
         "short_name": "minibus",
         "short_names": [
             "minibus"
@@ -27227,7 +27279,7 @@
         "google": "FE7F3",
         "image": "1f691.png",
         "sheet_x": 29,
-        "sheet_y": 28,
+        "sheet_y": 33,
         "short_name": "ambulance",
         "short_names": [
             "ambulance"
@@ -27253,7 +27305,7 @@
         "google": "FE7F2",
         "image": "1f692.png",
         "sheet_x": 29,
-        "sheet_y": 29,
+        "sheet_y": 34,
         "short_name": "fire_engine",
         "short_names": [
             "fire_engine"
@@ -27279,7 +27331,7 @@
         "google": "FE7F4",
         "image": "1f693.png",
         "sheet_x": 29,
-        "sheet_y": 30,
+        "sheet_y": 35,
         "short_name": "police_car",
         "short_names": [
             "police_car"
@@ -27305,7 +27357,7 @@
         "google": null,
         "image": "1f694.png",
         "sheet_x": 29,
-        "sheet_y": 31,
+        "sheet_y": 36,
         "short_name": "oncoming_police_car",
         "short_names": [
             "oncoming_police_car"
@@ -27331,7 +27383,7 @@
         "google": "FE7EF",
         "image": "1f695.png",
         "sheet_x": 29,
-        "sheet_y": 32,
+        "sheet_y": 37,
         "short_name": "taxi",
         "short_names": [
             "taxi"
@@ -27357,7 +27409,7 @@
         "google": null,
         "image": "1f696.png",
         "sheet_x": 29,
-        "sheet_y": 33,
+        "sheet_y": 38,
         "short_name": "oncoming_taxi",
         "short_names": [
             "oncoming_taxi"
@@ -27383,7 +27435,7 @@
         "google": "FE7E4",
         "image": "1f697.png",
         "sheet_x": 29,
-        "sheet_y": 34,
+        "sheet_y": 39,
         "short_name": "car",
         "short_names": [
             "car",
@@ -27410,7 +27462,7 @@
         "google": null,
         "image": "1f698.png",
         "sheet_x": 29,
-        "sheet_y": 35,
+        "sheet_y": 40,
         "short_name": "oncoming_automobile",
         "short_names": [
             "oncoming_automobile"
@@ -27435,8 +27487,8 @@
         "softbank": "E42E",
         "google": "FE7E5",
         "image": "1f699.png",
-        "sheet_x": 29,
-        "sheet_y": 36,
+        "sheet_x": 30,
+        "sheet_y": 0,
         "short_name": "blue_car",
         "short_names": [
             "blue_car"
@@ -27461,8 +27513,8 @@
         "softbank": "E42F",
         "google": "FE7F1",
         "image": "1f69a.png",
-        "sheet_x": 29,
-        "sheet_y": 37,
+        "sheet_x": 30,
+        "sheet_y": 1,
         "short_name": "truck",
         "short_names": [
             "truck"
@@ -27487,8 +27539,8 @@
         "softbank": null,
         "google": null,
         "image": "1f69b.png",
-        "sheet_x": 29,
-        "sheet_y": 38,
+        "sheet_x": 30,
+        "sheet_y": 2,
         "short_name": "articulated_lorry",
         "short_names": [
             "articulated_lorry"
@@ -27513,8 +27565,8 @@
         "softbank": null,
         "google": null,
         "image": "1f69c.png",
-        "sheet_x": 29,
-        "sheet_y": 39,
+        "sheet_x": 30,
+        "sheet_y": 3,
         "short_name": "tractor",
         "short_names": [
             "tractor"
@@ -27539,8 +27591,8 @@
         "softbank": null,
         "google": null,
         "image": "1f69d.png",
-        "sheet_x": 29,
-        "sheet_y": 40,
+        "sheet_x": 30,
+        "sheet_y": 4,
         "short_name": "monorail",
         "short_names": [
             "monorail"
@@ -27566,7 +27618,7 @@
         "google": null,
         "image": "1f69e.png",
         "sheet_x": 30,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "mountain_railway",
         "short_names": [
             "mountain_railway"
@@ -27592,7 +27644,7 @@
         "google": null,
         "image": "1f69f.png",
         "sheet_x": 30,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "suspension_railway",
         "short_names": [
             "suspension_railway"
@@ -27618,7 +27670,7 @@
         "google": null,
         "image": "1f6a0.png",
         "sheet_x": 30,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "mountain_cableway",
         "short_names": [
             "mountain_cableway"
@@ -27644,7 +27696,7 @@
         "google": null,
         "image": "1f6a1.png",
         "sheet_x": 30,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "aerial_tramway",
         "short_names": [
             "aerial_tramway"
@@ -27670,7 +27722,7 @@
         "google": "FE7E8",
         "image": "1f6a2.png",
         "sheet_x": 30,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "ship",
         "short_names": [
             "ship"
@@ -27696,7 +27748,7 @@
         "google": null,
         "image": "1f6a3.png",
         "sheet_x": 30,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "rowboat",
         "short_names": [
             "rowboat"
@@ -27714,7 +27766,7 @@
                 "unified": "1F6A3-1F3FB",
                 "image": "1f6a3-1f3fb.png",
                 "sheet_x": 30,
-                "sheet_y": 6,
+                "sheet_y": 11,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -27724,7 +27776,7 @@
                 "unified": "1F6A3-1F3FC",
                 "image": "1f6a3-1f3fc.png",
                 "sheet_x": 30,
-                "sheet_y": 7,
+                "sheet_y": 12,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -27734,7 +27786,7 @@
                 "unified": "1F6A3-1F3FD",
                 "image": "1f6a3-1f3fd.png",
                 "sheet_x": 30,
-                "sheet_y": 8,
+                "sheet_y": 13,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -27744,7 +27796,7 @@
                 "unified": "1F6A3-1F3FE",
                 "image": "1f6a3-1f3fe.png",
                 "sheet_x": 30,
-                "sheet_y": 9,
+                "sheet_y": 14,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -27754,7 +27806,7 @@
                 "unified": "1F6A3-1F3FF",
                 "image": "1f6a3-1f3ff.png",
                 "sheet_x": 30,
-                "sheet_y": 10,
+                "sheet_y": 15,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -27774,7 +27826,7 @@
         "google": "FE7EE",
         "image": "1f6a4.png",
         "sheet_x": 30,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "speedboat",
         "short_names": [
             "speedboat"
@@ -27800,7 +27852,7 @@
         "google": "FE7F7",
         "image": "1f6a5.png",
         "sheet_x": 30,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "traffic_light",
         "short_names": [
             "traffic_light"
@@ -27826,7 +27878,7 @@
         "google": null,
         "image": "1f6a6.png",
         "sheet_x": 30,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "vertical_traffic_light",
         "short_names": [
             "vertical_traffic_light"
@@ -27852,7 +27904,7 @@
         "google": "FE7F8",
         "image": "1f6a7.png",
         "sheet_x": 30,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "construction",
         "short_names": [
             "construction"
@@ -27878,7 +27930,7 @@
         "google": "FE7F9",
         "image": "1f6a8.png",
         "sheet_x": 30,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "rotating_light",
         "short_names": [
             "rotating_light"
@@ -27904,7 +27956,7 @@
         "google": "FEB22",
         "image": "1f6a9.png",
         "sheet_x": 30,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "triangular_flag_on_post",
         "short_names": [
             "triangular_flag_on_post"
@@ -27930,7 +27982,7 @@
         "google": "FE4F3",
         "image": "1f6aa.png",
         "sheet_x": 30,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "door",
         "short_names": [
             "door"
@@ -27956,7 +28008,7 @@
         "google": "FEB48",
         "image": "1f6ab.png",
         "sheet_x": 30,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "no_entry_sign",
         "short_names": [
             "no_entry_sign"
@@ -27982,7 +28034,7 @@
         "google": "FEB1E",
         "image": "1f6ac.png",
         "sheet_x": 30,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "smoking",
         "short_names": [
             "smoking"
@@ -28008,7 +28060,7 @@
         "google": "FEB1F",
         "image": "1f6ad.png",
         "sheet_x": 30,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "no_smoking",
         "short_names": [
             "no_smoking"
@@ -28034,7 +28086,7 @@
         "google": null,
         "image": "1f6ae.png",
         "sheet_x": 30,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "put_litter_in_its_place",
         "short_names": [
             "put_litter_in_its_place"
@@ -28060,7 +28112,7 @@
         "google": null,
         "image": "1f6af.png",
         "sheet_x": 30,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "do_not_litter",
         "short_names": [
             "do_not_litter"
@@ -28086,7 +28138,7 @@
         "google": null,
         "image": "1f6b0.png",
         "sheet_x": 30,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "potable_water",
         "short_names": [
             "potable_water"
@@ -28112,7 +28164,7 @@
         "google": null,
         "image": "1f6b1.png",
         "sheet_x": 30,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "non-potable_water",
         "short_names": [
             "non-potable_water"
@@ -28138,7 +28190,7 @@
         "google": "FE7EB",
         "image": "1f6b2.png",
         "sheet_x": 30,
-        "sheet_y": 25,
+        "sheet_y": 30,
         "short_name": "bike",
         "short_names": [
             "bike"
@@ -28164,7 +28216,7 @@
         "google": null,
         "image": "1f6b3.png",
         "sheet_x": 30,
-        "sheet_y": 26,
+        "sheet_y": 31,
         "short_name": "no_bicycles",
         "short_names": [
             "no_bicycles"
@@ -28190,7 +28242,7 @@
         "google": null,
         "image": "1f6b4.png",
         "sheet_x": 30,
-        "sheet_y": 27,
+        "sheet_y": 32,
         "short_name": "bicyclist",
         "short_names": [
             "bicyclist"
@@ -28208,7 +28260,7 @@
                 "unified": "1F6B4-1F3FB",
                 "image": "1f6b4-1f3fb.png",
                 "sheet_x": 30,
-                "sheet_y": 28,
+                "sheet_y": 33,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -28218,7 +28270,7 @@
                 "unified": "1F6B4-1F3FC",
                 "image": "1f6b4-1f3fc.png",
                 "sheet_x": 30,
-                "sheet_y": 29,
+                "sheet_y": 34,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -28228,7 +28280,7 @@
                 "unified": "1F6B4-1F3FD",
                 "image": "1f6b4-1f3fd.png",
                 "sheet_x": 30,
-                "sheet_y": 30,
+                "sheet_y": 35,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -28238,7 +28290,7 @@
                 "unified": "1F6B4-1F3FE",
                 "image": "1f6b4-1f3fe.png",
                 "sheet_x": 30,
-                "sheet_y": 31,
+                "sheet_y": 36,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -28248,7 +28300,7 @@
                 "unified": "1F6B4-1F3FF",
                 "image": "1f6b4-1f3ff.png",
                 "sheet_x": 30,
-                "sheet_y": 32,
+                "sheet_y": 37,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -28268,7 +28320,7 @@
         "google": null,
         "image": "1f6b5.png",
         "sheet_x": 30,
-        "sheet_y": 33,
+        "sheet_y": 38,
         "short_name": "mountain_bicyclist",
         "short_names": [
             "mountain_bicyclist"
@@ -28286,7 +28338,7 @@
                 "unified": "1F6B5-1F3FB",
                 "image": "1f6b5-1f3fb.png",
                 "sheet_x": 30,
-                "sheet_y": 34,
+                "sheet_y": 39,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -28296,7 +28348,7 @@
                 "unified": "1F6B5-1F3FC",
                 "image": "1f6b5-1f3fc.png",
                 "sheet_x": 30,
-                "sheet_y": 35,
+                "sheet_y": 40,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -28305,8 +28357,8 @@
             "1F6B5-1F3FD": {
                 "unified": "1F6B5-1F3FD",
                 "image": "1f6b5-1f3fd.png",
-                "sheet_x": 30,
-                "sheet_y": 36,
+                "sheet_x": 31,
+                "sheet_y": 0,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -28315,8 +28367,8 @@
             "1F6B5-1F3FE": {
                 "unified": "1F6B5-1F3FE",
                 "image": "1f6b5-1f3fe.png",
-                "sheet_x": 30,
-                "sheet_y": 37,
+                "sheet_x": 31,
+                "sheet_y": 1,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -28325,8 +28377,8 @@
             "1F6B5-1F3FF": {
                 "unified": "1F6B5-1F3FF",
                 "image": "1f6b5-1f3ff.png",
-                "sheet_x": 30,
-                "sheet_y": 38,
+                "sheet_x": 31,
+                "sheet_y": 2,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -28345,8 +28397,8 @@
         "softbank": "E201",
         "google": "FE7F0",
         "image": "1f6b6.png",
-        "sheet_x": 30,
-        "sheet_y": 39,
+        "sheet_x": 31,
+        "sheet_y": 3,
         "short_name": "walking",
         "short_names": [
             "walking"
@@ -28363,8 +28415,8 @@
             "1F6B6-1F3FB": {
                 "unified": "1F6B6-1F3FB",
                 "image": "1f6b6-1f3fb.png",
-                "sheet_x": 30,
-                "sheet_y": 40,
+                "sheet_x": 31,
+                "sheet_y": 4,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -28374,7 +28426,7 @@
                 "unified": "1F6B6-1F3FC",
                 "image": "1f6b6-1f3fc.png",
                 "sheet_x": 31,
-                "sheet_y": 0,
+                "sheet_y": 5,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -28384,7 +28436,7 @@
                 "unified": "1F6B6-1F3FD",
                 "image": "1f6b6-1f3fd.png",
                 "sheet_x": 31,
-                "sheet_y": 1,
+                "sheet_y": 6,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -28394,7 +28446,7 @@
                 "unified": "1F6B6-1F3FE",
                 "image": "1f6b6-1f3fe.png",
                 "sheet_x": 31,
-                "sheet_y": 2,
+                "sheet_y": 7,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -28404,7 +28456,7 @@
                 "unified": "1F6B6-1F3FF",
                 "image": "1f6b6-1f3ff.png",
                 "sheet_x": 31,
-                "sheet_y": 3,
+                "sheet_y": 8,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -28424,7 +28476,7 @@
         "google": null,
         "image": "1f6b7.png",
         "sheet_x": 31,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "no_pedestrians",
         "short_names": [
             "no_pedestrians"
@@ -28450,7 +28502,7 @@
         "google": null,
         "image": "1f6b8.png",
         "sheet_x": 31,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "children_crossing",
         "short_names": [
             "children_crossing"
@@ -28476,7 +28528,7 @@
         "google": "FEB33",
         "image": "1f6b9.png",
         "sheet_x": 31,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "mens",
         "short_names": [
             "mens"
@@ -28502,7 +28554,7 @@
         "google": "FEB34",
         "image": "1f6ba.png",
         "sheet_x": 31,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "womens",
         "short_names": [
             "womens"
@@ -28528,7 +28580,7 @@
         "google": "FE506",
         "image": "1f6bb.png",
         "sheet_x": 31,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "restroom",
         "short_names": [
             "restroom"
@@ -28554,7 +28606,7 @@
         "google": "FEB35",
         "image": "1f6bc.png",
         "sheet_x": 31,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "baby_symbol",
         "short_names": [
             "baby_symbol"
@@ -28580,7 +28632,7 @@
         "google": "FE507",
         "image": "1f6bd.png",
         "sheet_x": 31,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "toilet",
         "short_names": [
             "toilet"
@@ -28606,7 +28658,7 @@
         "google": "FE508",
         "image": "1f6be.png",
         "sheet_x": 31,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "wc",
         "short_names": [
             "wc"
@@ -28632,7 +28684,7 @@
         "google": null,
         "image": "1f6bf.png",
         "sheet_x": 31,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "shower",
         "short_names": [
             "shower"
@@ -28658,7 +28710,7 @@
         "google": "FE505",
         "image": "1f6c0.png",
         "sheet_x": 31,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "bath",
         "short_names": [
             "bath"
@@ -28676,7 +28728,7 @@
                 "unified": "1F6C0-1F3FB",
                 "image": "1f6c0-1f3fb.png",
                 "sheet_x": 31,
-                "sheet_y": 14,
+                "sheet_y": 19,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -28686,7 +28738,7 @@
                 "unified": "1F6C0-1F3FC",
                 "image": "1f6c0-1f3fc.png",
                 "sheet_x": 31,
-                "sheet_y": 15,
+                "sheet_y": 20,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -28696,7 +28748,7 @@
                 "unified": "1F6C0-1F3FD",
                 "image": "1f6c0-1f3fd.png",
                 "sheet_x": 31,
-                "sheet_y": 16,
+                "sheet_y": 21,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -28706,7 +28758,7 @@
                 "unified": "1F6C0-1F3FE",
                 "image": "1f6c0-1f3fe.png",
                 "sheet_x": 31,
-                "sheet_y": 17,
+                "sheet_y": 22,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -28716,7 +28768,7 @@
                 "unified": "1F6C0-1F3FF",
                 "image": "1f6c0-1f3ff.png",
                 "sheet_x": 31,
-                "sheet_y": 18,
+                "sheet_y": 23,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -28736,7 +28788,7 @@
         "google": null,
         "image": "1f6c1.png",
         "sheet_x": 31,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "bathtub",
         "short_names": [
             "bathtub"
@@ -28762,7 +28814,7 @@
         "google": null,
         "image": "1f6c2.png",
         "sheet_x": 31,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "passport_control",
         "short_names": [
             "passport_control"
@@ -28788,7 +28840,7 @@
         "google": null,
         "image": "1f6c3.png",
         "sheet_x": 31,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "customs",
         "short_names": [
             "customs"
@@ -28814,7 +28866,7 @@
         "google": null,
         "image": "1f6c4.png",
         "sheet_x": 31,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "baggage_claim",
         "short_names": [
             "baggage_claim"
@@ -28840,7 +28892,7 @@
         "google": null,
         "image": "1f6c5.png",
         "sheet_x": 31,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "left_luggage",
         "short_names": [
             "left_luggage"
@@ -28866,7 +28918,7 @@
         "google": null,
         "image": "1f6cb.png",
         "sheet_x": 31,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "couch_and_lamp",
         "short_names": [
             "couch_and_lamp"
@@ -28892,7 +28944,7 @@
         "google": null,
         "image": "1f6cc.png",
         "sheet_x": 31,
-        "sheet_y": 25,
+        "sheet_y": 30,
         "short_name": "sleeping_accommodation",
         "short_names": [
             "sleeping_accommodation"
@@ -28918,7 +28970,7 @@
         "google": null,
         "image": "1f6cd.png",
         "sheet_x": 31,
-        "sheet_y": 26,
+        "sheet_y": 31,
         "short_name": "shopping_bags",
         "short_names": [
             "shopping_bags"
@@ -28944,7 +28996,7 @@
         "google": null,
         "image": "1f6ce.png",
         "sheet_x": 31,
-        "sheet_y": 27,
+        "sheet_y": 32,
         "short_name": "bellhop_bell",
         "short_names": [
             "bellhop_bell"
@@ -28970,7 +29022,7 @@
         "google": null,
         "image": "1f6cf.png",
         "sheet_x": 31,
-        "sheet_y": 28,
+        "sheet_y": 33,
         "short_name": "bed",
         "short_names": [
             "bed"
@@ -28996,7 +29048,7 @@
         "google": null,
         "image": "1f6d0.png",
         "sheet_x": 31,
-        "sheet_y": 29,
+        "sheet_y": 34,
         "short_name": "place_of_worship",
         "short_names": [
             "place_of_worship"
@@ -29022,7 +29074,7 @@
         "google": null,
         "image": "1f6e0.png",
         "sheet_x": 31,
-        "sheet_y": 30,
+        "sheet_y": 35,
         "short_name": "hammer_and_wrench",
         "short_names": [
             "hammer_and_wrench"
@@ -29048,7 +29100,7 @@
         "google": null,
         "image": "1f6e1.png",
         "sheet_x": 31,
-        "sheet_y": 31,
+        "sheet_y": 36,
         "short_name": "shield",
         "short_names": [
             "shield"
@@ -29074,7 +29126,7 @@
         "google": null,
         "image": "1f6e2.png",
         "sheet_x": 31,
-        "sheet_y": 32,
+        "sheet_y": 37,
         "short_name": "oil_drum",
         "short_names": [
             "oil_drum"
@@ -29100,7 +29152,7 @@
         "google": null,
         "image": "1f6e3.png",
         "sheet_x": 31,
-        "sheet_y": 33,
+        "sheet_y": 38,
         "short_name": "motorway",
         "short_names": [
             "motorway"
@@ -29126,7 +29178,7 @@
         "google": null,
         "image": "1f6e4.png",
         "sheet_x": 31,
-        "sheet_y": 34,
+        "sheet_y": 39,
         "short_name": "railway_track",
         "short_names": [
             "railway_track"
@@ -29152,7 +29204,7 @@
         "google": null,
         "image": "1f6e5.png",
         "sheet_x": 31,
-        "sheet_y": 35,
+        "sheet_y": 40,
         "short_name": "motor_boat",
         "short_names": [
             "motor_boat"
@@ -29177,8 +29229,8 @@
         "softbank": null,
         "google": null,
         "image": "1f6e9.png",
-        "sheet_x": 31,
-        "sheet_y": 36,
+        "sheet_x": 32,
+        "sheet_y": 0,
         "short_name": "small_airplane",
         "short_names": [
             "small_airplane"
@@ -29203,8 +29255,8 @@
         "softbank": null,
         "google": null,
         "image": "1f6eb.png",
-        "sheet_x": 31,
-        "sheet_y": 37,
+        "sheet_x": 32,
+        "sheet_y": 1,
         "short_name": "airplane_departure",
         "short_names": [
             "airplane_departure"
@@ -29229,8 +29281,8 @@
         "softbank": null,
         "google": null,
         "image": "1f6ec.png",
-        "sheet_x": 31,
-        "sheet_y": 38,
+        "sheet_x": 32,
+        "sheet_y": 2,
         "short_name": "airplane_arriving",
         "short_names": [
             "airplane_arriving"
@@ -29255,8 +29307,8 @@
         "softbank": null,
         "google": null,
         "image": "1f6f0.png",
-        "sheet_x": 31,
-        "sheet_y": 39,
+        "sheet_x": 32,
+        "sheet_y": 3,
         "short_name": "satellite",
         "short_names": [
             "satellite"
@@ -29281,8 +29333,8 @@
         "softbank": null,
         "google": null,
         "image": "1f6f3.png",
-        "sheet_x": 31,
-        "sheet_y": 40,
+        "sheet_x": 32,
+        "sheet_y": 4,
         "short_name": "passenger_ship",
         "short_names": [
             "passenger_ship"
@@ -29308,7 +29360,7 @@
         "google": null,
         "image": "1f910.png",
         "sheet_x": 32,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "zipper_mouth_face",
         "short_names": [
             "zipper_mouth_face"
@@ -29334,7 +29386,7 @@
         "google": null,
         "image": "1f911.png",
         "sheet_x": 32,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "money_mouth_face",
         "short_names": [
             "money_mouth_face"
@@ -29360,7 +29412,7 @@
         "google": null,
         "image": "1f912.png",
         "sheet_x": 32,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "face_with_thermometer",
         "short_names": [
             "face_with_thermometer"
@@ -29386,7 +29438,7 @@
         "google": null,
         "image": "1f913.png",
         "sheet_x": 32,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "nerd_face",
         "short_names": [
             "nerd_face"
@@ -29412,7 +29464,7 @@
         "google": null,
         "image": "1f914.png",
         "sheet_x": 32,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "thinking_face",
         "short_names": [
             "thinking_face"
@@ -29438,7 +29490,7 @@
         "google": null,
         "image": "1f915.png",
         "sheet_x": 32,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "face_with_head_bandage",
         "short_names": [
             "face_with_head_bandage"
@@ -29464,7 +29516,7 @@
         "google": null,
         "image": "1f916.png",
         "sheet_x": 32,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "robot_face",
         "short_names": [
             "robot_face"
@@ -29490,7 +29542,7 @@
         "google": null,
         "image": "1f917.png",
         "sheet_x": 32,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "hugging_face",
         "short_names": [
             "hugging_face"
@@ -29516,7 +29568,7 @@
         "google": null,
         "image": "1f918.png",
         "sheet_x": 32,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "the_horns",
         "short_names": [
             "the_horns",
@@ -29535,7 +29587,7 @@
                 "unified": "1F918-1F3FB",
                 "image": "1f918-1f3fb.png",
                 "sheet_x": 32,
-                "sheet_y": 9,
+                "sheet_y": 14,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -29545,7 +29597,7 @@
                 "unified": "1F918-1F3FC",
                 "image": "1f918-1f3fc.png",
                 "sheet_x": 32,
-                "sheet_y": 10,
+                "sheet_y": 15,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -29555,7 +29607,7 @@
                 "unified": "1F918-1F3FD",
                 "image": "1f918-1f3fd.png",
                 "sheet_x": 32,
-                "sheet_y": 11,
+                "sheet_y": 16,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -29565,7 +29617,7 @@
                 "unified": "1F918-1F3FE",
                 "image": "1f918-1f3fe.png",
                 "sheet_x": 32,
-                "sheet_y": 12,
+                "sheet_y": 17,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -29575,7 +29627,7 @@
                 "unified": "1F918-1F3FF",
                 "image": "1f918-1f3ff.png",
                 "sheet_x": 32,
-                "sheet_y": 13,
+                "sheet_y": 18,
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": true,
@@ -29595,7 +29647,7 @@
         "google": null,
         "image": "1f980.png",
         "sheet_x": 32,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "crab",
         "short_names": [
             "crab"
@@ -29621,7 +29673,7 @@
         "google": null,
         "image": "1f981.png",
         "sheet_x": 32,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "lion_face",
         "short_names": [
             "lion_face"
@@ -29647,7 +29699,7 @@
         "google": null,
         "image": "1f982.png",
         "sheet_x": 32,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "scorpion",
         "short_names": [
             "scorpion"
@@ -29673,7 +29725,7 @@
         "google": null,
         "image": "1f983.png",
         "sheet_x": 32,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "turkey",
         "short_names": [
             "turkey"
@@ -29699,7 +29751,7 @@
         "google": null,
         "image": "1f984.png",
         "sheet_x": 32,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "unicorn_face",
         "short_names": [
             "unicorn_face"
@@ -29725,7 +29777,7 @@
         "google": null,
         "image": "1f9c0.png",
         "sheet_x": 32,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "cheese_wedge",
         "short_names": [
             "cheese_wedge"
@@ -29751,7 +29803,7 @@
         "google": "FE82C",
         "image": "0023-20e3.png",
         "sheet_x": 32,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "hash",
         "short_names": [
             "hash"
@@ -29777,7 +29829,7 @@
         "google": null,
         "image": "002a-20e3.png",
         "sheet_x": 32,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "keycap_star",
         "short_names": [
             "keycap_star"
@@ -29803,7 +29855,7 @@
         "google": "FE837",
         "image": "0030-20e3.png",
         "sheet_x": 32,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "zero",
         "short_names": [
             "zero"
@@ -29829,7 +29881,7 @@
         "google": "FE82E",
         "image": "0031-20e3.png",
         "sheet_x": 32,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "one",
         "short_names": [
             "one"
@@ -29855,7 +29907,7 @@
         "google": "FE82F",
         "image": "0032-20e3.png",
         "sheet_x": 32,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "two",
         "short_names": [
             "two"
@@ -29881,7 +29933,7 @@
         "google": "FE830",
         "image": "0033-20e3.png",
         "sheet_x": 32,
-        "sheet_y": 25,
+        "sheet_y": 30,
         "short_name": "three",
         "short_names": [
             "three"
@@ -29907,7 +29959,7 @@
         "google": "FE831",
         "image": "0034-20e3.png",
         "sheet_x": 32,
-        "sheet_y": 26,
+        "sheet_y": 31,
         "short_name": "four",
         "short_names": [
             "four"
@@ -29933,7 +29985,7 @@
         "google": "FE832",
         "image": "0035-20e3.png",
         "sheet_x": 32,
-        "sheet_y": 27,
+        "sheet_y": 32,
         "short_name": "five",
         "short_names": [
             "five"
@@ -29959,7 +30011,7 @@
         "google": "FE833",
         "image": "0036-20e3.png",
         "sheet_x": 32,
-        "sheet_y": 28,
+        "sheet_y": 33,
         "short_name": "six",
         "short_names": [
             "six"
@@ -29985,7 +30037,7 @@
         "google": "FE834",
         "image": "0037-20e3.png",
         "sheet_x": 32,
-        "sheet_y": 29,
+        "sheet_y": 34,
         "short_name": "seven",
         "short_names": [
             "seven"
@@ -30011,7 +30063,7 @@
         "google": "FE835",
         "image": "0038-20e3.png",
         "sheet_x": 32,
-        "sheet_y": 30,
+        "sheet_y": 35,
         "short_name": "eight",
         "short_names": [
             "eight"
@@ -30037,7 +30089,7 @@
         "google": "FE836",
         "image": "0039-20e3.png",
         "sheet_x": 32,
-        "sheet_y": 31,
+        "sheet_y": 36,
         "short_name": "nine",
         "short_names": [
             "nine"
@@ -30063,7 +30115,7 @@
         "google": null,
         "image": "1f1e6-1f1e8.png",
         "sheet_x": 32,
-        "sheet_y": 32,
+        "sheet_y": 37,
         "short_name": "flag-ac",
         "short_names": [
             "flag-ac"
@@ -30089,7 +30141,7 @@
         "google": null,
         "image": "1f1e6-1f1e9.png",
         "sheet_x": 32,
-        "sheet_y": 33,
+        "sheet_y": 38,
         "short_name": "flag-ad",
         "short_names": [
             "flag-ad"
@@ -30115,7 +30167,7 @@
         "google": null,
         "image": "1f1e6-1f1ea.png",
         "sheet_x": 32,
-        "sheet_y": 34,
+        "sheet_y": 39,
         "short_name": "flag-ae",
         "short_names": [
             "flag-ae"
@@ -30141,7 +30193,7 @@
         "google": null,
         "image": "1f1e6-1f1eb.png",
         "sheet_x": 32,
-        "sheet_y": 35,
+        "sheet_y": 40,
         "short_name": "flag-af",
         "short_names": [
             "flag-af"
@@ -30166,8 +30218,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1e6-1f1ec.png",
-        "sheet_x": 32,
-        "sheet_y": 36,
+        "sheet_x": 33,
+        "sheet_y": 0,
         "short_name": "flag-ag",
         "short_names": [
             "flag-ag"
@@ -30192,8 +30244,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1e6-1f1ee.png",
-        "sheet_x": 32,
-        "sheet_y": 37,
+        "sheet_x": 33,
+        "sheet_y": 1,
         "short_name": "flag-ai",
         "short_names": [
             "flag-ai"
@@ -30218,8 +30270,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1e6-1f1f1.png",
-        "sheet_x": 32,
-        "sheet_y": 38,
+        "sheet_x": 33,
+        "sheet_y": 2,
         "short_name": "flag-al",
         "short_names": [
             "flag-al"
@@ -30244,8 +30296,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1e6-1f1f2.png",
-        "sheet_x": 32,
-        "sheet_y": 39,
+        "sheet_x": 33,
+        "sheet_y": 3,
         "short_name": "flag-am",
         "short_names": [
             "flag-am"
@@ -30270,8 +30322,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1e6-1f1f4.png",
-        "sheet_x": 32,
-        "sheet_y": 40,
+        "sheet_x": 33,
+        "sheet_y": 4,
         "short_name": "flag-ao",
         "short_names": [
             "flag-ao"
@@ -30297,7 +30349,7 @@
         "google": null,
         "image": "1f1e6-1f1f6.png",
         "sheet_x": 33,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "flag-aq",
         "short_names": [
             "flag-aq"
@@ -30323,7 +30375,7 @@
         "google": null,
         "image": "1f1e6-1f1f7.png",
         "sheet_x": 33,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "flag-ar",
         "short_names": [
             "flag-ar"
@@ -30349,7 +30401,7 @@
         "google": null,
         "image": "1f1e6-1f1f8.png",
         "sheet_x": 33,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "flag-as",
         "short_names": [
             "flag-as"
@@ -30375,7 +30427,7 @@
         "google": null,
         "image": "1f1e6-1f1f9.png",
         "sheet_x": 33,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "flag-at",
         "short_names": [
             "flag-at"
@@ -30401,7 +30453,7 @@
         "google": null,
         "image": "1f1e6-1f1fa.png",
         "sheet_x": 33,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "flag-au",
         "short_names": [
             "flag-au"
@@ -30427,7 +30479,7 @@
         "google": null,
         "image": "1f1e6-1f1fc.png",
         "sheet_x": 33,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "flag-aw",
         "short_names": [
             "flag-aw"
@@ -30453,7 +30505,7 @@
         "google": null,
         "image": "1f1e6-1f1fd.png",
         "sheet_x": 33,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "flag-ax",
         "short_names": [
             "flag-ax"
@@ -30479,7 +30531,7 @@
         "google": null,
         "image": "1f1e6-1f1ff.png",
         "sheet_x": 33,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "flag-az",
         "short_names": [
             "flag-az"
@@ -30505,7 +30557,7 @@
         "google": null,
         "image": "1f1e7-1f1e6.png",
         "sheet_x": 33,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "flag-ba",
         "short_names": [
             "flag-ba"
@@ -30531,7 +30583,7 @@
         "google": null,
         "image": "1f1e7-1f1e7.png",
         "sheet_x": 33,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "flag-bb",
         "short_names": [
             "flag-bb"
@@ -30557,7 +30609,7 @@
         "google": null,
         "image": "1f1e7-1f1e9.png",
         "sheet_x": 33,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "flag-bd",
         "short_names": [
             "flag-bd"
@@ -30583,7 +30635,7 @@
         "google": null,
         "image": "1f1e7-1f1ea.png",
         "sheet_x": 33,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "flag-be",
         "short_names": [
             "flag-be"
@@ -30609,7 +30661,7 @@
         "google": null,
         "image": "1f1e7-1f1eb.png",
         "sheet_x": 33,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "flag-bf",
         "short_names": [
             "flag-bf"
@@ -30635,7 +30687,7 @@
         "google": null,
         "image": "1f1e7-1f1ec.png",
         "sheet_x": 33,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "flag-bg",
         "short_names": [
             "flag-bg"
@@ -30661,7 +30713,7 @@
         "google": null,
         "image": "1f1e7-1f1ed.png",
         "sheet_x": 33,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "flag-bh",
         "short_names": [
             "flag-bh"
@@ -30687,7 +30739,7 @@
         "google": null,
         "image": "1f1e7-1f1ee.png",
         "sheet_x": 33,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "flag-bi",
         "short_names": [
             "flag-bi"
@@ -30713,7 +30765,7 @@
         "google": null,
         "image": "1f1e7-1f1ef.png",
         "sheet_x": 33,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "flag-bj",
         "short_names": [
             "flag-bj"
@@ -30739,7 +30791,7 @@
         "google": null,
         "image": "1f1e7-1f1f1.png",
         "sheet_x": 33,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "flag-bl",
         "short_names": [
             "flag-bl"
@@ -30765,7 +30817,7 @@
         "google": null,
         "image": "1f1e7-1f1f2.png",
         "sheet_x": 33,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "flag-bm",
         "short_names": [
             "flag-bm"
@@ -30791,7 +30843,7 @@
         "google": null,
         "image": "1f1e7-1f1f3.png",
         "sheet_x": 33,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "flag-bn",
         "short_names": [
             "flag-bn"
@@ -30817,7 +30869,7 @@
         "google": null,
         "image": "1f1e7-1f1f4.png",
         "sheet_x": 33,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "flag-bo",
         "short_names": [
             "flag-bo"
@@ -30843,7 +30895,7 @@
         "google": null,
         "image": "1f1e7-1f1f6.png",
         "sheet_x": 33,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "flag-bq",
         "short_names": [
             "flag-bq"
@@ -30869,7 +30921,7 @@
         "google": null,
         "image": "1f1e7-1f1f7.png",
         "sheet_x": 33,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "flag-br",
         "short_names": [
             "flag-br"
@@ -30895,7 +30947,7 @@
         "google": null,
         "image": "1f1e7-1f1f8.png",
         "sheet_x": 33,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "flag-bs",
         "short_names": [
             "flag-bs"
@@ -30921,7 +30973,7 @@
         "google": null,
         "image": "1f1e7-1f1f9.png",
         "sheet_x": 33,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "flag-bt",
         "short_names": [
             "flag-bt"
@@ -30947,7 +30999,7 @@
         "google": null,
         "image": "1f1e7-1f1fb.png",
         "sheet_x": 33,
-        "sheet_y": 25,
+        "sheet_y": 30,
         "short_name": "flag-bv",
         "short_names": [
             "flag-bv"
@@ -30973,7 +31025,7 @@
         "google": null,
         "image": "1f1e7-1f1fc.png",
         "sheet_x": 33,
-        "sheet_y": 26,
+        "sheet_y": 31,
         "short_name": "flag-bw",
         "short_names": [
             "flag-bw"
@@ -30999,7 +31051,7 @@
         "google": null,
         "image": "1f1e7-1f1fe.png",
         "sheet_x": 33,
-        "sheet_y": 27,
+        "sheet_y": 32,
         "short_name": "flag-by",
         "short_names": [
             "flag-by"
@@ -31025,7 +31077,7 @@
         "google": null,
         "image": "1f1e7-1f1ff.png",
         "sheet_x": 33,
-        "sheet_y": 28,
+        "sheet_y": 33,
         "short_name": "flag-bz",
         "short_names": [
             "flag-bz"
@@ -31051,7 +31103,7 @@
         "google": null,
         "image": "1f1e8-1f1e6.png",
         "sheet_x": 33,
-        "sheet_y": 29,
+        "sheet_y": 34,
         "short_name": "flag-ca",
         "short_names": [
             "flag-ca"
@@ -31077,7 +31129,7 @@
         "google": null,
         "image": "1f1e8-1f1e8.png",
         "sheet_x": 33,
-        "sheet_y": 30,
+        "sheet_y": 35,
         "short_name": "flag-cc",
         "short_names": [
             "flag-cc"
@@ -31103,7 +31155,7 @@
         "google": null,
         "image": "1f1e8-1f1e9.png",
         "sheet_x": 33,
-        "sheet_y": 31,
+        "sheet_y": 36,
         "short_name": "flag-cd",
         "short_names": [
             "flag-cd"
@@ -31129,7 +31181,7 @@
         "google": null,
         "image": "1f1e8-1f1eb.png",
         "sheet_x": 33,
-        "sheet_y": 32,
+        "sheet_y": 37,
         "short_name": "flag-cf",
         "short_names": [
             "flag-cf"
@@ -31155,7 +31207,7 @@
         "google": null,
         "image": "1f1e8-1f1ec.png",
         "sheet_x": 33,
-        "sheet_y": 33,
+        "sheet_y": 38,
         "short_name": "flag-cg",
         "short_names": [
             "flag-cg"
@@ -31181,7 +31233,7 @@
         "google": null,
         "image": "1f1e8-1f1ed.png",
         "sheet_x": 33,
-        "sheet_y": 34,
+        "sheet_y": 39,
         "short_name": "flag-ch",
         "short_names": [
             "flag-ch"
@@ -31207,7 +31259,7 @@
         "google": null,
         "image": "1f1e8-1f1ee.png",
         "sheet_x": 33,
-        "sheet_y": 35,
+        "sheet_y": 40,
         "short_name": "flag-ci",
         "short_names": [
             "flag-ci"
@@ -31232,8 +31284,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1e8-1f1f0.png",
-        "sheet_x": 33,
-        "sheet_y": 36,
+        "sheet_x": 34,
+        "sheet_y": 0,
         "short_name": "flag-ck",
         "short_names": [
             "flag-ck"
@@ -31258,8 +31310,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1e8-1f1f1.png",
-        "sheet_x": 33,
-        "sheet_y": 37,
+        "sheet_x": 34,
+        "sheet_y": 1,
         "short_name": "flag-cl",
         "short_names": [
             "flag-cl"
@@ -31284,8 +31336,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1e8-1f1f2.png",
-        "sheet_x": 33,
-        "sheet_y": 38,
+        "sheet_x": 34,
+        "sheet_y": 2,
         "short_name": "flag-cm",
         "short_names": [
             "flag-cm"
@@ -31310,8 +31362,8 @@
         "softbank": "E513",
         "google": "FE4ED",
         "image": "1f1e8-1f1f3.png",
-        "sheet_x": 33,
-        "sheet_y": 39,
+        "sheet_x": 34,
+        "sheet_y": 3,
         "short_name": "flag-cn",
         "short_names": [
             "flag-cn",
@@ -31337,8 +31389,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1e8-1f1f4.png",
-        "sheet_x": 33,
-        "sheet_y": 40,
+        "sheet_x": 34,
+        "sheet_y": 4,
         "short_name": "flag-co",
         "short_names": [
             "flag-co"
@@ -31364,7 +31416,7 @@
         "google": null,
         "image": "1f1e8-1f1f5.png",
         "sheet_x": 34,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "flag-cp",
         "short_names": [
             "flag-cp"
@@ -31390,7 +31442,7 @@
         "google": null,
         "image": "1f1e8-1f1f7.png",
         "sheet_x": 34,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "flag-cr",
         "short_names": [
             "flag-cr"
@@ -31416,7 +31468,7 @@
         "google": null,
         "image": "1f1e8-1f1fa.png",
         "sheet_x": 34,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "flag-cu",
         "short_names": [
             "flag-cu"
@@ -31442,7 +31494,7 @@
         "google": null,
         "image": "1f1e8-1f1fb.png",
         "sheet_x": 34,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "flag-cv",
         "short_names": [
             "flag-cv"
@@ -31468,7 +31520,7 @@
         "google": null,
         "image": "1f1e8-1f1fc.png",
         "sheet_x": 34,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "flag-cw",
         "short_names": [
             "flag-cw"
@@ -31494,7 +31546,7 @@
         "google": null,
         "image": "1f1e8-1f1fd.png",
         "sheet_x": 34,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "flag-cx",
         "short_names": [
             "flag-cx"
@@ -31520,7 +31572,7 @@
         "google": null,
         "image": "1f1e8-1f1fe.png",
         "sheet_x": 34,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "flag-cy",
         "short_names": [
             "flag-cy"
@@ -31546,7 +31598,7 @@
         "google": null,
         "image": "1f1e8-1f1ff.png",
         "sheet_x": 34,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "flag-cz",
         "short_names": [
             "flag-cz"
@@ -31572,7 +31624,7 @@
         "google": "FE4E8",
         "image": "1f1e9-1f1ea.png",
         "sheet_x": 34,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "flag-de",
         "short_names": [
             "flag-de",
@@ -31599,7 +31651,7 @@
         "google": null,
         "image": "1f1e9-1f1ec.png",
         "sheet_x": 34,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "flag-dg",
         "short_names": [
             "flag-dg"
@@ -31625,7 +31677,7 @@
         "google": null,
         "image": "1f1e9-1f1ef.png",
         "sheet_x": 34,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "flag-dj",
         "short_names": [
             "flag-dj"
@@ -31651,7 +31703,7 @@
         "google": null,
         "image": "1f1e9-1f1f0.png",
         "sheet_x": 34,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "flag-dk",
         "short_names": [
             "flag-dk"
@@ -31677,7 +31729,7 @@
         "google": null,
         "image": "1f1e9-1f1f2.png",
         "sheet_x": 34,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "flag-dm",
         "short_names": [
             "flag-dm"
@@ -31703,7 +31755,7 @@
         "google": null,
         "image": "1f1e9-1f1f4.png",
         "sheet_x": 34,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "flag-do",
         "short_names": [
             "flag-do"
@@ -31729,7 +31781,7 @@
         "google": null,
         "image": "1f1e9-1f1ff.png",
         "sheet_x": 34,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "flag-dz",
         "short_names": [
             "flag-dz"
@@ -31755,7 +31807,7 @@
         "google": null,
         "image": "1f1ea-1f1e6.png",
         "sheet_x": 34,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "flag-ea",
         "short_names": [
             "flag-ea"
@@ -31781,7 +31833,7 @@
         "google": null,
         "image": "1f1ea-1f1e8.png",
         "sheet_x": 34,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "flag-ec",
         "short_names": [
             "flag-ec"
@@ -31807,7 +31859,7 @@
         "google": null,
         "image": "1f1ea-1f1ea.png",
         "sheet_x": 34,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "flag-ee",
         "short_names": [
             "flag-ee"
@@ -31833,7 +31885,7 @@
         "google": null,
         "image": "1f1ea-1f1ec.png",
         "sheet_x": 34,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "flag-eg",
         "short_names": [
             "flag-eg"
@@ -31859,7 +31911,7 @@
         "google": null,
         "image": "1f1ea-1f1ed.png",
         "sheet_x": 34,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "flag-eh",
         "short_names": [
             "flag-eh"
@@ -31885,7 +31937,7 @@
         "google": null,
         "image": "1f1ea-1f1f7.png",
         "sheet_x": 34,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "flag-er",
         "short_names": [
             "flag-er"
@@ -31911,7 +31963,7 @@
         "google": "FE4EB",
         "image": "1f1ea-1f1f8.png",
         "sheet_x": 34,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "flag-es",
         "short_names": [
             "flag-es",
@@ -31938,7 +31990,7 @@
         "google": null,
         "image": "1f1ea-1f1f9.png",
         "sheet_x": 34,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "flag-et",
         "short_names": [
             "flag-et"
@@ -31964,7 +32016,7 @@
         "google": null,
         "image": "1f1ea-1f1fa.png",
         "sheet_x": 34,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "flag-eu",
         "short_names": [
             "flag-eu"
@@ -31990,7 +32042,7 @@
         "google": null,
         "image": "1f1eb-1f1ee.png",
         "sheet_x": 34,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "flag-fi",
         "short_names": [
             "flag-fi"
@@ -32016,7 +32068,7 @@
         "google": null,
         "image": "1f1eb-1f1ef.png",
         "sheet_x": 34,
-        "sheet_y": 25,
+        "sheet_y": 30,
         "short_name": "flag-fj",
         "short_names": [
             "flag-fj"
@@ -32042,7 +32094,7 @@
         "google": null,
         "image": "1f1eb-1f1f0.png",
         "sheet_x": 34,
-        "sheet_y": 26,
+        "sheet_y": 31,
         "short_name": "flag-fk",
         "short_names": [
             "flag-fk"
@@ -32068,7 +32120,7 @@
         "google": null,
         "image": "1f1eb-1f1f2.png",
         "sheet_x": 34,
-        "sheet_y": 27,
+        "sheet_y": 32,
         "short_name": "flag-fm",
         "short_names": [
             "flag-fm"
@@ -32094,7 +32146,7 @@
         "google": null,
         "image": "1f1eb-1f1f4.png",
         "sheet_x": 34,
-        "sheet_y": 28,
+        "sheet_y": 33,
         "short_name": "flag-fo",
         "short_names": [
             "flag-fo"
@@ -32120,7 +32172,7 @@
         "google": "FE4E7",
         "image": "1f1eb-1f1f7.png",
         "sheet_x": 34,
-        "sheet_y": 29,
+        "sheet_y": 34,
         "short_name": "flag-fr",
         "short_names": [
             "flag-fr",
@@ -32147,7 +32199,7 @@
         "google": null,
         "image": "1f1ec-1f1e6.png",
         "sheet_x": 34,
-        "sheet_y": 30,
+        "sheet_y": 35,
         "short_name": "flag-ga",
         "short_names": [
             "flag-ga"
@@ -32173,7 +32225,7 @@
         "google": "FE4EA",
         "image": "1f1ec-1f1e7.png",
         "sheet_x": 34,
-        "sheet_y": 31,
+        "sheet_y": 36,
         "short_name": "flag-gb",
         "short_names": [
             "flag-gb",
@@ -32201,7 +32253,7 @@
         "google": null,
         "image": "1f1ec-1f1e9.png",
         "sheet_x": 34,
-        "sheet_y": 32,
+        "sheet_y": 37,
         "short_name": "flag-gd",
         "short_names": [
             "flag-gd"
@@ -32227,7 +32279,7 @@
         "google": null,
         "image": "1f1ec-1f1ea.png",
         "sheet_x": 34,
-        "sheet_y": 33,
+        "sheet_y": 38,
         "short_name": "flag-ge",
         "short_names": [
             "flag-ge"
@@ -32253,7 +32305,7 @@
         "google": null,
         "image": "1f1ec-1f1eb.png",
         "sheet_x": 34,
-        "sheet_y": 34,
+        "sheet_y": 39,
         "short_name": "flag-gf",
         "short_names": [
             "flag-gf"
@@ -32279,7 +32331,7 @@
         "google": null,
         "image": "1f1ec-1f1ec.png",
         "sheet_x": 34,
-        "sheet_y": 35,
+        "sheet_y": 40,
         "short_name": "flag-gg",
         "short_names": [
             "flag-gg"
@@ -32304,8 +32356,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1ec-1f1ed.png",
-        "sheet_x": 34,
-        "sheet_y": 36,
+        "sheet_x": 35,
+        "sheet_y": 0,
         "short_name": "flag-gh",
         "short_names": [
             "flag-gh"
@@ -32330,8 +32382,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1ec-1f1ee.png",
-        "sheet_x": 34,
-        "sheet_y": 37,
+        "sheet_x": 35,
+        "sheet_y": 1,
         "short_name": "flag-gi",
         "short_names": [
             "flag-gi"
@@ -32356,8 +32408,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1ec-1f1f1.png",
-        "sheet_x": 34,
-        "sheet_y": 38,
+        "sheet_x": 35,
+        "sheet_y": 2,
         "short_name": "flag-gl",
         "short_names": [
             "flag-gl"
@@ -32382,8 +32434,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1ec-1f1f2.png",
-        "sheet_x": 34,
-        "sheet_y": 39,
+        "sheet_x": 35,
+        "sheet_y": 3,
         "short_name": "flag-gm",
         "short_names": [
             "flag-gm"
@@ -32408,8 +32460,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1ec-1f1f3.png",
-        "sheet_x": 34,
-        "sheet_y": 40,
+        "sheet_x": 35,
+        "sheet_y": 4,
         "short_name": "flag-gn",
         "short_names": [
             "flag-gn"
@@ -32435,7 +32487,7 @@
         "google": null,
         "image": "1f1ec-1f1f5.png",
         "sheet_x": 35,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "flag-gp",
         "short_names": [
             "flag-gp"
@@ -32461,7 +32513,7 @@
         "google": null,
         "image": "1f1ec-1f1f6.png",
         "sheet_x": 35,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "flag-gq",
         "short_names": [
             "flag-gq"
@@ -32487,7 +32539,7 @@
         "google": null,
         "image": "1f1ec-1f1f7.png",
         "sheet_x": 35,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "flag-gr",
         "short_names": [
             "flag-gr"
@@ -32513,7 +32565,7 @@
         "google": null,
         "image": "1f1ec-1f1f8.png",
         "sheet_x": 35,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "flag-gs",
         "short_names": [
             "flag-gs"
@@ -32539,7 +32591,7 @@
         "google": null,
         "image": "1f1ec-1f1f9.png",
         "sheet_x": 35,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "flag-gt",
         "short_names": [
             "flag-gt"
@@ -32565,7 +32617,7 @@
         "google": null,
         "image": "1f1ec-1f1fa.png",
         "sheet_x": 35,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "flag-gu",
         "short_names": [
             "flag-gu"
@@ -32591,7 +32643,7 @@
         "google": null,
         "image": "1f1ec-1f1fc.png",
         "sheet_x": 35,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "flag-gw",
         "short_names": [
             "flag-gw"
@@ -32617,7 +32669,7 @@
         "google": null,
         "image": "1f1ec-1f1fe.png",
         "sheet_x": 35,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "flag-gy",
         "short_names": [
             "flag-gy"
@@ -32643,7 +32695,7 @@
         "google": null,
         "image": "1f1ed-1f1f0.png",
         "sheet_x": 35,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "flag-hk",
         "short_names": [
             "flag-hk"
@@ -32669,7 +32721,7 @@
         "google": null,
         "image": "1f1ed-1f1f2.png",
         "sheet_x": 35,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "flag-hm",
         "short_names": [
             "flag-hm"
@@ -32695,7 +32747,7 @@
         "google": null,
         "image": "1f1ed-1f1f3.png",
         "sheet_x": 35,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "flag-hn",
         "short_names": [
             "flag-hn"
@@ -32721,7 +32773,7 @@
         "google": null,
         "image": "1f1ed-1f1f7.png",
         "sheet_x": 35,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "flag-hr",
         "short_names": [
             "flag-hr"
@@ -32747,7 +32799,7 @@
         "google": null,
         "image": "1f1ed-1f1f9.png",
         "sheet_x": 35,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "flag-ht",
         "short_names": [
             "flag-ht"
@@ -32773,7 +32825,7 @@
         "google": null,
         "image": "1f1ed-1f1fa.png",
         "sheet_x": 35,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "flag-hu",
         "short_names": [
             "flag-hu"
@@ -32799,7 +32851,7 @@
         "google": null,
         "image": "1f1ee-1f1e8.png",
         "sheet_x": 35,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "flag-ic",
         "short_names": [
             "flag-ic"
@@ -32825,7 +32877,7 @@
         "google": null,
         "image": "1f1ee-1f1e9.png",
         "sheet_x": 35,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "flag-id",
         "short_names": [
             "flag-id"
@@ -32851,7 +32903,7 @@
         "google": null,
         "image": "1f1ee-1f1ea.png",
         "sheet_x": 35,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "flag-ie",
         "short_names": [
             "flag-ie"
@@ -32877,7 +32929,7 @@
         "google": null,
         "image": "1f1ee-1f1f1.png",
         "sheet_x": 35,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "flag-il",
         "short_names": [
             "flag-il"
@@ -32903,7 +32955,7 @@
         "google": null,
         "image": "1f1ee-1f1f2.png",
         "sheet_x": 35,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "flag-im",
         "short_names": [
             "flag-im"
@@ -32929,7 +32981,7 @@
         "google": null,
         "image": "1f1ee-1f1f3.png",
         "sheet_x": 35,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "flag-in",
         "short_names": [
             "flag-in"
@@ -32955,7 +33007,7 @@
         "google": null,
         "image": "1f1ee-1f1f4.png",
         "sheet_x": 35,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "flag-io",
         "short_names": [
             "flag-io"
@@ -32981,7 +33033,7 @@
         "google": null,
         "image": "1f1ee-1f1f6.png",
         "sheet_x": 35,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "flag-iq",
         "short_names": [
             "flag-iq"
@@ -33007,7 +33059,7 @@
         "google": null,
         "image": "1f1ee-1f1f7.png",
         "sheet_x": 35,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "flag-ir",
         "short_names": [
             "flag-ir"
@@ -33033,7 +33085,7 @@
         "google": null,
         "image": "1f1ee-1f1f8.png",
         "sheet_x": 35,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "flag-is",
         "short_names": [
             "flag-is"
@@ -33059,7 +33111,7 @@
         "google": "FE4E9",
         "image": "1f1ee-1f1f9.png",
         "sheet_x": 35,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "flag-it",
         "short_names": [
             "flag-it",
@@ -33086,7 +33138,7 @@
         "google": null,
         "image": "1f1ef-1f1ea.png",
         "sheet_x": 35,
-        "sheet_y": 25,
+        "sheet_y": 30,
         "short_name": "flag-je",
         "short_names": [
             "flag-je"
@@ -33112,7 +33164,7 @@
         "google": null,
         "image": "1f1ef-1f1f2.png",
         "sheet_x": 35,
-        "sheet_y": 26,
+        "sheet_y": 31,
         "short_name": "flag-jm",
         "short_names": [
             "flag-jm"
@@ -33138,7 +33190,7 @@
         "google": null,
         "image": "1f1ef-1f1f4.png",
         "sheet_x": 35,
-        "sheet_y": 27,
+        "sheet_y": 32,
         "short_name": "flag-jo",
         "short_names": [
             "flag-jo"
@@ -33164,7 +33216,7 @@
         "google": "FE4E5",
         "image": "1f1ef-1f1f5.png",
         "sheet_x": 35,
-        "sheet_y": 28,
+        "sheet_y": 33,
         "short_name": "flag-jp",
         "short_names": [
             "flag-jp",
@@ -33191,7 +33243,7 @@
         "google": null,
         "image": "1f1f0-1f1ea.png",
         "sheet_x": 35,
-        "sheet_y": 29,
+        "sheet_y": 34,
         "short_name": "flag-ke",
         "short_names": [
             "flag-ke"
@@ -33217,7 +33269,7 @@
         "google": null,
         "image": "1f1f0-1f1ec.png",
         "sheet_x": 35,
-        "sheet_y": 30,
+        "sheet_y": 35,
         "short_name": "flag-kg",
         "short_names": [
             "flag-kg"
@@ -33243,7 +33295,7 @@
         "google": null,
         "image": "1f1f0-1f1ed.png",
         "sheet_x": 35,
-        "sheet_y": 31,
+        "sheet_y": 36,
         "short_name": "flag-kh",
         "short_names": [
             "flag-kh"
@@ -33269,7 +33321,7 @@
         "google": null,
         "image": "1f1f0-1f1ee.png",
         "sheet_x": 35,
-        "sheet_y": 32,
+        "sheet_y": 37,
         "short_name": "flag-ki",
         "short_names": [
             "flag-ki"
@@ -33295,7 +33347,7 @@
         "google": null,
         "image": "1f1f0-1f1f2.png",
         "sheet_x": 35,
-        "sheet_y": 33,
+        "sheet_y": 38,
         "short_name": "flag-km",
         "short_names": [
             "flag-km"
@@ -33321,7 +33373,7 @@
         "google": null,
         "image": "1f1f0-1f1f3.png",
         "sheet_x": 35,
-        "sheet_y": 34,
+        "sheet_y": 39,
         "short_name": "flag-kn",
         "short_names": [
             "flag-kn"
@@ -33347,7 +33399,7 @@
         "google": null,
         "image": "1f1f0-1f1f5.png",
         "sheet_x": 35,
-        "sheet_y": 35,
+        "sheet_y": 40,
         "short_name": "flag-kp",
         "short_names": [
             "flag-kp"
@@ -33372,8 +33424,8 @@
         "softbank": "E514",
         "google": "FE4EE",
         "image": "1f1f0-1f1f7.png",
-        "sheet_x": 35,
-        "sheet_y": 36,
+        "sheet_x": 36,
+        "sheet_y": 0,
         "short_name": "flag-kr",
         "short_names": [
             "flag-kr",
@@ -33399,8 +33451,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1f0-1f1fc.png",
-        "sheet_x": 35,
-        "sheet_y": 37,
+        "sheet_x": 36,
+        "sheet_y": 1,
         "short_name": "flag-kw",
         "short_names": [
             "flag-kw"
@@ -33425,8 +33477,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1f0-1f1fe.png",
-        "sheet_x": 35,
-        "sheet_y": 38,
+        "sheet_x": 36,
+        "sheet_y": 2,
         "short_name": "flag-ky",
         "short_names": [
             "flag-ky"
@@ -33451,8 +33503,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1f0-1f1ff.png",
-        "sheet_x": 35,
-        "sheet_y": 39,
+        "sheet_x": 36,
+        "sheet_y": 3,
         "short_name": "flag-kz",
         "short_names": [
             "flag-kz"
@@ -33477,8 +33529,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1f1-1f1e6.png",
-        "sheet_x": 35,
-        "sheet_y": 40,
+        "sheet_x": 36,
+        "sheet_y": 4,
         "short_name": "flag-la",
         "short_names": [
             "flag-la"
@@ -33504,7 +33556,7 @@
         "google": null,
         "image": "1f1f1-1f1e7.png",
         "sheet_x": 36,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "flag-lb",
         "short_names": [
             "flag-lb"
@@ -33530,7 +33582,7 @@
         "google": null,
         "image": "1f1f1-1f1e8.png",
         "sheet_x": 36,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "flag-lc",
         "short_names": [
             "flag-lc"
@@ -33556,7 +33608,7 @@
         "google": null,
         "image": "1f1f1-1f1ee.png",
         "sheet_x": 36,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "flag-li",
         "short_names": [
             "flag-li"
@@ -33582,7 +33634,7 @@
         "google": null,
         "image": "1f1f1-1f1f0.png",
         "sheet_x": 36,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "flag-lk",
         "short_names": [
             "flag-lk"
@@ -33608,7 +33660,7 @@
         "google": null,
         "image": "1f1f1-1f1f7.png",
         "sheet_x": 36,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "flag-lr",
         "short_names": [
             "flag-lr"
@@ -33634,7 +33686,7 @@
         "google": null,
         "image": "1f1f1-1f1f8.png",
         "sheet_x": 36,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "flag-ls",
         "short_names": [
             "flag-ls"
@@ -33660,7 +33712,7 @@
         "google": null,
         "image": "1f1f1-1f1f9.png",
         "sheet_x": 36,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "flag-lt",
         "short_names": [
             "flag-lt"
@@ -33686,7 +33738,7 @@
         "google": null,
         "image": "1f1f1-1f1fa.png",
         "sheet_x": 36,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "flag-lu",
         "short_names": [
             "flag-lu"
@@ -33712,7 +33764,7 @@
         "google": null,
         "image": "1f1f1-1f1fb.png",
         "sheet_x": 36,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "flag-lv",
         "short_names": [
             "flag-lv"
@@ -33738,7 +33790,7 @@
         "google": null,
         "image": "1f1f1-1f1fe.png",
         "sheet_x": 36,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "flag-ly",
         "short_names": [
             "flag-ly"
@@ -33764,7 +33816,7 @@
         "google": null,
         "image": "1f1f2-1f1e6.png",
         "sheet_x": 36,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "flag-ma",
         "short_names": [
             "flag-ma"
@@ -33790,7 +33842,7 @@
         "google": null,
         "image": "1f1f2-1f1e8.png",
         "sheet_x": 36,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "flag-mc",
         "short_names": [
             "flag-mc"
@@ -33816,7 +33868,7 @@
         "google": null,
         "image": "1f1f2-1f1e9.png",
         "sheet_x": 36,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "flag-md",
         "short_names": [
             "flag-md"
@@ -33842,7 +33894,7 @@
         "google": null,
         "image": "1f1f2-1f1ea.png",
         "sheet_x": 36,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "flag-me",
         "short_names": [
             "flag-me"
@@ -33868,7 +33920,7 @@
         "google": null,
         "image": "1f1f2-1f1eb.png",
         "sheet_x": 36,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "flag-mf",
         "short_names": [
             "flag-mf"
@@ -33894,7 +33946,7 @@
         "google": null,
         "image": "1f1f2-1f1ec.png",
         "sheet_x": 36,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "flag-mg",
         "short_names": [
             "flag-mg"
@@ -33920,7 +33972,7 @@
         "google": null,
         "image": "1f1f2-1f1ed.png",
         "sheet_x": 36,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "flag-mh",
         "short_names": [
             "flag-mh"
@@ -33946,7 +33998,7 @@
         "google": null,
         "image": "1f1f2-1f1f0.png",
         "sheet_x": 36,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "flag-mk",
         "short_names": [
             "flag-mk"
@@ -33972,7 +34024,7 @@
         "google": null,
         "image": "1f1f2-1f1f1.png",
         "sheet_x": 36,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "flag-ml",
         "short_names": [
             "flag-ml"
@@ -33998,7 +34050,7 @@
         "google": null,
         "image": "1f1f2-1f1f2.png",
         "sheet_x": 36,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "flag-mm",
         "short_names": [
             "flag-mm"
@@ -34024,7 +34076,7 @@
         "google": null,
         "image": "1f1f2-1f1f3.png",
         "sheet_x": 36,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "flag-mn",
         "short_names": [
             "flag-mn"
@@ -34050,7 +34102,7 @@
         "google": null,
         "image": "1f1f2-1f1f4.png",
         "sheet_x": 36,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "flag-mo",
         "short_names": [
             "flag-mo"
@@ -34076,7 +34128,7 @@
         "google": null,
         "image": "1f1f2-1f1f5.png",
         "sheet_x": 36,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "flag-mp",
         "short_names": [
             "flag-mp"
@@ -34102,7 +34154,7 @@
         "google": null,
         "image": "1f1f2-1f1f6.png",
         "sheet_x": 36,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "flag-mq",
         "short_names": [
             "flag-mq"
@@ -34128,7 +34180,7 @@
         "google": null,
         "image": "1f1f2-1f1f7.png",
         "sheet_x": 36,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "flag-mr",
         "short_names": [
             "flag-mr"
@@ -34154,7 +34206,7 @@
         "google": null,
         "image": "1f1f2-1f1f8.png",
         "sheet_x": 36,
-        "sheet_y": 25,
+        "sheet_y": 30,
         "short_name": "flag-ms",
         "short_names": [
             "flag-ms"
@@ -34180,7 +34232,7 @@
         "google": null,
         "image": "1f1f2-1f1f9.png",
         "sheet_x": 36,
-        "sheet_y": 26,
+        "sheet_y": 31,
         "short_name": "flag-mt",
         "short_names": [
             "flag-mt"
@@ -34206,7 +34258,7 @@
         "google": null,
         "image": "1f1f2-1f1fa.png",
         "sheet_x": 36,
-        "sheet_y": 27,
+        "sheet_y": 32,
         "short_name": "flag-mu",
         "short_names": [
             "flag-mu"
@@ -34232,7 +34284,7 @@
         "google": null,
         "image": "1f1f2-1f1fb.png",
         "sheet_x": 36,
-        "sheet_y": 28,
+        "sheet_y": 33,
         "short_name": "flag-mv",
         "short_names": [
             "flag-mv"
@@ -34258,7 +34310,7 @@
         "google": null,
         "image": "1f1f2-1f1fc.png",
         "sheet_x": 36,
-        "sheet_y": 29,
+        "sheet_y": 34,
         "short_name": "flag-mw",
         "short_names": [
             "flag-mw"
@@ -34284,7 +34336,7 @@
         "google": null,
         "image": "1f1f2-1f1fd.png",
         "sheet_x": 36,
-        "sheet_y": 30,
+        "sheet_y": 35,
         "short_name": "flag-mx",
         "short_names": [
             "flag-mx"
@@ -34310,7 +34362,7 @@
         "google": null,
         "image": "1f1f2-1f1fe.png",
         "sheet_x": 36,
-        "sheet_y": 31,
+        "sheet_y": 36,
         "short_name": "flag-my",
         "short_names": [
             "flag-my"
@@ -34336,7 +34388,7 @@
         "google": null,
         "image": "1f1f2-1f1ff.png",
         "sheet_x": 36,
-        "sheet_y": 32,
+        "sheet_y": 37,
         "short_name": "flag-mz",
         "short_names": [
             "flag-mz"
@@ -34362,7 +34414,7 @@
         "google": null,
         "image": "1f1f3-1f1e6.png",
         "sheet_x": 36,
-        "sheet_y": 33,
+        "sheet_y": 38,
         "short_name": "flag-na",
         "short_names": [
             "flag-na"
@@ -34388,7 +34440,7 @@
         "google": null,
         "image": "1f1f3-1f1e8.png",
         "sheet_x": 36,
-        "sheet_y": 34,
+        "sheet_y": 39,
         "short_name": "flag-nc",
         "short_names": [
             "flag-nc"
@@ -34414,7 +34466,7 @@
         "google": null,
         "image": "1f1f3-1f1ea.png",
         "sheet_x": 36,
-        "sheet_y": 35,
+        "sheet_y": 40,
         "short_name": "flag-ne",
         "short_names": [
             "flag-ne"
@@ -34439,8 +34491,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1f3-1f1eb.png",
-        "sheet_x": 36,
-        "sheet_y": 36,
+        "sheet_x": 37,
+        "sheet_y": 0,
         "short_name": "flag-nf",
         "short_names": [
             "flag-nf"
@@ -34465,8 +34517,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1f3-1f1ec.png",
-        "sheet_x": 36,
-        "sheet_y": 37,
+        "sheet_x": 37,
+        "sheet_y": 1,
         "short_name": "flag-ng",
         "short_names": [
             "flag-ng"
@@ -34491,8 +34543,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1f3-1f1ee.png",
-        "sheet_x": 36,
-        "sheet_y": 38,
+        "sheet_x": 37,
+        "sheet_y": 2,
         "short_name": "flag-ni",
         "short_names": [
             "flag-ni"
@@ -34517,8 +34569,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1f3-1f1f1.png",
-        "sheet_x": 36,
-        "sheet_y": 39,
+        "sheet_x": 37,
+        "sheet_y": 3,
         "short_name": "flag-nl",
         "short_names": [
             "flag-nl"
@@ -34543,8 +34595,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1f3-1f1f4.png",
-        "sheet_x": 36,
-        "sheet_y": 40,
+        "sheet_x": 37,
+        "sheet_y": 4,
         "short_name": "flag-no",
         "short_names": [
             "flag-no"
@@ -34570,7 +34622,7 @@
         "google": null,
         "image": "1f1f3-1f1f5.png",
         "sheet_x": 37,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "flag-np",
         "short_names": [
             "flag-np"
@@ -34596,7 +34648,7 @@
         "google": null,
         "image": "1f1f3-1f1f7.png",
         "sheet_x": 37,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "flag-nr",
         "short_names": [
             "flag-nr"
@@ -34622,7 +34674,7 @@
         "google": null,
         "image": "1f1f3-1f1fa.png",
         "sheet_x": 37,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "flag-nu",
         "short_names": [
             "flag-nu"
@@ -34648,7 +34700,7 @@
         "google": null,
         "image": "1f1f3-1f1ff.png",
         "sheet_x": 37,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "flag-nz",
         "short_names": [
             "flag-nz"
@@ -34674,7 +34726,7 @@
         "google": null,
         "image": "1f1f4-1f1f2.png",
         "sheet_x": 37,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "flag-om",
         "short_names": [
             "flag-om"
@@ -34700,7 +34752,7 @@
         "google": null,
         "image": "1f1f5-1f1e6.png",
         "sheet_x": 37,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "flag-pa",
         "short_names": [
             "flag-pa"
@@ -34726,7 +34778,7 @@
         "google": null,
         "image": "1f1f5-1f1ea.png",
         "sheet_x": 37,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "flag-pe",
         "short_names": [
             "flag-pe"
@@ -34752,7 +34804,7 @@
         "google": null,
         "image": "1f1f5-1f1eb.png",
         "sheet_x": 37,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "flag-pf",
         "short_names": [
             "flag-pf"
@@ -34778,7 +34830,7 @@
         "google": null,
         "image": "1f1f5-1f1ec.png",
         "sheet_x": 37,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "flag-pg",
         "short_names": [
             "flag-pg"
@@ -34804,7 +34856,7 @@
         "google": null,
         "image": "1f1f5-1f1ed.png",
         "sheet_x": 37,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "flag-ph",
         "short_names": [
             "flag-ph"
@@ -34830,7 +34882,7 @@
         "google": null,
         "image": "1f1f5-1f1f0.png",
         "sheet_x": 37,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "flag-pk",
         "short_names": [
             "flag-pk"
@@ -34856,7 +34908,7 @@
         "google": null,
         "image": "1f1f5-1f1f1.png",
         "sheet_x": 37,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "flag-pl",
         "short_names": [
             "flag-pl"
@@ -34882,7 +34934,7 @@
         "google": null,
         "image": "1f1f5-1f1f2.png",
         "sheet_x": 37,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "flag-pm",
         "short_names": [
             "flag-pm"
@@ -34908,7 +34960,7 @@
         "google": null,
         "image": "1f1f5-1f1f3.png",
         "sheet_x": 37,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "flag-pn",
         "short_names": [
             "flag-pn"
@@ -34934,7 +34986,7 @@
         "google": null,
         "image": "1f1f5-1f1f7.png",
         "sheet_x": 37,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "flag-pr",
         "short_names": [
             "flag-pr"
@@ -34960,7 +35012,7 @@
         "google": null,
         "image": "1f1f5-1f1f8.png",
         "sheet_x": 37,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "flag-ps",
         "short_names": [
             "flag-ps"
@@ -34986,7 +35038,7 @@
         "google": null,
         "image": "1f1f5-1f1f9.png",
         "sheet_x": 37,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "flag-pt",
         "short_names": [
             "flag-pt"
@@ -35012,7 +35064,7 @@
         "google": null,
         "image": "1f1f5-1f1fc.png",
         "sheet_x": 37,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "flag-pw",
         "short_names": [
             "flag-pw"
@@ -35038,7 +35090,7 @@
         "google": null,
         "image": "1f1f5-1f1fe.png",
         "sheet_x": 37,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "flag-py",
         "short_names": [
             "flag-py"
@@ -35064,7 +35116,7 @@
         "google": null,
         "image": "1f1f6-1f1e6.png",
         "sheet_x": 37,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "flag-qa",
         "short_names": [
             "flag-qa"
@@ -35090,7 +35142,7 @@
         "google": null,
         "image": "1f1f7-1f1ea.png",
         "sheet_x": 37,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "flag-re",
         "short_names": [
             "flag-re"
@@ -35116,7 +35168,7 @@
         "google": null,
         "image": "1f1f7-1f1f4.png",
         "sheet_x": 37,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "flag-ro",
         "short_names": [
             "flag-ro"
@@ -35142,7 +35194,7 @@
         "google": null,
         "image": "1f1f7-1f1f8.png",
         "sheet_x": 37,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "flag-rs",
         "short_names": [
             "flag-rs"
@@ -35168,7 +35220,7 @@
         "google": "FE4EC",
         "image": "1f1f7-1f1fa.png",
         "sheet_x": 37,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "flag-ru",
         "short_names": [
             "flag-ru",
@@ -35195,7 +35247,7 @@
         "google": null,
         "image": "1f1f7-1f1fc.png",
         "sheet_x": 37,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "flag-rw",
         "short_names": [
             "flag-rw"
@@ -35221,7 +35273,7 @@
         "google": null,
         "image": "1f1f8-1f1e6.png",
         "sheet_x": 37,
-        "sheet_y": 25,
+        "sheet_y": 30,
         "short_name": "flag-sa",
         "short_names": [
             "flag-sa"
@@ -35247,7 +35299,7 @@
         "google": null,
         "image": "1f1f8-1f1e7.png",
         "sheet_x": 37,
-        "sheet_y": 26,
+        "sheet_y": 31,
         "short_name": "flag-sb",
         "short_names": [
             "flag-sb"
@@ -35273,7 +35325,7 @@
         "google": null,
         "image": "1f1f8-1f1e8.png",
         "sheet_x": 37,
-        "sheet_y": 27,
+        "sheet_y": 32,
         "short_name": "flag-sc",
         "short_names": [
             "flag-sc"
@@ -35299,7 +35351,7 @@
         "google": null,
         "image": "1f1f8-1f1e9.png",
         "sheet_x": 37,
-        "sheet_y": 28,
+        "sheet_y": 33,
         "short_name": "flag-sd",
         "short_names": [
             "flag-sd"
@@ -35325,7 +35377,7 @@
         "google": null,
         "image": "1f1f8-1f1ea.png",
         "sheet_x": 37,
-        "sheet_y": 29,
+        "sheet_y": 34,
         "short_name": "flag-se",
         "short_names": [
             "flag-se"
@@ -35351,7 +35403,7 @@
         "google": null,
         "image": "1f1f8-1f1ec.png",
         "sheet_x": 37,
-        "sheet_y": 30,
+        "sheet_y": 35,
         "short_name": "flag-sg",
         "short_names": [
             "flag-sg"
@@ -35377,7 +35429,7 @@
         "google": null,
         "image": "1f1f8-1f1ed.png",
         "sheet_x": 37,
-        "sheet_y": 31,
+        "sheet_y": 36,
         "short_name": "flag-sh",
         "short_names": [
             "flag-sh"
@@ -35403,7 +35455,7 @@
         "google": null,
         "image": "1f1f8-1f1ee.png",
         "sheet_x": 37,
-        "sheet_y": 32,
+        "sheet_y": 37,
         "short_name": "flag-si",
         "short_names": [
             "flag-si"
@@ -35429,7 +35481,7 @@
         "google": null,
         "image": "1f1f8-1f1ef.png",
         "sheet_x": 37,
-        "sheet_y": 33,
+        "sheet_y": 38,
         "short_name": "flag-sj",
         "short_names": [
             "flag-sj"
@@ -35455,7 +35507,7 @@
         "google": null,
         "image": "1f1f8-1f1f0.png",
         "sheet_x": 37,
-        "sheet_y": 34,
+        "sheet_y": 39,
         "short_name": "flag-sk",
         "short_names": [
             "flag-sk"
@@ -35481,7 +35533,7 @@
         "google": null,
         "image": "1f1f8-1f1f1.png",
         "sheet_x": 37,
-        "sheet_y": 35,
+        "sheet_y": 40,
         "short_name": "flag-sl",
         "short_names": [
             "flag-sl"
@@ -35506,8 +35558,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1f8-1f1f2.png",
-        "sheet_x": 37,
-        "sheet_y": 36,
+        "sheet_x": 38,
+        "sheet_y": 0,
         "short_name": "flag-sm",
         "short_names": [
             "flag-sm"
@@ -35532,8 +35584,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1f8-1f1f3.png",
-        "sheet_x": 37,
-        "sheet_y": 37,
+        "sheet_x": 38,
+        "sheet_y": 1,
         "short_name": "flag-sn",
         "short_names": [
             "flag-sn"
@@ -35558,8 +35610,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1f8-1f1f4.png",
-        "sheet_x": 37,
-        "sheet_y": 38,
+        "sheet_x": 38,
+        "sheet_y": 2,
         "short_name": "flag-so",
         "short_names": [
             "flag-so"
@@ -35584,8 +35636,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1f8-1f1f7.png",
-        "sheet_x": 37,
-        "sheet_y": 39,
+        "sheet_x": 38,
+        "sheet_y": 3,
         "short_name": "flag-sr",
         "short_names": [
             "flag-sr"
@@ -35610,8 +35662,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1f8-1f1f8.png",
-        "sheet_x": 37,
-        "sheet_y": 40,
+        "sheet_x": 38,
+        "sheet_y": 4,
         "short_name": "flag-ss",
         "short_names": [
             "flag-ss"
@@ -35637,7 +35689,7 @@
         "google": null,
         "image": "1f1f8-1f1f9.png",
         "sheet_x": 38,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "flag-st",
         "short_names": [
             "flag-st"
@@ -35663,7 +35715,7 @@
         "google": null,
         "image": "1f1f8-1f1fb.png",
         "sheet_x": 38,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "flag-sv",
         "short_names": [
             "flag-sv"
@@ -35689,7 +35741,7 @@
         "google": null,
         "image": "1f1f8-1f1fd.png",
         "sheet_x": 38,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "flag-sx",
         "short_names": [
             "flag-sx"
@@ -35715,7 +35767,7 @@
         "google": null,
         "image": "1f1f8-1f1fe.png",
         "sheet_x": 38,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "flag-sy",
         "short_names": [
             "flag-sy"
@@ -35741,7 +35793,7 @@
         "google": null,
         "image": "1f1f8-1f1ff.png",
         "sheet_x": 38,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "flag-sz",
         "short_names": [
             "flag-sz"
@@ -35767,7 +35819,7 @@
         "google": null,
         "image": "1f1f9-1f1e6.png",
         "sheet_x": 38,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "flag-ta",
         "short_names": [
             "flag-ta"
@@ -35793,7 +35845,7 @@
         "google": null,
         "image": "1f1f9-1f1e8.png",
         "sheet_x": 38,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "flag-tc",
         "short_names": [
             "flag-tc"
@@ -35819,7 +35871,7 @@
         "google": null,
         "image": "1f1f9-1f1e9.png",
         "sheet_x": 38,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "flag-td",
         "short_names": [
             "flag-td"
@@ -35845,7 +35897,7 @@
         "google": null,
         "image": "1f1f9-1f1eb.png",
         "sheet_x": 38,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "flag-tf",
         "short_names": [
             "flag-tf"
@@ -35871,7 +35923,7 @@
         "google": null,
         "image": "1f1f9-1f1ec.png",
         "sheet_x": 38,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "flag-tg",
         "short_names": [
             "flag-tg"
@@ -35897,7 +35949,7 @@
         "google": null,
         "image": "1f1f9-1f1ed.png",
         "sheet_x": 38,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "flag-th",
         "short_names": [
             "flag-th"
@@ -35923,7 +35975,7 @@
         "google": null,
         "image": "1f1f9-1f1ef.png",
         "sheet_x": 38,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "flag-tj",
         "short_names": [
             "flag-tj"
@@ -35949,7 +36001,7 @@
         "google": null,
         "image": "1f1f9-1f1f0.png",
         "sheet_x": 38,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "flag-tk",
         "short_names": [
             "flag-tk"
@@ -35975,7 +36027,7 @@
         "google": null,
         "image": "1f1f9-1f1f1.png",
         "sheet_x": 38,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "flag-tl",
         "short_names": [
             "flag-tl"
@@ -36001,7 +36053,7 @@
         "google": null,
         "image": "1f1f9-1f1f2.png",
         "sheet_x": 38,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "flag-tm",
         "short_names": [
             "flag-tm"
@@ -36027,7 +36079,7 @@
         "google": null,
         "image": "1f1f9-1f1f3.png",
         "sheet_x": 38,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "flag-tn",
         "short_names": [
             "flag-tn"
@@ -36053,7 +36105,7 @@
         "google": null,
         "image": "1f1f9-1f1f4.png",
         "sheet_x": 38,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "flag-to",
         "short_names": [
             "flag-to"
@@ -36079,7 +36131,7 @@
         "google": null,
         "image": "1f1f9-1f1f7.png",
         "sheet_x": 38,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "flag-tr",
         "short_names": [
             "flag-tr"
@@ -36105,7 +36157,7 @@
         "google": null,
         "image": "1f1f9-1f1f9.png",
         "sheet_x": 38,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "flag-tt",
         "short_names": [
             "flag-tt"
@@ -36131,7 +36183,7 @@
         "google": null,
         "image": "1f1f9-1f1fb.png",
         "sheet_x": 38,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "flag-tv",
         "short_names": [
             "flag-tv"
@@ -36157,7 +36209,7 @@
         "google": null,
         "image": "1f1f9-1f1fc.png",
         "sheet_x": 38,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "flag-tw",
         "short_names": [
             "flag-tw"
@@ -36183,7 +36235,7 @@
         "google": null,
         "image": "1f1f9-1f1ff.png",
         "sheet_x": 38,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "flag-tz",
         "short_names": [
             "flag-tz"
@@ -36209,7 +36261,7 @@
         "google": null,
         "image": "1f1fa-1f1e6.png",
         "sheet_x": 38,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "flag-ua",
         "short_names": [
             "flag-ua"
@@ -36235,7 +36287,7 @@
         "google": null,
         "image": "1f1fa-1f1ec.png",
         "sheet_x": 38,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "flag-ug",
         "short_names": [
             "flag-ug"
@@ -36261,7 +36313,7 @@
         "google": null,
         "image": "1f1fa-1f1f2.png",
         "sheet_x": 38,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "flag-um",
         "short_names": [
             "flag-um"
@@ -36287,7 +36339,7 @@
         "google": "FE4E6",
         "image": "1f1fa-1f1f8.png",
         "sheet_x": 38,
-        "sheet_y": 25,
+        "sheet_y": 30,
         "short_name": "flag-us",
         "short_names": [
             "flag-us",
@@ -36314,7 +36366,7 @@
         "google": null,
         "image": "1f1fa-1f1fe.png",
         "sheet_x": 38,
-        "sheet_y": 26,
+        "sheet_y": 31,
         "short_name": "flag-uy",
         "short_names": [
             "flag-uy"
@@ -36340,7 +36392,7 @@
         "google": null,
         "image": "1f1fa-1f1ff.png",
         "sheet_x": 38,
-        "sheet_y": 27,
+        "sheet_y": 32,
         "short_name": "flag-uz",
         "short_names": [
             "flag-uz"
@@ -36366,7 +36418,7 @@
         "google": null,
         "image": "1f1fb-1f1e6.png",
         "sheet_x": 38,
-        "sheet_y": 28,
+        "sheet_y": 33,
         "short_name": "flag-va",
         "short_names": [
             "flag-va"
@@ -36392,7 +36444,7 @@
         "google": null,
         "image": "1f1fb-1f1e8.png",
         "sheet_x": 38,
-        "sheet_y": 29,
+        "sheet_y": 34,
         "short_name": "flag-vc",
         "short_names": [
             "flag-vc"
@@ -36418,7 +36470,7 @@
         "google": null,
         "image": "1f1fb-1f1ea.png",
         "sheet_x": 38,
-        "sheet_y": 30,
+        "sheet_y": 35,
         "short_name": "flag-ve",
         "short_names": [
             "flag-ve"
@@ -36444,7 +36496,7 @@
         "google": null,
         "image": "1f1fb-1f1ec.png",
         "sheet_x": 38,
-        "sheet_y": 31,
+        "sheet_y": 36,
         "short_name": "flag-vg",
         "short_names": [
             "flag-vg"
@@ -36470,7 +36522,7 @@
         "google": null,
         "image": "1f1fb-1f1ee.png",
         "sheet_x": 38,
-        "sheet_y": 32,
+        "sheet_y": 37,
         "short_name": "flag-vi",
         "short_names": [
             "flag-vi"
@@ -36496,7 +36548,7 @@
         "google": null,
         "image": "1f1fb-1f1f3.png",
         "sheet_x": 38,
-        "sheet_y": 33,
+        "sheet_y": 38,
         "short_name": "flag-vn",
         "short_names": [
             "flag-vn"
@@ -36522,7 +36574,7 @@
         "google": null,
         "image": "1f1fb-1f1fa.png",
         "sheet_x": 38,
-        "sheet_y": 34,
+        "sheet_y": 39,
         "short_name": "flag-vu",
         "short_names": [
             "flag-vu"
@@ -36548,7 +36600,7 @@
         "google": null,
         "image": "1f1fc-1f1eb.png",
         "sheet_x": 38,
-        "sheet_y": 35,
+        "sheet_y": 40,
         "short_name": "flag-wf",
         "short_names": [
             "flag-wf"
@@ -36573,8 +36625,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1fc-1f1f8.png",
-        "sheet_x": 38,
-        "sheet_y": 36,
+        "sheet_x": 39,
+        "sheet_y": 0,
         "short_name": "flag-ws",
         "short_names": [
             "flag-ws"
@@ -36599,8 +36651,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1fd-1f1f0.png",
-        "sheet_x": 38,
-        "sheet_y": 37,
+        "sheet_x": 39,
+        "sheet_y": 1,
         "short_name": "flag-xk",
         "short_names": [
             "flag-xk"
@@ -36625,8 +36677,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1fe-1f1ea.png",
-        "sheet_x": 38,
-        "sheet_y": 38,
+        "sheet_x": 39,
+        "sheet_y": 2,
         "short_name": "flag-ye",
         "short_names": [
             "flag-ye"
@@ -36651,8 +36703,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1fe-1f1f9.png",
-        "sheet_x": 38,
-        "sheet_y": 39,
+        "sheet_x": 39,
+        "sheet_y": 3,
         "short_name": "flag-yt",
         "short_names": [
             "flag-yt"
@@ -36677,8 +36729,8 @@
         "softbank": null,
         "google": null,
         "image": "1f1ff-1f1e6.png",
-        "sheet_x": 38,
-        "sheet_y": 40,
+        "sheet_x": 39,
+        "sheet_y": 4,
         "short_name": "flag-za",
         "short_names": [
             "flag-za"
@@ -36704,7 +36756,7 @@
         "google": null,
         "image": "1f1ff-1f1f2.png",
         "sheet_x": 39,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "flag-zm",
         "short_names": [
             "flag-zm"
@@ -36730,7 +36782,7 @@
         "google": null,
         "image": "1f1ff-1f1fc.png",
         "sheet_x": 39,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "flag-zw",
         "short_names": [
             "flag-zw"
@@ -36756,7 +36808,7 @@
         "google": null,
         "image": "1f468-200d-1f468-200d-1f466.png",
         "sheet_x": 39,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "man-man-boy",
         "short_names": [
             "man-man-boy"
@@ -36782,7 +36834,7 @@
         "google": null,
         "image": "1f468-200d-1f468-200d-1f466-200d-1f466.png",
         "sheet_x": 39,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "man-man-boy-boy",
         "short_names": [
             "man-man-boy-boy"
@@ -36808,7 +36860,7 @@
         "google": null,
         "image": "1f468-200d-1f468-200d-1f467.png",
         "sheet_x": 39,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "man-man-girl",
         "short_names": [
             "man-man-girl"
@@ -36834,7 +36886,7 @@
         "google": null,
         "image": "1f468-200d-1f468-200d-1f467-200d-1f466.png",
         "sheet_x": 39,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "man-man-girl-boy",
         "short_names": [
             "man-man-girl-boy"
@@ -36860,7 +36912,7 @@
         "google": null,
         "image": "1f468-200d-1f468-200d-1f467-200d-1f467.png",
         "sheet_x": 39,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "man-man-girl-girl",
         "short_names": [
             "man-man-girl-girl"
@@ -36886,7 +36938,7 @@
         "google": null,
         "image": "1f468-200d-1f469-200d-1f466-200d-1f466.png",
         "sheet_x": 39,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "man-woman-boy-boy",
         "short_names": [
             "man-woman-boy-boy"
@@ -36912,7 +36964,7 @@
         "google": null,
         "image": "1f468-200d-1f469-200d-1f467.png",
         "sheet_x": 39,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "man-woman-girl",
         "short_names": [
             "man-woman-girl"
@@ -36938,7 +36990,7 @@
         "google": null,
         "image": "1f468-200d-1f469-200d-1f467-200d-1f466.png",
         "sheet_x": 39,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "man-woman-girl-boy",
         "short_names": [
             "man-woman-girl-boy"
@@ -36964,7 +37016,7 @@
         "google": null,
         "image": "1f468-200d-1f469-200d-1f467-200d-1f467.png",
         "sheet_x": 39,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "man-woman-girl-girl",
         "short_names": [
             "man-woman-girl-girl"
@@ -36990,7 +37042,7 @@
         "google": null,
         "image": "1f468-200d-2764-fe0f-200d-1f468.png",
         "sheet_x": 39,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "man-heart-man",
         "short_names": [
             "man-heart-man"
@@ -37016,7 +37068,7 @@
         "google": null,
         "image": "1f468-200d-2764-fe0f-200d-1f48b-200d-1f468.png",
         "sheet_x": 39,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "man-kiss-man",
         "short_names": [
             "man-kiss-man"
@@ -37042,7 +37094,7 @@
         "google": null,
         "image": "1f469-200d-1f469-200d-1f466.png",
         "sheet_x": 39,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "woman-woman-boy",
         "short_names": [
             "woman-woman-boy"
@@ -37068,7 +37120,7 @@
         "google": null,
         "image": "1f469-200d-1f469-200d-1f466-200d-1f466.png",
         "sheet_x": 39,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "woman-woman-boy-boy",
         "short_names": [
             "woman-woman-boy-boy"
@@ -37094,7 +37146,7 @@
         "google": null,
         "image": "1f469-200d-1f469-200d-1f467.png",
         "sheet_x": 39,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "woman-woman-girl",
         "short_names": [
             "woman-woman-girl"
@@ -37120,7 +37172,7 @@
         "google": null,
         "image": "1f469-200d-1f469-200d-1f467-200d-1f466.png",
         "sheet_x": 39,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "woman-woman-girl-boy",
         "short_names": [
             "woman-woman-girl-boy"
@@ -37146,7 +37198,7 @@
         "google": null,
         "image": "1f469-200d-1f469-200d-1f467-200d-1f467.png",
         "sheet_x": 39,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "woman-woman-girl-girl",
         "short_names": [
             "woman-woman-girl-girl"
@@ -37172,7 +37224,7 @@
         "google": null,
         "image": "1f469-200d-2764-fe0f-200d-1f469.png",
         "sheet_x": 39,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "woman-heart-woman",
         "short_names": [
             "woman-heart-woman"
@@ -37198,7 +37250,7 @@
         "google": null,
         "image": "1f469-200d-2764-fe0f-200d-1f48b-200d-1f469.png",
         "sheet_x": 39,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "woman-kiss-woman",
         "short_names": [
             "woman-kiss-woman"
