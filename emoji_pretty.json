@@ -24511,11 +24511,7 @@
             "blush"
         ],
         "text": ":)",
-        "texts": [
-            ":)",
-            "(:",
-            ":-)"
-        ],
+        "texts": null,
         "category": "People",
         "sort_order": 11,
         "has_img_apple": true,
@@ -26009,7 +26005,11 @@
             "slightly_smiling_face"
         ],
         "text": null,
-        "texts": null,
+        "texts": [
+            ":)",
+            "(:",
+            ":-)"
+        ],
         "category": "People",
         "sort_order": 12,
         "has_img_apple": true,
