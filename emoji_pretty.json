@@ -1261,9 +1261,9 @@
         "image": "2614.png",
         "sheet_x": 1,
         "sheet_y": 7,
-        "short_name": "umbrella",
+        "short_name": "umbrella_with_rain_drops",
         "short_names": [
-            "umbrella"
+            "umbrella_with_rain_drops"
         ],
         "text": null,
         "texts": null,

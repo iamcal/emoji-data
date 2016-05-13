@@ -803,7 +803,7 @@
 2600;sunny
 2601;cloud
 2611;ballot_box_with_check
-2614;umbrella
+2614;umbrella_with_rain_drops
 2615;coffee
 2648;aries
 2649;taurus
