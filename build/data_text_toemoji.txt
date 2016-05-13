@@ -28,6 +28,8 @@ c:	smile
 :-|	neutral_face
 :o	open_mouth
 :-o	open_mouth
+:O	open_mouth
+:-O	open_mouth
 >:(	angry
 >:-(	angry
 :p	stuck_out_tongue

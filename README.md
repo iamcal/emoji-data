@@ -101,4 +101,4 @@ An explanation of the various fields is in order:
 * 2015-12-11 : v2.3.0 - Updated Google images to Android 6.0.1, Twitter images to include skin tones
 * 2016-02-09 : v2.4.0 - Updated emojione images to the Q1 2016 release (v2.1.0)
 * 2016-04-20 : v2.4.1 - Fixed the duplicate :satellite: short names
-* ????-??-?? : v2.4.2 - Changed :) to :slightly_smiling_face:
+* ????-??-?? : v2.4.2 - Changed :) to :slightly_smiling_face:, support for capitalized open_mouth emoticons
