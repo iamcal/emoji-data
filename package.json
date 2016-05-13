@@ -1,6 +1,6 @@
 {
   "name": "emoji-data",
-  "version": "2.4.1",
+  "version": "2.4.2",
   "description": "Emoji data and images",
   "main": "emoji.json",
   "repository": {
@@ -19,7 +19,7 @@
     "emoji_pretty.json"
   ],
   "dependencies": {
-    "images": "https://github.com/iamcal/emoji-data/archive/v2.4.1.tar.gz"
+    "images": "https://github.com/iamcal/emoji-data/archive/v2.4.2.tar.gz"
   },
   "bugs": {
     "url": "https://github.com/iamcal/emoji-data/issues"

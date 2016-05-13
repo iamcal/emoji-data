@@ -1,0 +1,57 @@
+# Emoji ZWJ Sequence Catalog for UTR #51
+#
+# File:    emoji-zwj-sequences.txt
+# Version: 2.0
+# Date:    2015-11-11
+#
+# Copyright (c) 2015 Unicode, Inc.
+# For terms of use, see http://www.unicode.org/terms_of_use.html
+# For documentation and usage, see http://www.unicode.org/reports/tr51/
+#
+
+# Format: 
+# codepoints ; # (sequence) description 
+
+# ================================================
+
+# ZWJ sequences
+
+1F441 200D 1F5E8                            # (👁‍🗨) eye, zwj, left speech bubble
+1F468 200D 2764 FE0F 200D 1F468             # (👨‍❤️‍👨) man, zwj, heavy black heart, emoji-vs, zwj, man
+1F468 200D 2764 FE0F 200D 1F48B 200D 1F468  # (👨‍❤️‍💋‍👨) man, zwj, heavy black heart, emoji-vs, zwj, kiss mark, zwj, man
+1F468 200D 1F468 200D 1F466                 # (👨‍👨‍👦) man, zwj, man, zwj, boy
+1F468 200D 1F468 200D 1F466 200D 1F466      # (👨‍👨‍👦‍👦) man, zwj, man, zwj, boy, zwj, boy
+1F468 200D 1F468 200D 1F467                 # (👨‍👨‍👧) man, zwj, man, zwj, girl
+1F468 200D 1F468 200D 1F467 200D 1F466      # (👨‍👨‍👧‍👦) man, zwj, man, zwj, girl, zwj, boy
+1F468 200D 1F468 200D 1F467 200D 1F467      # (👨‍👨‍👧‍👧) man, zwj, man, zwj, girl, zwj, girl
+1F468 200D 1F469 200D 1F466                 # (👨‍👩‍👦) man, zwj, woman, zwj, boy
+1F468 200D 1F469 200D 1F466 200D 1F466      # (👨‍👩‍👦‍👦) man, zwj, woman, zwj, boy, zwj, boy
+1F468 200D 1F469 200D 1F467                 # (👨‍👩‍👧) man, zwj, woman, zwj, girl
+1F468 200D 1F469 200D 1F467 200D 1F466      # (👨‍👩‍👧‍👦) man, zwj, woman, zwj, girl, zwj, boy
+1F468 200D 1F469 200D 1F467 200D 1F467      # (👨‍👩‍👧‍👧) man, zwj, woman, zwj, girl, zwj, girl
+1F469 200D 2764 FE0F 200D 1F468             # (👩‍❤️‍👨) woman, zwj, heavy black heart, emoji-vs, zwj, man
+1F469 200D 2764 FE0F 200D 1F469             # (👩‍❤️‍👩) woman, zwj, heavy black heart, emoji-vs, zwj, woman
+1F469 200D 2764 FE0F 200D 1F48B 200D 1F468  # (👩‍❤️‍💋‍👨) woman, zwj, heavy black heart, emoji-vs, zwj, kiss mark, zwj, man
+1F469 200D 2764 FE0F 200D 1F48B 200D 1F469  # (👩‍❤️‍💋‍👩) woman, zwj, heavy black heart, emoji-vs, zwj, kiss mark, zwj, woman
+1F469 200D 1F469 200D 1F466                 # (👩‍👩‍👦) woman, zwj, woman, zwj, boy
+1F469 200D 1F469 200D 1F466 200D 1F466      # (👩‍👩‍👦‍👦) woman, zwj, woman, zwj, boy, zwj, boy
+1F469 200D 1F469 200D 1F467                 # (👩‍👩‍👧) woman, zwj, woman, zwj, girl
+1F469 200D 1F469 200D 1F467 200D 1F466      # (👩‍👩‍👧‍👦) woman, zwj, woman, zwj, girl, zwj, boy
+1F469 200D 1F469 200D 1F467 200D 1F467      # (👩‍👩‍👧‍👧) woman, zwj, woman, zwj, girl, zwj, girl
+
+# Total sequences: 22
+
+# ================================================
+
+# ZWJ sequences (without U+FE0F)
+
+1F468 200D 2764 200D 1F468                  # (👨‍❤‍👨) man, zwj, heavy black heart, zwj, man
+1F468 200D 2764 200D 1F48B 200D 1F468       # (👨‍❤‍💋‍👨) man, zwj, heavy black heart, zwj, kiss mark, zwj, man
+1F469 200D 2764 200D 1F468                  # (👩‍❤‍👨) woman, zwj, heavy black heart, zwj, man
+1F469 200D 2764 200D 1F469                  # (👩‍❤‍👩) woman, zwj, heavy black heart, zwj, woman
+1F469 200D 2764 200D 1F48B 200D 1F468       # (👩‍❤‍💋‍👨) woman, zwj, heavy black heart, zwj, kiss mark, zwj, man
+1F469 200D 2764 200D 1F48B 200D 1F469       # (👩‍❤‍💋‍👩) woman, zwj, heavy black heart, zwj, kiss mark, zwj, woman
+
+# Total sequences: 6
+
+#EOF

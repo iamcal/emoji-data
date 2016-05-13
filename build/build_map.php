@@ -122,6 +122,25 @@
 
 
 	#
+	# build the official list of emoji with skin variations
+	#
+
+	$skin_variations = array();
+
+	parse_unicode_specfile('unicode/emoji-sequences.txt', function($fields, $comment){
+
+		$cps = explode(' ', $fields[0]);
+		$last = array_pop($cps);
+
+		if (in_array($last, $GLOBALS['skin_variation_suffixes'])){
+
+			$hex_low = StrToLower(implode('-', $cps));
+			$GLOBALS['skin_variations'][$hex_low] = 1;
+		}
+	});
+
+
+	#
 	# build the simple ones first
 	#
 
@@ -153,16 +172,18 @@
 	}
 
 
+
 	#
 	# were there any codepoints we have an image for, but no data for?
 	#
 
-	echo "Finding emoji we have names for: ";
+	echo "\nFinding emoji we have names for: ";
 
 	foreach ($short_names as $uid => $names){
 
 		$img_key = StrToLower($uid);
 		if ($out_unis[$img_key]) continue;
+		$out_unis[$img_key] = 1;
 
 		echo '.';
 
@@ -179,13 +200,130 @@
 	echo " DONE\n";
 
 
+	#
+	# include everything from emoji-data.txt
+	#
+
+	echo "\nProcessing emoji-data.txt : ";
+
+	parse_unicode_specfile('unicode/emoji-data.txt', function($fields, $comment){
+
+		echo '.';
+
+		global $out_unis, $out;
+
+		if (strpos($fields[0], '..')){
+			list($a, $b) = explode('..', $fields[0]);
+			$a = hexdec($a);
+			$b = hexdec($b);
+
+			$cps = array();
+			for ($i=$a; $i<=$b; $i++){
+				$cps[] = $i;
+			}
+		}else{
+			$cp = sprintf('%04x', hexdec($fields[0]));
+			$cps = array(hexdec($fields[0]));
+		}
+
+		foreach ($cps as $cp){
+
+			$hex_low = sprintf('%04x', $cp);
+			if ($out_unis[$hex_low]) continue;
+
+			if ($cp == 0x0023) continue; # number sign
+			if ($cp == 0x002A) continue; # asterisk
+			if ($cp >= 0x0030 && $cp <= 0x0039) continue; # 0-9
+			if ($cp >= 0x1F1E6 && $cp <= 0x1F1FF) continue; # flag letters
+
+			$hex_up = StrToUpper($hex_low);
+			$line = shell_exec("grep -e ^{$hex_up}\\; unicode/UnicodeData.txt");
+			$line = trim($line);
+
+			echo "\nno data for $cp/$hex_low, but found in emoji-data.txt : $line\n";
+		}
+	});
+
+	echo " DONE\n";
+
+
+	#
+	# check against emoji-sequences.txt and emoji-zwj-sequences.txt
+	#
+
+	echo "\nProcessing emoji-(zwj-)?sequences.txt : ";
+
+	parse_unicode_specfile('unicode/emoji-sequences.txt', 'check_sequence');	
+	parse_unicode_specfile('unicode/emoji-zwj-sequences.txt', 'check_sequence');	
+
+
+	function check_sequence($fields, $comment){
+
+		echo '.';
+
+		$cps = explode(' ', $fields[0]);
+		$last = $cps[count($cps)-1];
+
+		# skip skin tone variations - we treat those specially
+		if (in_array($last, $GLOBALS['skin_variation_suffixes'])) return;
+
+		$hex_low = StrToLower(implode('-', $cps));
+		if ($GLOBALS['out_unis'][$hex_low]) return;
+
+		echo "\nFound sequence not supported: $hex_low / {$comment}\n";
+	}
+
+	echo " DONE\n";
+
+
+	#
+	# check for duplicate short names
+	#
+
+	echo "Checking shortnames : ";
+
+	$uniq = array();
+
+	foreach ($out as $k => $row){
+
+		echo '.';
+
+		if ($row['unified']){
+			$k = 'U+'.$row['unified'];
+		}else{
+			$k = "UNKNOWN/$k";
+		}
+
+		if (count($row['short_names'])){
+
+			foreach ($row['short_names'] as $sn){
+
+				if ($uniq[$sn]){
+					echo "\nDuplicate shortname :{$sn}: for {$uniq[$sn]} and $k\n";
+				}else{
+					$uniq[$sn] = $k;
+				}
+			}
+
+		}else{
+			echo "\nCharacter with no shortname: $k\n";
+		}
+	}
+
+	echo " DONE\n";
+
+
+
+
+
+
 	function build_character_data($img_key, $short_names){
 
 		global $text;
 
 		$uni = StrToUpper($img_key);
 
-		$line = shell_exec("grep -e ^{$uni}\\; UnicodeData.txt");
+		$line = shell_exec("grep -e ^{$uni}\\; unicode/UnicodeData.txt");
 		list($junk, $name) = explode(';', $line);
 
 
@@ -240,7 +378,7 @@
 
 		foreach ($props as $k => $v) $ret[$k] = $v;
 
-		if (file_exists("../img-apple-64/{$img_key}-1f3fb.png")){
+		if ($GLOBALS['skin_variations'][$img_key] || file_exists("../img-apple-64/{$img_key}-1f3fb.png")){
 
 			$ret['skin_variations'] = array();
 
@@ -390,5 +528,28 @@
 			$str = mb_substr($str, 1);
 		}
 		return implode('-', $out);
+	}
+
+	function parse_unicode_specfile($filename, $callback){
+
+		$lines = file($filename);
+		foreach ($lines as $line){
+			$p = strpos($line , '#');
+			$comment = '';
+			if ($p !== false){
+				$comment = trim(substr($line, $p+1));
+				$line = substr($line, 0, $p);
+			}
+			$line = trim($line);
+			if (!strlen($line)) continue;
+
+			$bits = explode(';', $line);
+			$fields = array();
+			foreach ($bits as $bit){
+				$fields[] = trim($bit);
+			}
+
+			call_user_func($callback, $fields, $comment);
+		}
 	}
 

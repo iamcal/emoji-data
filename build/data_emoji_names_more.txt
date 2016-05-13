@@ -478,3 +478,6 @@
 1F1FF-1F1F2;flag-zm
 1F1FF-1F1FC;flag-zw
 
+# missing from apple images
+23CF;eject
+

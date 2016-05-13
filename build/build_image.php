@@ -76,31 +76,46 @@
 
 			$main_img = null;
 
-			if ($row["has_img_{$type}"]){
+			while (1){
 
-				$main_img = "img-{$type}-64/{$row['image']}";
-				$comp[] = array($row['sheet_x'], $row['sheet_y'], $main_img);
-			}else{
+				#
+				# prefer the image is the set we're building, duh
+				#
 
+				if ($row["has_img_{$type}"]){
+
+					$main_img = "img-{$type}-64/{$row['image']}";
+					$comp[] = array($row['sheet_x'], $row['sheet_y'], $main_img);
+					break;
+				}
+
+
+				#
 				# apple is always our first fallback. after that, we'll try emojione
 				# (since it has the missing flags), else fall back to the replacement glyph
+				#
 
-				if ($row["has_img_apple"]){
+				$try_order = array('apple', 'emojione', 'google', 'twitter');
 
-					$main_img = "img-apple-64/{$row['image']}";
-					$comp[] = array($row['sheet_x'], $row['sheet_y'], $main_img);
+				foreach ($try_order as $try_type){
 
-				}elseif ($row["has_img_emojione"]){
+					if ($row["has_img_{$try_type}"]){
 
-					$main_img = "img-emojione-64/{$row['image']}";
-					$comp[] = array($row['sheet_x'], $row['sheet_y'], $main_img);
-
-				}elseif ($replacement){
-
-					# it's missing - try the fallback (2753)
-					$main_img = $replacement;
-					$comp[] = array($row['sheet_x'], $row['sheet_y'], $main_img);
+						$main_img = "img-{$try_type}-64/{$row['image']}";
+						$comp[] = array($row['sheet_x'], $row['sheet_y'], $main_img);
+						break 2;
+					}
 				}
+
+
+				#
+				# it's missing - try the fallback (2753)
+				#
+
+				$main_img = $replacement;
+				$comp[] = array($row['sheet_x'], $row['sheet_y'], $main_img);
+				echo "Unable to find any images for U+{$row['unified']}\n";
+				break;
 			}
 
 

@@ -252,7 +252,7 @@ if (0){
 			&& !$filenames->{$glyph_id+5}){
 
 			my $up = sprintf('%04X;', $simple_map->{$glyph_id});
-			my $line = `grep -E "^$up" ../UnicodeData.txt`;
+			my $line = `grep -E "^$up" ../unicode/UnicodeData.txt`;
 			my @bits = split /;/, $line;
 
 			printf(" 0x%x, # %s\n", $simple_map->{$glyph_id}, lc $bits[1]);

@@ -1,0 +1,625 @@
+# Emoji Sequence Data for UTR #51
+#
+# File:    emoji-sequences.txt
+# Version: 2.0
+# Date:    2015-11-11
+#
+# Copyright (c) 2015 Unicode, Inc.
+# For terms of use, see http://www.unicode.org/terms_of_use.html
+# For documentation and usage, see http://www.unicode.org/reports/tr51/
+#
+
+# Format: 
+# codepoints ; # (sequence) description 
+
+# ================================================
+
+# Combining sequences
+
+0023 20E3     # (#️⃣) keycap number sign
+002A 20E3     # (*⃣) keycap asterisk
+0030 20E3     # (0️⃣) keycap digit zero
+0031 20E3     # (1️⃣) keycap digit one
+0032 20E3     # (2️⃣) keycap digit two
+0033 20E3     # (3️⃣) keycap digit three
+0034 20E3     # (4️⃣) keycap digit four
+0035 20E3     # (5️⃣) keycap digit five
+0036 20E3     # (6️⃣) keycap digit six
+0037 20E3     # (7️⃣) keycap digit seven
+0038 20E3     # (8️⃣) keycap digit eight
+0039 20E3     # (9️⃣) keycap digit nine
+
+# Total sequences: 12
+
+# ================================================
+
+# Flag sequences
+
+1F1E6 1F1E8   # (🇦🇨) flag for Ascension Island
+1F1E6 1F1E9   # (🇦🇩) flag for Andorra
+1F1E6 1F1EA   # (🇦🇪) flag for United Arab Emirates
+1F1E6 1F1EB   # (🇦🇫) flag for Afghanistan
+1F1E6 1F1EC   # (🇦🇬) flag for Antigua & Barbuda
+1F1E6 1F1EE   # (🇦🇮) flag for Anguilla
+1F1E6 1F1F1   # (🇦🇱) flag for Albania
+1F1E6 1F1F2   # (🇦🇲) flag for Armenia
+1F1E6 1F1F4   # (🇦🇴) flag for Angola
+1F1E6 1F1F6   # (🇦🇶) flag for Antarctica
+1F1E6 1F1F7   # (🇦🇷) flag for Argentina
+1F1E6 1F1F8   # (🇦🇸) flag for American Samoa
+1F1E6 1F1F9   # (🇦🇹) flag for Austria
+1F1E6 1F1FA   # (🇦🇺) flag for Australia
+1F1E6 1F1FC   # (🇦🇼) flag for Aruba
+1F1E6 1F1FD   # (🇦🇽) flag for Åland Islands
+1F1E6 1F1FF   # (🇦🇿) flag for Azerbaijan
+1F1E7 1F1E6   # (🇧🇦) flag for Bosnia & Herzegovina
+1F1E7 1F1E7   # (🇧🇧) flag for Barbados
+1F1E7 1F1E9   # (🇧🇩) flag for Bangladesh
+1F1E7 1F1EA   # (🇧🇪) flag for Belgium
+1F1E7 1F1EB   # (🇧🇫) flag for Burkina Faso
+1F1E7 1F1EC   # (🇧🇬) flag for Bulgaria
+1F1E7 1F1ED   # (🇧🇭) flag for Bahrain
+1F1E7 1F1EE   # (🇧🇮) flag for Burundi
+1F1E7 1F1EF   # (🇧🇯) flag for Benin
+1F1E7 1F1F1   # (🇧🇱) flag for St. Barthélemy
+1F1E7 1F1F2   # (🇧🇲) flag for Bermuda
+1F1E7 1F1F3   # (🇧🇳) flag for Brunei
+1F1E7 1F1F4   # (🇧🇴) flag for Bolivia
+1F1E7 1F1F6   # (🇧🇶) flag for Caribbean Netherlands
+1F1E7 1F1F7   # (🇧🇷) flag for Brazil
+1F1E7 1F1F8   # (🇧🇸) flag for Bahamas
+1F1E7 1F1F9   # (🇧🇹) flag for Bhutan
+1F1E7 1F1FB   # (🇧🇻) flag for Bouvet Island
+1F1E7 1F1FC   # (🇧🇼) flag for Botswana
+1F1E7 1F1FE   # (🇧🇾) flag for Belarus
+1F1E7 1F1FF   # (🇧🇿) flag for Belize
+1F1E8 1F1E6   # (🇨🇦) flag for Canada
+1F1E8 1F1E8   # (🇨🇨) flag for Cocos Islands
+1F1E8 1F1E9   # (🇨🇩) flag for Congo - Kinshasa
+1F1E8 1F1EB   # (🇨🇫) flag for Central African Republic
+1F1E8 1F1EC   # (🇨🇬) flag for Congo - Brazzaville
+1F1E8 1F1ED   # (🇨🇭) flag for Switzerland
+1F1E8 1F1EE   # (🇨🇮) flag for Côte d’Ivoire
+1F1E8 1F1F0   # (🇨🇰) flag for Cook Islands
+1F1E8 1F1F1   # (🇨🇱) flag for Chile
+1F1E8 1F1F2   # (🇨🇲) flag for Cameroon
+1F1E8 1F1F3   # (🇨🇳) flag for China
+1F1E8 1F1F4   # (🇨🇴) flag for Colombia
+1F1E8 1F1F5   # (🇨🇵) flag for Clipperton Island
+1F1E8 1F1F7   # (🇨🇷) flag for Costa Rica
+1F1E8 1F1FA   # (🇨🇺) flag for Cuba
+1F1E8 1F1FB   # (🇨🇻) flag for Cape Verde
+1F1E8 1F1FC   # (🇨🇼) flag for Curaçao
+1F1E8 1F1FD   # (🇨🇽) flag for Christmas Island
+1F1E8 1F1FE   # (🇨🇾) flag for Cyprus
+1F1E8 1F1FF   # (🇨🇿) flag for Czech Republic
+1F1E9 1F1EA   # (🇩🇪) flag for Germany
+1F1E9 1F1EC   # (🇩🇬) flag for Diego Garcia
+1F1E9 1F1EF   # (🇩🇯) flag for Djibouti
+1F1E9 1F1F0   # (🇩🇰) flag for Denmark
+1F1E9 1F1F2   # (🇩🇲) flag for Dominica
+1F1E9 1F1F4   # (🇩🇴) flag for Dominican Republic
+1F1E9 1F1FF   # (🇩🇿) flag for Algeria
+1F1EA 1F1E6   # (🇪🇦) flag for Ceuta & Melilla
+1F1EA 1F1E8   # (🇪🇨) flag for Ecuador
+1F1EA 1F1EA   # (🇪🇪) flag for Estonia
+1F1EA 1F1EC   # (🇪🇬) flag for Egypt
+1F1EA 1F1ED   # (🇪🇭) flag for Western Sahara
+1F1EA 1F1F7   # (🇪🇷) flag for Eritrea
+1F1EA 1F1F8   # (🇪🇸) flag for Spain
+1F1EA 1F1F9   # (🇪🇹) flag for Ethiopia
+1F1EA 1F1FA   # (🇪🇺) flag for European Union
+1F1EB 1F1EE   # (🇫🇮) flag for Finland
+1F1EB 1F1EF   # (🇫🇯) flag for Fiji
+1F1EB 1F1F0   # (🇫🇰) flag for Falkland Islands
+1F1EB 1F1F2   # (🇫🇲) flag for Micronesia
+1F1EB 1F1F4   # (🇫🇴) flag for Faroe Islands
+1F1EB 1F1F7   # (🇫🇷) flag for France
+1F1EC 1F1E6   # (🇬🇦) flag for Gabon
+1F1EC 1F1E7   # (🇬🇧) flag for United Kingdom
+1F1EC 1F1E9   # (🇬🇩) flag for Grenada
+1F1EC 1F1EA   # (🇬🇪) flag for Georgia
+1F1EC 1F1EB   # (🇬🇫) flag for French Guiana
+1F1EC 1F1EC   # (🇬🇬) flag for Guernsey
+1F1EC 1F1ED   # (🇬🇭) flag for Ghana
+1F1EC 1F1EE   # (🇬🇮) flag for Gibraltar
+1F1EC 1F1F1   # (🇬🇱) flag for Greenland
+1F1EC 1F1F2   # (🇬🇲) flag for Gambia
+1F1EC 1F1F3   # (🇬🇳) flag for Guinea
+1F1EC 1F1F5   # (🇬🇵) flag for Guadeloupe
+1F1EC 1F1F6   # (🇬🇶) flag for Equatorial Guinea
+1F1EC 1F1F7   # (🇬🇷) flag for Greece
+1F1EC 1F1F8   # (🇬🇸) flag for South Georgia & South Sandwich Islands
+1F1EC 1F1F9   # (🇬🇹) flag for Guatemala
+1F1EC 1F1FA   # (🇬🇺) flag for Guam
+1F1EC 1F1FC   # (🇬🇼) flag for Guinea-Bissau
+1F1EC 1F1FE   # (🇬🇾) flag for Guyana
+1F1ED 1F1F0   # (🇭🇰) flag for Hong Kong
+1F1ED 1F1F2   # (🇭🇲) flag for Heard & McDonald Islands
+1F1ED 1F1F3   # (🇭🇳) flag for Honduras
+1F1ED 1F1F7   # (🇭🇷) flag for Croatia
+1F1ED 1F1F9   # (🇭🇹) flag for Haiti
+1F1ED 1F1FA   # (🇭🇺) flag for Hungary
+1F1EE 1F1E8   # (🇮🇨) flag for Canary Islands
+1F1EE 1F1E9   # (🇮🇩) flag for Indonesia
+1F1EE 1F1EA   # (🇮🇪) flag for Ireland
+1F1EE 1F1F1   # (🇮🇱) flag for Israel
+1F1EE 1F1F2   # (🇮🇲) flag for Isle of Man
+1F1EE 1F1F3   # (🇮🇳) flag for India
+1F1EE 1F1F4   # (🇮🇴) flag for British Indian Ocean Territory
+1F1EE 1F1F6   # (🇮🇶) flag for Iraq
+1F1EE 1F1F7   # (🇮🇷) flag for Iran
+1F1EE 1F1F8   # (🇮🇸) flag for Iceland
+1F1EE 1F1F9   # (🇮🇹) flag for Italy
+1F1EF 1F1EA   # (🇯🇪) flag for Jersey
+1F1EF 1F1F2   # (🇯🇲) flag for Jamaica
+1F1EF 1F1F4   # (🇯🇴) flag for Jordan
+1F1EF 1F1F5   # (🇯🇵) flag for Japan
+1F1F0 1F1EA   # (🇰🇪) flag for Kenya
+1F1F0 1F1EC   # (🇰🇬) flag for Kyrgyzstan
+1F1F0 1F1ED   # (🇰🇭) flag for Cambodia
+1F1F0 1F1EE   # (🇰🇮) flag for Kiribati
+1F1F0 1F1F2   # (🇰🇲) flag for Comoros
+1F1F0 1F1F3   # (🇰🇳) flag for St. Kitts & Nevis
+1F1F0 1F1F5   # (🇰🇵) flag for North Korea
+1F1F0 1F1F7   # (🇰🇷) flag for South Korea
+1F1F0 1F1FC   # (🇰🇼) flag for Kuwait
+1F1F0 1F1FE   # (🇰🇾) flag for Cayman Islands
+1F1F0 1F1FF   # (🇰🇿) flag for Kazakhstan
+1F1F1 1F1E6   # (🇱🇦) flag for Laos
+1F1F1 1F1E7   # (🇱🇧) flag for Lebanon
+1F1F1 1F1E8   # (🇱🇨) flag for St. Lucia
+1F1F1 1F1EE   # (🇱🇮) flag for Liechtenstein
+1F1F1 1F1F0   # (🇱🇰) flag for Sri Lanka
+1F1F1 1F1F7   # (🇱🇷) flag for Liberia
+1F1F1 1F1F8   # (🇱🇸) flag for Lesotho
+1F1F1 1F1F9   # (🇱🇹) flag for Lithuania
+1F1F1 1F1FA   # (🇱🇺) flag for Luxembourg
+1F1F1 1F1FB   # (🇱🇻) flag for Latvia
+1F1F1 1F1FE   # (🇱🇾) flag for Libya
+1F1F2 1F1E6   # (🇲🇦) flag for Morocco
+1F1F2 1F1E8   # (🇲🇨) flag for Monaco
+1F1F2 1F1E9   # (🇲🇩) flag for Moldova
+1F1F2 1F1EA   # (🇲🇪) flag for Montenegro
+1F1F2 1F1EB   # (🇲🇫) flag for St. Martin
+1F1F2 1F1EC   # (🇲🇬) flag for Madagascar
+1F1F2 1F1ED   # (🇲🇭) flag for Marshall Islands
+1F1F2 1F1F0   # (🇲🇰) flag for Macedonia
+1F1F2 1F1F1   # (🇲🇱) flag for Mali
+1F1F2 1F1F2   # (🇲🇲) flag for Myanmar
+1F1F2 1F1F3   # (🇲🇳) flag for Mongolia
+1F1F2 1F1F4   # (🇲🇴) flag for Macau
+1F1F2 1F1F5   # (🇲🇵) flag for Northern Mariana Islands
+1F1F2 1F1F6   # (🇲🇶) flag for Martinique
+1F1F2 1F1F7   # (🇲🇷) flag for Mauritania
+1F1F2 1F1F8   # (🇲🇸) flag for Montserrat
+1F1F2 1F1F9   # (🇲🇹) flag for Malta
+1F1F2 1F1FA   # (🇲🇺) flag for Mauritius
+1F1F2 1F1FB   # (🇲🇻) flag for Maldives
+1F1F2 1F1FC   # (🇲🇼) flag for Malawi
+1F1F2 1F1FD   # (🇲🇽) flag for Mexico
+1F1F2 1F1FE   # (🇲🇾) flag for Malaysia
+1F1F2 1F1FF   # (🇲🇿) flag for Mozambique
+1F1F3 1F1E6   # (🇳🇦) flag for Namibia
+1F1F3 1F1E8   # (🇳🇨) flag for New Caledonia
+1F1F3 1F1EA   # (🇳🇪) flag for Niger
+1F1F3 1F1EB   # (🇳🇫) flag for Norfolk Island
+1F1F3 1F1EC   # (🇳🇬) flag for Nigeria
+1F1F3 1F1EE   # (🇳🇮) flag for Nicaragua
+1F1F3 1F1F1   # (🇳🇱) flag for Netherlands
+1F1F3 1F1F4   # (🇳🇴) flag for Norway
+1F1F3 1F1F5   # (🇳🇵) flag for Nepal
+1F1F3 1F1F7   # (🇳🇷) flag for Nauru
+1F1F3 1F1FA   # (🇳🇺) flag for Niue
+1F1F3 1F1FF   # (🇳🇿) flag for New Zealand
+1F1F4 1F1F2   # (🇴🇲) flag for Oman
+1F1F5 1F1E6   # (🇵🇦) flag for Panama
+1F1F5 1F1EA   # (🇵🇪) flag for Peru
+1F1F5 1F1EB   # (🇵🇫) flag for French Polynesia
+1F1F5 1F1EC   # (🇵🇬) flag for Papua New Guinea
+1F1F5 1F1ED   # (🇵🇭) flag for Philippines
+1F1F5 1F1F0   # (🇵🇰) flag for Pakistan
+1F1F5 1F1F1   # (🇵🇱) flag for Poland
+1F1F5 1F1F2   # (🇵🇲) flag for St. Pierre & Miquelon
+1F1F5 1F1F3   # (🇵🇳) flag for Pitcairn Islands
+1F1F5 1F1F7   # (🇵🇷) flag for Puerto Rico
+1F1F5 1F1F8   # (🇵🇸) flag for Palestinian Territories
+1F1F5 1F1F9   # (🇵🇹) flag for Portugal
+1F1F5 1F1FC   # (🇵🇼) flag for Palau
+1F1F5 1F1FE   # (🇵🇾) flag for Paraguay
+1F1F6 1F1E6   # (🇶🇦) flag for Qatar
+1F1F7 1F1EA   # (🇷🇪) flag for Réunion
+1F1F7 1F1F4   # (🇷🇴) flag for Romania
+1F1F7 1F1F8   # (🇷🇸) flag for Serbia
+1F1F7 1F1FA   # (🇷🇺) flag for Russia
+1F1F7 1F1FC   # (🇷🇼) flag for Rwanda
+1F1F8 1F1E6   # (🇸🇦) flag for Saudi Arabia
+1F1F8 1F1E7   # (🇸🇧) flag for Solomon Islands
+1F1F8 1F1E8   # (🇸🇨) flag for Seychelles
+1F1F8 1F1E9   # (🇸🇩) flag for Sudan
+1F1F8 1F1EA   # (🇸🇪) flag for Sweden
+1F1F8 1F1EC   # (🇸🇬) flag for Singapore
+1F1F8 1F1ED   # (🇸🇭) flag for St. Helena
+1F1F8 1F1EE   # (🇸🇮) flag for Slovenia
+1F1F8 1F1EF   # (🇸🇯) flag for Svalbard & Jan Mayen
+1F1F8 1F1F0   # (🇸🇰) flag for Slovakia
+1F1F8 1F1F1   # (🇸🇱) flag for Sierra Leone
+1F1F8 1F1F2   # (🇸🇲) flag for San Marino
+1F1F8 1F1F3   # (🇸🇳) flag for Senegal
+1F1F8 1F1F4   # (🇸🇴) flag for Somalia
+1F1F8 1F1F7   # (🇸🇷) flag for Suriname
+1F1F8 1F1F8   # (🇸🇸) flag for South Sudan
+1F1F8 1F1F9   # (🇸🇹) flag for São Tomé & Príncipe
+1F1F8 1F1FB   # (🇸🇻) flag for El Salvador
+1F1F8 1F1FD   # (🇸🇽) flag for Sint Maarten
+1F1F8 1F1FE   # (🇸🇾) flag for Syria
+1F1F8 1F1FF   # (🇸🇿) flag for Swaziland
+1F1F9 1F1E6   # (🇹🇦) flag for Tristan da Cunha
+1F1F9 1F1E8   # (🇹🇨) flag for Turks & Caicos Islands
+1F1F9 1F1E9   # (🇹🇩) flag for Chad
+1F1F9 1F1EB   # (🇹🇫) flag for French Southern Territories
+1F1F9 1F1EC   # (🇹🇬) flag for Togo
+1F1F9 1F1ED   # (🇹🇭) flag for Thailand
+1F1F9 1F1EF   # (🇹🇯) flag for Tajikistan
+1F1F9 1F1F0   # (🇹🇰) flag for Tokelau
+1F1F9 1F1F1   # (🇹🇱) flag for Timor-Leste
+1F1F9 1F1F2   # (🇹🇲) flag for Turkmenistan
+1F1F9 1F1F3   # (🇹🇳) flag for Tunisia
+1F1F9 1F1F4   # (🇹🇴) flag for Tonga
+1F1F9 1F1F7   # (🇹🇷) flag for Turkey
+1F1F9 1F1F9   # (🇹🇹) flag for Trinidad & Tobago
+1F1F9 1F1FB   # (🇹🇻) flag for Tuvalu
+1F1F9 1F1FC   # (🇹🇼) flag for Taiwan
+1F1F9 1F1FF   # (🇹🇿) flag for Tanzania
+1F1FA 1F1E6   # (🇺🇦) flag for Ukraine
+1F1FA 1F1EC   # (🇺🇬) flag for Uganda
+1F1FA 1F1F2   # (🇺🇲) flag for U.S. Outlying Islands
+1F1FA 1F1F8   # (🇺🇸) flag for United States
+1F1FA 1F1FE   # (🇺🇾) flag for Uruguay
+1F1FA 1F1FF   # (🇺🇿) flag for Uzbekistan
+1F1FB 1F1E6   # (🇻🇦) flag for Vatican City
+1F1FB 1F1E8   # (🇻🇨) flag for St. Vincent & Grenadines
+1F1FB 1F1EA   # (🇻🇪) flag for Venezuela
+1F1FB 1F1EC   # (🇻🇬) flag for British Virgin Islands
+1F1FB 1F1EE   # (🇻🇮) flag for U.S. Virgin Islands
+1F1FB 1F1F3   # (🇻🇳) flag for Vietnam
+1F1FB 1F1FA   # (🇻🇺) flag for Vanuatu
+1F1FC 1F1EB   # (🇼🇫) flag for Wallis & Futuna
+1F1FC 1F1F8   # (🇼🇸) flag for Samoa
+1F1FD 1F1F0   # (🇽🇰) flag for Kosovo
+1F1FE 1F1EA   # (🇾🇪) flag for Yemen
+1F1FE 1F1F9   # (🇾🇹) flag for Mayotte
+1F1FF 1F1E6   # (🇿🇦) flag for South Africa
+1F1FF 1F1F2   # (🇿🇲) flag for Zambia
+1F1FF 1F1FC   # (🇿🇼) flag for Zimbabwe
+
+# Total sequences: 257
+
+# ================================================
+
+# Modifier sequences
+
+261D 1F3FB    # (☝️🏻) white up pointing index type-1-2
+261D 1F3FC    # (☝️🏼) white up pointing index type-3
+261D 1F3FD    # (☝️🏽) white up pointing index type-4
+261D 1F3FE    # (☝️🏾) white up pointing index type-5
+261D 1F3FF    # (☝️🏿) white up pointing index type-6
+26F9 1F3FB    # (⛹🏻) person with ball type-1-2
+26F9 1F3FC    # (⛹🏼) person with ball type-3
+26F9 1F3FD    # (⛹🏽) person with ball type-4
+26F9 1F3FE    # (⛹🏾) person with ball type-5
+26F9 1F3FF    # (⛹🏿) person with ball type-6
+270A 1F3FB    # (✊🏻) raised fist type-1-2
+270A 1F3FC    # (✊🏼) raised fist type-3
+270A 1F3FD    # (✊🏽) raised fist type-4
+270A 1F3FE    # (✊🏾) raised fist type-5
+270A 1F3FF    # (✊🏿) raised fist type-6
+270B 1F3FB    # (✋🏻) raised hand type-1-2
+270B 1F3FC    # (✋🏼) raised hand type-3
+270B 1F3FD    # (✋🏽) raised hand type-4
+270B 1F3FE    # (✋🏾) raised hand type-5
+270B 1F3FF    # (✋🏿) raised hand type-6
+270C 1F3FB    # (✌️🏻) victory hand type-1-2
+270C 1F3FC    # (✌️🏼) victory hand type-3
+270C 1F3FD    # (✌️🏽) victory hand type-4
+270C 1F3FE    # (✌️🏾) victory hand type-5
+270C 1F3FF    # (✌️🏿) victory hand type-6
+270D 1F3FB    # (✍🏻) writing hand type-1-2
+270D 1F3FC    # (✍🏼) writing hand type-3
+270D 1F3FD    # (✍🏽) writing hand type-4
+270D 1F3FE    # (✍🏾) writing hand type-5
+270D 1F3FF    # (✍🏿) writing hand type-6
+1F385 1F3FB   # (🎅🏻) father christmas type-1-2
+1F385 1F3FC   # (🎅🏼) father christmas type-3
+1F385 1F3FD   # (🎅🏽) father christmas type-4
+1F385 1F3FE   # (🎅🏾) father christmas type-5
+1F385 1F3FF   # (🎅🏿) father christmas type-6
+1F3C3 1F3FB   # (🏃🏻) runner type-1-2
+1F3C3 1F3FC   # (🏃🏼) runner type-3
+1F3C3 1F3FD   # (🏃🏽) runner type-4
+1F3C3 1F3FE   # (🏃🏾) runner type-5
+1F3C3 1F3FF   # (🏃🏿) runner type-6
+1F3C4 1F3FB   # (🏄🏻) surfer type-1-2
+1F3C4 1F3FC   # (🏄🏼) surfer type-3
+1F3C4 1F3FD   # (🏄🏽) surfer type-4
+1F3C4 1F3FE   # (🏄🏾) surfer type-5
+1F3C4 1F3FF   # (🏄🏿) surfer type-6
+1F3CA 1F3FB   # (🏊🏻) swimmer type-1-2
+1F3CA 1F3FC   # (🏊🏼) swimmer type-3
+1F3CA 1F3FD   # (🏊🏽) swimmer type-4
+1F3CA 1F3FE   # (🏊🏾) swimmer type-5
+1F3CA 1F3FF   # (🏊🏿) swimmer type-6
+1F3CB 1F3FB   # (🏋🏻) weight lifter type-1-2
+1F3CB 1F3FC   # (🏋🏼) weight lifter type-3
+1F3CB 1F3FD   # (🏋🏽) weight lifter type-4
+1F3CB 1F3FE   # (🏋🏾) weight lifter type-5
+1F3CB 1F3FF   # (🏋🏿) weight lifter type-6
+1F442 1F3FB   # (👂🏻) ear type-1-2
+1F442 1F3FC   # (👂🏼) ear type-3
+1F442 1F3FD   # (👂🏽) ear type-4
+1F442 1F3FE   # (👂🏾) ear type-5
+1F442 1F3FF   # (👂🏿) ear type-6
+1F443 1F3FB   # (👃🏻) nose type-1-2
+1F443 1F3FC   # (👃🏼) nose type-3
+1F443 1F3FD   # (👃🏽) nose type-4
+1F443 1F3FE   # (👃🏾) nose type-5
+1F443 1F3FF   # (👃🏿) nose type-6
+1F446 1F3FB   # (👆🏻) white up pointing backhand index type-1-2
+1F446 1F3FC   # (👆🏼) white up pointing backhand index type-3
+1F446 1F3FD   # (👆🏽) white up pointing backhand index type-4
+1F446 1F3FE   # (👆🏾) white up pointing backhand index type-5
+1F446 1F3FF   # (👆🏿) white up pointing backhand index type-6
+1F447 1F3FB   # (👇🏻) white down pointing backhand index type-1-2
+1F447 1F3FC   # (👇🏼) white down pointing backhand index type-3
+1F447 1F3FD   # (👇🏽) white down pointing backhand index type-4
+1F447 1F3FE   # (👇🏾) white down pointing backhand index type-5
+1F447 1F3FF   # (👇🏿) white down pointing backhand index type-6
+1F448 1F3FB   # (👈🏻) white left pointing backhand index type-1-2
+1F448 1F3FC   # (👈🏼) white left pointing backhand index type-3
+1F448 1F3FD   # (👈🏽) white left pointing backhand index type-4
+1F448 1F3FE   # (👈🏾) white left pointing backhand index type-5
+1F448 1F3FF   # (👈🏿) white left pointing backhand index type-6
+1F449 1F3FB   # (👉🏻) white right pointing backhand index type-1-2
+1F449 1F3FC   # (👉🏼) white right pointing backhand index type-3
+1F449 1F3FD   # (👉🏽) white right pointing backhand index type-4
+1F449 1F3FE   # (👉🏾) white right pointing backhand index type-5
+1F449 1F3FF   # (👉🏿) white right pointing backhand index type-6
+1F44A 1F3FB   # (👊🏻) fisted hand sign type-1-2
+1F44A 1F3FC   # (👊🏼) fisted hand sign type-3
+1F44A 1F3FD   # (👊🏽) fisted hand sign type-4
+1F44A 1F3FE   # (👊🏾) fisted hand sign type-5
+1F44A 1F3FF   # (👊🏿) fisted hand sign type-6
+1F44B 1F3FB   # (👋🏻) waving hand sign type-1-2
+1F44B 1F3FC   # (👋🏼) waving hand sign type-3
+1F44B 1F3FD   # (👋🏽) waving hand sign type-4
+1F44B 1F3FE   # (👋🏾) waving hand sign type-5
+1F44B 1F3FF   # (👋🏿) waving hand sign type-6
+1F44C 1F3FB   # (👌🏻) ok hand sign type-1-2
+1F44C 1F3FC   # (👌🏼) ok hand sign type-3
+1F44C 1F3FD   # (👌🏽) ok hand sign type-4
+1F44C 1F3FE   # (👌🏾) ok hand sign type-5
+1F44C 1F3FF   # (👌🏿) ok hand sign type-6
+1F44D 1F3FB   # (👍🏻) thumbs up sign type-1-2
+1F44D 1F3FC   # (👍🏼) thumbs up sign type-3
+1F44D 1F3FD   # (👍🏽) thumbs up sign type-4
+1F44D 1F3FE   # (👍🏾) thumbs up sign type-5
+1F44D 1F3FF   # (👍🏿) thumbs up sign type-6
+1F44E 1F3FB   # (👎🏻) thumbs down sign type-1-2
+1F44E 1F3FC   # (👎🏼) thumbs down sign type-3
+1F44E 1F3FD   # (👎🏽) thumbs down sign type-4
+1F44E 1F3FE   # (👎🏾) thumbs down sign type-5
+1F44E 1F3FF   # (👎🏿) thumbs down sign type-6
+1F44F 1F3FB   # (👏🏻) clapping hands sign type-1-2
+1F44F 1F3FC   # (👏🏼) clapping hands sign type-3
+1F44F 1F3FD   # (👏🏽) clapping hands sign type-4
+1F44F 1F3FE   # (👏🏾) clapping hands sign type-5
+1F44F 1F3FF   # (👏🏿) clapping hands sign type-6
+1F450 1F3FB   # (👐🏻) open hands sign type-1-2
+1F450 1F3FC   # (👐🏼) open hands sign type-3
+1F450 1F3FD   # (👐🏽) open hands sign type-4
+1F450 1F3FE   # (👐🏾) open hands sign type-5
+1F450 1F3FF   # (👐🏿) open hands sign type-6
+1F466 1F3FB   # (👦🏻) boy type-1-2
+1F466 1F3FC   # (👦🏼) boy type-3
+1F466 1F3FD   # (👦🏽) boy type-4
+1F466 1F3FE   # (👦🏾) boy type-5
+1F466 1F3FF   # (👦🏿) boy type-6
+1F467 1F3FB   # (👧🏻) girl type-1-2
+1F467 1F3FC   # (👧🏼) girl type-3
+1F467 1F3FD   # (👧🏽) girl type-4
+1F467 1F3FE   # (👧🏾) girl type-5
+1F467 1F3FF   # (👧🏿) girl type-6
+1F468 1F3FB   # (👨🏻) man type-1-2
+1F468 1F3FC   # (👨🏼) man type-3
+1F468 1F3FD   # (👨🏽) man type-4
+1F468 1F3FE   # (👨🏾) man type-5
+1F468 1F3FF   # (👨🏿) man type-6
+1F469 1F3FB   # (👩🏻) woman type-1-2
+1F469 1F3FC   # (👩🏼) woman type-3
+1F469 1F3FD   # (👩🏽) woman type-4
+1F469 1F3FE   # (👩🏾) woman type-5
+1F469 1F3FF   # (👩🏿) woman type-6
+1F46E 1F3FB   # (👮🏻) police officer type-1-2
+1F46E 1F3FC   # (👮🏼) police officer type-3
+1F46E 1F3FD   # (👮🏽) police officer type-4
+1F46E 1F3FE   # (👮🏾) police officer type-5
+1F46E 1F3FF   # (👮🏿) police officer type-6
+1F470 1F3FB   # (👰🏻) bride with veil type-1-2
+1F470 1F3FC   # (👰🏼) bride with veil type-3
+1F470 1F3FD   # (👰🏽) bride with veil type-4
+1F470 1F3FE   # (👰🏾) bride with veil type-5
+1F470 1F3FF   # (👰🏿) bride with veil type-6
+1F471 1F3FB   # (👱🏻) person with blond hair type-1-2
+1F471 1F3FC   # (👱🏼) person with blond hair type-3
+1F471 1F3FD   # (👱🏽) person with blond hair type-4
+1F471 1F3FE   # (👱🏾) person with blond hair type-5
+1F471 1F3FF   # (👱🏿) person with blond hair type-6
+1F472 1F3FB   # (👲🏻) man with gua pi mao type-1-2
+1F472 1F3FC   # (👲🏼) man with gua pi mao type-3
+1F472 1F3FD   # (👲🏽) man with gua pi mao type-4
+1F472 1F3FE   # (👲🏾) man with gua pi mao type-5
+1F472 1F3FF   # (👲🏿) man with gua pi mao type-6
+1F473 1F3FB   # (👳🏻) man with turban type-1-2
+1F473 1F3FC   # (👳🏼) man with turban type-3
+1F473 1F3FD   # (👳🏽) man with turban type-4
+1F473 1F3FE   # (👳🏾) man with turban type-5
+1F473 1F3FF   # (👳🏿) man with turban type-6
+1F474 1F3FB   # (👴🏻) older man type-1-2
+1F474 1F3FC   # (👴🏼) older man type-3
+1F474 1F3FD   # (👴🏽) older man type-4
+1F474 1F3FE   # (👴🏾) older man type-5
+1F474 1F3FF   # (👴🏿) older man type-6
+1F475 1F3FB   # (👵🏻) older woman type-1-2
+1F475 1F3FC   # (👵🏼) older woman type-3
+1F475 1F3FD   # (👵🏽) older woman type-4
+1F475 1F3FE   # (👵🏾) older woman type-5
+1F475 1F3FF   # (👵🏿) older woman type-6
+1F476 1F3FB   # (👶🏻) baby type-1-2
+1F476 1F3FC   # (👶🏼) baby type-3
+1F476 1F3FD   # (👶🏽) baby type-4
+1F476 1F3FE   # (👶🏾) baby type-5
+1F476 1F3FF   # (👶🏿) baby type-6
+1F477 1F3FB   # (👷🏻) construction worker type-1-2
+1F477 1F3FC   # (👷🏼) construction worker type-3
+1F477 1F3FD   # (👷🏽) construction worker type-4
+1F477 1F3FE   # (👷🏾) construction worker type-5
+1F477 1F3FF   # (👷🏿) construction worker type-6
+1F478 1F3FB   # (👸🏻) princess type-1-2
+1F478 1F3FC   # (👸🏼) princess type-3
+1F478 1F3FD   # (👸🏽) princess type-4
+1F478 1F3FE   # (👸🏾) princess type-5
+1F478 1F3FF   # (👸🏿) princess type-6
+1F47C 1F3FB   # (👼🏻) baby angel type-1-2
+1F47C 1F3FC   # (👼🏼) baby angel type-3
+1F47C 1F3FD   # (👼🏽) baby angel type-4
+1F47C 1F3FE   # (👼🏾) baby angel type-5
+1F47C 1F3FF   # (👼🏿) baby angel type-6
+1F481 1F3FB   # (💁🏻) information desk person type-1-2
+1F481 1F3FC   # (💁🏼) information desk person type-3
+1F481 1F3FD   # (💁🏽) information desk person type-4
+1F481 1F3FE   # (💁🏾) information desk person type-5
+1F481 1F3FF   # (💁🏿) information desk person type-6
+1F482 1F3FB   # (💂🏻) guardsman type-1-2
+1F482 1F3FC   # (💂🏼) guardsman type-3
+1F482 1F3FD   # (💂🏽) guardsman type-4
+1F482 1F3FE   # (💂🏾) guardsman type-5
+1F482 1F3FF   # (💂🏿) guardsman type-6
+1F483 1F3FB   # (💃🏻) dancer type-1-2
+1F483 1F3FC   # (💃🏼) dancer type-3
+1F483 1F3FD   # (💃🏽) dancer type-4
+1F483 1F3FE   # (💃🏾) dancer type-5
+1F483 1F3FF   # (💃🏿) dancer type-6
+1F485 1F3FB   # (💅🏻) nail polish type-1-2
+1F485 1F3FC   # (💅🏼) nail polish type-3
+1F485 1F3FD   # (💅🏽) nail polish type-4
+1F485 1F3FE   # (💅🏾) nail polish type-5
+1F485 1F3FF   # (💅🏿) nail polish type-6
+1F486 1F3FB   # (💆🏻) face massage type-1-2
+1F486 1F3FC   # (💆🏼) face massage type-3
+1F486 1F3FD   # (💆🏽) face massage type-4
+1F486 1F3FE   # (💆🏾) face massage type-5
+1F486 1F3FF   # (💆🏿) face massage type-6
+1F487 1F3FB   # (💇🏻) haircut type-1-2
+1F487 1F3FC   # (💇🏼) haircut type-3
+1F487 1F3FD   # (💇🏽) haircut type-4
+1F487 1F3FE   # (💇🏾) haircut type-5
+1F487 1F3FF   # (💇🏿) haircut type-6
+1F4AA 1F3FB   # (💪🏻) flexed biceps type-1-2
+1F4AA 1F3FC   # (💪🏼) flexed biceps type-3
+1F4AA 1F3FD   # (💪🏽) flexed biceps type-4
+1F4AA 1F3FE   # (💪🏾) flexed biceps type-5
+1F4AA 1F3FF   # (💪🏿) flexed biceps type-6
+1F575 1F3FB   # (🕵🏻) sleuth or spy type-1-2
+1F575 1F3FC   # (🕵🏼) sleuth or spy type-3
+1F575 1F3FD   # (🕵🏽) sleuth or spy type-4
+1F575 1F3FE   # (🕵🏾) sleuth or spy type-5
+1F575 1F3FF   # (🕵🏿) sleuth or spy type-6
+1F590 1F3FB   # (🖐🏻) raised hand with fingers splayed type-1-2
+1F590 1F3FC   # (🖐🏼) raised hand with fingers splayed type-3
+1F590 1F3FD   # (🖐🏽) raised hand with fingers splayed type-4
+1F590 1F3FE   # (🖐🏾) raised hand with fingers splayed type-5
+1F590 1F3FF   # (🖐🏿) raised hand with fingers splayed type-6
+1F595 1F3FB   # (🖕🏻) reversed hand with middle finger extended type-1-2
+1F595 1F3FC   # (🖕🏼) reversed hand with middle finger extended type-3
+1F595 1F3FD   # (🖕🏽) reversed hand with middle finger extended type-4
+1F595 1F3FE   # (🖕🏾) reversed hand with middle finger extended type-5
+1F595 1F3FF   # (🖕🏿) reversed hand with middle finger extended type-6
+1F596 1F3FB   # (🖖🏻) raised hand with part between middle and ring fingers type-1-2
+1F596 1F3FC   # (🖖🏼) raised hand with part between middle and ring fingers type-3
+1F596 1F3FD   # (🖖🏽) raised hand with part between middle and ring fingers type-4
+1F596 1F3FE   # (🖖🏾) raised hand with part between middle and ring fingers type-5
+1F596 1F3FF   # (🖖🏿) raised hand with part between middle and ring fingers type-6
+1F645 1F3FB   # (🙅🏻) face with no good gesture type-1-2
+1F645 1F3FC   # (🙅🏼) face with no good gesture type-3
+1F645 1F3FD   # (🙅🏽) face with no good gesture type-4
+1F645 1F3FE   # (🙅🏾) face with no good gesture type-5
+1F645 1F3FF   # (🙅🏿) face with no good gesture type-6
+1F646 1F3FB   # (🙆🏻) face with ok gesture type-1-2
+1F646 1F3FC   # (🙆🏼) face with ok gesture type-3
+1F646 1F3FD   # (🙆🏽) face with ok gesture type-4
+1F646 1F3FE   # (🙆🏾) face with ok gesture type-5
+1F646 1F3FF   # (🙆🏿) face with ok gesture type-6
+1F647 1F3FB   # (🙇🏻) person bowing deeply type-1-2
+1F647 1F3FC   # (🙇🏼) person bowing deeply type-3
+1F647 1F3FD   # (🙇🏽) person bowing deeply type-4
+1F647 1F3FE   # (🙇🏾) person bowing deeply type-5
+1F647 1F3FF   # (🙇🏿) person bowing deeply type-6
+1F64B 1F3FB   # (🙋🏻) happy person raising one hand type-1-2
+1F64B 1F3FC   # (🙋🏼) happy person raising one hand type-3
+1F64B 1F3FD   # (🙋🏽) happy person raising one hand type-4
+1F64B 1F3FE   # (🙋🏾) happy person raising one hand type-5
+1F64B 1F3FF   # (🙋🏿) happy person raising one hand type-6
+1F64C 1F3FB   # (🙌🏻) person raising both hands in celebration type-1-2
+1F64C 1F3FC   # (🙌🏼) person raising both hands in celebration type-3
+1F64C 1F3FD   # (🙌🏽) person raising both hands in celebration type-4
+1F64C 1F3FE   # (🙌🏾) person raising both hands in celebration type-5
+1F64C 1F3FF   # (🙌🏿) person raising both hands in celebration type-6
+1F64D 1F3FB   # (🙍🏻) person frowning type-1-2
+1F64D 1F3FC   # (🙍🏼) person frowning type-3
+1F64D 1F3FD   # (🙍🏽) person frowning type-4
+1F64D 1F3FE   # (🙍🏾) person frowning type-5
+1F64D 1F3FF   # (🙍🏿) person frowning type-6
+1F64E 1F3FB   # (🙎🏻) person with pouting face type-1-2
+1F64E 1F3FC   # (🙎🏼) person with pouting face type-3
+1F64E 1F3FD   # (🙎🏽) person with pouting face type-4
+1F64E 1F3FE   # (🙎🏾) person with pouting face type-5
+1F64E 1F3FF   # (🙎🏿) person with pouting face type-6
+1F64F 1F3FB   # (🙏🏻) person with folded hands type-1-2
+1F64F 1F3FC   # (🙏🏼) person with folded hands type-3
+1F64F 1F3FD   # (🙏🏽) person with folded hands type-4
+1F64F 1F3FE   # (🙏🏾) person with folded hands type-5
+1F64F 1F3FF   # (🙏🏿) person with folded hands type-6
+1F6A3 1F3FB   # (🚣🏻) rowboat type-1-2
+1F6A3 1F3FC   # (🚣🏼) rowboat type-3
+1F6A3 1F3FD   # (🚣🏽) rowboat type-4
+1F6A3 1F3FE   # (🚣🏾) rowboat type-5
+1F6A3 1F3FF   # (🚣🏿) rowboat type-6
+1F6B4 1F3FB   # (🚴🏻) bicyclist type-1-2
+1F6B4 1F3FC   # (🚴🏼) bicyclist type-3
+1F6B4 1F3FD   # (🚴🏽) bicyclist type-4
+1F6B4 1F3FE   # (🚴🏾) bicyclist type-5
+1F6B4 1F3FF   # (🚴🏿) bicyclist type-6
+1F6B5 1F3FB   # (🚵🏻) mountain bicyclist type-1-2
+1F6B5 1F3FC   # (🚵🏼) mountain bicyclist type-3
+1F6B5 1F3FD   # (🚵🏽) mountain bicyclist type-4
+1F6B5 1F3FE   # (🚵🏾) mountain bicyclist type-5
+1F6B5 1F3FF   # (🚵🏿) mountain bicyclist type-6
+1F6B6 1F3FB   # (🚶🏻) pedestrian type-1-2
+1F6B6 1F3FC   # (🚶🏼) pedestrian type-3
+1F6B6 1F3FD   # (🚶🏽) pedestrian type-4
+1F6B6 1F3FE   # (🚶🏾) pedestrian type-5
+1F6B6 1F3FF   # (🚶🏿) pedestrian type-6
+1F6C0 1F3FB   # (🛀🏻) bath type-1-2
+1F6C0 1F3FC   # (🛀🏼) bath type-3
+1F6C0 1F3FD   # (🛀🏽) bath type-4
+1F6C0 1F3FE   # (🛀🏾) bath type-5
+1F6C0 1F3FF   # (🛀🏿) bath type-6
+1F918 1F3FB   # (🤘🏻) sign of the horns type-1-2
+1F918 1F3FC   # (🤘🏼) sign of the horns type-3
+1F918 1F3FD   # (🤘🏽) sign of the horns type-4
+1F918 1F3FE   # (🤘🏾) sign of the horns type-5
+1F918 1F3FF   # (🤘🏿) sign of the horns type-6
+
+# Total sequences: 320
+
+#EOF
