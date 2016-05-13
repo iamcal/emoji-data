@@ -1,0 +1,48 @@
+# emoji-zwj-sequences.txt
+# Date: 2016-03-23, 16:46:43 GMT
+# © 2016 Unicode®, Inc.
+# Unicode and the Unicode Logo are registered trademarks of Unicode, Inc. in the U.S. and other countries.
+# For terms of use, see http://www.unicode.org/terms_of_use.html
+#
+# Emoji ZWJ Sequence Catalog for UTR #51
+# Version: 3.0
+#
+# For documentation and usage, see http://www.unicode.org/reports/tr51
+#
+# Format: 
+# code_point(s) ; type_field # version [count] name(s) 
+#   code_point(s): one or more code points in hex format, separated by spaces
+#   type_field: Emoji_ZWJ_Sequence.
+#     The type_field is a convenience for parsing the emoji sequence files, and is not intended to be maintained as a property.
+
+# ================================================
+
+# Emoji ZWJ Sequence
+
+1F441 200D 1F5E8                            ; Emoji_ZWJ_Sequence  # 7.0  [1] (👁‍🗨)      EYE, LEFT SPEECH BUBBLE
+1F468 200D 2764 FE0F 200D 1F468             ; Emoji_ZWJ_Sequence  # 6.0  [1] (👨‍❤️‍👨)     Couple with heart: MAN, MAN
+1F468 200D 2764 FE0F 200D 1F48B 200D 1F468  ; Emoji_ZWJ_Sequence  # 6.0  [1] (👨‍❤️‍💋‍👨)    Kiss: MAN, MAN
+1F468 200D 1F468 200D 1F466                 ; Emoji_ZWJ_Sequence  # 6.0  [1] (👨‍👨‍👦)     Family: MAN, MAN, BOY
+1F468 200D 1F468 200D 1F466 200D 1F466      ; Emoji_ZWJ_Sequence  # 6.0  [1] (👨‍👨‍👦‍👦)    Family: MAN, MAN, BOY, BOY
+1F468 200D 1F468 200D 1F467                 ; Emoji_ZWJ_Sequence  # 6.0  [1] (👨‍👨‍👧)     Family: MAN, MAN, GIRL
+1F468 200D 1F468 200D 1F467 200D 1F466      ; Emoji_ZWJ_Sequence  # 6.0  [1] (👨‍👨‍👧‍👦)    Family: MAN, MAN, GIRL, BOY
+1F468 200D 1F468 200D 1F467 200D 1F467      ; Emoji_ZWJ_Sequence  # 6.0  [1] (👨‍👨‍👧‍👧)    Family: MAN, MAN, GIRL, GIRL
+1F468 200D 1F469 200D 1F466                 ; Emoji_ZWJ_Sequence  # 6.0  [1] (👨‍👩‍👦)     Family: MAN, WOMAN, BOY
+1F468 200D 1F469 200D 1F466 200D 1F466      ; Emoji_ZWJ_Sequence  # 6.0  [1] (👨‍👩‍👦‍👦)    Family: MAN, WOMAN, BOY, BOY
+1F468 200D 1F469 200D 1F467                 ; Emoji_ZWJ_Sequence  # 6.0  [1] (👨‍👩‍👧)     Family: MAN, WOMAN, GIRL
+1F468 200D 1F469 200D 1F467 200D 1F466      ; Emoji_ZWJ_Sequence  # 6.0  [1] (👨‍👩‍👧‍👦)    Family: MAN, WOMAN, GIRL, BOY
+1F468 200D 1F469 200D 1F467 200D 1F467      ; Emoji_ZWJ_Sequence  # 6.0  [1] (👨‍👩‍👧‍👧)    Family: MAN, WOMAN, GIRL, GIRL
+1F469 200D 2764 FE0F 200D 1F468             ; Emoji_ZWJ_Sequence  # 6.0  [1] (👩‍❤️‍👨)     Couple with heart: WOMAN, MAN
+1F469 200D 2764 FE0F 200D 1F469             ; Emoji_ZWJ_Sequence  # 6.0  [1] (👩‍❤️‍👩)     Couple with heart: WOMAN, WOMAN
+1F469 200D 2764 FE0F 200D 1F48B 200D 1F468  ; Emoji_ZWJ_Sequence  # 6.0  [1] (👩‍❤️‍💋‍👨)    Kiss: WOMAN, MAN
+1F469 200D 2764 FE0F 200D 1F48B 200D 1F469  ; Emoji_ZWJ_Sequence  # 6.0  [1] (👩‍❤️‍💋‍👩)    Kiss: WOMAN, WOMAN
+1F469 200D 1F469 200D 1F466                 ; Emoji_ZWJ_Sequence  # 6.0  [1] (👩‍👩‍👦)     Family: WOMAN, WOMAN, BOY
+1F469 200D 1F469 200D 1F466 200D 1F466      ; Emoji_ZWJ_Sequence  # 6.0  [1] (👩‍👩‍👦‍👦)    Family: WOMAN, WOMAN, BOY, BOY
+1F469 200D 1F469 200D 1F467                 ; Emoji_ZWJ_Sequence  # 6.0  [1] (👩‍👩‍👧)     Family: WOMAN, WOMAN, GIRL
+1F469 200D 1F469 200D 1F467 200D 1F466      ; Emoji_ZWJ_Sequence  # 6.0  [1] (👩‍👩‍👧‍👦)    Family: WOMAN, WOMAN, GIRL, BOY
+1F469 200D 1F469 200D 1F467 200D 1F467      ; Emoji_ZWJ_Sequence  # 6.0  [1] (👩‍👩‍👧‍👧)    Family: WOMAN, WOMAN, GIRL, GIRL
+
+# UnicodeSet: [{👁‍🗨}{👨‍❤️‍👨}{👨‍❤️‍💋‍👨}{👨‍👨‍👦}{👨‍👨‍👦‍👦}{👨‍👨‍👧}{👨‍👨‍👧‍👦}{👨‍👨‍👧‍👧}{👨‍👩‍👦}{👨‍👩‍👦‍👦}{👨‍👩‍👧}{👨‍👩‍👧‍👦}{👨‍👩‍👧‍👧}{👩‍❤️‍👨}{👩‍❤️‍👩}{👩‍❤️‍💋‍👨}{👩‍❤️‍💋‍👩}{👩‍👩‍👦}{👩‍👩‍👦‍👦}{👩‍👩‍👧}{👩‍👩‍👧‍👦}{👩‍👩‍👧‍👧}]
+# Total elements: 22
+
+#EOF

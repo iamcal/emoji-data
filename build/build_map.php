@@ -185,7 +185,7 @@
 
 		$uni = StrToUpper($img_key);
 
-		$line = shell_exec("grep -e ^{$uni}\\; UnicodeData.txt");
+		$line = shell_exec("grep -e ^{$uni}\\; unicode/UnicodeData.txt");
 		list($junk, $name) = explode(';', $line);
 
 

@@ -1,0 +1,731 @@
+# emoji-sequences.txt
+# Date: 2016-03-23, 16:46:43 GMT
+# © 2016 Unicode®, Inc.
+# Unicode and the Unicode Logo are registered trademarks of Unicode, Inc. in the U.S. and other countries.
+# For terms of use, see http://www.unicode.org/terms_of_use.html
+#
+# Emoji Sequence Data for UTR #51
+# Version: 3.0
+#
+# For documentation and usage, see http://www.unicode.org/reports/tr51
+#
+# Format: 
+# code_point(s) ; type_field # version [count] name(s) 
+#   code_point(s): one or more code points in hex format, separated by spaces
+#   type_field: any of {Emoji_Combining_Sequence, Emoji_Flag_Sequence, Emoji_Modifier_Sequences}.
+#     The type_field is a convenience for parsing the emoji sequence files, and is not intended to be maintained as a property.
+
+# ================================================
+
+# Emoji Combining Sequence
+
+0023 FE0F 20E3; Emoji_Combining_Sequence  # 3.0  [1] (#️⃣)      Keycap NUMBER SIGN
+002A FE0F 20E3; Emoji_Combining_Sequence  # 3.0  [1] (*️⃣)      Keycap ASTERISK
+0030 FE0F 20E3; Emoji_Combining_Sequence  # 3.0  [1] (0️⃣)      Keycap DIGIT ZERO
+0031 FE0F 20E3; Emoji_Combining_Sequence  # 3.0  [1] (1️⃣)      Keycap DIGIT ONE
+0032 FE0F 20E3; Emoji_Combining_Sequence  # 3.0  [1] (2️⃣)      Keycap DIGIT TWO
+0033 FE0F 20E3; Emoji_Combining_Sequence  # 3.0  [1] (3️⃣)      Keycap DIGIT THREE
+0034 FE0F 20E3; Emoji_Combining_Sequence  # 3.0  [1] (4️⃣)      Keycap DIGIT FOUR
+0035 FE0F 20E3; Emoji_Combining_Sequence  # 3.0  [1] (5️⃣)      Keycap DIGIT FIVE
+0036 FE0F 20E3; Emoji_Combining_Sequence  # 3.0  [1] (6️⃣)      Keycap DIGIT SIX
+0037 FE0F 20E3; Emoji_Combining_Sequence  # 3.0  [1] (7️⃣)      Keycap DIGIT SEVEN
+0038 FE0F 20E3; Emoji_Combining_Sequence  # 3.0  [1] (8️⃣)      Keycap DIGIT EIGHT
+0039 FE0F 20E3; Emoji_Combining_Sequence  # 3.0  [1] (9️⃣)      Keycap DIGIT NINE
+
+# UnicodeSet: [{#⃣}{*⃣}{0⃣}{1⃣}{2⃣}{3⃣}{4⃣}{5⃣}{6⃣}{7⃣}{8⃣}{9⃣}]
+# Total elements: 12
+
+# ================================================
+
+# Emoji Flag Sequence
+
+1F1E6 1F1E8   ; Emoji_Flag_Sequence       # 6.0  [1] (🇦🇨)      Flag for Ascension Island
+1F1E6 1F1E9   ; Emoji_Flag_Sequence       # 6.0  [1] (🇦🇩)      Flag for Andorra
+1F1E6 1F1EA   ; Emoji_Flag_Sequence       # 6.0  [1] (🇦🇪)      Flag for United Arab Emirates
+1F1E6 1F1EB   ; Emoji_Flag_Sequence       # 6.0  [1] (🇦🇫)      Flag for Afghanistan
+1F1E6 1F1EC   ; Emoji_Flag_Sequence       # 6.0  [1] (🇦🇬)      Flag for Antigua & Barbuda
+1F1E6 1F1EE   ; Emoji_Flag_Sequence       # 6.0  [1] (🇦🇮)      Flag for Anguilla
+1F1E6 1F1F1   ; Emoji_Flag_Sequence       # 6.0  [1] (🇦🇱)      Flag for Albania
+1F1E6 1F1F2   ; Emoji_Flag_Sequence       # 6.0  [1] (🇦🇲)      Flag for Armenia
+1F1E6 1F1F4   ; Emoji_Flag_Sequence       # 6.0  [1] (🇦🇴)      Flag for Angola
+1F1E6 1F1F6   ; Emoji_Flag_Sequence       # 6.0  [1] (🇦🇶)      Flag for Antarctica
+1F1E6 1F1F7   ; Emoji_Flag_Sequence       # 6.0  [1] (🇦🇷)      Flag for Argentina
+1F1E6 1F1F8   ; Emoji_Flag_Sequence       # 6.0  [1] (🇦🇸)      Flag for American Samoa
+1F1E6 1F1F9   ; Emoji_Flag_Sequence       # 6.0  [1] (🇦🇹)      Flag for Austria
+1F1E6 1F1FA   ; Emoji_Flag_Sequence       # 6.0  [1] (🇦🇺)      Flag for Australia
+1F1E6 1F1FC   ; Emoji_Flag_Sequence       # 6.0  [1] (🇦🇼)      Flag for Aruba
+1F1E6 1F1FD   ; Emoji_Flag_Sequence       # 6.0  [1] (🇦🇽)      Flag for Åland Islands
+1F1E6 1F1FF   ; Emoji_Flag_Sequence       # 6.0  [1] (🇦🇿)      Flag for Azerbaijan
+1F1E7 1F1E6   ; Emoji_Flag_Sequence       # 6.0  [1] (🇧🇦)      Flag for Bosnia & Herzegovina
+1F1E7 1F1E7   ; Emoji_Flag_Sequence       # 6.0  [1] (🇧🇧)      Flag for Barbados
+1F1E7 1F1E9   ; Emoji_Flag_Sequence       # 6.0  [1] (🇧🇩)      Flag for Bangladesh
+1F1E7 1F1EA   ; Emoji_Flag_Sequence       # 6.0  [1] (🇧🇪)      Flag for Belgium
+1F1E7 1F1EB   ; Emoji_Flag_Sequence       # 6.0  [1] (🇧🇫)      Flag for Burkina Faso
+1F1E7 1F1EC   ; Emoji_Flag_Sequence       # 6.0  [1] (🇧🇬)      Flag for Bulgaria
+1F1E7 1F1ED   ; Emoji_Flag_Sequence       # 6.0  [1] (🇧🇭)      Flag for Bahrain
+1F1E7 1F1EE   ; Emoji_Flag_Sequence       # 6.0  [1] (🇧🇮)      Flag for Burundi
+1F1E7 1F1EF   ; Emoji_Flag_Sequence       # 6.0  [1] (🇧🇯)      Flag for Benin
+1F1E7 1F1F1   ; Emoji_Flag_Sequence       # 6.0  [1] (🇧🇱)      Flag for St. Barthélemy
+1F1E7 1F1F2   ; Emoji_Flag_Sequence       # 6.0  [1] (🇧🇲)      Flag for Bermuda
+1F1E7 1F1F3   ; Emoji_Flag_Sequence       # 6.0  [1] (🇧🇳)      Flag for Brunei
+1F1E7 1F1F4   ; Emoji_Flag_Sequence       # 6.0  [1] (🇧🇴)      Flag for Bolivia
+1F1E7 1F1F6   ; Emoji_Flag_Sequence       # 6.0  [1] (🇧🇶)      Flag for Caribbean Netherlands
+1F1E7 1F1F7   ; Emoji_Flag_Sequence       # 6.0  [1] (🇧🇷)      Flag for Brazil
+1F1E7 1F1F8   ; Emoji_Flag_Sequence       # 6.0  [1] (🇧🇸)      Flag for Bahamas
+1F1E7 1F1F9   ; Emoji_Flag_Sequence       # 6.0  [1] (🇧🇹)      Flag for Bhutan
+1F1E7 1F1FB   ; Emoji_Flag_Sequence       # 6.0  [1] (🇧🇻)      Flag for Bouvet Island
+1F1E7 1F1FC   ; Emoji_Flag_Sequence       # 6.0  [1] (🇧🇼)      Flag for Botswana
+1F1E7 1F1FE   ; Emoji_Flag_Sequence       # 6.0  [1] (🇧🇾)      Flag for Belarus
+1F1E7 1F1FF   ; Emoji_Flag_Sequence       # 6.0  [1] (🇧🇿)      Flag for Belize
+1F1E8 1F1E6   ; Emoji_Flag_Sequence       # 6.0  [1] (🇨🇦)      Flag for Canada
+1F1E8 1F1E8   ; Emoji_Flag_Sequence       # 6.0  [1] (🇨🇨)      Flag for Cocos Islands
+1F1E8 1F1E9   ; Emoji_Flag_Sequence       # 6.0  [1] (🇨🇩)      Flag for Congo - Kinshasa
+1F1E8 1F1EB   ; Emoji_Flag_Sequence       # 6.0  [1] (🇨🇫)      Flag for Central African Republic
+1F1E8 1F1EC   ; Emoji_Flag_Sequence       # 6.0  [1] (🇨🇬)      Flag for Congo - Brazzaville
+1F1E8 1F1ED   ; Emoji_Flag_Sequence       # 6.0  [1] (🇨🇭)      Flag for Switzerland
+1F1E8 1F1EE   ; Emoji_Flag_Sequence       # 6.0  [1] (🇨🇮)      Flag for Côte d’Ivoire
+1F1E8 1F1F0   ; Emoji_Flag_Sequence       # 6.0  [1] (🇨🇰)      Flag for Cook Islands
+1F1E8 1F1F1   ; Emoji_Flag_Sequence       # 6.0  [1] (🇨🇱)      Flag for Chile
+1F1E8 1F1F2   ; Emoji_Flag_Sequence       # 6.0  [1] (🇨🇲)      Flag for Cameroon
+1F1E8 1F1F3   ; Emoji_Flag_Sequence       # 6.0  [1] (🇨🇳)      Flag for China
+1F1E8 1F1F4   ; Emoji_Flag_Sequence       # 6.0  [1] (🇨🇴)      Flag for Colombia
+1F1E8 1F1F5   ; Emoji_Flag_Sequence       # 6.0  [1] (🇨🇵)      Flag for Clipperton Island
+1F1E8 1F1F7   ; Emoji_Flag_Sequence       # 6.0  [1] (🇨🇷)      Flag for Costa Rica
+1F1E8 1F1FA   ; Emoji_Flag_Sequence       # 6.0  [1] (🇨🇺)      Flag for Cuba
+1F1E8 1F1FB   ; Emoji_Flag_Sequence       # 6.0  [1] (🇨🇻)      Flag for Cape Verde
+1F1E8 1F1FC   ; Emoji_Flag_Sequence       # 6.0  [1] (🇨🇼)      Flag for Curaçao
+1F1E8 1F1FD   ; Emoji_Flag_Sequence       # 6.0  [1] (🇨🇽)      Flag for Christmas Island
+1F1E8 1F1FE   ; Emoji_Flag_Sequence       # 6.0  [1] (🇨🇾)      Flag for Cyprus
+1F1E8 1F1FF   ; Emoji_Flag_Sequence       # 6.0  [1] (🇨🇿)      Flag for Czech Republic
+1F1E9 1F1EA   ; Emoji_Flag_Sequence       # 6.0  [1] (🇩🇪)      Flag for Germany
+1F1E9 1F1EC   ; Emoji_Flag_Sequence       # 6.0  [1] (🇩🇬)      Flag for Diego Garcia
+1F1E9 1F1EF   ; Emoji_Flag_Sequence       # 6.0  [1] (🇩🇯)      Flag for Djibouti
+1F1E9 1F1F0   ; Emoji_Flag_Sequence       # 6.0  [1] (🇩🇰)      Flag for Denmark
+1F1E9 1F1F2   ; Emoji_Flag_Sequence       # 6.0  [1] (🇩🇲)      Flag for Dominica
+1F1E9 1F1F4   ; Emoji_Flag_Sequence       # 6.0  [1] (🇩🇴)      Flag for Dominican Republic
+1F1E9 1F1FF   ; Emoji_Flag_Sequence       # 6.0  [1] (🇩🇿)      Flag for Algeria
+1F1EA 1F1E6   ; Emoji_Flag_Sequence       # 6.0  [1] (🇪🇦)      Flag for Ceuta & Melilla
+1F1EA 1F1E8   ; Emoji_Flag_Sequence       # 6.0  [1] (🇪🇨)      Flag for Ecuador
+1F1EA 1F1EA   ; Emoji_Flag_Sequence       # 6.0  [1] (🇪🇪)      Flag for Estonia
+1F1EA 1F1EC   ; Emoji_Flag_Sequence       # 6.0  [1] (🇪🇬)      Flag for Egypt
+1F1EA 1F1ED   ; Emoji_Flag_Sequence       # 6.0  [1] (🇪🇭)      Flag for Western Sahara
+1F1EA 1F1F7   ; Emoji_Flag_Sequence       # 6.0  [1] (🇪🇷)      Flag for Eritrea
+1F1EA 1F1F8   ; Emoji_Flag_Sequence       # 6.0  [1] (🇪🇸)      Flag for Spain
+1F1EA 1F1F9   ; Emoji_Flag_Sequence       # 6.0  [1] (🇪🇹)      Flag for Ethiopia
+1F1EA 1F1FA   ; Emoji_Flag_Sequence       # 6.0  [1] (🇪🇺)      Flag for European Union
+1F1EB 1F1EE   ; Emoji_Flag_Sequence       # 6.0  [1] (🇫🇮)      Flag for Finland
+1F1EB 1F1EF   ; Emoji_Flag_Sequence       # 6.0  [1] (🇫🇯)      Flag for Fiji
+1F1EB 1F1F0   ; Emoji_Flag_Sequence       # 6.0  [1] (🇫🇰)      Flag for Falkland Islands
+1F1EB 1F1F2   ; Emoji_Flag_Sequence       # 6.0  [1] (🇫🇲)      Flag for Micronesia
+1F1EB 1F1F4   ; Emoji_Flag_Sequence       # 6.0  [1] (🇫🇴)      Flag for Faroe Islands
+1F1EB 1F1F7   ; Emoji_Flag_Sequence       # 6.0  [1] (🇫🇷)      Flag for France
+1F1EC 1F1E6   ; Emoji_Flag_Sequence       # 6.0  [1] (🇬🇦)      Flag for Gabon
+1F1EC 1F1E7   ; Emoji_Flag_Sequence       # 6.0  [1] (🇬🇧)      Flag for United Kingdom
+1F1EC 1F1E9   ; Emoji_Flag_Sequence       # 6.0  [1] (🇬🇩)      Flag for Grenada
+1F1EC 1F1EA   ; Emoji_Flag_Sequence       # 6.0  [1] (🇬🇪)      Flag for Georgia
+1F1EC 1F1EB   ; Emoji_Flag_Sequence       # 6.0  [1] (🇬🇫)      Flag for French Guiana
+1F1EC 1F1EC   ; Emoji_Flag_Sequence       # 6.0  [1] (🇬🇬)      Flag for Guernsey
+1F1EC 1F1ED   ; Emoji_Flag_Sequence       # 6.0  [1] (🇬🇭)      Flag for Ghana
+1F1EC 1F1EE   ; Emoji_Flag_Sequence       # 6.0  [1] (🇬🇮)      Flag for Gibraltar
+1F1EC 1F1F1   ; Emoji_Flag_Sequence       # 6.0  [1] (🇬🇱)      Flag for Greenland
+1F1EC 1F1F2   ; Emoji_Flag_Sequence       # 6.0  [1] (🇬🇲)      Flag for Gambia
+1F1EC 1F1F3   ; Emoji_Flag_Sequence       # 6.0  [1] (🇬🇳)      Flag for Guinea
+1F1EC 1F1F5   ; Emoji_Flag_Sequence       # 6.0  [1] (🇬🇵)      Flag for Guadeloupe
+1F1EC 1F1F6   ; Emoji_Flag_Sequence       # 6.0  [1] (🇬🇶)      Flag for Equatorial Guinea
+1F1EC 1F1F7   ; Emoji_Flag_Sequence       # 6.0  [1] (🇬🇷)      Flag for Greece
+1F1EC 1F1F8   ; Emoji_Flag_Sequence       # 6.0  [1] (🇬🇸)      Flag for South Georgia & South Sandwich Islands
+1F1EC 1F1F9   ; Emoji_Flag_Sequence       # 6.0  [1] (🇬🇹)      Flag for Guatemala
+1F1EC 1F1FA   ; Emoji_Flag_Sequence       # 6.0  [1] (🇬🇺)      Flag for Guam
+1F1EC 1F1FC   ; Emoji_Flag_Sequence       # 6.0  [1] (🇬🇼)      Flag for Guinea-Bissau
+1F1EC 1F1FE   ; Emoji_Flag_Sequence       # 6.0  [1] (🇬🇾)      Flag for Guyana
+1F1ED 1F1F0   ; Emoji_Flag_Sequence       # 6.0  [1] (🇭🇰)      Flag for Hong Kong
+1F1ED 1F1F2   ; Emoji_Flag_Sequence       # 6.0  [1] (🇭🇲)      Flag for Heard & McDonald Islands
+1F1ED 1F1F3   ; Emoji_Flag_Sequence       # 6.0  [1] (🇭🇳)      Flag for Honduras
+1F1ED 1F1F7   ; Emoji_Flag_Sequence       # 6.0  [1] (🇭🇷)      Flag for Croatia
+1F1ED 1F1F9   ; Emoji_Flag_Sequence       # 6.0  [1] (🇭🇹)      Flag for Haiti
+1F1ED 1F1FA   ; Emoji_Flag_Sequence       # 6.0  [1] (🇭🇺)      Flag for Hungary
+1F1EE 1F1E8   ; Emoji_Flag_Sequence       # 6.0  [1] (🇮🇨)      Flag for Canary Islands
+1F1EE 1F1E9   ; Emoji_Flag_Sequence       # 6.0  [1] (🇮🇩)      Flag for Indonesia
+1F1EE 1F1EA   ; Emoji_Flag_Sequence       # 6.0  [1] (🇮🇪)      Flag for Ireland
+1F1EE 1F1F1   ; Emoji_Flag_Sequence       # 6.0  [1] (🇮🇱)      Flag for Israel
+1F1EE 1F1F2   ; Emoji_Flag_Sequence       # 6.0  [1] (🇮🇲)      Flag for Isle of Man
+1F1EE 1F1F3   ; Emoji_Flag_Sequence       # 6.0  [1] (🇮🇳)      Flag for India
+1F1EE 1F1F4   ; Emoji_Flag_Sequence       # 6.0  [1] (🇮🇴)      Flag for British Indian Ocean Territory
+1F1EE 1F1F6   ; Emoji_Flag_Sequence       # 6.0  [1] (🇮🇶)      Flag for Iraq
+1F1EE 1F1F7   ; Emoji_Flag_Sequence       # 6.0  [1] (🇮🇷)      Flag for Iran
+1F1EE 1F1F8   ; Emoji_Flag_Sequence       # 6.0  [1] (🇮🇸)      Flag for Iceland
+1F1EE 1F1F9   ; Emoji_Flag_Sequence       # 6.0  [1] (🇮🇹)      Flag for Italy
+1F1EF 1F1EA   ; Emoji_Flag_Sequence       # 6.0  [1] (🇯🇪)      Flag for Jersey
+1F1EF 1F1F2   ; Emoji_Flag_Sequence       # 6.0  [1] (🇯🇲)      Flag for Jamaica
+1F1EF 1F1F4   ; Emoji_Flag_Sequence       # 6.0  [1] (🇯🇴)      Flag for Jordan
+1F1EF 1F1F5   ; Emoji_Flag_Sequence       # 6.0  [1] (🇯🇵)      Flag for Japan
+1F1F0 1F1EA   ; Emoji_Flag_Sequence       # 6.0  [1] (🇰🇪)      Flag for Kenya
+1F1F0 1F1EC   ; Emoji_Flag_Sequence       # 6.0  [1] (🇰🇬)      Flag for Kyrgyzstan
+1F1F0 1F1ED   ; Emoji_Flag_Sequence       # 6.0  [1] (🇰🇭)      Flag for Cambodia
+1F1F0 1F1EE   ; Emoji_Flag_Sequence       # 6.0  [1] (🇰🇮)      Flag for Kiribati
+1F1F0 1F1F2   ; Emoji_Flag_Sequence       # 6.0  [1] (🇰🇲)      Flag for Comoros
+1F1F0 1F1F3   ; Emoji_Flag_Sequence       # 6.0  [1] (🇰🇳)      Flag for St. Kitts & Nevis
+1F1F0 1F1F5   ; Emoji_Flag_Sequence       # 6.0  [1] (🇰🇵)      Flag for North Korea
+1F1F0 1F1F7   ; Emoji_Flag_Sequence       # 6.0  [1] (🇰🇷)      Flag for South Korea
+1F1F0 1F1FC   ; Emoji_Flag_Sequence       # 6.0  [1] (🇰🇼)      Flag for Kuwait
+1F1F0 1F1FE   ; Emoji_Flag_Sequence       # 6.0  [1] (🇰🇾)      Flag for Cayman Islands
+1F1F0 1F1FF   ; Emoji_Flag_Sequence       # 6.0  [1] (🇰🇿)      Flag for Kazakhstan
+1F1F1 1F1E6   ; Emoji_Flag_Sequence       # 6.0  [1] (🇱🇦)      Flag for Laos
+1F1F1 1F1E7   ; Emoji_Flag_Sequence       # 6.0  [1] (🇱🇧)      Flag for Lebanon
+1F1F1 1F1E8   ; Emoji_Flag_Sequence       # 6.0  [1] (🇱🇨)      Flag for St. Lucia
+1F1F1 1F1EE   ; Emoji_Flag_Sequence       # 6.0  [1] (🇱🇮)      Flag for Liechtenstein
+1F1F1 1F1F0   ; Emoji_Flag_Sequence       # 6.0  [1] (🇱🇰)      Flag for Sri Lanka
+1F1F1 1F1F7   ; Emoji_Flag_Sequence       # 6.0  [1] (🇱🇷)      Flag for Liberia
+1F1F1 1F1F8   ; Emoji_Flag_Sequence       # 6.0  [1] (🇱🇸)      Flag for Lesotho
+1F1F1 1F1F9   ; Emoji_Flag_Sequence       # 6.0  [1] (🇱🇹)      Flag for Lithuania
+1F1F1 1F1FA   ; Emoji_Flag_Sequence       # 6.0  [1] (🇱🇺)      Flag for Luxembourg
+1F1F1 1F1FB   ; Emoji_Flag_Sequence       # 6.0  [1] (🇱🇻)      Flag for Latvia
+1F1F1 1F1FE   ; Emoji_Flag_Sequence       # 6.0  [1] (🇱🇾)      Flag for Libya
+1F1F2 1F1E6   ; Emoji_Flag_Sequence       # 6.0  [1] (🇲🇦)      Flag for Morocco
+1F1F2 1F1E8   ; Emoji_Flag_Sequence       # 6.0  [1] (🇲🇨)      Flag for Monaco
+1F1F2 1F1E9   ; Emoji_Flag_Sequence       # 6.0  [1] (🇲🇩)      Flag for Moldova
+1F1F2 1F1EA   ; Emoji_Flag_Sequence       # 6.0  [1] (🇲🇪)      Flag for Montenegro
+1F1F2 1F1EB   ; Emoji_Flag_Sequence       # 6.0  [1] (🇲🇫)      Flag for St. Martin
+1F1F2 1F1EC   ; Emoji_Flag_Sequence       # 6.0  [1] (🇲🇬)      Flag for Madagascar
+1F1F2 1F1ED   ; Emoji_Flag_Sequence       # 6.0  [1] (🇲🇭)      Flag for Marshall Islands
+1F1F2 1F1F0   ; Emoji_Flag_Sequence       # 6.0  [1] (🇲🇰)      Flag for Macedonia
+1F1F2 1F1F1   ; Emoji_Flag_Sequence       # 6.0  [1] (🇲🇱)      Flag for Mali
+1F1F2 1F1F2   ; Emoji_Flag_Sequence       # 6.0  [1] (🇲🇲)      Flag for Myanmar
+1F1F2 1F1F3   ; Emoji_Flag_Sequence       # 6.0  [1] (🇲🇳)      Flag for Mongolia
+1F1F2 1F1F4   ; Emoji_Flag_Sequence       # 6.0  [1] (🇲🇴)      Flag for Macau
+1F1F2 1F1F5   ; Emoji_Flag_Sequence       # 6.0  [1] (🇲🇵)      Flag for Northern Mariana Islands
+1F1F2 1F1F6   ; Emoji_Flag_Sequence       # 6.0  [1] (🇲🇶)      Flag for Martinique
+1F1F2 1F1F7   ; Emoji_Flag_Sequence       # 6.0  [1] (🇲🇷)      Flag for Mauritania
+1F1F2 1F1F8   ; Emoji_Flag_Sequence       # 6.0  [1] (🇲🇸)      Flag for Montserrat
+1F1F2 1F1F9   ; Emoji_Flag_Sequence       # 6.0  [1] (🇲🇹)      Flag for Malta
+1F1F2 1F1FA   ; Emoji_Flag_Sequence       # 6.0  [1] (🇲🇺)      Flag for Mauritius
+1F1F2 1F1FB   ; Emoji_Flag_Sequence       # 6.0  [1] (🇲🇻)      Flag for Maldives
+1F1F2 1F1FC   ; Emoji_Flag_Sequence       # 6.0  [1] (🇲🇼)      Flag for Malawi
+1F1F2 1F1FD   ; Emoji_Flag_Sequence       # 6.0  [1] (🇲🇽)      Flag for Mexico
+1F1F2 1F1FE   ; Emoji_Flag_Sequence       # 6.0  [1] (🇲🇾)      Flag for Malaysia
+1F1F2 1F1FF   ; Emoji_Flag_Sequence       # 6.0  [1] (🇲🇿)      Flag for Mozambique
+1F1F3 1F1E6   ; Emoji_Flag_Sequence       # 6.0  [1] (🇳🇦)      Flag for Namibia
+1F1F3 1F1E8   ; Emoji_Flag_Sequence       # 6.0  [1] (🇳🇨)      Flag for New Caledonia
+1F1F3 1F1EA   ; Emoji_Flag_Sequence       # 6.0  [1] (🇳🇪)      Flag for Niger
+1F1F3 1F1EB   ; Emoji_Flag_Sequence       # 6.0  [1] (🇳🇫)      Flag for Norfolk Island
+1F1F3 1F1EC   ; Emoji_Flag_Sequence       # 6.0  [1] (🇳🇬)      Flag for Nigeria
+1F1F3 1F1EE   ; Emoji_Flag_Sequence       # 6.0  [1] (🇳🇮)      Flag for Nicaragua
+1F1F3 1F1F1   ; Emoji_Flag_Sequence       # 6.0  [1] (🇳🇱)      Flag for Netherlands
+1F1F3 1F1F4   ; Emoji_Flag_Sequence       # 6.0  [1] (🇳🇴)      Flag for Norway
+1F1F3 1F1F5   ; Emoji_Flag_Sequence       # 6.0  [1] (🇳🇵)      Flag for Nepal
+1F1F3 1F1F7   ; Emoji_Flag_Sequence       # 6.0  [1] (🇳🇷)      Flag for Nauru
+1F1F3 1F1FA   ; Emoji_Flag_Sequence       # 6.0  [1] (🇳🇺)      Flag for Niue
+1F1F3 1F1FF   ; Emoji_Flag_Sequence       # 6.0  [1] (🇳🇿)      Flag for New Zealand
+1F1F4 1F1F2   ; Emoji_Flag_Sequence       # 6.0  [1] (🇴🇲)      Flag for Oman
+1F1F5 1F1E6   ; Emoji_Flag_Sequence       # 6.0  [1] (🇵🇦)      Flag for Panama
+1F1F5 1F1EA   ; Emoji_Flag_Sequence       # 6.0  [1] (🇵🇪)      Flag for Peru
+1F1F5 1F1EB   ; Emoji_Flag_Sequence       # 6.0  [1] (🇵🇫)      Flag for French Polynesia
+1F1F5 1F1EC   ; Emoji_Flag_Sequence       # 6.0  [1] (🇵🇬)      Flag for Papua New Guinea
+1F1F5 1F1ED   ; Emoji_Flag_Sequence       # 6.0  [1] (🇵🇭)      Flag for Philippines
+1F1F5 1F1F0   ; Emoji_Flag_Sequence       # 6.0  [1] (🇵🇰)      Flag for Pakistan
+1F1F5 1F1F1   ; Emoji_Flag_Sequence       # 6.0  [1] (🇵🇱)      Flag for Poland
+1F1F5 1F1F2   ; Emoji_Flag_Sequence       # 6.0  [1] (🇵🇲)      Flag for St. Pierre & Miquelon
+1F1F5 1F1F3   ; Emoji_Flag_Sequence       # 6.0  [1] (🇵🇳)      Flag for Pitcairn Islands
+1F1F5 1F1F7   ; Emoji_Flag_Sequence       # 6.0  [1] (🇵🇷)      Flag for Puerto Rico
+1F1F5 1F1F8   ; Emoji_Flag_Sequence       # 6.0  [1] (🇵🇸)      Flag for Palestinian Territories
+1F1F5 1F1F9   ; Emoji_Flag_Sequence       # 6.0  [1] (🇵🇹)      Flag for Portugal
+1F1F5 1F1FC   ; Emoji_Flag_Sequence       # 6.0  [1] (🇵🇼)      Flag for Palau
+1F1F5 1F1FE   ; Emoji_Flag_Sequence       # 6.0  [1] (🇵🇾)      Flag for Paraguay
+1F1F6 1F1E6   ; Emoji_Flag_Sequence       # 6.0  [1] (🇶🇦)      Flag for Qatar
+1F1F7 1F1EA   ; Emoji_Flag_Sequence       # 6.0  [1] (🇷🇪)      Flag for Réunion
+1F1F7 1F1F4   ; Emoji_Flag_Sequence       # 6.0  [1] (🇷🇴)      Flag for Romania
+1F1F7 1F1F8   ; Emoji_Flag_Sequence       # 6.0  [1] (🇷🇸)      Flag for Serbia
+1F1F7 1F1FA   ; Emoji_Flag_Sequence       # 6.0  [1] (🇷🇺)      Flag for Russia
+1F1F7 1F1FC   ; Emoji_Flag_Sequence       # 6.0  [1] (🇷🇼)      Flag for Rwanda
+1F1F8 1F1E6   ; Emoji_Flag_Sequence       # 6.0  [1] (🇸🇦)      Flag for Saudi Arabia
+1F1F8 1F1E7   ; Emoji_Flag_Sequence       # 6.0  [1] (🇸🇧)      Flag for Solomon Islands
+1F1F8 1F1E8   ; Emoji_Flag_Sequence       # 6.0  [1] (🇸🇨)      Flag for Seychelles
+1F1F8 1F1E9   ; Emoji_Flag_Sequence       # 6.0  [1] (🇸🇩)      Flag for Sudan
+1F1F8 1F1EA   ; Emoji_Flag_Sequence       # 6.0  [1] (🇸🇪)      Flag for Sweden
+1F1F8 1F1EC   ; Emoji_Flag_Sequence       # 6.0  [1] (🇸🇬)      Flag for Singapore
+1F1F8 1F1ED   ; Emoji_Flag_Sequence       # 6.0  [1] (🇸🇭)      Flag for St. Helena
+1F1F8 1F1EE   ; Emoji_Flag_Sequence       # 6.0  [1] (🇸🇮)      Flag for Slovenia
+1F1F8 1F1EF   ; Emoji_Flag_Sequence       # 6.0  [1] (🇸🇯)      Flag for Svalbard & Jan Mayen
+1F1F8 1F1F0   ; Emoji_Flag_Sequence       # 6.0  [1] (🇸🇰)      Flag for Slovakia
+1F1F8 1F1F1   ; Emoji_Flag_Sequence       # 6.0  [1] (🇸🇱)      Flag for Sierra Leone
+1F1F8 1F1F2   ; Emoji_Flag_Sequence       # 6.0  [1] (🇸🇲)      Flag for San Marino
+1F1F8 1F1F3   ; Emoji_Flag_Sequence       # 6.0  [1] (🇸🇳)      Flag for Senegal
+1F1F8 1F1F4   ; Emoji_Flag_Sequence       # 6.0  [1] (🇸🇴)      Flag for Somalia
+1F1F8 1F1F7   ; Emoji_Flag_Sequence       # 6.0  [1] (🇸🇷)      Flag for Suriname
+1F1F8 1F1F8   ; Emoji_Flag_Sequence       # 6.0  [1] (🇸🇸)      Flag for South Sudan
+1F1F8 1F1F9   ; Emoji_Flag_Sequence       # 6.0  [1] (🇸🇹)      Flag for São Tomé & Príncipe
+1F1F8 1F1FB   ; Emoji_Flag_Sequence       # 6.0  [1] (🇸🇻)      Flag for El Salvador
+1F1F8 1F1FD   ; Emoji_Flag_Sequence       # 6.0  [1] (🇸🇽)      Flag for Sint Maarten
+1F1F8 1F1FE   ; Emoji_Flag_Sequence       # 6.0  [1] (🇸🇾)      Flag for Syria
+1F1F8 1F1FF   ; Emoji_Flag_Sequence       # 6.0  [1] (🇸🇿)      Flag for Swaziland
+1F1F9 1F1E6   ; Emoji_Flag_Sequence       # 6.0  [1] (🇹🇦)      Flag for Tristan da Cunha
+1F1F9 1F1E8   ; Emoji_Flag_Sequence       # 6.0  [1] (🇹🇨)      Flag for Turks & Caicos Islands
+1F1F9 1F1E9   ; Emoji_Flag_Sequence       # 6.0  [1] (🇹🇩)      Flag for Chad
+1F1F9 1F1EB   ; Emoji_Flag_Sequence       # 6.0  [1] (🇹🇫)      Flag for French Southern Territories
+1F1F9 1F1EC   ; Emoji_Flag_Sequence       # 6.0  [1] (🇹🇬)      Flag for Togo
+1F1F9 1F1ED   ; Emoji_Flag_Sequence       # 6.0  [1] (🇹🇭)      Flag for Thailand
+1F1F9 1F1EF   ; Emoji_Flag_Sequence       # 6.0  [1] (🇹🇯)      Flag for Tajikistan
+1F1F9 1F1F0   ; Emoji_Flag_Sequence       # 6.0  [1] (🇹🇰)      Flag for Tokelau
+1F1F9 1F1F1   ; Emoji_Flag_Sequence       # 6.0  [1] (🇹🇱)      Flag for Timor-Leste
+1F1F9 1F1F2   ; Emoji_Flag_Sequence       # 6.0  [1] (🇹🇲)      Flag for Turkmenistan
+1F1F9 1F1F3   ; Emoji_Flag_Sequence       # 6.0  [1] (🇹🇳)      Flag for Tunisia
+1F1F9 1F1F4   ; Emoji_Flag_Sequence       # 6.0  [1] (🇹🇴)      Flag for Tonga
+1F1F9 1F1F7   ; Emoji_Flag_Sequence       # 6.0  [1] (🇹🇷)      Flag for Turkey
+1F1F9 1F1F9   ; Emoji_Flag_Sequence       # 6.0  [1] (🇹🇹)      Flag for Trinidad & Tobago
+1F1F9 1F1FB   ; Emoji_Flag_Sequence       # 6.0  [1] (🇹🇻)      Flag for Tuvalu
+1F1F9 1F1FC   ; Emoji_Flag_Sequence       # 6.0  [1] (🇹🇼)      Flag for Taiwan
+1F1F9 1F1FF   ; Emoji_Flag_Sequence       # 6.0  [1] (🇹🇿)      Flag for Tanzania
+1F1FA 1F1E6   ; Emoji_Flag_Sequence       # 6.0  [1] (🇺🇦)      Flag for Ukraine
+1F1FA 1F1EC   ; Emoji_Flag_Sequence       # 6.0  [1] (🇺🇬)      Flag for Uganda
+1F1FA 1F1F2   ; Emoji_Flag_Sequence       # 6.0  [1] (🇺🇲)      Flag for U.S. Outlying Islands
+1F1FA 1F1F8   ; Emoji_Flag_Sequence       # 6.0  [1] (🇺🇸)      Flag for United States
+1F1FA 1F1FE   ; Emoji_Flag_Sequence       # 6.0  [1] (🇺🇾)      Flag for Uruguay
+1F1FA 1F1FF   ; Emoji_Flag_Sequence       # 6.0  [1] (🇺🇿)      Flag for Uzbekistan
+1F1FB 1F1E6   ; Emoji_Flag_Sequence       # 6.0  [1] (🇻🇦)      Flag for Vatican City
+1F1FB 1F1E8   ; Emoji_Flag_Sequence       # 6.0  [1] (🇻🇨)      Flag for St. Vincent & Grenadines
+1F1FB 1F1EA   ; Emoji_Flag_Sequence       # 6.0  [1] (🇻🇪)      Flag for Venezuela
+1F1FB 1F1EC   ; Emoji_Flag_Sequence       # 6.0  [1] (🇻🇬)      Flag for British Virgin Islands
+1F1FB 1F1EE   ; Emoji_Flag_Sequence       # 6.0  [1] (🇻🇮)      Flag for U.S. Virgin Islands
+1F1FB 1F1F3   ; Emoji_Flag_Sequence       # 6.0  [1] (🇻🇳)      Flag for Vietnam
+1F1FB 1F1FA   ; Emoji_Flag_Sequence       # 6.0  [1] (🇻🇺)      Flag for Vanuatu
+1F1FC 1F1EB   ; Emoji_Flag_Sequence       # 6.0  [1] (🇼🇫)      Flag for Wallis & Futuna
+1F1FC 1F1F8   ; Emoji_Flag_Sequence       # 6.0  [1] (🇼🇸)      Flag for Samoa
+1F1FD 1F1F0   ; Emoji_Flag_Sequence       # 6.0  [1] (🇽🇰)      Flag for Kosovo
+1F1FE 1F1EA   ; Emoji_Flag_Sequence       # 6.0  [1] (🇾🇪)      Flag for Yemen
+1F1FE 1F1F9   ; Emoji_Flag_Sequence       # 6.0  [1] (🇾🇹)      Flag for Mayotte
+1F1FF 1F1E6   ; Emoji_Flag_Sequence       # 6.0  [1] (🇿🇦)      Flag for South Africa
+1F1FF 1F1F2   ; Emoji_Flag_Sequence       # 6.0  [1] (🇿🇲)      Flag for Zambia
+1F1FF 1F1FC   ; Emoji_Flag_Sequence       # 6.0  [1] (🇿🇼)      Flag for Zimbabwe
+
+# UnicodeSet: [{🇦🇨}{🇦🇩}{🇦🇪}{🇦🇫}{🇦🇬}{🇦🇮}{🇦🇱}{🇦🇲}{🇦🇴}{🇦🇶}{🇦🇷}{🇦🇸}{🇦🇹}{🇦🇺}{🇦🇼}{🇦🇽}{🇦🇿}{🇧🇦}{🇧🇧}{🇧🇩}{🇧🇪}{🇧🇫}{🇧🇬}{🇧🇭}{🇧🇮}{🇧🇯}{🇧🇱}{🇧🇲}{🇧🇳}{🇧🇴}{🇧🇶}{🇧🇷}{🇧🇸}{🇧🇹}{🇧🇻}{🇧🇼}{🇧🇾}{🇧🇿}{🇨🇦}{🇨🇨}{🇨🇩}{🇨🇫}{🇨🇬}{🇨🇭}{🇨🇮}{🇨🇰}{🇨🇱}{🇨🇲}{🇨🇳}{🇨🇴}{🇨🇵}{🇨🇷}{🇨🇺}{🇨🇻}{🇨🇼}{🇨🇽}{🇨🇾}{🇨🇿}{🇩🇪}{🇩🇬}{🇩🇯}{🇩🇰}{🇩🇲}{🇩🇴}{🇩🇿}{🇪🇦}{🇪🇨}{🇪🇪}{🇪🇬}{🇪🇭}{🇪🇷}{🇪🇸}{🇪🇹}{🇪🇺}{🇫🇮}{🇫🇯}{🇫🇰}{🇫🇲}{🇫🇴}{🇫🇷}{🇬🇦}{🇬🇧}{🇬🇩}{🇬🇪}{🇬🇫}{🇬🇬}{🇬🇭}{🇬🇮}{🇬🇱}{🇬🇲}{🇬🇳}{🇬🇵}{🇬🇶}{🇬🇷}{🇬🇸}{🇬🇹}{🇬🇺}{🇬🇼}{🇬🇾}{🇭🇰}{🇭🇲}{🇭🇳}{🇭🇷}{🇭🇹}{🇭🇺}{🇮🇨}{🇮🇩}{🇮🇪}{🇮🇱}{🇮🇲}{🇮🇳}{🇮🇴}{🇮🇶}{🇮🇷}{🇮🇸}{🇮🇹}{🇯🇪}{🇯🇲}{🇯🇴}{🇯🇵}{🇰🇪}{🇰🇬}{🇰🇭}{🇰🇮}{🇰🇲}{🇰🇳}{🇰🇵}{🇰🇷}{🇰🇼}{🇰🇾}{🇰🇿}{🇱🇦}{🇱🇧}{🇱🇨}{🇱🇮}{🇱🇰}{🇱🇷}{🇱🇸}{🇱🇹}{🇱🇺}{🇱🇻}{🇱🇾}{🇲🇦}{🇲🇨}{🇲🇩}{🇲🇪}{🇲🇫}{🇲🇬}{🇲🇭}{🇲🇰}{🇲🇱}{🇲🇲}{🇲🇳}{🇲🇴}{🇲🇵}{🇲🇶}{🇲🇷}{🇲🇸}{🇲🇹}{🇲🇺}{🇲🇻}{🇲🇼}{🇲🇽}{🇲🇾}{🇲🇿}{🇳🇦}{🇳🇨}{🇳🇪}{🇳🇫}{🇳🇬}{🇳🇮}{🇳🇱}{🇳🇴}{🇳🇵}{🇳🇷}{🇳🇺}{🇳🇿}{🇴🇲}{🇵🇦}{🇵🇪}{🇵🇫}{🇵🇬}{🇵🇭}{🇵🇰}{🇵🇱}{🇵🇲}{🇵🇳}{🇵🇷}{🇵🇸}{🇵🇹}{🇵🇼}{🇵🇾}{🇶🇦}{🇷🇪}{🇷🇴}{🇷🇸}{🇷🇺}{🇷🇼}{🇸🇦}{🇸🇧}{🇸🇨}{🇸🇩}{🇸🇪}{🇸🇬}{🇸🇭}{🇸🇮}{🇸🇯}{🇸🇰}{🇸🇱}{🇸🇲}{🇸🇳}{🇸🇴}{🇸🇷}{🇸🇸}{🇸🇹}{🇸🇻}{🇸🇽}{🇸🇾}{🇸🇿}{🇹🇦}{🇹🇨}{🇹🇩}{🇹🇫}{🇹🇬}{🇹🇭}{🇹🇯}{🇹🇰}{🇹🇱}{🇹🇲}{🇹🇳}{🇹🇴}{🇹🇷}{🇹🇹}{🇹🇻}{🇹🇼}{🇹🇿}{🇺🇦}{🇺🇬}{🇺🇲}{🇺🇸}{🇺🇾}{🇺🇿}{🇻🇦}{🇻🇨}{🇻🇪}{🇻🇬}{🇻🇮}{🇻🇳}{🇻🇺}{🇼🇫}{🇼🇸}{🇽🇰}{🇾🇪}{🇾🇹}{🇿🇦}{🇿🇲}{🇿🇼}]
+# Total elements: 257
+
+# ================================================
+
+# Emoji Modifier Sequence
+
+261D 1F3FB    ; Emoji_Modifier_Sequence   # 8.0  [1] (☝🏻)      WHITE UP POINTING INDEX, TYPE-1-2
+261D 1F3FC    ; Emoji_Modifier_Sequence   # 8.0  [1] (☝🏼)      WHITE UP POINTING INDEX, TYPE-3
+261D 1F3FD    ; Emoji_Modifier_Sequence   # 8.0  [1] (☝🏽)      WHITE UP POINTING INDEX, TYPE-4
+261D 1F3FE    ; Emoji_Modifier_Sequence   # 8.0  [1] (☝🏾)      WHITE UP POINTING INDEX, TYPE-5
+261D 1F3FF    ; Emoji_Modifier_Sequence   # 8.0  [1] (☝🏿)      WHITE UP POINTING INDEX, TYPE-6
+26F9 1F3FB    ; Emoji_Modifier_Sequence   # 8.0  [1] (⛹🏻)      PERSON WITH BALL, TYPE-1-2
+26F9 1F3FC    ; Emoji_Modifier_Sequence   # 8.0  [1] (⛹🏼)      PERSON WITH BALL, TYPE-3
+26F9 1F3FD    ; Emoji_Modifier_Sequence   # 8.0  [1] (⛹🏽)      PERSON WITH BALL, TYPE-4
+26F9 1F3FE    ; Emoji_Modifier_Sequence   # 8.0  [1] (⛹🏾)      PERSON WITH BALL, TYPE-5
+26F9 1F3FF    ; Emoji_Modifier_Sequence   # 8.0  [1] (⛹🏿)      PERSON WITH BALL, TYPE-6
+270A 1F3FB    ; Emoji_Modifier_Sequence   # 8.0  [1] (✊🏻)      RAISED FIST, TYPE-1-2
+270A 1F3FC    ; Emoji_Modifier_Sequence   # 8.0  [1] (✊🏼)      RAISED FIST, TYPE-3
+270A 1F3FD    ; Emoji_Modifier_Sequence   # 8.0  [1] (✊🏽)      RAISED FIST, TYPE-4
+270A 1F3FE    ; Emoji_Modifier_Sequence   # 8.0  [1] (✊🏾)      RAISED FIST, TYPE-5
+270A 1F3FF    ; Emoji_Modifier_Sequence   # 8.0  [1] (✊🏿)      RAISED FIST, TYPE-6
+270B 1F3FB    ; Emoji_Modifier_Sequence   # 8.0  [1] (✋🏻)      RAISED HAND, TYPE-1-2
+270B 1F3FC    ; Emoji_Modifier_Sequence   # 8.0  [1] (✋🏼)      RAISED HAND, TYPE-3
+270B 1F3FD    ; Emoji_Modifier_Sequence   # 8.0  [1] (✋🏽)      RAISED HAND, TYPE-4
+270B 1F3FE    ; Emoji_Modifier_Sequence   # 8.0  [1] (✋🏾)      RAISED HAND, TYPE-5
+270B 1F3FF    ; Emoji_Modifier_Sequence   # 8.0  [1] (✋🏿)      RAISED HAND, TYPE-6
+270C 1F3FB    ; Emoji_Modifier_Sequence   # 8.0  [1] (✌🏻)      VICTORY HAND, TYPE-1-2
+270C 1F3FC    ; Emoji_Modifier_Sequence   # 8.0  [1] (✌🏼)      VICTORY HAND, TYPE-3
+270C 1F3FD    ; Emoji_Modifier_Sequence   # 8.0  [1] (✌🏽)      VICTORY HAND, TYPE-4
+270C 1F3FE    ; Emoji_Modifier_Sequence   # 8.0  [1] (✌🏾)      VICTORY HAND, TYPE-5
+270C 1F3FF    ; Emoji_Modifier_Sequence   # 8.0  [1] (✌🏿)      VICTORY HAND, TYPE-6
+270D 1F3FB    ; Emoji_Modifier_Sequence   # 8.0  [1] (✍🏻)      WRITING HAND, TYPE-1-2
+270D 1F3FC    ; Emoji_Modifier_Sequence   # 8.0  [1] (✍🏼)      WRITING HAND, TYPE-3
+270D 1F3FD    ; Emoji_Modifier_Sequence   # 8.0  [1] (✍🏽)      WRITING HAND, TYPE-4
+270D 1F3FE    ; Emoji_Modifier_Sequence   # 8.0  [1] (✍🏾)      WRITING HAND, TYPE-5
+270D 1F3FF    ; Emoji_Modifier_Sequence   # 8.0  [1] (✍🏿)      WRITING HAND, TYPE-6
+1F385 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (🎅🏻)      FATHER CHRISTMAS, TYPE-1-2
+1F385 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (🎅🏼)      FATHER CHRISTMAS, TYPE-3
+1F385 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (🎅🏽)      FATHER CHRISTMAS, TYPE-4
+1F385 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (🎅🏾)      FATHER CHRISTMAS, TYPE-5
+1F385 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (🎅🏿)      FATHER CHRISTMAS, TYPE-6
+1F3C3 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (🏃🏻)      RUNNER, TYPE-1-2
+1F3C3 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (🏃🏼)      RUNNER, TYPE-3
+1F3C3 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (🏃🏽)      RUNNER, TYPE-4
+1F3C3 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (🏃🏾)      RUNNER, TYPE-5
+1F3C3 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (🏃🏿)      RUNNER, TYPE-6
+1F3C4 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (🏄🏻)      SURFER, TYPE-1-2
+1F3C4 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (🏄🏼)      SURFER, TYPE-3
+1F3C4 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (🏄🏽)      SURFER, TYPE-4
+1F3C4 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (🏄🏾)      SURFER, TYPE-5
+1F3C4 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (🏄🏿)      SURFER, TYPE-6
+1F3CA 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (🏊🏻)      SWIMMER, TYPE-1-2
+1F3CA 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (🏊🏼)      SWIMMER, TYPE-3
+1F3CA 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (🏊🏽)      SWIMMER, TYPE-4
+1F3CA 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (🏊🏾)      SWIMMER, TYPE-5
+1F3CA 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (🏊🏿)      SWIMMER, TYPE-6
+1F3CB 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (🏋🏻)      WEIGHT LIFTER, TYPE-1-2
+1F3CB 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (🏋🏼)      WEIGHT LIFTER, TYPE-3
+1F3CB 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (🏋🏽)      WEIGHT LIFTER, TYPE-4
+1F3CB 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (🏋🏾)      WEIGHT LIFTER, TYPE-5
+1F3CB 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (🏋🏿)      WEIGHT LIFTER, TYPE-6
+1F442 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (👂🏻)      EAR, TYPE-1-2
+1F442 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (👂🏼)      EAR, TYPE-3
+1F442 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (👂🏽)      EAR, TYPE-4
+1F442 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (👂🏾)      EAR, TYPE-5
+1F442 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (👂🏿)      EAR, TYPE-6
+1F443 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (👃🏻)      NOSE, TYPE-1-2
+1F443 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (👃🏼)      NOSE, TYPE-3
+1F443 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (👃🏽)      NOSE, TYPE-4
+1F443 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (👃🏾)      NOSE, TYPE-5
+1F443 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (👃🏿)      NOSE, TYPE-6
+1F446 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (👆🏻)      WHITE UP POINTING BACKHAND INDEX, TYPE-1-2
+1F446 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (👆🏼)      WHITE UP POINTING BACKHAND INDEX, TYPE-3
+1F446 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (👆🏽)      WHITE UP POINTING BACKHAND INDEX, TYPE-4
+1F446 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (👆🏾)      WHITE UP POINTING BACKHAND INDEX, TYPE-5
+1F446 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (👆🏿)      WHITE UP POINTING BACKHAND INDEX, TYPE-6
+1F447 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (👇🏻)      WHITE DOWN POINTING BACKHAND INDEX, TYPE-1-2
+1F447 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (👇🏼)      WHITE DOWN POINTING BACKHAND INDEX, TYPE-3
+1F447 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (👇🏽)      WHITE DOWN POINTING BACKHAND INDEX, TYPE-4
+1F447 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (👇🏾)      WHITE DOWN POINTING BACKHAND INDEX, TYPE-5
+1F447 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (👇🏿)      WHITE DOWN POINTING BACKHAND INDEX, TYPE-6
+1F448 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (👈🏻)      WHITE LEFT POINTING BACKHAND INDEX, TYPE-1-2
+1F448 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (👈🏼)      WHITE LEFT POINTING BACKHAND INDEX, TYPE-3
+1F448 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (👈🏽)      WHITE LEFT POINTING BACKHAND INDEX, TYPE-4
+1F448 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (👈🏾)      WHITE LEFT POINTING BACKHAND INDEX, TYPE-5
+1F448 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (👈🏿)      WHITE LEFT POINTING BACKHAND INDEX, TYPE-6
+1F449 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (👉🏻)      WHITE RIGHT POINTING BACKHAND INDEX, TYPE-1-2
+1F449 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (👉🏼)      WHITE RIGHT POINTING BACKHAND INDEX, TYPE-3
+1F449 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (👉🏽)      WHITE RIGHT POINTING BACKHAND INDEX, TYPE-4
+1F449 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (👉🏾)      WHITE RIGHT POINTING BACKHAND INDEX, TYPE-5
+1F449 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (👉🏿)      WHITE RIGHT POINTING BACKHAND INDEX, TYPE-6
+1F44A 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (👊🏻)      FISTED HAND SIGN, TYPE-1-2
+1F44A 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (👊🏼)      FISTED HAND SIGN, TYPE-3
+1F44A 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (👊🏽)      FISTED HAND SIGN, TYPE-4
+1F44A 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (👊🏾)      FISTED HAND SIGN, TYPE-5
+1F44A 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (👊🏿)      FISTED HAND SIGN, TYPE-6
+1F44B 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (👋🏻)      WAVING HAND SIGN, TYPE-1-2
+1F44B 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (👋🏼)      WAVING HAND SIGN, TYPE-3
+1F44B 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (👋🏽)      WAVING HAND SIGN, TYPE-4
+1F44B 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (👋🏾)      WAVING HAND SIGN, TYPE-5
+1F44B 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (👋🏿)      WAVING HAND SIGN, TYPE-6
+1F44C 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (👌🏻)      OK HAND SIGN, TYPE-1-2
+1F44C 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (👌🏼)      OK HAND SIGN, TYPE-3
+1F44C 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (👌🏽)      OK HAND SIGN, TYPE-4
+1F44C 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (👌🏾)      OK HAND SIGN, TYPE-5
+1F44C 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (👌🏿)      OK HAND SIGN, TYPE-6
+1F44D 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (👍🏻)      THUMBS UP SIGN, TYPE-1-2
+1F44D 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (👍🏼)      THUMBS UP SIGN, TYPE-3
+1F44D 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (👍🏽)      THUMBS UP SIGN, TYPE-4
+1F44D 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (👍🏾)      THUMBS UP SIGN, TYPE-5
+1F44D 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (👍🏿)      THUMBS UP SIGN, TYPE-6
+1F44E 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (👎🏻)      THUMBS DOWN SIGN, TYPE-1-2
+1F44E 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (👎🏼)      THUMBS DOWN SIGN, TYPE-3
+1F44E 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (👎🏽)      THUMBS DOWN SIGN, TYPE-4
+1F44E 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (👎🏾)      THUMBS DOWN SIGN, TYPE-5
+1F44E 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (👎🏿)      THUMBS DOWN SIGN, TYPE-6
+1F44F 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (👏🏻)      CLAPPING HANDS SIGN, TYPE-1-2
+1F44F 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (👏🏼)      CLAPPING HANDS SIGN, TYPE-3
+1F44F 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (👏🏽)      CLAPPING HANDS SIGN, TYPE-4
+1F44F 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (👏🏾)      CLAPPING HANDS SIGN, TYPE-5
+1F44F 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (👏🏿)      CLAPPING HANDS SIGN, TYPE-6
+1F450 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (👐🏻)      OPEN HANDS SIGN, TYPE-1-2
+1F450 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (👐🏼)      OPEN HANDS SIGN, TYPE-3
+1F450 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (👐🏽)      OPEN HANDS SIGN, TYPE-4
+1F450 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (👐🏾)      OPEN HANDS SIGN, TYPE-5
+1F450 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (👐🏿)      OPEN HANDS SIGN, TYPE-6
+1F466 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (👦🏻)      BOY, TYPE-1-2
+1F466 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (👦🏼)      BOY, TYPE-3
+1F466 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (👦🏽)      BOY, TYPE-4
+1F466 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (👦🏾)      BOY, TYPE-5
+1F466 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (👦🏿)      BOY, TYPE-6
+1F467 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (👧🏻)      GIRL, TYPE-1-2
+1F467 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (👧🏼)      GIRL, TYPE-3
+1F467 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (👧🏽)      GIRL, TYPE-4
+1F467 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (👧🏾)      GIRL, TYPE-5
+1F467 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (👧🏿)      GIRL, TYPE-6
+1F468 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (👨🏻)      MAN, TYPE-1-2
+1F468 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (👨🏼)      MAN, TYPE-3
+1F468 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (👨🏽)      MAN, TYPE-4
+1F468 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (👨🏾)      MAN, TYPE-5
+1F468 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (👨🏿)      MAN, TYPE-6
+1F469 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (👩🏻)      WOMAN, TYPE-1-2
+1F469 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (👩🏼)      WOMAN, TYPE-3
+1F469 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (👩🏽)      WOMAN, TYPE-4
+1F469 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (👩🏾)      WOMAN, TYPE-5
+1F469 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (👩🏿)      WOMAN, TYPE-6
+1F46E 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (👮🏻)      POLICE OFFICER, TYPE-1-2
+1F46E 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (👮🏼)      POLICE OFFICER, TYPE-3
+1F46E 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (👮🏽)      POLICE OFFICER, TYPE-4
+1F46E 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (👮🏾)      POLICE OFFICER, TYPE-5
+1F46E 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (👮🏿)      POLICE OFFICER, TYPE-6
+1F470 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (👰🏻)      BRIDE WITH VEIL, TYPE-1-2
+1F470 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (👰🏼)      BRIDE WITH VEIL, TYPE-3
+1F470 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (👰🏽)      BRIDE WITH VEIL, TYPE-4
+1F470 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (👰🏾)      BRIDE WITH VEIL, TYPE-5
+1F470 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (👰🏿)      BRIDE WITH VEIL, TYPE-6
+1F471 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (👱🏻)      PERSON WITH BLOND HAIR, TYPE-1-2
+1F471 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (👱🏼)      PERSON WITH BLOND HAIR, TYPE-3
+1F471 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (👱🏽)      PERSON WITH BLOND HAIR, TYPE-4
+1F471 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (👱🏾)      PERSON WITH BLOND HAIR, TYPE-5
+1F471 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (👱🏿)      PERSON WITH BLOND HAIR, TYPE-6
+1F472 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (👲🏻)      MAN WITH GUA PI MAO, TYPE-1-2
+1F472 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (👲🏼)      MAN WITH GUA PI MAO, TYPE-3
+1F472 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (👲🏽)      MAN WITH GUA PI MAO, TYPE-4
+1F472 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (👲🏾)      MAN WITH GUA PI MAO, TYPE-5
+1F472 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (👲🏿)      MAN WITH GUA PI MAO, TYPE-6
+1F473 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (👳🏻)      MAN WITH TURBAN, TYPE-1-2
+1F473 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (👳🏼)      MAN WITH TURBAN, TYPE-3
+1F473 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (👳🏽)      MAN WITH TURBAN, TYPE-4
+1F473 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (👳🏾)      MAN WITH TURBAN, TYPE-5
+1F473 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (👳🏿)      MAN WITH TURBAN, TYPE-6
+1F474 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (👴🏻)      OLDER MAN, TYPE-1-2
+1F474 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (👴🏼)      OLDER MAN, TYPE-3
+1F474 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (👴🏽)      OLDER MAN, TYPE-4
+1F474 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (👴🏾)      OLDER MAN, TYPE-5
+1F474 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (👴🏿)      OLDER MAN, TYPE-6
+1F475 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (👵🏻)      OLDER WOMAN, TYPE-1-2
+1F475 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (👵🏼)      OLDER WOMAN, TYPE-3
+1F475 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (👵🏽)      OLDER WOMAN, TYPE-4
+1F475 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (👵🏾)      OLDER WOMAN, TYPE-5
+1F475 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (👵🏿)      OLDER WOMAN, TYPE-6
+1F476 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (👶🏻)      BABY, TYPE-1-2
+1F476 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (👶🏼)      BABY, TYPE-3
+1F476 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (👶🏽)      BABY, TYPE-4
+1F476 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (👶🏾)      BABY, TYPE-5
+1F476 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (👶🏿)      BABY, TYPE-6
+1F477 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (👷🏻)      CONSTRUCTION WORKER, TYPE-1-2
+1F477 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (👷🏼)      CONSTRUCTION WORKER, TYPE-3
+1F477 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (👷🏽)      CONSTRUCTION WORKER, TYPE-4
+1F477 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (👷🏾)      CONSTRUCTION WORKER, TYPE-5
+1F477 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (👷🏿)      CONSTRUCTION WORKER, TYPE-6
+1F478 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (👸🏻)      PRINCESS, TYPE-1-2
+1F478 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (👸🏼)      PRINCESS, TYPE-3
+1F478 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (👸🏽)      PRINCESS, TYPE-4
+1F478 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (👸🏾)      PRINCESS, TYPE-5
+1F478 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (👸🏿)      PRINCESS, TYPE-6
+1F47C 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (👼🏻)      BABY ANGEL, TYPE-1-2
+1F47C 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (👼🏼)      BABY ANGEL, TYPE-3
+1F47C 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (👼🏽)      BABY ANGEL, TYPE-4
+1F47C 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (👼🏾)      BABY ANGEL, TYPE-5
+1F47C 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (👼🏿)      BABY ANGEL, TYPE-6
+1F481 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (💁🏻)      INFORMATION DESK PERSON, TYPE-1-2
+1F481 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (💁🏼)      INFORMATION DESK PERSON, TYPE-3
+1F481 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (💁🏽)      INFORMATION DESK PERSON, TYPE-4
+1F481 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (💁🏾)      INFORMATION DESK PERSON, TYPE-5
+1F481 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (💁🏿)      INFORMATION DESK PERSON, TYPE-6
+1F482 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (💂🏻)      GUARDSMAN, TYPE-1-2
+1F482 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (💂🏼)      GUARDSMAN, TYPE-3
+1F482 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (💂🏽)      GUARDSMAN, TYPE-4
+1F482 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (💂🏾)      GUARDSMAN, TYPE-5
+1F482 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (💂🏿)      GUARDSMAN, TYPE-6
+1F483 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (💃🏻)      DANCER, TYPE-1-2
+1F483 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (💃🏼)      DANCER, TYPE-3
+1F483 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (💃🏽)      DANCER, TYPE-4
+1F483 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (💃🏾)      DANCER, TYPE-5
+1F483 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (💃🏿)      DANCER, TYPE-6
+1F485 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (💅🏻)      NAIL POLISH, TYPE-1-2
+1F485 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (💅🏼)      NAIL POLISH, TYPE-3
+1F485 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (💅🏽)      NAIL POLISH, TYPE-4
+1F485 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (💅🏾)      NAIL POLISH, TYPE-5
+1F485 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (💅🏿)      NAIL POLISH, TYPE-6
+1F486 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (💆🏻)      FACE MASSAGE, TYPE-1-2
+1F486 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (💆🏼)      FACE MASSAGE, TYPE-3
+1F486 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (💆🏽)      FACE MASSAGE, TYPE-4
+1F486 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (💆🏾)      FACE MASSAGE, TYPE-5
+1F486 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (💆🏿)      FACE MASSAGE, TYPE-6
+1F487 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (💇🏻)      HAIRCUT, TYPE-1-2
+1F487 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (💇🏼)      HAIRCUT, TYPE-3
+1F487 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (💇🏽)      HAIRCUT, TYPE-4
+1F487 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (💇🏾)      HAIRCUT, TYPE-5
+1F487 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (💇🏿)      HAIRCUT, TYPE-6
+1F4AA 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (💪🏻)      FLEXED BICEPS, TYPE-1-2
+1F4AA 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (💪🏼)      FLEXED BICEPS, TYPE-3
+1F4AA 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (💪🏽)      FLEXED BICEPS, TYPE-4
+1F4AA 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (💪🏾)      FLEXED BICEPS, TYPE-5
+1F4AA 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (💪🏿)      FLEXED BICEPS, TYPE-6
+1F575 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (🕵🏻)      SLEUTH OR SPY, TYPE-1-2
+1F575 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (🕵🏼)      SLEUTH OR SPY, TYPE-3
+1F575 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (🕵🏽)      SLEUTH OR SPY, TYPE-4
+1F575 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (🕵🏾)      SLEUTH OR SPY, TYPE-5
+1F575 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (🕵🏿)      SLEUTH OR SPY, TYPE-6
+1F57A 1F3FB   ; Emoji_Modifier_Sequence   # 9.0  [1] (🕺🏻)      MAN DANCING, TYPE-1-2
+1F57A 1F3FC   ; Emoji_Modifier_Sequence   # 9.0  [1] (🕺🏼)      MAN DANCING, TYPE-3
+1F57A 1F3FD   ; Emoji_Modifier_Sequence   # 9.0  [1] (🕺🏽)      MAN DANCING, TYPE-4
+1F57A 1F3FE   ; Emoji_Modifier_Sequence   # 9.0  [1] (🕺🏾)      MAN DANCING, TYPE-5
+1F57A 1F3FF   ; Emoji_Modifier_Sequence   # 9.0  [1] (🕺🏿)      MAN DANCING, TYPE-6
+1F590 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (🖐🏻)      RAISED HAND WITH FINGERS SPLAYED, TYPE-1-2
+1F590 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (🖐🏼)      RAISED HAND WITH FINGERS SPLAYED, TYPE-3
+1F590 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (🖐🏽)      RAISED HAND WITH FINGERS SPLAYED, TYPE-4
+1F590 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (🖐🏾)      RAISED HAND WITH FINGERS SPLAYED, TYPE-5
+1F590 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (🖐🏿)      RAISED HAND WITH FINGERS SPLAYED, TYPE-6
+1F595 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (🖕🏻)      REVERSED HAND WITH MIDDLE FINGER EXTENDED, TYPE-1-2
+1F595 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (🖕🏼)      REVERSED HAND WITH MIDDLE FINGER EXTENDED, TYPE-3
+1F595 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (🖕🏽)      REVERSED HAND WITH MIDDLE FINGER EXTENDED, TYPE-4
+1F595 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (🖕🏾)      REVERSED HAND WITH MIDDLE FINGER EXTENDED, TYPE-5
+1F595 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (🖕🏿)      REVERSED HAND WITH MIDDLE FINGER EXTENDED, TYPE-6
+1F596 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (🖖🏻)      RAISED HAND WITH PART BETWEEN MIDDLE AND RING FINGERS, TYPE-1-2
+1F596 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (🖖🏼)      RAISED HAND WITH PART BETWEEN MIDDLE AND RING FINGERS, TYPE-3
+1F596 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (🖖🏽)      RAISED HAND WITH PART BETWEEN MIDDLE AND RING FINGERS, TYPE-4
+1F596 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (🖖🏾)      RAISED HAND WITH PART BETWEEN MIDDLE AND RING FINGERS, TYPE-5
+1F596 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (🖖🏿)      RAISED HAND WITH PART BETWEEN MIDDLE AND RING FINGERS, TYPE-6
+1F645 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙅🏻)      FACE WITH NO GOOD GESTURE, TYPE-1-2
+1F645 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙅🏼)      FACE WITH NO GOOD GESTURE, TYPE-3
+1F645 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙅🏽)      FACE WITH NO GOOD GESTURE, TYPE-4
+1F645 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙅🏾)      FACE WITH NO GOOD GESTURE, TYPE-5
+1F645 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙅🏿)      FACE WITH NO GOOD GESTURE, TYPE-6
+1F646 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙆🏻)      FACE WITH OK GESTURE, TYPE-1-2
+1F646 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙆🏼)      FACE WITH OK GESTURE, TYPE-3
+1F646 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙆🏽)      FACE WITH OK GESTURE, TYPE-4
+1F646 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙆🏾)      FACE WITH OK GESTURE, TYPE-5
+1F646 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙆🏿)      FACE WITH OK GESTURE, TYPE-6
+1F647 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙇🏻)      PERSON BOWING DEEPLY, TYPE-1-2
+1F647 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙇🏼)      PERSON BOWING DEEPLY, TYPE-3
+1F647 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙇🏽)      PERSON BOWING DEEPLY, TYPE-4
+1F647 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙇🏾)      PERSON BOWING DEEPLY, TYPE-5
+1F647 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙇🏿)      PERSON BOWING DEEPLY, TYPE-6
+1F64B 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙋🏻)      HAPPY PERSON RAISING ONE HAND, TYPE-1-2
+1F64B 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙋🏼)      HAPPY PERSON RAISING ONE HAND, TYPE-3
+1F64B 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙋🏽)      HAPPY PERSON RAISING ONE HAND, TYPE-4
+1F64B 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙋🏾)      HAPPY PERSON RAISING ONE HAND, TYPE-5
+1F64B 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙋🏿)      HAPPY PERSON RAISING ONE HAND, TYPE-6
+1F64C 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙌🏻)      PERSON RAISING BOTH HANDS IN CELEBRATION, TYPE-1-2
+1F64C 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙌🏼)      PERSON RAISING BOTH HANDS IN CELEBRATION, TYPE-3
+1F64C 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙌🏽)      PERSON RAISING BOTH HANDS IN CELEBRATION, TYPE-4
+1F64C 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙌🏾)      PERSON RAISING BOTH HANDS IN CELEBRATION, TYPE-5
+1F64C 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙌🏿)      PERSON RAISING BOTH HANDS IN CELEBRATION, TYPE-6
+1F64D 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙍🏻)      PERSON FROWNING, TYPE-1-2
+1F64D 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙍🏼)      PERSON FROWNING, TYPE-3
+1F64D 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙍🏽)      PERSON FROWNING, TYPE-4
+1F64D 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙍🏾)      PERSON FROWNING, TYPE-5
+1F64D 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙍🏿)      PERSON FROWNING, TYPE-6
+1F64E 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙎🏻)      PERSON WITH POUTING FACE, TYPE-1-2
+1F64E 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙎🏼)      PERSON WITH POUTING FACE, TYPE-3
+1F64E 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙎🏽)      PERSON WITH POUTING FACE, TYPE-4
+1F64E 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙎🏾)      PERSON WITH POUTING FACE, TYPE-5
+1F64E 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙎🏿)      PERSON WITH POUTING FACE, TYPE-6
+1F64F 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙏🏻)      PERSON WITH FOLDED HANDS, TYPE-1-2
+1F64F 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙏🏼)      PERSON WITH FOLDED HANDS, TYPE-3
+1F64F 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙏🏽)      PERSON WITH FOLDED HANDS, TYPE-4
+1F64F 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙏🏾)      PERSON WITH FOLDED HANDS, TYPE-5
+1F64F 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (🙏🏿)      PERSON WITH FOLDED HANDS, TYPE-6
+1F6A3 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (🚣🏻)      ROWBOAT, TYPE-1-2
+1F6A3 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (🚣🏼)      ROWBOAT, TYPE-3
+1F6A3 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (🚣🏽)      ROWBOAT, TYPE-4
+1F6A3 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (🚣🏾)      ROWBOAT, TYPE-5
+1F6A3 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (🚣🏿)      ROWBOAT, TYPE-6
+1F6B4 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (🚴🏻)      BICYCLIST, TYPE-1-2
+1F6B4 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (🚴🏼)      BICYCLIST, TYPE-3
+1F6B4 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (🚴🏽)      BICYCLIST, TYPE-4
+1F6B4 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (🚴🏾)      BICYCLIST, TYPE-5
+1F6B4 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (🚴🏿)      BICYCLIST, TYPE-6
+1F6B5 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (🚵🏻)      MOUNTAIN BICYCLIST, TYPE-1-2
+1F6B5 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (🚵🏼)      MOUNTAIN BICYCLIST, TYPE-3
+1F6B5 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (🚵🏽)      MOUNTAIN BICYCLIST, TYPE-4
+1F6B5 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (🚵🏾)      MOUNTAIN BICYCLIST, TYPE-5
+1F6B5 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (🚵🏿)      MOUNTAIN BICYCLIST, TYPE-6
+1F6B6 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (🚶🏻)      PEDESTRIAN, TYPE-1-2
+1F6B6 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (🚶🏼)      PEDESTRIAN, TYPE-3
+1F6B6 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (🚶🏽)      PEDESTRIAN, TYPE-4
+1F6B6 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (🚶🏾)      PEDESTRIAN, TYPE-5
+1F6B6 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (🚶🏿)      PEDESTRIAN, TYPE-6
+1F6C0 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (🛀🏻)      BATH, TYPE-1-2
+1F6C0 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (🛀🏼)      BATH, TYPE-3
+1F6C0 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (🛀🏽)      BATH, TYPE-4
+1F6C0 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (🛀🏾)      BATH, TYPE-5
+1F6C0 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (🛀🏿)      BATH, TYPE-6
+1F918 1F3FB   ; Emoji_Modifier_Sequence   # 8.0  [1] (🤘🏻)      SIGN OF THE HORNS, TYPE-1-2
+1F918 1F3FC   ; Emoji_Modifier_Sequence   # 8.0  [1] (🤘🏼)      SIGN OF THE HORNS, TYPE-3
+1F918 1F3FD   ; Emoji_Modifier_Sequence   # 8.0  [1] (🤘🏽)      SIGN OF THE HORNS, TYPE-4
+1F918 1F3FE   ; Emoji_Modifier_Sequence   # 8.0  [1] (🤘🏾)      SIGN OF THE HORNS, TYPE-5
+1F918 1F3FF   ; Emoji_Modifier_Sequence   # 8.0  [1] (🤘🏿)      SIGN OF THE HORNS, TYPE-6
+1F919 1F3FB   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤙🏻)      CALL ME HAND, TYPE-1-2
+1F919 1F3FC   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤙🏼)      CALL ME HAND, TYPE-3
+1F919 1F3FD   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤙🏽)      CALL ME HAND, TYPE-4
+1F919 1F3FE   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤙🏾)      CALL ME HAND, TYPE-5
+1F919 1F3FF   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤙🏿)      CALL ME HAND, TYPE-6
+1F91A 1F3FB   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤚🏻)      RAISED BACK OF HAND, TYPE-1-2
+1F91A 1F3FC   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤚🏼)      RAISED BACK OF HAND, TYPE-3
+1F91A 1F3FD   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤚🏽)      RAISED BACK OF HAND, TYPE-4
+1F91A 1F3FE   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤚🏾)      RAISED BACK OF HAND, TYPE-5
+1F91A 1F3FF   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤚🏿)      RAISED BACK OF HAND, TYPE-6
+1F91B 1F3FB   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤛🏻)      LEFT-FACING FIST, TYPE-1-2
+1F91B 1F3FC   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤛🏼)      LEFT-FACING FIST, TYPE-3
+1F91B 1F3FD   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤛🏽)      LEFT-FACING FIST, TYPE-4
+1F91B 1F3FE   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤛🏾)      LEFT-FACING FIST, TYPE-5
+1F91B 1F3FF   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤛🏿)      LEFT-FACING FIST, TYPE-6
+1F91C 1F3FB   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤜🏻)      RIGHT-FACING FIST, TYPE-1-2
+1F91C 1F3FC   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤜🏼)      RIGHT-FACING FIST, TYPE-3
+1F91C 1F3FD   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤜🏽)      RIGHT-FACING FIST, TYPE-4
+1F91C 1F3FE   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤜🏾)      RIGHT-FACING FIST, TYPE-5
+1F91C 1F3FF   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤜🏿)      RIGHT-FACING FIST, TYPE-6
+1F91D 1F3FB   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤝🏻)      HANDSHAKE, TYPE-1-2
+1F91D 1F3FC   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤝🏼)      HANDSHAKE, TYPE-3
+1F91D 1F3FD   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤝🏽)      HANDSHAKE, TYPE-4
+1F91D 1F3FE   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤝🏾)      HANDSHAKE, TYPE-5
+1F91D 1F3FF   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤝🏿)      HANDSHAKE, TYPE-6
+1F91E 1F3FB   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤞🏻)      HAND WITH INDEX AND MIDDLE FINGERS CROSSED, TYPE-1-2
+1F91E 1F3FC   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤞🏼)      HAND WITH INDEX AND MIDDLE FINGERS CROSSED, TYPE-3
+1F91E 1F3FD   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤞🏽)      HAND WITH INDEX AND MIDDLE FINGERS CROSSED, TYPE-4
+1F91E 1F3FE   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤞🏾)      HAND WITH INDEX AND MIDDLE FINGERS CROSSED, TYPE-5
+1F91E 1F3FF   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤞🏿)      HAND WITH INDEX AND MIDDLE FINGERS CROSSED, TYPE-6
+1F926 1F3FB   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤦🏻)      FACE PALM, TYPE-1-2
+1F926 1F3FC   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤦🏼)      FACE PALM, TYPE-3
+1F926 1F3FD   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤦🏽)      FACE PALM, TYPE-4
+1F926 1F3FE   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤦🏾)      FACE PALM, TYPE-5
+1F926 1F3FF   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤦🏿)      FACE PALM, TYPE-6
+1F930 1F3FB   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤰🏻)      PREGNANT WOMAN, TYPE-1-2
+1F930 1F3FC   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤰🏼)      PREGNANT WOMAN, TYPE-3
+1F930 1F3FD   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤰🏽)      PREGNANT WOMAN, TYPE-4
+1F930 1F3FE   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤰🏾)      PREGNANT WOMAN, TYPE-5
+1F930 1F3FF   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤰🏿)      PREGNANT WOMAN, TYPE-6
+1F933 1F3FB   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤳🏻)      SELFIE, TYPE-1-2
+1F933 1F3FC   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤳🏼)      SELFIE, TYPE-3
+1F933 1F3FD   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤳🏽)      SELFIE, TYPE-4
+1F933 1F3FE   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤳🏾)      SELFIE, TYPE-5
+1F933 1F3FF   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤳🏿)      SELFIE, TYPE-6
+1F934 1F3FB   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤴🏻)      PRINCE, TYPE-1-2
+1F934 1F3FC   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤴🏼)      PRINCE, TYPE-3
+1F934 1F3FD   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤴🏽)      PRINCE, TYPE-4
+1F934 1F3FE   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤴🏾)      PRINCE, TYPE-5
+1F934 1F3FF   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤴🏿)      PRINCE, TYPE-6
+1F935 1F3FB   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤵🏻)      MAN IN TUXEDO, TYPE-1-2
+1F935 1F3FC   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤵🏼)      MAN IN TUXEDO, TYPE-3
+1F935 1F3FD   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤵🏽)      MAN IN TUXEDO, TYPE-4
+1F935 1F3FE   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤵🏾)      MAN IN TUXEDO, TYPE-5
+1F935 1F3FF   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤵🏿)      MAN IN TUXEDO, TYPE-6
+1F936 1F3FB   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤶🏻)      MOTHER CHRISTMAS, TYPE-1-2
+1F936 1F3FC   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤶🏼)      MOTHER CHRISTMAS, TYPE-3
+1F936 1F3FD   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤶🏽)      MOTHER CHRISTMAS, TYPE-4
+1F936 1F3FE   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤶🏾)      MOTHER CHRISTMAS, TYPE-5
+1F936 1F3FF   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤶🏿)      MOTHER CHRISTMAS, TYPE-6
+1F937 1F3FB   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤷🏻)      SHRUG, TYPE-1-2
+1F937 1F3FC   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤷🏼)      SHRUG, TYPE-3
+1F937 1F3FD   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤷🏽)      SHRUG, TYPE-4
+1F937 1F3FE   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤷🏾)      SHRUG, TYPE-5
+1F937 1F3FF   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤷🏿)      SHRUG, TYPE-6
+1F938 1F3FB   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤸🏻)      PERSON DOING CARTWHEEL, TYPE-1-2
+1F938 1F3FC   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤸🏼)      PERSON DOING CARTWHEEL, TYPE-3
+1F938 1F3FD   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤸🏽)      PERSON DOING CARTWHEEL, TYPE-4
+1F938 1F3FE   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤸🏾)      PERSON DOING CARTWHEEL, TYPE-5
+1F938 1F3FF   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤸🏿)      PERSON DOING CARTWHEEL, TYPE-6
+1F939 1F3FB   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤹🏻)      JUGGLING, TYPE-1-2
+1F939 1F3FC   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤹🏼)      JUGGLING, TYPE-3
+1F939 1F3FD   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤹🏽)      JUGGLING, TYPE-4
+1F939 1F3FE   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤹🏾)      JUGGLING, TYPE-5
+1F939 1F3FF   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤹🏿)      JUGGLING, TYPE-6
+1F93B 1F3FB   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤻🏻)      MODERN PENTATHLON, TYPE-1-2
+1F93B 1F3FC   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤻🏼)      MODERN PENTATHLON, TYPE-3
+1F93B 1F3FD   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤻🏽)      MODERN PENTATHLON, TYPE-4
+1F93B 1F3FE   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤻🏾)      MODERN PENTATHLON, TYPE-5
+1F93B 1F3FF   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤻🏿)      MODERN PENTATHLON, TYPE-6
+1F93C 1F3FB   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤼🏻)      WRESTLERS, TYPE-1-2
+1F93C 1F3FC   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤼🏼)      WRESTLERS, TYPE-3
+1F93C 1F3FD   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤼🏽)      WRESTLERS, TYPE-4
+1F93C 1F3FE   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤼🏾)      WRESTLERS, TYPE-5
+1F93C 1F3FF   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤼🏿)      WRESTLERS, TYPE-6
+1F93D 1F3FB   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤽🏻)      WATER POLO, TYPE-1-2
+1F93D 1F3FC   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤽🏼)      WATER POLO, TYPE-3
+1F93D 1F3FD   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤽🏽)      WATER POLO, TYPE-4
+1F93D 1F3FE   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤽🏾)      WATER POLO, TYPE-5
+1F93D 1F3FF   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤽🏿)      WATER POLO, TYPE-6
+1F93E 1F3FB   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤾🏻)      HANDBALL, TYPE-1-2
+1F93E 1F3FC   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤾🏼)      HANDBALL, TYPE-3
+1F93E 1F3FD   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤾🏽)      HANDBALL, TYPE-4
+1F93E 1F3FE   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤾🏾)      HANDBALL, TYPE-5
+1F93E 1F3FF   ; Emoji_Modifier_Sequence   # 9.0  [1] (🤾🏿)      HANDBALL, TYPE-6
+
+# UnicodeSet: [{☝🏻}{☝🏼}{☝🏽}{☝🏾}{☝🏿}{⛹🏻}{⛹🏼}{⛹🏽}{⛹🏾}{⛹🏿}{✊🏻}{✊🏼}{✊🏽}{✊🏾}{✊🏿}{✋🏻}{✋🏼}{✋🏽}{✋🏾}{✋🏿}{✌🏻}{✌🏼}{✌🏽}{✌🏾}{✌🏿}{✍🏻}{✍🏼}{✍🏽}{✍🏾}{✍🏿}{🎅🏻}{🎅🏼}{🎅🏽}{🎅🏾}{🎅🏿}{🏃🏻}{🏃🏼}{🏃🏽}{🏃🏾}{🏃🏿}{🏄🏻}{🏄🏼}{🏄🏽}{🏄🏾}{🏄🏿}{🏊🏻}{🏊🏼}{🏊🏽}{🏊🏾}{🏊🏿}{🏋🏻}{🏋🏼}{🏋🏽}{🏋🏾}{🏋🏿}{👂🏻}{👂🏼}{👂🏽}{👂🏾}{👂🏿}{👃🏻}{👃🏼}{👃🏽}{👃🏾}{👃🏿}{👆🏻}{👆🏼}{👆🏽}{👆🏾}{👆🏿}{👇🏻}{👇🏼}{👇🏽}{👇🏾}{👇🏿}{👈🏻}{👈🏼}{👈🏽}{👈🏾}{👈🏿}{👉🏻}{👉🏼}{👉🏽}{👉🏾}{👉🏿}{👊🏻}{👊🏼}{👊🏽}{👊🏾}{👊🏿}{👋🏻}{👋🏼}{👋🏽}{👋🏾}{👋🏿}{👌🏻}{👌🏼}{👌🏽}{👌🏾}{👌🏿}{👍🏻}{👍🏼}{👍🏽}{👍🏾}{👍🏿}{👎🏻}{👎🏼}{👎🏽}{👎🏾}{👎🏿}{👏🏻}{👏🏼}{👏🏽}{👏🏾}{👏🏿}{👐🏻}{👐🏼}{👐🏽}{👐🏾}{👐🏿}{👦🏻}{👦🏼}{👦🏽}{👦🏾}{👦🏿}{👧🏻}{👧🏼}{👧🏽}{👧🏾}{👧🏿}{👨🏻}{👨🏼}{👨🏽}{👨🏾}{👨🏿}{👩🏻}{👩🏼}{👩🏽}{👩🏾}{👩🏿}{👮🏻}{👮🏼}{👮🏽}{👮🏾}{👮🏿}{👰🏻}{👰🏼}{👰🏽}{👰🏾}{👰🏿}{👱🏻}{👱🏼}{👱🏽}{👱🏾}{👱🏿}{👲🏻}{👲🏼}{👲🏽}{👲🏾}{👲🏿}{👳🏻}{👳🏼}{👳🏽}{👳🏾}{👳🏿}{👴🏻}{👴🏼}{👴🏽}{👴🏾}{👴🏿}{👵🏻}{👵🏼}{👵🏽}{👵🏾}{👵🏿}{👶🏻}{👶🏼}{👶🏽}{👶🏾}{👶🏿}{👷🏻}{👷🏼}{👷🏽}{👷🏾}{👷🏿}{👸🏻}{👸🏼}{👸🏽}{👸🏾}{👸🏿}{👼🏻}{👼🏼}{👼🏽}{👼🏾}{👼🏿}{💁🏻}{💁🏼}{💁🏽}{💁🏾}{💁🏿}{💂🏻}{💂🏼}{💂🏽}{💂🏾}{💂🏿}{💃🏻}{💃🏼}{💃🏽}{💃🏾}{💃🏿}{💅🏻}{💅🏼}{💅🏽}{💅🏾}{💅🏿}{💆🏻}{💆🏼}{💆🏽}{💆🏾}{💆🏿}{💇🏻}{💇🏼}{💇🏽}{💇🏾}{💇🏿}{💪🏻}{💪🏼}{💪🏽}{💪🏾}{💪🏿}{🕵🏻}{🕵🏼}{🕵🏽}{🕵🏾}{🕵🏿}{🕺🏻}{🕺🏼}{🕺🏽}{🕺🏾}{🕺🏿}{🖐🏻}{🖐🏼}{🖐🏽}{🖐🏾}{🖐🏿}{🖕🏻}{🖕🏼}{🖕🏽}{🖕🏾}{🖕🏿}{🖖🏻}{🖖🏼}{🖖🏽}{🖖🏾}{🖖🏿}{🙅🏻}{🙅🏼}{🙅🏽}{🙅🏾}{🙅🏿}{🙆🏻}{🙆🏼}{🙆🏽}{🙆🏾}{🙆🏿}{🙇🏻}{🙇🏼}{🙇🏽}{🙇🏾}{🙇🏿}{🙋🏻}{🙋🏼}{🙋🏽}{🙋🏾}{🙋🏿}{🙌🏻}{🙌🏼}{🙌🏽}{🙌🏾}{🙌🏿}{🙍🏻}{🙍🏼}{🙍🏽}{🙍🏾}{🙍🏿}{🙎🏻}{🙎🏼}{🙎🏽}{🙎🏾}{🙎🏿}{🙏🏻}{🙏🏼}{🙏🏽}{🙏🏾}{🙏🏿}{🚣🏻}{🚣🏼}{🚣🏽}{🚣🏾}{🚣🏿}{🚴🏻}{🚴🏼}{🚴🏽}{🚴🏾}{🚴🏿}{🚵🏻}{🚵🏼}{🚵🏽}{🚵🏾}{🚵🏿}{🚶🏻}{🚶🏼}{🚶🏽}{🚶🏾}{🚶🏿}{🛀🏻}{🛀🏼}{🛀🏽}{🛀🏾}{🛀🏿}{🤘🏻}{🤘🏼}{🤘🏽}{🤘🏾}{🤘🏿}{🤙🏻}{🤙🏼}{🤙🏽}{🤙🏾}{🤙🏿}{🤚🏻}{🤚🏼}{🤚🏽}{🤚🏾}{🤚🏿}{🤛🏻}{🤛🏼}{🤛🏽}{🤛🏾}{🤛🏿}{🤜🏻}{🤜🏼}{🤜🏽}{🤜🏾}{🤜🏿}{🤝🏻}{🤝🏼}{🤝🏽}{🤝🏾}{🤝🏿}{🤞🏻}{🤞🏼}{🤞🏽}{🤞🏾}{🤞🏿}{🤦🏻}{🤦🏼}{🤦🏽}{🤦🏾}{🤦🏿}{🤰🏻}{🤰🏼}{🤰🏽}{🤰🏾}{🤰🏿}{🤳🏻}{🤳🏼}{🤳🏽}{🤳🏾}{🤳🏿}{🤴🏻}{🤴🏼}{🤴🏽}{🤴🏾}{🤴🏿}{🤵🏻}{🤵🏼}{🤵🏽}{🤵🏾}{🤵🏿}{🤶🏻}{🤶🏼}{🤶🏽}{🤶🏾}{🤶🏿}{🤷🏻}{🤷🏼}{🤷🏽}{🤷🏾}{🤷🏿}{🤸🏻}{🤸🏼}{🤸🏽}{🤸🏾}{🤸🏿}{🤹🏻}{🤹🏼}{🤹🏽}{🤹🏾}{🤹🏿}{🤻🏻}{🤻🏼}{🤻🏽}{🤻🏾}{🤻🏿}{🤼🏻}{🤼🏼}{🤼🏽}{🤼🏾}{🤼🏿}{🤽🏻}{🤽🏼}{🤽🏽}{🤽🏾}{🤽🏿}{🤾🏻}{🤾🏼}{🤾🏽}{🤾🏾}{🤾🏿}]
+# Total elements: 420
+
+#EOF
