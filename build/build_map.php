@@ -261,13 +261,56 @@
 
 		echo '.';
 
-		
+		$cps = explode(' ', $fields[0]);
+		$last = $cps[count($cps)-1];
 
+		# skip skin tone variations - we treat those specially
+		if (in_array($last, $GLOBALS['skin_variation_suffixes'])) return;
+
+		$hex_low = StrToLower(implode('-', $cps));
+		if ($GLOBALS['out_unis'][$hex_low]) return;
+
+		echo "\nFound sequence not supported: $hex_low / {$comment}\n";
 	}
 
 	echo " DONE\n";
 
 
+	#
+	# check for duplicate short names
+	#
+
+	echo "Checking shortnames : ";
+
+	$uniq = array();
+
+	foreach ($out as $k => $row){
+
+		echo '.';
+
+		if ($row['unified']){
+			$k = 'U+'.$row['unified'];
+		}else{
+			$k = "UNKNOWN/$k";
+		}
+
+		if (count($row['short_names'])){
+
+			foreach ($row['short_names'] as $sn){
+
+				if ($uniq[$sn]){
+					echo "\nDuplicate shortname :{$sn}: for {$uniq[$sn]} and $k\n";
+				}else{
+					$uniq[$sn] = $k;
+				}
+			}
+
+		}else{
+			echo "\nCharacter with no shortname: $k\n";
+		}
+	}
+
+	echo " DONE\n";
 
 
 
