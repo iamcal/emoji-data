@@ -16,11 +16,24 @@
     "LICENSE",
     "README.md",
     "emoji.json",
-    "emoji_pretty.json"
+    "emoji_pretty.json",
+    "sheet_apple_16.png",
+    "sheet_apple_20.png",
+    "sheet_apple_32.png",
+    "sheet_apple_64.png",
+    "sheet_emojione_16.png",
+    "sheet_emojione_20.png",
+    "sheet_emojione_32.png",
+    "sheet_emojione_64.png",
+    "sheet_google_16.png",
+    "sheet_google_20.png",
+    "sheet_google_32.png",
+    "sheet_google_64.png",
+    "sheet_twitter_16.png",
+    "sheet_twitter_20.png",
+    "sheet_twitter_32.png",
+    "sheet_twitter_64.png"
   ],
-  "dependencies": {
-    "images": "https://github.com/iamcal/emoji-data/archive/v2.4.2.tar.gz"
-  },
   "bugs": {
     "url": "https://github.com/iamcal/emoji-data/issues"
   },
