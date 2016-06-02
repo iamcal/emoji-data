@@ -33,6 +33,24 @@
 
 
 	#
+	# load codepoint variations
+	# we do this before loading the `emoji_categories.json` so we can add
+	# any missing-FE0F variations
+	#
+
+	$raw = file('data_variations.txt');
+
+	$variations = array();
+	foreach ($raw as $line){
+		list($key, $vars) = explode(';', trim($line));
+		$variations[$key] = explode('/', $vars);
+	}
+
+	# manually patch in the ligature version of family/man-woman-boy
+	$variations['1f46a'][] = '1f468-200d-1f469-200d-1f466';
+
+
+	#
 	# load category data
 	#
 
@@ -52,6 +70,13 @@
 
 			if (preg_match('!-FE0F$!', $hex)){
 				$category_map[substr($hex, 0, -5)] = array($cat_name, $p);
+
+				$lc = StrToLower($hex);
+				$lc_base = StrToLower(substr($hex, 0, -5));
+
+				if (!is_array($variations[$lc_base]) || !in_array($lc, $variations[$lc_base])){
+					$variations[$lc_base][] = $lc;
+				}
 			}
 
 			$p++;
@@ -89,21 +114,6 @@
 		}
 	}
 
-
-	#
-	# load codepoint variations
-	#
-
-	$raw = file('data_variations.txt');
-
-	$variations = array();
-	foreach ($raw as $line){
-		list($key, $vars) = explode(';', trim($line));
-		$variations[$key] = explode('/', $vars);
-	}
-
-	# manually patch in the ligature version of family/man-woman-boy
-	$variations['1f46a'][] = '1f468-200d-1f469-200d-1f466';
 
 	echo "OK\n";
 
