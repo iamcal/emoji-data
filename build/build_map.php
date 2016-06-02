@@ -35,19 +35,19 @@
 	#
 	# load codepoint variations
 	# we do this before loading the `emoji_categories.json` so we can add
-	# any missing-FE0F variations
+	# all of the *-FE0F variations from OS X/iOS
 	#
 
 	$raw = file('data_variations.txt');
 
 	$variations = array();
 	foreach ($raw as $line){
+		if (substr($line, 0, 1) == '#') continue;
 		list($key, $vars) = explode(';', trim($line));
-		$variations[$key] = explode('/', $vars);
+		if (strlen($key)){
+			$variations[$key] = explode('/', $vars);
+		}
 	}
-
-	# manually patch in the ligature version of family/man-woman-boy
-	$variations['1f46a'][] = '1f468-200d-1f469-200d-1f466';
 
 
 	#
