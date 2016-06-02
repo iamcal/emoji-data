@@ -181,7 +181,7 @@
 23F9;black_square_for_stop
 23FA;black_circle_for_record
 2602;umbrella
-2603;showman
+2603;snowman
 2604;comet
 2618;shamrock
 2620;skull_and_crossbones

@@ -764,7 +764,7 @@
 26AB;black_circle
 26BD;soccer
 26BE;baseball
-26C4;snowman
+26C4;snowman_without_snow
 26C5;partly_sunny
 26CE;ophiuchus
 26D4;no_entry

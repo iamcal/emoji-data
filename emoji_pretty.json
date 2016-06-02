@@ -1156,9 +1156,9 @@
         "image": "2603.png",
         "sheet_x": 1,
         "sheet_y": 3,
-        "short_name": "showman",
+        "short_name": "snowman",
         "short_names": [
-            "showman"
+            "snowman"
         ],
         "text": null,
         "texts": null,
@@ -2587,9 +2587,9 @@
         "image": "26c4.png",
         "sheet_x": 2,
         "sheet_y": 20,
-        "short_name": "snowman",
+        "short_name": "snowman_without_snow",
         "short_names": [
-            "snowman"
+            "snowman_without_snow"
         ],
         "text": null,
         "texts": null,
