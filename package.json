@@ -1,6 +1,6 @@
 {
   "name": "emoji-data",
-  "version": "2.4.2",
+  "version": "2.4.3",
   "description": "Emoji data and images",
   "main": "emoji.json",
   "repository": {

@@ -33,6 +33,6 @@ directories under `build/`.
 
 1. Land new commits onto master
 2. Update `README.md` with version history
-3. Update `package.json` with new version number (in 2 places!)
+3. Update `package.json` with new version number (now in only 1 place)
 4. Add a git tag
 5. Update downstream libraries
