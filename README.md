@@ -103,3 +103,4 @@ An explanation of the various fields is in order:
 * 2016-04-20 : v2.4.1 - Fixed the duplicate :satellite: short names
 * 2016-05-12 : v2.4.2 - Changed :) to :slightly_smiling_face:, support for capitalized open_mouth emoticons, started processing the emoji 2.0 data files, added skin tones for U+1F575 (sluth/spy), fixed the duplicate :umbrella: short names, added U+23CF (eject symbol)
 * 2016-06-01 : v2.4.3 - Fixed shortnames for snowman (U+2603 & U+26C4), added missing -FE0F variants for OS X/iOS, changed how we package for NPM
+* ????-??-?? : v2.4.4 - Include categories for all codepoints, ...
