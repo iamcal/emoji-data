@@ -361,6 +361,9 @@
 				}
 			}
 		}
+		if (!is_array($category)){
+			echo "\nWARNING: no category for U+{$props['unified']} / :{$short}:\n";
+		}
 
 		$ret = array(
 			'name'		=> null,
