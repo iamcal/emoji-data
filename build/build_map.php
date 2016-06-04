@@ -263,8 +263,8 @@
 
 	echo "\nProcessing emoji-(zwj-)?sequences.txt : ";
 
-	parse_unicode_specfile('unicode/emoji-sequences.txt', 'check_sequence');	
-	parse_unicode_specfile('unicode/emoji-zwj-sequences.txt', 'check_sequence');	
+	parse_unicode_specfile('unicode/emoji-sequences.txt', 'check_sequence');
+	parse_unicode_specfile('unicode/emoji-zwj-sequences.txt', 'check_sequence');
 
 
 	function check_sequence($fields, $comment){
@@ -361,9 +361,6 @@
 				}
 			}
 		}
-		if (!is_array($category)){
-			echo "\nWARNING: no category for U+{$props['unified']} / :{$short}:\n";
-		}
 
 		$ret = array(
 			'name'		=> null,
@@ -418,6 +415,102 @@
 
 		return $ret;
 	}
+
+
+	#
+	# patch up category and sort order fields - build the current sort maps
+	#
+
+	$missing_categories = array();
+	$shortname_map = array();
+	$categories = array();
+
+	foreach ($out as $k => $row){
+		$shortname_map[$row['short_name']] = $k;
+		if ($row['category']){
+			$sort_key = sprintf('%05d', $row['sort_order']).'_'.$row['short_name'];
+			$categories[$row['category']][$sort_key] = $row['short_name'];
+		}else{
+			$missing_categories[$row['short_name']] = 1;
+		}
+	}
+	foreach ($categories as $k => $v){
+		ksort($v);
+		$categories[$k] = array_values($v);
+	}
+
+
+	#
+	# for known emoji, set them into the correct categories
+	#
+
+	category_append('skin-tone-2', 'Skin Tones');
+	category_append('skin-tone-3', 'Skin Tones');
+	category_append('skin-tone-4', 'Skin Tones');
+	category_append('skin-tone-5', 'Skin Tones');
+	category_append('skin-tone-6', 'Skin Tones');
+
+	category_insert_after('left_speech_bubble', 'speech_balloon');
+	category_insert_after('keycap_star', 'keycap_ten');
+	category_insert_after('eject', 'black_square_for_stop');
+
+	foreach (array_keys($missing_categories) as $k){
+		if (substr($k, 0, 5) == 'flag-'){
+			category_append($k, 'Flags');
+		}
+	}
+
+	function category_append($id, $cat){
+		global $categories, $missing_categories;
+
+		if (!$missing_categories[$id]) return;
+
+		$categories[$cat][] = $id;
+		unset($missing_categories[$id]);
+	}
+
+	function category_insert_after($id, $after){
+		global $categories, $missing_categories;
+
+		if (!$missing_categories[$id]) return;
+
+		foreach ($categories as $k => $emojis){
+			$out = array();
+			$found = false;
+			foreach ($emojis as $emoji){
+				$out[] = $emoji;
+				if ($emoji == $after){
+					$out[] = $id;
+					$found = true;
+				}
+			}
+			if ($found){
+				$categories[$k] = $out;
+				unset($missing_categories[$id]);
+			}
+		}
+	}
+
+	foreach (array_keys($missing_categories) as $k){
+
+		$row = $out[$shortname_map[$k]];
+
+		echo "\nWARNING: no category for U+{$row['unified']} / :{$row['short_name']}:\n";
+	}
+
+
+	#
+	# apply categories back into the output hash
+	#
+
+	foreach ($categories as $cat => $names){
+		foreach ($names as $p => $name){
+			$index = $shortname_map[$name];
+			$out[$index]['category'] = $cat;
+			$out[$index]['sort_order'] = $p+1;
+		}
+	}
+
 
 
 	#
