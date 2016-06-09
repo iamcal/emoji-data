@@ -35,3 +35,13 @@ Do all of this from your home dir:
     make install
     cd ..
     rm -rf optipng-0.7.6*
+
+    apt-get install libpng-dev
+    git clone git://github.com/pornel/pngquant.git
+    cd pngquant/
+    ./configure
+    make
+    make install
+    cd ..
+    rm -rf pngquant
+
