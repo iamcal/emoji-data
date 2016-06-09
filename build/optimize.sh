@@ -4,11 +4,25 @@
 STRIP=1
 LEVEL=5
 
+USE_PNGCRUSH=1
+USE_OPTIPNG=1
+USE_PNGOUT=0
+USE_ZOPFLI=1
+USE_ADVPNG=1
+
 TMP=$(mktemp -d /tmp/optimize-XXXXXXXX)
 if [ ! -d $TMP ]; then
 	echo "Failed to create temp dir"
 	exit 1
 fi
+
+if [ $LEVEL -lt 4 ] && [ $USE_ZOPFLI -eq 1 ]; then
+	USE_PNGOUT=0
+fi
+if [ $LEVEL -lt 2 ] && [ $USE_OPTIPNG -eq 1 ]; then
+	USE_PNGCRUSH=0
+fi
+
 
 check_file_size() {
 	FILE_IS_SMALL=0
@@ -98,7 +112,7 @@ zopfli() {
 	fi
 
 	#CMD="/usr/local/bin/zopflipng --timelimit=$TIMELIMIT"
-	#CMD="/usr/local/bin/zopflipng"
+	CMD="/usr/local/bin/zopflipng"
 	if [ $ITERATIONS -gt 0 ]; then
 		CMD="$CMD --iterations=$ITERATIONS"
 	fi
@@ -107,26 +121,35 @@ zopfli() {
 		CMD="$CMD --keepchunks=tEXt,zTXt,iTXt,gAMA,sRGB,iCCP,bKGD,pHYs,sBIT,tIME,oFFs,acTL,fcTL,fdAT,prVW,mkBF,mkTS,mkBS,mkBT"
 	fi
 
-	CMD="$CMD --lossy_transparent -y \"$IN\" \"$OUT\""
+	CMD="$CMD --lossy_transparent -y \"$IN\" \"$OUT\" > /dev/null"
 }
 
 
 
 show_size() {
-	SIZE=$(stat -c%s "$IN")
+	SIZE=$(stat -c%s "$OUT")
 	echo "  $LABEL $SIZE"
 }
 
 execute_step() {
-	rm -f "$OUT"
-	#echo " -- $CMD"
-	eval $CMD
-	LAST_STATUS=$?
-	if [ ! -f "$OUT" ]; then
+	if [ $FLAG -eq 1 ]; then
+
+		rm -f "$OUT"
+		#echo " -- $CMD"
+		#echo " -- $IN -> $OUT"
+		eval $CMD
+		LAST_STATUS=$?
+		if [ ! -f "$OUT" ]; then
+			#echo "no output found at $OUT, copying $IN";
+			cp "$IN" "$OUT"
+		fi
+		show_size
+		#echo "file at $OUT"
+	else
+		rm -f "$OUT"
 		cp "$IN" "$OUT"
+		#echo "  $LABEL (skip)"
 	fi
-	show_size
-	#echo "file at $OUT"
 }
 
 for f in $*
@@ -139,36 +162,41 @@ do
 	show_size
 
 	IN=$OUT
-	OUT="$tmp/step1.png"
+	OUT="$TMP/step1.png"
 	LABEL="pngcrush"
+	FLAG=$USE_PNGCRUSH
 	pngcrush
 	execute_step
 
 	IN=$OUT
-	OUT="$tmp/step2.png"
+	OUT="$TMP/step2.png"
 	LABEL="optipng "
+	FLAG=$USE_OPTIPNG
 	optipng
 	execute_step
 
 	IN=$OUT
-	OUT="$tmp/step3.png"
+	OUT="$TMP/step3.png"
 	LABEL="pngout  "
+	FLAG=$USE_PNGOUT
 	pngout
 	execute_step
 
 	IN=$OUT
-	OUT="$tmp/step4.png"
+	OUT="$TMP/step4.png"
 	LABEL="advpng  "
+	FLAG=$USE_ADVPNG
 	advpng
 	execute_step
 
 	IN=$OUT
-	OUT="$tmp/step5.png"
+	OUT="$TMP/step5.png"
 	LABEL="zopfli  "
+	FLAG=$USE_ZOPFLI
 	zopfli
 	execute_step
 
 	rm -f "$f"
-	cp "$tmp/step5.png" "$f"
-	rm -f "$tmp/step5.png"
+	cp "$TMP/step5.png" "$f"
+	rm -f "$TMP/step5.png"
 done
