@@ -1,46 +1,174 @@
 #!/bin/bash
 
+# parse some options!
+STRIP=1
+LEVEL=5
+
 TMP=$(mktemp -d /tmp/optimize-XXXXXXXX)
 if [ ! -d $TMP ]; then
 	echo "Failed to create temp dir"
 	exit 1
 fi
-TEMP1="$TMP/stage1.png"
-TEMP2="$TMP/stage2.png"
+
+check_file_size() {
+	FILE_IS_SMALL=0
+	FILE_IS_LARGE=0
+	SIZE=$(stat -c%s "$IN")
+	if [ $SIZE -gt "256000" ]; then
+		FILE_IS_LARGE=1
+	fi
+	if [ $SIZE -lt "2048" ]; then
+		FILE_IS_SMALL=1
+	fi
+}
+
+# the logic for how to apply each program comes from ImageOptim, specifically
+# the individual worker files. we use strip=yes and level=5 for most things.
+# https://github.com/ImageOptim/ImageOptim/tree/master/imageoptim/Workers
+
+pngcrush() {
+	check_file_size
+
+	CMD="pngcrush"
+	if [ $FILE_IS_SMALL -eq 1 ] || ( [ $LEVEL -ge 6 ] && [ $FILE_IS_LARGE -eq 0 ] ) ; then
+		CMD="$CMD -brute"
+	fi
+	if [ $STRIP -eq 1 ]; then
+		CMD="$CMD -rem alla"
+	fi
+	CMD="$CMD -nofilecheck -bail -blacken -reduce \"$IN\" \"$OUT\""
+}
+
+optipng() {
+	cp "$IN" "$OUT"
+	OPTI=$(expr $LEVEL + 1)
+	if [ $OPTI -gt 7 ]; then OPTI=7; fi
+	if [ $OPTI -lt 3 ]; then OPTI=3; fi
+	CMD="/usr/local/bin/optipng -o$OPTI -quiet \"$OUT\""
+}
+
+pngout() {
+	check_file_size
+
+	LVL=1
+	if [ $LEVEL -ge 4 ]; then LVL=0; fi
+	if [ $FILE_IS_LARGE -eq 1 ]; then
+		LVL=$(expr $LVL + 1)
+	fi
+
+	CMD="pngout-static"
+	if [ $STRIP -eq 0 ]; then
+		CMD="$CMD -k1"
+	fi
+	if [ $LVL -gt 0 ]; then
+		CMD="$CMD -s$LVL"
+	fi
+	CMD="$CMD -r -q \"$IN\" \"$OUT\""
+}
+
+advpng() {
+	LVL=$LEVEL
+	if [ $LVL -gt 4 ]; then LVL=4; fi
+	if [ $LVL -lt 1 ]; then LVL=1; fi
+
+	cp "$IN" "$OUT"
+	CMD="advpng -$LVL --recompress --quiet \"$OUT\""
+}
+
+zopfli() {
+	check_file_size
+
+	FILTERS="--filters=0pme"
+	ALTERNATIVE_STRAT=0
+	SIZE=$(stat -c%s "$IN")
+
+	LIMIT_MUL="0.8"
+	if [ $ALTERNATIVE_STRAT -eq 1 ]; then LIMIT_MUL="1.4"; fi
+	TIMELIMIT=$(php -r "echo round(min(8 + $LEVEL * 13, 10 + $SIZE / 2014) * $LIMIT_MUL);")
+
+	if [ $FILE_IS_LARGE -eq 1 ]; then
+		ITERATIONS=$(php -r "echo round(5 + (3 + 3 * $LEVEL) / 3);")
+		FILTERS="--filters=p"
+	else
+		ITERATIONS=$(php -r "echo (3 + 3 * $LEVEL);")
+	fi
+
+	if [ $ALTERNATIVE_STRAT -eq 1 ]; then
+		FILTERS="--filters=bp"
+	fi
+
+	#CMD="/usr/local/bin/zopflipng --timelimit=$TIMELIMIT"
+	#CMD="/usr/local/bin/zopflipng"
+	if [ $ITERATIONS -gt 0 ]; then
+		CMD="$CMD --iterations=$ITERATIONS"
+	fi
+	CMD="$CMD $FILTERS"
+	if [ $STRIP -eq 0 ]; then
+		CMD="$CMD --keepchunks=tEXt,zTXt,iTXt,gAMA,sRGB,iCCP,bKGD,pHYs,sBIT,tIME,oFFs,acTL,fcTL,fdAT,prVW,mkBF,mkTS,mkBS,mkBT"
+	fi
+
+	CMD="$CMD --lossy_transparent -y \"$IN\" \"$OUT\""
+}
+
+
+
+show_size() {
+	SIZE=$(stat -c%s "$IN")
+	echo "  $LABEL $SIZE"
+}
+
+execute_step() {
+	rm -f "$OUT"
+	#echo " -- $CMD"
+	eval $CMD
+	LAST_STATUS=$?
+	if [ ! -f "$OUT" ]; then
+		cp "$IN" "$OUT"
+	fi
+	show_size
+	#echo "file at $OUT"
+}
 
 for f in $*
 do
+	echo "$f"
 
-	rm -f "$TEMP1" "$TEMP2"
+	IN=$f
+	OUT=$f
+	LABEL="start   "
+	show_size
 
-	echo "Processing $f";
+	IN=$OUT
+	OUT="$tmp/step1.png"
+	LABEL="pngcrush"
+	pngcrush
+	execute_step
 
-	ORIG_SIZE=$(stat -c%s "$f")
-	echo "  start    $ORIG_SIZE"
+	IN=$OUT
+	OUT="$tmp/step2.png"
+	LABEL="optipng "
+	optipng
+	execute_step
 
-	pngcrush -brute -reduce -noforce -s $f $TEMP1
-	if [ ! -f $TEMP1 ]; then
-		cp $f $TEMP1
-	fi
-	SIZE2=$(stat -c%s "$TEMP1")
-	echo "  pngcrush $SIZE2"
+	IN=$OUT
+	OUT="$tmp/step3.png"
+	LABEL="pngout  "
+	pngout
+	execute_step
 
-	/usr/local/bin/optipng -o7 -zm1-9 -quiet $TEMP1
-	SIZE3=$(stat -c%s "$TEMP1")
-	echo "  optipng  $SIZE3"
+	IN=$OUT
+	OUT="$tmp/step4.png"
+	LABEL="advpng  "
+	advpng
+	execute_step
 
-	pngout-static -q $TEMP1 $TEMP2
-	SIZE4=$(stat -c%s $TEMP2)
-	echo "  pngout   $SIZE4"
-
-	advpng --recompress --shrink-insane --quiet $TEMP2
-	SIZE5=$(stat -c%s $TEMP2)
-	echo "  advpng   $SIZE5"
-
-	node ~/zopfli-png/zopfli-png.js --i1000 --silent $TEMP2
-	SIZE6=$(stat -c%s $TEMP2)
-	echo "  zopfli   $SIZE6"
+	IN=$OUT
+	OUT="$tmp/step5.png"
+	LABEL="zopfli  "
+	zopfli
+	execute_step
 
 	rm -f "$f"
-	cp $TEMP2 "$f"
+	cp "$tmp/step5.png" "$f"
+	rm -f "$tmp/step5.png"
 done
