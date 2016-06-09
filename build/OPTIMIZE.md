@@ -2,7 +2,6 @@
 
 Do all of this from your home dir:
 
-    apt-get install optipng
     apt-get install zopfli
 
     wget https://github.com/amadvance/advancecomp/releases/download/v1.20/advancecomp-1.20.tar.gz
@@ -27,3 +26,12 @@ Do all of this from your home dir:
     rm -rf pngout-20150319-linux-static*
 
     git clone https://github.com/subzey/zopfli-png.git
+
+    wget -Ooptipng-0.7.6.tar.gz "http://downloads.sourceforge.net/project/optipng/OptiPNG/optipng-0.7.6/optipng-0.7.6.tar.gz?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Foptipng%2Ffiles%2FOptiPNG%2Foptipng-0.7.6%2F&ts=1465493988&use_mirror=heanet"
+    tar xzf optipng-0.7.6.tar.gz
+    cd optipng-0.7.6
+    ./configure
+    make
+    make install
+    cd ..
+    rm -rf optipng-0.7.6*
