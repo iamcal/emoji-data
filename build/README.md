@@ -23,7 +23,12 @@ You can rebuild by following these steps:
 	# (This step requires ImageMagick or GraphicsMagick)
 	php build_image.php # this is slow!
 	php build_sheets.php
-	optipng -o7 ../sheet_*.png # this is _very_ slow
+
+	# create quantized sheets and optimize them all (_very_ slow)
+	./quant_sheets.sh
+	./optimize.sh ../sheet_*.png
+	./optimize.sh ../sheets-indexed-128/*.png
+	./optimize.sh ../sheets-indexed-256/*.png
 
 To find out how to extract the original source glyphs, look inside the sub
 directories under `build/`.
