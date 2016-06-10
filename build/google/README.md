@@ -9,10 +9,10 @@ Next you'll want to cut the 64px versions that are used in the sheets:
 
     php make64.php
 
-And finally optimize them. This requires OptiPNG to be installed (http://optipng.sourceforge.net/)
+And finally optimize them. This requires the optimizing tools in `build/README.md` to be installed
 and takes a very long time:
 
-    optipng -o7 ../../img-google-64/*
+    ../optimize.sh ../../img-google-64/*
 
 The resulting 64px images are then ready to use.
 
