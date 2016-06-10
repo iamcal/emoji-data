@@ -200,3 +200,5 @@ do
 	cp "$TMP/step5.png" "$f"
 	rm -f "$TMP/step5.png"
 done
+
+rm -rf "$TMP/"
