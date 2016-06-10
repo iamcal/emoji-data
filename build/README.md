@@ -26,7 +26,7 @@ You can rebuild by following these steps:
 
 	# create quantized sheets and optimize them all (_very_ slow)
 	./quant_sheets.sh
-	./optimize.sh ../sheet_*.png
+	./optimize.sh ../sheet_*.png (about 23 mins)
 	./optimize.sh ../sheets-indexed-128/*.png
 	./optimize.sh ../sheets-indexed-256/*.png
 
