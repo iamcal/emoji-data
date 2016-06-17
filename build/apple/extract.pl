@@ -11,7 +11,7 @@ use Font::TTF::Morx;
 $Font::TTF::Font::tables{'sbix'} = 'Font::TTF::Sbix';
 $Font::TTF::Font::tables{'morx'} = 'Font::TTF::Morx';
 
-my $filename = "apple_color_emoji_10_11_1.ttf";
+my $filename = "apple_color_emoji_10_11_5.ttf";
 
 my $f = Font::TTF::Font->open($filename) || die "Unable to read $filename : $!";
 
@@ -79,17 +79,17 @@ push @ligatures, [0x1f469, 0x200d, 0x2764, 0xfe0f, 0x200d, 0x1f469]; # w-heart-w
 # extended/ambiguous ligatures are still broken, so these are all manual.
 # when upgrading the TTF, blank these out before running this - values will have changed!
 
-$filenames->{'999'} = '1f468-200d-1f468-200d-1f466-200d-1f466.png'; # mmbb
-$filenames->{'1001'} = '1f468-200d-1f468-200d-1f467-200d-1f466.png'; # mmgb
-$filenames->{'1002'} = '1f468-200d-1f468-200d-1f467-200d-1f467.png'; # mmgg
+$filenames->{'994'} = '1f468-200d-1f468-200d-1f466-200d-1f466.png'; # mmbb
+$filenames->{'996'} = '1f468-200d-1f468-200d-1f467-200d-1f466.png'; # mmgb
+$filenames->{'997'} = '1f468-200d-1f468-200d-1f467-200d-1f467.png'; # mmgg
 
-$filenames->{'1003'} = '1f468-200d-1f469-200d-1f466-200d-1f466.png'; # mwbb
-$filenames->{'1005'} = '1f468-200d-1f469-200d-1f467-200d-1f466.png'; # mwgb
-$filenames->{'1006'} = '1f468-200d-1f469-200d-1f467-200d-1f467.png'; # mwgg
+$filenames->{'998'} = '1f468-200d-1f469-200d-1f466-200d-1f466.png'; # mwbb
+$filenames->{'1000'} = '1f468-200d-1f469-200d-1f467-200d-1f466.png'; # mwgb
+$filenames->{'1001'} = '1f468-200d-1f469-200d-1f467-200d-1f467.png'; # mwgg
 
-$filenames->{'1008'} = '1f469-200d-1f469-200d-1f466-200d-1f466.png'; # wwbb
-$filenames->{'1010'} = '1f469-200d-1f469-200d-1f467-200d-1f466.png'; # wwgb
-$filenames->{'1011'} = '1f469-200d-1f469-200d-1f467-200d-1f467.png'; # wwgg
+$filenames->{'1003'} = '1f469-200d-1f469-200d-1f466-200d-1f466.png'; # wwbb
+$filenames->{'1005'} = '1f469-200d-1f469-200d-1f467-200d-1f466.png'; # wwgb
+$filenames->{'1006'} = '1f469-200d-1f469-200d-1f467-200d-1f467.png'; # wwgg
 
 
 #
@@ -106,7 +106,6 @@ my @skin_ids = (
 	0x1f385, # father christmas
 	0x1f3c3, # runner
 	0x1f3c4, # surfer
-	0x1f3c7, # horse racing
 	0x1f3ca, # swimmer
 	0x1f442, # ear
 	0x1f443, # nose
@@ -166,6 +165,12 @@ my @skin_ids = (
 	0x1f590, # raised-hand-with-fingers-splayed
 	0x1f595, # reversed-hand-with-middle-finger-extended
 	0x1f918, # sign-of-the-horns
+
+	# added in OS X 10.11.5
+	0x1f575, # sluth or spy
+
+	# skin colors removed in OS X 10.11.5
+	#0x1f3c7, # horse racing
 );
 
 for my $cp(@skin_ids){
