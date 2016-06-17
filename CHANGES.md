@@ -1,6 +1,6 @@
 # Change Log
 
-## ????-??-?? : v2.4.4
+## 2016-06-17 : v2.4.4
 
 * Include categories for all codepoints
 * Added bower.json
