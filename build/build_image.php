@@ -20,7 +20,7 @@
 		$max = max($max, $row['sheet_x']);
 		$max = max($max, $row['sheet_y']);
 
-		if (count($row['skin_variations'])){
+		if (isset($row['skin_variations'])){
 			foreach ($row['skin_variations'] as $row2){
 
 				$max = max($max, $row2['sheet_x']);
@@ -123,7 +123,7 @@
 			# skin variations?
 			#
 
-			if (count($row['skin_variations'])){
+			if (isset($row['skin_variations'])){
 				foreach ($row['skin_variations'] as $row2){
 
 					$vari_img = $row2["has_img_{$type}"];
