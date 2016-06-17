@@ -2,6 +2,10 @@
 
 Get a copy of the TTF file from a mac - `/System/Library/Fonts/Apple Color Emoji.ttf`.
 
+You may need to install a Perl module first:
+
+    perl -MCPAN -e"install Font::TTF"
+
 Then run the extractor script:
 
     perl extract.pl
