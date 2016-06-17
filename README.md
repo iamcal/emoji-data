@@ -93,14 +93,4 @@ An explanation of the various fields is in order:
 
 ## Version history
 
-* 2015-05-28 : v2.0.0 - First tagged version, tracking new iOS 8 skin-tone emoji
-* 2015-09-16 : v2.1.0 - Updated to OS X 10.11 beta, added new flags and spock emoji
-* 2015-10-22 : v2.2.0 - Updated to OS X 10.11.1 final, with lots of new emoji
-* 2015-11-04 : v2.2.1 - Fixed :scorpion: name and removed the duplicate family emoji
-* 2015-11-05 : v2.2.2 - Fixed :lightning: names and added :man-woman-boy: back as an alias
-* 2015-12-11 : v2.3.0 - Updated Google images to Android 6.0.1, Twitter images to include skin tones
-* 2016-02-09 : v2.4.0 - Updated emojione images to the Q1 2016 release (v2.1.0)
-* 2016-04-20 : v2.4.1 - Fixed the duplicate :satellite: short names
-* 2016-05-12 : v2.4.2 - Changed :) to :slightly_smiling_face:, support for capitalized open_mouth emoticons, started processing the emoji 2.0 data files, added skin tones for U+1F575 (sluth/spy), fixed the duplicate :umbrella: short names, added U+23CF (eject symbol)
-* 2016-06-01 : v2.4.3 - Fixed shortnames for snowman (U+2603 & U+26C4), added missing -FE0F variants for OS X/iOS, changed how we package for NPM
-* ????-??-?? : v2.4.4 - Include categories for all codepoints, added bower.json, optimize all images using multiple tools, added indexed color sheets, ...
+See [CHANGES.md](CHANGES.md)
