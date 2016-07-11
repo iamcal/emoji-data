@@ -40,7 +40,8 @@ directories under `build/`.
 2. Update `README.md` with version history
 3. Update `package.json` with new version number (now in only 1 place)
 4. Add a git tag
-5. Update downstream libraries
+5. `npm publish`
+6. Update downstream libraries
 
 
 ## Install the optimization tools
