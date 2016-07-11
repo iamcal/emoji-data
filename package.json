@@ -1,5 +1,5 @@
 {
-  "name": "emoji-data",
+  "name": "emoji-datasource",
   "version": "2.4.4",
   "description": "Emoji data and images",
   "main": "emoji.json",
