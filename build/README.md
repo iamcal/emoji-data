@@ -21,7 +21,7 @@ You can rebuild by following these steps:
 
 	# Rebuild positions and make the master spritesheets
 	# (This step requires ImageMagick or GraphicsMagick)
-	php build_image.php # this is slow!
+	php build_image.php
 	php build_sheets.php
 
 	# create quantized sheets and optimize them all (_very_ slow)
