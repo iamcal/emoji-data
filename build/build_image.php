@@ -1,11 +1,9 @@
 <?php
-	$dir = dirname(__FILE__);
-
 	#
 	# load master catalog
 	#
 
-	$in = file_get_contents('../emoji.json');
+	$in = file_get_contents(__DIR__.'/../emoji.json');
 	$catalog = json_decode($in, true);
 
 
@@ -29,6 +27,8 @@
 		}
 	}
 
+	$size = $max + 1;
+
 
 	#
 	# bake sheets
@@ -46,7 +46,7 @@
 
 		echo "Creating $type : \n";
 
-		global $catalog, $max;
+		global $catalog, $size;
 
 
 		#
@@ -65,10 +65,11 @@
 		# first, build out the compositing list
 		#
 
-		$comp = array();
+		$comp = array_fill(0, $size*$size, null);
 
 		foreach ($catalog as $row){
 
+			$index = $size*$row['sheet_y'] + $row['sheet_x'];
 
 			#
 			# do we have the image in this set?
@@ -84,8 +85,7 @@
 
 				if ($row["has_img_{$type}"]){
 
-					$main_img = "img-{$type}-64/{$row['image']}";
-					$comp[] = array($row['sheet_x'], $row['sheet_y'], $main_img);
+					$comp[$index] = "img-{$type}-64/{$row['image']}";
 					break;
 				}
 
@@ -101,8 +101,7 @@
 
 					if ($row["has_img_{$try_type}"]){
 
-						$main_img = "img-{$try_type}-64/{$row['image']}";
-						$comp[] = array($row['sheet_x'], $row['sheet_y'], $main_img);
+						$comp[$index] = "img-{$try_type}-64/{$row['image']}";
 						break 2;
 					}
 				}
@@ -112,8 +111,7 @@
 				# it's missing - try the fallback (2753)
 				#
 
-				$main_img = $replacement;
-				$comp[] = array($row['sheet_x'], $row['sheet_y'], $main_img);
+				$comp[$index] = $replacement;
 				echo "Unable to find any images for U+{$row['unified']}\n";
 				break;
 			}
@@ -126,6 +124,7 @@
 			if (isset($row['skin_variations'])){
 				foreach ($row['skin_variations'] as $row2){
 
+					$index = $size*$row2['sheet_y'] + $row2['sheet_x'];
 					$vari_img = $row2["has_img_{$type}"];
 
 					# uncomment this line if you want each variations position to
@@ -135,92 +134,51 @@
 
 					if ($vari_img){
 
-						$comp[] = array($row2['sheet_x'], $row2['sheet_y'], "img-{$type}-64/{$row2['image']}");
+						$comp[$index] = "img-{$type}-64/{$row2['image']}";
 					}
 				}
 			}
 
 		}
 
+		$geom = escapeshellarg("{$img_w}x{$img_w}");
+		$tile = escapeshellarg("{$size}x{$size}");
+		$dst = escapeshellarg("sheet_{$type}_{$img_w}.png");
+		$cmd = "montage @- -geometry {$geom} -tile {$tile} -background none png32:{$dst}";
 
-		#
-		# next, build the strips one by one. we do this instead of doing it all
-		# in one go so that we canm load/save the intermediate image much faster.
-		#
+		# Read filenames on stdin
+		$fd_spec = array(
+			0 => array("pipe", "r")
+		);
 
-		$mp = $max + 1;
+		$pipes = array();
 
-		$pw = $mp * $img_w;
-		$ph = $mp * $img_w;
+		# chdir into parent directory first
+		$cwd = __DIR__.'/..';
 
-		for ($i=0; $i<$mp; $i++){
-			$ip = $i + 1;
-			echo "col $ip/$mp : ";
+		$res = proc_open($cmd, $fd_spec, $pipes, $cwd);
 
-			$dst = $GLOBALS['dir']."/../sheet_{$type}_{$img_w}_col{$i}.png";
-
-			echo shell_exec("convert -size {$img_w}x{$ph} xc:none {$dst}");
-
-			foreach ($comp as $row){
-				if ($row[0] != $i) continue;
-
-				$px = 0;
-				$py = $row[1] * $img_w;
-
-				$path = $GLOBALS['dir'].'/../'.$row[2];
-				if (file_exists($path)){
-
-					echo shell_exec("composite -geometry +{$px}+{$py} {$path} {$dst} {$dst}");
-					echo '.';
-				}else{
-					echo "(not found: $src)";
-				}		
+		# Write out each filename
+		foreach ($comp as $index => $file){
+			if ($file !== null){
+				fwrite($pipes[0], "{$file}\n");
+				echo '.';
+			}else{
+				fwrite($pipes[0], "null:\n");
+				echo ' ';
 			}
 
-			echo " OK\n";
+			if ($index % $size == $size - 1){
+				echo "\n";
+			}
 		}
 
+		fclose($pipes[0]);
 
-		#
-		# merge the strips
-		#
-
-		echo "merging ... ";
-
-		$dst = $GLOBALS['dir']."/../sheet_{$type}_{$img_w}.png";
-
-		echo shell_exec("convert -size {$pw}x{$ph} xc:none {$dst}");
-
-		for ($i=0; $i<$mp; $i++){
-			$src = $GLOBALS['dir']."/../sheet_{$type}_{$img_w}_col{$i}.png";
-
-			$px = $i * $img_w;
-			$py = 0;
-
-			echo shell_exec("composite -geometry +{$px}+{$py} {$src} {$dst} {$dst}");
-			echo '.';
-
-			unlink($src);
+		if (proc_close($res) > 0) {
+			echo "Something went wrong\n\n";
+			return;
 		}
 
-		echo " OK\n";
-
-		echo "Optimizing sheet   ... ";
-		echo shell_exec("convert {$dst} png32:{$dst}");
 		echo "DONE\n\n";
-	}
-
-	function composite($sheet_x, $sheet_y, $img_w, $src, $dst){
-
-		$px = $sheet_x * $img_w;
-		$py = $sheet_y * $img_w;
-
-		$path = $GLOBALS['dir'].'/../'.$src;
-		if (file_exists($path)){
-
-			echo shell_exec("composite -geometry +{$px}+{$py} {$path} {$dst} {$dst}");
-			echo '.';
-		}else{
-			echo "(not found: $src)";
-		}
 	}
