@@ -1,5 +1,10 @@
 # Change Log
 
+## ????-??-?? : v2.4.5?
+
+* Vastly sped up image building https://github.com/iamcal/emoji-data/pull/60
+
+
 ## 2016-06-17 : v2.4.4
 
 * Include categories for all codepoints

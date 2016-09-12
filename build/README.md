@@ -20,7 +20,9 @@ You can rebuild by following these steps:
 	php build_table.php > ../table.htm
 
 	# Rebuild positions and make the master spritesheets
-	# (This step requires ImageMagick or GraphicsMagick)
+	# This step requires ImageMagick or GraphicsMagick. Versions of ImageMagick
+	# before 6.7 will build the images in an incorrect order, so make sure to
+	# update!
 	php build_image.php
 	php build_sheets.php
 
@@ -37,7 +39,7 @@ directories under `build/`.
 ## Cutting a new release
 
 1. Land new commits onto master
-2. Update `README.md` with version history
+2. Update `CHANGES.md` with version history
 3. Update `package.json` with new version number (now in only 1 place)
 4. Add a git tag
 5. `npm publish`
