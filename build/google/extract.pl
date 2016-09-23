@@ -11,7 +11,7 @@ use Font::TTF::CBDT;
 $Font::TTF::Font::tables{'CBLC'} = 'Font::TTF::CBLC';
 $Font::TTF::Font::tables{'CBDT'} = 'Font::TTF::CBDT';
 
-my $filename = "NotoColorEmoji_6.0.1_r3.ttf";
+my $filename = "NotoColorEmoji_nougat.ttf";
 
 my $f = Font::TTF::Font->open($filename) || die "Unable to read $filename";
 
