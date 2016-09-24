@@ -10,7 +10,7 @@ noto_emoji='build/google/noto-emoji'
 
 # Build noto-emoji
 cd "$noto_emoji"
-make -j -- compressed
+make -j "$(nproc)" compressed
 cd -
 
 src="$noto_emoji"'/build/compressed_pngs'
