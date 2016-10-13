@@ -21,6 +21,7 @@ available versions. If you're looking for older versions of Apple of Android ima
 * https://github.com/mroth/exmoji - Elixir/Erlang emoji library
 * https://github.com/needim/wdt-emoji-bundle - a Slack-style JavaScript emoji picker
 * https://github.com/mroth/emojistatic - emoji image CDN
+* https://github.com/juanfran/emoji-data-css - emoji css files
 
 ## Using the data
 
