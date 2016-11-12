@@ -1,8 +1,9 @@
 # Change Log
 
-## ????-??-?? : v2.4.5?
+## 2016-11-11 : v2.4.5
 
 * Vastly sped up image building https://github.com/iamcal/emoji-data/pull/60
+* Updated to Android Nougat images https://github.com/iamcal/emoji-data/pull/68
 
 
 ## 2016-06-17 : v2.4.4
