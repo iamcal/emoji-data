@@ -15,8 +15,8 @@ c:	smile
 :'(	cry
 =)	smiley
 =-)	smiley
-:*	kiss
-:-*	kiss
+:*	kissing_heart
+:-*	kissing_heart
 :>	laughing
 :->	laughing
 8)	sunglasses
