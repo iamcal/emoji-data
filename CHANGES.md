@@ -1,5 +1,9 @@
 # Change Log
 
+## 2017-??-?? : v2.?
+
+* Made the kissing emoticons (e.g. :*) result in `kissing_heart` instead of `kiss` https://github.com/iamcal/emoji-data/pull/73
+
 ## 2016-11-11 : v2.4.5
 
 * Vastly sped up image building https://github.com/iamcal/emoji-data/pull/60
