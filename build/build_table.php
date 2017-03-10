@@ -2,7 +2,6 @@
 	$in = file_get_contents('../emoji.json');
 	$catalog = json_decode($in, true);
 
-
 	function format_codepoints($raw){
 
 		if (!$raw) return '-';
@@ -54,19 +53,18 @@
 ?>
 <html>
 <head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta charset="UTF-8" />
 <title>Emoji Catalog</title>
 <link rel="stylesheet" type="text/css" media="all" href="emoji.css" />
 <style type="text/css">
 
 body {
     font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 table {
-    -webkit-border-radius: 0.41em;
-    -moz-border-radius: 0.41em;
+    border-radius: 0.41em;
     border: 1px solid #999;
     font-size: 12px;
 }
@@ -101,7 +99,7 @@ table tbody td {
 
 <table cellspacing="0" cellpadding="0">
 	<tr>
-		<th colspan="6">Name</th>
+		<th colspan="7">Name</th>
 		<th>Short Name</th>
 		<th>ASCII</th>
 		<th>Unified</th>
@@ -121,12 +119,14 @@ table tbody td {
 		$url_google   = $row['has_img_google'  ] ? "img-google-64/{$row['image']}"   : '';
 		$url_twitter  = $row['has_img_twitter' ] ? "img-twitter-64/{$row['image']}"  : '';
 		$url_emojione = $row['has_img_emojione'] ? "img-emojione-64/{$row['image']}" : '';
+		$url_facebook = $row['has_img_facebook'] ? "img-facebook-64/{$row['image']}" : '';
 
 		echo "\t<tr>\n";
 		echo "\t\t<td><img src=\"{$url_apple}\" width=\"20\" height=\"20\" /></td>\n";
 		echo "\t\t<td><img src=\"{$url_google}\" width=\"20\" height=\"20\" /></td>\n";
 		echo "\t\t<td><img src=\"{$url_twitter}\" width=\"20\" height=\"20\" /></td>\n";
 		echo "\t\t<td><img src=\"{$url_emojione}\" width=\"20\" height=\"20\" /></td>\n";
+		echo "\t\t<td><img src=\"{$url_facebook}\" width=\"20\" height=\"20\" /></td>\n";
 		echo "\t\t<td>".unicode_bytes($row['unified'])."</td>\n";
 		echo "\t\t<td>".HtmlSpecialChars(StrToLower($row['name']))."</td>\n";
 
