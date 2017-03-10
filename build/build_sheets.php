@@ -1,21 +1,14 @@
 <?php
 	$dir = dirname(__FILE__).'/..';
 
-	build_sheet('apple', 32);
-	build_sheet('apple', 20);
-	build_sheet('apple', 16);
+	$sets = array('apple', 'twitter', 'google', 'emojione', 'facebook');
+	$sizes = array(16, 20, 32);
 
-	build_sheet('twitter', 32);
-	build_sheet('twitter', 20);
-	build_sheet('twitter', 16);
-
-	build_sheet('google', 32);
-	build_sheet('google', 20);
-	build_sheet('google', 16);
-
-	build_sheet('emojione', 32);
-	build_sheet('emojione', 20);
-	build_sheet('emojione', 16);
+	foreach ($sets as $set) {
+		foreach ($sizes as $size) {
+			build_sheet($set, $size);
+		}
+	}
 
 	function build_sheet($type, $size){
 
