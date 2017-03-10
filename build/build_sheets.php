@@ -1,7 +1,7 @@
 <?php
 	$dir = dirname(__FILE__).'/..';
 
-	$sets = array('apple', 'twitter', 'google', 'emojione', 'facebook');
+	$sets = array('apple', 'twitter', 'google', 'emojione', 'facebook', 'messenger');
 	$sizes = array(16, 20, 32);
 
 	foreach ($sets as $set) {

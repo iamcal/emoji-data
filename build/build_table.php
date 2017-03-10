@@ -99,7 +99,7 @@ table tbody td {
 
 <table cellspacing="0" cellpadding="0">
 	<tr>
-		<th colspan="7">Name</th>
+		<th colspan="8">Name</th>
 		<th>Short Name</th>
 		<th>ASCII</th>
 		<th>Unified</th>
@@ -115,11 +115,12 @@ table tbody td {
 <?php
 	foreach ($catalog as $row){
 
-		$url_apple    = $row['has_img_apple'   ] ? "img-apple-64/{$row['image']}"    : '';
-		$url_google   = $row['has_img_google'  ] ? "img-google-64/{$row['image']}"   : '';
-		$url_twitter  = $row['has_img_twitter' ] ? "img-twitter-64/{$row['image']}"  : '';
-		$url_emojione = $row['has_img_emojione'] ? "img-emojione-64/{$row['image']}" : '';
-		$url_facebook = $row['has_img_facebook'] ? "img-facebook-64/{$row['image']}" : '';
+		$url_apple     = $row['has_img_apple'    ] ? "img-apple-64/{$row['image']}"     : '';
+		$url_google    = $row['has_img_google'   ] ? "img-google-64/{$row['image']}"    : '';
+		$url_twitter   = $row['has_img_twitter'  ] ? "img-twitter-64/{$row['image']}"   : '';
+		$url_emojione  = $row['has_img_emojione' ] ? "img-emojione-64/{$row['image']}"  : '';
+		$url_facebook  = $row['has_img_facebook' ] ? "img-facebook-64/{$row['image']}"  : '';
+		$url_messenger = $row['has_img_messenger'] ? "img-messenger-64/{$row['image']}" : '';
 
 		echo "\t<tr>\n";
 		echo "\t\t<td><img src=\"{$url_apple}\" width=\"20\" height=\"20\" /></td>\n";
@@ -127,6 +128,7 @@ table tbody td {
 		echo "\t\t<td><img src=\"{$url_twitter}\" width=\"20\" height=\"20\" /></td>\n";
 		echo "\t\t<td><img src=\"{$url_emojione}\" width=\"20\" height=\"20\" /></td>\n";
 		echo "\t\t<td><img src=\"{$url_facebook}\" width=\"20\" height=\"20\" /></td>\n";
+		echo "\t\t<td><img src=\"{$url_messenger}\" width=\"20\" height=\"20\" /></td>\n";
 		echo "\t\t<td>".unicode_bytes($row['unified'])."</td>\n";
 		echo "\t\t<td>".HtmlSpecialChars(StrToLower($row['name']))."</td>\n";
 

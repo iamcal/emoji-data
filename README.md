@@ -56,6 +56,7 @@ look like this:
 			"has_img_twitter": true,
 			"has_img_emojione": false,
 			"has_img_facebook": false,
+			"has_img_messenger": false,
 			"skin_variations": {
 				"261D-1F3FB": {
 					"unified": "261D-1F3FB",
@@ -67,6 +68,7 @@ look like this:
 					"has_img_twitter": false,
 					"has_img_emojione": false
 					"has_img_facebook": false
+					"has_img_messenger": false
 				},
 				...
 			}
