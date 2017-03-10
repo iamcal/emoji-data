@@ -385,6 +385,8 @@
 		$ret['has_img_google']		= file_exists("{$GLOBALS['dir']}/../img-google-64/{$ret['image']}");
 		$ret['has_img_twitter']		= file_exists("{$GLOBALS['dir']}/../img-twitter-64/{$ret['image']}");
 		$ret['has_img_emojione']	= file_exists("{$GLOBALS['dir']}/../img-emojione-64/{$ret['image']}");
+		$ret['has_img_facebook']	= file_exists("{$GLOBALS['dir']}/../img-facebook-64/{$ret['image']}");
+		$ret['has_img_messenger']	= file_exists("{$GLOBALS['dir']}/../img-messenger-64/{$ret['image']}");
 
 		foreach ($props as $k => $v) $ret[$k] = $v;
 
@@ -406,6 +408,8 @@
 					'has_img_google'	=> file_exists("{$GLOBALS['dir']}/../img-google-64/{$var_img}"),
 					'has_img_twitter'	=> file_exists("{$GLOBALS['dir']}/../img-twitter-64/{$var_img}"),
 					'has_img_emojione'	=> file_exists("{$GLOBALS['dir']}/../img-emojione-64/{$var_img}"),
+					'has_img_facebook'	=> file_exists("{$GLOBALS['dir']}/../img-facebook-64/{$var_img}"),
+					'has_img_messenger'	=> file_exists("{$GLOBALS['dir']}/../img-messenger-64/{$var_img}"),
 				);
 
 				$ret['skin_variations'][$var_uni] = $variation;

@@ -38,6 +38,8 @@
 	create_sheet('twitter');
 	create_sheet('google');
 	create_sheet('emojione');
+	create_sheet('facebook');
+	create_sheet('messenger');
 
 
 	function create_sheet($type){

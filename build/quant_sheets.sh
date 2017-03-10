@@ -32,7 +32,7 @@ quant_sheet() {
 	fi
 }
 
-for type in apple google twitter emojione facebook; do
+for type in apple google twitter emojione facebook messenger; do
 	for size in 16 20 32 64; do
 		for colors in 128 256; do
 			echo "Quantizing ${type}_${size} to ${colors} colors"
