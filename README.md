@@ -8,7 +8,7 @@ available versions. If you're looking for older versions of Apple of Android ima
 (such as the Hairy Heart) then you'll need to look at previous revisions.
 
 * Apple Emoji: Copyright &copy; Apple Inc. - OS X 10.11.1
-* Android Emoji: Copyright &copy; [The Android Open Source Project](https://s3-eu-west-1.amazonaws.com/tw-font/android/NOTICE) - Lollipop
+* Android Emoji: Copyright &copy; [The Android Open Source Project](https://s3-eu-west-1.amazonaws.com/tw-font/android/NOTICE) - Nougat
 * Twitter Emoji: Copyright &copy; Twitter, Inc. - The original release
 * Emoji One Emoji: Copyright &copy; [Ranks.com Inc.](http://www.emojione.com/developers) - master as of 2015-03-05
 * Facebook Emoji: Copyright &copy; Facebook, Inc. - v7
