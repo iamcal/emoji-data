@@ -14,5 +14,6 @@ And finally optimize them. This requires the optimizing tools in `build/README.m
 and takes a very long time:
 
     ../optimize.sh ../../img-facebook-64/*
+    ../optimize.sh ../../img-messenger-64/*
 
 The resulting 64px images are then ready to use.
