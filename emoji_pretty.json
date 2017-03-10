@@ -557,7 +557,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "BLACK UP-POINTING DOUBLE TRIANGLE",
@@ -585,7 +585,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "BLACK DOWN-POINTING DOUBLE TRIANGLE",
@@ -613,7 +613,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "BLACK RIGHT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR",
@@ -1478,7 +1478,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "261D-1F3FD": {
                 "unified": "261D-1F3FD",
@@ -1502,7 +1502,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "261D-1F3FF": {
                 "unified": "261D-1F3FF",
@@ -1852,7 +1852,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "GEMINI",
@@ -3540,7 +3540,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "RAISED FIST",
@@ -3592,7 +3592,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "270A-1F3FD": {
                 "unified": "270A-1F3FD",
@@ -3616,7 +3616,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "270A-1F3FF": {
                 "unified": "270A-1F3FF",
@@ -4520,7 +4520,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "BLACK RIGHTWARDS ARROW",
@@ -4548,7 +4548,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "CURLY LOOP",
@@ -4632,7 +4632,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS",
@@ -5164,7 +5164,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "SQUARED CL",
@@ -5416,7 +5416,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "SQUARED VS",
@@ -5640,7 +5640,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "SQUARED CJK UNIFIED IDEOGRAPH-6E80",
@@ -5752,7 +5752,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "SQUARED CJK UNIFIED IDEOGRAPH-5272",
@@ -5808,7 +5808,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "CIRCLED IDEOGRAPH ADVANTAGE",
@@ -6565,7 +6565,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "CRESCENT MOON",
@@ -9590,7 +9590,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F385-1F3FD": {
                 "unified": "1F385-1F3FD",
@@ -9614,7 +9614,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F385-1F3FF": {
                 "unified": "1F385-1F3FF",
@@ -9936,7 +9936,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "MOON VIEWING CEREMONY",
@@ -11249,7 +11249,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F3C3-1F3FD": {
                 "unified": "1F3C3-1F3FD",
@@ -11261,7 +11261,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F3C3-1F3FE": {
                 "unified": "1F3C3-1F3FE",
@@ -11285,7 +11285,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             }
         }
     },
@@ -11327,7 +11327,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F3C4-1F3FC": {
                 "unified": "1F3C4-1F3FC",
@@ -11557,7 +11557,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F3CA-1F3FC": {
                 "unified": "1F3CA-1F3FC",
@@ -11581,7 +11581,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F3CA-1F3FE": {
                 "unified": "1F3CA-1F3FE",
@@ -11593,7 +11593,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F3CA-1F3FF": {
                 "unified": "1F3CA-1F3FF",
@@ -12649,7 +12649,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "IZAKAYA LANTERN",
@@ -14999,7 +14999,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F442-1F3FF": {
                 "unified": "1F442-1F3FF",
@@ -15223,7 +15223,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F446-1F3FE": {
                 "unified": "1F446-1F3FE",
@@ -15235,7 +15235,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F446-1F3FF": {
                 "unified": "1F446-1F3FF",
@@ -15313,7 +15313,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F447-1F3FE": {
                 "unified": "1F447-1F3FE",
@@ -15391,7 +15391,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F448-1F3FD": {
                 "unified": "1F448-1F3FD",
@@ -15403,7 +15403,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F448-1F3FE": {
                 "unified": "1F448-1F3FE",
@@ -15493,7 +15493,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F449-1F3FE": {
                 "unified": "1F449-1F3FE",
@@ -15505,7 +15505,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F449-1F3FF": {
                 "unified": "1F449-1F3FF",
@@ -16138,7 +16138,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F450-1F3FF": {
                 "unified": "1F450-1F3FF",
@@ -16782,7 +16782,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F466-1F3FC": {
                 "unified": "1F466-1F3FC",
@@ -16806,7 +16806,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F466-1F3FE": {
                 "unified": "1F466-1F3FE",
@@ -16818,7 +16818,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F466-1F3FF": {
                 "unified": "1F466-1F3FF",
@@ -16884,7 +16884,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F467-1F3FD": {
                 "unified": "1F467-1F3FD",
@@ -16908,7 +16908,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F467-1F3FF": {
                 "unified": "1F467-1F3FF",
@@ -16986,7 +16986,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F468-1F3FE": {
                 "unified": "1F468-1F3FE",
@@ -17088,7 +17088,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F469-1F3FF": {
                 "unified": "1F469-1F3FF",
@@ -17100,7 +17100,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             }
         }
     },
@@ -17268,7 +17268,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F46E-1F3FD": {
                 "unified": "1F46E-1F3FD",
@@ -17422,7 +17422,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             }
         }
     },
@@ -17464,7 +17464,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F471-1F3FC": {
                 "unified": "1F471-1F3FC",
@@ -17554,7 +17554,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F472-1F3FC": {
                 "unified": "1F472-1F3FC",
@@ -17656,7 +17656,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F473-1F3FD": {
                 "unified": "1F473-1F3FD",
@@ -17668,7 +17668,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F473-1F3FE": {
                 "unified": "1F473-1F3FE",
@@ -17758,7 +17758,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F474-1F3FE": {
                 "unified": "1F474-1F3FE",
@@ -17992,7 +17992,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false,
+        "has_img_messenger": true,
         "skin_variations": {
             "1F477-1F3FB": {
                 "unified": "1F477-1F3FB",
@@ -18016,7 +18016,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F477-1F3FD": {
                 "unified": "1F477-1F3FD",
@@ -18028,7 +18028,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F477-1F3FE": {
                 "unified": "1F477-1F3FE",
@@ -18052,7 +18052,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             }
         }
     },
@@ -18106,7 +18106,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F478-1F3FD": {
                 "unified": "1F478-1F3FD",
@@ -18292,7 +18292,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F47C-1F3FE": {
                 "unified": "1F47C-1F3FE",
@@ -18304,7 +18304,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F47C-1F3FF": {
                 "unified": "1F47C-1F3FF",
@@ -18506,7 +18506,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F481-1F3FF": {
                 "unified": "1F481-1F3FF",
@@ -18572,7 +18572,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F482-1F3FD": {
                 "unified": "1F482-1F3FD",
@@ -18584,7 +18584,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F482-1F3FE": {
                 "unified": "1F482-1F3FE",
@@ -18596,7 +18596,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F482-1F3FF": {
                 "unified": "1F482-1F3FF",
@@ -18674,7 +18674,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F483-1F3FE": {
                 "unified": "1F483-1F3FE",
@@ -18780,7 +18780,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F485-1F3FD": {
                 "unified": "1F485-1F3FD",
@@ -18792,7 +18792,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F485-1F3FE": {
                 "unified": "1F485-1F3FE",
@@ -18870,7 +18870,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F486-1F3FD": {
                 "unified": "1F486-1F3FD",
@@ -18894,7 +18894,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F486-1F3FF": {
                 "unified": "1F486-1F3FF",
@@ -18948,7 +18948,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F487-1F3FC": {
                 "unified": "1F487-1F3FC",
@@ -18996,7 +18996,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             }
         }
     },
@@ -20241,7 +20241,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "HEAVY DOLLAR SIGN",
@@ -20493,7 +20493,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "PERSONAL COMPUTER",
@@ -20689,7 +20689,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "OPEN FILE FOLDER",
@@ -20745,7 +20745,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "PAGE FACING UP",
@@ -20857,7 +20857,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "CHART WITH UPWARDS TREND",
@@ -20941,7 +20941,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "CLIPBOARD",
@@ -20969,7 +20969,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "PUSHPIN",
@@ -21165,7 +21165,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "NOTEBOOK",
@@ -21306,7 +21306,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "BLUE BOOK",
@@ -21418,7 +21418,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "SCROLL",
@@ -21783,7 +21783,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "ENVELOPE WITH DOWNWARDS ARROW ABOVE",
@@ -21867,7 +21867,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "OPEN MAILBOX WITH RAISED FLAG",
@@ -21923,7 +21923,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "POSTBOX",
@@ -21951,7 +21951,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "POSTAL HORN",
@@ -22175,7 +22175,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "CAMERA",
@@ -22427,7 +22427,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS",
@@ -22455,7 +22455,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS WITH CIRCLED ONE OVERLAY",
@@ -22651,7 +22651,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "SPEAKER WITH ONE SOUND WAVE",
@@ -22679,7 +22679,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "SPEAKER WITH THREE SOUND WAVES",
@@ -23127,7 +23127,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "END WITH LEFTWARDS ARROW ABOVE",
@@ -24108,7 +24108,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "DOWN-POINTING SMALL RED TRIANGLE",
@@ -24416,7 +24416,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "CLOCK FACE FIVE OCLOCK",
@@ -24528,7 +24528,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "CLOCK FACE NINE OCLOCK",
@@ -24668,7 +24668,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "CLOCK FACE TWO-THIRTY",
@@ -24696,7 +24696,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "CLOCK FACE THREE-THIRTY",
@@ -24752,7 +24752,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "CLOCK FACE FIVE-THIRTY",
@@ -24780,7 +24780,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "CLOCK FACE SIX-THIRTY",
@@ -24864,7 +24864,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "CLOCK FACE NINE-THIRTY",
@@ -24892,7 +24892,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "CLOCK FACE TEN-THIRTY",
@@ -24948,7 +24948,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "CLOCK FACE TWELVE-THIRTY",
@@ -28447,7 +28447,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F645-1F3FD": {
                 "unified": "1F645-1F3FD",
@@ -28483,7 +28483,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             }
         }
     },
@@ -28561,7 +28561,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F646-1F3FF": {
                 "unified": "1F646-1F3FF",
@@ -28663,7 +28663,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             }
         }
     },
@@ -28957,7 +28957,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false,
+        "has_img_messenger": true,
         "skin_variations": {
             "1F64D-1F3FB": {
                 "unified": "1F64D-1F3FB",
@@ -28993,7 +28993,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F64D-1F3FE": {
                 "unified": "1F64D-1F3FE",
@@ -29095,7 +29095,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F64E-1F3FF": {
                 "unified": "1F64E-1F3FF",
@@ -29107,7 +29107,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             }
         }
     },
@@ -29185,7 +29185,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F64F-1F3FF": {
                 "unified": "1F64F-1F3FF",
@@ -29535,7 +29535,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "BUS",
@@ -30354,7 +30354,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "CONSTRUCTION SIGN",
@@ -30382,7 +30382,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "POLICE CARS REVOLVING LIGHT",
@@ -30466,7 +30466,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "NO ENTRY SIGN",
@@ -30634,7 +30634,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "NON-POTABLE WATER SYMBOL",
@@ -30662,7 +30662,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "BICYCLE",
@@ -30718,7 +30718,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "BICYCLIST",
@@ -30758,7 +30758,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F6B4-1F3FC": {
                 "unified": "1F6B4-1F3FC",
@@ -30770,7 +30770,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F6B4-1F3FD": {
                 "unified": "1F6B4-1F3FD",
@@ -30836,7 +30836,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false,
+        "has_img_messenger": true,
         "skin_variations": {
             "1F6B5-1F3FB": {
                 "unified": "1F6B5-1F3FB",
@@ -30848,7 +30848,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F6B5-1F3FC": {
                 "unified": "1F6B5-1F3FC",
@@ -30884,7 +30884,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F6B5-1F3FF": {
                 "unified": "1F6B5-1F3FF",
@@ -30896,7 +30896,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             }
         }
     },
@@ -30962,7 +30962,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F6B6-1F3FE": {
                 "unified": "1F6B6-1F3FE",
@@ -30986,7 +30986,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             }
         }
     },
@@ -31072,7 +31072,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "WOMENS SYMBOL",
@@ -31292,7 +31292,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F6C0-1F3FD": {
                 "unified": "1F6C0-1F3FD",
@@ -31316,7 +31316,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F6C0-1F3FF": {
                 "unified": "1F6C0-1F3FF",
@@ -35767,7 +35767,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS IE",
@@ -36076,7 +36076,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS JO",
@@ -37618,7 +37618,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS NP",
@@ -37814,7 +37814,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS PF",
@@ -39467,7 +39467,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS US",
@@ -39776,7 +39776,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS WS",
@@ -40308,7 +40308,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": null,
