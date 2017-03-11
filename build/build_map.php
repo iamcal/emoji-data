@@ -41,11 +41,51 @@
 	$raw = file('data_variations.txt');
 
 	$variations = array();
+	$variations_handled = array();
+
 	foreach ($raw as $line){
 		if (substr($line, 0, 1) == '#') continue;
 		list($key, $vars) = explode(';', trim($line));
 		if (strlen($key)){
 			$variations[$key] = explode('/', $vars);
+		}
+	}
+
+
+	#
+	# load zwj variations too
+	#
+
+	parse_unicode_specfile('unicode/emoji-zwj-sequences.txt', function($fields, $comment){
+
+		$cps = explode(' ', $fields[0]);
+		$hex_low = StrToLower(implode('-', $cps));
+
+	#	$key1 = str_replace('-200d-', '-', $hex_low);
+	#	if ($key1 != $hex_low){
+	#		add_variation($key1, $hex_low);
+	#	}
+
+		$key2 = str_replace('-fe0f', '', $hex_low);
+		if ($key2 != $hex_low){
+			add_variation($key2, $hex_low);
+		}
+
+		$key3 = str_replace('-200d-', '-', str_replace('-fe0f', '', $hex_low));
+		if ($key3 != $hex_low){
+			add_variation($key3, $hex_low);
+		}
+	});
+
+	function add_variation($base, $variation){
+		global $variations;
+
+		if (!is_array($variations[$base])){
+			$variations[$base] = array();
+		}
+
+		if (!in_array($variation, $variations[$base])){
+			$variations[$base][] = $variation;
 		}
 	}
 
@@ -74,9 +114,7 @@
 				$lc = StrToLower($hex);
 				$lc_base = StrToLower(substr($hex, 0, -5));
 
-				if (!is_array($variations[$lc_base]) || !in_array($lc, $variations[$lc_base])){
-					$variations[$lc_base][] = $lc;
-				}
+				add_variation($lc_base, $lc);
 			}
 
 			$p++;
@@ -94,6 +132,7 @@
 
 	load_short_names('data_emoji_names.txt');
 	load_short_names('data_emoji_names_more.txt');
+	load_short_names('data_emoji_names_v4.txt');
 
 	function load_short_names($file){
 
@@ -105,12 +144,66 @@
 			$line = trim($line);
 			if (!strlen($line)) continue;
 
-			list($cp, $names) = explode(';', $line);
-			if (isset($GLOBALS['short_names'][$cp])){
-				echo "ignoring def for $line\n";
+			if (preg_match('!{.*?}!', $line)){
+				$lines = expand_short_name_line($line);
+
+				foreach ($lines as $line){
+					load_short_name($line);
+				}
 			}else{
-				$GLOBALS['short_names'][$cp] = explode('/', $names);
+				load_short_name($line);
 			}
+		}
+	}
+
+	function expand_short_name_line($line){
+
+		# expand gender first
+		if (preg_match('!{(MAN/WOMAN|MALE/FEMALE|GENDER|M/W)}!', $line)){
+			$a = str_replace(array('{MAN/WOMAN}', '{MALE/FEMALE}', '{GENDER}', '{M/W}'), array('1F468', '2642-FE0F', 'male', 'man'), $line);
+			$b = str_replace(array('{MAN/WOMAN}', '{MALE/FEMALE}', '{GENDER}', '{M/W}'), array('1F469', '2640-FE0F', 'female', 'woman'), $line);
+			return array_merge(
+				expand_short_name_line($a),
+				expand_short_name_line($b)
+			);
+		}
+
+		# expand optional skin tones
+		if (preg_match('#{SKIN}#', $line, $m)){
+			$out = array();
+			$out[] = str_replace('{SKIN}', '', $line);
+			$out[] = str_replace('{SKIN}', '-1F3FB', $line).':skin-2';
+			$out[] = str_replace('{SKIN}', '-1F3FC', $line).':skin-3';
+			$out[] = str_replace('{SKIN}', '-1F3FD', $line).':skin-4';
+			$out[] = str_replace('{SKIN}', '-1F3FE', $line).':skin-5';
+			$out[] = str_replace('{SKIN}', '-1F3FF', $line).':skin-6';
+			return $out;
+		}
+
+		# expand required skin tones
+		if (preg_match('#{SKIN!}#', $line, $m)){
+			$out = array();
+			$out[] = str_replace('{SKIN!}', '-1F3FB', $line).':skin-2';
+			$out[] = str_replace('{SKIN!}', '-1F3FC', $line).':skin-3';
+			$out[] = str_replace('{SKIN!}', '-1F3FD', $line).':skin-4';
+			$out[] = str_replace('{SKIN!}', '-1F3FE', $line).':skin-5';
+			$out[] = str_replace('{SKIN!}', '-1F3FF', $line).':skin-6';
+			return $out;
+		}		
+
+		# give up
+		return array($line);
+	}
+
+	function load_short_name($line){
+
+		list($cp, $names) = explode(';', $line);
+
+		if (isset($GLOBALS['short_names'][$cp])){
+			$val = implode('/', $GLOBALS['short_names'][$cp]);
+			echo "ignoring def for $line (already set to {$val})\n";
+		}else{
+			$GLOBALS['short_names'][$cp] = explode('/', $names);
 		}
 	}
 
@@ -266,7 +359,6 @@
 	parse_unicode_specfile('unicode/emoji-sequences.txt', 'check_sequence');
 	parse_unicode_specfile('unicode/emoji-zwj-sequences.txt', 'check_sequence');
 
-
 	function check_sequence($fields, $comment){
 
 		echo '.';
@@ -277,8 +369,12 @@
 		# skip skin tone variations - we treat those specially
 		if (in_array($last, $GLOBALS['skin_variation_suffixes'])) return;
 
+		# is this already on the output list?
 		$hex_low = StrToLower(implode('-', $cps));
 		if ($GLOBALS['out_unis'][$hex_low]) return;
+
+		# is this an explicit variation we've already added to the output map?
+		if ($GLOBALS['variations_handled'][$hex_low]) return;
 
 		echo "\nFound sequence not supported: $hex_low / {$comment}\n";
 	}
@@ -348,7 +444,10 @@
 
 		$vars = $GLOBALS['variations'][$img_key];
 		if (!is_array($vars)) $vars = array();
-		foreach ($vars as $k => $v) $vars[$k] = StrToUpper($v);	
+		foreach ($vars as $k => $v){
+			$vars[$k] = StrToUpper($v);
+			$GLOBALS['variations_handled'][$v] = 1;
+		}
 
 		if (!is_array($shorts)) $shorts = array();
 		$short = count($shorts) ? $shorts[0] : null;
