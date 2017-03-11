@@ -165,7 +165,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "LEFT RIGHT ARROW",
@@ -193,7 +193,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "UP DOWN ARROW",
@@ -221,7 +221,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "NORTH WEST ARROW",
@@ -249,7 +249,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "NORTH EAST ARROW",
@@ -277,7 +277,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "SOUTH EAST ARROW",
@@ -305,7 +305,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "SOUTH WEST ARROW",
@@ -333,7 +333,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "LEFTWARDS ARROW WITH HOOK",
@@ -361,7 +361,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "RIGHTWARDS ARROW WITH HOOK",
@@ -389,7 +389,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "WATCH",
@@ -529,7 +529,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "BLACK LEFT-POINTING DOUBLE TRIANGLE",
@@ -921,7 +921,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "BLACK SMALL SQUARE",
@@ -1005,7 +1005,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "BLACK LEFT-POINTING TRIANGLE",
@@ -1033,7 +1033,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "WHITE MEDIUM SQUARE",
@@ -1061,7 +1061,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "BLACK MEDIUM SQUARE",
@@ -1117,7 +1117,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "BLACK MEDIUM SMALL SQUARE",
@@ -1145,7 +1145,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "BLACK SUN WITH RAYS",
@@ -1342,7 +1342,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "UMBRELLA WITH RAIN DROPS",
@@ -2300,7 +2300,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "WHEELCHAIR SYMBOL",
@@ -3929,7 +3929,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "BLACK NIB",
@@ -3957,7 +3957,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "HEAVY CHECK MARK",
@@ -3985,7 +3985,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "HEAVY MULTIPLICATION X",
@@ -4181,7 +4181,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "SPARKLE",
@@ -4209,7 +4209,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "CROSS MARK",
@@ -4660,7 +4660,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "LEFTWARDS BLACK ARROW",
@@ -4688,7 +4688,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "UPWARDS BLACK ARROW",
@@ -4884,7 +4884,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "PART ALTERNATION MARK",
@@ -5136,7 +5136,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "NEGATIVE SQUARED AB",
@@ -5500,7 +5500,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "SQUARED CJK UNIFIED IDEOGRAPH-7121",
@@ -11339,7 +11339,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F3C4-1F3FD": {
                 "unified": "1F3C4-1F3FD",
@@ -11351,7 +11351,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F3C4-1F3FE": {
                 "unified": "1F3C4-1F3FE",
@@ -11363,7 +11363,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F3C4-1F3FF": {
                 "unified": "1F3C4-1F3FF",
@@ -11375,7 +11375,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             }
         }
     },
@@ -11605,7 +11605,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             }
         }
     },
@@ -15415,7 +15415,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F448-1F3FF": {
                 "unified": "1F448-1F3FF",
@@ -17292,7 +17292,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F46E-1F3FF": {
                 "unified": "1F46E-1F3FF",
@@ -17410,7 +17410,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F470-1F3FF": {
                 "unified": "1F470-1F3FF",
@@ -17476,7 +17476,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F471-1F3FD": {
                 "unified": "1F471-1F3FD",
@@ -17500,7 +17500,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F471-1F3FF": {
                 "unified": "1F471-1F3FF",
@@ -17590,7 +17590,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F472-1F3FF": {
                 "unified": "1F472-1F3FF",
@@ -18984,7 +18984,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F487-1F3FF": {
                 "unified": "1F487-1F3FF",
@@ -21671,7 +21671,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "INBOX TRAY",
@@ -21699,7 +21699,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "PACKAGE",
@@ -22483,7 +22483,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "CLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS",
@@ -22511,7 +22511,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "ANTICLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS",
@@ -23323,7 +23323,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "INPUT SYMBOL FOR LATIN SMALL LETTERS",
@@ -23407,7 +23407,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "INPUT SYMBOL FOR LATIN LETTERS",
@@ -24024,7 +24024,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "UP-POINTING RED TRIANGLE",
@@ -24724,7 +24724,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "CLOCK FACE FOUR-THIRTY",
@@ -24808,7 +24808,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "CLOCK FACE SEVEN-THIRTY",
@@ -28981,7 +28981,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F64D-1F3FD": {
                 "unified": "1F64D-1F3FD",
@@ -29005,7 +29005,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F64D-1F3FF": {
                 "unified": "1F64D-1F3FF",
@@ -29071,7 +29071,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F64E-1F3FD": {
                 "unified": "1F64E-1F3FD",
@@ -30872,7 +30872,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F6B5-1F3FE": {
                 "unified": "1F6B5-1F3FE",
@@ -30938,7 +30938,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F6B6-1F3FC": {
                 "unified": "1F6B6-1F3FC",
@@ -30974,7 +30974,7 @@
                 "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": true
             },
             "1F6B6-1F3FF": {
                 "unified": "1F6B6-1F3FF",
@@ -31442,7 +31442,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "LEFT LUGGAGE",
@@ -31470,7 +31470,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "COUCH AND LAMP",
@@ -32793,7 +32793,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS AD",
@@ -32821,7 +32821,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS AE",
@@ -32877,7 +32877,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS AG",
@@ -32905,7 +32905,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS AI",
@@ -32933,7 +32933,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS AL",
@@ -32961,7 +32961,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS AM",
@@ -32989,7 +32989,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS AO",
@@ -33017,7 +33017,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS AQ",
@@ -33045,7 +33045,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS AR",
@@ -33073,7 +33073,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS AS",
@@ -33101,7 +33101,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS AT",
@@ -33129,7 +33129,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS AU",
@@ -33185,7 +33185,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS AX",
@@ -33213,7 +33213,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS AZ",
@@ -33241,7 +33241,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS BA",
@@ -33297,7 +33297,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS BD",
@@ -33325,7 +33325,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS BE",
@@ -33381,7 +33381,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS BG",
@@ -33409,7 +33409,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS BH",
@@ -33437,7 +33437,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS BI",
@@ -33465,7 +33465,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS BJ",
@@ -33493,7 +33493,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS BL",
@@ -33521,7 +33521,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS BM",
@@ -33549,7 +33549,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS BN",
@@ -33605,7 +33605,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS BQ",
@@ -33633,7 +33633,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS BR",
@@ -33689,7 +33689,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS BT",
@@ -33717,7 +33717,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS BV",
@@ -33745,7 +33745,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS BW",
@@ -33773,7 +33773,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS BY",
@@ -33801,7 +33801,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS BZ",
@@ -33829,7 +33829,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS CA",
@@ -33885,7 +33885,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS CD",
@@ -33913,7 +33913,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS CF",
@@ -33941,7 +33941,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS CG",
@@ -33969,7 +33969,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS CH",
@@ -34025,7 +34025,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS CK",
@@ -34053,7 +34053,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS CL",
@@ -34109,7 +34109,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS CN",
@@ -34222,7 +34222,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS CU",
@@ -34250,7 +34250,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS CV",
@@ -34278,7 +34278,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS CW",
@@ -34306,7 +34306,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS CX",
@@ -34334,7 +34334,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS CY",
@@ -34362,7 +34362,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS CZ",
@@ -34390,7 +34390,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS DE",
@@ -34447,7 +34447,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS DJ",
@@ -34475,7 +34475,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS DK",
@@ -34531,7 +34531,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS DO",
@@ -34559,7 +34559,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS DZ",
@@ -34587,7 +34587,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS EA",
@@ -34615,7 +34615,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS EC",
@@ -34643,7 +34643,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS EE",
@@ -34671,7 +34671,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS EG",
@@ -34699,7 +34699,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS EH",
@@ -34727,7 +34727,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS ER",
@@ -34755,7 +34755,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS ES",
@@ -34812,7 +34812,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS EU",
@@ -34840,7 +34840,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS FI",
@@ -34896,7 +34896,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS FK",
@@ -34924,7 +34924,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS FM",
@@ -34952,7 +34952,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS FO",
@@ -34980,7 +34980,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS FR",
@@ -35037,7 +35037,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS GB",
@@ -35095,7 +35095,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS GE",
@@ -35123,7 +35123,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS GF",
@@ -35151,7 +35151,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS GG",
@@ -35179,7 +35179,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS GH",
@@ -35207,7 +35207,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS GI",
@@ -35235,7 +35235,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS GL",
@@ -35263,7 +35263,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS GM",
@@ -35291,7 +35291,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS GN",
@@ -35319,7 +35319,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS GP",
@@ -35347,7 +35347,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS GQ",
@@ -35375,7 +35375,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS GR",
@@ -35403,7 +35403,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS GS",
@@ -35431,7 +35431,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS GT",
@@ -35459,7 +35459,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS GU",
@@ -35487,7 +35487,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS GW",
@@ -35515,7 +35515,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS GY",
@@ -35543,7 +35543,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS HK",
@@ -35599,7 +35599,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS HN",
@@ -35627,7 +35627,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS HR",
@@ -35655,7 +35655,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS HT",
@@ -35683,7 +35683,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS HU",
@@ -35711,7 +35711,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS IC",
@@ -35739,7 +35739,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS ID",
@@ -35851,7 +35851,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS IN",
@@ -35907,7 +35907,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS IQ",
@@ -35935,7 +35935,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS IR",
@@ -35963,7 +35963,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS IS",
@@ -35991,7 +35991,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS IT",
@@ -36048,7 +36048,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS JM",
@@ -36104,7 +36104,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS JP",
@@ -36161,7 +36161,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS KG",
@@ -36189,7 +36189,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS KH",
@@ -36217,7 +36217,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS KI",
@@ -36245,7 +36245,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS KM",
@@ -36273,7 +36273,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS KN",
@@ -36301,7 +36301,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS KP",
@@ -36329,7 +36329,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS KR",
@@ -36386,7 +36386,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS KY",
@@ -36414,7 +36414,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS KZ",
@@ -36442,7 +36442,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS LA",
@@ -36470,7 +36470,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS LB",
@@ -36498,7 +36498,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS LC",
@@ -36526,7 +36526,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS LI",
@@ -36554,7 +36554,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS LK",
@@ -36582,7 +36582,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS LR",
@@ -36610,7 +36610,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS LS",
@@ -36638,7 +36638,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS LT",
@@ -36666,7 +36666,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS LU",
@@ -36694,7 +36694,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS LV",
@@ -36722,7 +36722,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS LY",
@@ -36750,7 +36750,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS MA",
@@ -36778,7 +36778,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS MC",
@@ -36806,7 +36806,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS MD",
@@ -36834,7 +36834,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS ME",
@@ -36862,7 +36862,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS MF",
@@ -36890,7 +36890,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS MG",
@@ -36918,7 +36918,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS MH",
@@ -36946,7 +36946,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS MK",
@@ -36974,7 +36974,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS ML",
@@ -37002,7 +37002,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS MM",
@@ -37030,7 +37030,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS MN",
@@ -37058,7 +37058,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS MO",
@@ -37114,7 +37114,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS MQ",
@@ -37142,7 +37142,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS MR",
@@ -37170,7 +37170,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS MS",
@@ -37198,7 +37198,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS MT",
@@ -37226,7 +37226,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS MU",
@@ -37254,7 +37254,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS MV",
@@ -37282,7 +37282,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS MW",
@@ -37310,7 +37310,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS MX",
@@ -37394,7 +37394,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS NA",
@@ -37422,7 +37422,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS NC",
@@ -37450,7 +37450,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS NE",
@@ -37478,7 +37478,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS NF",
@@ -37506,7 +37506,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS NG",
@@ -37534,7 +37534,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS NI",
@@ -37562,7 +37562,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS NL",
@@ -37646,7 +37646,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS NR",
@@ -37674,7 +37674,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS NU",
@@ -37702,7 +37702,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS NZ",
@@ -37758,7 +37758,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS PA",
@@ -37786,7 +37786,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS PE",
@@ -37842,7 +37842,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS PG",
@@ -37870,7 +37870,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS PH",
@@ -37926,7 +37926,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS PL",
@@ -37982,7 +37982,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS PN",
@@ -38010,7 +38010,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS PR",
@@ -38066,7 +38066,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS PT",
@@ -38122,7 +38122,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS PY",
@@ -38150,7 +38150,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS QA",
@@ -38178,7 +38178,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS RE",
@@ -38206,7 +38206,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS RO",
@@ -38234,7 +38234,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS RS",
@@ -38262,7 +38262,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS RU",
@@ -38319,7 +38319,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS SA",
@@ -38375,7 +38375,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS SC",
@@ -38403,7 +38403,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS SD",
@@ -38431,7 +38431,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS SE",
@@ -38515,7 +38515,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS SI",
@@ -38543,7 +38543,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS SJ",
@@ -38571,7 +38571,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS SK",
@@ -38599,7 +38599,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS SL",
@@ -38627,7 +38627,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS SM",
@@ -38655,7 +38655,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS SN",
@@ -38683,7 +38683,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS SO",
@@ -38711,7 +38711,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS SR",
@@ -38739,7 +38739,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS SS",
@@ -38767,7 +38767,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS ST",
@@ -38795,7 +38795,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS SV",
@@ -38823,7 +38823,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS SX",
@@ -38851,7 +38851,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS SY",
@@ -38879,7 +38879,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS SZ",
@@ -38907,7 +38907,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS TA",
@@ -38935,7 +38935,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS TC",
@@ -38963,7 +38963,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS TD",
@@ -38991,7 +38991,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS TF",
@@ -39019,7 +39019,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS TG",
@@ -39047,7 +39047,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS TH",
@@ -39075,7 +39075,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS TJ",
@@ -39103,7 +39103,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS TK",
@@ -39131,7 +39131,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS TL",
@@ -39159,7 +39159,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS TM",
@@ -39187,7 +39187,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS TN",
@@ -39215,7 +39215,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS TO",
@@ -39243,7 +39243,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS TR",
@@ -39299,7 +39299,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS TV",
@@ -39327,7 +39327,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS TW",
@@ -39355,7 +39355,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS TZ",
@@ -39383,7 +39383,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS UA",
@@ -39411,7 +39411,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS UG",
@@ -39439,7 +39439,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS UM",
@@ -39524,7 +39524,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS UZ",
@@ -39552,7 +39552,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS VA",
@@ -39580,7 +39580,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS VC",
@@ -39608,7 +39608,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS VE",
@@ -39664,7 +39664,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS VI",
@@ -39692,7 +39692,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS VN",
@@ -39748,7 +39748,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS WF",
@@ -39804,7 +39804,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS XK",
@@ -39832,7 +39832,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS YE",
@@ -39860,7 +39860,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS YT",
@@ -39888,7 +39888,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS ZA",
@@ -39944,7 +39944,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": "REGIONAL INDICATOR SYMBOL LETTERS ZW",
@@ -39972,7 +39972,7 @@
         "has_img_twitter": true,
         "has_img_emojione": true,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": true
     },
     {
         "name": null,
