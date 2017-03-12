@@ -383,6 +383,61 @@
 
 
 	#
+	# for zwj sequences with skin tones in them, attach to non-toned version as variations
+	#
+
+	$variations = array();
+
+	$out = array_filter($out, function($row){
+		if (strpos($row['short_name'], ':skin-') > 0){
+			$GLOBALS['variations'][] = $row;
+			return false;
+		}
+		return true;
+	});
+
+	$short_name_map = array();
+	foreach ($out as $k => $row){
+		$short_name_map[$row['short_name']] = $k;
+	}
+
+	$skin_codepoints = array(
+		'skin-2' => '1F3FB',
+		'skin-3' => '1F3FC',
+		'skin-4' => '1F3FD',
+		'skin-5' => '1F3FE',
+		'skin-6' => '1F3FF',
+	);
+
+	foreach ($variations as $row){
+		list($name, $skin) = explode(':', $row['short_name']);
+		$skin_cp = $skin_codepoints[$skin];
+		$key = $short_name_map[$name];
+
+		if (isset($key) && isset($out[$key])){
+			$out[$key]['skin_variations'][$skin_cp] = simplify_row($row);
+		}else{
+			echo "\nERROR: unable to find parent for {$row['short_name']}\n";
+		}
+	}
+
+	function simplify_row($row){
+		$out = array();
+
+		foreach ($row as $k => $v){
+			if (in_array($k, array('unified', 'image', 'sheet_x', 'sheet_y'))){
+				$out[$k] = $v;
+			}elseif (substr($k, 0, 8) == 'has_img_'){
+				$out[$k] = $v;
+			}
+		}
+
+		return $out;
+	}
+
+
+
+	#
 	# check for duplicate short names
 	#
 
