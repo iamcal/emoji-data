@@ -329,7 +329,7 @@
 
 	function build_character_data($img_key, $short_names){
 
-		global $text;
+		global $text, $texts;
 
 		$uni = StrToUpper($img_key);
 
