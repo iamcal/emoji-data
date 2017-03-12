@@ -60,7 +60,7 @@ look like this:
 			"has_img_facebook": false,
 			"has_img_messenger": false,
 			"skin_variations": {
-				"261D-1F3FB": {
+				"1F3FB": {
 					"unified": "261D-1F3FB",
 					"image": "261d-1f3fb.png",
 					"sheet_x": 1,
@@ -96,7 +96,7 @@ An explanation of the various fields is in order:
 * `texts` - An array of ASCII emoji that should convert into this emoji.
    Each ASCII emoji will only appear against a single emoji entry.
 * `has_img_*` - A flag for whether the given image set has an image (named by the `image` prop) available.
-* `skin_variations` - For skin-varying emoji, a list of alternative glyphs.
+* `skin_variations` - For skin-varying emoji, a list of alternative glyphs, keyed by the skin tone.
 
 
 ## Version history

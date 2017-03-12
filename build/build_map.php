@@ -511,7 +511,7 @@
 					'has_img_messenger'	=> file_exists("{$GLOBALS['dir']}/../img-messenger-64/{$var_img}"),
 				);
 
-				$ret['skin_variations'][$var_uni] = $variation;
+				$ret['skin_variations'][$suffix] = $variation;
 			}
 		}
 
