@@ -3,7 +3,7 @@
 ## 2017-??-?? : v2.5
 
 * Made the kissing emoticons (e.g. :*) result in `kissing_heart` instead of `kiss` https://github.com/iamcal/emoji-data/pull/73
-* Added support for Facebook and FB Messenger images. Only messenger currently has any images https://github.com/iamcal/emoji-data/pull/76
+* Added support for Facebook and FB Messenger images https://github.com/iamcal/emoji-data/pull/76
 * ?
 
 ## 2016-11-11 : v2.4.5
