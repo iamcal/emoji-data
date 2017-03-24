@@ -5,7 +5,7 @@ $data = json_decode($json, true);
 
 # comment these out to do incremental download
 #shell_exec("rm -f ../../img-messenger-128/*.png");
-#shell_exec("rm -f ../../img-facebook-128/*.png");
+#shell_exec("rm -f ../../img-facebook-96/*.png");
 
 
 foreach ($data as $row){
@@ -21,12 +21,12 @@ foreach ($data as $row){
 }
 
 function fetch($img){
-	fetch_single($img, 'MESSENGER', 'img-messenger-128', 128);
-	#fetch_single($img, 'FBEMOJI', 'img-facebook-72', 72);
+	fetch_single($img, 'MESSENGER', 'img-messenger-128', 128, 1);
+	fetch_single($img, 'FBEMOJI', 'img-facebook-96', 32, 3);
 }
 
 
-function fetch_single($img, $type_key, $dir, $size){
+function fetch_single($img, $type_key, $dir, $size, $ratio){
 	/* based upon Twitter scraper and Javascript from Facebook see Github issue #56 */
 
 	# files get stored here
@@ -45,7 +45,7 @@ function fetch_single($img, $type_key, $dir, $size){
 	# emoji.img = acbd-1234.png
 	# facebook  = abcd_1234.png
 
-	$url = build_url($type, $size, str_replace('-', '_', $img));
+	$url = build_url($type, $size, $ratio, str_replace('-', '_', $img));
 
 	if (try_fetch($url, $path)){
 		echo '.';
@@ -58,9 +58,8 @@ function fetch_single($img, $type_key, $dir, $size){
 }
 
 
-function build_url($type, $size, $img){
+function build_url($type, $size, $pixelRatio, $img){
 
-	$pixelRatio = 1;
 	$schemaAuth = "https://www.facebook.com/images/emoji.php/v7";
 
 	$path = $pixelRatio . '/' . $size . '/' . $img;
