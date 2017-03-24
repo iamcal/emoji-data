@@ -45,6 +45,7 @@
 
 	foreach ($raw as $line){
 		if (substr($line, 0, 1) == '#') continue;
+		list($line, $junk) = explode('#', $line);
 		list($key, $vars) = explode(';', trim($line));
 		if (strlen($key)){
 			$variations[$key] = explode('/', $vars);
@@ -206,6 +207,32 @@
 			$GLOBALS['short_names'][$cp] = explode('/', $names);
 		}
 	}
+
+
+	#
+	# load obsolete mappings
+	#
+
+	$raw = file('data_obsoleted.txt');
+
+	$obsoleted_by = array();
+	$obsoletes = array();
+
+	foreach ($raw as $line){
+		list($line, $junk) = explode('#', $line);
+		list($key, $var) = explode(';', trim($line));
+		if (strlen($key)){
+			$obsoleted_by[$key] = $var;
+			$obsoletes[$var] = $key;
+		}
+	}
+
+echo "\n\$obsoleted_by:\n";
+print_r($obsoleted_by);
+
+echo "\n\$obsoletes:\n";
+print_r($obsoletes);
+exit;
 
 
 	echo "OK\n";
@@ -648,6 +675,15 @@
 			}
 		}
 	}
+
+
+	#
+	# for obsoleted codepoints, steal category in one direction or another
+	#
+
+	#TODO
+
+
 
 	foreach (array_keys($missing_categories) as $k){
 
