@@ -3,4 +3,4 @@
 	url = https://github.com/Ranks/emojione.git
 [submodule "build/google/noto-emoji"]
 	path = build/google/noto-emoji
-	url = git@github.com:googlei18n/noto-emoji.git
+	url = https://github.com/googlei18n/noto-emoji.git
