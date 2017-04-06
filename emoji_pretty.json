@@ -17412,10 +17412,9 @@
         "image": "1f46a.png",
         "sheet_x": 14,
         "sheet_y": 20,
-        "short_name": "family",
+        "short_name": null,
         "short_names": [
-            "family",
-            "man-woman-boy"
+
         ],
         "text": null,
         "texts": null,
@@ -62802,7 +62801,8 @@
         "sheet_y": 9,
         "short_name": "man-woman-boy",
         "short_names": [
-            "man-woman-boy"
+            "man-woman-boy",
+            "family"
         ],
         "text": null,
         "texts": null,
