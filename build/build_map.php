@@ -645,9 +645,25 @@
 	category_append('skin-tone-5', 'Skin Tones');
 	category_append('skin-tone-6', 'Skin Tones');
 
+	category_append('female_sign', 'Symbols');
+	category_append('male_sign', 'Symbols');
+	category_append('staff_of_aesculapius', 'Symbols');
+
+	category_insert_after('eye-in-speech-bubble', 'loudspeaker');
 	category_insert_after('left_speech_bubble', 'speech_balloon');
+
 	category_insert_after('keycap_star', 'keycap_ten');
 	category_insert_after('eject', 'black_square_for_stop');
+
+	category_insert_before('face_palm', 'woman-facepalming');
+	category_insert_before('shrug', 'woman-shrugging');
+
+	category_insert_before('person_doing_cartwheel', 'woman-cartwheeling');
+	category_insert_before('juggling', 'woman-juggling');
+	category_insert_before('wrestlers', 'woman-wrestling');
+	category_insert_before('handball', 'woman-playing-handball');
+	category_insert_before('water_polo', 'woman-playing-water-polo');
+
 
 	foreach (array_keys($missing_categories) as $k){
 		if (substr($k, 0, 5) == 'flag-'){
@@ -678,6 +694,28 @@
 					$out[] = $id;
 					$found = true;
 				}
+			}
+			if ($found){
+				$categories[$k] = $out;
+				unset($missing_categories[$id]);
+			}
+		}
+	}
+
+	function category_insert_before($id, $before){
+		global $categories, $missing_categories;
+
+		if (!$missing_categories[$id]) return;
+
+		foreach ($categories as $k => $emojis){
+			$out = array();
+			$found = false;
+			foreach ($emojis as $emoji){
+				if ($emoji == $before){
+					$out[] = $id;
+					$found = true;
+				}
+				$out[] = $emoji;
 			}
 			if ($found){
 				$categories[$k] = $out;

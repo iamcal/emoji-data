@@ -13,7 +13,7 @@
 26f9;26f9-fe0f-200d-2642-fe0f # :man-bouncing-ball:
 1f3cb;1f3cb-fe0f-200d-2642-fe0f # :man-lifting-weights:
 1f3cc;1f3cc-fe0f-200d-2642-fe0f # :man-golfing:
-1f3c3;1f3c3-200d-2640-fe0f # :woman-with-bunny-ears-partying:
+1f46f;1f46f-200d-2640-fe0f # :woman-with-bunny-ears-partying:
 1f3c3;1f3c3-200d-2642-fe0f # :man-running:
 1f3c4;1f3c4-200d-2642-fe0f # :man-surfing:
 1f3ca;1f3ca-200d-2642-fe0f # :man-swimming:
