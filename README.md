@@ -11,7 +11,7 @@ available versions. If you're looking for older versions of Apple or Android ima
 
 * Apple Emoji: Copyright &copy; Apple Inc. - OS X 10.11.1
 * Android Emoji: Copyright &copy; [The Android Open Source Project](https://s3-eu-west-1.amazonaws.com/tw-font/android/NOTICE) - Nougat
-* Twitter Emoji: Copyright &copy; Twitter, Inc. - The original release
+* Twitter Emoji: Copyright &copy; Twitter, Inc. - v2.2.5 2017-02-20
 * Emoji One Emoji: Copyright &copy; [Ranks.com Inc.](http://www.emojione.com/developers) - v2.2.7 2016-12-02
 * Facebook/Messenger Emoji: Copyright &copy; Facebook, Inc. - v7
 

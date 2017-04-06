@@ -4,3 +4,6 @@
 [submodule "build/google/noto-emoji"]
 	path = build/google/noto-emoji
 	url = git@github.com:googlei18n/noto-emoji.git
+[submodule "build/twitter/twemoji"]
+	path = build/twitter/twemoji
+	url = https://github.com/twitter/twemoji.git
