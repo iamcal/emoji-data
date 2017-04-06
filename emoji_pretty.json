@@ -1823,7 +1823,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -1851,7 +1851,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -11292,8 +11292,8 @@
                 "has_img_google": false,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_facebook": true,
+                "has_img_messenger": true
             },
             "1F3FC": {
                 "unified": "1F3C2-1F3FC",
@@ -11304,8 +11304,8 @@
                 "has_img_google": false,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_facebook": true,
+                "has_img_messenger": true
             },
             "1F3FD": {
                 "unified": "1F3C2-1F3FD",
@@ -11316,8 +11316,8 @@
                 "has_img_google": false,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_facebook": true,
+                "has_img_messenger": true
             },
             "1F3FE": {
                 "unified": "1F3C2-1F3FE",
@@ -11328,8 +11328,8 @@
                 "has_img_google": false,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_facebook": true,
+                "has_img_messenger": true
             },
             "1F3FF": {
                 "unified": "1F3C2-1F3FF",
@@ -11340,8 +11340,8 @@
                 "has_img_google": false,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_facebook": true,
+                "has_img_messenger": true
             }
         }
     },
@@ -11621,8 +11621,8 @@
                 "has_img_google": false,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_facebook": true,
+                "has_img_messenger": true
             },
             "1F3FC": {
                 "unified": "1F3C7-1F3FC",
@@ -11633,8 +11633,8 @@
                 "has_img_google": false,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_facebook": true,
+                "has_img_messenger": true
             },
             "1F3FD": {
                 "unified": "1F3C7-1F3FD",
@@ -11645,8 +11645,8 @@
                 "has_img_google": false,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_facebook": true,
+                "has_img_messenger": true
             },
             "1F3FE": {
                 "unified": "1F3C7-1F3FE",
@@ -11657,8 +11657,8 @@
                 "has_img_google": false,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_facebook": true,
+                "has_img_messenger": true
             },
             "1F3FF": {
                 "unified": "1F3C7-1F3FF",
@@ -11669,8 +11669,8 @@
                 "has_img_google": false,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_facebook": true,
+                "has_img_messenger": true
             }
         }
     },
@@ -11949,7 +11949,7 @@
                 "has_img_google": false,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -11961,7 +11961,7 @@
                 "has_img_google": false,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -11973,7 +11973,7 @@
                 "has_img_google": false,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -11985,7 +11985,7 @@
                 "has_img_google": false,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -11997,7 +11997,7 @@
                 "has_img_google": false,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         },
@@ -25385,7 +25385,7 @@
                 "has_img_google": false,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -25397,7 +25397,7 @@
                 "has_img_google": false,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -25409,7 +25409,7 @@
                 "has_img_google": false,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -25421,7 +25421,7 @@
                 "has_img_google": false,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -25433,7 +25433,7 @@
                 "has_img_google": false,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -25666,7 +25666,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -25678,7 +25678,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -25690,7 +25690,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -25702,7 +25702,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -25714,7 +25714,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -25726,7 +25726,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -26167,7 +26167,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -32014,7 +32014,7 @@
                 "has_img_google": false,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -32026,7 +32026,7 @@
                 "has_img_google": false,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -32038,7 +32038,7 @@
                 "has_img_google": false,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -32050,7 +32050,7 @@
                 "has_img_google": false,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -32062,7 +32062,7 @@
                 "has_img_google": false,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -32204,7 +32204,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -32232,7 +32232,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -32568,7 +32568,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -32596,7 +32596,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -32624,7 +32624,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -32967,7 +32967,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -32979,7 +32979,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -32991,7 +32991,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -33003,7 +33003,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -33015,7 +33015,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -33027,7 +33027,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -33057,7 +33057,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -33069,7 +33069,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -33081,7 +33081,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -33093,7 +33093,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -33105,7 +33105,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -33117,7 +33117,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -33147,7 +33147,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -33159,7 +33159,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -33171,7 +33171,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -33183,7 +33183,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -33195,7 +33195,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -33207,7 +33207,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -33237,7 +33237,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -33249,7 +33249,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -33261,7 +33261,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -33273,7 +33273,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -33285,7 +33285,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -33297,7 +33297,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -33327,7 +33327,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -33355,7 +33355,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -33367,7 +33367,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -33379,7 +33379,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -33391,7 +33391,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -33403,7 +33403,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -33415,7 +33415,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -33445,7 +33445,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -33473,7 +33473,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -33501,7 +33501,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -33529,7 +33529,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -33557,7 +33557,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -33585,7 +33585,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -33613,7 +33613,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -33625,7 +33625,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -33637,7 +33637,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -33649,7 +33649,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -33661,7 +33661,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -33673,7 +33673,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -33703,7 +33703,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -33731,7 +33731,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -33743,7 +33743,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -33755,7 +33755,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -33767,7 +33767,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -33779,7 +33779,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -33791,7 +33791,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -33821,7 +33821,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -33833,7 +33833,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -33845,7 +33845,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -33857,7 +33857,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -33869,7 +33869,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -33881,7 +33881,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -33911,7 +33911,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -33923,7 +33923,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -33935,7 +33935,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -33947,7 +33947,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -33959,7 +33959,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -33971,7 +33971,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -34001,7 +34001,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -34013,7 +34013,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -34025,7 +34025,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -34037,7 +34037,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -34049,7 +34049,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -34061,7 +34061,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -34091,7 +34091,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -34103,7 +34103,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -34115,7 +34115,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -34127,7 +34127,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -34139,7 +34139,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -34151,7 +34151,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -34181,7 +34181,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -34193,7 +34193,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -34205,7 +34205,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -34217,7 +34217,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -34229,7 +34229,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -34241,7 +34241,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -34271,7 +34271,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -34283,7 +34283,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -34295,7 +34295,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -34307,7 +34307,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -34319,7 +34319,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -34331,7 +34331,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -34361,7 +34361,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -34373,7 +34373,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -34385,7 +34385,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -34397,7 +34397,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -34409,7 +34409,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -34421,7 +34421,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -34451,7 +34451,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -34479,7 +34479,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -34507,7 +34507,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -34519,7 +34519,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -34531,7 +34531,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -34543,7 +34543,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -34555,7 +34555,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -34567,7 +34567,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -34597,7 +34597,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -34609,7 +34609,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -34621,7 +34621,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -34633,7 +34633,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -34645,7 +34645,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -34657,7 +34657,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": true,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -34687,7 +34687,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -34715,7 +34715,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -34743,7 +34743,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -34771,7 +34771,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -34799,7 +34799,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -34827,7 +34827,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -34855,7 +34855,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -34883,7 +34883,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -34911,7 +34911,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -34939,7 +34939,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -34967,7 +34967,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -34995,7 +34995,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -35023,7 +35023,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -35051,7 +35051,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -35079,7 +35079,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -35107,7 +35107,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -35135,7 +35135,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -35163,7 +35163,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -35191,7 +35191,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -35219,7 +35219,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -35247,7 +35247,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -35275,7 +35275,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -35303,7 +35303,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -35331,7 +35331,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -35359,7 +35359,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -35387,7 +35387,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -35555,7 +35555,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -35583,7 +35583,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -35611,7 +35611,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -35639,7 +35639,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -35667,7 +35667,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -35695,7 +35695,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -35723,7 +35723,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -35751,7 +35751,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -35779,7 +35779,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -35807,7 +35807,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -35835,7 +35835,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -35863,7 +35863,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -35891,7 +35891,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -43518,7 +43518,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -43530,7 +43530,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -43542,7 +43542,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -43554,7 +43554,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -43566,7 +43566,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -43578,7 +43578,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -43608,7 +43608,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -43620,7 +43620,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -43632,7 +43632,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -43644,7 +43644,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -43656,7 +43656,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -43668,7 +43668,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -43698,7 +43698,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -43710,7 +43710,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -43722,7 +43722,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -43734,7 +43734,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -43746,7 +43746,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -43758,7 +43758,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -43788,7 +43788,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -43800,7 +43800,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -43812,7 +43812,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -43824,7 +43824,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -43836,7 +43836,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -43848,7 +43848,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -43878,7 +43878,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -43890,7 +43890,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -43902,7 +43902,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -43914,7 +43914,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -43926,7 +43926,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -43938,7 +43938,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -43968,7 +43968,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -43980,7 +43980,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -43992,7 +43992,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -44004,7 +44004,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -44016,7 +44016,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -44028,7 +44028,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -44058,7 +44058,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -44070,7 +44070,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -44082,7 +44082,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -44094,7 +44094,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -44106,7 +44106,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -44118,7 +44118,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -44148,7 +44148,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -44176,7 +44176,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -44204,7 +44204,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -44216,7 +44216,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -44228,7 +44228,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -44240,7 +44240,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -44252,7 +44252,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -44264,7 +44264,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -44294,7 +44294,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -44306,7 +44306,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -44318,7 +44318,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -44330,7 +44330,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -44342,7 +44342,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -44354,7 +44354,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -44384,7 +44384,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -44396,7 +44396,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -44408,7 +44408,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -44420,7 +44420,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -44432,7 +44432,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -44444,7 +44444,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -44474,7 +44474,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -44486,7 +44486,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -44498,7 +44498,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -44510,7 +44510,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -44522,7 +44522,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -44534,7 +44534,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -44564,7 +44564,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -44576,7 +44576,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -44588,7 +44588,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -44600,7 +44600,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -44612,7 +44612,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -44624,7 +44624,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -44654,7 +44654,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -44666,7 +44666,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -44678,7 +44678,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -44690,7 +44690,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -44702,7 +44702,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -44714,7 +44714,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -44744,7 +44744,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -44756,7 +44756,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -44768,7 +44768,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -44780,7 +44780,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -44792,7 +44792,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -44804,7 +44804,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -44834,7 +44834,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -44846,7 +44846,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -44858,7 +44858,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -44870,7 +44870,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -44882,7 +44882,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -44894,7 +44894,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -44924,7 +44924,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -44936,7 +44936,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -44948,7 +44948,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -44960,7 +44960,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -44972,7 +44972,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -44984,7 +44984,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -45014,7 +45014,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -45026,7 +45026,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -45038,7 +45038,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -45050,7 +45050,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -45062,7 +45062,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -45074,7 +45074,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -45104,7 +45104,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -45116,7 +45116,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -45128,7 +45128,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -45140,7 +45140,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -45152,7 +45152,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -45164,7 +45164,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -45194,7 +45194,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -45206,7 +45206,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -45218,7 +45218,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -45230,7 +45230,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -45242,7 +45242,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -45254,7 +45254,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -45284,7 +45284,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -45296,7 +45296,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -45308,7 +45308,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -45320,7 +45320,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -45332,7 +45332,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -45344,7 +45344,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -45374,7 +45374,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -45402,7 +45402,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -45430,7 +45430,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -45442,7 +45442,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -45454,7 +45454,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -45466,7 +45466,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -45478,7 +45478,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -45490,7 +45490,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -45520,7 +45520,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -45532,7 +45532,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -45544,7 +45544,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -45556,7 +45556,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -45568,7 +45568,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -45580,7 +45580,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -45610,7 +45610,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -45622,7 +45622,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -45634,7 +45634,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -45646,7 +45646,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -45658,7 +45658,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -45670,7 +45670,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -45700,7 +45700,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -45712,7 +45712,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -45724,7 +45724,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -45736,7 +45736,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -45748,7 +45748,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -45760,7 +45760,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -45790,7 +45790,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -45802,7 +45802,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -45814,7 +45814,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -45826,7 +45826,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -45838,7 +45838,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -45850,7 +45850,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -45880,7 +45880,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
@@ -45892,7 +45892,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FC": {
@@ -45904,7 +45904,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FD": {
@@ -45916,7 +45916,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FE": {
@@ -45928,7 +45928,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             },
             "1F3FF": {
@@ -45940,7 +45940,7 @@
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_emojione": false,
-                "has_img_facebook": false,
+                "has_img_facebook": true,
                 "has_img_messenger": false
             }
         }
@@ -46876,8 +46876,8 @@
         "has_img_google": false,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_facebook": true,
+        "has_img_messenger": true
     },
     {
         "name": null,
@@ -46932,7 +46932,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -46960,7 +46960,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -46988,7 +46988,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -47157,8 +47157,8 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
-        "has_img_messenger": false,
+        "has_img_facebook": true,
+        "has_img_messenger": true,
         "obsoletes": "1F46A"
     },
     {
@@ -47624,7 +47624,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -47652,7 +47652,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -47680,7 +47680,7 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false
     },
     {
@@ -48118,7 +48118,7 @@
         "has_img_google": false,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "obsoletes": "1F491"
     },
@@ -48175,7 +48175,7 @@
         "has_img_google": false,
         "has_img_twitter": true,
         "has_img_emojione": false,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "has_img_messenger": false,
         "obsoletes": "1F48F"
     },
