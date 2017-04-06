@@ -24,6 +24,10 @@ Build the original 136px emoji images:
 
     ./make136.sh
 
+Noto currently has a bug where it will output `1f487'-'200d'-'2640.png` instead of `1f487-200d-2640.png`, so we need to fix up those paths:
+
+    php fixup.php
+
 Next you'll want to cut the 64px versions that are used in the sheets:
 
     ./make64.sh
