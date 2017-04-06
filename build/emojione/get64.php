@@ -1,5 +1,5 @@
 <?php
-	$src = "../../emojione/assets/png";
+	$src = "emojione/assets/png";
 	$dst = "../../img-emojione-64";
 
 	shell_exec("rm -f ../../img-emojione-64/*.png");
