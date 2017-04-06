@@ -92,6 +92,46 @@
 
 
 	#
+	# get versions for all emoji
+	#
+
+	echo "\nFetching versions : ";
+
+	$versions = array();
+
+	parse_unicode_specfile('unicode/emoji-data.txt', 'get_versions');
+	parse_unicode_specfile('unicode/emoji-sequences.txt', 'get_versions');
+	parse_unicode_specfile('unicode/emoji-zwj-sequences.txt', 'get_versions');
+
+	function get_versions($fields, $comment){
+
+		$hex_lows = array();
+
+		if (strpos($fields[0], '..')){
+			list($a, $b) = explode('..', $fields[0]);
+			$a = hexdec($a);
+			$b = hexdec($b);
+
+			$cps = array();
+			for ($i=$a; $i<=$b; $i++){
+				$hex_lows[] = sprintf('%04x', $i);
+			}
+		}else{
+			$cps = explode(' ', $fields[0]);
+			$hex_lows = array(StrToLower(implode('-', $cps)));
+		}
+
+		if (preg_match('!^\s*(\d+\.\d+)!', $comment, $m)){
+			foreach ($hex_lows as $hex_low){
+				$GLOBALS['versions'][$hex_low] = $m[1];
+			}
+		}
+	}
+
+	echo " DONE\n";
+
+
+	#
 	# load category data
 	#
 
@@ -351,6 +391,7 @@
 		foreach ($cps as $cp){
 
 			$hex_low = sprintf('%04x', $cp);
+
 			if ($out_unis[$hex_low]) continue;
 
 			if ($cp == 0x0023) continue; # number sign
@@ -384,12 +425,12 @@
 
 		$cps = explode(' ', $fields[0]);
 		$last = $cps[count($cps)-1];
+		$hex_low = StrToLower(implode('-', $cps));
 
 		# skip skin tone variations - we treat those specially
 		if (in_array($last, $GLOBALS['skin_variation_suffixes'])) return;
 
 		# is this already on the output list?
-		$hex_low = StrToLower(implode('-', $cps));
 		if ($GLOBALS['out_unis'][$hex_low]) return;
 
 		# is this an explicit variation we've already added to the output map?
@@ -570,6 +611,7 @@
 			'texts'		=> $GLOBALS['texts'][$short],
 			'category'	=> is_array($category) ? $category[0] : null,
 			'sort_order'	=> is_array($category) ? $category[1] : null,
+			'added_in'	=> $GLOBALS['versions'][$img_key],
 		);
 
 		$ret['has_img_apple']		= file_exists("{$GLOBALS['dir']}/../img-apple-64/{$ret['image']}");
@@ -595,6 +637,7 @@
 					'image'			=> $var_img,
 					'sheet_x'		=> 0,
 					'sheet_y'		=> 0,
+					'added_in'		=> $GLOBALS['versions'][StrToLower($var_uni)],
 					'has_img_apple'		=> file_exists("{$GLOBALS['dir']}/../img-apple-64/{$var_img}"),
 					'has_img_google'	=> file_exists("{$GLOBALS['dir']}/../img-google-64/{$var_img}"),
 					'has_img_twitter'	=> file_exists("{$GLOBALS['dir']}/../img-twitter-64/{$var_img}"),

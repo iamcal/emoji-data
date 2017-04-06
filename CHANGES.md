@@ -5,7 +5,8 @@
 * Made the kissing emoticons (e.g. :*) result in `kissing_heart` instead of `kiss` https://github.com/iamcal/emoji-data/pull/73
 * Added support for Facebook and FB Messenger images https://github.com/iamcal/emoji-data/pull/76
 * Switched skin tone variations to be keyed by skintone codepoint, not full composite sequence.
-* ?
+* Added `obsoletes`/`obsoleted_by` fields.
+* Added `added_in` field to show Unicode version source.
 
 ## 2016-11-11 : v2.4.5
 

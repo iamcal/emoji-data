@@ -53,6 +53,7 @@ look like this:
 			"texts": null,
 			"category": "People",
 			"sort_order": 116,
+			"added_in": "1.4",
 			"has_img_apple": true,
 			"has_img_google": true,
 			"has_img_twitter": true,
@@ -65,6 +66,7 @@ look like this:
 					"image": "261d-1f3fb.png",
 					"sheet_x": 1,
 					"sheet_y": 3,
+					"added_in": "6.0",
 					"has_img_apple": true,
 					"has_img_google": false,
 					"has_img_twitter": false,
@@ -98,6 +100,7 @@ An explanation of the various fields is in order:
 * `texts` - An array of ASCII emoji that should convert into this emoji.
    Each ASCII emoji will only appear against a single emoji entry.
 * `has_img_*` - A flag for whether the given image set has an image (named by the `image` prop) available.
+* `added_id` - Unicode versions in which this codepoint/sequence was added.
 * `skin_variations` - For skin-varying emoji, a list of alternative glyphs, keyed by the skin tone.
 * `obsoletes` / `obsoleted_by` - Emoji that are no longer used, in preference of gendered versions.
 
