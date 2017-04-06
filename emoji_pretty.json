@@ -3455,7 +3455,8 @@
                 "has_img_facebook": true,
                 "has_img_messenger": false
             }
-        }
+        },
+        "obsoleted_by": "26F9-FE0F-200D-2642-FE0F"
     },
     {
         "name": "TENT",
@@ -11438,7 +11439,8 @@
                 "has_img_facebook": true,
                 "has_img_messenger": true
             }
-        }
+        },
+        "obsoleted_by": "1F3C3-200D-2642-FE0F"
     },
     {
         "name": "SURFER",
@@ -11528,7 +11530,8 @@
                 "has_img_facebook": true,
                 "has_img_messenger": true
             }
-        }
+        },
+        "obsoleted_by": "1F3C4-200D-2642-FE0F"
     },
     {
         "name": "SPORTS MEDAL",
@@ -11825,7 +11828,8 @@
                 "has_img_facebook": true,
                 "has_img_messenger": true
             }
-        }
+        },
+        "obsoleted_by": "1F3CA-200D-2642-FE0F"
     },
     {
         "name": "WEIGHT LIFTER",
@@ -11915,7 +11919,8 @@
                 "has_img_facebook": true,
                 "has_img_messenger": false
             }
-        }
+        },
+        "obsoleted_by": "1F3CB-FE0F-200D-2642-FE0F"
     },
     {
         "name": "GOLFER",
@@ -12009,8 +12014,13 @@
                 "has_img_facebook": false,
                 "has_img_messenger": false
             }
+<<<<<<< HEAD
         }
 >>>>>>> added ability to template gender and skin-tone naming
+=======
+        },
+        "obsoleted_by": "1F3CC-FE0F-200D-2642-FE0F"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": "RACING MOTORCYCLE",
@@ -17415,8 +17425,14 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
+<<<<<<< HEAD
         "has_img_facebook": true,
         "has_img_messenger": true
+=======
+        "has_img_facebook": false,
+        "has_img_messenger": true,
+        "obsoleted_by": "1F468-200D-1F469-200D-1F466"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": "MAN AND WOMAN HOLDING HANDS",
@@ -17591,7 +17607,8 @@
                 "has_img_facebook": true,
                 "has_img_messenger": true
             }
-        }
+        },
+        "obsoleted_by": "1F46E-200D-2642-FE0F"
     },
     {
         "name": "WOMAN WITH BUNNY EARS",
@@ -17799,7 +17816,8 @@
                 "has_img_facebook": true,
                 "has_img_messenger": true
             }
-        }
+        },
+        "obsoleted_by": "1F471-200D-2642-FE0F"
     },
     {
         "name": "MAN WITH GUA PI MAO",
@@ -17979,7 +17997,8 @@
                 "has_img_facebook": true,
                 "has_img_messenger": true
             }
-        }
+        },
+        "obsoleted_by": "1F473-200D-2642-FE0F"
     },
     {
         "name": "OLDER MAN",
@@ -18339,7 +18358,8 @@
                 "has_img_facebook": true,
                 "has_img_messenger": true
             }
-        }
+        },
+        "obsoleted_by": "1F477-200D-2642-FE0F"
     },
     {
         "name": "PRINCESS",
@@ -18805,7 +18825,8 @@
                 "has_img_facebook": true,
                 "has_img_messenger": true
             }
-        }
+        },
+        "obsoleted_by": "1F481-200D-2640-FE0F"
     },
     {
         "name": "GUARDSMAN",
@@ -18895,7 +18916,8 @@
                 "has_img_facebook": true,
                 "has_img_messenger": true
             }
-        }
+        },
+        "obsoleted_by": "1F482-200D-2642-FE0F"
     },
     {
         "name": "DANCER",
@@ -19193,7 +19215,8 @@
                 "has_img_facebook": true,
                 "has_img_messenger": true
             }
-        }
+        },
+        "obsoleted_by": "1F486-200D-2640-FE0F"
     },
     {
         "name": "HAIRCUT",
@@ -19283,7 +19306,8 @@
                 "has_img_facebook": true,
                 "has_img_messenger": true
             }
-        }
+        },
+        "obsoleted_by": "1F487-200D-2640-FE0F"
     },
     {
         "name": "BARBER POLE",
@@ -19506,8 +19530,14 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
+<<<<<<< HEAD
         "has_img_facebook": true,
         "has_img_messenger": true
+=======
+        "has_img_facebook": false,
+        "has_img_messenger": true,
+        "obsoleted_by": "1F469-200D-2764-FE0F-200D-1F48B-200D-1F468"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": "BOUQUET",
@@ -19562,8 +19592,14 @@
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_emojione": true,
+<<<<<<< HEAD
         "has_img_facebook": true,
         "has_img_messenger": true
+=======
+        "has_img_facebook": false,
+        "has_img_messenger": true,
+        "obsoleted_by": "1F469-200D-2764-FE0F-200D-1F468"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": "WEDDING",
@@ -25530,7 +25566,8 @@
                 "has_img_facebook": true,
                 "has_img_messenger": false
             }
-        }
+        },
+        "obsoleted_by": "1F575-FE0F-200D-2642-FE0F"
     },
     {
         "name": "DARK SUNGLASSES",
@@ -28955,7 +28992,8 @@
                 "has_img_facebook": true,
                 "has_img_messenger": true
             }
-        }
+        },
+        "obsoleted_by": "1F645-200D-2640-FE0F"
     },
     {
         "name": "FACE WITH OK GESTURE",
@@ -29045,7 +29083,8 @@
                 "has_img_facebook": true,
                 "has_img_messenger": true
             }
-        }
+        },
+        "obsoleted_by": "1F646-200D-2640-FE0F"
     },
     {
         "name": "PERSON BOWING DEEPLY",
@@ -29135,7 +29174,8 @@
                 "has_img_facebook": true,
                 "has_img_messenger": true
             }
-        }
+        },
+        "obsoleted_by": "1F647-200D-2642-FE0F"
     },
     {
         "name": "SEE-NO-EVIL MONKEY",
@@ -29309,7 +29349,8 @@
                 "has_img_facebook": true,
                 "has_img_messenger": true
             }
-        }
+        },
+        "obsoleted_by": "1F64B-200D-2640-FE0F"
     },
     {
         "name": "PERSON RAISING BOTH HANDS IN CELEBRATION",
@@ -29489,7 +29530,8 @@
                 "has_img_facebook": true,
                 "has_img_messenger": true
             }
-        }
+        },
+        "obsoleted_by": "1F64D-200D-2640-FE0F"
     },
     {
         "name": "PERSON WITH POUTING FACE",
@@ -29579,7 +29621,8 @@
                 "has_img_facebook": true,
                 "has_img_messenger": true
             }
-        }
+        },
+        "obsoleted_by": "1F64E-200D-2640-FE0F"
     },
     {
         "name": "PERSON WITH FOLDED HANDS",
@@ -30740,7 +30783,8 @@
                 "has_img_facebook": true,
                 "has_img_messenger": false
             }
-        }
+        },
+        "obsoleted_by": "1F6A3-200D-2642-FE0F"
     },
     {
         "name": "SPEEDBOAT",
@@ -31278,7 +31322,8 @@
                 "has_img_facebook": true,
                 "has_img_messenger": true
             }
-        }
+        },
+        "obsoleted_by": "1F6B4-200D-2642-FE0F"
     },
     {
         "name": "MOUNTAIN BICYCLIST",
@@ -31368,7 +31413,8 @@
                 "has_img_facebook": true,
                 "has_img_messenger": true
             }
-        }
+        },
+        "obsoleted_by": "1F6B5-200D-2642-FE0F"
     },
     {
         "name": "PEDESTRIAN",
@@ -31458,7 +31504,8 @@
                 "has_img_facebook": true,
                 "has_img_messenger": true
             }
-        }
+        },
+        "obsoleted_by": "1F6B6-200D-2642-FE0F"
     },
     {
         "name": "NO PEDESTRIANS",
@@ -61248,8 +61295,13 @@
                 "has_img_facebook": false,
                 "has_img_messenger": false
             }
+<<<<<<< HEAD
         }
 >>>>>>> attach skin tone version of the gender sequences to the non-toned versions
+=======
+        },
+        "obsoletes": "1F3C3"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": null,
@@ -61271,6 +61323,7 @@
         "text": null,
         "texts": null,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "category": "Flags",
         "sort_order": 162,
         "has_img_apple": true,
@@ -61282,6 +61335,10 @@
 =======
         "category": null,
         "sort_order": null,
+=======
+        "category": "People",
+        "sort_order": 301,
+>>>>>>> added obsoletes/obsoleted_by properties
         "has_img_apple": false,
         "has_img_google": false,
         "has_img_twitter": false,
@@ -61353,8 +61410,13 @@
                 "has_img_facebook": false,
                 "has_img_messenger": false
             }
+<<<<<<< HEAD
         }
 >>>>>>> attach skin tone version of the gender sequences to the non-toned versions
+=======
+        },
+        "obsoletes": "1F3C3"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": null,
@@ -61486,6 +61548,7 @@
         "text": null,
         "texts": null,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "category": "Flags",
         "sort_order": 167,
         "has_img_apple": true,
@@ -61497,6 +61560,10 @@
 =======
         "category": null,
         "sort_order": null,
+=======
+        "category": "Activity",
+        "sort_order": 84,
+>>>>>>> added obsoletes/obsoleted_by properties
         "has_img_apple": false,
         "has_img_google": false,
         "has_img_twitter": false,
@@ -61568,8 +61635,13 @@
                 "has_img_facebook": false,
                 "has_img_messenger": false
             }
+<<<<<<< HEAD
         }
 >>>>>>> attach skin tone version of the gender sequences to the non-toned versions
+=======
+        },
+        "obsoletes": "1F3C4"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": null,
@@ -61701,6 +61773,7 @@
         "text": null,
         "texts": null,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "category": "Flags",
         "sort_order": 174,
         "has_img_apple": true,
@@ -61712,6 +61785,10 @@
 =======
         "category": null,
         "sort_order": null,
+=======
+        "category": "Activity",
+        "sort_order": 85,
+>>>>>>> added obsoletes/obsoleted_by properties
         "has_img_apple": false,
         "has_img_google": false,
         "has_img_twitter": false,
@@ -61783,8 +61860,13 @@
                 "has_img_facebook": false,
                 "has_img_messenger": false
             }
+<<<<<<< HEAD
         }
 >>>>>>> attach skin tone version of the gender sequences to the non-toned versions
+=======
+        },
+        "obsoletes": "1F3CA"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": null,
@@ -61916,6 +61998,7 @@
         "text": null,
         "texts": null,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "category": "Flags",
         "sort_order": 172,
         "has_img_apple": true,
@@ -61927,6 +62010,10 @@
 =======
         "category": null,
         "sort_order": null,
+=======
+        "category": "Activity",
+        "sort_order": 82,
+>>>>>>> added obsoletes/obsoleted_by properties
         "has_img_apple": false,
         "has_img_google": false,
         "has_img_twitter": false,
@@ -61998,8 +62085,13 @@
                 "has_img_facebook": false,
                 "has_img_messenger": false
             }
+<<<<<<< HEAD
         }
 >>>>>>> attach skin tone version of the gender sequences to the non-toned versions
+=======
+        },
+        "obsoletes": "1F3CB"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": null,
@@ -62131,6 +62223,7 @@
         "text": null,
         "texts": null,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "category": "Flags",
         "sort_order": 168,
         "has_img_apple": true,
@@ -62142,6 +62235,10 @@
 =======
         "category": null,
         "sort_order": null,
+=======
+        "category": "Activity",
+        "sort_order": 83,
+>>>>>>> added obsoletes/obsoleted_by properties
         "has_img_apple": false,
         "has_img_google": false,
         "has_img_twitter": false,
@@ -62213,8 +62310,13 @@
                 "has_img_facebook": false,
                 "has_img_messenger": false
             }
+<<<<<<< HEAD
         }
 >>>>>>> attach skin tone version of the gender sequences to the non-toned versions
+=======
+        },
+        "obsoletes": "1F3CC"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": null,
@@ -62704,14 +62806,15 @@
         ],
         "text": null,
         "texts": null,
-        "category": null,
-        "sort_order": null,
+        "category": "People",
+        "sort_order": 292,
         "has_img_apple": true,
         "has_img_google": false,
         "has_img_twitter": false,
         "has_img_emojione": false,
         "has_img_facebook": false,
-        "has_img_messenger": false
+        "has_img_messenger": false,
+        "obsoletes": "1F46A"
     },
     {
         "name": null,
@@ -64095,6 +64198,7 @@
         "text": null,
         "texts": null,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "category": "Flags",
         "sort_order": 193,
         "has_img_apple": true,
@@ -64106,13 +64210,22 @@
 =======
         "category": null,
         "sort_order": null,
+=======
+        "category": "People",
+        "sort_order": 293,
+>>>>>>> added obsoletes/obsoleted_by properties
         "has_img_apple": false,
         "has_img_google": false,
         "has_img_twitter": false,
         "has_img_emojione": false,
         "has_img_facebook": false,
+<<<<<<< HEAD
         "has_img_messenger": false
 >>>>>>> added ability to template gender and skin-tone naming
+=======
+        "has_img_messenger": false,
+        "obsoletes": "1F491"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": null,
@@ -64184,6 +64297,7 @@
         "text": null,
         "texts": null,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "category": "Flags",
         "sort_order": 200,
         "has_img_apple": true,
@@ -64195,13 +64309,22 @@
 =======
         "category": null,
         "sort_order": null,
+=======
+        "category": "People",
+        "sort_order": 294,
+>>>>>>> added obsoletes/obsoleted_by properties
         "has_img_apple": false,
         "has_img_google": false,
         "has_img_twitter": false,
         "has_img_emojione": false,
         "has_img_facebook": false,
+<<<<<<< HEAD
         "has_img_messenger": false
 >>>>>>> added ability to template gender and skin-tone naming
+=======
+        "has_img_messenger": false,
+        "obsoletes": "1F48F"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": null,
@@ -64383,6 +64506,7 @@
         "text": null,
         "texts": null,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "category": "Flags",
         "sort_order": 256,
         "has_img_apple": true,
@@ -64394,6 +64518,10 @@
 =======
         "category": null,
         "sort_order": null,
+=======
+        "category": "People",
+        "sort_order": 295,
+>>>>>>> added obsoletes/obsoleted_by properties
         "has_img_apple": false,
         "has_img_google": false,
         "has_img_twitter": false,
@@ -64465,8 +64593,13 @@
                 "has_img_facebook": false,
                 "has_img_messenger": false
             }
+<<<<<<< HEAD
         }
 >>>>>>> attach skin tone version of the gender sequences to the non-toned versions
+=======
+        },
+        "obsoletes": "1F46E"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": null,
@@ -64672,6 +64805,7 @@
         "text": null,
         "texts": null,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "category": "Flags",
         "sort_order": 222,
         "has_img_apple": true,
@@ -64683,6 +64817,10 @@
 =======
         "category": null,
         "sort_order": null,
+=======
+        "category": "People",
+        "sort_order": 296,
+>>>>>>> added obsoletes/obsoleted_by properties
         "has_img_apple": false,
         "has_img_google": false,
         "has_img_twitter": false,
@@ -64754,8 +64892,13 @@
                 "has_img_facebook": false,
                 "has_img_messenger": false
             }
+<<<<<<< HEAD
         }
 >>>>>>> attach skin tone version of the gender sequences to the non-toned versions
+=======
+        },
+        "obsoletes": "1F471"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": null,
@@ -64887,6 +65030,7 @@
         "text": null,
         "texts": null,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "category": "Flags",
         "sort_order": 218,
         "has_img_apple": true,
@@ -64898,6 +65042,10 @@
 =======
         "category": null,
         "sort_order": null,
+=======
+        "category": "People",
+        "sort_order": 297,
+>>>>>>> added obsoletes/obsoleted_by properties
         "has_img_apple": false,
         "has_img_google": false,
         "has_img_twitter": false,
@@ -64969,8 +65117,13 @@
                 "has_img_facebook": false,
                 "has_img_messenger": false
             }
+<<<<<<< HEAD
         }
 >>>>>>> attach skin tone version of the gender sequences to the non-toned versions
+=======
+        },
+        "obsoletes": "1F473"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": null,
@@ -65102,6 +65255,7 @@
         "text": null,
         "texts": null,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "category": "Flags",
         "sort_order": 221,
         "has_img_apple": true,
@@ -65113,6 +65267,10 @@
 =======
         "category": null,
         "sort_order": null,
+=======
+        "category": "People",
+        "sort_order": 298,
+>>>>>>> added obsoletes/obsoleted_by properties
         "has_img_apple": false,
         "has_img_google": false,
         "has_img_twitter": false,
@@ -65184,8 +65342,13 @@
                 "has_img_facebook": false,
                 "has_img_messenger": false
             }
+<<<<<<< HEAD
         }
 >>>>>>> attach skin tone version of the gender sequences to the non-toned versions
+=======
+        },
+        "obsoletes": "1F477"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": null,
@@ -65207,6 +65370,7 @@
         "text": null,
         "texts": null,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "category": "Flags",
         "sort_order": 228,
         "has_img_apple": true,
@@ -65218,6 +65382,10 @@
 =======
         "category": null,
         "sort_order": null,
+=======
+        "category": "People",
+        "sort_order": 305,
+>>>>>>> added obsoletes/obsoleted_by properties
         "has_img_apple": false,
         "has_img_google": false,
         "has_img_twitter": false,
@@ -65289,8 +65457,13 @@
                 "has_img_facebook": false,
                 "has_img_messenger": false
             }
+<<<<<<< HEAD
         }
 >>>>>>> attach skin tone version of the gender sequences to the non-toned versions
+=======
+        },
+        "obsoletes": "1F481"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": null,
@@ -65532,6 +65705,7 @@
         "text": null,
         "texts": null,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "category": "Flags",
         "sort_order": 227,
         "has_img_apple": true,
@@ -65543,6 +65717,10 @@
 =======
         "category": null,
         "sort_order": null,
+=======
+        "category": "People",
+        "sort_order": 299,
+>>>>>>> added obsoletes/obsoleted_by properties
         "has_img_apple": false,
         "has_img_google": false,
         "has_img_twitter": false,
@@ -65614,8 +65792,13 @@
                 "has_img_facebook": false,
                 "has_img_messenger": false
             }
+<<<<<<< HEAD
         }
 >>>>>>> attach skin tone version of the gender sequences to the non-toned versions
+=======
+        },
+        "obsoletes": "1F482"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": null,
@@ -65637,6 +65820,7 @@
         "text": null,
         "texts": null,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "category": "Flags",
         "sort_order": 225,
         "has_img_apple": true,
@@ -65648,6 +65832,10 @@
 =======
         "category": null,
         "sort_order": null,
+=======
+        "category": "People",
+        "sort_order": 302,
+>>>>>>> added obsoletes/obsoleted_by properties
         "has_img_apple": false,
         "has_img_google": false,
         "has_img_twitter": false,
@@ -65719,8 +65907,13 @@
                 "has_img_facebook": false,
                 "has_img_messenger": false
             }
+<<<<<<< HEAD
         }
 >>>>>>> attach skin tone version of the gender sequences to the non-toned versions
+=======
+        },
+        "obsoletes": "1F486"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": null,
@@ -65852,6 +66045,7 @@
         "text": null,
         "texts": null,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "category": "Flags",
         "sort_order": 217,
         "has_img_apple": true,
@@ -65863,6 +66057,10 @@
 =======
         "category": null,
         "sort_order": null,
+=======
+        "category": "People",
+        "sort_order": 303,
+>>>>>>> added obsoletes/obsoleted_by properties
         "has_img_apple": false,
         "has_img_google": false,
         "has_img_twitter": false,
@@ -65934,8 +66132,13 @@
                 "has_img_facebook": false,
                 "has_img_messenger": false
             }
+<<<<<<< HEAD
         }
 >>>>>>> attach skin tone version of the gender sequences to the non-toned versions
+=======
+        },
+        "obsoletes": "1F487"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": null,
@@ -66177,6 +66380,7 @@
         "text": null,
         "texts": null,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "category": "Flags",
         "sort_order": 231,
         "has_img_apple": true,
@@ -66188,6 +66392,10 @@
 =======
         "category": null,
         "sort_order": null,
+=======
+        "category": "People",
+        "sort_order": 300,
+>>>>>>> added obsoletes/obsoleted_by properties
         "has_img_apple": false,
         "has_img_google": false,
         "has_img_twitter": false,
@@ -66259,8 +66467,13 @@
                 "has_img_facebook": false,
                 "has_img_messenger": false
             }
+<<<<<<< HEAD
         }
 >>>>>>> attach skin tone version of the gender sequences to the non-toned versions
+=======
+        },
+        "obsoletes": "1F575"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": null,
@@ -66281,8 +66494,8 @@
         ],
         "text": null,
         "texts": null,
-        "category": null,
-        "sort_order": null,
+        "category": "People",
+        "sort_order": 306,
         "has_img_apple": false,
         "has_img_google": false,
 <<<<<<< HEAD
@@ -66360,8 +66573,13 @@
                 "has_img_facebook": false,
                 "has_img_messenger": false
             }
+<<<<<<< HEAD
         }
 >>>>>>> attach skin tone version of the gender sequences to the non-toned versions
+=======
+        },
+        "obsoletes": "1F645"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": null,
@@ -66493,6 +66711,7 @@
         "text": null,
         "texts": null,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "category": "Flags",
         "sort_order": 237,
         "has_img_apple": true,
@@ -66504,6 +66723,10 @@
 =======
         "category": null,
         "sort_order": null,
+=======
+        "category": "People",
+        "sort_order": 307,
+>>>>>>> added obsoletes/obsoleted_by properties
         "has_img_apple": false,
         "has_img_google": false,
         "has_img_twitter": false,
@@ -66575,8 +66798,13 @@
                 "has_img_facebook": false,
                 "has_img_messenger": false
             }
+<<<<<<< HEAD
         }
 >>>>>>> attach skin tone version of the gender sequences to the non-toned versions
+=======
+        },
+        "obsoletes": "1F646"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": null,
@@ -66818,6 +67046,7 @@
         "text": null,
         "texts": null,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "category": "Flags",
         "sort_order": 190,
         "has_img_apple": true,
@@ -66829,6 +67058,10 @@
 =======
         "category": null,
         "sort_order": null,
+=======
+        "category": "People",
+        "sort_order": 308,
+>>>>>>> added obsoletes/obsoleted_by properties
         "has_img_apple": false,
         "has_img_google": false,
         "has_img_twitter": false,
@@ -66900,8 +67133,13 @@
                 "has_img_facebook": false,
                 "has_img_messenger": false
             }
+<<<<<<< HEAD
         }
 >>>>>>> attach skin tone version of the gender sequences to the non-toned versions
+=======
+        },
+        "obsoletes": "1F647"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": null,
@@ -66923,6 +67161,7 @@
         "text": null,
         "texts": null,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "category": "Flags",
         "sort_order": 241,
         "has_img_apple": true,
@@ -66934,6 +67173,10 @@
 =======
         "category": null,
         "sort_order": null,
+=======
+        "category": "People",
+        "sort_order": 309,
+>>>>>>> added obsoletes/obsoleted_by properties
         "has_img_apple": false,
         "has_img_google": false,
         "has_img_twitter": false,
@@ -67005,8 +67248,13 @@
                 "has_img_facebook": false,
                 "has_img_messenger": false
             }
+<<<<<<< HEAD
         }
 >>>>>>> attach skin tone version of the gender sequences to the non-toned versions
+=======
+        },
+        "obsoletes": "1F64B"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": null,
@@ -67138,6 +67386,7 @@
         "text": null,
         "texts": null,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "category": "Flags",
         "sort_order": 236,
         "has_img_apple": true,
@@ -67149,6 +67398,10 @@
 =======
         "category": null,
         "sort_order": null,
+=======
+        "category": "People",
+        "sort_order": 310,
+>>>>>>> added obsoletes/obsoleted_by properties
         "has_img_apple": false,
         "has_img_google": false,
         "has_img_twitter": false,
@@ -67220,8 +67473,13 @@
                 "has_img_facebook": false,
                 "has_img_messenger": false
             }
+<<<<<<< HEAD
         }
 >>>>>>> attach skin tone version of the gender sequences to the non-toned versions
+=======
+        },
+        "obsoletes": "1F64D"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": null,
@@ -67353,6 +67611,7 @@
         "text": null,
         "texts": null,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "category": "Flags",
         "sort_order": 239,
         "has_img_apple": true,
@@ -67364,6 +67623,10 @@
 =======
         "category": null,
         "sort_order": null,
+=======
+        "category": "People",
+        "sort_order": 311,
+>>>>>>> added obsoletes/obsoleted_by properties
         "has_img_apple": false,
         "has_img_google": false,
         "has_img_twitter": false,
@@ -67435,8 +67698,13 @@
                 "has_img_facebook": false,
                 "has_img_messenger": false
             }
+<<<<<<< HEAD
         }
 >>>>>>> attach skin tone version of the gender sequences to the non-toned versions
+=======
+        },
+        "obsoletes": "1F64E"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": null,
@@ -67668,8 +67936,8 @@
         ],
         "text": null,
         "texts": null,
-        "category": null,
-        "sort_order": null,
+        "category": "Activity",
+        "sort_order": 86,
         "has_img_apple": false,
         "has_img_google": false,
 <<<<<<< HEAD
@@ -67747,8 +68015,13 @@
                 "has_img_facebook": false,
                 "has_img_messenger": false
             }
+<<<<<<< HEAD
         }
 >>>>>>> attach skin tone version of the gender sequences to the non-toned versions
+=======
+        },
+        "obsoletes": "1F6A3"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": null,
@@ -67879,8 +68152,8 @@
         ],
         "text": null,
         "texts": null,
-        "category": null,
-        "sort_order": null,
+        "category": "Activity",
+        "sort_order": 87,
         "has_img_apple": false,
         "has_img_google": false,
 <<<<<<< HEAD
@@ -67958,8 +68231,13 @@
                 "has_img_facebook": false,
                 "has_img_messenger": false
             }
+<<<<<<< HEAD
         }
 >>>>>>> attach skin tone version of the gender sequences to the non-toned versions
+=======
+        },
+        "obsoletes": "1F6B4"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": null,
@@ -68091,6 +68369,7 @@
         "text": null,
         "texts": null,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "category": "Flags",
         "sort_order": 246,
         "has_img_apple": true,
@@ -68102,6 +68381,10 @@
 =======
         "category": null,
         "sort_order": null,
+=======
+        "category": "Activity",
+        "sort_order": 88,
+>>>>>>> added obsoletes/obsoleted_by properties
         "has_img_apple": false,
         "has_img_google": false,
         "has_img_twitter": false,
@@ -68173,8 +68456,13 @@
                 "has_img_facebook": false,
                 "has_img_messenger": false
             }
+<<<<<<< HEAD
         }
 >>>>>>> attach skin tone version of the gender sequences to the non-toned versions
+=======
+        },
+        "obsoletes": "1F6B5"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": null,
@@ -68306,6 +68594,7 @@
         "text": null,
         "texts": null,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "category": "People",
         "sort_order": 171,
         "has_img_apple": true,
@@ -68317,6 +68606,10 @@
 =======
         "category": null,
         "sort_order": null,
+=======
+        "category": "People",
+        "sort_order": 304,
+>>>>>>> added obsoletes/obsoleted_by properties
         "has_img_apple": false,
         "has_img_google": false,
         "has_img_twitter": false,
@@ -68388,8 +68681,13 @@
                 "has_img_facebook": false,
                 "has_img_messenger": false
             }
+<<<<<<< HEAD
         }
 >>>>>>> attach skin tone version of the gender sequences to the non-toned versions
+=======
+        },
+        "obsoletes": "1F6B6"
+>>>>>>> added obsoletes/obsoleted_by properties
     },
     {
         "name": null,
@@ -69942,8 +70240,8 @@
         ],
         "text": null,
         "texts": null,
-        "category": null,
-        "sort_order": null,
+        "category": "Activity",
+        "sort_order": 81,
         "has_img_apple": false,
         "has_img_google": false,
         "has_img_twitter": false,
@@ -70019,7 +70317,12 @@
                 "has_img_facebook": false,
                 "has_img_messenger": false
             }
+<<<<<<< HEAD
         }
 >>>>>>> attach skin tone version of the gender sequences to the non-toned versions
+=======
+        },
+        "obsoletes": "26F9"
+>>>>>>> added obsoletes/obsoleted_by properties
     }
 ]

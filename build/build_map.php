@@ -220,20 +220,12 @@
 
 	foreach ($raw as $line){
 		list($line, $junk) = explode('#', $line);
-		list($key, $var) = explode(';', trim($line));
+		list($key, $var) = explode(';', StrToUpper(trim($line)));
 		if (strlen($key)){
 			$obsoleted_by[$key] = $var;
 			$obsoletes[$var] = $key;
 		}
 	}
-
-echo "\n\$obsoleted_by:\n";
-print_r($obsoleted_by);
-
-echo "\n\$obsoletes:\n";
-print_r($obsoletes);
-exit;
-
 
 	echo "OK\n";
 
@@ -463,6 +455,25 @@ exit;
 	}
 
 
+	#
+	# process obsoletes
+	#
+
+	$cp_map = array();
+	foreach ($out as $k => $row){
+		$cp_map[$row['unified']] = $k;
+	}
+
+	foreach ($obsoleted_by as $k => $v){
+		$idx = $cp_map[$k];
+		$out[$idx]['obsoleted_by'] = $v;
+	}
+	
+	foreach ($obsoletes as $k => $v){
+		$idx = $cp_map[$k];
+		$out[$idx]['obsoletes'] = $v;
+	}
+
 
 	#
 	# check for duplicate short names
@@ -499,7 +510,6 @@ exit;
 	}
 
 	echo " DONE\n";
-
 
 
 
@@ -681,9 +691,52 @@ exit;
 	# for obsoleted codepoints, steal category in one direction or another
 	#
 
+	$cp_map = array();
+	foreach ($out as $k => $row){
+		$cp_map[$row['unified']] = $k;
+	}
+
+	foreach ($missing_categories as $k => $junk){
+		$row = $out[$shortname_map[$k]];
+
+		if ($row['obsoletes']){
+			$idx = $cp_map[$row['obsoletes']];
+			$row2 = $out[$idx];
+			$cat = find_assigned_cat($row2['short_name']);
+			if ($cat){
+				$categories[$cat][] = $row['short_name'];
+				unset($missing_categories[$row['short_name']]);
+			}
+		}
+
+		if ($row['obsoleted_by']){
+			$idx = $cp_map[$row['obsoleted_by']];
+			$row2 = $out[$idx];
+			$cat = find_assigned_cat($row2['short_name']);
+			if ($cat){
+				$categories[$cat][] = $row['short_name'];
+				unset($missing_categories[$row['short_name']]);
+			}
+		}
+	}
+
+	function find_assigned_cat($short_name){
+		global $categories;
+		foreach ($categories as $cat => $ids){
+			foreach ($ids as $id){
+				if ($id == $short_name) return $cat;
+			}
+		}
+		return null;
+	}
+
 	#TODO
 
 
+
+	#
+	# find missing categories
+	#
 
 	foreach (array_keys($missing_categories) as $k){
 

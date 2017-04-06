@@ -73,7 +73,9 @@ look like this:
 					"has_img_messenger": false
 				},
 				...
-			}
+			},
+			"obsoletes": "ABCD-1234",
+			"obsoleted_by": "5678-90EF"
 		},
 		...
 	]
@@ -97,6 +99,7 @@ An explanation of the various fields is in order:
    Each ASCII emoji will only appear against a single emoji entry.
 * `has_img_*` - A flag for whether the given image set has an image (named by the `image` prop) available.
 * `skin_variations` - For skin-varying emoji, a list of alternative glyphs, keyed by the skin tone.
+* `obsoletes` / `obsoleted_by` - Emoji that are no longer used, in preference of gendered versions.
 
 
 ## Version history
