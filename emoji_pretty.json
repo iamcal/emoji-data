@@ -9476,9 +9476,10 @@
         "image": "1f373.png",
         "sheet_x": 6,
         "sheet_y": 48,
-        "short_name": "egg",
+        "short_name": "fried_egg",
         "short_names": [
-            "egg"
+            "fried_egg",
+            "cooking"
         ],
         "text": null,
         "texts": null,
@@ -36766,7 +36767,7 @@
         "text": null,
         "texts": null,
         "category": "Foods",
-        "sort_order": 32,
+        "sort_order": 31,
         "added_in": "9.0",
         "has_img_apple": true,
         "has_img_google": true,

@@ -152,7 +152,7 @@
 1F370;cake
 1F371;bento
 1F372;stew
-1F373;egg
+1F373;fried_egg/cooking
 1F374;fork_and_knife
 1F375;tea
 1F376;sake
