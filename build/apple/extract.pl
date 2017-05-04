@@ -7,13 +7,15 @@ use lib '../lib';
 use Font::TTF::Font;
 use Font::TTF::Sbix;
 use Font::TTF::Morx;
+use Font::TTF::TTC;
 
 $Font::TTF::Font::tables{'sbix'} = 'Font::TTF::Sbix';
 $Font::TTF::Font::tables{'morx'} = 'Font::TTF::Morx';
 
-my $filename = "apple_color_emoji_10_11_5.ttf";
+my $filename = "apple_color_emoji_2017_03.ttc";
 
-my $f = Font::TTF::Font->open($filename) || die "Unable to read $filename : $!";
+my $f = Font::TTF::TTC->openCollection($filename) || die "Unable to read $filename : $!";
+$f->readCollection(0);
 
 
 #
