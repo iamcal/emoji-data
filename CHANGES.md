@@ -1,12 +1,15 @@
 # Change Log
 
-## 2017-??-?? : v2.5
+## 2017-??-?? : v2.5.0
 
+* Upgraded maps to Unicode 9 / Emoji 4
 * Made the kissing emoticons (e.g. :*) result in `kissing_heart` instead of `kiss` https://github.com/iamcal/emoji-data/pull/73
+* Switched `U+1F373 COOKING` to use `:cooking:`/`:fried_egg:` as a short code (`:egg:` is now used by `U+1F95A EGG`)
 * Added support for Facebook and FB Messenger images https://github.com/iamcal/emoji-data/pull/76
 * Switched skin tone variations to be keyed by skintone codepoint, not full composite sequence.
 * Added `obsoletes`/`obsoleted_by` fields.
 * Added `added_in` field to show Unicode version source.
+
 
 ## 2016-11-11 : v2.4.5
 
