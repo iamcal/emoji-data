@@ -1,6 +1,7 @@
 # we automatically deal with -FE0F at the end of sequences, but
 # need special handling when it appears in the middle
 0023-20e3;0023-fe0f-20e3
+002a-20e3;002a-fe0f-20e3
 0030-20e3;0030-fe0f-20e3
 0031-20e3;0031-fe0f-20e3
 0032-20e3;0032-fe0f-20e3
@@ -11,6 +12,3 @@
 0037-20e3;0037-fe0f-20e3
 0038-20e3;0038-fe0f-20e3
 0039-20e3;0039-fe0f-20e3
-
-# manually patch in the ligature version of family/man-woman-boy
-1f46a;1f468-200d-1f469-200d-1f466

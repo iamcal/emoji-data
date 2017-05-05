@@ -1,6 +1,6 @@
 # Building the Apple emoji images
 
-Get a copy of the TTF file from a mac - `/System/Library/Fonts/Apple Color Emoji.ttf`.
+Get a copy of the TTC file from a mac - `/System/Library/Fonts/Apple Color Emoji.ttc`.
 
 You may need to install a Perl module first:
 
@@ -16,12 +16,17 @@ Next you'll want to cut the 64px versions that are used in the sheets"
 
     php make64.php
 
-And finally optimize them. This requires the optimizing tools in `build/README.md` to be installed
-and takes a very long time:
 
-    ../optimize.sh ../../img-apple-64/*
+## Updating to new Unicode versions
 
-The resulting 64px images are then ready to use.
+When updating the image-set to add new codepoints, there's a confusing sequence required:
+
+* Update the unicode data files
+* Run `build_map.php` to update what codepoints are in the main JSON catalog
+* Run `apple/extract.pl` to pull the 160px images
+* Run `apple/make64.php` to make the 64px images
+* Re-run `build_map.php` to pick up which images apple supports
+* Run `build_image.php` to build the spritesheet
 
 
 ## Catalog

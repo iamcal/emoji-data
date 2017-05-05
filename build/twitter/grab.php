@@ -18,25 +18,19 @@
 
 	function fetch($img){
 
-		$url_img = $img;
-		if (substr($url_img, 0, 2) == '00') $url_img = substr($url_img, 2, 2) . '-20e3.png';
+		$src_img = $img;
+		if (substr($src_img, 0, 2) == '00') $src_img = substr($src_img, 2, 2) . '-20e3.png';
 
-		$path = "../../img-twitter-72/{$img}";
-		$url = "http://abs.twimg.com/emoji/v2/72x72/{$url_img}";
+		$dst = "../../img-twitter-72/{$img}";
+		$src = "twemoji/2/72x72/{$src_img}";
 
-		#echo "{$img} - $path - $url\n";
-		#continue;
+		#echo "$src -> $dst\n";
+		#return;
 
-		$out = array();
-		$ret = 0;
-		exec("wget -qO {$path} \"{$url}\"", $out, $ret);
-
-		if ($ret){
-			echo "X[{$img}]";
-			#print_r($out);
-
-			if (file_exists($path) && !filesize($path)) unlink($path);
+		if (file_exists($src)){
+			copy($src, $dst);
+			echo '.';
 		}else{
-			echo ".";
+			echo "\nNot found: $src\n";
 		}
 	}

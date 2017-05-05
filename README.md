@@ -9,10 +9,10 @@ Images are extracted from their sources and this library attempts to track the l
 available versions. If you're looking for older versions of Apple or Android images
 (such as the Hairy Heart) then you'll need to look at previous revisions.
 
-* Apple Emoji: Copyright &copy; Apple Inc. - OS X 10.11.1
-* Android Emoji: Copyright &copy; [The Android Open Source Project](https://s3-eu-west-1.amazonaws.com/tw-font/android/NOTICE) - Nougat
-* Twitter Emoji: Copyright &copy; Twitter, Inc. - The original release
-* Emoji One Emoji: Copyright &copy; [Ranks.com Inc.](http://www.emojione.com/developers) - master as of 2015-03-05
+* Apple Emoji: Copyright &copy; Apple Inc. - macOS 10.12 (Sierra)
+* Android Emoji: Copyright &copy; [The Android Open Source Project](https://s3-eu-west-1.amazonaws.com/tw-font/android/NOTICE) - 2b65d03 / 2017-04-10
+* Twitter Emoji: Copyright &copy; Twitter, Inc. - v2.2.5 2017-02-20
+* Emoji One Emoji: Copyright &copy; [Ranks.com Inc.](http://www.emojione.com/developers) - v2.2.7 2016-12-02
 * Facebook/Messenger Emoji: Copyright &copy; Facebook, Inc. - v7
 
 ## Libraries which use this data
@@ -53,6 +53,7 @@ look like this:
 			"texts": null,
 			"category": "People",
 			"sort_order": 116,
+			"added_in": "1.4",
 			"has_img_apple": true,
 			"has_img_google": true,
 			"has_img_twitter": true,
@@ -60,11 +61,12 @@ look like this:
 			"has_img_facebook": false,
 			"has_img_messenger": false,
 			"skin_variations": {
-				"261D-1F3FB": {
+				"1F3FB": {
 					"unified": "261D-1F3FB",
 					"image": "261d-1f3fb.png",
 					"sheet_x": 1,
 					"sheet_y": 3,
+					"added_in": "6.0",
 					"has_img_apple": true,
 					"has_img_google": false,
 					"has_img_twitter": false,
@@ -73,7 +75,9 @@ look like this:
 					"has_img_messenger": false
 				},
 				...
-			}
+			},
+			"obsoletes": "ABCD-1234",
+			"obsoleted_by": "5678-90EF"
 		},
 		...
 	]
@@ -96,7 +100,9 @@ An explanation of the various fields is in order:
 * `texts` - An array of ASCII emoji that should convert into this emoji.
    Each ASCII emoji will only appear against a single emoji entry.
 * `has_img_*` - A flag for whether the given image set has an image (named by the `image` prop) available.
-* `skin_variations` - For skin-varying emoji, a list of alternative glyphs.
+* `added_id` - Unicode versions in which this codepoint/sequence was added.
+* `skin_variations` - For skin-varying emoji, a list of alternative glyphs, keyed by the skin tone.
+* `obsoletes` / `obsoleted_by` - Emoji that are no longer used, in preference of gendered versions.
 
 
 ## Version history

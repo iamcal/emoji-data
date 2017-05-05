@@ -1,6 +1,9 @@
-[submodule "emojione"]
-	path = emojione
+[submodule "build/emojione/emojione"]
+	path = build/emojione/emojione
 	url = https://github.com/Ranks/emojione.git
 [submodule "build/google/noto-emoji"]
 	path = build/google/noto-emoji
 	url = https://github.com/googlei18n/noto-emoji.git
+[submodule "build/twitter/twemoji"]
+	path = build/twitter/twemoji
+	url = https://github.com/twitter/twemoji.git

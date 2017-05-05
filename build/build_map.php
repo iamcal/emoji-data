@@ -41,13 +41,94 @@
 	$raw = file('data_variations.txt');
 
 	$variations = array();
+	$variations_handled = array();
+
 	foreach ($raw as $line){
 		if (substr($line, 0, 1) == '#') continue;
+		list($line, $junk) = explode('#', $line);
 		list($key, $vars) = explode(';', trim($line));
 		if (strlen($key)){
 			$variations[$key] = explode('/', $vars);
 		}
 	}
+
+
+	#
+	# load zwj variations too
+	#
+
+	parse_unicode_specfile('unicode/emoji-zwj-sequences.txt', function($fields, $comment){
+
+		$cps = explode(' ', $fields[0]);
+		$hex_low = StrToLower(implode('-', $cps));
+
+	#	$key1 = str_replace('-200d-', '-', $hex_low);
+	#	if ($key1 != $hex_low){
+	#		add_variation($key1, $hex_low);
+	#	}
+
+		$key2 = str_replace('-fe0f', '', $hex_low);
+		if ($key2 != $hex_low){
+			add_variation($key2, $hex_low);
+		}
+
+		$key3 = str_replace('-200d-', '-', str_replace('-fe0f', '', $hex_low));
+		if ($key3 != $hex_low){
+			add_variation($key3, $hex_low);
+		}
+	});
+
+	function add_variation($base, $variation){
+		global $variations;
+
+		if (!is_array($variations[$base])){
+			$variations[$base] = array();
+		}
+
+		if (!in_array($variation, $variations[$base])){
+			$variations[$base][] = $variation;
+		}
+	}
+
+
+	#
+	# get versions for all emoji
+	#
+
+	echo "\nFetching versions : ";
+
+	$versions = array();
+
+	parse_unicode_specfile('unicode/emoji-data.txt', 'get_versions');
+	parse_unicode_specfile('unicode/emoji-sequences.txt', 'get_versions');
+	parse_unicode_specfile('unicode/emoji-zwj-sequences.txt', 'get_versions');
+
+	function get_versions($fields, $comment){
+
+		$hex_lows = array();
+
+		if (strpos($fields[0], '..')){
+			list($a, $b) = explode('..', $fields[0]);
+			$a = hexdec($a);
+			$b = hexdec($b);
+
+			$cps = array();
+			for ($i=$a; $i<=$b; $i++){
+				$hex_lows[] = sprintf('%04x', $i);
+			}
+		}else{
+			$cps = explode(' ', $fields[0]);
+			$hex_lows = array(StrToLower(implode('-', $cps)));
+		}
+
+		if (preg_match('!^\s*(\d+\.\d+)!', $comment, $m)){
+			foreach ($hex_lows as $hex_low){
+				$GLOBALS['versions'][$hex_low] = $m[1];
+			}
+		}
+	}
+
+	echo " DONE\n";
 
 
 	#
@@ -74,9 +155,7 @@
 				$lc = StrToLower($hex);
 				$lc_base = StrToLower(substr($hex, 0, -5));
 
-				if (!is_array($variations[$lc_base]) || !in_array($lc, $variations[$lc_base])){
-					$variations[$lc_base][] = $lc;
-				}
+				add_variation($lc_base, $lc);
 			}
 
 			$p++;
@@ -94,6 +173,7 @@
 
 	load_short_names('data_emoji_names.txt');
 	load_short_names('data_emoji_names_more.txt');
+	load_short_names('data_emoji_names_v4.txt');
 
 	function load_short_names($file){
 
@@ -105,15 +185,87 @@
 			$line = trim($line);
 			if (!strlen($line)) continue;
 
-			list($cp, $names) = explode(';', $line);
-			if (isset($GLOBALS['short_names'][$cp])){
-				echo "ignoring def for $line\n";
+			if (preg_match('!{.*?}!', $line)){
+				$lines = expand_short_name_line($line);
+
+				foreach ($lines as $line){
+					load_short_name($line);
+				}
 			}else{
-				$GLOBALS['short_names'][$cp] = explode('/', $names);
+				load_short_name($line);
 			}
 		}
 	}
 
+	function expand_short_name_line($line){
+
+		# expand gender first
+		if (preg_match('!{(MAN/WOMAN|MALE/FEMALE|GENDER|M/W)}!', $line)){
+			$a = str_replace(array('{MAN/WOMAN}', '{MALE/FEMALE}', '{GENDER}', '{M/W}'), array('1F468', '2642-FE0F', 'male', 'man'), $line);
+			$b = str_replace(array('{MAN/WOMAN}', '{MALE/FEMALE}', '{GENDER}', '{M/W}'), array('1F469', '2640-FE0F', 'female', 'woman'), $line);
+			return array_merge(
+				expand_short_name_line($a),
+				expand_short_name_line($b)
+			);
+		}
+
+		# expand optional skin tones
+		if (preg_match('#{SKIN}#', $line, $m)){
+			$out = array();
+			$out[] = str_replace('{SKIN}', '', $line);
+			$out[] = str_replace('{SKIN}', '-1F3FB', $line).':skin-2';
+			$out[] = str_replace('{SKIN}', '-1F3FC', $line).':skin-3';
+			$out[] = str_replace('{SKIN}', '-1F3FD', $line).':skin-4';
+			$out[] = str_replace('{SKIN}', '-1F3FE', $line).':skin-5';
+			$out[] = str_replace('{SKIN}', '-1F3FF', $line).':skin-6';
+			return $out;
+		}
+
+		# expand required skin tones
+		if (preg_match('#{SKIN!}#', $line, $m)){
+			$out = array();
+			$out[] = str_replace('{SKIN!}', '-1F3FB', $line).':skin-2';
+			$out[] = str_replace('{SKIN!}', '-1F3FC', $line).':skin-3';
+			$out[] = str_replace('{SKIN!}', '-1F3FD', $line).':skin-4';
+			$out[] = str_replace('{SKIN!}', '-1F3FE', $line).':skin-5';
+			$out[] = str_replace('{SKIN!}', '-1F3FF', $line).':skin-6';
+			return $out;
+		}		
+
+		# give up
+		return array($line);
+	}
+
+	function load_short_name($line){
+
+		list($cp, $names) = explode(';', $line);
+
+		if (isset($GLOBALS['short_names'][$cp])){
+			$val = implode('/', $GLOBALS['short_names'][$cp]);
+			echo "ignoring def for $line (already set to {$val})\n";
+		}else{
+			$GLOBALS['short_names'][$cp] = explode('/', $names);
+		}
+	}
+
+
+	#
+	# load obsolete mappings
+	#
+
+	$raw = file('data_obsoleted.txt');
+
+	$obsoleted_by = array();
+	$obsoletes = array();
+
+	foreach ($raw as $line){
+		list($line, $junk) = explode('#', $line);
+		list($key, $var) = explode(';', StrToUpper(trim($line)));
+		if (strlen($key)){
+			$obsoleted_by[$key] = $var;
+			$obsoletes[$var] = $key;
+		}
+	}
 
 	echo "OK\n";
 
@@ -239,6 +391,7 @@
 		foreach ($cps as $cp){
 
 			$hex_low = sprintf('%04x', $cp);
+
 			if ($out_unis[$hex_low]) continue;
 
 			if ($cp == 0x0023) continue; # number sign
@@ -266,24 +419,101 @@
 	parse_unicode_specfile('unicode/emoji-sequences.txt', 'check_sequence');
 	parse_unicode_specfile('unicode/emoji-zwj-sequences.txt', 'check_sequence');
 
-
 	function check_sequence($fields, $comment){
 
 		echo '.';
 
 		$cps = explode(' ', $fields[0]);
 		$last = $cps[count($cps)-1];
+		$hex_low = StrToLower(implode('-', $cps));
 
 		# skip skin tone variations - we treat those specially
 		if (in_array($last, $GLOBALS['skin_variation_suffixes'])) return;
 
-		$hex_low = StrToLower(implode('-', $cps));
+		# is this already on the output list?
 		if ($GLOBALS['out_unis'][$hex_low]) return;
+
+		# is this an explicit variation we've already added to the output map?
+		if ($GLOBALS['variations_handled'][$hex_low]) return;
 
 		echo "\nFound sequence not supported: $hex_low / {$comment}\n";
 	}
 
 	echo " DONE\n";
+
+
+	#
+	# for zwj sequences with skin tones in them, attach to non-toned version as variations
+	#
+
+	$variations = array();
+
+	$out = array_filter($out, function($row){
+		if (strpos($row['short_name'], ':skin-') > 0){
+			$GLOBALS['variations'][] = $row;
+			return false;
+		}
+		return true;
+	});
+
+	$short_name_map = array();
+	foreach ($out as $k => $row){
+		$short_name_map[$row['short_name']] = $k;
+	}
+
+	$skin_codepoints = array(
+		'skin-2' => '1F3FB',
+		'skin-3' => '1F3FC',
+		'skin-4' => '1F3FD',
+		'skin-5' => '1F3FE',
+		'skin-6' => '1F3FF',
+	);
+
+	foreach ($variations as $row){
+		list($name, $skin) = explode(':', $row['short_name']);
+		$skin_cp = $skin_codepoints[$skin];
+		$key = $short_name_map[$name];
+
+		if (isset($key) && isset($out[$key])){
+			$out[$key]['skin_variations'][$skin_cp] = simplify_row($row);
+		}else{
+			echo "\nERROR: unable to find parent for {$row['short_name']}\n";
+		}
+	}
+
+	function simplify_row($row){
+		$out = array();
+
+		foreach ($row as $k => $v){
+			if (in_array($k, array('unified', 'image', 'sheet_x', 'sheet_y'))){
+				$out[$k] = $v;
+			}elseif (substr($k, 0, 8) == 'has_img_'){
+				$out[$k] = $v;
+			}
+		}
+
+		return $out;
+	}
+
+
+	#
+	# process obsoletes
+	#
+
+	$cp_map = array();
+	foreach ($out as $k => $row){
+		$cp_map[$row['unified']] = $k;
+	}
+
+	foreach ($obsoleted_by as $k => $v){
+		$idx = $cp_map[$k];
+		$out[$idx]['obsoleted_by'] = $v;
+	}
+	
+	foreach ($obsoletes as $k => $v){
+		$idx = $cp_map[$k];
+		$out[$idx]['obsoletes'] = $v;
+	}
 
 
 	#
@@ -326,7 +556,6 @@
 
 
 
-
 	function build_character_data($img_key, $short_names){
 
 		global $text;
@@ -348,7 +577,10 @@
 
 		$vars = $GLOBALS['variations'][$img_key];
 		if (!is_array($vars)) $vars = array();
-		foreach ($vars as $k => $v) $vars[$k] = StrToUpper($v);	
+		foreach ($vars as $k => $v){
+			$vars[$k] = StrToUpper($v);
+			$GLOBALS['variations_handled'][$v] = 1;
+		}
 
 		if (!is_array($shorts)) $shorts = array();
 		$short = count($shorts) ? $shorts[0] : null;
@@ -379,6 +611,7 @@
 			'texts'		=> $GLOBALS['texts'][$short],
 			'category'	=> is_array($category) ? $category[0] : null,
 			'sort_order'	=> is_array($category) ? $category[1] : null,
+			'added_in'	=> $GLOBALS['versions'][$img_key],
 		);
 
 		$ret['has_img_apple']		= file_exists("{$GLOBALS['dir']}/../img-apple-64/{$ret['image']}");
@@ -404,6 +637,7 @@
 					'image'			=> $var_img,
 					'sheet_x'		=> 0,
 					'sheet_y'		=> 0,
+					'added_in'		=> $GLOBALS['versions'][StrToLower($var_uni)],
 					'has_img_apple'		=> file_exists("{$GLOBALS['dir']}/../img-apple-64/{$var_img}"),
 					'has_img_google'	=> file_exists("{$GLOBALS['dir']}/../img-google-64/{$var_img}"),
 					'has_img_twitter'	=> file_exists("{$GLOBALS['dir']}/../img-twitter-64/{$var_img}"),
@@ -412,7 +646,7 @@
 					'has_img_messenger'	=> file_exists("{$GLOBALS['dir']}/../img-messenger-64/{$var_img}"),
 				);
 
-				$ret['skin_variations'][$var_uni] = $variation;
+				$ret['skin_variations'][$suffix] = $variation;
 			}
 		}
 
@@ -454,9 +688,25 @@
 	category_append('skin-tone-5', 'Skin Tones');
 	category_append('skin-tone-6', 'Skin Tones');
 
+	category_append('female_sign', 'Symbols');
+	category_append('male_sign', 'Symbols');
+	category_append('staff_of_aesculapius', 'Symbols');
+
+	category_insert_after('eye-in-speech-bubble', 'loudspeaker');
 	category_insert_after('left_speech_bubble', 'speech_balloon');
+
 	category_insert_after('keycap_star', 'keycap_ten');
 	category_insert_after('eject', 'black_square_for_stop');
+
+	category_insert_before('face_palm', 'woman-facepalming');
+	category_insert_before('shrug', 'woman-shrugging');
+
+	category_insert_before('person_doing_cartwheel', 'woman-cartwheeling');
+	category_insert_before('juggling', 'woman-juggling');
+	category_insert_before('wrestlers', 'woman-wrestling');
+	category_insert_before('handball', 'woman-playing-handball');
+	category_insert_before('water_polo', 'woman-playing-water-polo');
+
 
 	foreach (array_keys($missing_categories) as $k){
 		if (substr($k, 0, 5) == 'flag-'){
@@ -494,6 +744,80 @@
 			}
 		}
 	}
+
+	function category_insert_before($id, $before){
+		global $categories, $missing_categories;
+
+		if (!$missing_categories[$id]) return;
+
+		foreach ($categories as $k => $emojis){
+			$out = array();
+			$found = false;
+			foreach ($emojis as $emoji){
+				if ($emoji == $before){
+					$out[] = $id;
+					$found = true;
+				}
+				$out[] = $emoji;
+			}
+			if ($found){
+				$categories[$k] = $out;
+				unset($missing_categories[$id]);
+			}
+		}
+	}
+
+
+	#
+	# for obsoleted codepoints, steal category in one direction or another
+	#
+
+	$cp_map = array();
+	foreach ($out as $k => $row){
+		$cp_map[$row['unified']] = $k;
+	}
+
+	foreach ($missing_categories as $k => $junk){
+		$row = $out[$shortname_map[$k]];
+
+		if ($row['obsoletes']){
+			$idx = $cp_map[$row['obsoletes']];
+			$row2 = $out[$idx];
+			$cat = find_assigned_cat($row2['short_name']);
+			if ($cat){
+				$categories[$cat][] = $row['short_name'];
+				unset($missing_categories[$row['short_name']]);
+			}
+		}
+
+		if ($row['obsoleted_by']){
+			$idx = $cp_map[$row['obsoleted_by']];
+			$row2 = $out[$idx];
+			$cat = find_assigned_cat($row2['short_name']);
+			if ($cat){
+				$categories[$cat][] = $row['short_name'];
+				unset($missing_categories[$row['short_name']]);
+			}
+		}
+	}
+
+	function find_assigned_cat($short_name){
+		global $categories;
+		foreach ($categories as $cat => $ids){
+			foreach ($ids as $id){
+				if ($id == $short_name) return $cat;
+			}
+		}
+		return null;
+	}
+
+	#TODO
+
+
+
+	#
+	# find missing categories
+	#
 
 	foreach (array_keys($missing_categories) as $k){
 
