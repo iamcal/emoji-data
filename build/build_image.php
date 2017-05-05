@@ -52,15 +52,11 @@
 
 
 		#
-		# find the replacement glyph for this set
+		# we always want to include the actual type image, but have a fallback list if
+		# those are missing
 		#
 
-		$replacement = null;
-		foreach ($catalog as $row){
-			if ($row['unified'] == '2753'){
-				$replacement = "img-{$type}-64/{$row['image']}";
-			}
-		}
+		$try_order = array($type, 'apple', 'emojione', 'google', 'twitter', 'facebook', 'messenger');
 
 
 		#
@@ -77,46 +73,7 @@
 			# do we have the image in this set?
 			#
 
-			$main_img = null;
-
-			while (1){
-
-				#
-				# prefer the image is the set we're building, duh
-				#
-
-				if ($row["has_img_{$type}"]){
-
-					$comp[$index] = "img-{$type}-64/{$row['image']}";
-					break;
-				}
-
-
-				#
-				# apple is always our first fallback. after that, we'll try emojione
-				# (since it has the missing flags), else fall back to the replacement glyph
-				#
-
-				$try_order = array('apple', 'emojione', 'google', 'twitter');
-
-				foreach ($try_order as $try_type){
-
-					if ($row["has_img_{$try_type}"]){
-
-						$comp[$index] = "img-{$try_type}-64/{$row['image']}";
-						break 2;
-					}
-				}
-
-
-				#
-				# it's missing - try the fallback (2753)
-				#
-
-				$comp[$index] = $replacement;
-				echo "Unable to find any images for U+{$row['unified']}\n";
-				break;
-			}
+			$comp[$index] = find_image($try_order, $row);
 
 
 			#
@@ -127,17 +84,8 @@
 				foreach ($row['skin_variations'] as $row2){
 
 					$index = $size*$row2['sheet_y'] + $row2['sheet_x'];
-					$vari_img = $row2["has_img_{$type}"];
 
-					# uncomment this line if you want each variations position to
-					# have the 'main' image inserted. this makes using it slightly
-					# easier, at the cost of heavier sheets.
-					#if (is_null($vari_img)) $vari_img = $main_img;
-
-					if ($vari_img){
-
-						$comp[$index] = "img-{$type}-64/{$row2['image']}";
-					}
+					$comp[$index] = find_image($try_order, $row2);
 				}
 			}
 
@@ -183,4 +131,34 @@
 		}
 
 		echo "DONE\n\n";
+	}
+
+
+	function find_image($try_order, $row){
+
+		#
+		# try our priority list
+		#
+
+		foreach ($try_order as $try_type){
+
+			if ($row["has_img_{$try_type}"]){
+
+				return "img-{$try_type}-64/{$row['image']}";
+			}
+		}
+
+
+		#
+		# it's missing - try the fallback (2753)
+		#
+
+		foreach ($try_order as $try_type){
+
+			$path = "img-{$try_type}-64/2753.png";
+
+			if (file_exists("../$path")) return $path;
+		}
+
+		return 'MISSING.png';
 	}

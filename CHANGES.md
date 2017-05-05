@@ -1,5 +1,11 @@
 # Change Log
 
+## 2017-??-?? : v.2.5.1
+
+* Include all fallback images in every sheet, including skin tones. This allows sheet consumers to only include the sheets
+  they want to use, without requiring the apple ones for fallback.
+
+
 ## 2017-05-04 : v2.5.0
 
 * Upgraded maps to Unicode 9 / Emoji 4
