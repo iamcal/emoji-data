@@ -1,6 +1,6 @@
 # Change Log
 
-## 2017-??-?? : v2.5.0
+## 2017-05-04 : v2.5.0
 
 * Upgraded maps to Unicode 9 / Emoji 4
 * Made the kissing emoticons (e.g. :*) result in `kissing_heart` instead of `kiss` https://github.com/iamcal/emoji-data/pull/73
