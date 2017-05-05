@@ -558,8 +558,6 @@
 
 	function build_character_data($img_key, $short_names){
 
-		global $text;
-
 		$uni = StrToUpper($img_key);
 
 		$line = shell_exec("grep -e ^{$uni}\\; unicode/UnicodeData.txt");
