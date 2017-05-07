@@ -1,5 +1,10 @@
 # Change Log
 
+## 2017-05-06 : v2.5.2
+
+* Fixed npm packaging
+
+
 ## 2017-05-05 : v.2.5.1
 
 * Include all fallback images in every sheet, including skin tones. This allows sheet consumers to only include the sheets
