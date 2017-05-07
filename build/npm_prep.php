@@ -5,22 +5,28 @@
 	#
 
 	$dir = __DIR__;
+	$version = trim(shell_exec("node -e \"console.log(require('../package.json').version);\""));
 
 	@mkdir("$dir/../packages");
 
-	prep_package('apple');
-	prep_package('twitter');
-	prep_package('google');
-	prep_package('emojione');
-	prep_package('facebook');
-	prep_package('messenger');
+	include('sets.php');
+
+	echo "Preparing emoji-datasource ... ";
+	prep_base_package();
+	echo "OK\n";
+
+	foreach ($image_sets as $set){
+		echo "Preparing emoji-datasource-{$set} ... ";
+		prep_package($set);
+		echo "OK\n";
+	}
 
 	echo "All done!\n";
 
 
 	function prep_package($name){
 
-		global $dir;
+		global $dir, $version;
 
 		shell_exec("rm -rf {$dir}/../packages/{$name}");
 		mkdir("{$dir}/../packages/{$name}");
@@ -50,6 +56,45 @@
 
 		shell_exec("cp {$dir}/../img-{$name}-64/*.png {$dir}/../packages/{$name}/img/{$name}/64/");
 
+		copy_base_files($name);
+
+		$package = file_get_contents("{$dir}/package-images.json");
+		$package = str_replace(array('#NAME#', '#VERSION#'), array($name, $version), $package);
+
+		$fh = fopen("{$dir}/../packages/{$name}/package.json", 'w');
+		fputs($fh, $package);
+		fclose($fh);
+	}
+
+	function prep_base_package(){
+
+		global $dir, $version, $image_sets;
+
+		shell_exec("rm -rf {$dir}/../packages/base");
+		mkdir("{$dir}/../packages/base");
+		mkdir("{$dir}/../packages/base/img");
+
+		foreach ($image_sets as $set){
+			mkdir("{$dir}/../packages/base/img/{$set}");
+			mkdir("{$dir}/../packages/base/img/{$set}/sheets");
+			copy("{$dir}/../sheet_{$set}_32.png", "{$dir}/../packages/base/img/{$set}/sheets/32.png");
+		}
+
+		copy_base_files('base');
+
+		$package = file_get_contents("{$dir}/package-base.json");
+		$package = str_replace(array('#VERSION#'), array($version), $package);
+
+		$fh = fopen("{$dir}/../packages/base/package.json", 'w');
+		fputs($fh, $package);
+		fclose($fh);
+	}
+
+
+	function copy_base_files($name){
+
+		global $dir;
+
 		$files = array(
 			'LICENSE',
 			'README.md',
@@ -61,13 +106,4 @@
 		foreach ($files as $file){
 			copy("{$dir}/../{$file}", "{$dir}/../packages/{$name}/{$file}");
 		}
-
-		$version = trim(shell_exec("node -e \"console.log(require('../package.json').version);\""));
-
-		$package = file_get_contents("{$dir}/package.json.template");
-		$package = str_replace(array('#NAME#', '#VERSION#'), array($name, $version), $package);
-
-		$fh = fopen("{$dir}/../packages/{$name}/package.json", 'w');
-		fputs($fh, $package);
-		fclose($fh);
 	}

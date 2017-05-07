@@ -3,28 +3,24 @@ images for use on the web.
 
 You can see a catalog of the emoji data here: http://unicodey.com/emoji-data/table.htm
 
-## Image Sources
 
-Images are extracted from their sources and this library attempts to track the latest
-available versions. If you're looking for older versions of Apple or Android images
-(such as the Hairy Heart) then you'll need to look at previous revisions.
+## Installation
 
-* Apple Emoji: Copyright &copy; Apple Inc. - macOS 10.12 (Sierra)
-* Android Emoji: Copyright &copy; [The Android Open Source Project](https://s3-eu-west-1.amazonaws.com/tw-font/android/NOTICE) - 2b65d03 / 2017-04-10
-* Twitter Emoji: Copyright &copy; Twitter, Inc. - v2.2.5 2017-02-20
-* Emoji One Emoji: Copyright &copy; [Ranks.com Inc.](http://www.emojione.com/developers) - v2.2.7 2016-12-02
-* Facebook/Messenger Emoji: Copyright &copy; Facebook, Inc. - v7
+The git repo is pretty big (almost 4GB), but contains everything. If you want to use `npm`, you can:
 
-## Libraries which use this data
+    npm install emoji-datasource
 
-* https://github.com/iamcal/js-emoji - JavaScript emoji library
-* https://github.com/iamcal/php-emoji - PHP emoji library
-* https://github.com/mroth/emoji-data-js - NodeJS emoji library
-* https://github.com/mroth/emoji_data.rb - Ruby emoji library
-* https://github.com/mroth/exmoji - Elixir/Erlang emoji library
-* https://github.com/needim/wdt-emoji-bundle - a Slack-style JavaScript emoji picker
-* https://github.com/mroth/emojistatic - emoji image CDN
-* https://github.com/juanfran/emoji-data-css - emoji css files
+This will only install the 32px full-fidelity spritesheets. If you want different size sheets (16,20 or 64px),
+quantized sheets (128 or 256 color) or the individual images (at 64px) then you'll need to install additional
+npm modules:
+
+    npm install emoji-datasource-apple
+    npm install emoji-datasource-google
+    npm install emoji-datasource-twitter
+    npm install emoji-datasource-emojione
+    npm install emoji-datasource-facebook
+    npm install emoji-datasource-messenger
+
 
 ## Using the data
 
@@ -108,3 +104,28 @@ An explanation of the various fields is in order:
 ## Version history
 
 See [CHANGES.md](CHANGES.md)
+
+
+## Image Sources
+
+Images are extracted from their sources and this library attempts to track the latest
+available versions. If you're looking for older versions of Apple or Android images
+(such as the Hairy Heart) then you'll need to look at previous revisions.
+
+* Apple Emoji: Copyright &copy; Apple Inc. - macOS 10.12 (Sierra)
+* Android Emoji: Copyright &copy; [The Android Open Source Project](https://s3-eu-west-1.amazonaws.com/tw-font/android/NOTICE) - 2b65d03 / 2017-04-10
+* Twitter Emoji: Copyright &copy; Twitter, Inc. - v2.2.5 2017-02-20
+* Emoji One Emoji: Copyright &copy; [Ranks.com Inc.](http://www.emojione.com/developers) - v2.2.7 2016-12-02
+* Facebook/Messenger Emoji: Copyright &copy; Facebook, Inc. - v7
+
+
+## Libraries which use this data
+
+* https://github.com/iamcal/js-emoji - JavaScript emoji library
+* https://github.com/iamcal/php-emoji - PHP emoji library
+* https://github.com/mroth/emoji-data-js - NodeJS emoji library
+* https://github.com/mroth/emoji_data.rb - Ruby emoji library
+* https://github.com/mroth/exmoji - Elixir/Erlang emoji library
+* https://github.com/needim/wdt-emoji-bundle - a Slack-style JavaScript emoji picker
+* https://github.com/mroth/emojistatic - emoji image CDN
+* https://github.com/juanfran/emoji-data-css - emoji css files
