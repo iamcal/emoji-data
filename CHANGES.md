@@ -1,5 +1,10 @@
 # Change Log
 
+## 2017-05-08 : v3.0.0
+
+* Since the npm packaging format has changed, increment the major version https://github.com/iamcal/emoji-data/issues/87
+
+
 ## 2017-05-06 : v2.5.2
 
 * Fixed npm packaging
