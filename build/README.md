@@ -1,11 +1,14 @@
 ## Building the data
 
-The scripts in this `build/` sub directory allow you to rebuild the data files 
+The scripts in this `build/` sub directory allow you to rebuild the data files
 from a mix of sources, including unicode.org standards and the gemoji project.
 
 You can rebuild by following these steps:
 
 	cd build/
+
+    # Standardize Google emoji image filenames
+    node google_image_name_standerdization.js
 
 	# Rebuild catalog.php from the original data tables
 	wget http://www.unicode.org/~scherer/emoji4unicode/snapshot/full.html
@@ -97,3 +100,13 @@ We need newer versions of everything than e.g. Debian has:
     cp zopflipng /usr/local/bin
     cd ..
     rm -rf zopfli
+
+Alternativly, you can use homebrew to install the dependicies:
+
+    brew install advancecomp
+    brew install pngcrush
+    brew install pngout
+    brew install optipng
+    brew install pngquant
+    brew install zopfli
+    brew install parallel
