@@ -8,8 +8,8 @@ quant_sheet() {
 
 	if [ $STATUS -eq 0 ]
 	then
-		IN_SIZE=$(stat -c%s "$IN")
-		OUT_SIZE=$(stat -c%s "$OUT")
+		IN_SIZE=$(gstat -c%s "$IN")
+		OUT_SIZE=$(gstat -c%s "$OUT")
 
 		echo "  Quantized $IN to $OUT"
 		echo "  Old size : $IN_SIZE"

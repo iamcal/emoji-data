@@ -27,7 +27,7 @@ fi
 check_file_size() {
 	FILE_IS_SMALL=0
 	FILE_IS_LARGE=0
-	SIZE=$(stat -c%s "$IN")
+	SIZE=$(gstat -c%s "$IN")
 	if [ $SIZE -gt "256000" ]; then
 		FILE_IS_LARGE=1
 	fi
@@ -94,7 +94,7 @@ zopfli() {
 
 	FILTERS="--filters=0pme"
 	ALTERNATIVE_STRAT=0
-	SIZE=$(stat -c%s "$IN")
+	SIZE=$(gstat -c%s "$IN")
 
 	LIMIT_MUL="0.8"
 	if [ $ALTERNATIVE_STRAT -eq 1 ]; then LIMIT_MUL="1.4"; fi
@@ -127,7 +127,7 @@ zopfli() {
 
 
 show_size() {
-	SIZE=$(stat -c%s "$OUT")
+	SIZE=$(gstat -c%s "$OUT")
 	echo "  $LABEL $SIZE"
 }
 
