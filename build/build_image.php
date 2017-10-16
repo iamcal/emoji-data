@@ -91,39 +91,35 @@
 
 		}
 
+		$list_file = __DIR__."/{$type}.txt";
 		$geom = escapeshellarg("{$img_w}x{$img_w}");
 		$tile = escapeshellarg("{$size}x{$size}");
 		$dst = escapeshellarg("sheet_{$type}_{$img_w}.png");
-		$cmd = "montage @- -geometry {$geom} -tile {$tile} -background none png32:{$dst}";
-
-		# Read filenames on stdin
-		$fd_spec = array(
-			0 => array("pipe", "r")
-		);
-
-		$pipes = array();
+		$cmd = "montage @{$list_file} -geometry {$geom} -tile {$tile} -background none png32:{$dst}";
 
 		# chdir into parent directory first
 		$cwd = __DIR__.'/..';
 
-		$res = proc_open($cmd, $fd_spec, $pipes, $cwd);
-
 		# Write out each filename
+		$files = "";
+
 		foreach ($comp as $index => $file){
 			if ($file !== null){
-				fwrite($pipes[0], "{$file}\n");
+				$files .= "{$file}\n";
 				echo '.';
 			}else{
-				fwrite($pipes[0], "null:\n");
-				echo ' ';
+				$files .= "null:\n";
+				echo 'x';
 			}
 
 			if ($index % $size == $size - 1){
 				echo "\n";
 			}
 		}
+		file_put_contents($list_file, $files);
 
-		fclose($pipes[0]);
+		$pipes = array();
+		$res = proc_open($cmd, array(), $pipes, $cwd);
 
 		if (proc_close($res) > 0) {
 			echo "Something went wrong\n\n";
