@@ -18,10 +18,11 @@
 const fs = require('fs');
 
 const appleDir = '../img-apple-64';
-const googleDir64 = '../img-google-64/';
-const googleDir136 = '../img-google-136/'
+const googleDir64 = '../img-google-64';
+const googleDir136 = '../img-google-136'
 
 var mapFromIncompleteToStandard = {};
+var mapFromCurrentToObsoleteFilenames = {};
 var renamedFileCount = 0;
 
 /**
@@ -62,10 +63,55 @@ var renameGoogleImgFiles = function(googleDir) {
 			fs.renameSync(oldPath, newPath);
 			renamedFileCount++;
 		}
+
+		filename = completeFilename || filename;
+		var obsoleteFilename = mapFromCurrentToObsoleteFilenames[filename];
+		if (obsoleteFilename && obsoleteFilename != filename) {
+			var oldPath = `${googleDir}/${filename}`;
+			var newPath = `${googleDir}/${obsoleteFilename}`;
+			console.log(oldPath, newPath);
+			// copyAndRenameFile(oldPath, newPath);
+		}
 	});
 }
 
+var copyAndRenameFile = function(sourceFile, newName) {
+	try {
+		// if source file does not exist return
+		if (!fs.existsSync(sourceFile)) return;
+		// if we would overwrite and existing file, return
+		if (fs.existsSync(newName)) return;
+		// copy the file to the new destination
+		fs.createReadStream(sourceFile).pipe(fs.createWriteStream(newName));
+	} catch (e) {
+		console.error('Error copying file with new name: ', sourceFile, newName, " with the following error: ", e);
+	}
+}
+
+var generateObsoleteFilenameData = function() {
+	var fileData = fs.readFileSync('data_obsoleted.txt', 'utf8');
+	var fileDataLines = fileData.split('\n');
+	var filenameMap = {};
+	fileDataLines.forEach(function(line) {
+		if (!line || line == '#') return;
+
+		stripLine = line.substring(0, line.indexOf(' '));
+		var indexOfSeperator = stripLine.indexOf(';');
+		var obsoleteKey = stripLine.substring(0, indexOfSeperator);
+		var currentKey = stripLine.substring(indexOfSeperator + 1, stripLine.length);
+
+		var currentFilename = currentKey + '.png';
+		var obsoleteFilename = obsoleteKey + '.png';
+
+		mapFromCurrentToObsoleteFilenames[currentFilename] = obsoleteFilename;
+	});
+
+	console.log(mapFromCurrentToObsoleteFilenames);
+}
+
 generateFilenameMap();
+generateObsoleteFilenameData();
+
 renameGoogleImgFiles(googleDir64);
 renameGoogleImgFiles(googleDir136);
 
