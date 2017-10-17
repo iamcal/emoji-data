@@ -118,7 +118,6 @@
 		}
 		file_put_contents($list_file, $files);
 
-		$pipes = array();
 		$res = proc_open($cmd, array(), $pipes, $cwd);
 
 		if (proc_close($res) > 0) {
