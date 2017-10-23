@@ -91,10 +91,29 @@
 
 		}
 
+		$fp = fopen('temp_data_buffer.txt', 'w');
+
+		# Write out each filename
+		foreach ($comp as $index => $file){
+			if ($file !== null){
+				fwrite($fp, "{$file}\n");
+				echo '.';
+			}else{
+				fwrite($fp, "null:\n");
+				echo ' ';
+			}
+
+			if ($index % $size == $size - 1){
+				echo "\n";
+			}
+		}
+
+		fclose($fp);
+
 		$geom = escapeshellarg("{$img_w}x{$img_w}");
 		$tile = escapeshellarg("{$size}x{$size}");
 		$dst = escapeshellarg("sheet_{$type}_{$img_w}.png");
-		$cmd = "montage @- -geometry {$geom} -tile {$tile} -background none png32:{$dst}";
+		$cmd = "montage @build/temp_data_buffer.txt -geometry {$geom} -tile {$tile} -background none png32:{$dst}";
 
 		# Read filenames on stdin
 		$fd_spec = array(
@@ -106,22 +125,8 @@
 		# chdir into parent directory first
 		$cwd = __DIR__.'/..';
 
+		echo "Processing montage command...\n";
 		$res = proc_open($cmd, $fd_spec, $pipes, $cwd);
-
-		# Write out each filename
-		foreach ($comp as $index => $file){
-			if ($file !== null){
-				fwrite($pipes[0], "{$file}\n");
-				echo '.';
-			}else{
-				fwrite($pipes[0], "null:\n");
-				echo ' ';
-			}
-
-			if ($index % $size == $size - 1){
-				echo "\n";
-			}
-		}
 
 		fclose($pipes[0]);
 
@@ -130,6 +135,7 @@
 			return;
 		}
 
+		unlink('temp_data_buffer.txt');
 		echo "DONE\n\n";
 	}
 
