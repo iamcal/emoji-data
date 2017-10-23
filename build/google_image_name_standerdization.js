@@ -142,5 +142,5 @@ renameGoogleImgFiles(googleDir136);
 
 console.log('Google image standardization process complete.');
 if (renamedFileCount) console.log(`${renamedFileCount} google files have been renamed to match the standard naming convention.`);
-if (copiedFileCount) g(`${copiedFileCount} google files have been duplicated for emojis which have been 'obsoleted'`);
+if (copiedFileCount) console.log(`${copiedFileCount} google files have been duplicated for emojis which have been 'obsoleted'`);
 
