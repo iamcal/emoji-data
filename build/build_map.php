@@ -174,6 +174,7 @@
 	load_short_names('data_emoji_names.txt');
 	load_short_names('data_emoji_names_more.txt');
 	load_short_names('data_emoji_names_v4.txt');
+	load_short_names('data_emoji_names_v5.txt');
 
 	function load_short_names($file){
 
@@ -230,7 +231,7 @@
 			$out[] = str_replace('{SKIN!}', '-1F3FE', $line).':skin-5';
 			$out[] = str_replace('{SKIN!}', '-1F3FF', $line).':skin-6';
 			return $out;
-		}		
+		}
 
 		# give up
 		return array($line);
