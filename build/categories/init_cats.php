@@ -36,14 +36,18 @@
 
 			$hex = StrToUpper(utf8_bytes_to_hex($glyph));
 
-			if (preg_match('!-FE0F$!', $hex)){
-				$hex = substr($hex, 0, -5);
-			}
-
 			if ($map[$hex]){
 				$cats[$cat_name][] = $map[$hex];
 			}else{
-				$cats[$cat_name][] = '#'.$hex;
+				if (preg_match('!-FE0F$!', $hex)){
+					$hex = substr($hex, 0, -5);
+				}
+
+				if ($map[$hex]){
+					$cats[$cat_name][] = $map[$hex];
+				}else{
+					$cats[$cat_name][] = '#'.$hex;
+				}
 			}
 		}
 	}
