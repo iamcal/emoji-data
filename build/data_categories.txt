@@ -144,23 +144,23 @@ People
 	girl
 	man
 	woman
-	#1F471-200D-2640
+	blond-haired-woman
 	person_with_blond_hair
 	older_man
 	older_woman
 	man_with_gua_pi_mao
-	#1F473-200D-2640
+	woman-wearing-turban
 	man_with_turban
-	#1F46E-200D-2640
+	female-police-officer
 	cop
-	#1F477-200D-2640
+	female-construction-worker
 	construction_worker
-	#1F482-200D-2640
+	female-guard
 	guardsman
-	#1F575-FE0F-200D-2640
+	female-detective
 	sleuth_or_spy
-	#1F469-200D-2695
-	#1F468-200D-2695
+	female-doctor
+	male-doctor
 	female-farmer
 	male-farmer
 	female-cook
@@ -185,12 +185,12 @@ People
 	male-artist
 	female-firefighter
 	male-firefighter
-	#1F469-200D-2708
-	#1F468-200D-2708
+	female-pilot
+	male-pilot
 	female-astronaut
 	male-astronaut
-	#1F469-200D-2696
-	#1F468-200D-2696
+	female-judge
+	male-judge
 	mother_christmas
 	santa
 	princess
@@ -199,36 +199,36 @@ People
 	man_in_tuxedo
 	angel
 	pregnant_woman
-	#1F647-200D-2640
+	woman-bowing
 	bow
 	information_desk_person
-	#1F481-200D-2642
+	man-tipping-hand
 	no_good
-	#1F645-200D-2642
+	man-gesturing-no
 	ok_woman
-	#1F646-200D-2642
+	man-gesturing-ok
 	raising_hand
-	#1F64B-200D-2642
-	#1F926-200D-2640
-	#1F926-200D-2642
-	#1F937-200D-2640
-	#1F937-200D-2642
+	man-raising-hand
+	woman-facepalming
+	man-facepalming
+	woman-shrugging
+	man-shrugging
 	person_with_pouting_face
-	#1F64E-200D-2642
+	man-pouting
 	person_frowning
-	#1F64D-200D-2642
+	man-frowning
 	haircut
-	#1F487-200D-2642
+	man-getting-haircut
 	massage
-	#1F486-200D-2642
+	man-getting-massage
 	man_in_business_suit_levitating
 	dancer
 	man_dancing
 	dancers
-	#1F46F-200D-2642
-	#1F6B6-200D-2640
+	man-with-bunny-ears-partying
+	woman-walking
 	walking
-	#1F3C3-200D-2640
+	woman-running
 	runner
 	couple
 	two_women_holding_hands
@@ -561,31 +561,31 @@ Activity
 	ski
 	skier
 	snowboarder
-	#1F3CB-FE0F-200D-2640
+	woman-lifting-weights
 	weight_lifter
 	fencer
-	#1F93C-200D-2640
-	#1F93C-200D-2642
-	#1F938-200D-2640
-	#1F938-200D-2642
-	#26F9-FE0F-200D-2640
+	woman-wrestling
+	man-wrestling
+	woman-cartwheeling
+	man-cartwheeling
+	woman-bouncing-ball
 	person_with_ball
-	#1F93E-200D-2640
-	#1F93E-200D-2642
-	#1F3CC-FE0F-200D-2640
+	woman-playing-handball
+	man-playing-handball
+	woman-golfing
 	golfer
-	#1F3C4-200D-2640
+	woman-surfing
 	surfer
-	#1F3CA-200D-2640
+	woman-swimming
 	swimmer
-	#1F93D-200D-2640
-	#1F93D-200D-2642
-	#1F6A3-200D-2640
+	woman-playing-water-polo
+	man-playing-water-polo
+	woman-rowing-boat
 	rowboat
 	horse_racing
-	#1F6B4-200D-2640
+	woman-biking
 	bicyclist
-	#1F6B5-200D-2640
+	woman-mountain-biking
 	mountain_bicyclist
 	running_shirt_with_sash
 	sports_medal
@@ -599,8 +599,8 @@ Activity
 	ticket
 	admission_tickets
 	circus_tent
-	#1F939-200D-2640
-	#1F939-200D-2642
+	woman-juggling
+	man-juggling
 	performing_arts
 	art
 	clapper
@@ -1052,20 +1052,20 @@ Symbols
 	cool
 	new
 	free
-	#0030-FE0F-20E3
-	#0031-FE0F-20E3
-	#0032-FE0F-20E3
-	#0033-FE0F-20E3
-	#0034-FE0F-20E3
-	#0035-FE0F-20E3
-	#0036-FE0F-20E3
-	#0037-FE0F-20E3
-	#0038-FE0F-20E3
-	#0039-FE0F-20E3
+	zero
+	one
+	two
+	three
+	four
+	five
+	six
+	seven
+	eight
+	nine
 	keycap_ten
 	1234
-	#0023-FE0F-20E3
-	#002A-FE0F-20E3
+	hash
+	keycap_star
 	arrow_forward
 	double_vertical_bar
 	black_right_pointing_triangle_with_double_vertical_bar
