@@ -209,8 +209,10 @@ People
 	man-gesturing-ok
 	raising_hand
 	man-raising-hand
+	face_palm
 	woman-facepalming
 	man-facepalming
+	shrug
 	woman-shrugging
 	man-shrugging
 	person_with_pouting_face
@@ -564,12 +566,15 @@ Activity
 	woman-lifting-weights
 	weight_lifter
 	fencer
+	wrestlers
 	woman-wrestling
 	man-wrestling
+	person_doing_cartwheel
 	woman-cartwheeling
 	man-cartwheeling
 	woman-bouncing-ball
 	person_with_ball
+	handball
 	woman-playing-handball
 	man-playing-handball
 	woman-golfing
@@ -578,6 +583,7 @@ Activity
 	surfer
 	woman-swimming
 	swimmer
+	water_polo
 	woman-playing-water-polo
 	man-playing-water-polo
 	woman-rowing-boat
@@ -599,6 +605,7 @@ Activity
 	ticket
 	admission_tickets
 	circus_tent
+	juggling
 	woman-juggling
 	man-juggling
 	performing_arts
@@ -1063,6 +1070,7 @@ Symbols
 	eight
 	nine
 	keycap_ten
+	keycap_star
 	1234
 	hash
 	keycap_star
@@ -1070,6 +1078,7 @@ Symbols
 	double_vertical_bar
 	black_right_pointing_triangle_with_double_vertical_bar
 	black_square_for_stop
+	eject
 	black_circle_for_record
 	black_right_pointing_double_triangle_with_vertical_bar
 	black_left_pointing_double_triangle_with_vertical_bar
@@ -1149,8 +1158,9 @@ Symbols
 	no_bell
 	mega
 	loudspeaker
-	#1F441-200D-1F5E8
+	eye-in-speech-bubble
 	speech_balloon
+	left_speech_bubble
 	thought_balloon
 	right_anger_bubble
 	spades
@@ -1184,6 +1194,9 @@ Symbols
 	clock1030
 	clock1130
 	clock1230
+	female_sign
+	male_sign
+	staff_of_aesculapius
 Flags
 	waving_white_flag
 	waving_black_flag
@@ -1438,3 +1451,9 @@ Flags
 	flag-ye
 	flag-zm
 	flag-zw
+Skin Tones
+	skin-tone-2
+	skin-tone-3
+	skin-tone-4
+	skin-tone-5
+	skin-tone-6
