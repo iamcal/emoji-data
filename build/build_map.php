@@ -139,30 +139,19 @@
 	$category_map = array();
 	$category_list = array();
 
-	$json = file_get_contents('emoji_categories.json');
-	$obj = json_decode($json, true);
-
-	foreach ($obj['EmojiDataArray'] as $cat){
-		list($junk, $cat_name) = explode('-', $cat['CVDataTitle']);
-		$p = 1;
-		foreach (explode(',', $cat['CVCategoryData']['Data']) as $glyph){
-
-			$hex = StrToUpper(utf8_bytes_to_hex($glyph));
-			$category_map[$hex] = array($cat_name, $p);
-
-			if (preg_match('!-FE0F$!', $hex)){
-				$category_map[substr($hex, 0, -5)] = array($cat_name, $p);
-
-				$lc = StrToLower($hex);
-				$lc_base = StrToLower(substr($hex, 0, -5));
-
-				add_variation($lc_base, $lc);
-			}
-
+	$lines = file('data_categories.txt');
+	$last_cat = '?';
+	$p = 1;
+	foreach ($lines as $line){
+		$line = rtrim($line);
+		if (substr($line, 0, 1) == "\t"){
+			$category_map[substr($line, 1)] = array($last_cat, $p);
 			$p++;
+		}else{
+			$last_cat = $line;
+			$p = 1;
+			$category_list[] = $line;
 		}
-
-		$category_list[] = $cat_name;
 	}
 
 
@@ -585,14 +574,7 @@
 		if (!is_array($shorts)) $shorts = array();
 		$short = count($shorts) ? $shorts[0] : null;
 
-		$category = $GLOBALS['category_map'][$props['unified']];
-		if (!is_array($category)){
-			foreach ($vars as $v){
-				if (is_array($GLOBALS['category_map'][$v])){
-					$category = $GLOBALS['category_map'][$v];
-				}
-			}
-		}
+		$category = $GLOBALS['category_map'][$short];
 
 		$ret = array(
 			'name'		=> null,
