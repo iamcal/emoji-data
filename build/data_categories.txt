@@ -95,6 +95,7 @@ People
 	scream_cat
 	crying_cat_face
 	pouting_cat
+	palms_up_together
 	open_hands
 	raised_hands
 	clap
@@ -560,6 +561,8 @@ Activity
 	boxing_glove
 	martial_arts_uniform
 	ice_skate
+	curling_stone
+	sled
 	ski
 	skier
 	snowboarder
