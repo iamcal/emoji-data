@@ -268,7 +268,7 @@
 1F1E8-1F1F0;flag-ck
 1F1E8-1F1F1;flag-cl
 1F1E8-1F1F2;flag-cm
-1F1E8-1F1F3;flag-cn
+#1F1E8-1F1F3;flag-cn
 1F1E8-1F1F4;flag-co
 1F1E8-1F1F5;flag-cp
 1F1E8-1F1F7;flag-cr
@@ -278,7 +278,7 @@
 1F1E8-1F1FD;flag-cx
 1F1E8-1F1FE;flag-cy
 1F1E8-1F1FF;flag-cz
-1F1E9-1F1EA;flag-de
+#1F1E9-1F1EA;flag-de
 1F1E9-1F1EC;flag-dg
 1F1E9-1F1EF;flag-dj
 1F1E9-1F1F0;flag-dk
@@ -291,7 +291,7 @@
 1F1EA-1F1EC;flag-eg
 1F1EA-1F1ED;flag-eh
 1F1EA-1F1F7;flag-er
-1F1EA-1F1F8;flag-es
+#1F1EA-1F1F8;flag-es
 1F1EA-1F1F9;flag-et
 1F1EA-1F1FA;flag-eu
 1F1EB-1F1EE;flag-fi
@@ -299,9 +299,9 @@
 1F1EB-1F1F0;flag-fk
 1F1EB-1F1F2;flag-fm
 1F1EB-1F1F4;flag-fo
-1F1EB-1F1F7;flag-fr
+#1F1EB-1F1F7;flag-fr
 1F1EC-1F1E6;flag-ga
-1F1EC-1F1E7;flag-gb
+#1F1EC-1F1E7;flag-gb
 1F1EC-1F1E9;flag-gd
 1F1EC-1F1EA;flag-ge
 1F1EC-1F1EB;flag-gf
@@ -335,11 +335,11 @@
 1F1EE-1F1F6;flag-iq
 1F1EE-1F1F7;flag-ir
 1F1EE-1F1F8;flag-is
-1F1EE-1F1F9;flag-it
+#1F1EE-1F1F9;flag-it
 1F1EF-1F1EA;flag-je
 1F1EF-1F1F2;flag-jm
 1F1EF-1F1F4;flag-jo
-1F1EF-1F1F5;flag-jp
+#1F1EF-1F1F5;flag-jp
 1F1F0-1F1EA;flag-ke
 1F1F0-1F1EC;flag-kg
 1F1F0-1F1ED;flag-kh
@@ -347,7 +347,7 @@
 1F1F0-1F1F2;flag-km
 1F1F0-1F1F3;flag-kn
 1F1F0-1F1F5;flag-kp
-1F1F0-1F1F7;flag-kr
+#1F1F0-1F1F7;flag-kr
 1F1F0-1F1FC;flag-kw
 1F1F0-1F1FE;flag-ky
 1F1F0-1F1FF;flag-kz
@@ -416,7 +416,7 @@
 1F1F7-1F1EA;flag-re
 1F1F7-1F1F4;flag-ro
 1F1F7-1F1F8;flag-rs
-1F1F7-1F1FA;flag-ru
+#1F1F7-1F1FA;flag-ru
 1F1F7-1F1FC;flag-rw
 1F1F8-1F1E6;flag-sa
 1F1F8-1F1E7;flag-sb
@@ -459,7 +459,7 @@
 1F1FA-1F1E6;flag-ua
 1F1FA-1F1EC;flag-ug
 1F1FA-1F1F2;flag-um
-1F1FA-1F1F8;flag-us
+#1F1FA-1F1F8;flag-us
 1F1FA-1F1FE;flag-uy
 1F1FA-1F1FF;flag-uz
 1F1FB-1F1E6;flag-va
