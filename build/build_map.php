@@ -34,26 +34,50 @@
 
 
 	#
-	# load codepoint variations
-	# we do this before loading the `emoji_categories.json` so we can add
-	# all of the *-FE0F variations from OS X/iOS
+	# load the names of all simple characters
 	#
 
-	$raw = file('data_variations.txt');
+	$names_map = array();
 
-	$variations = array();
-	$variations_handled = array();
+	$fh = fopen('unicode/UnicodeData.txt', 'r');
+	while (($line = fgets($fh)) !== false){
+		list($cp, $name) = explode(';', $line);
+		$names_map[$cp] = $name;
+	}
+	fclose($fh);
 
-	foreach ($raw as $line){
-		if (substr($line, 0, 1) == '#') continue;
-		list($line, $junk) = explode('#', $line);
-		list($key, $vars) = explode(';', trim($line));
-		if (strlen($key)){
-			$variations[$key] = explode('/', $vars);
+
+	#
+	# load category data and start building fully-qualified map
+	#
+
+	$category_map = array();	# CP => (Category-name, Global-order)
+	$qualified_map = array();	# non-qualified-CP => fully-qualified-CP
+
+	$lines = file('unicode/emoji-test.txt');
+	$last_cat = '?';
+	$p = 1;
+	foreach ($lines as $line){
+		if (!strlen(trim($line))) continue;
+		$line = rtrim($line);
+		if (substr($line, 0, 9) == '# group: '){
+			$last_cat = substr($line, 9);
+		}elseif (substr($line, 0, 1) == '#'){
+			continue;
+		}else{
+			list($cp) = explode(';', $line);
+			$cp = trim(StrToLower($cp));
+			$cp = preg_replace('!\s+!', '-', $cp);
+			$category_map[$cp] = array($last_cat, $p);
+			$p++;
+
+			$cp_nq = str_replace('-fe0f', '', $cp);
+			if ($cp != $cp_nq) $qualified_map[$cp_nq] = $cp;
 		}
 	}
 
 
+if (0){
 	#
 	# load zwj variations too
 	#
@@ -78,6 +102,7 @@
 			add_variation($key3, $hex_low);
 		}
 	});
+}
 
 	function add_variation($base, $variation){
 		global $variations;
@@ -132,27 +157,6 @@
 	echo " DONE\n";
 
 
-	#
-	# load category data
-	#
-
-	$category_map = array();
-	$category_list = array();
-
-	$lines = file('data_categories.txt');
-	$last_cat = '?';
-	$p = 1;
-	foreach ($lines as $line){
-		$line = rtrim($line);
-		if (substr($line, 0, 1) == "\t"){
-			$category_map[substr($line, 1)] = array($last_cat, $p);
-			$p++;
-		}else{
-			$last_cat = $line;
-			$p = 1;
-			$category_list[] = $line;
-		}
-	}
 
 
 	#
@@ -500,7 +504,7 @@
 		$idx = $cp_map[$k];
 		$out[$idx]['obsoleted_by'] = $v;
 	}
-	
+
 	foreach ($obsoletes as $k => $v){
 		$idx = $cp_map[$k];
 		$out[$idx]['obsoletes'] = $v;
@@ -550,10 +554,7 @@
 	function build_character_data($img_key, $short_names){
 
 		$uni = StrToUpper($img_key);
-
-		$line = shell_exec("grep -e ^{$uni}\\; unicode/UnicodeData.txt");
-		list($junk, $name) = explode(';', $line);
-
+		$name = $GLOBALS['names_map'][$uni];
 
 		return simple_row($img_key, $short_names, array(
 			'name'		=> $name,
@@ -564,22 +565,16 @@
 
 	function simple_row($img_key, $shorts, $props){
 
-		$vars = $GLOBALS['variations'][$img_key];
-		if (!is_array($vars)) $vars = array();
-		foreach ($vars as $k => $v){
-			$vars[$k] = StrToUpper($v);
-			$GLOBALS['variations_handled'][$v] = 1;
-		}
-
 		if (!is_array($shorts)) $shorts = array();
 		$short = count($shorts) ? $shorts[0] : null;
 
-		$category = $GLOBALS['category_map'][$short];
+		$category = $GLOBALS['category_map'][$img_key];
 
 		$ret = array(
 			'name'		=> null,
 			'unified'	=> null,
-			'variations'	=> $vars,
+		#	'variations'	=> $vars,
+		# TODO: fully qualified version
 			'docomo'	=> null,
 			'au'		=> null,
 			'softbank'	=> null,
