@@ -76,52 +76,29 @@
 		}
 	}
 
+	# patch in some CPs missing from the data file
+	$qualified_map['0023-20e3'] = '0023-fe0f-20e3';
+	$qualified_map['002a-20e3'] = '002a-fe0f-20e3';
+	$qualified_map['0030-20e3'] = '0030-fe0f-20e3';
+	$qualified_map['0031-20e3'] = '0031-fe0f-20e3';
+	$qualified_map['0032-20e3'] = '0032-fe0f-20e3';
+	$qualified_map['0033-20e3'] = '0033-fe0f-20e3';
+	$qualified_map['0034-20e3'] = '0034-fe0f-20e3';
+	$qualified_map['0035-20e3'] = '0035-fe0f-20e3';
+	$qualified_map['0036-20e3'] = '0036-fe0f-20e3';
+	$qualified_map['0037-20e3'] = '0037-fe0f-20e3';
+	$qualified_map['0038-20e3'] = '0038-fe0f-20e3';
+	$qualified_map['0039-20e3'] = '0039-fe0f-20e3';
 
-if (0){
-	#
-	# load zwj variations too
-	#
+	$rev_qualified_map = array_flip($qualified_map);
 
-	parse_unicode_specfile('unicode/emoji-zwj-sequences.txt', function($fields, $comment){
-
-		$cps = explode(' ', $fields[0]);
-		$hex_low = StrToLower(implode('-', $cps));
-
-	#	$key1 = str_replace('-200d-', '-', $hex_low);
-	#	if ($key1 != $hex_low){
-	#		add_variation($key1, $hex_low);
-	#	}
-
-		$key2 = str_replace('-fe0f', '', $hex_low);
-		if ($key2 != $hex_low){
-			add_variation($key2, $hex_low);
-		}
-
-		$key3 = str_replace('-200d-', '-', str_replace('-fe0f', '', $hex_low));
-		if ($key3 != $hex_low){
-			add_variation($key3, $hex_low);
-		}
-	});
-}
-
-	function add_variation($base, $variation){
-		global $variations;
-
-		if (!is_array($variations[$base])){
-			$variations[$base] = array();
-		}
-
-		if (!in_array($variation, $variations[$base])){
-			$variations[$base][] = $variation;
-		}
-	}
 
 
 	#
 	# get versions for all emoji
 	#
 
-	echo "\nFetching versions : ";
+	echo "Fetching versions : ";
 
 	$versions = array();
 
@@ -154,7 +131,7 @@ if (0){
 		}
 	}
 
-	echo " DONE\n";
+	echo "DONE\n";
 
 
 
@@ -165,10 +142,12 @@ if (0){
 
 	$short_names = array();
 
+	echo "Loading short names : ";
 	load_short_names('data_emoji_names.txt');
 	load_short_names('data_emoji_names_more.txt');
 	load_short_names('data_emoji_names_v4.txt');
 	load_short_names('data_emoji_names_v5.txt');
+	echo "DONE\n";
 
 	function load_short_names($file){
 
@@ -248,6 +227,8 @@ if (0){
 	# load obsolete mappings
 	#
 
+	echo "Loading obsolete mappings : ";
+
 	$raw = file('data_obsoleted.txt');
 
 	$obsoleted_by = array();
@@ -262,7 +243,7 @@ if (0){
 		}
 	}
 
-	echo "OK\n";
+	echo "DONE\n";
 
 
 	#
@@ -282,6 +263,8 @@ if (0){
 	# build the official list of emoji with skin variations
 	#
 
+	echo "Loading emoji sequences : ";
+
 	$skin_variations = array();
 
 	parse_unicode_specfile('unicode/emoji-sequences.txt', function($fields, $comment){
@@ -296,13 +279,18 @@ if (0){
 		}
 	});
 
+	echo "DONE\n";
+
 
 	#
 	# build the simple ones first
 	#
 
+	echo "Building emoji from base catalog : ";
+
 	$out = array();
 	$out_unis = array();
+	$c = 0;
 
 	foreach ($catalog as $row){
 
@@ -316,7 +304,7 @@ if (0){
 			}
 		}
 
-		$out[] = simple_row($img_key, $shorts, array(
+		add_row($img_key, $shorts, array(
 			'name'		=> $name,
 			'unified'	=> encode_points($row['unicode']),
 			'docomo'	=> encode_points($row['docomo'  ]['unicode']),
@@ -325,47 +313,48 @@ if (0){
 			'google'	=> encode_points($row['google'  ]['unicode']),
 		));
 
-		$out_unis[$img_key] = 1;
+		$c++;
 	}
 
+	echo "DONE ($c)\n";
 
 
 	#
 	# were there any codepoints we have an image for, but no data for?
 	#
 
-	echo "\nFinding emoji we have names for: ";
+	echo "Building emoji we have shortcodes for : ";
+
+	$c = 0;
 
 	foreach ($short_names as $uid => $names){
 
 		$img_key = StrToLower($uid);
 		if ($out_unis[$img_key]) continue;
-		$out_unis[$img_key] = 1;
-
-		echo '.';
 
 		if (substr($names[0], 0, 5) == 'flag-'){
 
-			$out[] = simple_row($img_key, $names, array(
+			add_row($img_key, $names, array(
 				'unified'	=> $uid,
 				'name'		=> "REGIONAL INDICATOR SYMBOL LETTERS ".StrToUpper(substr($names[0], 5)),
 			));
 		}else{
-			$out[] = build_character_data($img_key, $names);
+			add_row($img_key, $names);
 		}
+
+		$c++;
 	}
-	echo " DONE\n";
+	echo "DONE ($c)\n";
 
 
 	#
 	# include everything from emoji-data.txt
 	#
 
-	echo "\nProcessing emoji-data.txt : ";
+	echo "Checking emoji-data.txt for missing emoji : ";
 
 	parse_unicode_specfile('unicode/emoji-data.txt', function($fields, $comment){
 
-		echo '.';
 
 		global $out_unis, $out;
 
@@ -402,21 +391,19 @@ if (0){
 		}
 	});
 
-	echo " DONE\n";
+	echo "DONE\n";
 
 
 	#
 	# check against emoji-sequences.txt and emoji-zwj-sequences.txt
 	#
 
-	echo "\nProcessing emoji-(zwj-)?sequences.txt : ";
+	echo "Checking emoji-(zwj-)?sequences.txt for missing emoji : ";
 
 	parse_unicode_specfile('unicode/emoji-sequences.txt', 'check_sequence');
 	parse_unicode_specfile('unicode/emoji-zwj-sequences.txt', 'check_sequence');
 
 	function check_sequence($fields, $comment){
-
-		echo '.';
 
 		$cps = explode(' ', $fields[0]);
 		$last = $cps[count($cps)-1];
@@ -434,12 +421,14 @@ if (0){
 		echo "\nFound sequence not supported: $hex_low / {$comment}\n";
 	}
 
-	echo " DONE\n";
+	echo "DONE\n";
 
 
 	#
 	# for zwj sequences with skin tones in them, attach to non-toned version as variations
 	#
+
+	echo "Mapping skin tones to base versions : ";
 
 	$variations = array();
 
@@ -490,10 +479,14 @@ if (0){
 		return $out;
 	}
 
+	echo "DONE\n";
+
 
 	#
 	# process obsoletes
 	#
+
+	echo "Attaching obsoletes to their bases : ";
 
 	$cp_map = array();
 	foreach ($out as $k => $row){
@@ -510,18 +503,18 @@ if (0){
 		$out[$idx]['obsoletes'] = $v;
 	}
 
+	echo "DONE\n";
+
 
 	#
 	# check for duplicate short names
 	#
 
-	echo "Checking shortnames : ";
+	echo "Checking for duplicate shortnames : ";
 
 	$uniq = array();
 
 	foreach ($out as $k => $row){
-
-		echo '.';
 
 		if ($row['unified']){
 			$k = 'U+'.$row['unified'];
@@ -542,39 +535,51 @@ if (0){
 
 		}else{
 			echo "\nCharacter with no shortname: $k\n";
+print_r($row);
+exit;
 		}
 	}
 
-	echo " DONE\n";
+	echo "DONE\n";
 
 
 
+	#
+	# core functions
+	#
 
+	function add_row($img_key, $shorts, $props = array()){
 
-	function build_character_data($img_key, $short_names){
+		if (!isset($props['name'])){
+			$props['name'] = $GLOBALS['names_map'][StrToUpper($img_key)];
+		}
+		if (!isset($props['unified'])){
+			$props['unified'] = StrToUpper($img_key);
+		}
 
-		$uni = StrToUpper($img_key);
-		$name = $GLOBALS['names_map'][$uni];
+		$row = simple_row($img_key, $short_names, $props);
 
-		return simple_row($img_key, $short_names, array(
-			'name'		=> $name,
-			'unified'	=> $uni,
-		));
+		$GLOBALS['out'][] = $row;
+		$GLOBALS['out_unis'][$img_key] = 1;
+		if ($row['fully_qualified']) $GLOBALS['out_unis'][$row['fully_qualified']] = 1;
 	}
-
 
 	function simple_row($img_key, $shorts, $props){
 
 		if (!is_array($shorts)) $shorts = array();
 		$short = count($shorts) ? $shorts[0] : null;
 
+		$fq = null;
+		if ($GLOBALS['qualified_map'][$img_key]){
+			$fq = $GLOBALS['qualified_map'][$img_key];
+		}
+
 		$category = $GLOBALS['category_map'][$img_key];
 
 		$ret = array(
 			'name'		=> null,
 			'unified'	=> null,
-		#	'variations'	=> $vars,
-		# TODO: fully qualified version
+			'fully_qualified'	=> $fq,
 			'docomo'	=> null,
 			'au'		=> null,
 			'softbank'	=> null,
@@ -674,50 +679,6 @@ if (0){
 		unset($missing_categories[$id]);
 	}
 
-	function category_insert_after($id, $after){
-		global $categories, $missing_categories;
-
-		if (!$missing_categories[$id]) return;
-
-		foreach ($categories as $k => $emojis){
-			$out = array();
-			$found = false;
-			foreach ($emojis as $emoji){
-				$out[] = $emoji;
-				if ($emoji == $after){
-					$out[] = $id;
-					$found = true;
-				}
-			}
-			if ($found){
-				$categories[$k] = $out;
-				unset($missing_categories[$id]);
-			}
-		}
-	}
-
-	function category_insert_before($id, $before){
-		global $categories, $missing_categories;
-
-		if (!$missing_categories[$id]) return;
-
-		foreach ($categories as $k => $emojis){
-			$out = array();
-			$found = false;
-			foreach ($emojis as $emoji){
-				if ($emoji == $before){
-					$out[] = $id;
-					$found = true;
-				}
-				$out[] = $emoji;
-			}
-			if ($found){
-				$categories[$k] = $out;
-				unset($missing_categories[$id]);
-			}
-		}
-	}
-
 
 	#
 	# for obsoleted codepoints, steal category in one direction or another
@@ -770,13 +731,14 @@ if (0){
 	# find missing categories
 	#
 
-	echo "\n";
+	echo "Checking for missing categories : ";
 	foreach (array_keys($missing_categories) as $k){
 
 		$row = $out[$shortname_map[$k]];
 
-		echo "WARNING: no category for U+{$row['unified']} / :{$row['short_name']}:\n";
+		echo "\nWARNING: no category for U+{$row['unified']} / :{$row['short_name']}:\n";
 	}
+	echo "DONE\n";
 
 
 	#
