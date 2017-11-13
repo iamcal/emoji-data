@@ -20,64 +20,85 @@ People
 	kissing_smiling_eyes
 	kissing_closed_eyes
 	yum
-	stuck_out_tongue_winking_eye
-	stuck_out_tongue_closed_eyes
 	stuck_out_tongue
-	money_mouth_face
-	hugging_face
+	stuck_out_tongue_closed_eyes
+	stuck_out_tongue_winking_eye
+	NEW-goofy eyes tongue
+	NEW-raised eyebrow
+	face_with_monocle
 	nerd_face
 	sunglasses
-	clown_face
-	face_with_cowboy_hat
+
+	NEW-star eyes
 	smirk
 	unamused
 	disappointed
 	pensive
 	worried
+
 	confused
 	slightly_frowning_face
 	white_frowning_face
 	persevere
 	confounded
+
 	tired_face
 	weary
+	cry
+	sob
 	triumph
+
 	angry
 	rage
+	NEW swearing
+	NEW explode
+	flushed
+
+	scream
+	fearful
+	cold_sweat
+	disappointed_relieved
+	sweat
+
+	hugging_face
+	thinking_face
+	NEW covering mouth
+	NEW shh
+	lying_face
+
 	no_mouth
 	neutral_face
 	expressionless
+	grimacing
+	face_with_rolling_eyes
+
 	hushed
 	frowning
 	anguished
 	open_mouth
 	astonished
-	dizzy_face
-	flushed
-	scream
-	fearful
-	cold_sweat
-	cry
-	disappointed_relieved
-	drooling_face
-	sob
-	sweat
-	sleepy
+
 	sleeping
-	face_with_rolling_eyes
-	thinking_face
-	lying_face
-	grimacing
+	drooling_face
+	sleepy
+	dizzy_face
 	zipper_mouth_face
+
 	nauseated_face
+	NEW vomit
 	sneezing_face
 	mask
 	face_with_thermometer
+
 	face_with_head_bandage
+	money_mouth_face
+	face_with_cowboy_hat
 	smiling_imp
 	imp
+
 	japanese_ogre
 	japanese_goblin
+	clown_face
 	hankey
 	ghost
 	skull
@@ -99,7 +120,6 @@ People
 	open_hands
 	raised_hands
 	clap
-	pray
 	handshake
 	+1
 	-1
@@ -109,6 +129,7 @@ People
 	right-facing_fist
 	hand_with_index_and_middle_fingers_crossed
 	v
+	NEW horns open
 	the_horns
 	ok_hand
 	point_left
@@ -125,8 +146,8 @@ People
 	muscle
 	middle_finger
 	writing_hand
-	selfie
-	nail_care
+	pray
+
 	ring
 	lipstick
 	kiss
@@ -137,23 +158,29 @@ People
 	footprints
 	eye
 	eyes
+	NEW: brain
 	speaking_head_in_silhouette
 	bust_in_silhouette
 	busts_in_silhouette
 	baby
-	boy
 	girl
-	man
+	boy
 	woman
+	man
+	NEW ?
+	NEW ?
 	blond-haired-woman
 	person_with_blond_hair
-	older_man
+	NEW beard?
 	older_woman
+	NEW ?
+	older_man
 	man_with_gua_pi_mao
 	woman-wearing-turban
 	man_with_turban
 	female-police-officer
 	cop
+	NEW woman in burka
 	female-construction-worker
 	construction_worker
 	female-guard
@@ -192,14 +219,29 @@ People
 	male-astronaut
 	female-judge
 	male-judge
-	mother_christmas
-	santa
-	princess
-	prince
 	bride_with_veil
 	man_in_tuxedo
+	princess
+	prince
+	mother_christmas
+	santa
+	NEW witch female
+	NEW witch male
+	NEW elf female
+	NEW elf male
+	NEW vampire female
+	NEW vampire male
+	NEW zombie female
+	NEW zombie male
+	NEW genie female
+	NEW genie male
+	NEW mermaid female
+	NEW mermaid male
+	NEW fairy female
+	NEW fairy male
 	angel
 	pregnant_woman
+	NEw nursing mother
 	woman-bowing
 	bow
 	information_desk_person
@@ -224,11 +266,15 @@ People
 	man-getting-haircut
 	massage
 	man-getting-massage
-	man_in_business_suit_levitating
+	NEW spa female
+	NEW spa male
+	nail_care
+	selfie
 	dancer
 	man_dancing
 	dancers
 	man-with-bunny-ears-partying
+	man_in_business_suit_levitating
 	woman-walking
 	walking
 	woman-running
@@ -267,6 +313,10 @@ People
 	man-girl-boy
 	man-boy-boy
 	man-girl-girl
+	pad1
+	pad2
+	pad3
+	NEW trenchcoat
 	womans_clothes
 	shirt
 	jeans
@@ -279,20 +329,26 @@ People
 	boot
 	mans_shoe
 	athletic_shoe
-	womans_hat
+	NEW socks
+	NEW gloves
+	NEW scarf
 	tophat
+	NEW cap
+	womans_hat
 	mortar_board
-	crown
 	helmet_with_white_cross
-	school_satchel
+	crown
 	pouch
 	purse
 	handbag
 	briefcase
+	school_satchel
 	eyeglasses
 	dark_sunglasses
 	closed_umbrella
 	umbrella
+
+
 Nature
 	dog
 	cat
