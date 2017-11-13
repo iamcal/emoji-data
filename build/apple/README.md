@@ -29,17 +29,6 @@ When updating the image-set to add new codepoints, there's a confusing sequence 
 * Run `build_image.php` to build the spritesheet
 
 
-## Catalog
-
-On a Mac running OS X you can also extract the latest version of the emoji categorization:
-
-    ./extract_categories.sh
-
-You can then use this data to check for new ligatures:
-
-    php categories.php
-
-
 ## Apple's TTF Format
 
 The breakdown of tables in the Apple font (ordered by size) are as follows:
