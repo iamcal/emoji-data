@@ -100,7 +100,6 @@
 	$rev_qualified_map = array_flip($qualified_map);
 
 
-
 	#
 	# get versions for all emoji
 	#
@@ -502,12 +501,20 @@
 
 	foreach ($obsoleted_by as $k => $v){
 		$idx = $cp_map[$k];
-		$out[$idx]['obsoleted_by'] = $v;
+		if ($idx){
+			$out[$idx]['obsoleted_by'] = $v;
+		}else{
+			echo "\nERROR: unable to find index for cp {$k} while adding obsoletes\n";
+		}
 	}
 
 	foreach ($obsoletes as $k => $v){
 		$idx = $cp_map[$k];
-		$out[$idx]['obsoletes'] = $v;
+		if ($idx){
+			$out[$idx]['obsoletes'] = $v;
+		}else{
+			echo "\nERROR: unable to find index for cp {$k} while adding obsoletes\n";
+		}
 	}
 
 	echo "DONE\n";
@@ -556,6 +563,18 @@
 	#
 
 	function add_row($img_key, $short_names, $props = array()){
+
+		# if we get passed a fully qualified version, swap it for the non-fq version
+		if (isset($GLOBALS['rev_qualified_map'][$img_key])){
+			$img_key = $GLOBALS['rev_qualified_map'][$img_key];
+		}
+
+		# we might get passed a sequence which is FQ but not yet in our map
+		if (strpos($img_key, '-fe0f')){
+			$nq_img_key = str_replace('-fe0f', '', $img_key);
+			$GLOBALS['qualified_map'][$nq_img_key] = $img_key;
+			$img_key = $nq_img_key;
+		}
 
 		if (isset($GLOBALS['out_unis'][$img_key])){
 			echo "\nERROR: trying to set duplicate emoji $img_key\n";
