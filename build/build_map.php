@@ -76,6 +76,13 @@
 		}
 	}
 
+	# add categories for the skin tone patches
+	$category_map['1f3fb'] = array('Skin Tones', $p++);
+	$category_map['1f3fc'] = array('Skin Tones', $p++);
+	$category_map['1f3fd'] = array('Skin Tones', $p++);
+	$category_map['1f3fe'] = array('Skin Tones', $p++);
+	$category_map['1f3ff'] = array('Skin Tones', $p++);
+
 	# patch in some CPs missing from the data file
 	$qualified_map['0023-20e3'] = '0023-fe0f-20e3';
 	$qualified_map['002a-20e3'] = '002a-fe0f-20e3';
@@ -299,7 +306,7 @@
 		$name = $row['char_name']['title'];
 
 		if (preg_match("!^REGIONAL INDICATOR SYMBOL LETTERS !", $name)){
-			if (strlen($shorts[0]) == '2'){
+			if (strlen($shorts[0]) == '2' && count($shorts) == 1){
 				array_unshift($shorts, 'flag-'.$shorts[0]);
 			}
 		}
@@ -548,7 +555,20 @@ exit;
 	# core functions
 	#
 
-	function add_row($img_key, $shorts, $props = array()){
+	function add_row($img_key, $short_names, $props = array()){
+
+		if (isset($GLOBALS['out_unis'][$img_key])){
+			echo "\nERROR: trying to set duplicate emoji $img_key\n";
+			print_r($short_names);
+			print_r($props);
+			foreach ($GLOBALS['out'] as $row){
+				if ($row['image'] == $img_key.'.png'){
+					echo "Matches:\n";
+					print_r($row);
+				}
+			}
+			exit;
+		}
 
 		if (!isset($props['name'])){
 			$props['name'] = $GLOBALS['names_map'][StrToUpper($img_key)];
