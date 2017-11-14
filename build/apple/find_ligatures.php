@@ -4,7 +4,7 @@
 	# then outputs them in such a way that extract.pl can pull the images out.
 	#
 
-	
+
 	$json = file_get_contents('../../emoji.json');
 	$obj = json_decode($json, true);
 
@@ -14,7 +14,8 @@
 			echo "{$row['unified']} :{$row['short_name']}:\n";
 		}
 
-		if (is_array($row['skin_variations'])){
+
+		if (isset($row['skin_variations']) && is_array($row['skin_variations'])){
 			foreach ($row['skin_variations'] as $k => $var){
 				echo "{$var['unified']}  :{$row['short_name']}: (tone $k)\n";
 			}
