@@ -581,7 +581,7 @@
 
 		$GLOBALS['out'][] = $row;
 		$GLOBALS['out_unis'][$img_key] = 1;
-		if ($row['fully_qualified']) $GLOBALS['out_unis'][$row['fully_qualified']] = 1;
+		if ($row['fully_qualified']) $GLOBALS['out_unis'][StrToLower($row['fully_qualified'])] = 1;
 	}
 
 	function simple_row($img_key, $shorts, $props){
@@ -591,7 +591,7 @@
 
 		$fq = null;
 		if ($GLOBALS['qualified_map'][$img_key]){
-			$fq = $GLOBALS['qualified_map'][$img_key];
+			$fq = StrToUpper($GLOBALS['qualified_map'][$img_key]);
 		}
 
 		$category = $GLOBALS['category_map'][$img_key];
