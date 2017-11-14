@@ -33,6 +33,27 @@ my $duplicates = [];
 $f->{'morx'}->read();
 
 my @ligatures;
+my $path_maps = {};
+
+sub hex_to_cps {
+	my @chars = split(/-/, shift);
+	my $cps = [];
+
+	for my $str(@chars){
+		push @{$cps}, hex($str);
+	}
+
+	return $cps;
+}
+
+sub cps_to_path {
+	my $cps = shift;
+	my @components;
+	for my $cp(@{$cps}){
+		push @components, sprintf('%04x', $cp);
+	}
+	return join('-', @components).'.png';
+}
 
 
 #
@@ -47,14 +68,29 @@ for my $line(@lines){
 	# 1F3C2-1F3FB  :snowboarder: (tone 1F3FB)
 
 	my ($hex, $junk) = split(/\s+/, $line);
-	my @chars = split(/-/, $hex);
-	my $cps = [];
-
-	for my $str(@chars){
-		push @{$cps}, hex($str);
-	}
+	my $cps = &hex_to_cps($hex);
 
 	push @ligatures, $cps;
+}
+
+
+#
+# we find a list of alternative ligatures which we might need to use
+#
+
+$lines = `php find_fully_qualified.php`;
+@lines = split /\n/, $lines;
+
+for my $line(@lines){
+	# lines are of the format:
+	# ABCD  ABCD-FE0F
+
+	my ($hex_nfq, $hex_fq) = split(/\s+/, $line);
+	my $cps = &hex_to_cps($hex_fq);
+
+	push @ligatures, $cps;
+
+	$path_maps->{&cps_to_path($cps)} = &cps_to_path(&hex_to_cps($hex_nfq));
 }
 
 
@@ -83,12 +119,12 @@ for my $line(@lines){
 for my $lig(@ligatures){
 	my $glyph = $f->{'morx'}->resolve_ligature($lig);
 	if ($glyph){
-		my @components;
-		for my $cp(@{$lig}){
-			push @components, sprintf('%04x', $cp);
-		}
 		my $key = ''.$glyph;
-		my $path = join('-', @components).'.png';
+		my $path = &cps_to_path($lig);
+
+		if ($path_maps->{$path}){
+			$path = $path_maps->{$path};
+		}
 
 		if ($filenames->{$key}){
 			push @{$duplicates}, [$key, $path];
