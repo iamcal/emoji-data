@@ -542,8 +542,8 @@
 
 		}else{
 			echo "\nCharacter with no shortname: $k\n";
-print_r($row);
-exit;
+			print_r($row);
+			exit;
 		}
 	}
 
@@ -661,6 +661,8 @@ exit;
 	# patch up category and sort order fields - build the current sort maps
 	#
 
+	echo "Building category sort orders : ";
+
 	$missing_categories = array();
 	$shortname_map = array();
 	$categories = array();
@@ -677,26 +679,6 @@ exit;
 	foreach ($categories as $k => $v){
 		ksort($v);
 		$categories[$k] = array_values($v);
-	}
-
-
-	#
-	# for known emoji, set them into the correct categories
-	#
-
-	foreach (array_keys($missing_categories) as $k){
-		if (substr($k, 0, 5) == 'flag-'){
-			category_append($k, 'Flags');
-		}
-	}
-
-	function category_append($id, $cat){
-		global $categories, $missing_categories;
-
-		if (!$missing_categories[$id]) return;
-
-		$categories[$cat][] = $id;
-		unset($missing_categories[$id]);
 	}
 
 
@@ -743,8 +725,7 @@ exit;
 		return null;
 	}
 
-	#TODO
-
+	echo "DONE\n";
 
 
 	#
@@ -765,6 +746,8 @@ exit;
 	# apply categories back into the output hash
 	#
 
+	echo "Setting categories : ";
+
 	foreach ($categories as $cat => $names){
 		foreach ($names as $p => $name){
 			$index = $shortname_map[$name];
@@ -773,11 +756,14 @@ exit;
 		}
 	}
 
+	echo "DONE\n";
 
 
 	#
 	# sort everything into a nice order
 	#
+
+	echo "Sorting output list : ";
 
 	foreach ($out as $k => $v){
 		$out[$k]['sort'] = str_pad($v['unified'], 20, '0', STR_PAD_LEFT);
@@ -793,10 +779,14 @@ exit;
 		return strcmp($a['sort'], $b['sort']);
 	}
 
+	echo "DONE\n";
+
 
 	#
 	# assign positions
 	#
+
+	echo "Assigning grid positions : ";
 
 	$y = 0;
 	$x = 0;
@@ -831,12 +821,14 @@ exit;
 		}
 	}
 
+	echo "DONE\n";
+
 
 	#
 	# write map
 	#
 
-	echo "Writing map: ";
+	echo "Writing map : ";
 
 	$fh = fopen('../emoji.json', 'w');
 	fwrite($fh, json_encode($out));
@@ -845,7 +837,7 @@ exit;
 	echo "DONE\n";
 
 
-	echo "Writing pretty map: ";
+	echo "Writing pretty map : ";
 
 	$fh = fopen('../emoji_pretty.json', 'w');
 	fwrite($fh, json_encode($out, JSON_PRETTY_PRINT));
@@ -854,3 +846,4 @@ exit;
 	echo "DONE\n";
 
 
+	echo "-- ALL DONE --\n";
