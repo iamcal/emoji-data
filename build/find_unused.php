@@ -1,4 +1,6 @@
 <?php
+	error_reporting((E_ALL | E_STRICT) ^ E_NOTICE);
+
 	#
 	# first, build a list of every image referenced in the final JSON
 	#
@@ -52,7 +54,7 @@
 			$bits = explode('/', $test);
 			$last = array_pop($bits);
 
-			if (!$files[$last]){
+			if (!isset($files[$last])){
 
 				echo "unused file: $path -- $last\n";
 
