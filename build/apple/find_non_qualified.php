@@ -1,6 +1,6 @@
 <?php
 	#
-	# this script finds all emoji in the catalog that have a fully qualified
+	# this script finds all emoji in the catalog that have a non qualified
 	# version, then outputs them in such a way that extract.pl can pull the images out.
 	#
 
@@ -10,7 +10,7 @@
 
 	foreach ($obj as $row){
 
-		if ($row['fully_qualified']){
-			echo "{$row['unified']} {$row['fully_qualified']}\n";
+		if ($row['non_qualified']){
+			echo "{$row['unified']} {$row['non_qualified']}\n";
 		}
 	}

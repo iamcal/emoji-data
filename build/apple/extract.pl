@@ -78,21 +78,20 @@ for my $line(@lines){
 # we find a list of alternative ligatures which we might need to use
 #
 
-$lines = `php find_fully_qualified.php`;
+$lines = `php find_non_qualified.php`;
 @lines = split /\n/, $lines;
 
 for my $line(@lines){
 	# lines are of the format:
-	# ABCD  ABCD-FE0F
+	# ABCD-FE0F  ABCD
 
-	my ($hex_nfq, $hex_fq) = split(/\s+/, $line);
-	my $cps = &hex_to_cps($hex_fq);
+	my ($hex_fq, $hex_nq) = split(/\s+/, $line);
+	my $cps = &hex_to_cps($hex_nq);
 
 	push @ligatures, $cps;
 
-	$path_maps->{&cps_to_path($cps)} = &cps_to_path(&hex_to_cps($hex_nfq));
+	$path_maps->{&cps_to_path($cps)} = &cps_to_path(&hex_to_cps($hex_fq));
 }
-
 
 # extended/ambiguous ligatures are still broken, so these are all manual.
 # when upgrading the TTF, blank these out before running this - values will have changed!
@@ -148,6 +147,10 @@ if (1){
 		my $idx = $f->{'cmap'}{'Tables'}[0]{'val'}{$uni};
 
 		my $path = sprintf('%04x', $uni).'.png';
+
+		if ($path_maps->{$path}){
+			$path = $path_maps->{$path};
+		}
 
 		if ($filenames->{$idx}){
 			push @{$duplicates}, [$idx, $path];
