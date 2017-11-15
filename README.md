@@ -30,10 +30,8 @@ look like this:
 	[
 		{
 			"name": "WHITE UP POINTING INDEX",
-			"unified": "261D",
-			"variations": [
-				"261D-FE0F"
-			],
+			"unified": "261D-FE0F",
+			"non_qualified": "261D",
 			"docomo": null,
 			"au": "E4F6",
 			"softbank": "E00F",
@@ -83,8 +81,11 @@ An explanation of the various fields is in order:
 * `name` - The offical Unicode name, in SHOUTY UPPERCASE.
 * `unified` - The Unicode codepoint, as 4-5 hex digits. Where an emoji
    needs 2 or more codepoints, they are specified like `1F1EA-1F1F8`.
-* `variations` - An array of commonly used codepoint variations.
-* `docomo`, `au`, `softbank`, `google` - The Unicode codepoints used
+   For emoji that need to specifiy a variation selector (`-FE0F`), that
+   is included here.
+* `non_qualified` - For emoji that also have usage without a variation
+   selector, that version is included here (otherwise is `null`).
+* `docomo`, `au`, `softbank`, `google` - The legacy Unicode codepoints used
    by various mobile vendors.
 * `image` - The name of the image file.
 * `sheet_x` & `sheet_y` - The position of the image in the spritesheets.
@@ -112,11 +113,11 @@ Images are extracted from their sources and this library attempts to track the l
 available versions. If you're looking for older versions of Apple or Android images
 (such as the Hairy Heart) then you'll need to look at previous revisions.
 
-* Apple Emoji: Copyright &copy; Apple Inc. - macOS 10.12 (Sierra)
-* Android Emoji: Copyright &copy; [The Android Open Source Project](https://s3-eu-west-1.amazonaws.com/tw-font/android/NOTICE) - 2b65d03 / 2017-04-10
-* Twitter Emoji: Copyright &copy; Twitter, Inc. - v2.2.5 2017-02-20
+* Apple Emoji: Copyright &copy; Apple Inc. - macOS 10.13 (High Sierra)
+* Android Emoji: Copyright &copy; [The Android Open Source Project](https://s3-eu-west-1.amazonaws.com/tw-font/android/NOTICE) - 11275b5 / 2017-10-30
+* Twitter Emoji: Copyright &copy; Twitter, Inc. - v2.3.1 2017-10-31
 * Emoji One Emoji: Copyright &copy; [Ranks.com Inc.](http://www.emojione.com/developers) - v2.2.7 2016-12-02
-* Facebook/Messenger Emoji: Copyright &copy; Facebook, Inc. - v7
+* Facebook/Messenger Emoji: Copyright &copy; Facebook, Inc. - v7, fetched 2017-11-15
 
 
 ## Libraries which use this data
