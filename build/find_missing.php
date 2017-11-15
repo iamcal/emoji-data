@@ -23,6 +23,14 @@
 			echo "$p missing {$row['unified']} / {$row['short_name']}\n";
 		}
 
+		if (isset($row['skin_variations'])){
+			foreach ($row['skin_variations'] as $row2){
+				if (!$row2["has_img_$p"]){
+					echo "$p missing {$row2['unified']} / {$row['short_name']} (tone)\n";
+				}
+			}
+		}
+
 	}
 	}
 
