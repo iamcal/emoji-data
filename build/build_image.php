@@ -34,19 +34,22 @@
 	# bake sheets
 	#
 
-	create_sheet('apple');
-	create_sheet('twitter');
-	create_sheet('google');
-	create_sheet('emojione');
-	create_sheet('facebook');
-	create_sheet('messenger');
+	foreach (array(64, 32, 20, 16) as $sz){
+		create_sheet('apple', $sz);
+		create_sheet('twitter', $sz);
+		create_sheet('google', $sz);
+		create_sheet('emojione', $sz);
+		create_sheet('facebook', $sz);
+		create_sheet('messenger', $sz);
+	}
 
 
-	function create_sheet($type){
+	function create_sheet($type, $img_w){
 
-		$img_w = 64;
+		#$img_w = 64;
+		$space = 1;
 
-		echo "Creating $type : \n";
+		echo "Creating $type/$img_w : ";
 
 		global $catalog, $size;
 
@@ -91,7 +94,7 @@
 
 		}
 
-		$geom = escapeshellarg("{$img_w}x{$img_w}");
+		$geom = escapeshellarg("{$img_w}x{$img_w}+{$space}+{$space}");
 		$tile = escapeshellarg("{$size}x{$size}");
 		$dst = escapeshellarg("sheet_{$type}_{$img_w}.png");
 		$cmd = "montage @- -geometry {$geom} -tile {$tile} -background none png32:{$dst}";
@@ -112,14 +115,14 @@
 		foreach ($comp as $index => $file){
 			if ($file !== null){
 				fwrite($pipes[0], "{$file}\n");
-				echo '.';
+				#echo '.';
 			}else{
 				fwrite($pipes[0], "null:\n");
-				echo ' ';
+				#echo ' ';
 			}
 
 			if ($index % $size == $size - 1){
-				echo "\n";
+				#echo "\n";
 			}
 		}
 
@@ -130,7 +133,7 @@
 			return;
 		}
 
-		echo "DONE\n\n";
+		echo "DONE\n";
 	}
 
 
