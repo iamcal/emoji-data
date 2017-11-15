@@ -24,7 +24,11 @@ Build the original 136px emoji images:
 
     ./make136.sh
 
-Next you'll want to cut the 64px versions that are used in the sheets:
+Copy them into our naming scheme:
+
+    php map136.php
+
+Then you'll want to cut the 64px versions that are used in the sheets:
 
     ./make64.sh
 
