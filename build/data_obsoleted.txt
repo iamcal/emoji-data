@@ -9,10 +9,10 @@
 1f477;1f477-200d-2642-fe0f # constrcution worker
 1f482;1f482-200d-2642-fe0f # guard
 1f471;1f471-200d-2642-fe0f # :blond-haired-man:
-1f575;1f575-fe0f-200d-2642-fe0f # :male-detective:
-26f9;26f9-fe0f-200d-2642-fe0f # :man-bouncing-ball:
-1f3cb;1f3cb-fe0f-200d-2642-fe0f # :man-lifting-weights:
-1f3cc;1f3cc-fe0f-200d-2642-fe0f # :man-golfing:
+1f575-fe0f;1f575-fe0f-200d-2642-fe0f # :male-detective:
+26f9-fe0f;26f9-fe0f-200d-2642-fe0f # :man-bouncing-ball:
+1f3cb-fe0f;1f3cb-fe0f-200d-2642-fe0f # :man-lifting-weights:
+1f3cc-fe0f;1f3cc-fe0f-200d-2642-fe0f # :man-golfing:
 1f46f;1f46f-200d-2640-fe0f # :woman-with-bunny-ears-partying:
 1f3c3;1f3c3-200d-2642-fe0f # :man-running:
 1f3c4;1f3c4-200d-2642-fe0f # :man-surfing:
