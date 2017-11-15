@@ -24,7 +24,6 @@ You can rebuild by following these steps:
 	# before 6.7 will build the images in an incorrect order, so make sure to
 	# update!
 	php build_image.php
-	php build_sheets.php
 
 	# create quantized sheets and optimize them all (_very_ slow)
 	./quant_sheets.sh
