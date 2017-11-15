@@ -785,7 +785,7 @@
 	echo "Sorting output list : ";
 
 	foreach ($out as $k => $v){
-		$out[$k]['sort'] = str_pad($v['unified'], 20, '0', STR_PAD_LEFT);
+		$out[$k]['sort'] = str_pad($v['unified'], 20, '0', STR_PAD_RIGHT);
 	}
 
 	usort($out, 'sort_rows');
