@@ -312,7 +312,6 @@
 
 		add_row($img_key, $shorts, array(
 			'name'		=> $name,
-			'unified'	=> encode_points($row['unicode']),
 			'docomo'	=> encode_points($row['docomo'  ]['unicode']),
 			'au'		=> encode_points($row['au'      ]['unicode']),
 			'softbank'	=> encode_points($row['softbank']['unicode']),
@@ -564,16 +563,9 @@
 
 	function add_row($img_key, $short_names, $props = array()){
 
-		# if we get passed a fully qualified version, swap it for the non-fq version
-		if (isset($GLOBALS['rev_qualified_map'][$img_key])){
-			$img_key = $GLOBALS['rev_qualified_map'][$img_key];
-		}
-
-		# we might get passed a sequence which is FQ but not yet in our map
-		if (strpos($img_key, '-fe0f')){
-			$nq_img_key = str_replace('-fe0f', '', $img_key);
-			$GLOBALS['qualified_map'][$nq_img_key] = $img_key;
-			$img_key = $nq_img_key;
+		# if we get passed a non-qualified version, swap it for the fq version
+		if (isset($GLOBALS['qualified_map'][$img_key])){
+			$img_key = $GLOBALS['qualified_map'][$img_key];
 		}
 
 		if (isset($GLOBALS['out_unis'][$img_key])){
@@ -600,7 +592,7 @@
 
 		$GLOBALS['out'][] = $row;
 		$GLOBALS['out_unis'][$img_key] = 1;
-		if ($row['fully_qualified']) $GLOBALS['out_unis'][StrToLower($row['fully_qualified'])] = 1;
+		if ($row['non_qualified']) $GLOBALS['out_unis'][StrToLower($row['non_qualified'])] = 1;
 	}
 
 	function simple_row($img_key, $shorts, $props){
@@ -608,9 +600,14 @@
 		if (!is_array($shorts)) $shorts = array();
 		$short = count($shorts) ? $shorts[0] : null;
 
-		$fq = null;
-		if ($GLOBALS['qualified_map'][$img_key]){
-			$fq = StrToUpper($GLOBALS['qualified_map'][$img_key]);
+		$added = $GLOBALS['versions'][$img_key];
+
+		$nq = null;
+		if ($GLOBALS['rev_qualified_map'][$img_key]){
+			$nq = StrToUpper($GLOBALS['rev_qualified_map'][$img_key]);
+			if (!$added){
+				$added = $GLOBALS['versions'][StrToLower($nq)];
+			}
 		}
 
 		$category = $GLOBALS['category_map'][$img_key];
@@ -618,7 +615,7 @@
 		$ret = array(
 			'name'		=> null,
 			'unified'	=> null,
-			'fully_qualified'	=> $fq,
+			'non_qualified'	=> $nq,
 			'docomo'	=> null,
 			'au'		=> null,
 			'softbank'	=> null,
@@ -632,7 +629,7 @@
 			'texts'		=> $GLOBALS['texts'][$short],
 			'category'	=> is_array($category) ? $category[0] : null,
 			'sort_order'	=> is_array($category) ? $category[1] : null,
-			'added_in'	=> $GLOBALS['versions'][$img_key],
+			'added_in'	=> $added,
 		);
 
 		$ret['has_img_apple']		= file_exists("{$GLOBALS['dir']}/../img-apple-64/{$ret['image']}");
@@ -651,10 +648,18 @@
 			foreach ($GLOBALS['skin_variation_suffixes'] as $suffix){
 
 				$var_uni = $props['unified'].'-'.$suffix;
-				$var_img = $img_key.'-'.StrToLower($suffix).'.png';
+				$var_img_key = $img_key.'-'.StrToLower($suffix);
+				$var_img = $var_img_key.'.png';
+
+				$var_nq = null;
+				if ($GLOBALS['rev_qualified_map'][$var_img_key]){
+					$var_nq = StrToUpper($GLOBALS['rev_qualified_map'][$var_img_key]);
+				}
+
 
 				$variation = array(
 					'unified'		=> $var_uni,
+					'non_qualified'		=> $var_nq,
 					'image'			=> $var_img,
 					'sheet_x'		=> 0,
 					'sheet_y'		=> 0,
