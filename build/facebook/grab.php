@@ -10,23 +10,32 @@ $data = json_decode($json, true);
 
 foreach ($data as $row){
 	if (strlen($row['image'])){
-		fetch($row['image']);
+		fetch($row);
 	}
 
 	if (isset($row['skin_variations'])){
 		foreach ($row['skin_variations'] as $row2){
-			fetch($row2['image']);
+			fetch($row2);
 		}
 	}
 }
 
-function fetch($img){
-	fetch_single($img, 'MESSENGER', 'img-messenger-128', 128, 1);
-	fetch_single($img, 'FBEMOJI', 'img-facebook-96', 32, 3);
+echo "\n";
+
+function fetch($row){
+	$img = $row['image'];
+
+	$alt_img = null;
+	if (isset($row['non_qualified']) && $row['non_qualified']){
+		$alt_img = StrToLower($row['non_qualified']).'.png';
+	}
+
+	fetch_single($img, $alt_img, 'MESSENGER', 'img-messenger-128', 128, 1);
+	fetch_single($img, $alt_img, 'FBEMOJI', 'img-facebook-96', 32, 3);
 }
 
 
-function fetch_single($img, $type_key, $dir, $size, $ratio){
+function fetch_single($img, $alt_img, $type_key, $dir, $size, $ratio){
 	/* based upon Twitter scraper and Javascript from Facebook see Github issue #56 */
 
 	# files get stored here
@@ -34,7 +43,7 @@ function fetch_single($img, $type_key, $dir, $size, $ratio){
 
 	# use this for just fetching missing images
 	if (file_exists($path)) return;
-	
+
 	# Emoji Config
 	$supportedSizes = [16, 18, 20, 24, 28, 30, 32, 64, 128];
 	$types = array('FBEMOJI' => 'f', 'FB_EMOJI_EXTENDED' => 'e', 'MESSENGER' => 'z', 'UNICODE' => 'u');
@@ -52,6 +61,16 @@ function fetch_single($img, $type_key, $dir, $size, $ratio){
 		return;
 	}
 
+	if ($alt_img){
+
+		$url = build_url($type, $size, $ratio, str_replace('-', '_', $alt_img));
+
+		if (try_fetch($url, $path)){
+			echo '.';
+			return;
+		}
+	}
+
 	#echo "X[{$img}]";
 	echo 'X';
 	#sleep(1);
@@ -65,7 +84,7 @@ function build_url($type, $size, $pixelRatio, $img){
 	$path = $pixelRatio . '/' . $size . '/' . $img;
 	$check = checksum($path);
 	$url = $schemaAuth . '/' . $type . $check . '/' . $path;
-	
+
 	return $url;
 }
 
