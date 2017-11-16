@@ -118,6 +118,28 @@
 
 
 	#
+	# Fetching sequence names
+	#
+
+	echo "Fetching sequence names : ";
+
+	$sequence_names = array();
+
+	parse_unicode_specfile('unicode/emoji-sequences.txt', 'get_sequence_names');
+	parse_unicode_specfile('unicode/emoji-zwj-sequences.txt', 'get_sequence_names');
+
+	function get_sequence_names($fields, $comment){
+
+		$uni = StrToLower(str_replace(' ', '-', trim($fields[0])));
+		$name = trim($fields[2]);
+
+		$GLOBALS['sequence_names'][$uni] = $name;
+	}
+
+	echo "DONE\n";
+
+
+	#
 	# get versions for all emoji
 	#
 
@@ -654,6 +676,17 @@
 		}
 
 		$category = $GLOBALS['category_map'][$img_key];
+
+		if ($props['name']){
+			if (preg_match("!^REGIONAL INDICATOR SYMBOL LETTERS !", $props['name'])){
+
+				if ($GLOBALS['sequence_names'][$img_key]){
+
+					$props['name'] = $GLOBALS['sequence_names'][$img_key].' Flag';
+				}
+			}
+		}
+
 
 		$ret = array(
 			'name'		=> null,
