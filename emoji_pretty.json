@@ -49917,7 +49917,8 @@
                 "has_img_messenger": false,
                 "obsoletes": "1F9DA-1F3FF"
             }
-        }
+        },
+        "obsoletes": "1F9DA"
     },
     {
         "name": null,
@@ -50111,7 +50112,7 @@
                 "obsoleted_by": "1F9DA-1F3FF-200D-2640-FE0F"
             }
         },
-        "obsoleted_by": "1F9DA-200D-264?-FE0F"
+        "obsoleted_by": "1F9DA-200D-2640-FE0F"
     },
     {
         "name": null,
@@ -50205,7 +50206,8 @@
                 "has_img_messenger": false,
                 "obsoletes": "1F9DB-1F3FF"
             }
-        }
+        },
+        "obsoletes": "1F9DB"
     },
     {
         "name": null,
@@ -50399,7 +50401,7 @@
                 "obsoleted_by": "1F9DB-1F3FF-200D-2640-FE0F"
             }
         },
-        "obsoleted_by": "1F9DB-200D-264?-FE0F"
+        "obsoleted_by": "1F9DB-200D-2640-FE0F"
     },
     {
         "name": null,
