@@ -8,6 +8,23 @@
 
 
 	#
+	# the softbank mapping in the catalog is bad, so use our custom version
+	#
+
+	$softbank_map = array();
+
+	$lines = file('data_softbank_map.txt');
+	foreach ($lines as $line){
+		$line = trim($line);
+		if (strlen($line) == 0) continue;
+		if (substr($line, 0, 1) == '#') continue;
+		list($softbank, $unified) = explode(' ', $line);
+
+		$softbank_map[StrToLower($unified)] = $softbank;
+	}
+
+
+	#
 	# load text mappings
 	#
 
@@ -314,7 +331,6 @@
 			'name'		=> $name,
 			'docomo'	=> encode_points($row['docomo'  ]['unicode']),
 			'au'		=> encode_points($row['au'      ]['unicode']),
-			'softbank'	=> encode_points($row['softbank']['unicode']),
 			'google'	=> encode_points($row['google'  ]['unicode']),
 		));
 
@@ -626,6 +642,17 @@
 			}
 		}
 
+		$softbank = null;
+		if ($GLOBALS['softbank_map'][$img_key]){
+			$softbank = $GLOBALS['softbank_map'][$img_key];
+			unset($GLOBALS['softbank_map'][$img_key]);
+		}else{
+			if ($nq && $GLOBALS['softbank_map'][StrToLower($nq)]){
+				$softbank = $GLOBALS['softbank_map'][StrToLower($nq)];
+				 unset($GLOBALS['softbank_map'][StrToLower($nq)]);
+			}
+		}
+
 		$category = $GLOBALS['category_map'][$img_key];
 
 		$ret = array(
@@ -634,7 +661,7 @@
 			'non_qualified'	=> $nq,
 			'docomo'	=> null,
 			'au'		=> null,
-			'softbank'	=> null,
+			'softbank'	=> $softbank,
 			'google'	=> null,
 			'image'		=> $img_key.'.png',
 			'sheet_x'	=> 0,
@@ -884,6 +911,11 @@
 	fclose($fh);
 
 	echo "DONE\n";
+
+
+	if (count($softbank_map)){
+		echo "Missing ".count($softbank_map)." codepoint(s) for softbank: ".implode(', ', array_keys($softbank_map))."\n";
+	}
 
 
 	echo "-- ALL DONE --\n";
