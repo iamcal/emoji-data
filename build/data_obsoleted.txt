@@ -60,14 +60,14 @@
 1f9d9-1f3fe;1f9d9-1f3fe-200d-2640-fe0f # :mage (tone)
 1f9d9-1f3ff;1f9d9-1f3ff-200d-2640-fe0f # :mage (tone)
 
-1f9da;1f9da-200d-264?-fe0f # :fairy - WOMAN
+1f9da;1f9da-200d-2640-fe0f # :fairy - WOMAN
 1f9da-1f3fb;1f9da-1f3fb-200d-2640-fe0f # :fairy (tone)
 1f9da-1f3fc;1f9da-1f3fc-200d-2640-fe0f # :fairy (tone)
 1f9da-1f3fd;1f9da-1f3fd-200d-2640-fe0f # :fairy (tone)
 1f9da-1f3fe;1f9da-1f3fe-200d-2640-fe0f # :fairy (tone)
 1f9da-1f3ff;1f9da-1f3ff-200d-2640-fe0f # :fairy (tone)
 
-1f9db;1f9db-200d-264?-fe0f # :vampire - WOMAN
+1f9db;1f9db-200d-2640-fe0f # :vampire - WOMAN
 1f9db-1f3fb;1f9db-1f3fb-200d-2640-fe0f # :vampire (tone)
 1f9db-1f3fc;1f9db-1f3fc-200d-2640-fe0f # :vampire (tone)
 1f9db-1f3fd;1f9db-1f3fd-200d-2640-fe0f # :vampire (tone)
