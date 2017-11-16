@@ -1,5 +1,13 @@
 # Change Log
 
+## 2017-11-?? : v4.0.0
+
+* Updated to Unicode 10 / Emoji 5
+* Changed the unified codepoints to prefer the fully qualified version (with `-FE0F`), including the non-qualified version as an optional property
+* Correctly handle skin-variation codepoints that have been obsoleted
+* Added gaps between images in spritesheets to avoid bleed when displaying them zoomed - a 1px border around each image at all sizes
+
+
 ## 2017-05-08 : v3.0.0
 
 * Since the npm packaging format has changed, increment the major version https://github.com/iamcal/emoji-data/issues/87
