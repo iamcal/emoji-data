@@ -1,4 +1,6 @@
 <?php
+	error_reporting((E_ALL | E_STRICT) ^ E_NOTICE);
+
 	#
 	# load master catalog
 	#
@@ -68,6 +70,16 @@
 
 		$comp = array_fill(0, $size*$size, null);
 
+		$image_map = array();
+		foreach ($catalog as $row){
+			$image_map[$row['unified']] = $row;
+			if (is_array($row['skin_variations'])){
+				foreach ($row['skin_variations'] as $row2){
+					$image_map[$row2['unified']] = $row2;
+				}
+			}
+		}
+
 		foreach ($catalog as $row){
 
 			$index = $size*$row['sheet_y'] + $row['sheet_x'];
@@ -76,7 +88,7 @@
 			# do we have the image in this set?
 			#
 
-			$comp[$index] = find_image($try_order, $row);
+			$comp[$index] = find_image($try_order, $row, $image_map);
 
 
 			#
@@ -88,7 +100,7 @@
 
 					$index = $size*$row2['sheet_y'] + $row2['sheet_x'];
 
-					$comp[$index] = find_image($try_order, $row2);
+					$comp[$index] = find_image($try_order, $row2, $image_map);
 				}
 			}
 
@@ -137,7 +149,7 @@
 	}
 
 
-	function find_image($try_order, $row){
+	function find_image($try_order, $row, $map){
 
 		#
 		# try our priority list
@@ -145,9 +157,20 @@
 
 		foreach ($try_order as $try_type){
 
+			if ($try_type != $try_order[0]){
+				#echo "Trying $try_type for {$try_order[0]}/{$row['unified']}/{$row['short_name']}\n";
+			}
+
 			if ($row["has_img_{$try_type}"]){
 
 				return "img-{$try_type}-64/{$row['image']}";
+			}
+			if ($row['obsoleted_by']){
+				$row2 = $map[$row['obsoleted_by']];
+				if ($row2["has_img_{$try_type}"]){
+
+					return "img-{$try_type}-64/{$row2['image']}";
+				}
 			}
 		}
 
