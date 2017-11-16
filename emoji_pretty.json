@@ -48795,7 +48795,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9D6-1F3FB"
             },
             "1F3FC": {
                 "unified": "1F9D6-1F3FC-200D-2642-FE0F",
@@ -48807,7 +48808,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9D6-1F3FC"
             },
             "1F3FD": {
                 "unified": "1F9D6-1F3FD-200D-2642-FE0F",
@@ -48819,7 +48821,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9D6-1F3FD"
             },
             "1F3FE": {
                 "unified": "1F9D6-1F3FE-200D-2642-FE0F",
@@ -48831,7 +48834,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9D6-1F3FE"
             },
             "1F3FF": {
                 "unified": "1F9D6-1F3FF-200D-2642-FE0F",
@@ -48843,7 +48847,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9D6-1F3FF"
             }
         },
         "obsoletes": "1F9D6"
@@ -48887,7 +48892,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9D6-1F3FB-200D-2642-FE0F"
             },
             "1F3FC": {
                 "unified": "1F9D6-1F3FC",
@@ -48901,7 +48907,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9D6-1F3FC-200D-2642-FE0F"
             },
             "1F3FD": {
                 "unified": "1F9D6-1F3FD",
@@ -48915,7 +48922,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9D6-1F3FD-200D-2642-FE0F"
             },
             "1F3FE": {
                 "unified": "1F9D6-1F3FE",
@@ -48929,7 +48937,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9D6-1F3FE-200D-2642-FE0F"
             },
             "1F3FF": {
                 "unified": "1F9D6-1F3FF",
@@ -48943,7 +48952,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9D6-1F3FF-200D-2642-FE0F"
             }
         },
         "obsoleted_by": "1F9D6-200D-2642-FE0F"
@@ -48985,7 +48995,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9D7-1F3FB"
             },
             "1F3FC": {
                 "unified": "1F9D7-1F3FC-200D-2640-FE0F",
@@ -48997,7 +49008,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9D7-1F3FC"
             },
             "1F3FD": {
                 "unified": "1F9D7-1F3FD-200D-2640-FE0F",
@@ -49009,7 +49021,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9D7-1F3FD"
             },
             "1F3FE": {
                 "unified": "1F9D7-1F3FE-200D-2640-FE0F",
@@ -49021,7 +49034,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9D7-1F3FE"
             },
             "1F3FF": {
                 "unified": "1F9D7-1F3FF-200D-2640-FE0F",
@@ -49033,7 +49047,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9D7-1F3FF"
             }
         },
         "obsoletes": "1F9D7"
@@ -49166,7 +49181,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9D7-1F3FB-200D-2640-FE0F"
             },
             "1F3FC": {
                 "unified": "1F9D7-1F3FC",
@@ -49180,7 +49196,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9D7-1F3FC-200D-2640-FE0F"
             },
             "1F3FD": {
                 "unified": "1F9D7-1F3FD",
@@ -49194,7 +49211,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9D7-1F3FD-200D-2640-FE0F"
             },
             "1F3FE": {
                 "unified": "1F9D7-1F3FE",
@@ -49208,7 +49226,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9D7-1F3FE-200D-2640-FE0F"
             },
             "1F3FF": {
                 "unified": "1F9D7-1F3FF",
@@ -49222,7 +49241,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9D7-1F3FF-200D-2640-FE0F"
             }
         },
         "obsoleted_by": "1F9D7-200D-2640-FE0F"
@@ -49264,7 +49284,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9D8-1F3FB"
             },
             "1F3FC": {
                 "unified": "1F9D8-1F3FC-200D-2640-FE0F",
@@ -49276,7 +49297,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9D8-1F3FC"
             },
             "1F3FD": {
                 "unified": "1F9D8-1F3FD-200D-2640-FE0F",
@@ -49288,7 +49310,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9D8-1F3FD"
             },
             "1F3FE": {
                 "unified": "1F9D8-1F3FE-200D-2640-FE0F",
@@ -49300,7 +49323,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9D8-1F3FE"
             },
             "1F3FF": {
                 "unified": "1F9D8-1F3FF-200D-2640-FE0F",
@@ -49312,7 +49336,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9D8-1F3FF"
             }
         },
         "obsoletes": "1F9D8"
@@ -49445,7 +49470,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9D8-1F3FB-200D-2640-FE0F"
             },
             "1F3FC": {
                 "unified": "1F9D8-1F3FC",
@@ -49459,7 +49485,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9D8-1F3FC-200D-2640-FE0F"
             },
             "1F3FD": {
                 "unified": "1F9D8-1F3FD",
@@ -49473,7 +49500,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9D8-1F3FD-200D-2640-FE0F"
             },
             "1F3FE": {
                 "unified": "1F9D8-1F3FE",
@@ -49487,7 +49515,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9D8-1F3FE-200D-2640-FE0F"
             },
             "1F3FF": {
                 "unified": "1F9D8-1F3FF",
@@ -49501,7 +49530,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9D8-1F3FF-200D-2640-FE0F"
             }
         },
         "obsoleted_by": "1F9D8-200D-2640-FE0F"
@@ -49543,7 +49573,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9D9-1F3FB"
             },
             "1F3FC": {
                 "unified": "1F9D9-1F3FC-200D-2640-FE0F",
@@ -49555,7 +49586,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9D9-1F3FC"
             },
             "1F3FD": {
                 "unified": "1F9D9-1F3FD-200D-2640-FE0F",
@@ -49567,7 +49599,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9D9-1F3FD"
             },
             "1F3FE": {
                 "unified": "1F9D9-1F3FE-200D-2640-FE0F",
@@ -49579,7 +49612,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9D9-1F3FE"
             },
             "1F3FF": {
                 "unified": "1F9D9-1F3FF-200D-2640-FE0F",
@@ -49591,7 +49625,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9D9-1F3FF"
             }
         },
         "obsoletes": "1F9D9"
@@ -49724,7 +49759,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9D9-1F3FB-200D-2640-FE0F"
             },
             "1F3FC": {
                 "unified": "1F9D9-1F3FC",
@@ -49738,7 +49774,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9D9-1F3FC-200D-2640-FE0F"
             },
             "1F3FD": {
                 "unified": "1F9D9-1F3FD",
@@ -49752,7 +49789,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9D9-1F3FD-200D-2640-FE0F"
             },
             "1F3FE": {
                 "unified": "1F9D9-1F3FE",
@@ -49766,7 +49804,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9D9-1F3FE-200D-2640-FE0F"
             },
             "1F3FF": {
                 "unified": "1F9D9-1F3FF",
@@ -49780,7 +49819,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9D9-1F3FF-200D-2640-FE0F"
             }
         },
         "obsoleted_by": "1F9D9-200D-2640-FE0F"
@@ -49822,7 +49862,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9DA-1F3FB"
             },
             "1F3FC": {
                 "unified": "1F9DA-1F3FC-200D-2640-FE0F",
@@ -49834,7 +49875,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9DA-1F3FC"
             },
             "1F3FD": {
                 "unified": "1F9DA-1F3FD-200D-2640-FE0F",
@@ -49846,7 +49888,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9DA-1F3FD"
             },
             "1F3FE": {
                 "unified": "1F9DA-1F3FE-200D-2640-FE0F",
@@ -49858,7 +49901,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9DA-1F3FE"
             },
             "1F3FF": {
                 "unified": "1F9DA-1F3FF-200D-2640-FE0F",
@@ -49870,7 +49914,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9DA-1F3FF"
             }
         }
     },
@@ -50002,7 +50047,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9DA-1F3FB-200D-2640-FE0F"
             },
             "1F3FC": {
                 "unified": "1F9DA-1F3FC",
@@ -50016,7 +50062,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9DA-1F3FC-200D-2640-FE0F"
             },
             "1F3FD": {
                 "unified": "1F9DA-1F3FD",
@@ -50030,7 +50077,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9DA-1F3FD-200D-2640-FE0F"
             },
             "1F3FE": {
                 "unified": "1F9DA-1F3FE",
@@ -50044,7 +50092,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9DA-1F3FE-200D-2640-FE0F"
             },
             "1F3FF": {
                 "unified": "1F9DA-1F3FF",
@@ -50058,7 +50107,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9DA-1F3FF-200D-2640-FE0F"
             }
         },
         "obsoleted_by": "1F9DA-200D-264?-FE0F"
@@ -50100,7 +50150,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9DB-1F3FB"
             },
             "1F3FC": {
                 "unified": "1F9DB-1F3FC-200D-2640-FE0F",
@@ -50112,7 +50163,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9DB-1F3FC"
             },
             "1F3FD": {
                 "unified": "1F9DB-1F3FD-200D-2640-FE0F",
@@ -50124,7 +50176,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9DB-1F3FD"
             },
             "1F3FE": {
                 "unified": "1F9DB-1F3FE-200D-2640-FE0F",
@@ -50136,7 +50189,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9DB-1F3FE"
             },
             "1F3FF": {
                 "unified": "1F9DB-1F3FF-200D-2640-FE0F",
@@ -50148,7 +50202,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9DB-1F3FF"
             }
         }
     },
@@ -50280,7 +50335,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9DB-1F3FB-200D-2640-FE0F"
             },
             "1F3FC": {
                 "unified": "1F9DB-1F3FC",
@@ -50294,7 +50350,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9DB-1F3FC-200D-2640-FE0F"
             },
             "1F3FD": {
                 "unified": "1F9DB-1F3FD",
@@ -50308,7 +50365,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9DB-1F3FD-200D-2640-FE0F"
             },
             "1F3FE": {
                 "unified": "1F9DB-1F3FE",
@@ -50322,7 +50380,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9DB-1F3FE-200D-2640-FE0F"
             },
             "1F3FF": {
                 "unified": "1F9DB-1F3FF",
@@ -50336,7 +50395,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9DB-1F3FF-200D-2640-FE0F"
             }
         },
         "obsoleted_by": "1F9DB-200D-264?-FE0F"
@@ -50467,7 +50527,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9DC-1F3FB"
             },
             "1F3FC": {
                 "unified": "1F9DC-1F3FC-200D-2642-FE0F",
@@ -50479,7 +50540,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9DC-1F3FC"
             },
             "1F3FD": {
                 "unified": "1F9DC-1F3FD-200D-2642-FE0F",
@@ -50491,7 +50553,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9DC-1F3FD"
             },
             "1F3FE": {
                 "unified": "1F9DC-1F3FE-200D-2642-FE0F",
@@ -50503,7 +50566,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9DC-1F3FE"
             },
             "1F3FF": {
                 "unified": "1F9DC-1F3FF-200D-2642-FE0F",
@@ -50515,7 +50579,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9DC-1F3FF"
             }
         },
         "obsoletes": "1F9DC"
@@ -50559,7 +50624,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9DC-1F3FB-200D-2642-FE0F"
             },
             "1F3FC": {
                 "unified": "1F9DC-1F3FC",
@@ -50573,7 +50639,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9DC-1F3FC-200D-2642-FE0F"
             },
             "1F3FD": {
                 "unified": "1F9DC-1F3FD",
@@ -50587,7 +50654,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9DC-1F3FD-200D-2642-FE0F"
             },
             "1F3FE": {
                 "unified": "1F9DC-1F3FE",
@@ -50601,7 +50669,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9DC-1F3FE-200D-2642-FE0F"
             },
             "1F3FF": {
                 "unified": "1F9DC-1F3FF",
@@ -50615,7 +50684,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9DC-1F3FF-200D-2642-FE0F"
             }
         },
         "obsoleted_by": "1F9DC-200D-2642-FE0F"
@@ -50746,7 +50816,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9DD-1F3FB"
             },
             "1F3FC": {
                 "unified": "1F9DD-1F3FC-200D-2642-FE0F",
@@ -50758,7 +50829,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9DD-1F3FC"
             },
             "1F3FD": {
                 "unified": "1F9DD-1F3FD-200D-2642-FE0F",
@@ -50770,7 +50842,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9DD-1F3FD"
             },
             "1F3FE": {
                 "unified": "1F9DD-1F3FE-200D-2642-FE0F",
@@ -50782,7 +50855,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9DD-1F3FE"
             },
             "1F3FF": {
                 "unified": "1F9DD-1F3FF-200D-2642-FE0F",
@@ -50794,7 +50868,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoletes": "1F9DD-1F3FF"
             }
         },
         "obsoletes": "1F9DD"
@@ -50838,7 +50913,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9DD-1F3FB-200D-2642-FE0F"
             },
             "1F3FC": {
                 "unified": "1F9DD-1F3FC",
@@ -50852,7 +50928,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9DD-1F3FC-200D-2642-FE0F"
             },
             "1F3FD": {
                 "unified": "1F9DD-1F3FD",
@@ -50866,7 +50943,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9DD-1F3FD-200D-2642-FE0F"
             },
             "1F3FE": {
                 "unified": "1F9DD-1F3FE",
@@ -50880,7 +50958,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9DD-1F3FE-200D-2642-FE0F"
             },
             "1F3FF": {
                 "unified": "1F9DD-1F3FF",
@@ -50894,7 +50973,8 @@
                 "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
-                "has_img_messenger": false
+                "has_img_messenger": false,
+                "obsoleted_by": "1F9DD-1F3FF-200D-2642-FE0F"
             }
         },
         "obsoleted_by": "1F9DD-200D-2642-FE0F"
