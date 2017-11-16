@@ -494,8 +494,14 @@
 	echo "Attaching obsoletes to their bases : ";
 
 	$cp_map = array();
+	$cp_map_skin = array();
 	foreach ($out as $k => $row){
 		$cp_map[$row['unified']] = $k;
+		if (isset($row['skin_variations'])){
+			foreach ($row['skin_variations'] as $k2 => $row2){
+				$cp_map_skin[$row2['unified']] = array($k, $k2);
+			}
+		}
 	}
 
 	foreach ($obsoleted_by as $k => $v){
@@ -503,7 +509,12 @@
 		if ($idx){
 			$out[$idx]['obsoleted_by'] = $v;
 		}else{
-			echo "\nERROR: unable to find index for cp {$k} while adding obsoletes\n";
+			$idx = $cp_map_skin[$k];
+			if (is_array($idx)){
+				$out[$idx[0]]['skin_variations'][$idx[1]]['obsoleted_by'] = $v;
+			}else{
+				echo "\nERROR: unable to find index for cp {$k} while adding obsoletes\n";
+			}
 		}
 	}
 
@@ -512,7 +523,12 @@
 		if ($idx){
 			$out[$idx]['obsoletes'] = $v;
 		}else{
-			echo "\nERROR: unable to find index for cp {$k} while adding obsoletes\n";
+			$idx = $cp_map_skin[$k];
+			if (is_array($idx)){
+				$out[$idx[0]]['skin_variations'][$idx[1]]['obsoletes'] = $v;
+			}else{
+				echo "\nERROR: unable to find index for cp {$k} while adding obsoletes\n";
+			}
 		}
 	}
 

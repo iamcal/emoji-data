@@ -30,3 +30,64 @@
 1f64b;1f64b-200d-2640-fe0f # :woman-raising-hand:
 1f64d;1f64d-200d-2640-fe0f # :woman-frowning:
 1f64e;1f64e-200d-2640-fe0f # :woman-pouting:
+
+# more gendered emoji in v5
+1f9d6;1f9d6-200d-2642-fe0f # :person_in_steamy_room - MAN
+1f9d6-1f3fb;1f9d6-1f3fb-200d-2642-fe0f # :person_in_steamy_room (tone)
+1f9d6-1f3fc;1f9d6-1f3fc-200d-2642-fe0f # :person_in_steamy_room (tone)
+1f9d6-1f3fd;1f9d6-1f3fd-200d-2642-fe0f # :person_in_steamy_room (tone)
+1f9d6-1f3fe;1f9d6-1f3fe-200d-2642-fe0f # :person_in_steamy_room (tone)
+1f9d6-1f3ff;1f9d6-1f3ff-200d-2642-fe0f # :person_in_steamy_room (tone)
+
+1f9d7;1f9d7-200d-2640-fe0f # :person_climbing - WOMAN
+1f9d7-1f3fb;1f9d7-1f3fb-200d-2640-fe0f # :person_climbing (tone)
+1f9d7-1f3fc;1f9d7-1f3fc-200d-2640-fe0f # :person_climbing (tone)
+1f9d7-1f3fd;1f9d7-1f3fd-200d-2640-fe0f # :person_climbing (tone)
+1f9d7-1f3fe;1f9d7-1f3fe-200d-2640-fe0f # :person_climbing (tone)
+1f9d7-1f3ff;1f9d7-1f3ff-200d-2640-fe0f # :person_climbing (tone)
+
+1f9d8;1f9d8-200d-2640-fe0f # :person_in_lotus_position - WOMAN
+1f9d8-1f3fb;1f9d8-1f3fb-200d-2640-fe0f # :person_in_lotus_position (tone)
+1f9d8-1f3fc;1f9d8-1f3fc-200d-2640-fe0f # :person_in_lotus_position (tone)
+1f9d8-1f3fd;1f9d8-1f3fd-200d-2640-fe0f # :person_in_lotus_position (tone)
+1f9d8-1f3fe;1f9d8-1f3fe-200d-2640-fe0f # :person_in_lotus_position (tone)
+1f9d8-1f3ff;1f9d8-1f3ff-200d-2640-fe0f # :person_in_lotus_position (tone)
+
+1f9d9;1f9d9-200d-2640-fe0f # :mage - WOMAN
+1f9d9-1f3fb;1f9d9-1f3fb-200d-2640-fe0f # :mage (tone)
+1f9d9-1f3fc;1f9d9-1f3fc-200d-2640-fe0f # :mage (tone)
+1f9d9-1f3fd;1f9d9-1f3fd-200d-2640-fe0f # :mage (tone)
+1f9d9-1f3fe;1f9d9-1f3fe-200d-2640-fe0f # :mage (tone)
+1f9d9-1f3ff;1f9d9-1f3ff-200d-2640-fe0f # :mage (tone)
+
+1f9da;1f9da-200d-264?-fe0f # :fairy - WOMAN
+1f9da-1f3fb;1f9da-1f3fb-200d-2640-fe0f # :fairy (tone)
+1f9da-1f3fc;1f9da-1f3fc-200d-2640-fe0f # :fairy (tone)
+1f9da-1f3fd;1f9da-1f3fd-200d-2640-fe0f # :fairy (tone)
+1f9da-1f3fe;1f9da-1f3fe-200d-2640-fe0f # :fairy (tone)
+1f9da-1f3ff;1f9da-1f3ff-200d-2640-fe0f # :fairy (tone)
+
+1f9db;1f9db-200d-264?-fe0f # :vampire - WOMAN
+1f9db-1f3fb;1f9db-1f3fb-200d-2640-fe0f # :vampire (tone)
+1f9db-1f3fc;1f9db-1f3fc-200d-2640-fe0f # :vampire (tone)
+1f9db-1f3fd;1f9db-1f3fd-200d-2640-fe0f # :vampire (tone)
+1f9db-1f3fe;1f9db-1f3fe-200d-2640-fe0f # :vampire (tone)
+1f9db-1f3ff;1f9db-1f3ff-200d-2640-fe0f # :vampire (tone)
+
+1f9dc;1f9dc-200d-2642-fe0f # :merperson - MAN
+1f9dc-1f3fb;1f9dc-1f3fb-200d-2642-fe0f # :merperson (tone)
+1f9dc-1f3fc;1f9dc-1f3fc-200d-2642-fe0f # :merperson (tone)
+1f9dc-1f3fd;1f9dc-1f3fd-200d-2642-fe0f # :merperson (tone)
+1f9dc-1f3fe;1f9dc-1f3fe-200d-2642-fe0f # :merperson (tone)
+1f9dc-1f3ff;1f9dc-1f3ff-200d-2642-fe0f # :merperson (tone)
+
+1f9dd;1f9dd-200d-2642-fe0f # :elf - MAN
+1f9dd-1f3fb;1f9dd-1f3fb-200d-2642-fe0f # :elf (tone)
+1f9dd-1f3fc;1f9dd-1f3fc-200d-2642-fe0f # :elf (tone)
+1f9dd-1f3fd;1f9dd-1f3fd-200d-2642-fe0f # :elf (tone)
+1f9dd-1f3fe;1f9dd-1f3fe-200d-2642-fe0f # :elf (tone)
+1f9dd-1f3ff;1f9dd-1f3ff-200d-2642-fe0f # :elf (tone)
+
+1f9de;1f9de-200d-2642-fe0f # :genie - MAN
+1f9df;1f9df-200d-2642-fe0f # :zombie - MAN
+
