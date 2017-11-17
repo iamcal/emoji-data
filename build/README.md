@@ -43,7 +43,7 @@ directories under `build/`.
 2. Update `CHANGES.md` with version history
 3. Update `package.json` with new version number (now in only 1 place)
 4. Add a git tag
-5. `npm publish`
+5. Publish to npm: `php npm_prep.php` and `php npm_publish.php`
 6. Update downstream libraries
 
 
