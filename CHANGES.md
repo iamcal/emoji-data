@@ -1,11 +1,16 @@
 # Change Log
 
-## 2017-11-?? : v4.0.0
+## 2017-11-17 : v4.0.0
 
 * Updated to Unicode 10 / Emoji 5
 * Changed the unified codepoints to prefer the fully qualified version (with `-FE0F`), including the non-qualified version as an optional property
 * Correctly handle skin-variation codepoints that have been obsoleted
 * Added gaps between images in spritesheets to avoid bleed when displaying them zoomed - a 1px border around each image at all sizes
+* Added real names for flags
+* Added obsolete information for skin variations
+* For obsolete emoji missing images, the sheets now use the image of the emoji it was obsoleted by
+* Corrected softbank codepoints
+* Better formating of `table.htm` to show which images are available
 
 
 ## 2017-05-08 : v3.0.0
