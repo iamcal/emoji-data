@@ -1,5 +1,10 @@
 # Change Log
 
+## ????-??-?? : v4.0.1
+
+* Included `categories.json` to show category order.
+
+
 ## 2017-11-17 : v4.0.0
 
 * Updated to Unicode 10 / Emoji 5
