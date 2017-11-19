@@ -860,6 +860,19 @@
 
 
 	#
+	# output category info
+	#
+
+	echo "Saving categories : ";
+
+	$fh = fopen('../categories.json', 'w');
+	fwrite($fh, json_encode($categories, JSON_PRETTY_PRINT));
+	fclose($fh);
+
+	echo "DONE\n";
+
+
+	#
 	# sort everything into a nice order
 	#
 
