@@ -69,6 +69,7 @@
 	#
 
 	$category_map = array();	# CP => (Category-name, Global-order)
+	$categories = array();		# Category-name => []
 	$qualified_map = array();	# non-qualified-CP => fully-qualified-CP
 
 	$lines = file('unicode/emoji-test.txt');
@@ -79,6 +80,7 @@
 		$line = rtrim($line);
 		if (substr($line, 0, 9) == '# group: '){
 			$last_cat = substr($line, 9);
+			$categories[$last_cat] = array();
 		}elseif (substr($line, 0, 1) == '#'){
 			continue;
 		}else{
@@ -765,7 +767,6 @@
 
 	$missing_categories = array();
 	$shortname_map = array();
-	$categories = array();
 
 	foreach ($out as $k => $row){
 		$shortname_map[$row['short_name']] = $k;
