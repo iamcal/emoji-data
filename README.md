@@ -5,6 +5,8 @@ You can see a catalog of the emoji data here: http://unicodey.com/emoji-data/tab
 
 
 ## Installation
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fiamcal%2Femoji-data.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fiamcal%2Femoji-data?ref=badge_shield)
+
 
 The git repo is pretty big (almost 4GB), but contains everything. If you want to use `npm`, you can:
 
@@ -130,3 +132,7 @@ available versions. If you're looking for older versions of Apple or Android ima
 * https://github.com/needim/wdt-emoji-bundle - a Slack-style JavaScript emoji picker
 * https://github.com/mroth/emojistatic - emoji image CDN
 * https://github.com/juanfran/emoji-data-css - emoji css files
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fiamcal%2Femoji-data.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fiamcal%2Femoji-data?ref=badge_large)
