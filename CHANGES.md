@@ -1,6 +1,6 @@
 # Change Log
 
-## ????-??-?? : v4.0.1
+## 2017-12-17 : v4.0.1
 
 * Included `categories.json` to show category order.
 * Added missing skin modifiers to 9 emoji, with updated images https://github.com/iamcal/emoji-data/issues/105
