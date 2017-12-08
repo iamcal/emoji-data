@@ -719,15 +719,27 @@
 
 		foreach ($props as $k => $v) $ret[$k] = $v;
 
-		if ($GLOBALS['skin_variations'][$img_key] || file_exists("../img-apple-64/{$img_key}-1f3fb.png")){
+		$has_skin_vars = false;
+		$skin_vars_base = $img_key;
+
+		if ($GLOBALS['skin_variations'][$img_key]) $has_skin_vars = true;
+		if (file_exists("../img-apple-64/{$img_key}-1f3fb.png")) $has_skin_vars = true;
+		if ($nq){
+			if ($GLOBALS['skin_variations'][StrTolower($nq)]){
+				$has_skin_vars = true;
+				$skin_vars_base = StrTolower($nq);
+			}
+		}
+
+		if ($has_skin_vars){
 
 			$ret['skin_variations'] = array();
 
 			foreach ($GLOBALS['skin_variation_suffixes'] as $suffix){
 
-				$var_uni = $props['unified'].'-'.$suffix;
-				$var_img_key = $img_key.'-'.StrToLower($suffix);
-				$var_img = $var_img_key.'.png';
+				$var_uni	= StrToUpper($skin_vars_base.'-'.$suffix);
+				$var_img_key	= StrToLower($skin_vars_base.'-'.$suffix);
+				$var_img	= $var_img_key.'.png';
 
 				$var_nq = null;
 				if ($GLOBALS['rev_qualified_map'][$var_img_key]){
