@@ -1,5 +1,10 @@
 # Change Log
 
+## 2017-??-?? : v4.0.2
+
+* Added `added_in` property for variations https://github.com/iamcal/emoji-data/pull/101
+
+
 ## 2017-12-17 : v4.0.1
 
 * Included `categories.json` to show category order.
