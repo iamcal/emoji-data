@@ -3,6 +3,7 @@
 ## ????-??-?? : v4.0.1
 
 * Included `categories.json` to show category order.
+* Added missing skin modifiers to 9 emoji, with updated images https://github.com/iamcal/emoji-data/issues/105
 
 
 ## 2017-11-17 : v4.0.0
