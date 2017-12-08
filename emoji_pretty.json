@@ -14705,7 +14705,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -14719,7 +14719,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -14733,7 +14733,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -14747,7 +14747,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -14761,7 +14761,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -14984,7 +14984,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": false,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -14998,7 +14998,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": false,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -15012,7 +15012,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": false,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -15026,7 +15026,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": false,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -15040,7 +15040,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": false,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -33694,7 +33694,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
                 "has_img_messenger": false
@@ -33708,7 +33708,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
                 "has_img_messenger": false
@@ -33722,7 +33722,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
                 "has_img_messenger": false
@@ -33736,7 +33736,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
                 "has_img_messenger": false
@@ -33750,7 +33750,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": false,
                 "has_img_facebook": true,
                 "has_img_messenger": false
@@ -33972,7 +33972,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -33986,7 +33986,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -34000,7 +34000,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -34014,7 +34014,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -34028,7 +34028,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -34414,7 +34414,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": true,
                 "has_img_messenger": false
@@ -34428,7 +34428,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": true,
                 "has_img_messenger": false
@@ -34442,7 +34442,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": true,
                 "has_img_messenger": false
@@ -34456,7 +34456,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": true,
                 "has_img_messenger": false
@@ -34470,7 +34470,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": true,
                 "has_img_messenger": false
@@ -53056,7 +53056,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": true,
                 "has_img_messenger": true
@@ -53070,7 +53070,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": true,
                 "has_img_messenger": true
@@ -53084,7 +53084,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": true,
                 "has_img_messenger": true
@@ -53098,7 +53098,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": true,
                 "has_img_messenger": true
@@ -53112,7 +53112,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": true,
                 "has_img_messenger": true
@@ -55117,7 +55117,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -55131,7 +55131,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -55145,7 +55145,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -55159,7 +55159,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -55173,7 +55173,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -55579,7 +55579,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": true,
                 "has_img_messenger": true
@@ -55593,7 +55593,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": true,
                 "has_img_messenger": true
@@ -55607,7 +55607,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": true,
                 "has_img_messenger": true
@@ -55621,7 +55621,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": true,
                 "has_img_messenger": true
@@ -55635,7 +55635,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": true,
                 "has_img_messenger": true
@@ -55678,7 +55678,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": true,
                 "has_img_messenger": false
@@ -55692,7 +55692,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": true,
                 "has_img_messenger": false
@@ -55706,7 +55706,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": true,
                 "has_img_messenger": false
@@ -55720,7 +55720,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": true,
                 "has_img_messenger": false
@@ -55734,7 +55734,7 @@
                 "added_in": "8.0",
                 "has_img_apple": true,
                 "has_img_google": true,
-                "has_img_twitter": false,
+                "has_img_twitter": true,
                 "has_img_emojione": true,
                 "has_img_facebook": true,
                 "has_img_messenger": false
