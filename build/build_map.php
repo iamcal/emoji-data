@@ -514,7 +514,7 @@
 		$out = array();
 
 		foreach ($row as $k => $v){
-			if (in_array($k, array('unified', 'image', 'sheet_x', 'sheet_y'))){
+			if (in_array($k, array('unified', 'image', 'sheet_x', 'sheet_y', 'added_in'))){
 				$out[$k] = $v;
 			}elseif (substr($k, 0, 8) == 'has_img_'){
 				$out[$k] = $v;
