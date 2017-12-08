@@ -82,76 +82,24 @@ look like this:
 ]
 ```
 
-An explanation of the various fields is in order:
+The meaning of each field is as follows:
 
-<table>
-    <thead>
-        <tr>
-            <th>Field</th>
-            <th>Description</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td align="center">name</td>
-            <td>The offical Unicode name, in SHOUTY UPPERCASE.</td>
-        </tr>
-        <tr>
-            <td align="center">unified</td>
-            <td>The Unicode codepoint, as 4-5 hex digits. Where an emoji needs 2 or more codepoints, they are specified like
-                1F1EA-1F1F8. For emoji that need to specifiy a variation selector (-FE0F), that is included here.</td>
-        </tr>
-        <tr>
-            <td align="center">non_qualified</td>
-            <td>For emoji that also have usage without a variation selector, that version is included here (otherwise is null).</td>
-        </tr>
-        <tr>
-            <td align="center">docomo, u, softbank, google</td>
-            <td>The legacy Unicode codepoints used by various mobile vendors.</td>
-        </tr>
-        <tr>
-            <td align="center">image</td>
-            <td>The name of the image file.</td>
-        </tr>
-        <tr>
-            <td align="center">sheet_x & sheet_y</td>
-            <td>The position of the image in the spritesheets.</td>
-        </tr>
-        <tr>
-            <td align="center">short_name</td>
-            <td>The commonly-agreed upon short name for the image, as supported in campfire, github etc via the :colon-syntax:</td>
-        </tr>
-        <tr>
-            <td align="center">short_names</td>
-            <td>An array of all the known short names.</td>
-        </tr>
-        <tr>
-            <td align="center">text</td>
-            <td>An ASCII version of the emoji (e.g. :)), or null where none exists.</td>
-        </tr>
-        <tr>
-            <td align="center">texts</td>
-            <td>An array of ASCII emoji that should convert into this emoji. Each ASCII emoji will only appear against a single
-                emoji entry.
-        </tr>
-        <tr>
-            <td align="center">has_img_</td>
-            <td>A flag for whether the given image set has an image (named by the image prop) available.</td>
-        </tr>
-        <tr>
-            <td align="center">added_id</td>
-            <td>Unicode versions in which this codepoint/sequence was added.</td>
-        </tr>
-        <tr>
-            <td align="center">skin_variations</td>
-            <td>For skin-varying emoji, a list of alternative glyphs, keyed by the skin tone.</td>
-        </tr>
-        <tr>
-            <td align="center">obsoletes / obsoleted_by</td>
-            <td>Emoji that are no longer used, in preference of gendered versions.</td>
-        </tr>
-    </tbody>
-</table>
+| Fields | Description |
+| ------ | ----------- |
+| `name` | The offical Unicode name, in SHOUTY UPPERCASE. |
+| `unified` | The Unicode codepoint, as 4-5 hex digits. Where an emoji needs 2 or more codepoints, they are specified like 1F1EA-1F1F8. For emoji that need to specifiy a variation selector (-FE0F), that is included here. |
+| `non_qualified` | For emoji that also have usage without a variation selector, that version is included here (otherwise is null). |
+| `docomo`, `au`,<br>`softbank`, `google` | The legacy Unicode codepoints used by various mobile vendors. |
+| `image` | The name of the image file. |
+| `sheet_x`, `sheet_y` | The position of the image in the spritesheets. |
+| `short_name` | The commonly-agreed upon short name for the image, as supported in campfire, github etc via the :colon-syntax: |
+| `short_names` | An array of all the known short names. |
+| `text` | An ASCII version of the emoji (e.g. `:)`), or null where none exists. |
+| `texts` | An array of ASCII emoji that should convert into this emoji. Each ASCII emoji will only appear against a single emoji entry. |
+| `has_img_*` | A flag for whether the given image set has an image (named by the image prop) available. |
+| `added_id` | Unicode version in which this codepoint/sequence was added. |
+| `skin_variations` | For emoji with multiple skin tone variations, a list of alternative glyphs, keyed by the skin tone. |
+| `obsoletes`, `obsoleted_by` | Emoji that are no longer used, in preference of gendered versions. |
 
 
 ## Version history
