@@ -187,9 +187,7 @@ sub export_colr
     my $svg = draw_colr($f->{'COLR'}->{'glyphs'}->{$idx});
 
     open(my $fh, '>', "../../img-windows10-svg/$filename");
-    print($fh "<html>\n<head>\n</head>\n<body>\n");
     print($fh $svg);
-    print($fh "</body>\n</html>\n");
     close($fh);
 }
 
@@ -199,7 +197,7 @@ for my $key (keys %{$f->{'COLR'}->{'glyphs'}}){
 
     my $name = $filenames->{$key} || "unknown_${key}";
 
-    export_colr($key, $name.'.htm');
+    export_colr($key, $name.'.svg');
 
     print "$name.htm\n";
 }
