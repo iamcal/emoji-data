@@ -64,3 +64,24 @@
 		}
 	}
 
+	function cp_to_utf8_bytes($v){
+
+		if ($v < 128){
+			return chr($v);
+		}
+
+		if ($v < 2048){
+			return chr(($v >> 6) + 192) . chr(($v & 63) + 128);
+		}
+
+		if ($v < 65536){
+			return chr(($v >> 12) + 224) . chr((($v >> 6) & 63) + 128) . chr(($v & 63) + 128);
+		}
+
+		if ($v < 2097152){
+			return chr(($v >> 18) + 240) . chr((($v >> 12) & 63) + 128) . chr((($v >> 6) & 63) + 128) . chr(($v & 63) + 128);
+		}
+
+		die("can't create codepoints for $v");
+	}
+
