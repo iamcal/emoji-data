@@ -1,11 +1,15 @@
 # Change Log
 
+## 2017-12-13 : v4.0.3
+
+* Updated the names for the following emoji to more natural CLDR shortnames. In emoji4: 1F91E, 1F936, 2695, in emoji5: 1F928, 1F929, 1F92A, 1F92B, 1F92C, 1F92D, 1F92E, 1F92F
+
 ## 2017-??-?? : v4.0.2
 
 * Added `added_in` property for variations https://github.com/iamcal/emoji-data/pull/101
 
 
-## 2017-12-17 : v4.0.1
+## 2017-11-17 : v4.0.1
 
 * Included `categories.json` to show category order.
 * Added missing skin modifiers to 9 emoji, with updated images https://github.com/iamcal/emoji-data/issues/105
@@ -70,7 +74,7 @@
 
 
 ## 2016-06-01 : v2.4.3
- 
+
 * Fixed shortnames for snowman (U+2603 & U+26C4)
 * Added missing -FE0F variants for OS X/iOS
 * Changed how we package for NPM
