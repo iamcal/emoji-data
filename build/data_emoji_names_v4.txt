@@ -1,6 +1,6 @@
 2640;female_sign
 2642;male_sign
-2695;staff_of_aesculapius
+2695;medical_symbol
 1F57A;man_dancing
 1F5A4;black_heart
 1F6D1;octagonal_sign
@@ -13,7 +13,7 @@
 1F91B;left-facing_fist
 1F91C;right-facing_fist
 1F91D;handshake
-1F91E;hand_with_index_and_middle_fingers_crossed
+1F91E;crossed_fingers
 1F920;face_with_cowboy_hat
 1F921;clown_face
 1F922;nauseated_face
@@ -26,7 +26,7 @@
 1F933;selfie
 1F934;prince
 1F935;man_in_tuxedo
-1F936;mother_christmas
+1F936;mrs_claus
 1F937;shrug
 1F938;person_doing_cartwheel
 1F939;juggling
