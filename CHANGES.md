@@ -1,6 +1,6 @@
 # Change Log
 
-## 2017-??-?? : v4.0.2
+## 2017-12-15 : v4.0.2
 
 * Added `added_in` property for variations https://github.com/iamcal/emoji-data/pull/101
 * Updated the preferred short codes for the following emoji to more natural CLDR shortnames:
