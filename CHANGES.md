@@ -1,5 +1,10 @@
 # Change Log
 
+## 2017-12-17 : v4.0.3
+
+* Fixed typo in `star-struck` emoji name. Renamed to `star_struck`
+
+
 ## 2017-12-15 : v4.0.2
 
 * Added `added_in` property for variations https://github.com/iamcal/emoji-data/pull/101
