@@ -2,7 +2,7 @@
 1F6F8;flying_saucer
 1F91F;i_love_you_hand_sign
 1F928;face_with_raised_eyebrow/face_with_one_eyebrow_raised
-1F929;star-struck/grinning_face_with_star_eyes
+1F929;star_struck/grinning_face_with_star_eyes
 1F92A;zany_face/grinning_face_with_one_large_and_one_small_eye
 1F92B;shushing_face/face_with_finger_covering_closed_lips
 1F92C;face_with_symbols_on_mouth/serious_face_with_symbols_covering_mouth

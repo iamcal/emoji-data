@@ -44800,9 +44800,9 @@
         "image": "1f929.png",
         "sheet_x": 38,
         "sheet_y": 49,
-        "short_name": "star-struck",
+        "short_name": "star_struck",
         "short_names": [
-            "star-struck",
+            "star_struck",
             "grinning_face_with_star_eyes"
         ],
         "text": null,
