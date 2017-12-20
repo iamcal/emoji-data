@@ -5,6 +5,18 @@
 	# remove existing
 	shell_exec("rm -f $dst/*.png");
 
+	# load alias map
+	$aliases = array();
+	$lines = file('noto-emoji/emoji_aliases.txt');
+	foreach ($lines as $line){
+		list($line, $junk) = explode('#', $line);
+		$line = trim($line);
+		if (strlen($line)){
+			list($from, $to) = explode(';', $line);
+			$aliases[$from] = $to;
+		}
+	}
+
 	# load catalog
 	$json = file_get_contents('../../emoji.json');
 	$emoji = json_decode($json, true);
@@ -20,22 +32,41 @@
 
 	function try_fetch($row){
 
-		global $src, $dst;
+		global $src, $dst, $aliases;
 
 		$out = $row['image'];
-		$in = array();
 
-		$in[] = 'emoji_u'.str_replace('-', '_', $row['image']);
+
+		#
+		# generate a list of image paths to try
+		#
+
+		$roots = array();
+
+		$roots[] = str_replace('-', '_', StrToLower($row['unified']));
 
 		if (isset($row['non_qualified']) && $row['non_qualified']){
-			$in[] = 'emoji_u'.str_replace('-', '_', StrToLower($row['non_qualified'])).'.png';
+			$roots[] = str_replace('-', '_', StrToLower($row['non_qualified']));
 		}else{
 			if (strpos($row['image'], '-fe0f')){
-				$in[] = 'emoji_u'.str_replace('-', '_', str_replace('-fe0f', '', $row['image']));
+				$roots[] = str_replace('-', '_', str_replace('-fe0f', '', StrToLower($row['unified'])));
 			}
 		}
 
-		foreach ($in as $inx){
+		foreach ($roots as $root){
+			if (isset($aliases[$root])){
+				$roots[] = $aliases[$root];
+			}
+		}
+
+
+		#
+		# find the first one that exists
+		#
+
+		foreach ($roots as $root){
+
+			$inx = 'emoji_u'.$root.'.png';
 			if (file_exists("$src/$inx")){
 				copy("$src/$inx", "$dst/$out");
 				echo '.';
