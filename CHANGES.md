@@ -1,5 +1,10 @@
 # Change Log
 
+## 2017-12-20 : v4.0.3
+
+* Include aliased images from Google set https://github.com/iamcal/emoji-data/issues/120
+
+
 ## 2017-12-15 : v4.0.2
 
 * Added `added_in` property for variations https://github.com/iamcal/emoji-data/pull/101
