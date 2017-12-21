@@ -7,6 +7,11 @@ images for use on the web.
 
 You can see a catalog of the emoji data here: http://unicodey.com/emoji-data/table.htm
 
+The current release is synced to the following specifications:
+* Unicode 10.0.0 - 2017-06-20
+* Emoji (UTS #51) 5.0 - 2017-05-18
+* CLDR 31.0.1 - 2017-04-07
+
 
 ## Installation
 
