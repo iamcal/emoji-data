@@ -1,5 +1,9 @@
 # Change Log
 
+## 2018-01-03 : v4.0.4
+
+* Use 4 pixels of padding when generating the spritesheets instead of 1px
+
 ## 2017-12-20 : v4.0.3
 
 * Include aliased images from Google set https://github.com/iamcal/emoji-data/issues/120
