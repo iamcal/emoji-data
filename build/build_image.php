@@ -49,7 +49,7 @@
 	function create_sheet($type, $img_w){
 
 		#$img_w = 64;
-		$space = 1;
+		$space = 4;
 
 		echo "Creating $type/$img_w : ";
 
