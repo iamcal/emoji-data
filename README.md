@@ -50,7 +50,7 @@ look like this:
         ],
         "text": null,
         "texts": null,
-        "category": "People",
+        "category": "Smileys & People",
         "sort_order": 116,
         "added_in": "1.4",
         "has_img_apple": true,
