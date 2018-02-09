@@ -109,27 +109,15 @@
 		$geom = escapeshellarg("{$img_w}x{$img_w}+{$space}+{$space}");
 		$tile = escapeshellarg("{$size}x{$size}");
 		$dst = escapeshellarg("sheet_{$type}_{$img_w}.png");
-		$cmd = "montage @- -geometry {$geom} -tile {$tile} -background none png32:{$dst}";
-
-		# Read filenames on stdin
-		$fd_spec = array(
-			0 => array("pipe", "r")
-		);
-
-		$pipes = array();
-
-		# chdir into parent directory first
-		$cwd = __DIR__.'/..';
-
-		$res = proc_open($cmd, $fd_spec, $pipes, $cwd);
-
-		# Write out each filename
+		
+		# Build the montage input (list of filenames)
+		$files = '';
 		foreach ($comp as $index => $file){
 			if ($file !== null){
-				fwrite($pipes[0], "{$file}\n");
+				$files = $files." {$file}";
 				#echo '.';
 			}else{
-				fwrite($pipes[0], "null:\n");
+				$files = $files." null:";
 				#echo ' ';
 			}
 
@@ -137,8 +125,13 @@
 				#echo "\n";
 			}
 		}
+    
+    $cmd = "montage {$files} -geometry {$geom} -tile {$tile} -background none png32:{$dst}";
+    $fd_spec = array();
+    $pipes = array();
+    $cwd = __DIR__.'/..'; # chdir into parent directory first
 
-		fclose($pipes[0]);
+		$res = proc_open($cmd, $fd_spec, $pipes, $cwd);
 
 		if (proc_close($res) > 0) {
 			echo "Something went wrong\n\n";
@@ -162,7 +155,6 @@
 			}
 
 			if ($row["has_img_{$try_type}"]){
-
 				return "img-{$try_type}-64/{$row['image']}";
 			}
 			if ($row['obsoleted_by']){
