@@ -8,8 +8,8 @@ quant_sheet() {
 
 	if [ $STATUS -eq 0 ]
 	then
-		IN_SIZE=$(stat -c%s "$IN")
-		OUT_SIZE=$(stat -c%s "$OUT")
+		IN_SIZE=$(get_size $IN)
+		OUT_SIZE=$(get_size $OUT)
 
 		echo "  Quantized $IN to $OUT"
 		echo "  Old size : $IN_SIZE"
@@ -30,6 +30,14 @@ quant_sheet() {
 			fi
 		fi
 	fi
+}
+
+get_size() {
+  if [[ "$OSTYPE" == "darwin"* ]]; then
+    echo $(stat -f%z "$1")
+  else
+    echo $(stat -c%s "$1")
+  fi
 }
 
 for type in apple google twitter emojione facebook messenger; do
