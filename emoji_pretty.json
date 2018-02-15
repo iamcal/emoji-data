@@ -13474,6 +13474,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F3C3-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F3C3-1F3FB-200D-2640",
                 "image": "1f3c3-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 9,
                 "sheet_y": 35,
@@ -13487,6 +13488,7 @@
             },
             "1F3FC": {
                 "unified": "1F3C3-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F3C3-1F3FC-200D-2640",
                 "image": "1f3c3-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 9,
                 "sheet_y": 36,
@@ -13500,6 +13502,7 @@
             },
             "1F3FD": {
                 "unified": "1F3C3-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F3C3-1F3FD-200D-2640",
                 "image": "1f3c3-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 9,
                 "sheet_y": 37,
@@ -13513,6 +13516,7 @@
             },
             "1F3FE": {
                 "unified": "1F3C3-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F3C3-1F3FE-200D-2640",
                 "image": "1f3c3-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 9,
                 "sheet_y": 38,
@@ -13526,6 +13530,7 @@
             },
             "1F3FF": {
                 "unified": "1F3C3-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F3C3-1F3FF-200D-2640",
                 "image": "1f3c3-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 9,
                 "sheet_y": 39,
@@ -13568,6 +13573,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F3C3-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F3C3-1F3FB-200D-2642",
                 "image": "1f3c3-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 9,
                 "sheet_y": 41,
@@ -13581,6 +13587,7 @@
             },
             "1F3FC": {
                 "unified": "1F3C3-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F3C3-1F3FC-200D-2642",
                 "image": "1f3c3-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 9,
                 "sheet_y": 42,
@@ -13594,6 +13601,7 @@
             },
             "1F3FD": {
                 "unified": "1F3C3-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F3C3-1F3FD-200D-2642",
                 "image": "1f3c3-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 9,
                 "sheet_y": 43,
@@ -13607,6 +13615,7 @@
             },
             "1F3FE": {
                 "unified": "1F3C3-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F3C3-1F3FE-200D-2642",
                 "image": "1f3c3-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 9,
                 "sheet_y": 44,
@@ -13620,6 +13629,7 @@
             },
             "1F3FF": {
                 "unified": "1F3C3-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F3C3-1F3FF-200D-2642",
                 "image": "1f3c3-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 9,
                 "sheet_y": 45,
@@ -13764,6 +13774,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F3C4-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F3C4-1F3FB-200D-2640",
                 "image": "1f3c4-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 10,
                 "sheet_y": 1,
@@ -13777,6 +13788,7 @@
             },
             "1F3FC": {
                 "unified": "1F3C4-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F3C4-1F3FC-200D-2640",
                 "image": "1f3c4-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 10,
                 "sheet_y": 2,
@@ -13790,6 +13802,7 @@
             },
             "1F3FD": {
                 "unified": "1F3C4-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F3C4-1F3FD-200D-2640",
                 "image": "1f3c4-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 10,
                 "sheet_y": 3,
@@ -13803,6 +13816,7 @@
             },
             "1F3FE": {
                 "unified": "1F3C4-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F3C4-1F3FE-200D-2640",
                 "image": "1f3c4-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 10,
                 "sheet_y": 4,
@@ -13816,6 +13830,7 @@
             },
             "1F3FF": {
                 "unified": "1F3C4-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F3C4-1F3FF-200D-2640",
                 "image": "1f3c4-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 10,
                 "sheet_y": 5,
@@ -13858,6 +13873,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F3C4-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F3C4-1F3FB-200D-2642",
                 "image": "1f3c4-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 10,
                 "sheet_y": 7,
@@ -13871,6 +13887,7 @@
             },
             "1F3FC": {
                 "unified": "1F3C4-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F3C4-1F3FC-200D-2642",
                 "image": "1f3c4-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 10,
                 "sheet_y": 8,
@@ -13884,6 +13901,7 @@
             },
             "1F3FD": {
                 "unified": "1F3C4-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F3C4-1F3FD-200D-2642",
                 "image": "1f3c4-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 10,
                 "sheet_y": 9,
@@ -13897,6 +13915,7 @@
             },
             "1F3FE": {
                 "unified": "1F3C4-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F3C4-1F3FE-200D-2642",
                 "image": "1f3c4-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 10,
                 "sheet_y": 10,
@@ -13910,6 +13929,7 @@
             },
             "1F3FF": {
                 "unified": "1F3C4-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F3C4-1F3FF-200D-2642",
                 "image": "1f3c4-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 10,
                 "sheet_y": 11,
@@ -14260,6 +14280,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F3CA-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F3CA-1F3FB-200D-2640",
                 "image": "1f3ca-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 10,
                 "sheet_y": 29,
@@ -14273,6 +14294,7 @@
             },
             "1F3FC": {
                 "unified": "1F3CA-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F3CA-1F3FC-200D-2640",
                 "image": "1f3ca-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 10,
                 "sheet_y": 30,
@@ -14286,6 +14308,7 @@
             },
             "1F3FD": {
                 "unified": "1F3CA-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F3CA-1F3FD-200D-2640",
                 "image": "1f3ca-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 10,
                 "sheet_y": 31,
@@ -14299,6 +14322,7 @@
             },
             "1F3FE": {
                 "unified": "1F3CA-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F3CA-1F3FE-200D-2640",
                 "image": "1f3ca-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 10,
                 "sheet_y": 32,
@@ -14312,6 +14336,7 @@
             },
             "1F3FF": {
                 "unified": "1F3CA-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F3CA-1F3FF-200D-2640",
                 "image": "1f3ca-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 10,
                 "sheet_y": 33,
@@ -14354,6 +14379,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F3CA-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F3CA-1F3FB-200D-2642",
                 "image": "1f3ca-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 10,
                 "sheet_y": 35,
@@ -14367,6 +14393,7 @@
             },
             "1F3FC": {
                 "unified": "1F3CA-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F3CA-1F3FC-200D-2642",
                 "image": "1f3ca-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 10,
                 "sheet_y": 36,
@@ -14380,6 +14407,7 @@
             },
             "1F3FD": {
                 "unified": "1F3CA-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F3CA-1F3FD-200D-2642",
                 "image": "1f3ca-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 10,
                 "sheet_y": 37,
@@ -14393,6 +14421,7 @@
             },
             "1F3FE": {
                 "unified": "1F3CA-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F3CA-1F3FE-200D-2642",
                 "image": "1f3ca-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 10,
                 "sheet_y": 38,
@@ -14406,6 +14435,7 @@
             },
             "1F3FF": {
                 "unified": "1F3CA-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F3CA-1F3FF-200D-2642",
                 "image": "1f3ca-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 10,
                 "sheet_y": 39,
@@ -14549,6 +14579,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F3CB-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F3CB-1F3FB-200D-2640",
                 "image": "1f3cb-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 10,
                 "sheet_y": 47,
@@ -14562,6 +14593,7 @@
             },
             "1F3FC": {
                 "unified": "1F3CB-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F3CB-1F3FC-200D-2640",
                 "image": "1f3cb-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 10,
                 "sheet_y": 48,
@@ -14575,6 +14607,7 @@
             },
             "1F3FD": {
                 "unified": "1F3CB-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F3CB-1F3FD-200D-2640",
                 "image": "1f3cb-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 10,
                 "sheet_y": 49,
@@ -14588,6 +14621,7 @@
             },
             "1F3FE": {
                 "unified": "1F3CB-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F3CB-1F3FE-200D-2640",
                 "image": "1f3cb-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 10,
                 "sheet_y": 50,
@@ -14601,6 +14635,7 @@
             },
             "1F3FF": {
                 "unified": "1F3CB-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F3CB-1F3FF-200D-2640",
                 "image": "1f3cb-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 10,
                 "sheet_y": 51,
@@ -14643,6 +14678,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F3CB-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F3CB-1F3FB-200D-2642",
                 "image": "1f3cb-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 11,
                 "sheet_y": 1,
@@ -14656,6 +14692,7 @@
             },
             "1F3FC": {
                 "unified": "1F3CB-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F3CB-1F3FC-200D-2642",
                 "image": "1f3cb-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 11,
                 "sheet_y": 2,
@@ -14669,6 +14706,7 @@
             },
             "1F3FD": {
                 "unified": "1F3CB-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F3CB-1F3FD-200D-2642",
                 "image": "1f3cb-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 11,
                 "sheet_y": 3,
@@ -14682,6 +14720,7 @@
             },
             "1F3FE": {
                 "unified": "1F3CB-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F3CB-1F3FE-200D-2642",
                 "image": "1f3cb-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 11,
                 "sheet_y": 4,
@@ -14695,6 +14734,7 @@
             },
             "1F3FF": {
                 "unified": "1F3CB-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F3CB-1F3FF-200D-2642",
                 "image": "1f3cb-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 11,
                 "sheet_y": 5,
@@ -14838,6 +14878,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F3CC-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F3CC-1F3FB-200D-2640",
                 "image": "1f3cc-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 11,
                 "sheet_y": 13,
@@ -14851,6 +14892,7 @@
             },
             "1F3FC": {
                 "unified": "1F3CC-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F3CC-1F3FC-200D-2640",
                 "image": "1f3cc-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 11,
                 "sheet_y": 14,
@@ -14864,6 +14906,7 @@
             },
             "1F3FD": {
                 "unified": "1F3CC-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F3CC-1F3FD-200D-2640",
                 "image": "1f3cc-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 11,
                 "sheet_y": 15,
@@ -14877,6 +14920,7 @@
             },
             "1F3FE": {
                 "unified": "1F3CC-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F3CC-1F3FE-200D-2640",
                 "image": "1f3cc-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 11,
                 "sheet_y": 16,
@@ -14890,6 +14934,7 @@
             },
             "1F3FF": {
                 "unified": "1F3CC-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F3CC-1F3FF-200D-2640",
                 "image": "1f3cc-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 11,
                 "sheet_y": 17,
@@ -14932,6 +14977,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F3CC-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F3CC-1F3FB-200D-2642",
                 "image": "1f3cc-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 11,
                 "sheet_y": 19,
@@ -14945,6 +14991,7 @@
             },
             "1F3FC": {
                 "unified": "1F3CC-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F3CC-1F3FC-200D-2642",
                 "image": "1f3cc-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 11,
                 "sheet_y": 20,
@@ -14958,6 +15005,7 @@
             },
             "1F3FD": {
                 "unified": "1F3CC-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F3CC-1F3FD-200D-2642",
                 "image": "1f3cc-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 11,
                 "sheet_y": 21,
@@ -14971,6 +15019,7 @@
             },
             "1F3FE": {
                 "unified": "1F3CC-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F3CC-1F3FE-200D-2642",
                 "image": "1f3cc-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 11,
                 "sheet_y": 22,
@@ -14984,6 +15033,7 @@
             },
             "1F3FF": {
                 "unified": "1F3CC-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F3CC-1F3FF-200D-2642",
                 "image": "1f3cc-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 11,
                 "sheet_y": 23,
@@ -20457,6 +20507,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F468-1F3FB-200D-1F33E",
+                "non_qualified": null,
                 "image": "1f468-1f3fb-200d-1f33e.png",
                 "sheet_x": 16,
                 "sheet_y": 3,
@@ -20470,6 +20521,7 @@
             },
             "1F3FC": {
                 "unified": "1F468-1F3FC-200D-1F33E",
+                "non_qualified": null,
                 "image": "1f468-1f3fc-200d-1f33e.png",
                 "sheet_x": 16,
                 "sheet_y": 4,
@@ -20483,6 +20535,7 @@
             },
             "1F3FD": {
                 "unified": "1F468-1F3FD-200D-1F33E",
+                "non_qualified": null,
                 "image": "1f468-1f3fd-200d-1f33e.png",
                 "sheet_x": 16,
                 "sheet_y": 5,
@@ -20496,6 +20549,7 @@
             },
             "1F3FE": {
                 "unified": "1F468-1F3FE-200D-1F33E",
+                "non_qualified": null,
                 "image": "1f468-1f3fe-200d-1f33e.png",
                 "sheet_x": 16,
                 "sheet_y": 6,
@@ -20509,6 +20563,7 @@
             },
             "1F3FF": {
                 "unified": "1F468-1F3FF-200D-1F33E",
+                "non_qualified": null,
                 "image": "1f468-1f3ff-200d-1f33e.png",
                 "sheet_x": 16,
                 "sheet_y": 7,
@@ -20551,6 +20606,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F468-1F3FB-200D-1F373",
+                "non_qualified": null,
                 "image": "1f468-1f3fb-200d-1f373.png",
                 "sheet_x": 16,
                 "sheet_y": 9,
@@ -20564,6 +20620,7 @@
             },
             "1F3FC": {
                 "unified": "1F468-1F3FC-200D-1F373",
+                "non_qualified": null,
                 "image": "1f468-1f3fc-200d-1f373.png",
                 "sheet_x": 16,
                 "sheet_y": 10,
@@ -20577,6 +20634,7 @@
             },
             "1F3FD": {
                 "unified": "1F468-1F3FD-200D-1F373",
+                "non_qualified": null,
                 "image": "1f468-1f3fd-200d-1f373.png",
                 "sheet_x": 16,
                 "sheet_y": 11,
@@ -20590,6 +20648,7 @@
             },
             "1F3FE": {
                 "unified": "1F468-1F3FE-200D-1F373",
+                "non_qualified": null,
                 "image": "1f468-1f3fe-200d-1f373.png",
                 "sheet_x": 16,
                 "sheet_y": 12,
@@ -20603,6 +20662,7 @@
             },
             "1F3FF": {
                 "unified": "1F468-1F3FF-200D-1F373",
+                "non_qualified": null,
                 "image": "1f468-1f3ff-200d-1f373.png",
                 "sheet_x": 16,
                 "sheet_y": 13,
@@ -20645,6 +20705,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F468-1F3FB-200D-1F393",
+                "non_qualified": null,
                 "image": "1f468-1f3fb-200d-1f393.png",
                 "sheet_x": 16,
                 "sheet_y": 15,
@@ -20658,6 +20719,7 @@
             },
             "1F3FC": {
                 "unified": "1F468-1F3FC-200D-1F393",
+                "non_qualified": null,
                 "image": "1f468-1f3fc-200d-1f393.png",
                 "sheet_x": 16,
                 "sheet_y": 16,
@@ -20671,6 +20733,7 @@
             },
             "1F3FD": {
                 "unified": "1F468-1F3FD-200D-1F393",
+                "non_qualified": null,
                 "image": "1f468-1f3fd-200d-1f393.png",
                 "sheet_x": 16,
                 "sheet_y": 17,
@@ -20684,6 +20747,7 @@
             },
             "1F3FE": {
                 "unified": "1F468-1F3FE-200D-1F393",
+                "non_qualified": null,
                 "image": "1f468-1f3fe-200d-1f393.png",
                 "sheet_x": 16,
                 "sheet_y": 18,
@@ -20697,6 +20761,7 @@
             },
             "1F3FF": {
                 "unified": "1F468-1F3FF-200D-1F393",
+                "non_qualified": null,
                 "image": "1f468-1f3ff-200d-1f393.png",
                 "sheet_x": 16,
                 "sheet_y": 19,
@@ -20739,6 +20804,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F468-1F3FB-200D-1F3A4",
+                "non_qualified": null,
                 "image": "1f468-1f3fb-200d-1f3a4.png",
                 "sheet_x": 16,
                 "sheet_y": 21,
@@ -20752,6 +20818,7 @@
             },
             "1F3FC": {
                 "unified": "1F468-1F3FC-200D-1F3A4",
+                "non_qualified": null,
                 "image": "1f468-1f3fc-200d-1f3a4.png",
                 "sheet_x": 16,
                 "sheet_y": 22,
@@ -20765,6 +20832,7 @@
             },
             "1F3FD": {
                 "unified": "1F468-1F3FD-200D-1F3A4",
+                "non_qualified": null,
                 "image": "1f468-1f3fd-200d-1f3a4.png",
                 "sheet_x": 16,
                 "sheet_y": 23,
@@ -20778,6 +20846,7 @@
             },
             "1F3FE": {
                 "unified": "1F468-1F3FE-200D-1F3A4",
+                "non_qualified": null,
                 "image": "1f468-1f3fe-200d-1f3a4.png",
                 "sheet_x": 16,
                 "sheet_y": 24,
@@ -20791,6 +20860,7 @@
             },
             "1F3FF": {
                 "unified": "1F468-1F3FF-200D-1F3A4",
+                "non_qualified": null,
                 "image": "1f468-1f3ff-200d-1f3a4.png",
                 "sheet_x": 16,
                 "sheet_y": 25,
@@ -20833,6 +20903,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F468-1F3FB-200D-1F3A8",
+                "non_qualified": null,
                 "image": "1f468-1f3fb-200d-1f3a8.png",
                 "sheet_x": 16,
                 "sheet_y": 27,
@@ -20846,6 +20917,7 @@
             },
             "1F3FC": {
                 "unified": "1F468-1F3FC-200D-1F3A8",
+                "non_qualified": null,
                 "image": "1f468-1f3fc-200d-1f3a8.png",
                 "sheet_x": 16,
                 "sheet_y": 28,
@@ -20859,6 +20931,7 @@
             },
             "1F3FD": {
                 "unified": "1F468-1F3FD-200D-1F3A8",
+                "non_qualified": null,
                 "image": "1f468-1f3fd-200d-1f3a8.png",
                 "sheet_x": 16,
                 "sheet_y": 29,
@@ -20872,6 +20945,7 @@
             },
             "1F3FE": {
                 "unified": "1F468-1F3FE-200D-1F3A8",
+                "non_qualified": null,
                 "image": "1f468-1f3fe-200d-1f3a8.png",
                 "sheet_x": 16,
                 "sheet_y": 30,
@@ -20885,6 +20959,7 @@
             },
             "1F3FF": {
                 "unified": "1F468-1F3FF-200D-1F3A8",
+                "non_qualified": null,
                 "image": "1f468-1f3ff-200d-1f3a8.png",
                 "sheet_x": 16,
                 "sheet_y": 31,
@@ -20927,6 +21002,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F468-1F3FB-200D-1F3EB",
+                "non_qualified": null,
                 "image": "1f468-1f3fb-200d-1f3eb.png",
                 "sheet_x": 16,
                 "sheet_y": 33,
@@ -20940,6 +21016,7 @@
             },
             "1F3FC": {
                 "unified": "1F468-1F3FC-200D-1F3EB",
+                "non_qualified": null,
                 "image": "1f468-1f3fc-200d-1f3eb.png",
                 "sheet_x": 16,
                 "sheet_y": 34,
@@ -20953,6 +21030,7 @@
             },
             "1F3FD": {
                 "unified": "1F468-1F3FD-200D-1F3EB",
+                "non_qualified": null,
                 "image": "1f468-1f3fd-200d-1f3eb.png",
                 "sheet_x": 16,
                 "sheet_y": 35,
@@ -20966,6 +21044,7 @@
             },
             "1F3FE": {
                 "unified": "1F468-1F3FE-200D-1F3EB",
+                "non_qualified": null,
                 "image": "1f468-1f3fe-200d-1f3eb.png",
                 "sheet_x": 16,
                 "sheet_y": 36,
@@ -20979,6 +21058,7 @@
             },
             "1F3FF": {
                 "unified": "1F468-1F3FF-200D-1F3EB",
+                "non_qualified": null,
                 "image": "1f468-1f3ff-200d-1f3eb.png",
                 "sheet_x": 16,
                 "sheet_y": 37,
@@ -21021,6 +21101,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F468-1F3FB-200D-1F3ED",
+                "non_qualified": null,
                 "image": "1f468-1f3fb-200d-1f3ed.png",
                 "sheet_x": 16,
                 "sheet_y": 39,
@@ -21034,6 +21115,7 @@
             },
             "1F3FC": {
                 "unified": "1F468-1F3FC-200D-1F3ED",
+                "non_qualified": null,
                 "image": "1f468-1f3fc-200d-1f3ed.png",
                 "sheet_x": 16,
                 "sheet_y": 40,
@@ -21047,6 +21129,7 @@
             },
             "1F3FD": {
                 "unified": "1F468-1F3FD-200D-1F3ED",
+                "non_qualified": null,
                 "image": "1f468-1f3fd-200d-1f3ed.png",
                 "sheet_x": 16,
                 "sheet_y": 41,
@@ -21060,6 +21143,7 @@
             },
             "1F3FE": {
                 "unified": "1F468-1F3FE-200D-1F3ED",
+                "non_qualified": null,
                 "image": "1f468-1f3fe-200d-1f3ed.png",
                 "sheet_x": 16,
                 "sheet_y": 42,
@@ -21073,6 +21157,7 @@
             },
             "1F3FF": {
                 "unified": "1F468-1F3FF-200D-1F3ED",
+                "non_qualified": null,
                 "image": "1f468-1f3ff-200d-1f3ed.png",
                 "sheet_x": 16,
                 "sheet_y": 43,
@@ -21522,6 +21607,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F468-1F3FB-200D-1F4BB",
+                "non_qualified": null,
                 "image": "1f468-1f3fb-200d-1f4bb.png",
                 "sheet_x": 17,
                 "sheet_y": 8,
@@ -21535,6 +21621,7 @@
             },
             "1F3FC": {
                 "unified": "1F468-1F3FC-200D-1F4BB",
+                "non_qualified": null,
                 "image": "1f468-1f3fc-200d-1f4bb.png",
                 "sheet_x": 17,
                 "sheet_y": 9,
@@ -21548,6 +21635,7 @@
             },
             "1F3FD": {
                 "unified": "1F468-1F3FD-200D-1F4BB",
+                "non_qualified": null,
                 "image": "1f468-1f3fd-200d-1f4bb.png",
                 "sheet_x": 17,
                 "sheet_y": 10,
@@ -21561,6 +21649,7 @@
             },
             "1F3FE": {
                 "unified": "1F468-1F3FE-200D-1F4BB",
+                "non_qualified": null,
                 "image": "1f468-1f3fe-200d-1f4bb.png",
                 "sheet_x": 17,
                 "sheet_y": 11,
@@ -21574,6 +21663,7 @@
             },
             "1F3FF": {
                 "unified": "1F468-1F3FF-200D-1F4BB",
+                "non_qualified": null,
                 "image": "1f468-1f3ff-200d-1f4bb.png",
                 "sheet_x": 17,
                 "sheet_y": 12,
@@ -21616,6 +21706,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F468-1F3FB-200D-1F4BC",
+                "non_qualified": null,
                 "image": "1f468-1f3fb-200d-1f4bc.png",
                 "sheet_x": 17,
                 "sheet_y": 14,
@@ -21629,6 +21720,7 @@
             },
             "1F3FC": {
                 "unified": "1F468-1F3FC-200D-1F4BC",
+                "non_qualified": null,
                 "image": "1f468-1f3fc-200d-1f4bc.png",
                 "sheet_x": 17,
                 "sheet_y": 15,
@@ -21642,6 +21734,7 @@
             },
             "1F3FD": {
                 "unified": "1F468-1F3FD-200D-1F4BC",
+                "non_qualified": null,
                 "image": "1f468-1f3fd-200d-1f4bc.png",
                 "sheet_x": 17,
                 "sheet_y": 16,
@@ -21655,6 +21748,7 @@
             },
             "1F3FE": {
                 "unified": "1F468-1F3FE-200D-1F4BC",
+                "non_qualified": null,
                 "image": "1f468-1f3fe-200d-1f4bc.png",
                 "sheet_x": 17,
                 "sheet_y": 17,
@@ -21668,6 +21762,7 @@
             },
             "1F3FF": {
                 "unified": "1F468-1F3FF-200D-1F4BC",
+                "non_qualified": null,
                 "image": "1f468-1f3ff-200d-1f4bc.png",
                 "sheet_x": 17,
                 "sheet_y": 18,
@@ -21710,6 +21805,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F468-1F3FB-200D-1F527",
+                "non_qualified": null,
                 "image": "1f468-1f3fb-200d-1f527.png",
                 "sheet_x": 17,
                 "sheet_y": 20,
@@ -21723,6 +21819,7 @@
             },
             "1F3FC": {
                 "unified": "1F468-1F3FC-200D-1F527",
+                "non_qualified": null,
                 "image": "1f468-1f3fc-200d-1f527.png",
                 "sheet_x": 17,
                 "sheet_y": 21,
@@ -21736,6 +21833,7 @@
             },
             "1F3FD": {
                 "unified": "1F468-1F3FD-200D-1F527",
+                "non_qualified": null,
                 "image": "1f468-1f3fd-200d-1f527.png",
                 "sheet_x": 17,
                 "sheet_y": 22,
@@ -21749,6 +21847,7 @@
             },
             "1F3FE": {
                 "unified": "1F468-1F3FE-200D-1F527",
+                "non_qualified": null,
                 "image": "1f468-1f3fe-200d-1f527.png",
                 "sheet_x": 17,
                 "sheet_y": 23,
@@ -21762,6 +21861,7 @@
             },
             "1F3FF": {
                 "unified": "1F468-1F3FF-200D-1F527",
+                "non_qualified": null,
                 "image": "1f468-1f3ff-200d-1f527.png",
                 "sheet_x": 17,
                 "sheet_y": 24,
@@ -21804,6 +21904,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F468-1F3FB-200D-1F52C",
+                "non_qualified": null,
                 "image": "1f468-1f3fb-200d-1f52c.png",
                 "sheet_x": 17,
                 "sheet_y": 26,
@@ -21817,6 +21918,7 @@
             },
             "1F3FC": {
                 "unified": "1F468-1F3FC-200D-1F52C",
+                "non_qualified": null,
                 "image": "1f468-1f3fc-200d-1f52c.png",
                 "sheet_x": 17,
                 "sheet_y": 27,
@@ -21830,6 +21932,7 @@
             },
             "1F3FD": {
                 "unified": "1F468-1F3FD-200D-1F52C",
+                "non_qualified": null,
                 "image": "1f468-1f3fd-200d-1f52c.png",
                 "sheet_x": 17,
                 "sheet_y": 28,
@@ -21843,6 +21946,7 @@
             },
             "1F3FE": {
                 "unified": "1F468-1F3FE-200D-1F52C",
+                "non_qualified": null,
                 "image": "1f468-1f3fe-200d-1f52c.png",
                 "sheet_x": 17,
                 "sheet_y": 29,
@@ -21856,6 +21960,7 @@
             },
             "1F3FF": {
                 "unified": "1F468-1F3FF-200D-1F52C",
+                "non_qualified": null,
                 "image": "1f468-1f3ff-200d-1f52c.png",
                 "sheet_x": 17,
                 "sheet_y": 30,
@@ -21898,6 +22003,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F468-1F3FB-200D-1F680",
+                "non_qualified": null,
                 "image": "1f468-1f3fb-200d-1f680.png",
                 "sheet_x": 17,
                 "sheet_y": 32,
@@ -21911,6 +22017,7 @@
             },
             "1F3FC": {
                 "unified": "1F468-1F3FC-200D-1F680",
+                "non_qualified": null,
                 "image": "1f468-1f3fc-200d-1f680.png",
                 "sheet_x": 17,
                 "sheet_y": 33,
@@ -21924,6 +22031,7 @@
             },
             "1F3FD": {
                 "unified": "1F468-1F3FD-200D-1F680",
+                "non_qualified": null,
                 "image": "1f468-1f3fd-200d-1f680.png",
                 "sheet_x": 17,
                 "sheet_y": 34,
@@ -21937,6 +22045,7 @@
             },
             "1F3FE": {
                 "unified": "1F468-1F3FE-200D-1F680",
+                "non_qualified": null,
                 "image": "1f468-1f3fe-200d-1f680.png",
                 "sheet_x": 17,
                 "sheet_y": 35,
@@ -21950,6 +22059,7 @@
             },
             "1F3FF": {
                 "unified": "1F468-1F3FF-200D-1F680",
+                "non_qualified": null,
                 "image": "1f468-1f3ff-200d-1f680.png",
                 "sheet_x": 17,
                 "sheet_y": 36,
@@ -21992,6 +22102,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F468-1F3FB-200D-1F692",
+                "non_qualified": null,
                 "image": "1f468-1f3fb-200d-1f692.png",
                 "sheet_x": 17,
                 "sheet_y": 38,
@@ -22005,6 +22116,7 @@
             },
             "1F3FC": {
                 "unified": "1F468-1F3FC-200D-1F692",
+                "non_qualified": null,
                 "image": "1f468-1f3fc-200d-1f692.png",
                 "sheet_x": 17,
                 "sheet_y": 39,
@@ -22018,6 +22130,7 @@
             },
             "1F3FD": {
                 "unified": "1F468-1F3FD-200D-1F692",
+                "non_qualified": null,
                 "image": "1f468-1f3fd-200d-1f692.png",
                 "sheet_x": 17,
                 "sheet_y": 40,
@@ -22031,6 +22144,7 @@
             },
             "1F3FE": {
                 "unified": "1F468-1F3FE-200D-1F692",
+                "non_qualified": null,
                 "image": "1f468-1f3fe-200d-1f692.png",
                 "sheet_x": 17,
                 "sheet_y": 41,
@@ -22044,6 +22158,7 @@
             },
             "1F3FF": {
                 "unified": "1F468-1F3FF-200D-1F692",
+                "non_qualified": null,
                 "image": "1f468-1f3ff-200d-1f692.png",
                 "sheet_x": 17,
                 "sheet_y": 42,
@@ -22086,6 +22201,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F468-1F3FB-200D-2695-FE0F",
+                "non_qualified": "1F468-1F3FB-200D-2695",
                 "image": "1f468-1f3fb-200d-2695-fe0f.png",
                 "sheet_x": 17,
                 "sheet_y": 44,
@@ -22099,6 +22215,7 @@
             },
             "1F3FC": {
                 "unified": "1F468-1F3FC-200D-2695-FE0F",
+                "non_qualified": "1F468-1F3FC-200D-2695",
                 "image": "1f468-1f3fc-200d-2695-fe0f.png",
                 "sheet_x": 17,
                 "sheet_y": 45,
@@ -22112,6 +22229,7 @@
             },
             "1F3FD": {
                 "unified": "1F468-1F3FD-200D-2695-FE0F",
+                "non_qualified": "1F468-1F3FD-200D-2695",
                 "image": "1f468-1f3fd-200d-2695-fe0f.png",
                 "sheet_x": 17,
                 "sheet_y": 46,
@@ -22125,6 +22243,7 @@
             },
             "1F3FE": {
                 "unified": "1F468-1F3FE-200D-2695-FE0F",
+                "non_qualified": "1F468-1F3FE-200D-2695",
                 "image": "1f468-1f3fe-200d-2695-fe0f.png",
                 "sheet_x": 17,
                 "sheet_y": 47,
@@ -22138,6 +22257,7 @@
             },
             "1F3FF": {
                 "unified": "1F468-1F3FF-200D-2695-FE0F",
+                "non_qualified": "1F468-1F3FF-200D-2695",
                 "image": "1f468-1f3ff-200d-2695-fe0f.png",
                 "sheet_x": 17,
                 "sheet_y": 48,
@@ -22180,6 +22300,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F468-1F3FB-200D-2696-FE0F",
+                "non_qualified": "1F468-1F3FB-200D-2696",
                 "image": "1f468-1f3fb-200d-2696-fe0f.png",
                 "sheet_x": 17,
                 "sheet_y": 50,
@@ -22193,6 +22314,7 @@
             },
             "1F3FC": {
                 "unified": "1F468-1F3FC-200D-2696-FE0F",
+                "non_qualified": "1F468-1F3FC-200D-2696",
                 "image": "1f468-1f3fc-200d-2696-fe0f.png",
                 "sheet_x": 17,
                 "sheet_y": 51,
@@ -22206,6 +22328,7 @@
             },
             "1F3FD": {
                 "unified": "1F468-1F3FD-200D-2696-FE0F",
+                "non_qualified": "1F468-1F3FD-200D-2696",
                 "image": "1f468-1f3fd-200d-2696-fe0f.png",
                 "sheet_x": 18,
                 "sheet_y": 0,
@@ -22219,6 +22342,7 @@
             },
             "1F3FE": {
                 "unified": "1F468-1F3FE-200D-2696-FE0F",
+                "non_qualified": "1F468-1F3FE-200D-2696",
                 "image": "1f468-1f3fe-200d-2696-fe0f.png",
                 "sheet_x": 18,
                 "sheet_y": 1,
@@ -22232,6 +22356,7 @@
             },
             "1F3FF": {
                 "unified": "1F468-1F3FF-200D-2696-FE0F",
+                "non_qualified": "1F468-1F3FF-200D-2696",
                 "image": "1f468-1f3ff-200d-2696-fe0f.png",
                 "sheet_x": 18,
                 "sheet_y": 2,
@@ -22274,6 +22399,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F468-1F3FB-200D-2708-FE0F",
+                "non_qualified": "1F468-1F3FB-200D-2708",
                 "image": "1f468-1f3fb-200d-2708-fe0f.png",
                 "sheet_x": 18,
                 "sheet_y": 4,
@@ -22287,6 +22413,7 @@
             },
             "1F3FC": {
                 "unified": "1F468-1F3FC-200D-2708-FE0F",
+                "non_qualified": "1F468-1F3FC-200D-2708",
                 "image": "1f468-1f3fc-200d-2708-fe0f.png",
                 "sheet_x": 18,
                 "sheet_y": 5,
@@ -22300,6 +22427,7 @@
             },
             "1F3FD": {
                 "unified": "1F468-1F3FD-200D-2708-FE0F",
+                "non_qualified": "1F468-1F3FD-200D-2708",
                 "image": "1f468-1f3fd-200d-2708-fe0f.png",
                 "sheet_x": 18,
                 "sheet_y": 6,
@@ -22313,6 +22441,7 @@
             },
             "1F3FE": {
                 "unified": "1F468-1F3FE-200D-2708-FE0F",
+                "non_qualified": "1F468-1F3FE-200D-2708",
                 "image": "1f468-1f3fe-200d-2708-fe0f.png",
                 "sheet_x": 18,
                 "sheet_y": 7,
@@ -22326,6 +22455,7 @@
             },
             "1F3FF": {
                 "unified": "1F468-1F3FF-200D-2708-FE0F",
+                "non_qualified": "1F468-1F3FF-200D-2708",
                 "image": "1f468-1f3ff-200d-2708-fe0f.png",
                 "sheet_x": 18,
                 "sheet_y": 8,
@@ -22521,6 +22651,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F469-1F3FB-200D-1F33E",
+                "non_qualified": null,
                 "image": "1f469-1f3fb-200d-1f33e.png",
                 "sheet_x": 18,
                 "sheet_y": 18,
@@ -22534,6 +22665,7 @@
             },
             "1F3FC": {
                 "unified": "1F469-1F3FC-200D-1F33E",
+                "non_qualified": null,
                 "image": "1f469-1f3fc-200d-1f33e.png",
                 "sheet_x": 18,
                 "sheet_y": 19,
@@ -22547,6 +22679,7 @@
             },
             "1F3FD": {
                 "unified": "1F469-1F3FD-200D-1F33E",
+                "non_qualified": null,
                 "image": "1f469-1f3fd-200d-1f33e.png",
                 "sheet_x": 18,
                 "sheet_y": 20,
@@ -22560,6 +22693,7 @@
             },
             "1F3FE": {
                 "unified": "1F469-1F3FE-200D-1F33E",
+                "non_qualified": null,
                 "image": "1f469-1f3fe-200d-1f33e.png",
                 "sheet_x": 18,
                 "sheet_y": 21,
@@ -22573,6 +22707,7 @@
             },
             "1F3FF": {
                 "unified": "1F469-1F3FF-200D-1F33E",
+                "non_qualified": null,
                 "image": "1f469-1f3ff-200d-1f33e.png",
                 "sheet_x": 18,
                 "sheet_y": 22,
@@ -22615,6 +22750,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F469-1F3FB-200D-1F373",
+                "non_qualified": null,
                 "image": "1f469-1f3fb-200d-1f373.png",
                 "sheet_x": 18,
                 "sheet_y": 24,
@@ -22628,6 +22764,7 @@
             },
             "1F3FC": {
                 "unified": "1F469-1F3FC-200D-1F373",
+                "non_qualified": null,
                 "image": "1f469-1f3fc-200d-1f373.png",
                 "sheet_x": 18,
                 "sheet_y": 25,
@@ -22641,6 +22778,7 @@
             },
             "1F3FD": {
                 "unified": "1F469-1F3FD-200D-1F373",
+                "non_qualified": null,
                 "image": "1f469-1f3fd-200d-1f373.png",
                 "sheet_x": 18,
                 "sheet_y": 26,
@@ -22654,6 +22792,7 @@
             },
             "1F3FE": {
                 "unified": "1F469-1F3FE-200D-1F373",
+                "non_qualified": null,
                 "image": "1f469-1f3fe-200d-1f373.png",
                 "sheet_x": 18,
                 "sheet_y": 27,
@@ -22667,6 +22806,7 @@
             },
             "1F3FF": {
                 "unified": "1F469-1F3FF-200D-1F373",
+                "non_qualified": null,
                 "image": "1f469-1f3ff-200d-1f373.png",
                 "sheet_x": 18,
                 "sheet_y": 28,
@@ -22709,6 +22849,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F469-1F3FB-200D-1F393",
+                "non_qualified": null,
                 "image": "1f469-1f3fb-200d-1f393.png",
                 "sheet_x": 18,
                 "sheet_y": 30,
@@ -22722,6 +22863,7 @@
             },
             "1F3FC": {
                 "unified": "1F469-1F3FC-200D-1F393",
+                "non_qualified": null,
                 "image": "1f469-1f3fc-200d-1f393.png",
                 "sheet_x": 18,
                 "sheet_y": 31,
@@ -22735,6 +22877,7 @@
             },
             "1F3FD": {
                 "unified": "1F469-1F3FD-200D-1F393",
+                "non_qualified": null,
                 "image": "1f469-1f3fd-200d-1f393.png",
                 "sheet_x": 18,
                 "sheet_y": 32,
@@ -22748,6 +22891,7 @@
             },
             "1F3FE": {
                 "unified": "1F469-1F3FE-200D-1F393",
+                "non_qualified": null,
                 "image": "1f469-1f3fe-200d-1f393.png",
                 "sheet_x": 18,
                 "sheet_y": 33,
@@ -22761,6 +22905,7 @@
             },
             "1F3FF": {
                 "unified": "1F469-1F3FF-200D-1F393",
+                "non_qualified": null,
                 "image": "1f469-1f3ff-200d-1f393.png",
                 "sheet_x": 18,
                 "sheet_y": 34,
@@ -22803,6 +22948,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F469-1F3FB-200D-1F3A4",
+                "non_qualified": null,
                 "image": "1f469-1f3fb-200d-1f3a4.png",
                 "sheet_x": 18,
                 "sheet_y": 36,
@@ -22816,6 +22962,7 @@
             },
             "1F3FC": {
                 "unified": "1F469-1F3FC-200D-1F3A4",
+                "non_qualified": null,
                 "image": "1f469-1f3fc-200d-1f3a4.png",
                 "sheet_x": 18,
                 "sheet_y": 37,
@@ -22829,6 +22976,7 @@
             },
             "1F3FD": {
                 "unified": "1F469-1F3FD-200D-1F3A4",
+                "non_qualified": null,
                 "image": "1f469-1f3fd-200d-1f3a4.png",
                 "sheet_x": 18,
                 "sheet_y": 38,
@@ -22842,6 +22990,7 @@
             },
             "1F3FE": {
                 "unified": "1F469-1F3FE-200D-1F3A4",
+                "non_qualified": null,
                 "image": "1f469-1f3fe-200d-1f3a4.png",
                 "sheet_x": 18,
                 "sheet_y": 39,
@@ -22855,6 +23004,7 @@
             },
             "1F3FF": {
                 "unified": "1F469-1F3FF-200D-1F3A4",
+                "non_qualified": null,
                 "image": "1f469-1f3ff-200d-1f3a4.png",
                 "sheet_x": 18,
                 "sheet_y": 40,
@@ -22897,6 +23047,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F469-1F3FB-200D-1F3A8",
+                "non_qualified": null,
                 "image": "1f469-1f3fb-200d-1f3a8.png",
                 "sheet_x": 18,
                 "sheet_y": 42,
@@ -22910,6 +23061,7 @@
             },
             "1F3FC": {
                 "unified": "1F469-1F3FC-200D-1F3A8",
+                "non_qualified": null,
                 "image": "1f469-1f3fc-200d-1f3a8.png",
                 "sheet_x": 18,
                 "sheet_y": 43,
@@ -22923,6 +23075,7 @@
             },
             "1F3FD": {
                 "unified": "1F469-1F3FD-200D-1F3A8",
+                "non_qualified": null,
                 "image": "1f469-1f3fd-200d-1f3a8.png",
                 "sheet_x": 18,
                 "sheet_y": 44,
@@ -22936,6 +23089,7 @@
             },
             "1F3FE": {
                 "unified": "1F469-1F3FE-200D-1F3A8",
+                "non_qualified": null,
                 "image": "1f469-1f3fe-200d-1f3a8.png",
                 "sheet_x": 18,
                 "sheet_y": 45,
@@ -22949,6 +23103,7 @@
             },
             "1F3FF": {
                 "unified": "1F469-1F3FF-200D-1F3A8",
+                "non_qualified": null,
                 "image": "1f469-1f3ff-200d-1f3a8.png",
                 "sheet_x": 18,
                 "sheet_y": 46,
@@ -22991,6 +23146,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F469-1F3FB-200D-1F3EB",
+                "non_qualified": null,
                 "image": "1f469-1f3fb-200d-1f3eb.png",
                 "sheet_x": 18,
                 "sheet_y": 48,
@@ -23004,6 +23160,7 @@
             },
             "1F3FC": {
                 "unified": "1F469-1F3FC-200D-1F3EB",
+                "non_qualified": null,
                 "image": "1f469-1f3fc-200d-1f3eb.png",
                 "sheet_x": 18,
                 "sheet_y": 49,
@@ -23017,6 +23174,7 @@
             },
             "1F3FD": {
                 "unified": "1F469-1F3FD-200D-1F3EB",
+                "non_qualified": null,
                 "image": "1f469-1f3fd-200d-1f3eb.png",
                 "sheet_x": 18,
                 "sheet_y": 50,
@@ -23030,6 +23188,7 @@
             },
             "1F3FE": {
                 "unified": "1F469-1F3FE-200D-1F3EB",
+                "non_qualified": null,
                 "image": "1f469-1f3fe-200d-1f3eb.png",
                 "sheet_x": 18,
                 "sheet_y": 51,
@@ -23043,6 +23202,7 @@
             },
             "1F3FF": {
                 "unified": "1F469-1F3FF-200D-1F3EB",
+                "non_qualified": null,
                 "image": "1f469-1f3ff-200d-1f3eb.png",
                 "sheet_x": 19,
                 "sheet_y": 0,
@@ -23085,6 +23245,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F469-1F3FB-200D-1F3ED",
+                "non_qualified": null,
                 "image": "1f469-1f3fb-200d-1f3ed.png",
                 "sheet_x": 19,
                 "sheet_y": 2,
@@ -23098,6 +23259,7 @@
             },
             "1F3FC": {
                 "unified": "1F469-1F3FC-200D-1F3ED",
+                "non_qualified": null,
                 "image": "1f469-1f3fc-200d-1f3ed.png",
                 "sheet_x": 19,
                 "sheet_y": 3,
@@ -23111,6 +23273,7 @@
             },
             "1F3FD": {
                 "unified": "1F469-1F3FD-200D-1F3ED",
+                "non_qualified": null,
                 "image": "1f469-1f3fd-200d-1f3ed.png",
                 "sheet_x": 19,
                 "sheet_y": 4,
@@ -23124,6 +23287,7 @@
             },
             "1F3FE": {
                 "unified": "1F469-1F3FE-200D-1F3ED",
+                "non_qualified": null,
                 "image": "1f469-1f3fe-200d-1f3ed.png",
                 "sheet_x": 19,
                 "sheet_y": 5,
@@ -23137,6 +23301,7 @@
             },
             "1F3FF": {
                 "unified": "1F469-1F3FF-200D-1F3ED",
+                "non_qualified": null,
                 "image": "1f469-1f3ff-200d-1f3ed.png",
                 "sheet_x": 19,
                 "sheet_y": 6,
@@ -23449,6 +23614,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F469-1F3FB-200D-1F4BB",
+                "non_qualified": null,
                 "image": "1f469-1f3fb-200d-1f4bb.png",
                 "sheet_x": 19,
                 "sheet_y": 18,
@@ -23462,6 +23628,7 @@
             },
             "1F3FC": {
                 "unified": "1F469-1F3FC-200D-1F4BB",
+                "non_qualified": null,
                 "image": "1f469-1f3fc-200d-1f4bb.png",
                 "sheet_x": 19,
                 "sheet_y": 19,
@@ -23475,6 +23642,7 @@
             },
             "1F3FD": {
                 "unified": "1F469-1F3FD-200D-1F4BB",
+                "non_qualified": null,
                 "image": "1f469-1f3fd-200d-1f4bb.png",
                 "sheet_x": 19,
                 "sheet_y": 20,
@@ -23488,6 +23656,7 @@
             },
             "1F3FE": {
                 "unified": "1F469-1F3FE-200D-1F4BB",
+                "non_qualified": null,
                 "image": "1f469-1f3fe-200d-1f4bb.png",
                 "sheet_x": 19,
                 "sheet_y": 21,
@@ -23501,6 +23670,7 @@
             },
             "1F3FF": {
                 "unified": "1F469-1F3FF-200D-1F4BB",
+                "non_qualified": null,
                 "image": "1f469-1f3ff-200d-1f4bb.png",
                 "sheet_x": 19,
                 "sheet_y": 22,
@@ -23543,6 +23713,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F469-1F3FB-200D-1F4BC",
+                "non_qualified": null,
                 "image": "1f469-1f3fb-200d-1f4bc.png",
                 "sheet_x": 19,
                 "sheet_y": 24,
@@ -23556,6 +23727,7 @@
             },
             "1F3FC": {
                 "unified": "1F469-1F3FC-200D-1F4BC",
+                "non_qualified": null,
                 "image": "1f469-1f3fc-200d-1f4bc.png",
                 "sheet_x": 19,
                 "sheet_y": 25,
@@ -23569,6 +23741,7 @@
             },
             "1F3FD": {
                 "unified": "1F469-1F3FD-200D-1F4BC",
+                "non_qualified": null,
                 "image": "1f469-1f3fd-200d-1f4bc.png",
                 "sheet_x": 19,
                 "sheet_y": 26,
@@ -23582,6 +23755,7 @@
             },
             "1F3FE": {
                 "unified": "1F469-1F3FE-200D-1F4BC",
+                "non_qualified": null,
                 "image": "1f469-1f3fe-200d-1f4bc.png",
                 "sheet_x": 19,
                 "sheet_y": 27,
@@ -23595,6 +23769,7 @@
             },
             "1F3FF": {
                 "unified": "1F469-1F3FF-200D-1F4BC",
+                "non_qualified": null,
                 "image": "1f469-1f3ff-200d-1f4bc.png",
                 "sheet_x": 19,
                 "sheet_y": 28,
@@ -23637,6 +23812,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F469-1F3FB-200D-1F527",
+                "non_qualified": null,
                 "image": "1f469-1f3fb-200d-1f527.png",
                 "sheet_x": 19,
                 "sheet_y": 30,
@@ -23650,6 +23826,7 @@
             },
             "1F3FC": {
                 "unified": "1F469-1F3FC-200D-1F527",
+                "non_qualified": null,
                 "image": "1f469-1f3fc-200d-1f527.png",
                 "sheet_x": 19,
                 "sheet_y": 31,
@@ -23663,6 +23840,7 @@
             },
             "1F3FD": {
                 "unified": "1F469-1F3FD-200D-1F527",
+                "non_qualified": null,
                 "image": "1f469-1f3fd-200d-1f527.png",
                 "sheet_x": 19,
                 "sheet_y": 32,
@@ -23676,6 +23854,7 @@
             },
             "1F3FE": {
                 "unified": "1F469-1F3FE-200D-1F527",
+                "non_qualified": null,
                 "image": "1f469-1f3fe-200d-1f527.png",
                 "sheet_x": 19,
                 "sheet_y": 33,
@@ -23689,6 +23868,7 @@
             },
             "1F3FF": {
                 "unified": "1F469-1F3FF-200D-1F527",
+                "non_qualified": null,
                 "image": "1f469-1f3ff-200d-1f527.png",
                 "sheet_x": 19,
                 "sheet_y": 34,
@@ -23731,6 +23911,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F469-1F3FB-200D-1F52C",
+                "non_qualified": null,
                 "image": "1f469-1f3fb-200d-1f52c.png",
                 "sheet_x": 19,
                 "sheet_y": 36,
@@ -23744,6 +23925,7 @@
             },
             "1F3FC": {
                 "unified": "1F469-1F3FC-200D-1F52C",
+                "non_qualified": null,
                 "image": "1f469-1f3fc-200d-1f52c.png",
                 "sheet_x": 19,
                 "sheet_y": 37,
@@ -23757,6 +23939,7 @@
             },
             "1F3FD": {
                 "unified": "1F469-1F3FD-200D-1F52C",
+                "non_qualified": null,
                 "image": "1f469-1f3fd-200d-1f52c.png",
                 "sheet_x": 19,
                 "sheet_y": 38,
@@ -23770,6 +23953,7 @@
             },
             "1F3FE": {
                 "unified": "1F469-1F3FE-200D-1F52C",
+                "non_qualified": null,
                 "image": "1f469-1f3fe-200d-1f52c.png",
                 "sheet_x": 19,
                 "sheet_y": 39,
@@ -23783,6 +23967,7 @@
             },
             "1F3FF": {
                 "unified": "1F469-1F3FF-200D-1F52C",
+                "non_qualified": null,
                 "image": "1f469-1f3ff-200d-1f52c.png",
                 "sheet_x": 19,
                 "sheet_y": 40,
@@ -23825,6 +24010,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F469-1F3FB-200D-1F680",
+                "non_qualified": null,
                 "image": "1f469-1f3fb-200d-1f680.png",
                 "sheet_x": 19,
                 "sheet_y": 42,
@@ -23838,6 +24024,7 @@
             },
             "1F3FC": {
                 "unified": "1F469-1F3FC-200D-1F680",
+                "non_qualified": null,
                 "image": "1f469-1f3fc-200d-1f680.png",
                 "sheet_x": 19,
                 "sheet_y": 43,
@@ -23851,6 +24038,7 @@
             },
             "1F3FD": {
                 "unified": "1F469-1F3FD-200D-1F680",
+                "non_qualified": null,
                 "image": "1f469-1f3fd-200d-1f680.png",
                 "sheet_x": 19,
                 "sheet_y": 44,
@@ -23864,6 +24052,7 @@
             },
             "1F3FE": {
                 "unified": "1F469-1F3FE-200D-1F680",
+                "non_qualified": null,
                 "image": "1f469-1f3fe-200d-1f680.png",
                 "sheet_x": 19,
                 "sheet_y": 45,
@@ -23877,6 +24066,7 @@
             },
             "1F3FF": {
                 "unified": "1F469-1F3FF-200D-1F680",
+                "non_qualified": null,
                 "image": "1f469-1f3ff-200d-1f680.png",
                 "sheet_x": 19,
                 "sheet_y": 46,
@@ -23919,6 +24109,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F469-1F3FB-200D-1F692",
+                "non_qualified": null,
                 "image": "1f469-1f3fb-200d-1f692.png",
                 "sheet_x": 19,
                 "sheet_y": 48,
@@ -23932,6 +24123,7 @@
             },
             "1F3FC": {
                 "unified": "1F469-1F3FC-200D-1F692",
+                "non_qualified": null,
                 "image": "1f469-1f3fc-200d-1f692.png",
                 "sheet_x": 19,
                 "sheet_y": 49,
@@ -23945,6 +24137,7 @@
             },
             "1F3FD": {
                 "unified": "1F469-1F3FD-200D-1F692",
+                "non_qualified": null,
                 "image": "1f469-1f3fd-200d-1f692.png",
                 "sheet_x": 19,
                 "sheet_y": 50,
@@ -23958,6 +24151,7 @@
             },
             "1F3FE": {
                 "unified": "1F469-1F3FE-200D-1F692",
+                "non_qualified": null,
                 "image": "1f469-1f3fe-200d-1f692.png",
                 "sheet_x": 19,
                 "sheet_y": 51,
@@ -23971,6 +24165,7 @@
             },
             "1F3FF": {
                 "unified": "1F469-1F3FF-200D-1F692",
+                "non_qualified": null,
                 "image": "1f469-1f3ff-200d-1f692.png",
                 "sheet_x": 20,
                 "sheet_y": 0,
@@ -24013,6 +24208,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F469-1F3FB-200D-2695-FE0F",
+                "non_qualified": "1F469-1F3FB-200D-2695",
                 "image": "1f469-1f3fb-200d-2695-fe0f.png",
                 "sheet_x": 20,
                 "sheet_y": 2,
@@ -24026,6 +24222,7 @@
             },
             "1F3FC": {
                 "unified": "1F469-1F3FC-200D-2695-FE0F",
+                "non_qualified": "1F469-1F3FC-200D-2695",
                 "image": "1f469-1f3fc-200d-2695-fe0f.png",
                 "sheet_x": 20,
                 "sheet_y": 3,
@@ -24039,6 +24236,7 @@
             },
             "1F3FD": {
                 "unified": "1F469-1F3FD-200D-2695-FE0F",
+                "non_qualified": "1F469-1F3FD-200D-2695",
                 "image": "1f469-1f3fd-200d-2695-fe0f.png",
                 "sheet_x": 20,
                 "sheet_y": 4,
@@ -24052,6 +24250,7 @@
             },
             "1F3FE": {
                 "unified": "1F469-1F3FE-200D-2695-FE0F",
+                "non_qualified": "1F469-1F3FE-200D-2695",
                 "image": "1f469-1f3fe-200d-2695-fe0f.png",
                 "sheet_x": 20,
                 "sheet_y": 5,
@@ -24065,6 +24264,7 @@
             },
             "1F3FF": {
                 "unified": "1F469-1F3FF-200D-2695-FE0F",
+                "non_qualified": "1F469-1F3FF-200D-2695",
                 "image": "1f469-1f3ff-200d-2695-fe0f.png",
                 "sheet_x": 20,
                 "sheet_y": 6,
@@ -24107,6 +24307,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F469-1F3FB-200D-2696-FE0F",
+                "non_qualified": "1F469-1F3FB-200D-2696",
                 "image": "1f469-1f3fb-200d-2696-fe0f.png",
                 "sheet_x": 20,
                 "sheet_y": 8,
@@ -24120,6 +24321,7 @@
             },
             "1F3FC": {
                 "unified": "1F469-1F3FC-200D-2696-FE0F",
+                "non_qualified": "1F469-1F3FC-200D-2696",
                 "image": "1f469-1f3fc-200d-2696-fe0f.png",
                 "sheet_x": 20,
                 "sheet_y": 9,
@@ -24133,6 +24335,7 @@
             },
             "1F3FD": {
                 "unified": "1F469-1F3FD-200D-2696-FE0F",
+                "non_qualified": "1F469-1F3FD-200D-2696",
                 "image": "1f469-1f3fd-200d-2696-fe0f.png",
                 "sheet_x": 20,
                 "sheet_y": 10,
@@ -24146,6 +24349,7 @@
             },
             "1F3FE": {
                 "unified": "1F469-1F3FE-200D-2696-FE0F",
+                "non_qualified": "1F469-1F3FE-200D-2696",
                 "image": "1f469-1f3fe-200d-2696-fe0f.png",
                 "sheet_x": 20,
                 "sheet_y": 11,
@@ -24159,6 +24363,7 @@
             },
             "1F3FF": {
                 "unified": "1F469-1F3FF-200D-2696-FE0F",
+                "non_qualified": "1F469-1F3FF-200D-2696",
                 "image": "1f469-1f3ff-200d-2696-fe0f.png",
                 "sheet_x": 20,
                 "sheet_y": 12,
@@ -24201,6 +24406,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F469-1F3FB-200D-2708-FE0F",
+                "non_qualified": "1F469-1F3FB-200D-2708",
                 "image": "1f469-1f3fb-200d-2708-fe0f.png",
                 "sheet_x": 20,
                 "sheet_y": 14,
@@ -24214,6 +24420,7 @@
             },
             "1F3FC": {
                 "unified": "1F469-1F3FC-200D-2708-FE0F",
+                "non_qualified": "1F469-1F3FC-200D-2708",
                 "image": "1f469-1f3fc-200d-2708-fe0f.png",
                 "sheet_x": 20,
                 "sheet_y": 15,
@@ -24227,6 +24434,7 @@
             },
             "1F3FD": {
                 "unified": "1F469-1F3FD-200D-2708-FE0F",
+                "non_qualified": "1F469-1F3FD-200D-2708",
                 "image": "1f469-1f3fd-200d-2708-fe0f.png",
                 "sheet_x": 20,
                 "sheet_y": 16,
@@ -24240,6 +24448,7 @@
             },
             "1F3FE": {
                 "unified": "1F469-1F3FE-200D-2708-FE0F",
+                "non_qualified": "1F469-1F3FE-200D-2708",
                 "image": "1f469-1f3fe-200d-2708-fe0f.png",
                 "sheet_x": 20,
                 "sheet_y": 17,
@@ -24253,6 +24462,7 @@
             },
             "1F3FF": {
                 "unified": "1F469-1F3FF-200D-2708-FE0F",
+                "non_qualified": "1F469-1F3FF-200D-2708",
                 "image": "1f469-1f3ff-200d-2708-fe0f.png",
                 "sheet_x": 20,
                 "sheet_y": 18,
@@ -24615,6 +24825,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F46E-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F46E-1F3FB-200D-2640",
                 "image": "1f46e-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 20,
                 "sheet_y": 34,
@@ -24628,6 +24839,7 @@
             },
             "1F3FC": {
                 "unified": "1F46E-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F46E-1F3FC-200D-2640",
                 "image": "1f46e-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 20,
                 "sheet_y": 35,
@@ -24641,6 +24853,7 @@
             },
             "1F3FD": {
                 "unified": "1F46E-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F46E-1F3FD-200D-2640",
                 "image": "1f46e-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 20,
                 "sheet_y": 36,
@@ -24654,6 +24867,7 @@
             },
             "1F3FE": {
                 "unified": "1F46E-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F46E-1F3FE-200D-2640",
                 "image": "1f46e-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 20,
                 "sheet_y": 37,
@@ -24667,6 +24881,7 @@
             },
             "1F3FF": {
                 "unified": "1F46E-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F46E-1F3FF-200D-2640",
                 "image": "1f46e-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 20,
                 "sheet_y": 38,
@@ -24709,6 +24924,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F46E-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F46E-1F3FB-200D-2642",
                 "image": "1f46e-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 20,
                 "sheet_y": 40,
@@ -24722,6 +24938,7 @@
             },
             "1F3FC": {
                 "unified": "1F46E-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F46E-1F3FC-200D-2642",
                 "image": "1f46e-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 20,
                 "sheet_y": 41,
@@ -24735,6 +24952,7 @@
             },
             "1F3FD": {
                 "unified": "1F46E-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F46E-1F3FD-200D-2642",
                 "image": "1f46e-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 20,
                 "sheet_y": 42,
@@ -24748,6 +24966,7 @@
             },
             "1F3FE": {
                 "unified": "1F46E-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F46E-1F3FE-200D-2642",
                 "image": "1f46e-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 20,
                 "sheet_y": 43,
@@ -24761,6 +24980,7 @@
             },
             "1F3FF": {
                 "unified": "1F46E-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F46E-1F3FF-200D-2642",
                 "image": "1f46e-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 20,
                 "sheet_y": 44,
@@ -25086,6 +25306,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F471-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F471-1F3FB-200D-2640",
                 "image": "1f471-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 21,
                 "sheet_y": 9,
@@ -25099,6 +25320,7 @@
             },
             "1F3FC": {
                 "unified": "1F471-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F471-1F3FC-200D-2640",
                 "image": "1f471-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 21,
                 "sheet_y": 10,
@@ -25112,6 +25334,7 @@
             },
             "1F3FD": {
                 "unified": "1F471-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F471-1F3FD-200D-2640",
                 "image": "1f471-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 21,
                 "sheet_y": 11,
@@ -25125,6 +25348,7 @@
             },
             "1F3FE": {
                 "unified": "1F471-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F471-1F3FE-200D-2640",
                 "image": "1f471-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 21,
                 "sheet_y": 12,
@@ -25138,6 +25362,7 @@
             },
             "1F3FF": {
                 "unified": "1F471-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F471-1F3FF-200D-2640",
                 "image": "1f471-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 21,
                 "sheet_y": 13,
@@ -25180,6 +25405,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F471-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F471-1F3FB-200D-2642",
                 "image": "1f471-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 21,
                 "sheet_y": 15,
@@ -25193,6 +25419,7 @@
             },
             "1F3FC": {
                 "unified": "1F471-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F471-1F3FC-200D-2642",
                 "image": "1f471-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 21,
                 "sheet_y": 16,
@@ -25206,6 +25433,7 @@
             },
             "1F3FD": {
                 "unified": "1F471-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F471-1F3FD-200D-2642",
                 "image": "1f471-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 21,
                 "sheet_y": 17,
@@ -25219,6 +25447,7 @@
             },
             "1F3FE": {
                 "unified": "1F471-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F471-1F3FE-200D-2642",
                 "image": "1f471-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 21,
                 "sheet_y": 18,
@@ -25232,6 +25461,7 @@
             },
             "1F3FF": {
                 "unified": "1F471-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F471-1F3FF-200D-2642",
                 "image": "1f471-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 21,
                 "sheet_y": 19,
@@ -25474,6 +25704,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F473-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F473-1F3FB-200D-2640",
                 "image": "1f473-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 21,
                 "sheet_y": 33,
@@ -25487,6 +25718,7 @@
             },
             "1F3FC": {
                 "unified": "1F473-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F473-1F3FC-200D-2640",
                 "image": "1f473-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 21,
                 "sheet_y": 34,
@@ -25500,6 +25732,7 @@
             },
             "1F3FD": {
                 "unified": "1F473-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F473-1F3FD-200D-2640",
                 "image": "1f473-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 21,
                 "sheet_y": 35,
@@ -25513,6 +25746,7 @@
             },
             "1F3FE": {
                 "unified": "1F473-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F473-1F3FE-200D-2640",
                 "image": "1f473-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 21,
                 "sheet_y": 36,
@@ -25526,6 +25760,7 @@
             },
             "1F3FF": {
                 "unified": "1F473-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F473-1F3FF-200D-2640",
                 "image": "1f473-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 21,
                 "sheet_y": 37,
@@ -25568,6 +25803,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F473-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F473-1F3FB-200D-2642",
                 "image": "1f473-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 21,
                 "sheet_y": 39,
@@ -25581,6 +25817,7 @@
             },
             "1F3FC": {
                 "unified": "1F473-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F473-1F3FC-200D-2642",
                 "image": "1f473-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 21,
                 "sheet_y": 40,
@@ -25594,6 +25831,7 @@
             },
             "1F3FD": {
                 "unified": "1F473-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F473-1F3FD-200D-2642",
                 "image": "1f473-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 21,
                 "sheet_y": 41,
@@ -25607,6 +25845,7 @@
             },
             "1F3FE": {
                 "unified": "1F473-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F473-1F3FE-200D-2642",
                 "image": "1f473-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 21,
                 "sheet_y": 42,
@@ -25620,6 +25859,7 @@
             },
             "1F3FF": {
                 "unified": "1F473-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F473-1F3FF-200D-2642",
                 "image": "1f473-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 21,
                 "sheet_y": 43,
@@ -26060,6 +26300,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F477-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F477-1F3FB-200D-2640",
                 "image": "1f477-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 22,
                 "sheet_y": 17,
@@ -26073,6 +26314,7 @@
             },
             "1F3FC": {
                 "unified": "1F477-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F477-1F3FC-200D-2640",
                 "image": "1f477-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 22,
                 "sheet_y": 18,
@@ -26086,6 +26328,7 @@
             },
             "1F3FD": {
                 "unified": "1F477-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F477-1F3FD-200D-2640",
                 "image": "1f477-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 22,
                 "sheet_y": 19,
@@ -26099,6 +26342,7 @@
             },
             "1F3FE": {
                 "unified": "1F477-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F477-1F3FE-200D-2640",
                 "image": "1f477-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 22,
                 "sheet_y": 20,
@@ -26112,6 +26356,7 @@
             },
             "1F3FF": {
                 "unified": "1F477-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F477-1F3FF-200D-2640",
                 "image": "1f477-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 22,
                 "sheet_y": 21,
@@ -26154,6 +26399,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F477-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F477-1F3FB-200D-2642",
                 "image": "1f477-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 22,
                 "sheet_y": 23,
@@ -26167,6 +26413,7 @@
             },
             "1F3FC": {
                 "unified": "1F477-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F477-1F3FC-200D-2642",
                 "image": "1f477-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 22,
                 "sheet_y": 24,
@@ -26180,6 +26427,7 @@
             },
             "1F3FD": {
                 "unified": "1F477-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F477-1F3FD-200D-2642",
                 "image": "1f477-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 22,
                 "sheet_y": 25,
@@ -26193,6 +26441,7 @@
             },
             "1F3FE": {
                 "unified": "1F477-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F477-1F3FE-200D-2642",
                 "image": "1f477-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 22,
                 "sheet_y": 26,
@@ -26206,6 +26455,7 @@
             },
             "1F3FF": {
                 "unified": "1F477-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F477-1F3FF-200D-2642",
                 "image": "1f477-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 22,
                 "sheet_y": 27,
@@ -26736,6 +26986,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F481-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F481-1F3FB-200D-2640",
                 "image": "1f481-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 23,
                 "sheet_y": 2,
@@ -26749,6 +27000,7 @@
             },
             "1F3FC": {
                 "unified": "1F481-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F481-1F3FC-200D-2640",
                 "image": "1f481-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 23,
                 "sheet_y": 3,
@@ -26762,6 +27014,7 @@
             },
             "1F3FD": {
                 "unified": "1F481-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F481-1F3FD-200D-2640",
                 "image": "1f481-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 23,
                 "sheet_y": 4,
@@ -26775,6 +27028,7 @@
             },
             "1F3FE": {
                 "unified": "1F481-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F481-1F3FE-200D-2640",
                 "image": "1f481-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 23,
                 "sheet_y": 5,
@@ -26788,6 +27042,7 @@
             },
             "1F3FF": {
                 "unified": "1F481-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F481-1F3FF-200D-2640",
                 "image": "1f481-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 23,
                 "sheet_y": 6,
@@ -26831,6 +27086,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F481-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F481-1F3FB-200D-2642",
                 "image": "1f481-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 23,
                 "sheet_y": 8,
@@ -26844,6 +27100,7 @@
             },
             "1F3FC": {
                 "unified": "1F481-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F481-1F3FC-200D-2642",
                 "image": "1f481-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 23,
                 "sheet_y": 9,
@@ -26857,6 +27114,7 @@
             },
             "1F3FD": {
                 "unified": "1F481-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F481-1F3FD-200D-2642",
                 "image": "1f481-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 23,
                 "sheet_y": 10,
@@ -26870,6 +27128,7 @@
             },
             "1F3FE": {
                 "unified": "1F481-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F481-1F3FE-200D-2642",
                 "image": "1f481-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 23,
                 "sheet_y": 11,
@@ -26883,6 +27142,7 @@
             },
             "1F3FF": {
                 "unified": "1F481-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F481-1F3FF-200D-2642",
                 "image": "1f481-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 23,
                 "sheet_y": 12,
@@ -27025,6 +27285,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F482-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F482-1F3FB-200D-2640",
                 "image": "1f482-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 23,
                 "sheet_y": 20,
@@ -27038,6 +27299,7 @@
             },
             "1F3FC": {
                 "unified": "1F482-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F482-1F3FC-200D-2640",
                 "image": "1f482-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 23,
                 "sheet_y": 21,
@@ -27051,6 +27313,7 @@
             },
             "1F3FD": {
                 "unified": "1F482-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F482-1F3FD-200D-2640",
                 "image": "1f482-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 23,
                 "sheet_y": 22,
@@ -27064,6 +27327,7 @@
             },
             "1F3FE": {
                 "unified": "1F482-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F482-1F3FE-200D-2640",
                 "image": "1f482-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 23,
                 "sheet_y": 23,
@@ -27077,6 +27341,7 @@
             },
             "1F3FF": {
                 "unified": "1F482-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F482-1F3FF-200D-2640",
                 "image": "1f482-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 23,
                 "sheet_y": 24,
@@ -27119,6 +27384,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F482-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F482-1F3FB-200D-2642",
                 "image": "1f482-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 23,
                 "sheet_y": 26,
@@ -27132,6 +27398,7 @@
             },
             "1F3FC": {
                 "unified": "1F482-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F482-1F3FC-200D-2642",
                 "image": "1f482-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 23,
                 "sheet_y": 27,
@@ -27145,6 +27412,7 @@
             },
             "1F3FD": {
                 "unified": "1F482-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F482-1F3FD-200D-2642",
                 "image": "1f482-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 23,
                 "sheet_y": 28,
@@ -27158,6 +27426,7 @@
             },
             "1F3FE": {
                 "unified": "1F482-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F482-1F3FE-200D-2642",
                 "image": "1f482-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 23,
                 "sheet_y": 29,
@@ -27171,6 +27440,7 @@
             },
             "1F3FF": {
                 "unified": "1F482-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F482-1F3FF-200D-2642",
                 "image": "1f482-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 23,
                 "sheet_y": 30,
@@ -27539,6 +27809,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F486-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F486-1F3FB-200D-2640",
                 "image": "1f486-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 23,
                 "sheet_y": 51,
@@ -27552,6 +27823,7 @@
             },
             "1F3FC": {
                 "unified": "1F486-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F486-1F3FC-200D-2640",
                 "image": "1f486-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 24,
                 "sheet_y": 0,
@@ -27565,6 +27837,7 @@
             },
             "1F3FD": {
                 "unified": "1F486-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F486-1F3FD-200D-2640",
                 "image": "1f486-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 24,
                 "sheet_y": 1,
@@ -27578,6 +27851,7 @@
             },
             "1F3FE": {
                 "unified": "1F486-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F486-1F3FE-200D-2640",
                 "image": "1f486-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 24,
                 "sheet_y": 2,
@@ -27591,6 +27865,7 @@
             },
             "1F3FF": {
                 "unified": "1F486-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F486-1F3FF-200D-2640",
                 "image": "1f486-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 24,
                 "sheet_y": 3,
@@ -27634,6 +27909,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F486-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F486-1F3FB-200D-2642",
                 "image": "1f486-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 24,
                 "sheet_y": 5,
@@ -27647,6 +27923,7 @@
             },
             "1F3FC": {
                 "unified": "1F486-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F486-1F3FC-200D-2642",
                 "image": "1f486-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 24,
                 "sheet_y": 6,
@@ -27660,6 +27937,7 @@
             },
             "1F3FD": {
                 "unified": "1F486-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F486-1F3FD-200D-2642",
                 "image": "1f486-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 24,
                 "sheet_y": 7,
@@ -27673,6 +27951,7 @@
             },
             "1F3FE": {
                 "unified": "1F486-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F486-1F3FE-200D-2642",
                 "image": "1f486-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 24,
                 "sheet_y": 8,
@@ -27686,6 +27965,7 @@
             },
             "1F3FF": {
                 "unified": "1F486-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F486-1F3FF-200D-2642",
                 "image": "1f486-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 24,
                 "sheet_y": 9,
@@ -27828,6 +28108,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F487-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F487-1F3FB-200D-2640",
                 "image": "1f487-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 24,
                 "sheet_y": 17,
@@ -27841,6 +28122,7 @@
             },
             "1F3FC": {
                 "unified": "1F487-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F487-1F3FC-200D-2640",
                 "image": "1f487-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 24,
                 "sheet_y": 18,
@@ -27854,6 +28136,7 @@
             },
             "1F3FD": {
                 "unified": "1F487-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F487-1F3FD-200D-2640",
                 "image": "1f487-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 24,
                 "sheet_y": 19,
@@ -27867,6 +28150,7 @@
             },
             "1F3FE": {
                 "unified": "1F487-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F487-1F3FE-200D-2640",
                 "image": "1f487-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 24,
                 "sheet_y": 20,
@@ -27880,6 +28164,7 @@
             },
             "1F3FF": {
                 "unified": "1F487-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F487-1F3FF-200D-2640",
                 "image": "1f487-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 24,
                 "sheet_y": 21,
@@ -27923,6 +28208,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F487-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F487-1F3FB-200D-2642",
                 "image": "1f487-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 24,
                 "sheet_y": 23,
@@ -27936,6 +28222,7 @@
             },
             "1F3FC": {
                 "unified": "1F487-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F487-1F3FC-200D-2642",
                 "image": "1f487-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 24,
                 "sheet_y": 24,
@@ -27949,6 +28236,7 @@
             },
             "1F3FD": {
                 "unified": "1F487-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F487-1F3FD-200D-2642",
                 "image": "1f487-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 24,
                 "sheet_y": 25,
@@ -27962,6 +28250,7 @@
             },
             "1F3FE": {
                 "unified": "1F487-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F487-1F3FE-200D-2642",
                 "image": "1f487-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 24,
                 "sheet_y": 26,
@@ -27975,6 +28264,7 @@
             },
             "1F3FF": {
                 "unified": "1F487-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F487-1F3FF-200D-2642",
                 "image": "1f487-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 24,
                 "sheet_y": 27,
@@ -34076,6 +34366,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F575-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F575-1F3FB-200D-2640",
                 "image": "1f575-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 29,
                 "sheet_y": 0,
@@ -34089,6 +34380,7 @@
             },
             "1F3FC": {
                 "unified": "1F575-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F575-1F3FC-200D-2640",
                 "image": "1f575-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 29,
                 "sheet_y": 1,
@@ -34102,6 +34394,7 @@
             },
             "1F3FD": {
                 "unified": "1F575-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F575-1F3FD-200D-2640",
                 "image": "1f575-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 29,
                 "sheet_y": 2,
@@ -34115,6 +34408,7 @@
             },
             "1F3FE": {
                 "unified": "1F575-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F575-1F3FE-200D-2640",
                 "image": "1f575-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 29,
                 "sheet_y": 3,
@@ -34128,6 +34422,7 @@
             },
             "1F3FF": {
                 "unified": "1F575-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F575-1F3FF-200D-2640",
                 "image": "1f575-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 29,
                 "sheet_y": 4,
@@ -34170,6 +34465,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F575-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F575-1F3FB-200D-2642",
                 "image": "1f575-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 29,
                 "sheet_y": 6,
@@ -34183,6 +34479,7 @@
             },
             "1F3FC": {
                 "unified": "1F575-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F575-1F3FC-200D-2642",
                 "image": "1f575-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 29,
                 "sheet_y": 7,
@@ -34196,6 +34493,7 @@
             },
             "1F3FD": {
                 "unified": "1F575-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F575-1F3FD-200D-2642",
                 "image": "1f575-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 29,
                 "sheet_y": 8,
@@ -34209,6 +34507,7 @@
             },
             "1F3FE": {
                 "unified": "1F575-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F575-1F3FE-200D-2642",
                 "image": "1f575-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 29,
                 "sheet_y": 9,
@@ -34222,6 +34521,7 @@
             },
             "1F3FF": {
                 "unified": "1F575-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F575-1F3FF-200D-2642",
                 "image": "1f575-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 29,
                 "sheet_y": 10,
@@ -37632,6 +37932,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F645-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F645-1F3FB-200D-2640",
                 "image": "1f645-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 31,
                 "sheet_y": 42,
@@ -37645,6 +37946,7 @@
             },
             "1F3FC": {
                 "unified": "1F645-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F645-1F3FC-200D-2640",
                 "image": "1f645-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 31,
                 "sheet_y": 43,
@@ -37658,6 +37960,7 @@
             },
             "1F3FD": {
                 "unified": "1F645-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F645-1F3FD-200D-2640",
                 "image": "1f645-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 31,
                 "sheet_y": 44,
@@ -37671,6 +37974,7 @@
             },
             "1F3FE": {
                 "unified": "1F645-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F645-1F3FE-200D-2640",
                 "image": "1f645-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 31,
                 "sheet_y": 45,
@@ -37684,6 +37988,7 @@
             },
             "1F3FF": {
                 "unified": "1F645-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F645-1F3FF-200D-2640",
                 "image": "1f645-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 31,
                 "sheet_y": 46,
@@ -37727,6 +38032,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F645-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F645-1F3FB-200D-2642",
                 "image": "1f645-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 31,
                 "sheet_y": 48,
@@ -37740,6 +38046,7 @@
             },
             "1F3FC": {
                 "unified": "1F645-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F645-1F3FC-200D-2642",
                 "image": "1f645-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 31,
                 "sheet_y": 49,
@@ -37753,6 +38060,7 @@
             },
             "1F3FD": {
                 "unified": "1F645-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F645-1F3FD-200D-2642",
                 "image": "1f645-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 31,
                 "sheet_y": 50,
@@ -37766,6 +38074,7 @@
             },
             "1F3FE": {
                 "unified": "1F645-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F645-1F3FE-200D-2642",
                 "image": "1f645-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 31,
                 "sheet_y": 51,
@@ -37779,6 +38088,7 @@
             },
             "1F3FF": {
                 "unified": "1F645-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F645-1F3FF-200D-2642",
                 "image": "1f645-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 32,
                 "sheet_y": 0,
@@ -37921,6 +38231,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F646-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F646-1F3FB-200D-2640",
                 "image": "1f646-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 32,
                 "sheet_y": 8,
@@ -37934,6 +38245,7 @@
             },
             "1F3FC": {
                 "unified": "1F646-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F646-1F3FC-200D-2640",
                 "image": "1f646-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 32,
                 "sheet_y": 9,
@@ -37947,6 +38259,7 @@
             },
             "1F3FD": {
                 "unified": "1F646-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F646-1F3FD-200D-2640",
                 "image": "1f646-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 32,
                 "sheet_y": 10,
@@ -37960,6 +38273,7 @@
             },
             "1F3FE": {
                 "unified": "1F646-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F646-1F3FE-200D-2640",
                 "image": "1f646-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 32,
                 "sheet_y": 11,
@@ -37973,6 +38287,7 @@
             },
             "1F3FF": {
                 "unified": "1F646-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F646-1F3FF-200D-2640",
                 "image": "1f646-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 32,
                 "sheet_y": 12,
@@ -38016,6 +38331,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F646-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F646-1F3FB-200D-2642",
                 "image": "1f646-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 32,
                 "sheet_y": 14,
@@ -38029,6 +38345,7 @@
             },
             "1F3FC": {
                 "unified": "1F646-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F646-1F3FC-200D-2642",
                 "image": "1f646-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 32,
                 "sheet_y": 15,
@@ -38042,6 +38359,7 @@
             },
             "1F3FD": {
                 "unified": "1F646-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F646-1F3FD-200D-2642",
                 "image": "1f646-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 32,
                 "sheet_y": 16,
@@ -38055,6 +38373,7 @@
             },
             "1F3FE": {
                 "unified": "1F646-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F646-1F3FE-200D-2642",
                 "image": "1f646-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 32,
                 "sheet_y": 17,
@@ -38068,6 +38387,7 @@
             },
             "1F3FF": {
                 "unified": "1F646-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F646-1F3FF-200D-2642",
                 "image": "1f646-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 32,
                 "sheet_y": 18,
@@ -38210,6 +38530,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F647-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F647-1F3FB-200D-2640",
                 "image": "1f647-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 32,
                 "sheet_y": 26,
@@ -38223,6 +38544,7 @@
             },
             "1F3FC": {
                 "unified": "1F647-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F647-1F3FC-200D-2640",
                 "image": "1f647-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 32,
                 "sheet_y": 27,
@@ -38236,6 +38558,7 @@
             },
             "1F3FD": {
                 "unified": "1F647-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F647-1F3FD-200D-2640",
                 "image": "1f647-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 32,
                 "sheet_y": 28,
@@ -38249,6 +38572,7 @@
             },
             "1F3FE": {
                 "unified": "1F647-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F647-1F3FE-200D-2640",
                 "image": "1f647-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 32,
                 "sheet_y": 29,
@@ -38262,6 +38586,7 @@
             },
             "1F3FF": {
                 "unified": "1F647-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F647-1F3FF-200D-2640",
                 "image": "1f647-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 32,
                 "sheet_y": 30,
@@ -38304,6 +38629,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F647-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F647-1F3FB-200D-2642",
                 "image": "1f647-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 32,
                 "sheet_y": 32,
@@ -38317,6 +38643,7 @@
             },
             "1F3FC": {
                 "unified": "1F647-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F647-1F3FC-200D-2642",
                 "image": "1f647-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 32,
                 "sheet_y": 33,
@@ -38330,6 +38657,7 @@
             },
             "1F3FD": {
                 "unified": "1F647-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F647-1F3FD-200D-2642",
                 "image": "1f647-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 32,
                 "sheet_y": 34,
@@ -38343,6 +38671,7 @@
             },
             "1F3FE": {
                 "unified": "1F647-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F647-1F3FE-200D-2642",
                 "image": "1f647-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 32,
                 "sheet_y": 35,
@@ -38356,6 +38685,7 @@
             },
             "1F3FF": {
                 "unified": "1F647-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F647-1F3FF-200D-2642",
                 "image": "1f647-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 32,
                 "sheet_y": 36,
@@ -38580,6 +38910,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F64B-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F64B-1F3FB-200D-2640",
                 "image": "1f64b-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 32,
                 "sheet_y": 47,
@@ -38593,6 +38924,7 @@
             },
             "1F3FC": {
                 "unified": "1F64B-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F64B-1F3FC-200D-2640",
                 "image": "1f64b-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 32,
                 "sheet_y": 48,
@@ -38606,6 +38938,7 @@
             },
             "1F3FD": {
                 "unified": "1F64B-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F64B-1F3FD-200D-2640",
                 "image": "1f64b-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 32,
                 "sheet_y": 49,
@@ -38619,6 +38952,7 @@
             },
             "1F3FE": {
                 "unified": "1F64B-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F64B-1F3FE-200D-2640",
                 "image": "1f64b-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 32,
                 "sheet_y": 50,
@@ -38632,6 +38966,7 @@
             },
             "1F3FF": {
                 "unified": "1F64B-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F64B-1F3FF-200D-2640",
                 "image": "1f64b-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 32,
                 "sheet_y": 51,
@@ -38675,6 +39010,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F64B-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F64B-1F3FB-200D-2642",
                 "image": "1f64b-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 33,
                 "sheet_y": 1,
@@ -38688,6 +39024,7 @@
             },
             "1F3FC": {
                 "unified": "1F64B-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F64B-1F3FC-200D-2642",
                 "image": "1f64b-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 33,
                 "sheet_y": 2,
@@ -38701,6 +39038,7 @@
             },
             "1F3FD": {
                 "unified": "1F64B-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F64B-1F3FD-200D-2642",
                 "image": "1f64b-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 33,
                 "sheet_y": 3,
@@ -38714,6 +39052,7 @@
             },
             "1F3FE": {
                 "unified": "1F64B-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F64B-1F3FE-200D-2642",
                 "image": "1f64b-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 33,
                 "sheet_y": 4,
@@ -38727,6 +39066,7 @@
             },
             "1F3FF": {
                 "unified": "1F64B-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F64B-1F3FF-200D-2642",
                 "image": "1f64b-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 33,
                 "sheet_y": 5,
@@ -38968,6 +39308,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F64D-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F64D-1F3FB-200D-2640",
                 "image": "1f64d-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 33,
                 "sheet_y": 19,
@@ -38981,6 +39322,7 @@
             },
             "1F3FC": {
                 "unified": "1F64D-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F64D-1F3FC-200D-2640",
                 "image": "1f64d-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 33,
                 "sheet_y": 20,
@@ -38994,6 +39336,7 @@
             },
             "1F3FD": {
                 "unified": "1F64D-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F64D-1F3FD-200D-2640",
                 "image": "1f64d-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 33,
                 "sheet_y": 21,
@@ -39007,6 +39350,7 @@
             },
             "1F3FE": {
                 "unified": "1F64D-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F64D-1F3FE-200D-2640",
                 "image": "1f64d-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 33,
                 "sheet_y": 22,
@@ -39020,6 +39364,7 @@
             },
             "1F3FF": {
                 "unified": "1F64D-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F64D-1F3FF-200D-2640",
                 "image": "1f64d-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 33,
                 "sheet_y": 23,
@@ -39063,6 +39408,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F64D-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F64D-1F3FB-200D-2642",
                 "image": "1f64d-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 33,
                 "sheet_y": 25,
@@ -39076,6 +39422,7 @@
             },
             "1F3FC": {
                 "unified": "1F64D-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F64D-1F3FC-200D-2642",
                 "image": "1f64d-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 33,
                 "sheet_y": 26,
@@ -39089,6 +39436,7 @@
             },
             "1F3FD": {
                 "unified": "1F64D-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F64D-1F3FD-200D-2642",
                 "image": "1f64d-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 33,
                 "sheet_y": 27,
@@ -39102,6 +39450,7 @@
             },
             "1F3FE": {
                 "unified": "1F64D-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F64D-1F3FE-200D-2642",
                 "image": "1f64d-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 33,
                 "sheet_y": 28,
@@ -39115,6 +39464,7 @@
             },
             "1F3FF": {
                 "unified": "1F64D-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F64D-1F3FF-200D-2642",
                 "image": "1f64d-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 33,
                 "sheet_y": 29,
@@ -39257,6 +39607,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F64E-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F64E-1F3FB-200D-2640",
                 "image": "1f64e-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 33,
                 "sheet_y": 37,
@@ -39270,6 +39621,7 @@
             },
             "1F3FC": {
                 "unified": "1F64E-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F64E-1F3FC-200D-2640",
                 "image": "1f64e-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 33,
                 "sheet_y": 38,
@@ -39283,6 +39635,7 @@
             },
             "1F3FD": {
                 "unified": "1F64E-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F64E-1F3FD-200D-2640",
                 "image": "1f64e-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 33,
                 "sheet_y": 39,
@@ -39296,6 +39649,7 @@
             },
             "1F3FE": {
                 "unified": "1F64E-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F64E-1F3FE-200D-2640",
                 "image": "1f64e-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 33,
                 "sheet_y": 40,
@@ -39309,6 +39663,7 @@
             },
             "1F3FF": {
                 "unified": "1F64E-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F64E-1F3FF-200D-2640",
                 "image": "1f64e-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 33,
                 "sheet_y": 41,
@@ -39352,6 +39707,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F64E-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F64E-1F3FB-200D-2642",
                 "image": "1f64e-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 33,
                 "sheet_y": 43,
@@ -39365,6 +39721,7 @@
             },
             "1F3FC": {
                 "unified": "1F64E-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F64E-1F3FC-200D-2642",
                 "image": "1f64e-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 33,
                 "sheet_y": 44,
@@ -39378,6 +39735,7 @@
             },
             "1F3FD": {
                 "unified": "1F64E-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F64E-1F3FD-200D-2642",
                 "image": "1f64e-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 33,
                 "sheet_y": 45,
@@ -39391,6 +39749,7 @@
             },
             "1F3FE": {
                 "unified": "1F64E-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F64E-1F3FE-200D-2642",
                 "image": "1f64e-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 33,
                 "sheet_y": 46,
@@ -39404,6 +39763,7 @@
             },
             "1F3FF": {
                 "unified": "1F64E-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F64E-1F3FF-200D-2642",
                 "image": "1f64e-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 33,
                 "sheet_y": 47,
@@ -40591,6 +40951,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F6A3-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F6A3-1F3FB-200D-2640",
                 "image": "1f6a3-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 34,
                 "sheet_y": 44,
@@ -40604,6 +40965,7 @@
             },
             "1F3FC": {
                 "unified": "1F6A3-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F6A3-1F3FC-200D-2640",
                 "image": "1f6a3-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 34,
                 "sheet_y": 45,
@@ -40617,6 +40979,7 @@
             },
             "1F3FD": {
                 "unified": "1F6A3-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F6A3-1F3FD-200D-2640",
                 "image": "1f6a3-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 34,
                 "sheet_y": 46,
@@ -40630,6 +40993,7 @@
             },
             "1F3FE": {
                 "unified": "1F6A3-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F6A3-1F3FE-200D-2640",
                 "image": "1f6a3-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 34,
                 "sheet_y": 47,
@@ -40643,6 +41007,7 @@
             },
             "1F3FF": {
                 "unified": "1F6A3-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F6A3-1F3FF-200D-2640",
                 "image": "1f6a3-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 34,
                 "sheet_y": 48,
@@ -40685,6 +41050,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F6A3-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F6A3-1F3FB-200D-2642",
                 "image": "1f6a3-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 34,
                 "sheet_y": 50,
@@ -40698,6 +41064,7 @@
             },
             "1F3FC": {
                 "unified": "1F6A3-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F6A3-1F3FC-200D-2642",
                 "image": "1f6a3-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 34,
                 "sheet_y": 51,
@@ -40711,6 +41078,7 @@
             },
             "1F3FD": {
                 "unified": "1F6A3-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F6A3-1F3FD-200D-2642",
                 "image": "1f6a3-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 35,
                 "sheet_y": 0,
@@ -40724,6 +41092,7 @@
             },
             "1F3FE": {
                 "unified": "1F6A3-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F6A3-1F3FE-200D-2642",
                 "image": "1f6a3-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 35,
                 "sheet_y": 1,
@@ -40737,6 +41106,7 @@
             },
             "1F3FF": {
                 "unified": "1F6A3-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F6A3-1F3FF-200D-2642",
                 "image": "1f6a3-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 35,
                 "sheet_y": 2,
@@ -41312,6 +41682,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F6B4-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F6B4-1F3FB-200D-2640",
                 "image": "1f6b4-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 35,
                 "sheet_y": 26,
@@ -41325,6 +41696,7 @@
             },
             "1F3FC": {
                 "unified": "1F6B4-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F6B4-1F3FC-200D-2640",
                 "image": "1f6b4-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 35,
                 "sheet_y": 27,
@@ -41338,6 +41710,7 @@
             },
             "1F3FD": {
                 "unified": "1F6B4-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F6B4-1F3FD-200D-2640",
                 "image": "1f6b4-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 35,
                 "sheet_y": 28,
@@ -41351,6 +41724,7 @@
             },
             "1F3FE": {
                 "unified": "1F6B4-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F6B4-1F3FE-200D-2640",
                 "image": "1f6b4-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 35,
                 "sheet_y": 29,
@@ -41364,6 +41738,7 @@
             },
             "1F3FF": {
                 "unified": "1F6B4-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F6B4-1F3FF-200D-2640",
                 "image": "1f6b4-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 35,
                 "sheet_y": 30,
@@ -41406,6 +41781,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F6B4-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F6B4-1F3FB-200D-2642",
                 "image": "1f6b4-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 35,
                 "sheet_y": 32,
@@ -41419,6 +41795,7 @@
             },
             "1F3FC": {
                 "unified": "1F6B4-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F6B4-1F3FC-200D-2642",
                 "image": "1f6b4-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 35,
                 "sheet_y": 33,
@@ -41432,6 +41809,7 @@
             },
             "1F3FD": {
                 "unified": "1F6B4-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F6B4-1F3FD-200D-2642",
                 "image": "1f6b4-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 35,
                 "sheet_y": 34,
@@ -41445,6 +41823,7 @@
             },
             "1F3FE": {
                 "unified": "1F6B4-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F6B4-1F3FE-200D-2642",
                 "image": "1f6b4-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 35,
                 "sheet_y": 35,
@@ -41458,6 +41837,7 @@
             },
             "1F3FF": {
                 "unified": "1F6B4-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F6B4-1F3FF-200D-2642",
                 "image": "1f6b4-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 35,
                 "sheet_y": 36,
@@ -41601,6 +41981,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F6B5-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F6B5-1F3FB-200D-2640",
                 "image": "1f6b5-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 35,
                 "sheet_y": 44,
@@ -41614,6 +41995,7 @@
             },
             "1F3FC": {
                 "unified": "1F6B5-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F6B5-1F3FC-200D-2640",
                 "image": "1f6b5-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 35,
                 "sheet_y": 45,
@@ -41627,6 +42009,7 @@
             },
             "1F3FD": {
                 "unified": "1F6B5-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F6B5-1F3FD-200D-2640",
                 "image": "1f6b5-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 35,
                 "sheet_y": 46,
@@ -41640,6 +42023,7 @@
             },
             "1F3FE": {
                 "unified": "1F6B5-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F6B5-1F3FE-200D-2640",
                 "image": "1f6b5-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 35,
                 "sheet_y": 47,
@@ -41653,6 +42037,7 @@
             },
             "1F3FF": {
                 "unified": "1F6B5-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F6B5-1F3FF-200D-2640",
                 "image": "1f6b5-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 35,
                 "sheet_y": 48,
@@ -41695,6 +42080,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F6B5-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F6B5-1F3FB-200D-2642",
                 "image": "1f6b5-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 35,
                 "sheet_y": 50,
@@ -41708,6 +42094,7 @@
             },
             "1F3FC": {
                 "unified": "1F6B5-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F6B5-1F3FC-200D-2642",
                 "image": "1f6b5-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 35,
                 "sheet_y": 51,
@@ -41721,6 +42108,7 @@
             },
             "1F3FD": {
                 "unified": "1F6B5-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F6B5-1F3FD-200D-2642",
                 "image": "1f6b5-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 36,
                 "sheet_y": 0,
@@ -41734,6 +42122,7 @@
             },
             "1F3FE": {
                 "unified": "1F6B5-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F6B5-1F3FE-200D-2642",
                 "image": "1f6b5-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 36,
                 "sheet_y": 1,
@@ -41747,6 +42136,7 @@
             },
             "1F3FF": {
                 "unified": "1F6B5-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F6B5-1F3FF-200D-2642",
                 "image": "1f6b5-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 36,
                 "sheet_y": 2,
@@ -41890,6 +42280,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F6B6-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F6B6-1F3FB-200D-2640",
                 "image": "1f6b6-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 36,
                 "sheet_y": 10,
@@ -41903,6 +42294,7 @@
             },
             "1F3FC": {
                 "unified": "1F6B6-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F6B6-1F3FC-200D-2640",
                 "image": "1f6b6-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 36,
                 "sheet_y": 11,
@@ -41916,6 +42308,7 @@
             },
             "1F3FD": {
                 "unified": "1F6B6-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F6B6-1F3FD-200D-2640",
                 "image": "1f6b6-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 36,
                 "sheet_y": 12,
@@ -41929,6 +42322,7 @@
             },
             "1F3FE": {
                 "unified": "1F6B6-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F6B6-1F3FE-200D-2640",
                 "image": "1f6b6-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 36,
                 "sheet_y": 13,
@@ -41942,6 +42336,7 @@
             },
             "1F3FF": {
                 "unified": "1F6B6-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F6B6-1F3FF-200D-2640",
                 "image": "1f6b6-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 36,
                 "sheet_y": 14,
@@ -41984,6 +42379,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F6B6-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F6B6-1F3FB-200D-2642",
                 "image": "1f6b6-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 36,
                 "sheet_y": 16,
@@ -41997,6 +42393,7 @@
             },
             "1F3FC": {
                 "unified": "1F6B6-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F6B6-1F3FC-200D-2642",
                 "image": "1f6b6-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 36,
                 "sheet_y": 17,
@@ -42010,6 +42407,7 @@
             },
             "1F3FD": {
                 "unified": "1F6B6-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F6B6-1F3FD-200D-2642",
                 "image": "1f6b6-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 36,
                 "sheet_y": 18,
@@ -42023,6 +42421,7 @@
             },
             "1F3FE": {
                 "unified": "1F6B6-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F6B6-1F3FE-200D-2642",
                 "image": "1f6b6-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 36,
                 "sheet_y": 19,
@@ -42036,6 +42435,7 @@
             },
             "1F3FF": {
                 "unified": "1F6B6-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F6B6-1F3FF-200D-2642",
                 "image": "1f6b6-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 36,
                 "sheet_y": 20,
@@ -44476,6 +44876,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F926-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F926-1F3FB-200D-2640",
                 "image": "1f926-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 38,
                 "sheet_y": 30,
@@ -44489,6 +44890,7 @@
             },
             "1F3FC": {
                 "unified": "1F926-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F926-1F3FC-200D-2640",
                 "image": "1f926-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 38,
                 "sheet_y": 31,
@@ -44502,6 +44904,7 @@
             },
             "1F3FD": {
                 "unified": "1F926-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F926-1F3FD-200D-2640",
                 "image": "1f926-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 38,
                 "sheet_y": 32,
@@ -44515,6 +44918,7 @@
             },
             "1F3FE": {
                 "unified": "1F926-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F926-1F3FE-200D-2640",
                 "image": "1f926-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 38,
                 "sheet_y": 33,
@@ -44528,6 +44932,7 @@
             },
             "1F3FF": {
                 "unified": "1F926-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F926-1F3FF-200D-2640",
                 "image": "1f926-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 38,
                 "sheet_y": 34,
@@ -44570,6 +44975,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F926-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F926-1F3FB-200D-2642",
                 "image": "1f926-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 38,
                 "sheet_y": 36,
@@ -44583,6 +44989,7 @@
             },
             "1F3FC": {
                 "unified": "1F926-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F926-1F3FC-200D-2642",
                 "image": "1f926-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 38,
                 "sheet_y": 37,
@@ -44596,6 +45003,7 @@
             },
             "1F3FD": {
                 "unified": "1F926-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F926-1F3FD-200D-2642",
                 "image": "1f926-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 38,
                 "sheet_y": 38,
@@ -44609,6 +45017,7 @@
             },
             "1F3FE": {
                 "unified": "1F926-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F926-1F3FE-200D-2642",
                 "image": "1f926-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 38,
                 "sheet_y": 39,
@@ -44622,6 +45031,7 @@
             },
             "1F3FF": {
                 "unified": "1F926-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F926-1F3FF-200D-2642",
                 "image": "1f926-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 38,
                 "sheet_y": 40,
@@ -45708,6 +46118,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F937-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F937-1F3FB-200D-2640",
                 "image": "1f937-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 39,
                 "sheet_y": 47,
@@ -45721,6 +46132,7 @@
             },
             "1F3FC": {
                 "unified": "1F937-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F937-1F3FC-200D-2640",
                 "image": "1f937-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 39,
                 "sheet_y": 48,
@@ -45734,6 +46146,7 @@
             },
             "1F3FD": {
                 "unified": "1F937-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F937-1F3FD-200D-2640",
                 "image": "1f937-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 39,
                 "sheet_y": 49,
@@ -45747,6 +46160,7 @@
             },
             "1F3FE": {
                 "unified": "1F937-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F937-1F3FE-200D-2640",
                 "image": "1f937-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 39,
                 "sheet_y": 50,
@@ -45760,6 +46174,7 @@
             },
             "1F3FF": {
                 "unified": "1F937-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F937-1F3FF-200D-2640",
                 "image": "1f937-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 39,
                 "sheet_y": 51,
@@ -45802,6 +46217,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F937-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F937-1F3FB-200D-2642",
                 "image": "1f937-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 40,
                 "sheet_y": 1,
@@ -45815,6 +46231,7 @@
             },
             "1F3FC": {
                 "unified": "1F937-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F937-1F3FC-200D-2642",
                 "image": "1f937-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 40,
                 "sheet_y": 2,
@@ -45828,6 +46245,7 @@
             },
             "1F3FD": {
                 "unified": "1F937-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F937-1F3FD-200D-2642",
                 "image": "1f937-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 40,
                 "sheet_y": 3,
@@ -45841,6 +46259,7 @@
             },
             "1F3FE": {
                 "unified": "1F937-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F937-1F3FE-200D-2642",
                 "image": "1f937-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 40,
                 "sheet_y": 4,
@@ -45854,6 +46273,7 @@
             },
             "1F3FF": {
                 "unified": "1F937-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F937-1F3FF-200D-2642",
                 "image": "1f937-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 40,
                 "sheet_y": 5,
@@ -45995,6 +46415,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F938-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F938-1F3FB-200D-2640",
                 "image": "1f938-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 40,
                 "sheet_y": 13,
@@ -46008,6 +46429,7 @@
             },
             "1F3FC": {
                 "unified": "1F938-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F938-1F3FC-200D-2640",
                 "image": "1f938-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 40,
                 "sheet_y": 14,
@@ -46021,6 +46443,7 @@
             },
             "1F3FD": {
                 "unified": "1F938-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F938-1F3FD-200D-2640",
                 "image": "1f938-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 40,
                 "sheet_y": 15,
@@ -46034,6 +46457,7 @@
             },
             "1F3FE": {
                 "unified": "1F938-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F938-1F3FE-200D-2640",
                 "image": "1f938-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 40,
                 "sheet_y": 16,
@@ -46047,6 +46471,7 @@
             },
             "1F3FF": {
                 "unified": "1F938-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F938-1F3FF-200D-2640",
                 "image": "1f938-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 40,
                 "sheet_y": 17,
@@ -46089,6 +46514,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F938-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F938-1F3FB-200D-2642",
                 "image": "1f938-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 40,
                 "sheet_y": 19,
@@ -46102,6 +46528,7 @@
             },
             "1F3FC": {
                 "unified": "1F938-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F938-1F3FC-200D-2642",
                 "image": "1f938-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 40,
                 "sheet_y": 20,
@@ -46115,6 +46542,7 @@
             },
             "1F3FD": {
                 "unified": "1F938-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F938-1F3FD-200D-2642",
                 "image": "1f938-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 40,
                 "sheet_y": 21,
@@ -46128,6 +46556,7 @@
             },
             "1F3FE": {
                 "unified": "1F938-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F938-1F3FE-200D-2642",
                 "image": "1f938-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 40,
                 "sheet_y": 22,
@@ -46141,6 +46570,7 @@
             },
             "1F3FF": {
                 "unified": "1F938-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F938-1F3FF-200D-2642",
                 "image": "1f938-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 40,
                 "sheet_y": 23,
@@ -46282,6 +46712,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F939-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F939-1F3FB-200D-2640",
                 "image": "1f939-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 40,
                 "sheet_y": 31,
@@ -46295,6 +46726,7 @@
             },
             "1F3FC": {
                 "unified": "1F939-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F939-1F3FC-200D-2640",
                 "image": "1f939-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 40,
                 "sheet_y": 32,
@@ -46308,6 +46740,7 @@
             },
             "1F3FD": {
                 "unified": "1F939-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F939-1F3FD-200D-2640",
                 "image": "1f939-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 40,
                 "sheet_y": 33,
@@ -46321,6 +46754,7 @@
             },
             "1F3FE": {
                 "unified": "1F939-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F939-1F3FE-200D-2640",
                 "image": "1f939-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 40,
                 "sheet_y": 34,
@@ -46334,6 +46768,7 @@
             },
             "1F3FF": {
                 "unified": "1F939-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F939-1F3FF-200D-2640",
                 "image": "1f939-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 40,
                 "sheet_y": 35,
@@ -46376,6 +46811,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F939-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F939-1F3FB-200D-2642",
                 "image": "1f939-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 40,
                 "sheet_y": 37,
@@ -46389,6 +46825,7 @@
             },
             "1F3FC": {
                 "unified": "1F939-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F939-1F3FC-200D-2642",
                 "image": "1f939-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 40,
                 "sheet_y": 38,
@@ -46402,6 +46839,7 @@
             },
             "1F3FD": {
                 "unified": "1F939-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F939-1F3FD-200D-2642",
                 "image": "1f939-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 40,
                 "sheet_y": 39,
@@ -46415,6 +46853,7 @@
             },
             "1F3FE": {
                 "unified": "1F939-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F939-1F3FE-200D-2642",
                 "image": "1f939-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 40,
                 "sheet_y": 40,
@@ -46428,6 +46867,7 @@
             },
             "1F3FF": {
                 "unified": "1F939-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F939-1F3FF-200D-2642",
                 "image": "1f939-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 40,
                 "sheet_y": 41,
@@ -46677,6 +47117,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F93D-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F93D-1F3FB-200D-2640",
                 "image": "1f93d-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 41,
                 "sheet_y": 1,
@@ -46690,6 +47131,7 @@
             },
             "1F3FC": {
                 "unified": "1F93D-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F93D-1F3FC-200D-2640",
                 "image": "1f93d-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 41,
                 "sheet_y": 2,
@@ -46703,6 +47145,7 @@
             },
             "1F3FD": {
                 "unified": "1F93D-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F93D-1F3FD-200D-2640",
                 "image": "1f93d-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 41,
                 "sheet_y": 3,
@@ -46716,6 +47159,7 @@
             },
             "1F3FE": {
                 "unified": "1F93D-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F93D-1F3FE-200D-2640",
                 "image": "1f93d-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 41,
                 "sheet_y": 4,
@@ -46729,6 +47173,7 @@
             },
             "1F3FF": {
                 "unified": "1F93D-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F93D-1F3FF-200D-2640",
                 "image": "1f93d-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 41,
                 "sheet_y": 5,
@@ -46771,6 +47216,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F93D-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F93D-1F3FB-200D-2642",
                 "image": "1f93d-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 41,
                 "sheet_y": 7,
@@ -46784,6 +47230,7 @@
             },
             "1F3FC": {
                 "unified": "1F93D-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F93D-1F3FC-200D-2642",
                 "image": "1f93d-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 41,
                 "sheet_y": 8,
@@ -46797,6 +47244,7 @@
             },
             "1F3FD": {
                 "unified": "1F93D-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F93D-1F3FD-200D-2642",
                 "image": "1f93d-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 41,
                 "sheet_y": 9,
@@ -46810,6 +47258,7 @@
             },
             "1F3FE": {
                 "unified": "1F93D-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F93D-1F3FE-200D-2642",
                 "image": "1f93d-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 41,
                 "sheet_y": 10,
@@ -46823,6 +47272,7 @@
             },
             "1F3FF": {
                 "unified": "1F93D-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F93D-1F3FF-200D-2642",
                 "image": "1f93d-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 41,
                 "sheet_y": 11,
@@ -46964,6 +47414,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F93E-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F93E-1F3FB-200D-2640",
                 "image": "1f93e-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 41,
                 "sheet_y": 19,
@@ -46977,6 +47428,7 @@
             },
             "1F3FC": {
                 "unified": "1F93E-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F93E-1F3FC-200D-2640",
                 "image": "1f93e-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 41,
                 "sheet_y": 20,
@@ -46990,6 +47442,7 @@
             },
             "1F3FD": {
                 "unified": "1F93E-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F93E-1F3FD-200D-2640",
                 "image": "1f93e-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 41,
                 "sheet_y": 21,
@@ -47003,6 +47456,7 @@
             },
             "1F3FE": {
                 "unified": "1F93E-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F93E-1F3FE-200D-2640",
                 "image": "1f93e-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 41,
                 "sheet_y": 22,
@@ -47016,6 +47470,7 @@
             },
             "1F3FF": {
                 "unified": "1F93E-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F93E-1F3FF-200D-2640",
                 "image": "1f93e-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 41,
                 "sheet_y": 23,
@@ -47058,6 +47513,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F93E-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F93E-1F3FB-200D-2642",
                 "image": "1f93e-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 41,
                 "sheet_y": 25,
@@ -47071,6 +47527,7 @@
             },
             "1F3FC": {
                 "unified": "1F93E-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F93E-1F3FC-200D-2642",
                 "image": "1f93e-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 41,
                 "sheet_y": 26,
@@ -47084,6 +47541,7 @@
             },
             "1F3FD": {
                 "unified": "1F93E-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F93E-1F3FD-200D-2642",
                 "image": "1f93e-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 41,
                 "sheet_y": 27,
@@ -47097,6 +47555,7 @@
             },
             "1F3FE": {
                 "unified": "1F93E-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F93E-1F3FE-200D-2642",
                 "image": "1f93e-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 41,
                 "sheet_y": 28,
@@ -47110,6 +47569,7 @@
             },
             "1F3FF": {
                 "unified": "1F93E-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F93E-1F3FF-200D-2642",
                 "image": "1f93e-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 41,
                 "sheet_y": 29,
@@ -49528,6 +49988,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F9D6-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F9D6-1F3FB-200D-2640",
                 "image": "1f9d6-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 43,
                 "sheet_y": 29,
@@ -49541,6 +50002,7 @@
             },
             "1F3FC": {
                 "unified": "1F9D6-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F9D6-1F3FC-200D-2640",
                 "image": "1f9d6-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 43,
                 "sheet_y": 30,
@@ -49554,6 +50016,7 @@
             },
             "1F3FD": {
                 "unified": "1F9D6-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F9D6-1F3FD-200D-2640",
                 "image": "1f9d6-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 43,
                 "sheet_y": 31,
@@ -49567,6 +50030,7 @@
             },
             "1F3FE": {
                 "unified": "1F9D6-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F9D6-1F3FE-200D-2640",
                 "image": "1f9d6-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 43,
                 "sheet_y": 32,
@@ -49580,6 +50044,7 @@
             },
             "1F3FF": {
                 "unified": "1F9D6-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F9D6-1F3FF-200D-2640",
                 "image": "1f9d6-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 43,
                 "sheet_y": 33,
@@ -49622,6 +50087,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F9D6-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F9D6-1F3FB-200D-2642",
                 "image": "1f9d6-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 43,
                 "sheet_y": 35,
@@ -49636,6 +50102,7 @@
             },
             "1F3FC": {
                 "unified": "1F9D6-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F9D6-1F3FC-200D-2642",
                 "image": "1f9d6-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 43,
                 "sheet_y": 36,
@@ -49650,6 +50117,7 @@
             },
             "1F3FD": {
                 "unified": "1F9D6-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F9D6-1F3FD-200D-2642",
                 "image": "1f9d6-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 43,
                 "sheet_y": 37,
@@ -49664,6 +50132,7 @@
             },
             "1F3FE": {
                 "unified": "1F9D6-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F9D6-1F3FE-200D-2642",
                 "image": "1f9d6-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 43,
                 "sheet_y": 38,
@@ -49678,6 +50147,7 @@
             },
             "1F3FF": {
                 "unified": "1F9D6-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F9D6-1F3FF-200D-2642",
                 "image": "1f9d6-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 43,
                 "sheet_y": 39,
@@ -49827,6 +50297,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F9D7-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F9D7-1F3FB-200D-2640",
                 "image": "1f9d7-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 43,
                 "sheet_y": 47,
@@ -49841,6 +50312,7 @@
             },
             "1F3FC": {
                 "unified": "1F9D7-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F9D7-1F3FC-200D-2640",
                 "image": "1f9d7-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 43,
                 "sheet_y": 48,
@@ -49855,6 +50327,7 @@
             },
             "1F3FD": {
                 "unified": "1F9D7-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F9D7-1F3FD-200D-2640",
                 "image": "1f9d7-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 43,
                 "sheet_y": 49,
@@ -49869,6 +50342,7 @@
             },
             "1F3FE": {
                 "unified": "1F9D7-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F9D7-1F3FE-200D-2640",
                 "image": "1f9d7-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 43,
                 "sheet_y": 50,
@@ -49883,6 +50357,7 @@
             },
             "1F3FF": {
                 "unified": "1F9D7-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F9D7-1F3FF-200D-2640",
                 "image": "1f9d7-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 43,
                 "sheet_y": 51,
@@ -49927,6 +50402,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F9D7-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F9D7-1F3FB-200D-2642",
                 "image": "1f9d7-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 44,
                 "sheet_y": 1,
@@ -49940,6 +50416,7 @@
             },
             "1F3FC": {
                 "unified": "1F9D7-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F9D7-1F3FC-200D-2642",
                 "image": "1f9d7-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 44,
                 "sheet_y": 2,
@@ -49953,6 +50430,7 @@
             },
             "1F3FD": {
                 "unified": "1F9D7-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F9D7-1F3FD-200D-2642",
                 "image": "1f9d7-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 44,
                 "sheet_y": 3,
@@ -49966,6 +50444,7 @@
             },
             "1F3FE": {
                 "unified": "1F9D7-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F9D7-1F3FE-200D-2642",
                 "image": "1f9d7-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 44,
                 "sheet_y": 4,
@@ -49979,6 +50458,7 @@
             },
             "1F3FF": {
                 "unified": "1F9D7-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F9D7-1F3FF-200D-2642",
                 "image": "1f9d7-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 44,
                 "sheet_y": 5,
@@ -50126,6 +50606,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F9D8-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F9D8-1F3FB-200D-2640",
                 "image": "1f9d8-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 44,
                 "sheet_y": 13,
@@ -50140,6 +50621,7 @@
             },
             "1F3FC": {
                 "unified": "1F9D8-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F9D8-1F3FC-200D-2640",
                 "image": "1f9d8-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 44,
                 "sheet_y": 14,
@@ -50154,6 +50636,7 @@
             },
             "1F3FD": {
                 "unified": "1F9D8-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F9D8-1F3FD-200D-2640",
                 "image": "1f9d8-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 44,
                 "sheet_y": 15,
@@ -50168,6 +50651,7 @@
             },
             "1F3FE": {
                 "unified": "1F9D8-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F9D8-1F3FE-200D-2640",
                 "image": "1f9d8-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 44,
                 "sheet_y": 16,
@@ -50182,6 +50666,7 @@
             },
             "1F3FF": {
                 "unified": "1F9D8-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F9D8-1F3FF-200D-2640",
                 "image": "1f9d8-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 44,
                 "sheet_y": 17,
@@ -50226,6 +50711,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F9D8-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F9D8-1F3FB-200D-2642",
                 "image": "1f9d8-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 44,
                 "sheet_y": 19,
@@ -50239,6 +50725,7 @@
             },
             "1F3FC": {
                 "unified": "1F9D8-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F9D8-1F3FC-200D-2642",
                 "image": "1f9d8-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 44,
                 "sheet_y": 20,
@@ -50252,6 +50739,7 @@
             },
             "1F3FD": {
                 "unified": "1F9D8-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F9D8-1F3FD-200D-2642",
                 "image": "1f9d8-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 44,
                 "sheet_y": 21,
@@ -50265,6 +50753,7 @@
             },
             "1F3FE": {
                 "unified": "1F9D8-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F9D8-1F3FE-200D-2642",
                 "image": "1f9d8-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 44,
                 "sheet_y": 22,
@@ -50278,6 +50767,7 @@
             },
             "1F3FF": {
                 "unified": "1F9D8-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F9D8-1F3FF-200D-2642",
                 "image": "1f9d8-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 44,
                 "sheet_y": 23,
@@ -50425,6 +50915,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F9D9-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F9D9-1F3FB-200D-2640",
                 "image": "1f9d9-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 44,
                 "sheet_y": 31,
@@ -50439,6 +50930,7 @@
             },
             "1F3FC": {
                 "unified": "1F9D9-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F9D9-1F3FC-200D-2640",
                 "image": "1f9d9-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 44,
                 "sheet_y": 32,
@@ -50453,6 +50945,7 @@
             },
             "1F3FD": {
                 "unified": "1F9D9-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F9D9-1F3FD-200D-2640",
                 "image": "1f9d9-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 44,
                 "sheet_y": 33,
@@ -50467,6 +50960,7 @@
             },
             "1F3FE": {
                 "unified": "1F9D9-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F9D9-1F3FE-200D-2640",
                 "image": "1f9d9-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 44,
                 "sheet_y": 34,
@@ -50481,6 +50975,7 @@
             },
             "1F3FF": {
                 "unified": "1F9D9-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F9D9-1F3FF-200D-2640",
                 "image": "1f9d9-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 44,
                 "sheet_y": 35,
@@ -50525,6 +51020,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F9D9-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F9D9-1F3FB-200D-2642",
                 "image": "1f9d9-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 44,
                 "sheet_y": 37,
@@ -50538,6 +51034,7 @@
             },
             "1F3FC": {
                 "unified": "1F9D9-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F9D9-1F3FC-200D-2642",
                 "image": "1f9d9-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 44,
                 "sheet_y": 38,
@@ -50551,6 +51048,7 @@
             },
             "1F3FD": {
                 "unified": "1F9D9-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F9D9-1F3FD-200D-2642",
                 "image": "1f9d9-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 44,
                 "sheet_y": 39,
@@ -50564,6 +51062,7 @@
             },
             "1F3FE": {
                 "unified": "1F9D9-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F9D9-1F3FE-200D-2642",
                 "image": "1f9d9-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 44,
                 "sheet_y": 40,
@@ -50577,6 +51076,7 @@
             },
             "1F3FF": {
                 "unified": "1F9D9-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F9D9-1F3FF-200D-2642",
                 "image": "1f9d9-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 44,
                 "sheet_y": 41,
@@ -50724,6 +51224,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F9DA-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F9DA-1F3FB-200D-2640",
                 "image": "1f9da-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 44,
                 "sheet_y": 49,
@@ -50738,6 +51239,7 @@
             },
             "1F3FC": {
                 "unified": "1F9DA-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F9DA-1F3FC-200D-2640",
                 "image": "1f9da-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 44,
                 "sheet_y": 50,
@@ -50752,6 +51254,7 @@
             },
             "1F3FD": {
                 "unified": "1F9DA-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F9DA-1F3FD-200D-2640",
                 "image": "1f9da-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 44,
                 "sheet_y": 51,
@@ -50766,6 +51269,7 @@
             },
             "1F3FE": {
                 "unified": "1F9DA-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F9DA-1F3FE-200D-2640",
                 "image": "1f9da-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 45,
                 "sheet_y": 0,
@@ -50780,6 +51284,7 @@
             },
             "1F3FF": {
                 "unified": "1F9DA-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F9DA-1F3FF-200D-2640",
                 "image": "1f9da-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 45,
                 "sheet_y": 1,
@@ -50824,6 +51329,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F9DA-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F9DA-1F3FB-200D-2642",
                 "image": "1f9da-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 45,
                 "sheet_y": 3,
@@ -50837,6 +51343,7 @@
             },
             "1F3FC": {
                 "unified": "1F9DA-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F9DA-1F3FC-200D-2642",
                 "image": "1f9da-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 45,
                 "sheet_y": 4,
@@ -50850,6 +51357,7 @@
             },
             "1F3FD": {
                 "unified": "1F9DA-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F9DA-1F3FD-200D-2642",
                 "image": "1f9da-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 45,
                 "sheet_y": 5,
@@ -50863,6 +51371,7 @@
             },
             "1F3FE": {
                 "unified": "1F9DA-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F9DA-1F3FE-200D-2642",
                 "image": "1f9da-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 45,
                 "sheet_y": 6,
@@ -50876,6 +51385,7 @@
             },
             "1F3FF": {
                 "unified": "1F9DA-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F9DA-1F3FF-200D-2642",
                 "image": "1f9da-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 45,
                 "sheet_y": 7,
@@ -51023,6 +51533,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F9DB-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F9DB-1F3FB-200D-2640",
                 "image": "1f9db-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 45,
                 "sheet_y": 15,
@@ -51037,6 +51548,7 @@
             },
             "1F3FC": {
                 "unified": "1F9DB-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F9DB-1F3FC-200D-2640",
                 "image": "1f9db-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 45,
                 "sheet_y": 16,
@@ -51051,6 +51563,7 @@
             },
             "1F3FD": {
                 "unified": "1F9DB-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F9DB-1F3FD-200D-2640",
                 "image": "1f9db-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 45,
                 "sheet_y": 17,
@@ -51065,6 +51578,7 @@
             },
             "1F3FE": {
                 "unified": "1F9DB-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F9DB-1F3FE-200D-2640",
                 "image": "1f9db-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 45,
                 "sheet_y": 18,
@@ -51079,6 +51593,7 @@
             },
             "1F3FF": {
                 "unified": "1F9DB-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F9DB-1F3FF-200D-2640",
                 "image": "1f9db-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 45,
                 "sheet_y": 19,
@@ -51123,6 +51638,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F9DB-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F9DB-1F3FB-200D-2642",
                 "image": "1f9db-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 45,
                 "sheet_y": 21,
@@ -51136,6 +51652,7 @@
             },
             "1F3FC": {
                 "unified": "1F9DB-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F9DB-1F3FC-200D-2642",
                 "image": "1f9db-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 45,
                 "sheet_y": 22,
@@ -51149,6 +51666,7 @@
             },
             "1F3FD": {
                 "unified": "1F9DB-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F9DB-1F3FD-200D-2642",
                 "image": "1f9db-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 45,
                 "sheet_y": 23,
@@ -51162,6 +51680,7 @@
             },
             "1F3FE": {
                 "unified": "1F9DB-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F9DB-1F3FE-200D-2642",
                 "image": "1f9db-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 45,
                 "sheet_y": 24,
@@ -51175,6 +51694,7 @@
             },
             "1F3FF": {
                 "unified": "1F9DB-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F9DB-1F3FF-200D-2642",
                 "image": "1f9db-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 45,
                 "sheet_y": 25,
@@ -51322,6 +51842,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F9DC-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F9DC-1F3FB-200D-2640",
                 "image": "1f9dc-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 45,
                 "sheet_y": 33,
@@ -51335,6 +51856,7 @@
             },
             "1F3FC": {
                 "unified": "1F9DC-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F9DC-1F3FC-200D-2640",
                 "image": "1f9dc-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 45,
                 "sheet_y": 34,
@@ -51348,6 +51870,7 @@
             },
             "1F3FD": {
                 "unified": "1F9DC-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F9DC-1F3FD-200D-2640",
                 "image": "1f9dc-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 45,
                 "sheet_y": 35,
@@ -51361,6 +51884,7 @@
             },
             "1F3FE": {
                 "unified": "1F9DC-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F9DC-1F3FE-200D-2640",
                 "image": "1f9dc-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 45,
                 "sheet_y": 36,
@@ -51374,6 +51898,7 @@
             },
             "1F3FF": {
                 "unified": "1F9DC-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F9DC-1F3FF-200D-2640",
                 "image": "1f9dc-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 45,
                 "sheet_y": 37,
@@ -51416,6 +51941,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F9DC-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F9DC-1F3FB-200D-2642",
                 "image": "1f9dc-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 45,
                 "sheet_y": 39,
@@ -51430,6 +51956,7 @@
             },
             "1F3FC": {
                 "unified": "1F9DC-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F9DC-1F3FC-200D-2642",
                 "image": "1f9dc-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 45,
                 "sheet_y": 40,
@@ -51444,6 +51971,7 @@
             },
             "1F3FD": {
                 "unified": "1F9DC-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F9DC-1F3FD-200D-2642",
                 "image": "1f9dc-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 45,
                 "sheet_y": 41,
@@ -51458,6 +51986,7 @@
             },
             "1F3FE": {
                 "unified": "1F9DC-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F9DC-1F3FE-200D-2642",
                 "image": "1f9dc-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 45,
                 "sheet_y": 42,
@@ -51472,6 +52001,7 @@
             },
             "1F3FF": {
                 "unified": "1F9DC-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F9DC-1F3FF-200D-2642",
                 "image": "1f9dc-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 45,
                 "sheet_y": 43,
@@ -51621,6 +52151,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F9DD-1F3FB-200D-2640-FE0F",
+                "non_qualified": "1F9DD-1F3FB-200D-2640",
                 "image": "1f9dd-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 45,
                 "sheet_y": 51,
@@ -51634,6 +52165,7 @@
             },
             "1F3FC": {
                 "unified": "1F9DD-1F3FC-200D-2640-FE0F",
+                "non_qualified": "1F9DD-1F3FC-200D-2640",
                 "image": "1f9dd-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 46,
                 "sheet_y": 0,
@@ -51647,6 +52179,7 @@
             },
             "1F3FD": {
                 "unified": "1F9DD-1F3FD-200D-2640-FE0F",
+                "non_qualified": "1F9DD-1F3FD-200D-2640",
                 "image": "1f9dd-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 46,
                 "sheet_y": 1,
@@ -51660,6 +52193,7 @@
             },
             "1F3FE": {
                 "unified": "1F9DD-1F3FE-200D-2640-FE0F",
+                "non_qualified": "1F9DD-1F3FE-200D-2640",
                 "image": "1f9dd-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 46,
                 "sheet_y": 2,
@@ -51673,6 +52207,7 @@
             },
             "1F3FF": {
                 "unified": "1F9DD-1F3FF-200D-2640-FE0F",
+                "non_qualified": "1F9DD-1F3FF-200D-2640",
                 "image": "1f9dd-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 46,
                 "sheet_y": 3,
@@ -51715,6 +52250,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F9DD-1F3FB-200D-2642-FE0F",
+                "non_qualified": "1F9DD-1F3FB-200D-2642",
                 "image": "1f9dd-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 46,
                 "sheet_y": 5,
@@ -51729,6 +52265,7 @@
             },
             "1F3FC": {
                 "unified": "1F9DD-1F3FC-200D-2642-FE0F",
+                "non_qualified": "1F9DD-1F3FC-200D-2642",
                 "image": "1f9dd-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 46,
                 "sheet_y": 6,
@@ -51743,6 +52280,7 @@
             },
             "1F3FD": {
                 "unified": "1F9DD-1F3FD-200D-2642-FE0F",
+                "non_qualified": "1F9DD-1F3FD-200D-2642",
                 "image": "1f9dd-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 46,
                 "sheet_y": 7,
@@ -51757,6 +52295,7 @@
             },
             "1F3FE": {
                 "unified": "1F9DD-1F3FE-200D-2642-FE0F",
+                "non_qualified": "1F9DD-1F3FE-200D-2642",
                 "image": "1f9dd-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 46,
                 "sheet_y": 8,
@@ -51771,6 +52310,7 @@
             },
             "1F3FF": {
                 "unified": "1F9DD-1F3FF-200D-2642-FE0F",
+                "non_qualified": "1F9DD-1F3FF-200D-2642",
                 "image": "1f9dd-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 46,
                 "sheet_y": 9,
@@ -55482,6 +56022,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "26F9-1F3FB-200D-2640-FE0F",
+                "non_qualified": "26F9-1F3FB-200D-2640",
                 "image": "26f9-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 48,
                 "sheet_y": 47,
@@ -55495,6 +56036,7 @@
             },
             "1F3FC": {
                 "unified": "26F9-1F3FC-200D-2640-FE0F",
+                "non_qualified": "26F9-1F3FC-200D-2640",
                 "image": "26f9-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 48,
                 "sheet_y": 48,
@@ -55508,6 +56050,7 @@
             },
             "1F3FD": {
                 "unified": "26F9-1F3FD-200D-2640-FE0F",
+                "non_qualified": "26F9-1F3FD-200D-2640",
                 "image": "26f9-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 48,
                 "sheet_y": 49,
@@ -55521,6 +56064,7 @@
             },
             "1F3FE": {
                 "unified": "26F9-1F3FE-200D-2640-FE0F",
+                "non_qualified": "26F9-1F3FE-200D-2640",
                 "image": "26f9-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 48,
                 "sheet_y": 50,
@@ -55534,6 +56078,7 @@
             },
             "1F3FF": {
                 "unified": "26F9-1F3FF-200D-2640-FE0F",
+                "non_qualified": "26F9-1F3FF-200D-2640",
                 "image": "26f9-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 48,
                 "sheet_y": 51,
@@ -55576,6 +56121,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "26F9-1F3FB-200D-2642-FE0F",
+                "non_qualified": "26F9-1F3FB-200D-2642",
                 "image": "26f9-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 49,
                 "sheet_y": 1,
@@ -55589,6 +56135,7 @@
             },
             "1F3FC": {
                 "unified": "26F9-1F3FC-200D-2642-FE0F",
+                "non_qualified": "26F9-1F3FC-200D-2642",
                 "image": "26f9-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 49,
                 "sheet_y": 2,
@@ -55602,6 +56149,7 @@
             },
             "1F3FD": {
                 "unified": "26F9-1F3FD-200D-2642-FE0F",
+                "non_qualified": "26F9-1F3FD-200D-2642",
                 "image": "26f9-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 49,
                 "sheet_y": 3,
@@ -55615,6 +56163,7 @@
             },
             "1F3FE": {
                 "unified": "26F9-1F3FE-200D-2642-FE0F",
+                "non_qualified": "26F9-1F3FE-200D-2642",
                 "image": "26f9-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 49,
                 "sheet_y": 4,
@@ -55628,6 +56177,7 @@
             },
             "1F3FF": {
                 "unified": "26F9-1F3FF-200D-2642-FE0F",
+                "non_qualified": "26F9-1F3FF-200D-2642",
                 "image": "26f9-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 49,
                 "sheet_y": 5,
