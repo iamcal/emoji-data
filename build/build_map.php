@@ -118,7 +118,6 @@
 
 	$rev_qualified_map = array_flip($qualified_map);
 
-
 	#
 	# Fetching sequence names
 	#
@@ -438,7 +437,6 @@
 
 	echo "DONE\n";
 
-
 	#
 	# check against emoji-sequences.txt and emoji-zwj-sequences.txt
 	#
@@ -514,7 +512,7 @@
 		$out = array();
 
 		foreach ($row as $k => $v){
-			if (in_array($k, array('unified', 'image', 'sheet_x', 'sheet_y', 'added_in'))){
+			if (in_array($k, array('unified', 'non_qualified', 'image', 'sheet_x', 'sheet_y', 'added_in'))){
 				$out[$k] = $v;
 			}elseif (substr($k, 0, 8) == 'has_img_'){
 				$out[$k] = $v;
@@ -525,7 +523,6 @@
 	}
 
 	echo "DONE\n";
-
 
 	#
 	# process obsoletes
@@ -765,7 +762,6 @@
 				$ret['skin_variations'][$suffix] = $variation;
 			}
 		}
-
 
 		return $ret;
 	}
