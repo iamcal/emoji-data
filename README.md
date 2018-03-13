@@ -131,3 +131,4 @@ available versions. If you're looking for older versions of Apple or Android ima
 * https://github.com/mroth/emojistatic - emoji image CDN
 * https://github.com/juanfran/emoji-data-css - emoji css files
 * https://github.com/afeld/emoji-css/ - an easy way to include emoji in your HTML
+* https://github.com/alexmick/emoji-data-python - Python emoji library
