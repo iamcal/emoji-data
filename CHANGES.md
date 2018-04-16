@@ -1,5 +1,10 @@
 # Change Log
 
+## 2018-04-16 : v4.0.4
+
+* Updated Emojione to v3.1.2 (thanks to @oriolbcn) https://github.com/iamcal/emoji-data/pull/132
+
+
 ## 2017-12-20 : v4.0.3
 
 * Include aliased images from Google set https://github.com/iamcal/emoji-data/issues/120
