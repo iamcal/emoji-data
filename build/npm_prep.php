@@ -5,7 +5,8 @@
 	#
 
 	$dir = __DIR__;
-	$version = trim(shell_exec("node -e \"console.log(require('../package.json').version);\""));
+	$version = trim(shell_exec("nodejs -e \"console.log(require('../package.json').version);\""));
+	if (!$version) die("ERROR: Can't get npm package version.\n");
 
 	@mkdir("$dir/../packages");
 
