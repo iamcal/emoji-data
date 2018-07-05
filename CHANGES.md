@@ -1,5 +1,10 @@
 # Change Log
 
+## 2018-07-05 : v4.1.0
+
+* Removed EmojiOne at the request of EmojiOne/JoyPixels staff
+
+
 ## 2018-04-16 : v4.0.4
 
 * Updated Emojione to v3.1.2 (thanks to @oriolbcn) https://github.com/iamcal/emoji-data/pull/132

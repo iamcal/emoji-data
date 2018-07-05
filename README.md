@@ -21,7 +21,6 @@ npm modules:
 npm install emoji-datasource-apple
 npm install emoji-datasource-google
 npm install emoji-datasource-twitter
-npm install emoji-datasource-emojione
 npm install emoji-datasource-facebook
 npm install emoji-datasource-messenger
 ```
@@ -56,7 +55,6 @@ look like this:
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_emojione": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
         "skin_variations": {
@@ -69,7 +67,6 @@ look like this:
                 "has_img_apple": true,
                 "has_img_google": false,
                 "has_img_twitter": false,
-                "has_img_emojione": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false,
                 ...
@@ -116,7 +113,6 @@ available versions. If you're looking for older versions of Apple or Android ima
 * Apple Emoji: Copyright &copy; Apple Inc. - macOS 10.13 (High Sierra)
 * Android Emoji: Copyright &copy; [The Android Open Source Project](https://s3-eu-west-1.amazonaws.com/tw-font/android/NOTICE) - 11275b5 / 2017-10-30
 * Twitter Emoji: Copyright &copy; Twitter, Inc. - v2.3.1 2017-10-31
-* Emoji One Emoji: Copyright &copy; [Ranks.com Inc.](http://www.emojione.com/developers) - v3.1.2 2017-08-08
 * Facebook/Messenger Emoji: Copyright &copy; Facebook, Inc. - v7, fetched 2017-11-15
 
 
