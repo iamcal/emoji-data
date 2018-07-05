@@ -99,7 +99,7 @@ table tbody td {
 
 <table cellspacing="0" cellpadding="0">
 	<tr>
-		<th colspan="8">Name</th>
+		<th colspan="7">Name</th>
 		<th>Short Name</th>
 		<th>ASCII</th>
 		<th>Unified</th>
@@ -127,7 +127,6 @@ table tbody td {
 		image_cell($row['has_img_apple'    ], "img-apple-64/{$row['image']}");
 		image_cell($row['has_img_google'   ], "img-google-64/{$row['image']}");
 		image_cell($row['has_img_twitter'  ], "img-twitter-64/{$row['image']}");
-		image_cell($row['has_img_emojione' ], "img-emojione-64/{$row['image']}");
 		image_cell($row['has_img_facebook' ], "img-facebook-64/{$row['image']}");
 		image_cell($row['has_img_messenger'], "img-messenger-64/{$row['image']}");
 		echo "\t\t<td>".unicode_bytes($row['unified'])."</td>\n";

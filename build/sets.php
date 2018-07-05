@@ -3,7 +3,6 @@
 		'apple',
 		'google',
 		'twitter',
-		'emojione',
 		'facebook',
 		'messenger',
 	);

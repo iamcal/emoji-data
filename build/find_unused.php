@@ -42,7 +42,6 @@
 	scan_unused($files, '../img-apple-64/');
 	scan_unused($files, '../img-google-64/');
 	scan_unused($files, '../img-twitter-64/');
-	scan_unused($files, '../img-emojione-64/');
 	scan_unused($files, '../img-facebook-64/');
 	scan_unused($files, '../img-messenger-64/');
 	echo "~FIN~\n";
