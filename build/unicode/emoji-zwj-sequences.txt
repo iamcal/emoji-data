@@ -1,11 +1,11 @@
 # emoji-zwj-sequences.txt
-# Date: 2017-06-19, 11:13:24 GMT
-# © 2017 Unicode®, Inc.
+# Date: 2018-02-07, 08:40:26 GMT
+# © 2018 Unicode®, Inc.
 # Unicode and the Unicode Logo are registered trademarks of Unicode, Inc. in the U.S. and other countries.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
 #
-# Emoji ZWJ Sequences for UTR #51
-# Version: 5.0
+# Emoji ZWJ Sequences for UTS #51
+# Version: 11.0
 #
 # For documentation and usage, see http://www.unicode.org/reports/tr51
 #
@@ -78,6 +78,10 @@
 1F468 200D 1F52C                            ; Emoji_ZWJ_Sequence  ; man scientist                                                  #  6.0  [1] (👨‍🔬)
 1F468 200D 1F680                            ; Emoji_ZWJ_Sequence  ; man astronaut                                                  #  6.0  [1] (👨‍🚀)
 1F468 200D 1F692                            ; Emoji_ZWJ_Sequence  ; man firefighter                                                #  6.0  [1] (👨‍🚒)
+1F468 200D 1F9B0                            ; Emoji_ZWJ_Sequence  ; man, red haired                                                # 11.0  [1] (👨‍🦰)
+1F468 200D 1F9B1                            ; Emoji_ZWJ_Sequence  ; man, curly haired                                              # 11.0  [1] (👨‍🦱)
+1F468 200D 1F9B2                            ; Emoji_ZWJ_Sequence  ; man, bald                                                      # 11.0  [1] (👨‍🦲)
+1F468 200D 1F9B3                            ; Emoji_ZWJ_Sequence  ; man, white haired                                              # 11.0  [1] (👨‍🦳)
 1F468 1F3FB 200D 2695 FE0F                  ; Emoji_ZWJ_Sequence  ; man health worker: light skin tone                             #  8.0  [1] (👨🏻‍⚕️)
 1F468 1F3FB 200D 2696 FE0F                  ; Emoji_ZWJ_Sequence  ; man judge: light skin tone                                     #  8.0  [1] (👨🏻‍⚖️)
 1F468 1F3FB 200D 2708 FE0F                  ; Emoji_ZWJ_Sequence  ; man pilot: light skin tone                                     #  8.0  [1] (👨🏻‍✈️)
@@ -94,6 +98,10 @@
 1F468 1F3FB 200D 1F52C                      ; Emoji_ZWJ_Sequence  ; man scientist: light skin tone                                 #  8.0  [1] (👨🏻‍🔬)
 1F468 1F3FB 200D 1F680                      ; Emoji_ZWJ_Sequence  ; man astronaut: light skin tone                                 #  8.0  [1] (👨🏻‍🚀)
 1F468 1F3FB 200D 1F692                      ; Emoji_ZWJ_Sequence  ; man firefighter: light skin tone                               #  8.0  [1] (👨🏻‍🚒)
+1F468 1F3FB 200D 1F9B0                      ; Emoji_ZWJ_Sequence  ; man, red haired: light skin tone                               # 11.0  [1] (👨🏻‍🦰)
+1F468 1F3FB 200D 1F9B1                      ; Emoji_ZWJ_Sequence  ; man, curly haired: light skin tone                             # 11.0  [1] (👨🏻‍🦱)
+1F468 1F3FB 200D 1F9B2                      ; Emoji_ZWJ_Sequence  ; man, bald: light skin tone                                     # 11.0  [1] (👨🏻‍🦲)
+1F468 1F3FB 200D 1F9B3                      ; Emoji_ZWJ_Sequence  ; man, white haired: light skin tone                             # 11.0  [1] (👨🏻‍🦳)
 1F468 1F3FC 200D 2695 FE0F                  ; Emoji_ZWJ_Sequence  ; man health worker: medium-light skin tone                      #  8.0  [1] (👨🏼‍⚕️)
 1F468 1F3FC 200D 2696 FE0F                  ; Emoji_ZWJ_Sequence  ; man judge: medium-light skin tone                              #  8.0  [1] (👨🏼‍⚖️)
 1F468 1F3FC 200D 2708 FE0F                  ; Emoji_ZWJ_Sequence  ; man pilot: medium-light skin tone                              #  8.0  [1] (👨🏼‍✈️)
@@ -110,6 +118,10 @@
 1F468 1F3FC 200D 1F52C                      ; Emoji_ZWJ_Sequence  ; man scientist: medium-light skin tone                          #  8.0  [1] (👨🏼‍🔬)
 1F468 1F3FC 200D 1F680                      ; Emoji_ZWJ_Sequence  ; man astronaut: medium-light skin tone                          #  8.0  [1] (👨🏼‍🚀)
 1F468 1F3FC 200D 1F692                      ; Emoji_ZWJ_Sequence  ; man firefighter: medium-light skin tone                        #  8.0  [1] (👨🏼‍🚒)
+1F468 1F3FC 200D 1F9B0                      ; Emoji_ZWJ_Sequence  ; man, red haired: medium-light skin tone                        # 11.0  [1] (👨🏼‍🦰)
+1F468 1F3FC 200D 1F9B1                      ; Emoji_ZWJ_Sequence  ; man, curly haired: medium-light skin tone                      # 11.0  [1] (👨🏼‍🦱)
+1F468 1F3FC 200D 1F9B2                      ; Emoji_ZWJ_Sequence  ; man, bald: medium-light skin tone                              # 11.0  [1] (👨🏼‍🦲)
+1F468 1F3FC 200D 1F9B3                      ; Emoji_ZWJ_Sequence  ; man, white haired: medium-light skin tone                      # 11.0  [1] (👨🏼‍🦳)
 1F468 1F3FD 200D 2695 FE0F                  ; Emoji_ZWJ_Sequence  ; man health worker: medium skin tone                            #  8.0  [1] (👨🏽‍⚕️)
 1F468 1F3FD 200D 2696 FE0F                  ; Emoji_ZWJ_Sequence  ; man judge: medium skin tone                                    #  8.0  [1] (👨🏽‍⚖️)
 1F468 1F3FD 200D 2708 FE0F                  ; Emoji_ZWJ_Sequence  ; man pilot: medium skin tone                                    #  8.0  [1] (👨🏽‍✈️)
@@ -126,6 +138,10 @@
 1F468 1F3FD 200D 1F52C                      ; Emoji_ZWJ_Sequence  ; man scientist: medium skin tone                                #  8.0  [1] (👨🏽‍🔬)
 1F468 1F3FD 200D 1F680                      ; Emoji_ZWJ_Sequence  ; man astronaut: medium skin tone                                #  8.0  [1] (👨🏽‍🚀)
 1F468 1F3FD 200D 1F692                      ; Emoji_ZWJ_Sequence  ; man firefighter: medium skin tone                              #  8.0  [1] (👨🏽‍🚒)
+1F468 1F3FD 200D 1F9B0                      ; Emoji_ZWJ_Sequence  ; man, red haired: medium skin tone                              # 11.0  [1] (👨🏽‍🦰)
+1F468 1F3FD 200D 1F9B1                      ; Emoji_ZWJ_Sequence  ; man, curly haired: medium skin tone                            # 11.0  [1] (👨🏽‍🦱)
+1F468 1F3FD 200D 1F9B2                      ; Emoji_ZWJ_Sequence  ; man, bald: medium skin tone                                    # 11.0  [1] (👨🏽‍🦲)
+1F468 1F3FD 200D 1F9B3                      ; Emoji_ZWJ_Sequence  ; man, white haired: medium skin tone                            # 11.0  [1] (👨🏽‍🦳)
 1F468 1F3FE 200D 2695 FE0F                  ; Emoji_ZWJ_Sequence  ; man health worker: medium-dark skin tone                       #  8.0  [1] (👨🏾‍⚕️)
 1F468 1F3FE 200D 2696 FE0F                  ; Emoji_ZWJ_Sequence  ; man judge: medium-dark skin tone                               #  8.0  [1] (👨🏾‍⚖️)
 1F468 1F3FE 200D 2708 FE0F                  ; Emoji_ZWJ_Sequence  ; man pilot: medium-dark skin tone                               #  8.0  [1] (👨🏾‍✈️)
@@ -142,6 +158,10 @@
 1F468 1F3FE 200D 1F52C                      ; Emoji_ZWJ_Sequence  ; man scientist: medium-dark skin tone                           #  8.0  [1] (👨🏾‍🔬)
 1F468 1F3FE 200D 1F680                      ; Emoji_ZWJ_Sequence  ; man astronaut: medium-dark skin tone                           #  8.0  [1] (👨🏾‍🚀)
 1F468 1F3FE 200D 1F692                      ; Emoji_ZWJ_Sequence  ; man firefighter: medium-dark skin tone                         #  8.0  [1] (👨🏾‍🚒)
+1F468 1F3FE 200D 1F9B0                      ; Emoji_ZWJ_Sequence  ; man, red haired: medium-dark skin tone                         # 11.0  [1] (👨🏾‍🦰)
+1F468 1F3FE 200D 1F9B1                      ; Emoji_ZWJ_Sequence  ; man, curly haired: medium-dark skin tone                       # 11.0  [1] (👨🏾‍🦱)
+1F468 1F3FE 200D 1F9B2                      ; Emoji_ZWJ_Sequence  ; man, bald: medium-dark skin tone                               # 11.0  [1] (👨🏾‍🦲)
+1F468 1F3FE 200D 1F9B3                      ; Emoji_ZWJ_Sequence  ; man, white haired: medium-dark skin tone                       # 11.0  [1] (👨🏾‍🦳)
 1F468 1F3FF 200D 2695 FE0F                  ; Emoji_ZWJ_Sequence  ; man health worker: dark skin tone                              #  8.0  [1] (👨🏿‍⚕️)
 1F468 1F3FF 200D 2696 FE0F                  ; Emoji_ZWJ_Sequence  ; man judge: dark skin tone                                      #  8.0  [1] (👨🏿‍⚖️)
 1F468 1F3FF 200D 2708 FE0F                  ; Emoji_ZWJ_Sequence  ; man pilot: dark skin tone                                      #  8.0  [1] (👨🏿‍✈️)
@@ -158,6 +178,10 @@
 1F468 1F3FF 200D 1F52C                      ; Emoji_ZWJ_Sequence  ; man scientist: dark skin tone                                  #  8.0  [1] (👨🏿‍🔬)
 1F468 1F3FF 200D 1F680                      ; Emoji_ZWJ_Sequence  ; man astronaut: dark skin tone                                  #  8.0  [1] (👨🏿‍🚀)
 1F468 1F3FF 200D 1F692                      ; Emoji_ZWJ_Sequence  ; man firefighter: dark skin tone                                #  8.0  [1] (👨🏿‍🚒)
+1F468 1F3FF 200D 1F9B0                      ; Emoji_ZWJ_Sequence  ; man, red haired: dark skin tone                                # 11.0  [1] (👨🏿‍🦰)
+1F468 1F3FF 200D 1F9B1                      ; Emoji_ZWJ_Sequence  ; man, curly haired: dark skin tone                              # 11.0  [1] (👨🏿‍🦱)
+1F468 1F3FF 200D 1F9B2                      ; Emoji_ZWJ_Sequence  ; man, bald: dark skin tone                                      # 11.0  [1] (👨🏿‍🦲)
+1F468 1F3FF 200D 1F9B3                      ; Emoji_ZWJ_Sequence  ; man, white haired: dark skin tone                              # 11.0  [1] (👨🏿‍🦳)
 1F469 200D 2695 FE0F                        ; Emoji_ZWJ_Sequence  ; woman health worker                                            #  6.0  [1] (👩‍⚕️)
 1F469 200D 2696 FE0F                        ; Emoji_ZWJ_Sequence  ; woman judge                                                    #  6.0  [1] (👩‍⚖️)
 1F469 200D 2708 FE0F                        ; Emoji_ZWJ_Sequence  ; woman pilot                                                    #  6.0  [1] (👩‍✈️)
@@ -174,6 +198,10 @@
 1F469 200D 1F52C                            ; Emoji_ZWJ_Sequence  ; woman scientist                                                #  6.0  [1] (👩‍🔬)
 1F469 200D 1F680                            ; Emoji_ZWJ_Sequence  ; woman astronaut                                                #  6.0  [1] (👩‍🚀)
 1F469 200D 1F692                            ; Emoji_ZWJ_Sequence  ; woman firefighter                                              #  6.0  [1] (👩‍🚒)
+1F469 200D 1F9B0                            ; Emoji_ZWJ_Sequence  ; woman, red haired                                              # 11.0  [1] (👩‍🦰)
+1F469 200D 1F9B1                            ; Emoji_ZWJ_Sequence  ; woman, curly haired                                            # 11.0  [1] (👩‍🦱)
+1F469 200D 1F9B2                            ; Emoji_ZWJ_Sequence  ; woman, bald                                                    # 11.0  [1] (👩‍🦲)
+1F469 200D 1F9B3                            ; Emoji_ZWJ_Sequence  ; woman, white haired                                            # 11.0  [1] (👩‍🦳)
 1F469 1F3FB 200D 2695 FE0F                  ; Emoji_ZWJ_Sequence  ; woman health worker: light skin tone                           #  8.0  [1] (👩🏻‍⚕️)
 1F469 1F3FB 200D 2696 FE0F                  ; Emoji_ZWJ_Sequence  ; woman judge: light skin tone                                   #  8.0  [1] (👩🏻‍⚖️)
 1F469 1F3FB 200D 2708 FE0F                  ; Emoji_ZWJ_Sequence  ; woman pilot: light skin tone                                   #  8.0  [1] (👩🏻‍✈️)
@@ -190,6 +218,10 @@
 1F469 1F3FB 200D 1F52C                      ; Emoji_ZWJ_Sequence  ; woman scientist: light skin tone                               #  8.0  [1] (👩🏻‍🔬)
 1F469 1F3FB 200D 1F680                      ; Emoji_ZWJ_Sequence  ; woman astronaut: light skin tone                               #  8.0  [1] (👩🏻‍🚀)
 1F469 1F3FB 200D 1F692                      ; Emoji_ZWJ_Sequence  ; woman firefighter: light skin tone                             #  8.0  [1] (👩🏻‍🚒)
+1F469 1F3FB 200D 1F9B0                      ; Emoji_ZWJ_Sequence  ; woman, red haired: light skin tone                             # 11.0  [1] (👩🏻‍🦰)
+1F469 1F3FB 200D 1F9B1                      ; Emoji_ZWJ_Sequence  ; woman, curly haired: light skin tone                           # 11.0  [1] (👩🏻‍🦱)
+1F469 1F3FB 200D 1F9B2                      ; Emoji_ZWJ_Sequence  ; woman, bald: light skin tone                                   # 11.0  [1] (👩🏻‍🦲)
+1F469 1F3FB 200D 1F9B3                      ; Emoji_ZWJ_Sequence  ; woman, white haired: light skin tone                           # 11.0  [1] (👩🏻‍🦳)
 1F469 1F3FC 200D 2695 FE0F                  ; Emoji_ZWJ_Sequence  ; woman health worker: medium-light skin tone                    #  8.0  [1] (👩🏼‍⚕️)
 1F469 1F3FC 200D 2696 FE0F                  ; Emoji_ZWJ_Sequence  ; woman judge: medium-light skin tone                            #  8.0  [1] (👩🏼‍⚖️)
 1F469 1F3FC 200D 2708 FE0F                  ; Emoji_ZWJ_Sequence  ; woman pilot: medium-light skin tone                            #  8.0  [1] (👩🏼‍✈️)
@@ -206,6 +238,10 @@
 1F469 1F3FC 200D 1F52C                      ; Emoji_ZWJ_Sequence  ; woman scientist: medium-light skin tone                        #  8.0  [1] (👩🏼‍🔬)
 1F469 1F3FC 200D 1F680                      ; Emoji_ZWJ_Sequence  ; woman astronaut: medium-light skin tone                        #  8.0  [1] (👩🏼‍🚀)
 1F469 1F3FC 200D 1F692                      ; Emoji_ZWJ_Sequence  ; woman firefighter: medium-light skin tone                      #  8.0  [1] (👩🏼‍🚒)
+1F469 1F3FC 200D 1F9B0                      ; Emoji_ZWJ_Sequence  ; woman, red haired: medium-light skin tone                      # 11.0  [1] (👩🏼‍🦰)
+1F469 1F3FC 200D 1F9B1                      ; Emoji_ZWJ_Sequence  ; woman, curly haired: medium-light skin tone                    # 11.0  [1] (👩🏼‍🦱)
+1F469 1F3FC 200D 1F9B2                      ; Emoji_ZWJ_Sequence  ; woman, bald: medium-light skin tone                            # 11.0  [1] (👩🏼‍🦲)
+1F469 1F3FC 200D 1F9B3                      ; Emoji_ZWJ_Sequence  ; woman, white haired: medium-light skin tone                    # 11.0  [1] (👩🏼‍🦳)
 1F469 1F3FD 200D 2695 FE0F                  ; Emoji_ZWJ_Sequence  ; woman health worker: medium skin tone                          #  8.0  [1] (👩🏽‍⚕️)
 1F469 1F3FD 200D 2696 FE0F                  ; Emoji_ZWJ_Sequence  ; woman judge: medium skin tone                                  #  8.0  [1] (👩🏽‍⚖️)
 1F469 1F3FD 200D 2708 FE0F                  ; Emoji_ZWJ_Sequence  ; woman pilot: medium skin tone                                  #  8.0  [1] (👩🏽‍✈️)
@@ -222,6 +258,10 @@
 1F469 1F3FD 200D 1F52C                      ; Emoji_ZWJ_Sequence  ; woman scientist: medium skin tone                              #  8.0  [1] (👩🏽‍🔬)
 1F469 1F3FD 200D 1F680                      ; Emoji_ZWJ_Sequence  ; woman astronaut: medium skin tone                              #  8.0  [1] (👩🏽‍🚀)
 1F469 1F3FD 200D 1F692                      ; Emoji_ZWJ_Sequence  ; woman firefighter: medium skin tone                            #  8.0  [1] (👩🏽‍🚒)
+1F469 1F3FD 200D 1F9B0                      ; Emoji_ZWJ_Sequence  ; woman, red haired: medium skin tone                            # 11.0  [1] (👩🏽‍🦰)
+1F469 1F3FD 200D 1F9B1                      ; Emoji_ZWJ_Sequence  ; woman, curly haired: medium skin tone                          # 11.0  [1] (👩🏽‍🦱)
+1F469 1F3FD 200D 1F9B2                      ; Emoji_ZWJ_Sequence  ; woman, bald: medium skin tone                                  # 11.0  [1] (👩🏽‍🦲)
+1F469 1F3FD 200D 1F9B3                      ; Emoji_ZWJ_Sequence  ; woman, white haired: medium skin tone                          # 11.0  [1] (👩🏽‍🦳)
 1F469 1F3FE 200D 2695 FE0F                  ; Emoji_ZWJ_Sequence  ; woman health worker: medium-dark skin tone                     #  8.0  [1] (👩🏾‍⚕️)
 1F469 1F3FE 200D 2696 FE0F                  ; Emoji_ZWJ_Sequence  ; woman judge: medium-dark skin tone                             #  8.0  [1] (👩🏾‍⚖️)
 1F469 1F3FE 200D 2708 FE0F                  ; Emoji_ZWJ_Sequence  ; woman pilot: medium-dark skin tone                             #  8.0  [1] (👩🏾‍✈️)
@@ -238,6 +278,10 @@
 1F469 1F3FE 200D 1F52C                      ; Emoji_ZWJ_Sequence  ; woman scientist: medium-dark skin tone                         #  8.0  [1] (👩🏾‍🔬)
 1F469 1F3FE 200D 1F680                      ; Emoji_ZWJ_Sequence  ; woman astronaut: medium-dark skin tone                         #  8.0  [1] (👩🏾‍🚀)
 1F469 1F3FE 200D 1F692                      ; Emoji_ZWJ_Sequence  ; woman firefighter: medium-dark skin tone                       #  8.0  [1] (👩🏾‍🚒)
+1F469 1F3FE 200D 1F9B0                      ; Emoji_ZWJ_Sequence  ; woman, red haired: medium-dark skin tone                       # 11.0  [1] (👩🏾‍🦰)
+1F469 1F3FE 200D 1F9B1                      ; Emoji_ZWJ_Sequence  ; woman, curly haired: medium-dark skin tone                     # 11.0  [1] (👩🏾‍🦱)
+1F469 1F3FE 200D 1F9B2                      ; Emoji_ZWJ_Sequence  ; woman, bald: medium-dark skin tone                             # 11.0  [1] (👩🏾‍🦲)
+1F469 1F3FE 200D 1F9B3                      ; Emoji_ZWJ_Sequence  ; woman, white haired: medium-dark skin tone                     # 11.0  [1] (👩🏾‍🦳)
 1F469 1F3FF 200D 2695 FE0F                  ; Emoji_ZWJ_Sequence  ; woman health worker: dark skin tone                            #  8.0  [1] (👩🏿‍⚕️)
 1F469 1F3FF 200D 2696 FE0F                  ; Emoji_ZWJ_Sequence  ; woman judge: dark skin tone                                    #  8.0  [1] (👩🏿‍⚖️)
 1F469 1F3FF 200D 2708 FE0F                  ; Emoji_ZWJ_Sequence  ; woman pilot: dark skin tone                                    #  8.0  [1] (👩🏿‍✈️)
@@ -254,8 +298,12 @@
 1F469 1F3FF 200D 1F52C                      ; Emoji_ZWJ_Sequence  ; woman scientist: dark skin tone                                #  8.0  [1] (👩🏿‍🔬)
 1F469 1F3FF 200D 1F680                      ; Emoji_ZWJ_Sequence  ; woman astronaut: dark skin tone                                #  8.0  [1] (👩🏿‍🚀)
 1F469 1F3FF 200D 1F692                      ; Emoji_ZWJ_Sequence  ; woman firefighter: dark skin tone                              #  8.0  [1] (👩🏿‍🚒)
+1F469 1F3FF 200D 1F9B0                      ; Emoji_ZWJ_Sequence  ; woman, red haired: dark skin tone                              # 11.0  [1] (👩🏿‍🦰)
+1F469 1F3FF 200D 1F9B1                      ; Emoji_ZWJ_Sequence  ; woman, curly haired: dark skin tone                            # 11.0  [1] (👩🏿‍🦱)
+1F469 1F3FF 200D 1F9B2                      ; Emoji_ZWJ_Sequence  ; woman, bald: dark skin tone                                    # 11.0  [1] (👩🏿‍🦲)
+1F469 1F3FF 200D 1F9B3                      ; Emoji_ZWJ_Sequence  ; woman, white haired: dark skin tone                            # 11.0  [1] (👩🏿‍🦳)
 
-# Total elements: 192
+# Total elements: 240
 
 # ================================================
 
@@ -751,16 +799,41 @@
 1F937 1F3FE 200D 2642 FE0F                  ; Emoji_ZWJ_Sequence  ; man shrugging: medium-dark skin tone                           #  9.0  [1] (🤷🏾‍♂️)
 1F937 1F3FF 200D 2640 FE0F                  ; Emoji_ZWJ_Sequence  ; woman shrugging: dark skin tone                                #  9.0  [1] (🤷🏿‍♀️)
 1F937 1F3FF 200D 2642 FE0F                  ; Emoji_ZWJ_Sequence  ; man shrugging: dark skin tone                                  #  9.0  [1] (🤷🏿‍♂️)
+1F9B8 200D 2640 FE0F                        ; Emoji_ZWJ_Sequence  ; woman superhero                                                # 11.0  [1] (🦸‍♀️)
+1F9B8 200D 2642 FE0F                        ; Emoji_ZWJ_Sequence  ; man superhero                                                  # 11.0  [1] (🦸‍♂️)
+1F9B8 1F3FB 200D 2640 FE0F                  ; Emoji_ZWJ_Sequence  ; woman superhero: light skin tone                               # 11.0  [1] (🦸🏻‍♀️)
+1F9B8 1F3FB 200D 2642 FE0F                  ; Emoji_ZWJ_Sequence  ; man superhero: light skin tone                                 # 11.0  [1] (🦸🏻‍♂️)
+1F9B8 1F3FC 200D 2640 FE0F                  ; Emoji_ZWJ_Sequence  ; woman superhero: medium-light skin tone                        # 11.0  [1] (🦸🏼‍♀️)
+1F9B8 1F3FC 200D 2642 FE0F                  ; Emoji_ZWJ_Sequence  ; man superhero: medium-light skin tone                          # 11.0  [1] (🦸🏼‍♂️)
+1F9B8 1F3FD 200D 2640 FE0F                  ; Emoji_ZWJ_Sequence  ; woman superhero: medium skin tone                              # 11.0  [1] (🦸🏽‍♀️)
+1F9B8 1F3FD 200D 2642 FE0F                  ; Emoji_ZWJ_Sequence  ; man superhero: medium skin tone                                # 11.0  [1] (🦸🏽‍♂️)
+1F9B8 1F3FE 200D 2640 FE0F                  ; Emoji_ZWJ_Sequence  ; woman superhero: medium-dark skin tone                         # 11.0  [1] (🦸🏾‍♀️)
+1F9B8 1F3FE 200D 2642 FE0F                  ; Emoji_ZWJ_Sequence  ; man superhero: medium-dark skin tone                           # 11.0  [1] (🦸🏾‍♂️)
+1F9B8 1F3FF 200D 2640 FE0F                  ; Emoji_ZWJ_Sequence  ; woman superhero: dark skin tone                                # 11.0  [1] (🦸🏿‍♀️)
+1F9B8 1F3FF 200D 2642 FE0F                  ; Emoji_ZWJ_Sequence  ; man superhero: dark skin tone                                  # 11.0  [1] (🦸🏿‍♂️)
+1F9B9 200D 2640 FE0F                        ; Emoji_ZWJ_Sequence  ; woman supervillain                                             # 11.0  [1] (🦹‍♀️)
+1F9B9 200D 2642 FE0F                        ; Emoji_ZWJ_Sequence  ; man supervillain                                               # 11.0  [1] (🦹‍♂️)
+1F9B9 1F3FB 200D 2640 FE0F                  ; Emoji_ZWJ_Sequence  ; woman supervillain: light skin tone                            # 11.0  [1] (🦹🏻‍♀️)
+1F9B9 1F3FB 200D 2642 FE0F                  ; Emoji_ZWJ_Sequence  ; man supervillain: light skin tone                              # 11.0  [1] (🦹🏻‍♂️)
+1F9B9 1F3FC 200D 2640 FE0F                  ; Emoji_ZWJ_Sequence  ; woman supervillain: medium-light skin tone                     # 11.0  [1] (🦹🏼‍♀️)
+1F9B9 1F3FC 200D 2642 FE0F                  ; Emoji_ZWJ_Sequence  ; man supervillain: medium-light skin tone                       # 11.0  [1] (🦹🏼‍♂️)
+1F9B9 1F3FD 200D 2640 FE0F                  ; Emoji_ZWJ_Sequence  ; woman supervillain: medium skin tone                           # 11.0  [1] (🦹🏽‍♀️)
+1F9B9 1F3FD 200D 2642 FE0F                  ; Emoji_ZWJ_Sequence  ; man supervillain: medium skin tone                             # 11.0  [1] (🦹🏽‍♂️)
+1F9B9 1F3FE 200D 2640 FE0F                  ; Emoji_ZWJ_Sequence  ; woman supervillain: medium-dark skin tone                      # 11.0  [1] (🦹🏾‍♀️)
+1F9B9 1F3FE 200D 2642 FE0F                  ; Emoji_ZWJ_Sequence  ; man supervillain: medium-dark skin tone                        # 11.0  [1] (🦹🏾‍♂️)
+1F9B9 1F3FF 200D 2640 FE0F                  ; Emoji_ZWJ_Sequence  ; woman supervillain: dark skin tone                             # 11.0  [1] (🦹🏿‍♀️)
+1F9B9 1F3FF 200D 2642 FE0F                  ; Emoji_ZWJ_Sequence  ; man supervillain: dark skin tone                               # 11.0  [1] (🦹🏿‍♂️)
 
-# Total elements: 108
+# Total elements: 132
 
 # ================================================
 
 # Emoji ZWJ Sequence: Other
 
 1F3F3 FE0F 200D 1F308                       ; Emoji_ZWJ_Sequence  ; rainbow flag                                                   #  7.0  [1] (🏳️‍🌈)
+1F3F4 200D 2620 FE0F                        ; Emoji_ZWJ_Sequence  ; pirate flag                                                    #  7.0  [1] (🏴‍☠️)
 1F441 FE0F 200D 1F5E8 FE0F                  ; Emoji_ZWJ_Sequence  ; eye in speech bubble                                           #  7.0  [1] (👁️‍🗨️)
 
-# Total elements: 2
+# Total elements: 3
 
 #EOF
