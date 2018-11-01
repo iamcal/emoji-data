@@ -31,7 +31,7 @@
 			$line = trim($line);
 			$bits = explode(';', $line);
 
-			echo "$hex_up;$bits[1]\n";
+			echo "$hex_up;".format_name($bits[1])."\n";
 		}
 	});
 
@@ -47,5 +47,13 @@
                 $uni = str_replace(' ', '-', trim($fields[0]));
                 $name = trim($fields[2]);
 
-		echo "$uni;$name\n";
+		if (preg_match('! skin tone$!', $name)) return;
+
+		echo "$uni;".format_name($name)."\n";
         }
+
+
+
+	function format_name($str){
+		return StrToLower(str_replace(' ', '_', $str));
+	}
