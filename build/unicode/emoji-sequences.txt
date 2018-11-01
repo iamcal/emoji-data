@@ -1,11 +1,11 @@
 # emoji-sequences.txt
-# Date: 2017-06-19, 11:13:24 GMT
-# © 2017 Unicode®, Inc.
+# Date: 2018-02-07, 07:55:18 GMT
+# © 2018 Unicode®, Inc.
 # Unicode and the Unicode Logo are registered trademarks of Unicode, Inc. in the U.S. and other countries.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
 #
-# Emoji Sequence Data for UTR #51
-# Version: 5.0
+# Emoji Sequence Data for UTS #51
+# Version: 11.0
 #
 # For documentation and usage, see http://www.unicode.org/reports/tr51
 #
@@ -13,7 +13,7 @@
 #   code_point(s) ; type_field ; description # comments 
 # Fields:
 #   code_point(s): one or more code points in hex format, separated by spaces
-#   type_field: any of {Emoji_Combining_Sequence, Emoji_Flag_Sequence, Emoji_Modifier_Sequences}
+#   type_field: any of {Emoji_Combining_Sequence, Emoji_Flag_Sequence, Emoji_Modifier_Sequence}
 #     The type_field is a convenience for parsing the emoji sequence files, and is not intended to be maintained as a property.
 #   short name: CLDR short name of sequence; characters may be escaped with \x{hex}.
 #
@@ -764,6 +764,26 @@
 1F93E 1F3FD   ; Emoji_Modifier_Sequence   ; person playing handball: medium skin tone                      #  9.0  [1] (🤾🏽)
 1F93E 1F3FE   ; Emoji_Modifier_Sequence   ; person playing handball: medium-dark skin tone                 #  9.0  [1] (🤾🏾)
 1F93E 1F3FF   ; Emoji_Modifier_Sequence   ; person playing handball: dark skin tone                        #  9.0  [1] (🤾🏿)
+1F9B5 1F3FB   ; Emoji_Modifier_Sequence   ; leg: light skin tone                                           # 11.0  [1] (🦵🏻)
+1F9B5 1F3FC   ; Emoji_Modifier_Sequence   ; leg: medium-light skin tone                                    # 11.0  [1] (🦵🏼)
+1F9B5 1F3FD   ; Emoji_Modifier_Sequence   ; leg: medium skin tone                                          # 11.0  [1] (🦵🏽)
+1F9B5 1F3FE   ; Emoji_Modifier_Sequence   ; leg: medium-dark skin tone                                     # 11.0  [1] (🦵🏾)
+1F9B5 1F3FF   ; Emoji_Modifier_Sequence   ; leg: dark skin tone                                            # 11.0  [1] (🦵🏿)
+1F9B6 1F3FB   ; Emoji_Modifier_Sequence   ; foot: light skin tone                                          # 11.0  [1] (🦶🏻)
+1F9B6 1F3FC   ; Emoji_Modifier_Sequence   ; foot: medium-light skin tone                                   # 11.0  [1] (🦶🏼)
+1F9B6 1F3FD   ; Emoji_Modifier_Sequence   ; foot: medium skin tone                                         # 11.0  [1] (🦶🏽)
+1F9B6 1F3FE   ; Emoji_Modifier_Sequence   ; foot: medium-dark skin tone                                    # 11.0  [1] (🦶🏾)
+1F9B6 1F3FF   ; Emoji_Modifier_Sequence   ; foot: dark skin tone                                           # 11.0  [1] (🦶🏿)
+1F9B8 1F3FB   ; Emoji_Modifier_Sequence   ; superhero: light skin tone                                     # 11.0  [1] (🦸🏻)
+1F9B8 1F3FC   ; Emoji_Modifier_Sequence   ; superhero: medium-light skin tone                              # 11.0  [1] (🦸🏼)
+1F9B8 1F3FD   ; Emoji_Modifier_Sequence   ; superhero: medium skin tone                                    # 11.0  [1] (🦸🏽)
+1F9B8 1F3FE   ; Emoji_Modifier_Sequence   ; superhero: medium-dark skin tone                               # 11.0  [1] (🦸🏾)
+1F9B8 1F3FF   ; Emoji_Modifier_Sequence   ; superhero: dark skin tone                                      # 11.0  [1] (🦸🏿)
+1F9B9 1F3FB   ; Emoji_Modifier_Sequence   ; supervillain: light skin tone                                  # 11.0  [1] (🦹🏻)
+1F9B9 1F3FC   ; Emoji_Modifier_Sequence   ; supervillain: medium-light skin tone                           # 11.0  [1] (🦹🏼)
+1F9B9 1F3FD   ; Emoji_Modifier_Sequence   ; supervillain: medium skin tone                                 # 11.0  [1] (🦹🏽)
+1F9B9 1F3FE   ; Emoji_Modifier_Sequence   ; supervillain: medium-dark skin tone                            # 11.0  [1] (🦹🏾)
+1F9B9 1F3FF   ; Emoji_Modifier_Sequence   ; supervillain: dark skin tone                                   # 11.0  [1] (🦹🏿)
 1F9D1 1F3FB   ; Emoji_Modifier_Sequence   ; adult: light skin tone                                         # 10.0  [1] (🧑🏻)
 1F9D1 1F3FC   ; Emoji_Modifier_Sequence   ; adult: medium-light skin tone                                  # 10.0  [1] (🧑🏼)
 1F9D1 1F3FD   ; Emoji_Modifier_Sequence   ; adult: medium skin tone                                        # 10.0  [1] (🧑🏽)
@@ -830,6 +850,6 @@
 1F9DD 1F3FE   ; Emoji_Modifier_Sequence   ; elf: medium-dark skin tone                                     # 10.0  [1] (🧝🏾)
 1F9DD 1F3FF   ; Emoji_Modifier_Sequence   ; elf: dark skin tone                                            # 10.0  [1] (🧝🏿)
 
-# Total elements: 510
+# Total elements: 530
 
 #EOF

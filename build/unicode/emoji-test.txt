@@ -1,11 +1,11 @@
 # emoji-test.txt
-# Date: 2017-06-19, 11:13:24 GMT
-# © 2017 Unicode®, Inc.
+# Date: 2018-02-07, 09:44:06 GMT
+# © 2018 Unicode®, Inc.
 # Unicode and the Unicode Logo are registered trademarks of Unicode, Inc. in the U.S. and other countries.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
 #
-# Emoji Keyboard/Display Test Data for UTR #51
-# Version: 5.0
+# Emoji Keyboard/Display Test Data for UTS #51
+# Version: 11.0
 #
 # For documentation and usage, see http://www.unicode.org/reports/tr51
 #
@@ -13,8 +13,8 @@
 # Format
 #   Code points; status # emoji name
 #     Status
-#       fully-qualified — see “Emoji Implementation Notes” in UTR#51
-#       non-fully-qualified — see “Emoji Implementation Notes” in UTR#51
+#       fully-qualified — see “Emoji Implementation Notes” in UTS #51
+#       non-fully-qualified — see “Emoji Implementation Notes” in UTS #51
 # Notes:
 #   • This currently omits the 12 keycap bases, the 5 modifier characters, and 26 singleton Regional Indicator characters
 #   • The file is in CLDR order, not codepoint order. This is recommended (but not required!) for keyboard palettes.
@@ -37,6 +37,7 @@
 1F60E                                      ; fully-qualified     # 😎 smiling face with sunglasses
 1F60D                                      ; fully-qualified     # 😍 smiling face with heart-eyes
 1F618                                      ; fully-qualified     # 😘 face blowing a kiss
+1F970                                      ; fully-qualified     # 🥰 smiling face with 3 hearts
 1F617                                      ; fully-qualified     # 😗 kissing face
 1F619                                      ; fully-qualified     # 😙 kissing face with smiling eyes
 1F61A                                      ; fully-qualified     # 😚 kissing face with closed eyes
@@ -93,8 +94,10 @@
 1F62C                                      ; fully-qualified     # 😬 grimacing face
 1F630                                      ; fully-qualified     # 😰 anxious face with sweat
 1F631                                      ; fully-qualified     # 😱 face screaming in fear
+1F975                                      ; fully-qualified     # 🥵 hot face
+1F976                                      ; fully-qualified     # 🥶 cold face
 1F633                                      ; fully-qualified     # 😳 flushed face
-1F92A                                      ; fully-qualified     # 🤪 crazy face
+1F92A                                      ; fully-qualified     # 🤪 zany face
 1F635                                      ; fully-qualified     # 😵 dizzy face
 1F621                                      ; fully-qualified     # 😡 pouting face
 1F620                                      ; fully-qualified     # 😠 angry face
@@ -111,7 +114,9 @@
 # subgroup: face-role
 1F607                                      ; fully-qualified     # 😇 smiling face with halo
 1F920                                      ; fully-qualified     # 🤠 cowboy hat face
-1F921                                      ; fully-qualified     # 🤡 clown face
+1F973                                      ; fully-qualified     # 🥳 partying face
+1F974                                      ; fully-qualified     # 🥴 woozy face
+1F97A                                      ; fully-qualified     # 🥺 pleading face
 1F925                                      ; fully-qualified     # 🤥 lying face
 1F92B                                      ; fully-qualified     # 🤫 shushing face
 1F92D                                      ; fully-qualified     # 🤭 face with hand over mouth
@@ -121,6 +126,7 @@
 # subgroup: face-fantasy
 1F608                                      ; fully-qualified     # 😈 smiling face with horns
 1F47F                                      ; fully-qualified     # 👿 angry face with horns
+1F921                                      ; fully-qualified     # 🤡 clown face
 1F479                                      ; fully-qualified     # 👹 ogre
 1F47A                                      ; fully-qualified     # 👺 goblin
 1F480                                      ; fully-qualified     # 💀 skull
@@ -147,6 +153,13 @@
 1F648                                      ; fully-qualified     # 🙈 see-no-evil monkey
 1F649                                      ; fully-qualified     # 🙉 hear-no-evil monkey
 1F64A                                      ; fully-qualified     # 🙊 speak-no-evil monkey
+
+# subgroup: skin-tone
+1F3FB                                      ; fully-qualified     # 🏻 light skin tone
+1F3FC                                      ; fully-qualified     # 🏼 medium-light skin tone
+1F3FD                                      ; fully-qualified     # 🏽 medium skin tone
+1F3FE                                      ; fully-qualified     # 🏾 medium-dark skin tone
+1F3FF                                      ; fully-qualified     # 🏿 dark skin tone
 
 # subgroup: person
 1F476                                      ; fully-qualified     # 👶 baby
@@ -654,6 +667,54 @@
 1F471 1F3FE 200D 2640                      ; non-fully-qualified # 👱🏾‍♀ blond-haired woman: medium-dark skin tone
 1F471 1F3FF 200D 2640 FE0F                 ; fully-qualified     # 👱🏿‍♀️ blond-haired woman: dark skin tone
 1F471 1F3FF 200D 2640                      ; non-fully-qualified # 👱🏿‍♀ blond-haired woman: dark skin tone
+1F468 200D 1F9B0                           ; fully-qualified     # 👨‍🦰 man, red haired
+1F468 1F3FB 200D 1F9B0                     ; fully-qualified     # 👨🏻‍🦰 man, red haired: light skin tone
+1F468 1F3FC 200D 1F9B0                     ; fully-qualified     # 👨🏼‍🦰 man, red haired: medium-light skin tone
+1F468 1F3FD 200D 1F9B0                     ; fully-qualified     # 👨🏽‍🦰 man, red haired: medium skin tone
+1F468 1F3FE 200D 1F9B0                     ; fully-qualified     # 👨🏾‍🦰 man, red haired: medium-dark skin tone
+1F468 1F3FF 200D 1F9B0                     ; fully-qualified     # 👨🏿‍🦰 man, red haired: dark skin tone
+1F469 200D 1F9B0                           ; fully-qualified     # 👩‍🦰 woman, red haired
+1F469 1F3FB 200D 1F9B0                     ; fully-qualified     # 👩🏻‍🦰 woman, red haired: light skin tone
+1F469 1F3FC 200D 1F9B0                     ; fully-qualified     # 👩🏼‍🦰 woman, red haired: medium-light skin tone
+1F469 1F3FD 200D 1F9B0                     ; fully-qualified     # 👩🏽‍🦰 woman, red haired: medium skin tone
+1F469 1F3FE 200D 1F9B0                     ; fully-qualified     # 👩🏾‍🦰 woman, red haired: medium-dark skin tone
+1F469 1F3FF 200D 1F9B0                     ; fully-qualified     # 👩🏿‍🦰 woman, red haired: dark skin tone
+1F468 200D 1F9B1                           ; fully-qualified     # 👨‍🦱 man, curly haired
+1F468 1F3FB 200D 1F9B1                     ; fully-qualified     # 👨🏻‍🦱 man, curly haired: light skin tone
+1F468 1F3FC 200D 1F9B1                     ; fully-qualified     # 👨🏼‍🦱 man, curly haired: medium-light skin tone
+1F468 1F3FD 200D 1F9B1                     ; fully-qualified     # 👨🏽‍🦱 man, curly haired: medium skin tone
+1F468 1F3FE 200D 1F9B1                     ; fully-qualified     # 👨🏾‍🦱 man, curly haired: medium-dark skin tone
+1F468 1F3FF 200D 1F9B1                     ; fully-qualified     # 👨🏿‍🦱 man, curly haired: dark skin tone
+1F469 200D 1F9B1                           ; fully-qualified     # 👩‍🦱 woman, curly haired
+1F469 1F3FB 200D 1F9B1                     ; fully-qualified     # 👩🏻‍🦱 woman, curly haired: light skin tone
+1F469 1F3FC 200D 1F9B1                     ; fully-qualified     # 👩🏼‍🦱 woman, curly haired: medium-light skin tone
+1F469 1F3FD 200D 1F9B1                     ; fully-qualified     # 👩🏽‍🦱 woman, curly haired: medium skin tone
+1F469 1F3FE 200D 1F9B1                     ; fully-qualified     # 👩🏾‍🦱 woman, curly haired: medium-dark skin tone
+1F469 1F3FF 200D 1F9B1                     ; fully-qualified     # 👩🏿‍🦱 woman, curly haired: dark skin tone
+1F468 200D 1F9B2                           ; fully-qualified     # 👨‍🦲 man, bald
+1F468 1F3FB 200D 1F9B2                     ; fully-qualified     # 👨🏻‍🦲 man, bald: light skin tone
+1F468 1F3FC 200D 1F9B2                     ; fully-qualified     # 👨🏼‍🦲 man, bald: medium-light skin tone
+1F468 1F3FD 200D 1F9B2                     ; fully-qualified     # 👨🏽‍🦲 man, bald: medium skin tone
+1F468 1F3FE 200D 1F9B2                     ; fully-qualified     # 👨🏾‍🦲 man, bald: medium-dark skin tone
+1F468 1F3FF 200D 1F9B2                     ; fully-qualified     # 👨🏿‍🦲 man, bald: dark skin tone
+1F469 200D 1F9B2                           ; fully-qualified     # 👩‍🦲 woman, bald
+1F469 1F3FB 200D 1F9B2                     ; fully-qualified     # 👩🏻‍🦲 woman, bald: light skin tone
+1F469 1F3FC 200D 1F9B2                     ; fully-qualified     # 👩🏼‍🦲 woman, bald: medium-light skin tone
+1F469 1F3FD 200D 1F9B2                     ; fully-qualified     # 👩🏽‍🦲 woman, bald: medium skin tone
+1F469 1F3FE 200D 1F9B2                     ; fully-qualified     # 👩🏾‍🦲 woman, bald: medium-dark skin tone
+1F469 1F3FF 200D 1F9B2                     ; fully-qualified     # 👩🏿‍🦲 woman, bald: dark skin tone
+1F468 200D 1F9B3                           ; fully-qualified     # 👨‍🦳 man, white haired
+1F468 1F3FB 200D 1F9B3                     ; fully-qualified     # 👨🏻‍🦳 man, white haired: light skin tone
+1F468 1F3FC 200D 1F9B3                     ; fully-qualified     # 👨🏼‍🦳 man, white haired: medium-light skin tone
+1F468 1F3FD 200D 1F9B3                     ; fully-qualified     # 👨🏽‍🦳 man, white haired: medium skin tone
+1F468 1F3FE 200D 1F9B3                     ; fully-qualified     # 👨🏾‍🦳 man, white haired: medium-dark skin tone
+1F468 1F3FF 200D 1F9B3                     ; fully-qualified     # 👨🏿‍🦳 man, white haired: dark skin tone
+1F469 200D 1F9B3                           ; fully-qualified     # 👩‍🦳 woman, white haired
+1F469 1F3FB 200D 1F9B3                     ; fully-qualified     # 👩🏻‍🦳 woman, white haired: light skin tone
+1F469 1F3FC 200D 1F9B3                     ; fully-qualified     # 👩🏼‍🦳 woman, white haired: medium-light skin tone
+1F469 1F3FD 200D 1F9B3                     ; fully-qualified     # 👩🏽‍🦳 woman, white haired: medium skin tone
+1F469 1F3FE 200D 1F9B3                     ; fully-qualified     # 👩🏾‍🦳 woman, white haired: medium-dark skin tone
+1F469 1F3FF 200D 1F9B3                     ; fully-qualified     # 👩🏿‍🦳 woman, white haired: dark skin tone
 1F935                                      ; fully-qualified     # 🤵 man in tuxedo
 1F935 1F3FB                                ; fully-qualified     # 🤵🏻 man in tuxedo: light skin tone
 1F935 1F3FC                                ; fully-qualified     # 🤵🏼 man in tuxedo: medium-light skin tone
@@ -698,6 +759,66 @@
 1F936 1F3FD                                ; fully-qualified     # 🤶🏽 Mrs. Claus: medium skin tone
 1F936 1F3FE                                ; fully-qualified     # 🤶🏾 Mrs. Claus: medium-dark skin tone
 1F936 1F3FF                                ; fully-qualified     # 🤶🏿 Mrs. Claus: dark skin tone
+1F9B8                                      ; fully-qualified     # 🦸 superhero
+1F9B8 1F3FB                                ; fully-qualified     # 🦸🏻 superhero: light skin tone
+1F9B8 1F3FC                                ; fully-qualified     # 🦸🏼 superhero: medium-light skin tone
+1F9B8 1F3FD                                ; fully-qualified     # 🦸🏽 superhero: medium skin tone
+1F9B8 1F3FE                                ; fully-qualified     # 🦸🏾 superhero: medium-dark skin tone
+1F9B8 1F3FF                                ; fully-qualified     # 🦸🏿 superhero: dark skin tone
+1F9B8 200D 2640 FE0F                       ; fully-qualified     # 🦸‍♀️ woman superhero
+1F9B8 200D 2640                            ; non-fully-qualified # 🦸‍♀ woman superhero
+1F9B8 1F3FB 200D 2640 FE0F                 ; fully-qualified     # 🦸🏻‍♀️ woman superhero: light skin tone
+1F9B8 1F3FB 200D 2640                      ; non-fully-qualified # 🦸🏻‍♀ woman superhero: light skin tone
+1F9B8 1F3FC 200D 2640 FE0F                 ; fully-qualified     # 🦸🏼‍♀️ woman superhero: medium-light skin tone
+1F9B8 1F3FC 200D 2640                      ; non-fully-qualified # 🦸🏼‍♀ woman superhero: medium-light skin tone
+1F9B8 1F3FD 200D 2640 FE0F                 ; fully-qualified     # 🦸🏽‍♀️ woman superhero: medium skin tone
+1F9B8 1F3FD 200D 2640                      ; non-fully-qualified # 🦸🏽‍♀ woman superhero: medium skin tone
+1F9B8 1F3FE 200D 2640 FE0F                 ; fully-qualified     # 🦸🏾‍♀️ woman superhero: medium-dark skin tone
+1F9B8 1F3FE 200D 2640                      ; non-fully-qualified # 🦸🏾‍♀ woman superhero: medium-dark skin tone
+1F9B8 1F3FF 200D 2640 FE0F                 ; fully-qualified     # 🦸🏿‍♀️ woman superhero: dark skin tone
+1F9B8 1F3FF 200D 2640                      ; non-fully-qualified # 🦸🏿‍♀ woman superhero: dark skin tone
+1F9B8 200D 2642 FE0F                       ; fully-qualified     # 🦸‍♂️ man superhero
+1F9B8 200D 2642                            ; non-fully-qualified # 🦸‍♂ man superhero
+1F9B8 1F3FB 200D 2642 FE0F                 ; fully-qualified     # 🦸🏻‍♂️ man superhero: light skin tone
+1F9B8 1F3FB 200D 2642                      ; non-fully-qualified # 🦸🏻‍♂ man superhero: light skin tone
+1F9B8 1F3FC 200D 2642 FE0F                 ; fully-qualified     # 🦸🏼‍♂️ man superhero: medium-light skin tone
+1F9B8 1F3FC 200D 2642                      ; non-fully-qualified # 🦸🏼‍♂ man superhero: medium-light skin tone
+1F9B8 1F3FD 200D 2642 FE0F                 ; fully-qualified     # 🦸🏽‍♂️ man superhero: medium skin tone
+1F9B8 1F3FD 200D 2642                      ; non-fully-qualified # 🦸🏽‍♂ man superhero: medium skin tone
+1F9B8 1F3FE 200D 2642 FE0F                 ; fully-qualified     # 🦸🏾‍♂️ man superhero: medium-dark skin tone
+1F9B8 1F3FE 200D 2642                      ; non-fully-qualified # 🦸🏾‍♂ man superhero: medium-dark skin tone
+1F9B8 1F3FF 200D 2642 FE0F                 ; fully-qualified     # 🦸🏿‍♂️ man superhero: dark skin tone
+1F9B8 1F3FF 200D 2642                      ; non-fully-qualified # 🦸🏿‍♂ man superhero: dark skin tone
+1F9B9                                      ; fully-qualified     # 🦹 supervillain
+1F9B9 1F3FB                                ; fully-qualified     # 🦹🏻 supervillain: light skin tone
+1F9B9 1F3FC                                ; fully-qualified     # 🦹🏼 supervillain: medium-light skin tone
+1F9B9 1F3FD                                ; fully-qualified     # 🦹🏽 supervillain: medium skin tone
+1F9B9 1F3FE                                ; fully-qualified     # 🦹🏾 supervillain: medium-dark skin tone
+1F9B9 1F3FF                                ; fully-qualified     # 🦹🏿 supervillain: dark skin tone
+1F9B9 200D 2640 FE0F                       ; fully-qualified     # 🦹‍♀️ woman supervillain
+1F9B9 200D 2640                            ; non-fully-qualified # 🦹‍♀ woman supervillain
+1F9B9 1F3FB 200D 2640 FE0F                 ; fully-qualified     # 🦹🏻‍♀️ woman supervillain: light skin tone
+1F9B9 1F3FB 200D 2640                      ; non-fully-qualified # 🦹🏻‍♀ woman supervillain: light skin tone
+1F9B9 1F3FC 200D 2640 FE0F                 ; fully-qualified     # 🦹🏼‍♀️ woman supervillain: medium-light skin tone
+1F9B9 1F3FC 200D 2640                      ; non-fully-qualified # 🦹🏼‍♀ woman supervillain: medium-light skin tone
+1F9B9 1F3FD 200D 2640 FE0F                 ; fully-qualified     # 🦹🏽‍♀️ woman supervillain: medium skin tone
+1F9B9 1F3FD 200D 2640                      ; non-fully-qualified # 🦹🏽‍♀ woman supervillain: medium skin tone
+1F9B9 1F3FE 200D 2640 FE0F                 ; fully-qualified     # 🦹🏾‍♀️ woman supervillain: medium-dark skin tone
+1F9B9 1F3FE 200D 2640                      ; non-fully-qualified # 🦹🏾‍♀ woman supervillain: medium-dark skin tone
+1F9B9 1F3FF 200D 2640 FE0F                 ; fully-qualified     # 🦹🏿‍♀️ woman supervillain: dark skin tone
+1F9B9 1F3FF 200D 2640                      ; non-fully-qualified # 🦹🏿‍♀ woman supervillain: dark skin tone
+1F9B9 200D 2642 FE0F                       ; fully-qualified     # 🦹‍♂️ man supervillain
+1F9B9 200D 2642                            ; non-fully-qualified # 🦹‍♂ man supervillain
+1F9B9 1F3FB 200D 2642 FE0F                 ; fully-qualified     # 🦹🏻‍♂️ man supervillain: light skin tone
+1F9B9 1F3FB 200D 2642                      ; non-fully-qualified # 🦹🏻‍♂ man supervillain: light skin tone
+1F9B9 1F3FC 200D 2642 FE0F                 ; fully-qualified     # 🦹🏼‍♂️ man supervillain: medium-light skin tone
+1F9B9 1F3FC 200D 2642                      ; non-fully-qualified # 🦹🏼‍♂ man supervillain: medium-light skin tone
+1F9B9 1F3FD 200D 2642 FE0F                 ; fully-qualified     # 🦹🏽‍♂️ man supervillain: medium skin tone
+1F9B9 1F3FD 200D 2642                      ; non-fully-qualified # 🦹🏽‍♂ man supervillain: medium skin tone
+1F9B9 1F3FE 200D 2642 FE0F                 ; fully-qualified     # 🦹🏾‍♂️ man supervillain: medium-dark skin tone
+1F9B9 1F3FE 200D 2642                      ; non-fully-qualified # 🦹🏾‍♂ man supervillain: medium-dark skin tone
+1F9B9 1F3FF 200D 2642 FE0F                 ; fully-qualified     # 🦹🏿‍♂️ man supervillain: dark skin tone
+1F9B9 1F3FF 200D 2642                      ; non-fully-qualified # 🦹🏿‍♂ man supervillain: dark skin tone
 1F9D9                                      ; fully-qualified     # 🧙 mage
 1F9D9 1F3FB                                ; fully-qualified     # 🧙🏻 mage: light skin tone
 1F9D9 1F3FC                                ; fully-qualified     # 🧙🏼 mage: medium-light skin tone
@@ -1842,6 +1963,18 @@
 1F4AA 1F3FD                                ; fully-qualified     # 💪🏽 flexed biceps: medium skin tone
 1F4AA 1F3FE                                ; fully-qualified     # 💪🏾 flexed biceps: medium-dark skin tone
 1F4AA 1F3FF                                ; fully-qualified     # 💪🏿 flexed biceps: dark skin tone
+1F9B5                                      ; fully-qualified     # 🦵 leg
+1F9B5 1F3FB                                ; fully-qualified     # 🦵🏻 leg: light skin tone
+1F9B5 1F3FC                                ; fully-qualified     # 🦵🏼 leg: medium-light skin tone
+1F9B5 1F3FD                                ; fully-qualified     # 🦵🏽 leg: medium skin tone
+1F9B5 1F3FE                                ; fully-qualified     # 🦵🏾 leg: medium-dark skin tone
+1F9B5 1F3FF                                ; fully-qualified     # 🦵🏿 leg: dark skin tone
+1F9B6                                      ; fully-qualified     # 🦶 foot
+1F9B6 1F3FB                                ; fully-qualified     # 🦶🏻 foot: light skin tone
+1F9B6 1F3FC                                ; fully-qualified     # 🦶🏼 foot: medium-light skin tone
+1F9B6 1F3FD                                ; fully-qualified     # 🦶🏽 foot: medium skin tone
+1F9B6 1F3FE                                ; fully-qualified     # 🦶🏾 foot: medium-dark skin tone
+1F9B6 1F3FF                                ; fully-qualified     # 🦶🏿 foot: dark skin tone
 1F448                                      ; fully-qualified     # 👈 backhand index pointing left
 1F448 1F3FB                                ; fully-qualified     # 👈🏻 backhand index pointing left: light skin tone
 1F448 1F3FC                                ; fully-qualified     # 👈🏼 backhand index pointing left: medium-light skin tone
@@ -2039,6 +2172,10 @@
 1F443 1F3FD                                ; fully-qualified     # 👃🏽 nose: medium skin tone
 1F443 1F3FE                                ; fully-qualified     # 👃🏾 nose: medium-dark skin tone
 1F443 1F3FF                                ; fully-qualified     # 👃🏿 nose: dark skin tone
+1F9B0                                      ; fully-qualified     # 🦰 red-haired
+1F9B1                                      ; fully-qualified     # 🦱 curly-haired
+1F9B2                                      ; fully-qualified     # 🦲 bald
+1F9B3                                      ; fully-qualified     # 🦳 white-haired
 1F463                                      ; fully-qualified     # 👣 footprints
 1F440                                      ; fully-qualified     # 👀 eyes
 1F441 FE0F                                 ; fully-qualified     # 👁️ eye
@@ -2048,6 +2185,8 @@
 1F441 FE0F 200D 1F5E8                      ; non-fully-qualified # 👁️‍🗨 eye in speech bubble
 1F441 200D 1F5E8                           ; non-fully-qualified # 👁‍🗨 eye in speech bubble
 1F9E0                                      ; fully-qualified     # 🧠 brain
+1F9B4                                      ; fully-qualified     # 🦴 bone
+1F9B7                                      ; fully-qualified     # 🦷 tooth
 1F445                                      ; fully-qualified     # 👅 tongue
 1F444                                      ; fully-qualified     # 👄 mouth
 
@@ -2093,6 +2232,8 @@
 1F453                                      ; fully-qualified     # 👓 glasses
 1F576 FE0F                                 ; fully-qualified     # 🕶️ sunglasses
 1F576                                      ; non-fully-qualified # 🕶 sunglasses
+1F97D                                      ; fully-qualified     # 🥽 goggles
+1F97C                                      ; fully-qualified     # 🥼 lab coat
 1F454                                      ; fully-qualified     # 👔 necktie
 1F455                                      ; fully-qualified     # 👕 t-shirt
 1F456                                      ; fully-qualified     # 👖 jeans
@@ -2112,6 +2253,8 @@
 1F392                                      ; fully-qualified     # 🎒 school backpack
 1F45E                                      ; fully-qualified     # 👞 man’s shoe
 1F45F                                      ; fully-qualified     # 👟 running shoe
+1F97E                                      ; fully-qualified     # 🥾 hiking boot
+1F97F                                      ; fully-qualified     # 🥿 woman’s flat shoe
 1F460                                      ; fully-qualified     # 👠 high-heeled shoe
 1F461                                      ; fully-qualified     # 👡 woman’s sandal
 1F462                                      ; fully-qualified     # 👢 woman’s boot
@@ -2127,8 +2270,8 @@
 1F48D                                      ; fully-qualified     # 💍 ring
 1F48E                                      ; fully-qualified     # 💎 gem stone
 
-# Smileys & People subtotal:		2069
-# Smileys & People subtotal:		589	w/o modifiers
+# Smileys & People subtotal:		2210
+# Smileys & People subtotal:		625	w/o modifiers
 
 # group: Animals & Nature
 
@@ -2141,6 +2284,7 @@
 1F429                                      ; fully-qualified     # 🐩 poodle
 1F43A                                      ; fully-qualified     # 🐺 wolf face
 1F98A                                      ; fully-qualified     # 🦊 fox face
+1F99D                                      ; fully-qualified     # 🦝 raccoon
 1F431                                      ; fully-qualified     # 🐱 cat face
 1F408                                      ; fully-qualified     # 🐈 cat
 1F981                                      ; fully-qualified     # 🦁 lion face
@@ -2165,9 +2309,11 @@
 1F410                                      ; fully-qualified     # 🐐 goat
 1F42A                                      ; fully-qualified     # 🐪 camel
 1F42B                                      ; fully-qualified     # 🐫 two-hump camel
+1F999                                      ; fully-qualified     # 🦙 llama
 1F992                                      ; fully-qualified     # 🦒 giraffe
 1F418                                      ; fully-qualified     # 🐘 elephant
 1F98F                                      ; fully-qualified     # 🦏 rhinoceros
+1F99B                                      ; fully-qualified     # 🦛 hippopotamus
 1F42D                                      ; fully-qualified     # 🐭 mouse face
 1F401                                      ; fully-qualified     # 🐁 mouse
 1F400                                      ; fully-qualified     # 🐀 rat
@@ -2181,6 +2327,8 @@
 1F43B                                      ; fully-qualified     # 🐻 bear face
 1F428                                      ; fully-qualified     # 🐨 koala
 1F43C                                      ; fully-qualified     # 🐼 panda face
+1F998                                      ; fully-qualified     # 🦘 kangaroo
+1F9A1                                      ; fully-qualified     # 🦡 badger
 1F43E                                      ; fully-qualified     # 🐾 paw prints
 
 # subgroup: animal-bird
@@ -2196,7 +2344,10 @@
 1F54A                                      ; non-fully-qualified # 🕊 dove
 1F985                                      ; fully-qualified     # 🦅 eagle
 1F986                                      ; fully-qualified     # 🦆 duck
+1F9A2                                      ; fully-qualified     # 🦢 swan
 1F989                                      ; fully-qualified     # 🦉 owl
+1F99A                                      ; fully-qualified     # 🦚 peacock
+1F99C                                      ; fully-qualified     # 🦜 parrot
 
 # subgroup: animal-amphibian
 1F438                                      ; fully-qualified     # 🐸 frog face
@@ -2222,6 +2373,7 @@
 1F419                                      ; fully-qualified     # 🐙 octopus
 1F41A                                      ; fully-qualified     # 🐚 spiral shell
 1F980                                      ; fully-qualified     # 🦀 crab
+1F99E                                      ; fully-qualified     # 🦞 lobster
 1F990                                      ; fully-qualified     # 🦐 shrimp
 1F991                                      ; fully-qualified     # 🦑 squid
 
@@ -2238,6 +2390,8 @@
 1F578 FE0F                                 ; fully-qualified     # 🕸️ spider web
 1F578                                      ; non-fully-qualified # 🕸 spider web
 1F982                                      ; fully-qualified     # 🦂 scorpion
+1F99F                                      ; fully-qualified     # 🦟 mosquito
+1F9A0                                      ; fully-qualified     # 🦠 microbe
 
 # subgroup: plant-flower
 1F490                                      ; fully-qualified     # 💐 bouquet
@@ -2267,8 +2421,8 @@
 1F342                                      ; fully-qualified     # 🍂 fallen leaf
 1F343                                      ; fully-qualified     # 🍃 leaf fluttering in wind
 
-# Animals & Nature subtotal:		119
-# Animals & Nature subtotal:		119	w/o modifiers
+# Animals & Nature subtotal:		130
+# Animals & Nature subtotal:		130	w/o modifiers
 
 # group: Food & Drink
 
@@ -2280,6 +2434,7 @@
 1F34B                                      ; fully-qualified     # 🍋 lemon
 1F34C                                      ; fully-qualified     # 🍌 banana
 1F34D                                      ; fully-qualified     # 🍍 pineapple
+1F96D                                      ; fully-qualified     # 🥭 mango
 1F34E                                      ; fully-qualified     # 🍎 red apple
 1F34F                                      ; fully-qualified     # 🍏 green apple
 1F350                                      ; fully-qualified     # 🍐 pear
@@ -2299,6 +2454,7 @@
 1F336 FE0F                                 ; fully-qualified     # 🌶️ hot pepper
 1F336                                      ; non-fully-qualified # 🌶 hot pepper
 1F952                                      ; fully-qualified     # 🥒 cucumber
+1F96C                                      ; fully-qualified     # 🥬 leafy green
 1F966                                      ; fully-qualified     # 🥦 broccoli
 1F344                                      ; fully-qualified     # 🍄 mushroom
 1F95C                                      ; fully-qualified     # 🥜 peanuts
@@ -2309,6 +2465,7 @@
 1F950                                      ; fully-qualified     # 🥐 croissant
 1F956                                      ; fully-qualified     # 🥖 baguette bread
 1F968                                      ; fully-qualified     # 🥨 pretzel
+1F96F                                      ; fully-qualified     # 🥯 bagel
 1F95E                                      ; fully-qualified     # 🥞 pancakes
 1F9C0                                      ; fully-qualified     # 🧀 cheese wedge
 1F356                                      ; fully-qualified     # 🍖 meat on bone
@@ -2330,6 +2487,7 @@
 1F963                                      ; fully-qualified     # 🥣 bowl with spoon
 1F957                                      ; fully-qualified     # 🥗 green salad
 1F37F                                      ; fully-qualified     # 🍿 popcorn
+1F9C2                                      ; fully-qualified     # 🧂 salt
 1F96B                                      ; fully-qualified     # 🥫 canned food
 
 # subgroup: food-asian
@@ -2345,6 +2503,7 @@
 1F363                                      ; fully-qualified     # 🍣 sushi
 1F364                                      ; fully-qualified     # 🍤 fried shrimp
 1F365                                      ; fully-qualified     # 🍥 fish cake with swirl
+1F96E                                      ; fully-qualified     # 🥮 moon cake
 1F361                                      ; fully-qualified     # 🍡 dango
 1F95F                                      ; fully-qualified     # 🥟 dumpling
 1F960                                      ; fully-qualified     # 🥠 fortune cookie
@@ -2358,6 +2517,7 @@
 1F36A                                      ; fully-qualified     # 🍪 cookie
 1F382                                      ; fully-qualified     # 🎂 birthday cake
 1F370                                      ; fully-qualified     # 🍰 shortcake
+1F9C1                                      ; fully-qualified     # 🧁 cupcake
 1F967                                      ; fully-qualified     # 🥧 pie
 1F36B                                      ; fully-qualified     # 🍫 chocolate bar
 1F36C                                      ; fully-qualified     # 🍬 candy
@@ -2390,8 +2550,8 @@
 1F52A                                      ; fully-qualified     # 🔪 kitchen knife
 1F3FA                                      ; fully-qualified     # 🏺 amphora
 
-# Food & Drink subtotal:		104
-# Food & Drink subtotal:		104	w/o modifiers
+# Food & Drink subtotal:		110
+# Food & Drink subtotal:		110	w/o modifiers
 
 # group: Travel & Places
 
@@ -2403,6 +2563,7 @@
 1F5FA FE0F                                 ; fully-qualified     # 🗺️ world map
 1F5FA                                      ; non-fully-qualified # 🗺 world map
 1F5FE                                      ; fully-qualified     # 🗾 map of Japan
+1F9ED                                      ; fully-qualified     # 🧭 compass
 
 # subgroup: place-geographic
 1F3D4 FE0F                                 ; fully-qualified     # 🏔️ snow-capped mountain
@@ -2429,10 +2590,9 @@
 1F3DB                                      ; non-fully-qualified # 🏛 classical building
 1F3D7 FE0F                                 ; fully-qualified     # 🏗️ building construction
 1F3D7                                      ; non-fully-qualified # 🏗 building construction
+1F9F1                                      ; fully-qualified     # 🧱 bricks
 1F3D8 FE0F                                 ; fully-qualified     # 🏘️ houses
 1F3D8                                      ; non-fully-qualified # 🏘 houses
-1F3D9 FE0F                                 ; fully-qualified     # 🏙️ cityscape
-1F3D9                                      ; non-fully-qualified # 🏙 cityscape
 1F3DA FE0F                                 ; fully-qualified     # 🏚️ derelict house
 1F3DA                                      ; non-fully-qualified # 🏚 derelict house
 1F3E0                                      ; fully-qualified     # 🏠 house
@@ -2467,6 +2627,8 @@
 26FA                                       ; fully-qualified     # ⛺ tent
 1F301                                      ; fully-qualified     # 🌁 foggy
 1F303                                      ; fully-qualified     # 🌃 night with stars
+1F3D9 FE0F                                 ; fully-qualified     # 🏙️ cityscape
+1F3D9                                      ; non-fully-qualified # 🏙 cityscape
 1F304                                      ; fully-qualified     # 🌄 sunrise over mountains
 1F305                                      ; fully-qualified     # 🌅 sunrise
 1F306                                      ; fully-qualified     # 🌆 cityscape at dusk
@@ -2480,11 +2642,6 @@
 1F3A2                                      ; fully-qualified     # 🎢 roller coaster
 1F488                                      ; fully-qualified     # 💈 barber pole
 1F3AA                                      ; fully-qualified     # 🎪 circus tent
-1F3AD                                      ; fully-qualified     # 🎭 performing arts
-1F5BC FE0F                                 ; fully-qualified     # 🖼️ framed picture
-1F5BC                                      ; non-fully-qualified # 🖼 framed picture
-1F3A8                                      ; fully-qualified     # 🎨 artist palette
-1F3B0                                      ; fully-qualified     # 🎰 slot machine
 
 # subgroup: transport-ground
 1F682                                      ; fully-qualified     # 🚂 locomotive
@@ -2517,18 +2674,21 @@
 1F69C                                      ; fully-qualified     # 🚜 tractor
 1F6B2                                      ; fully-qualified     # 🚲 bicycle
 1F6F4                                      ; fully-qualified     # 🛴 kick scooter
+1F6F9                                      ; fully-qualified     # 🛹 skateboard
 1F6F5                                      ; fully-qualified     # 🛵 motor scooter
 1F68F                                      ; fully-qualified     # 🚏 bus stop
 1F6E3 FE0F                                 ; fully-qualified     # 🛣️ motorway
 1F6E3                                      ; non-fully-qualified # 🛣 motorway
 1F6E4 FE0F                                 ; fully-qualified     # 🛤️ railway track
 1F6E4                                      ; non-fully-qualified # 🛤 railway track
+1F6E2 FE0F                                 ; fully-qualified     # 🛢️ oil drum
+1F6E2                                      ; non-fully-qualified # 🛢 oil drum
 26FD                                       ; fully-qualified     # ⛽ fuel pump
 1F6A8                                      ; fully-qualified     # 🚨 police car light
 1F6A5                                      ; fully-qualified     # 🚥 horizontal traffic light
 1F6A6                                      ; fully-qualified     # 🚦 vertical traffic light
-1F6A7                                      ; fully-qualified     # 🚧 construction
 1F6D1                                      ; fully-qualified     # 🛑 stop sign
+1F6A7                                      ; fully-qualified     # 🚧 construction
 
 # subgroup: transport-water
 2693                                       ; fully-qualified     # ⚓ anchor
@@ -2563,14 +2723,7 @@
 # subgroup: hotel
 1F6CE FE0F                                 ; fully-qualified     # 🛎️ bellhop bell
 1F6CE                                      ; non-fully-qualified # 🛎 bellhop bell
-1F6AA                                      ; fully-qualified     # 🚪 door
-1F6CF FE0F                                 ; fully-qualified     # 🛏️ bed
-1F6CF                                      ; non-fully-qualified # 🛏 bed
-1F6CB FE0F                                 ; fully-qualified     # 🛋️ couch and lamp
-1F6CB                                      ; non-fully-qualified # 🛋 couch and lamp
-1F6BD                                      ; fully-qualified     # 🚽 toilet
-1F6BF                                      ; fully-qualified     # 🚿 shower
-1F6C1                                      ; fully-qualified     # 🛁 bathtub
+1F9F3                                      ; fully-qualified     # 🧳 luggage
 
 # subgroup: time
 231B                                       ; fully-qualified     # ⌛ hourglass done
@@ -2627,7 +2780,7 @@
 2600                                       ; non-fully-qualified # ☀ sun
 1F31D                                      ; fully-qualified     # 🌝 full moon face
 1F31E                                      ; fully-qualified     # 🌞 sun with face
-2B50                                       ; fully-qualified     # ⭐ white medium star
+2B50                                       ; fully-qualified     # ⭐ star
 1F31F                                      ; fully-qualified     # 🌟 glowing star
 1F320                                      ; fully-qualified     # 🌠 shooting star
 2601 FE0F                                  ; fully-qualified     # ☁️ cloud
@@ -2673,8 +2826,8 @@
 1F4A7                                      ; fully-qualified     # 💧 droplet
 1F30A                                      ; fully-qualified     # 🌊 water wave
 
-# Travel & Places subtotal:		256
-# Travel & Places subtotal:		256	w/o modifiers
+# Travel & Places subtotal:		249
+# Travel & Places subtotal:		249	w/o modifiers
 
 # group: Activities
 
@@ -2683,6 +2836,7 @@
 1F384                                      ; fully-qualified     # 🎄 Christmas tree
 1F386                                      ; fully-qualified     # 🎆 fireworks
 1F387                                      ; fully-qualified     # 🎇 sparkler
+1F9E8                                      ; fully-qualified     # 🧨 firecracker
 2728                                       ; fully-qualified     # ✨ sparkles
 1F388                                      ; fully-qualified     # 🎈 balloon
 1F389                                      ; fully-qualified     # 🎉 party popper
@@ -2693,6 +2847,7 @@
 1F38F                                      ; fully-qualified     # 🎏 carp streamer
 1F390                                      ; fully-qualified     # 🎐 wind chime
 1F391                                      ; fully-qualified     # 🎑 moon viewing ceremony
+1F9E7                                      ; fully-qualified     # 🧧 red envelope
 1F380                                      ; fully-qualified     # 🎀 ribbon
 1F381                                      ; fully-qualified     # 🎁 wrapped gift
 1F397 FE0F                                 ; fully-qualified     # 🎗️ reminder ribbon
@@ -2713,22 +2868,23 @@
 # subgroup: sport
 26BD                                       ; fully-qualified     # ⚽ soccer ball
 26BE                                       ; fully-qualified     # ⚾ baseball
+1F94E                                      ; fully-qualified     # 🥎 softball
 1F3C0                                      ; fully-qualified     # 🏀 basketball
 1F3D0                                      ; fully-qualified     # 🏐 volleyball
 1F3C8                                      ; fully-qualified     # 🏈 american football
 1F3C9                                      ; fully-qualified     # 🏉 rugby football
 1F3BE                                      ; fully-qualified     # 🎾 tennis
-1F3B1                                      ; fully-qualified     # 🎱 pool 8 ball
+1F94F                                      ; fully-qualified     # 🥏 flying disc
 1F3B3                                      ; fully-qualified     # 🎳 bowling
 1F3CF                                      ; fully-qualified     # 🏏 cricket game
 1F3D1                                      ; fully-qualified     # 🏑 field hockey
 1F3D2                                      ; fully-qualified     # 🏒 ice hockey
+1F94D                                      ; fully-qualified     # 🥍 lacrosse
 1F3D3                                      ; fully-qualified     # 🏓 ping pong
 1F3F8                                      ; fully-qualified     # 🏸 badminton
 1F94A                                      ; fully-qualified     # 🥊 boxing glove
 1F94B                                      ; fully-qualified     # 🥋 martial arts uniform
 1F945                                      ; fully-qualified     # 🥅 goal net
-1F3AF                                      ; fully-qualified     # 🎯 direct hit
 26F3                                       ; fully-qualified     # ⛳ flag in hole
 26F8 FE0F                                  ; fully-qualified     # ⛸️ ice skate
 26F8                                       ; non-fully-qualified # ⛸ ice skate
@@ -2739,10 +2895,17 @@
 1F94C                                      ; fully-qualified     # 🥌 curling stone
 
 # subgroup: game
+1F3AF                                      ; fully-qualified     # 🎯 direct hit
+1F3B1                                      ; fully-qualified     # 🎱 pool 8 ball
+1F52E                                      ; fully-qualified     # 🔮 crystal ball
+1F9FF                                      ; fully-qualified     # 🧿 nazar amulet
 1F3AE                                      ; fully-qualified     # 🎮 video game
 1F579 FE0F                                 ; fully-qualified     # 🕹️ joystick
 1F579                                      ; non-fully-qualified # 🕹 joystick
+1F3B0                                      ; fully-qualified     # 🎰 slot machine
 1F3B2                                      ; fully-qualified     # 🎲 game die
+1F9E9                                      ; fully-qualified     # 🧩 jigsaw
+1F9F8                                      ; fully-qualified     # 🧸 teddy bear
 2660 FE0F                                  ; fully-qualified     # ♠️ spade suit
 2660                                       ; non-fully-qualified # ♠ spade suit
 2665 FE0F                                  ; fully-qualified     # ♥️ heart suit
@@ -2751,12 +2914,22 @@
 2666                                       ; non-fully-qualified # ♦ diamond suit
 2663 FE0F                                  ; fully-qualified     # ♣️ club suit
 2663                                       ; non-fully-qualified # ♣ club suit
+265F FE0F                                  ; fully-qualified     # ♟️ chess pawn
+265F                                       ; non-fully-qualified # ♟ chess pawn
 1F0CF                                      ; fully-qualified     # 🃏 joker
 1F004                                      ; fully-qualified     # 🀄 mahjong red dragon
 1F3B4                                      ; fully-qualified     # 🎴 flower playing cards
 
-# Activities subtotal:		69
-# Activities subtotal:		69	w/o modifiers
+# subgroup: arts & crafts
+1F3AD                                      ; fully-qualified     # 🎭 performing arts
+1F5BC FE0F                                 ; fully-qualified     # 🖼️ framed picture
+1F5BC                                      ; non-fully-qualified # 🖼 framed picture
+1F3A8                                      ; fully-qualified     # 🎨 artist palette
+1F9F5                                      ; fully-qualified     # 🧵 thread
+1F9F6                                      ; fully-qualified     # 🧶 yarn
+
+# Activities subtotal:		87
+# Activities subtotal:		87	w/o modifiers
 
 # group: Objects
 
@@ -2820,6 +2993,7 @@
 1F4BE                                      ; fully-qualified     # 💾 floppy disk
 1F4BF                                      ; fully-qualified     # 💿 optical disk
 1F4C0                                      ; fully-qualified     # 📀 dvd
+1F9EE                                      ; fully-qualified     # 🧮 abacus
 
 # subgroup: light & video
 1F3A5                                      ; fully-qualified     # 🎥 movie camera
@@ -2835,9 +3009,6 @@
 1F4FC                                      ; fully-qualified     # 📼 videocassette
 1F50D                                      ; fully-qualified     # 🔍 magnifying glass tilted left
 1F50E                                      ; fully-qualified     # 🔎 magnifying glass tilted right
-1F52C                                      ; fully-qualified     # 🔬 microscope
-1F52D                                      ; fully-qualified     # 🔭 telescope
-1F4E1                                      ; fully-qualified     # 📡 satellite antenna
 1F56F FE0F                                 ; fully-qualified     # 🕯️ candle
 1F56F                                      ; non-fully-qualified # 🕯 candle
 1F4A1                                      ; fully-qualified     # 💡 light bulb
@@ -2873,6 +3044,7 @@
 1F4B7                                      ; fully-qualified     # 💷 pound banknote
 1F4B8                                      ; fully-qualified     # 💸 money with wings
 1F4B3                                      ; fully-qualified     # 💳 credit card
+1F9FE                                      ; fully-qualified     # 🧾 receipt
 1F4B9                                      ; fully-qualified     # 💹 chart increasing with yen
 1F4B1                                      ; fully-qualified     # 💱 currency exchange
 1F4B2                                      ; fully-qualified     # 💲 heavy dollar sign
@@ -2973,17 +3145,46 @@
 2699                                       ; non-fully-qualified # ⚙ gear
 1F5DC FE0F                                 ; fully-qualified     # 🗜️ clamp
 1F5DC                                      ; non-fully-qualified # 🗜 clamp
-2697 FE0F                                  ; fully-qualified     # ⚗️ alembic
-2697                                       ; non-fully-qualified # ⚗ alembic
 2696 FE0F                                  ; fully-qualified     # ⚖️ balance scale
 2696                                       ; non-fully-qualified # ⚖ balance scale
 1F517                                      ; fully-qualified     # 🔗 link
 26D3 FE0F                                  ; fully-qualified     # ⛓️ chains
 26D3                                       ; non-fully-qualified # ⛓ chains
+1F9F0                                      ; fully-qualified     # 🧰 toolbox
+1F9F2                                      ; fully-qualified     # 🧲 magnet
+
+# subgroup: science
+2697 FE0F                                  ; fully-qualified     # ⚗️ alembic
+2697                                       ; non-fully-qualified # ⚗ alembic
+1F9EA                                      ; fully-qualified     # 🧪 test tube
+1F9EB                                      ; fully-qualified     # 🧫 petri dish
+1F9EC                                      ; fully-qualified     # 🧬 dna
+1F52C                                      ; fully-qualified     # 🔬 microscope
+1F52D                                      ; fully-qualified     # 🔭 telescope
+1F4E1                                      ; fully-qualified     # 📡 satellite antenna
 
 # subgroup: medical
 1F489                                      ; fully-qualified     # 💉 syringe
 1F48A                                      ; fully-qualified     # 💊 pill
+
+# subgroup: household
+1F6AA                                      ; fully-qualified     # 🚪 door
+1F6CF FE0F                                 ; fully-qualified     # 🛏️ bed
+1F6CF                                      ; non-fully-qualified # 🛏 bed
+1F6CB FE0F                                 ; fully-qualified     # 🛋️ couch and lamp
+1F6CB                                      ; non-fully-qualified # 🛋 couch and lamp
+1F6BD                                      ; fully-qualified     # 🚽 toilet
+1F6BF                                      ; fully-qualified     # 🚿 shower
+1F6C1                                      ; fully-qualified     # 🛁 bathtub
+1F9F4                                      ; fully-qualified     # 🧴 lotion bottle
+1F9F7                                      ; fully-qualified     # 🧷 safety pin
+1F9F9                                      ; fully-qualified     # 🧹 broom
+1F9FA                                      ; fully-qualified     # 🧺 basket
+1F9FB                                      ; fully-qualified     # 🧻 roll of paper
+1F9FC                                      ; fully-qualified     # 🧼 soap
+1F9FD                                      ; fully-qualified     # 🧽 sponge
+1F9EF                                      ; fully-qualified     # 🧯 fire extinguisher
+1F6D2                                      ; fully-qualified     # 🛒 shopping cart
 
 # subgroup: other-object
 1F6AC                                      ; fully-qualified     # 🚬 cigarette
@@ -2992,13 +3193,9 @@
 26B1 FE0F                                  ; fully-qualified     # ⚱️ funeral urn
 26B1                                       ; non-fully-qualified # ⚱ funeral urn
 1F5FF                                      ; fully-qualified     # 🗿 moai
-1F6E2 FE0F                                 ; fully-qualified     # 🛢️ oil drum
-1F6E2                                      ; non-fully-qualified # 🛢 oil drum
-1F52E                                      ; fully-qualified     # 🔮 crystal ball
-1F6D2                                      ; fully-qualified     # 🛒 shopping cart
 
-# Objects subtotal:		207
-# Objects subtotal:		207	w/o modifiers
+# Objects subtotal:		227
+# Objects subtotal:		227	w/o modifiers
 
 # group: Symbols
 
@@ -3103,7 +3300,7 @@
 264C                                       ; fully-qualified     # ♌ Leo
 264D                                       ; fully-qualified     # ♍ Virgo
 264E                                       ; fully-qualified     # ♎ Libra
-264F                                       ; fully-qualified     # ♏ Scorpius
+264F                                       ; fully-qualified     # ♏ Scorpio
 2650                                       ; fully-qualified     # ♐ Sagittarius
 2651                                       ; fully-qualified     # ♑ Capricorn
 2652                                       ; fully-qualified     # ♒ Aquarius
@@ -3126,9 +3323,9 @@
 23EA                                       ; fully-qualified     # ⏪ fast reverse button
 23EE FE0F                                  ; fully-qualified     # ⏮️ last track button
 23EE                                       ; non-fully-qualified # ⏮ last track button
-1F53C                                      ; fully-qualified     # 🔼 up button
+1F53C                                      ; fully-qualified     # 🔼 upwards button
 23EB                                       ; fully-qualified     # ⏫ fast up button
-1F53D                                      ; fully-qualified     # 🔽 down button
+1F53D                                      ; fully-qualified     # 🔽 downwards button
 23EC                                       ; fully-qualified     # ⏬ fast down button
 23F8 FE0F                                  ; fully-qualified     # ⏸️ pause button
 23F8                                       ; non-fully-qualified # ⏸ pause button
@@ -3152,6 +3349,8 @@
 2642                                       ; non-fully-qualified # ♂ male sign
 2695 FE0F                                  ; fully-qualified     # ⚕️ medical symbol
 2695                                       ; non-fully-qualified # ⚕ medical symbol
+267E FE0F                                  ; fully-qualified     # ♾️ infinity
+267E                                       ; non-fully-qualified # ♾ infinity
 267B FE0F                                  ; fully-qualified     # ♻️ recycling symbol
 267B                                       ; non-fully-qualified # ♻ recycling symbol
 269C FE0F                                  ; fully-qualified     # ⚜️ fleur-de-lis
@@ -3224,7 +3423,7 @@
 0038 20E3                                  ; non-fully-qualified # 8⃣ keycap: 8
 0039 FE0F 20E3                             ; fully-qualified     # 9️⃣ keycap: 9
 0039 20E3                                  ; non-fully-qualified # 9⃣ keycap: 9
-1F51F                                      ; fully-qualified     # 🔟 keycap 10
+1F51F                                      ; fully-qualified     # 🔟 keycap: 10
 
 # subgroup: alphanum
 1F4AF                                      ; fully-qualified     # 💯 hundred points
@@ -3306,8 +3505,8 @@
 1F534                                      ; fully-qualified     # 🔴 red circle
 1F535                                      ; fully-qualified     # 🔵 blue circle
 
-# Symbols subtotal:		284
-# Symbols subtotal:		284	w/o modifiers
+# Symbols subtotal:		286
+# Symbols subtotal:		286	w/o modifiers
 
 # group: Flags
 
@@ -3320,6 +3519,8 @@
 1F3F3                                      ; non-fully-qualified # 🏳 white flag
 1F3F3 FE0F 200D 1F308                      ; fully-qualified     # 🏳️‍🌈 rainbow flag
 1F3F3 200D 1F308                           ; non-fully-qualified # 🏳‍🌈 rainbow flag
+1F3F4 200D 2620 FE0F                       ; fully-qualified     # 🏴‍☠️ pirate flag
+1F3F4 200D 2620                            ; non-fully-qualified # 🏴‍☠ pirate flag
 
 # subgroup: country-flag
 1F1E6 1F1E8                                ; fully-qualified     # 🇦🇨 Ascension Island
@@ -3586,7 +3787,7 @@
 1F3F4 E0067 E0062 E0073 E0063 E0074 E007F  ; fully-qualified     # 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland
 1F3F4 E0067 E0062 E0077 E006C E0073 E007F  ; fully-qualified     # 🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales
 
-# Flags subtotal:		269
-# Flags subtotal:		269	w/o modifiers
+# Flags subtotal:		271
+# Flags subtotal:		271	w/o modifiers
 
 #EOF
