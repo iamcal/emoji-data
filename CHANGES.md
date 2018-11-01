@@ -1,5 +1,11 @@
 # Change Log
 
+## 2018-11-?? : v4.1.1
+
+* Updated to Unicode v11.0.0
+* Updated Apple images to iOS 12.1 / macOS Mojave 10.14.1
+
+
 ## 2018-07-05 : v4.1.0
 
 * Removed EmojiOne at the request of EmojiOne/JoyPixels staff
