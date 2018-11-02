@@ -428,11 +428,13 @@
 			if ($cp >= 0x0030 && $cp <= 0x0039) continue; # 0-9
 			if ($cp >= 0x1F1E6 && $cp <= 0x1F1FF) continue; # flag letters
 
+			if ($fields[1] == 'Extended_Pictographic') continue;
+
 			$hex_up = StrToUpper($hex_low);
 			$line = shell_exec("grep -e ^{$hex_up}\\; unicode/UnicodeData.txt");
 			$line = trim($line);
 
-			echo "\nno data for $cp/$hex_low, but found in emoji-data.txt : $line\n";
+			echo "\nno data for $cp/$hex_low from emoji-data.txt: $fields[0];$fields[1] : $line\n";
 		}
 	});
 
