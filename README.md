@@ -130,3 +130,4 @@ Apple images are not licensed for commerical usage. Android/Google/Noto emoji ar
 * https://github.com/juanfran/emoji-data-css - emoji css files
 * https://github.com/afeld/emoji-css/ - an easy way to include emoji in your HTML
 * https://github.com/alexmick/emoji-data-python - Python emoji library
+* https://github.com/nulab/emoji-data-ts - TypeScript emoji library
