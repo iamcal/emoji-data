@@ -115,7 +115,7 @@ available versions. If you're looking for older versions of Apple or Android ima
 * Twitter Emoji: Copyright &copy; Twitter, Inc. - v2.3.1 2017-10-31
 * Facebook/Messenger Emoji: Copyright &copy; Facebook, Inc. - v7, fetched 2017-11-15
 
-Apple images are not licensed for commerical usage. Android/Google/Noto emoji are available under the [Apache License 2.0](https://github.com/googlei18n/noto-emoji/blob/master/LICENSE). Twitter emoji are available under the [Creative Commons Attribution 4.0 license](https://github.com/twitter/twemoji/blob/gh-pages/LICENSE-GRAPHICS). Facebook and Messenger emoji have no clear licensing.
+Apple images are not licensed for commercial usage. Android/Google/Noto emoji are available under the [Apache License 2.0](https://github.com/googlei18n/noto-emoji/blob/master/LICENSE). Twitter emoji are available under the [Creative Commons Attribution 4.0 license](https://github.com/twitter/twemoji/blob/gh-pages/LICENSE-GRAPHICS). Facebook and Messenger emoji have no clear licensing.
 
 
 ## Libraries which use this data
