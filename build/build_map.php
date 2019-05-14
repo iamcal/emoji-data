@@ -193,6 +193,7 @@
 	load_short_names('data_emoji_names_more.txt');
 	load_short_names('data_emoji_names_v4.txt');
 	load_short_names('data_emoji_names_v5.txt');
+	load_short_names('data_emoji_names_v11.txt');
 	echo "DONE\n";
 
 	function load_short_names($file){
@@ -643,9 +644,12 @@
 
 		$row = simple_row($img_key, $short_names, $props);
 
-		$GLOBALS['out'][] = $row;
-		$GLOBALS['out_unis'][$img_key] = 1;
-		if ($row['non_qualified']) $GLOBALS['out_unis'][StrToLower($row['non_qualified'])] = 1;
+    // TODO: This causes emoji to be silently discarded. Bad!
+    if ($row != null) {
+      $GLOBALS['out'][] = $row;
+      $GLOBALS['out_unis'][$img_key] = 1;
+      if ($row['non_qualified']) $GLOBALS['out_unis'][StrToLower($row['non_qualified'])] = 1;
+    }
 	}
 
 	function simple_row($img_key, $shorts, $props){
@@ -675,6 +679,12 @@
 		}
 
 		$category = $GLOBALS['category_map'][$img_key];
+    // TODO: Make sure every emoji has a category! Currently man/woman super
+    // hero/villian do not.
+    if (!$category) {
+      print "\nNot in category map! $img_key\n";
+      return null;
+    }
 
 		if ($props['name']){
 			if (preg_match("!^REGIONAL INDICATOR SYMBOL LETTERS !", $props['name'])){
