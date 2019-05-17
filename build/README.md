@@ -56,7 +56,7 @@ We need newer versions of everything than e.g. Debian has:
     cd advancecomp-1.20/
     ./configure
     make
-    make install
+    sudo make install
     cd ..
     rm -rf advancecomp-1.20*
 
@@ -70,7 +70,7 @@ We need newer versions of everything than e.g. Debian has:
 
     wget http://static.jonof.id.au/dl/kenutils/pngout-20150319-linux-static.tar.gz
     tar xzf pngout-20150319-linux-static.tar.gz
-    cp pngout-20150319-linux-static/x86_64/pngout-static /usr/local/bin
+    sudo cp pngout-20150319-linux-static/x86_64/pngout-static /usr/local/bin
     rm -rf pngout-20150319-linux-static*
 
     wget -Ooptipng-0.7.6.tar.gz "http://downloads.sourceforge.net/project/optipng/OptiPNG/optipng-0.7.6/optipng-0.7.6.tar.gz?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Foptipng%2Ffiles%2FOptiPNG%2Foptipng-0.7.6%2F&ts=1465493988&use_mirror=heanet"
@@ -78,7 +78,7 @@ We need newer versions of everything than e.g. Debian has:
     cd optipng-0.7.6
     ./configure
     make
-    make install
+    sudo make install
     cd ..
     rm -rf optipng-0.7.6*
 
@@ -87,14 +87,14 @@ We need newer versions of everything than e.g. Debian has:
     cd pngquant/
     ./configure
     make
-    make install
+    sudo make install
     cd ..
     rm -rf pngquant
 
     git clone https://github.com/google/zopfli.git
     cd zopfli
     make zopflipng
-    cp zopflipng /usr/local/bin
+    sudo cp zopflipng /usr/local/bin
     cd ..
     rm -rf zopfli
 
