@@ -60,12 +60,13 @@ We need newer versions of everything than e.g. Debian has:
     cd ..
     rm -rf advancecomp-1.20*
 
-    wget -Opngcrush-1.8.1.tar.gz "http://downloads.sourceforge.net/project/pmt/pngcrush/1.8.1/pngcrush-1.8.1.tar.gz?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fpmt%2Ffiles%2Fpngcrush%2F1.8.1%2F&ts=1465432592&use_mirror=tenet"
-    tar xzf pngcrush-1.8.1.tar.gz
-    cd pngcrush-1.8.1/
+    wget -Opngcrush-1.8.13.tar.gz "https://downloads.sourceforge.net/project/pmt/pngcrush/1.8.13/pngcrush-1.8.13.tar.gz?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fpmt%2Ffiles%2Fpngcrush%2F1.8.13%2Fpngcrush-1.8.13.tar.gz%2Fdownload&ts=1558118588"
+    tar xzf pngcrush-1.8.13.tar.gz
+    cd pngcrush-1.8.13/
     make
-    cp pngcrush /usr/local/bin/
-    rm -rf pngcrush-1.8.1*
+    sudo cp pngcrush /usr/local/bin/
+    cd ..
+    rm -rf pngcrush-1.8.13*
 
     wget http://static.jonof.id.au/dl/kenutils/pngout-20150319-linux-static.tar.gz
     tar xzf pngout-20150319-linux-static.tar.gz
@@ -96,3 +97,15 @@ We need newer versions of everything than e.g. Debian has:
     cp zopflipng /usr/local/bin
     cd ..
     rm -rf zopfli
+
+## Setting up a fresh Amazon Linux instance to process the images
+
+Since it requires some time and a lot of CPU & memory, I usually do it in EC2:
+
+    sudo yum install -y git
+    sudo yum install -y php
+    sudo yum install -y ImageMagick
+    sudo yum install -y gcc
+    sudo yum install -y gcc-c++
+    sudo yum install -y zlib-devel
+
