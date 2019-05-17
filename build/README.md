@@ -110,4 +110,4 @@ Since it requires some time and a lot of CPU & memory, I usually do it in EC2:
     sudo yum install -y gcc
     sudo yum install -y gcc-c++
     sudo yum install -y zlib-devel
-
+    sudo yum install -y parallel
