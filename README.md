@@ -27,6 +27,8 @@ npm install emoji-datasource-facebook
 npm install emoji-datasource-messenger
 ```
 
+You can also use it without downloading via [jsDelivr CDN](https://www.jsdelivr.com/package/npm/emoji-datasource?path=img) (different sizes [here](https://www.jsdelivr.com/?query=emoji-datasource%20author%3A%20iamcal)).
+
 ## Using the data
 
 The file you want is `emoji.json`. It contains an array of entries for emoji that 
