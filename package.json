@@ -1,11 +1,11 @@
 {
-  "name": "emoji-datasource",
+  "name": "@doublecrowngaming/emoji-datasource",
   "version": "4.1.0",
   "description": "Emoji data and images",
   "main": "emoji.json",
   "repository": {
     "type": "git",
-    "url": "git://github.com/iamcal/emoji-data.git"
+    "url": "git://github.com/doublecrowngaming/emoji-data.git"
   },
   "keywords": [
     "emoji"
@@ -41,5 +41,5 @@
   "bugs": {
     "url": "https://github.com/iamcal/emoji-data/issues"
   },
-  "homepage": "https://github.com/iamcal/emoji-data"
+  "homepage": "https://github.com/doublecrowngaming/emoji-data"
 }
