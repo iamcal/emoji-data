@@ -1,6 +1,6 @@
 {
   "name": "@doublecrowngaming/emoji-datasource",
-  "version": "4.1.0",
+  "version": "4.2.4",
   "description": "Emoji data and images",
   "main": "emoji.json",
   "repository": {
