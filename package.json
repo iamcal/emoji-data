@@ -1,6 +1,6 @@
 {
   "name": "@doublecrowngaming/emoji-datasource",
-  "version": "4.2.4",
+  "version": "4.2.5",
   "description": "Emoji data and images",
   "main": "emoji.json",
   "repository": {
@@ -10,6 +10,9 @@
   "keywords": [
     "emoji"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Cal Henderson <cal@iamcal.com>",
   "license": "MIT",
   "files": [
