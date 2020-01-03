@@ -7,9 +7,7 @@ You can rebuild by following these steps:
 
 	cd build/
 
-	# Rebuild catalog.php from the original data tables
-	wget http://www.unicode.org/~scherer/emoji4unicode/snapshot/full.html
-	patch < source_html.patch
+	# Rebuild catalog.php from the original data table (full.html)
 	php build_catalog.php full.html > catalog.php
 
 	# Rebuild the master mapping
