@@ -5,6 +5,8 @@
 
 	include('common.php');
 
+	$done = [];
+
 	parse_unicode_specfile('unicode/emoji-data.txt', function($fields, $comment){
 
 		if (strpos($comment, $GLOBALS['version']) === false) return;
@@ -31,6 +33,9 @@
 			$line = trim($line);
 			$bits = explode(';', $line);
 
+			if (isset($GLOBALS['done'][$hex_up])) return;
+			$GLOBALS['done'][$hex_up] = 1;
+
 			echo "$hex_up;".format_name($bits[1])."\n";
 		}
 	});
@@ -48,6 +53,9 @@
                 $name = trim($fields[2]);
 
 		if (preg_match('! skin tone$!', $name)) return;
+
+		if (isset($GLOBALS['done'][$uni])) return;
+		$GLOBALS['done'][$uni] = 1;
 
 		echo "$uni;".format_name($name)."\n";
         }
