@@ -9,7 +9,9 @@
 	$aliases = array();
 	$lines = file('noto-emoji/emoji_aliases.txt');
 	foreach ($lines as $line){
-		list($line, $junk) = explode('#', $line);
+		if (strpos($line, '#') !== false){
+			list($line, $junk) = explode('#', $line);
+		}
 		$line = trim($line);
 		if (strlen($line)){
 			list($from, $to) = explode(';', $line);
