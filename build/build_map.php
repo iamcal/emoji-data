@@ -469,6 +469,9 @@
 		$last = $cps[count($cps)-1];
 		$hex_low = StrToLower(implode('-', $cps));
 
+		# single codepoints are not a sequence
+		if (count($cps) == 1) return;
+
 		# skip skin tone variations - we treat those specially
 		if (in_array($last, $GLOBALS['skin_variation_suffixes'])) return;
 
