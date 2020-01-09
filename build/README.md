@@ -84,7 +84,7 @@ We need newer versions of everything than e.g. Debian has:
     tar xzf libpng-1.6.37.tar.gz
     cd libpng-1.6.37/
     ./configure
-    make
+    make --prefix=/usr
     sudo make install
     cd ../
     rm -rf libpng-1.6.37
