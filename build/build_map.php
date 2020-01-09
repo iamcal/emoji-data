@@ -710,7 +710,11 @@
 
 				if ($GLOBALS['sequence_names'][$img_key]){
 
-					$props['name'] = $GLOBALS['sequence_names'][$img_key].' Flag';
+					if (substr($GLOBALS['sequence_names'][$img_key], 0, 6) == 'flag: '){
+						$props['name'] = substr($GLOBALS['sequence_names'][$img_key], 6).' Flag';
+					}else{
+						$props['name'] = $GLOBALS['sequence_names'][$img_key].' Flag';
+					}
 				}
 			}
 		}
