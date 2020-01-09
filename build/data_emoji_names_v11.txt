@@ -4,10 +4,10 @@
 1F973;partying_face
 1F974;woozy_face
 1F97A;pleading_face
-{MAN/WOMAN}{SKIN}-200D-1F9B0;{GENDER}_red_haired
-{MAN/WOMAN}{SKIN}-200D-1F9B1;{GENDER}_curly_haired
-{MAN/WOMAN}{SKIN}-200D-1F9B2;{GENDER}_bald
-{MAN/WOMAN}{SKIN}-200D-1F9B3;{GENDER}_white_haired
+{MAN/WOMAN}{SKIN}-200D-1F9B0;red_haired_{M/W}
+{MAN/WOMAN}{SKIN}-200D-1F9B1;curly_haired_{M/W}
+{MAN/WOMAN}{SKIN}-200D-1F9B2;bald_{M/W}
+{MAN/WOMAN}{SKIN}-200D-1F9B3;white_haired_{M/W}
 1F9B8{SKIN}-200D-{MALE/FEMALE};{GENDER}_superhero
 1F9B9{SKIN}-200D-{MALE/FEMALE};{GENDER}_supervillain
 1F9B5{SKIN};leg
