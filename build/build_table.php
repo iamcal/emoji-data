@@ -99,15 +99,11 @@ table tbody td {
 
 <table cellspacing="0" cellpadding="0">
 	<tr>
-		<th colspan="7">Name</th>
+		<th colspan="6">Images</th>
+		<th>Official Name</th>
 		<th>Short Name</th>
-		<th>ASCII</th>
-		<th>Unified</th>
-		<th>DoCoMo</th>
-		<th>KDDI</th>
-		<th>Softbank</th>
-		<th>Google</th>
-		<th>Image</th>
+		<th>Code Point(s)</th>
+		<th>Image Path</th>
 		<th>Sheet</th>
 	</tr>
 	<tbody>
@@ -131,19 +127,10 @@ table tbody td {
 		image_cell($row['has_img_messenger'], "img-messenger-64/{$row['image']}");
 		echo "\t\t<td>".unicode_bytes($row['unified'])."</td>\n";
 		echo "\t\t<td>".HtmlSpecialChars(StrToLower($row['name']))."</td>\n";
-
 		echo "\t\t<td>:{$row['short_name']}:</td>\n";
-		echo "\t\t<td>{$row['text']}</td>\n";
-
 		echo "\t\t<td>".format_codepoints($row['unified'])."</td>\n";
-		echo "\t\t<td>".format_codepoints($row['docomo'])."</td>\n";
-		echo "\t\t<td>".format_codepoints($row['au'])."</td>\n";
-		echo "\t\t<td>".format_codepoints($row['softbank'])."</td>\n";
-		echo "\t\t<td>".format_codepoints($row['google'])."</td>\n";
-
 		echo "\t\t<td>{$row['image']}</td>\n";
 		echo "\t\t<td>{$row['sheet_x']},{$row['sheet_y']}</td>\n";
-
 		echo "\t</tr>\n";
 	}
 ?>
