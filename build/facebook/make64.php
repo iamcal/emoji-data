@@ -1,5 +1,5 @@
 <?php
-	thumb_set('img-messenger-128', 'img-messenger-64');
+	#thumb_set('img-messenger-128', 'img-messenger-64');
 	thumb_set('img-facebook-96', 'img-facebook-64');
 
 
