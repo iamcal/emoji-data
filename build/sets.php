@@ -4,5 +4,4 @@
 		'google',
 		'twitter',
 		'facebook',
-		'messenger',
 	);

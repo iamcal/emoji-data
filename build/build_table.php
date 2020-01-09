@@ -99,7 +99,7 @@ table tbody td {
 
 <table cellspacing="0" cellpadding="0">
 	<tr>
-		<th colspan="6">Images</th>
+		<th colspan="5">Images</th>
 		<th>Official Name</th>
 		<th>Short Name</th>
 		<th>Code Point(s)</th>
@@ -124,7 +124,6 @@ table tbody td {
 		image_cell($row['has_img_google'   ], "img-google-64/{$row['image']}");
 		image_cell($row['has_img_twitter'  ], "img-twitter-64/{$row['image']}");
 		image_cell($row['has_img_facebook' ], "img-facebook-64/{$row['image']}");
-		image_cell($row['has_img_messenger'], "img-messenger-64/{$row['image']}");
 		echo "\t\t<td>".unicode_bytes($row['unified'])."</td>\n";
 		echo "\t\t<td>".HtmlSpecialChars(StrToLower($row['name']))."</td>\n";
 		echo "\t\t<td>:{$row['short_name']}:</td>\n";
