@@ -6,16 +6,18 @@
 You'll need to have python's fontTools installed to get started:
 
     apt-get update
-    apt-get install -y python-pip python-dev build-essential
+    apt-get install -y python3-pip build-essential
     apt-get install -y pkg-config libcairo2-dev
-    pip install fonttools
+    pip3 install fonttools
 
 Installing nototools is a bit more involved:
 
     git clone https://github.com/googlei18n/nototools.git
     cd nototools/
-    pip install -r requirements.txt
-    python setup.py install
+    pip3 install -r requirements.txt
+    python3 setup.py install
+
+You will also need to have already installed zopflipng/optipng/pngquant.
 
 
 ## Extracting images
