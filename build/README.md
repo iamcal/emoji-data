@@ -80,9 +80,15 @@ We need newer versions of everything than e.g. Debian has:
     cd ..
     rm -rf optipng-0.7.6*
 
-    sudo apt-get install libpng-dev
-    OR sudo yum install libpng-devel
-    
+    wget https://download.sourceforge.net/libpng/libpng-1.6.37.tar.gz
+    tar xzf libpng-1.6.37.tar.gz
+    cd libpng-1.6.37/
+    ./configure
+    make
+    sudo make install
+    cd ../
+    rm -rf libpng-1.6.37
+
     git clone git://github.com/pornel/pngquant.git
     cd pngquant/
     ./configure
