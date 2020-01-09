@@ -1,11 +1,20 @@
 <?php
 
+# ********** SETTINGS **********
+
+$fetch_incremental = false;
+$fetch_messenger = false;
+$fetch_facebook = true;
+
+# ******************************
+
+
+
 $json = file_get_contents('../../emoji.json');
 $data = json_decode($json, true);
 
-# comment these out to do incremental download
-#shell_exec("rm -f ../../img-messenger-128/*.png");
-#shell_exec("rm -f ../../img-facebook-96/*.png");
+if ((!$fetch_incremental) && $fetch_messenger) shell_exec("rm -f ../../img-messenger-128/*.png");
+if ((!$fetch_incremental) && $fetch_facebook ) shell_exec("rm -f ../../img-facebook-96/*.png");
 
 
 foreach ($data as $row){
@@ -30,8 +39,8 @@ function fetch($row){
 		$alt_img = StrToLower($row['non_qualified']).'.png';
 	}
 
-	fetch_single($img, $alt_img, 'MESSENGER', 'img-messenger-128', 128, 1);
-	fetch_single($img, $alt_img, 'FBEMOJI', 'img-facebook-96', 32, 3);
+	if ($GLOBALS['fetch_messenger']) fetch_single($img, $alt_img, 'MESSENGER', 'img-messenger-128', 28, 2);
+	if ($GLOBALS['fetch_facebook' ]) fetch_single($img, $alt_img, 'EMOJI_3', 'img-facebook-96', 32, 3);
 }
 
 
@@ -46,10 +55,16 @@ function fetch_single($img, $alt_img, $type_key, $dir, $size, $ratio){
 
 	# Emoji Config
 	$supportedSizes = [16, 18, 20, 24, 28, 30, 32, 64, 128];
-	$types = array('FBEMOJI' => 'f', 'FB_EMOJI_EXTENDED' => 'e', 'MESSENGER' => 'z', 'UNICODE' => 'u');
+	$types = array(
+		'FBEMOJI' => 'f',
+		'FB_EMOJI_EXTENDED' => 'e',
+		'MESSENGER' => 'z',
+		'UNICODE' => 'u',
+		'COMPOSITE' => 'c',
+		'EMOJI_3' => 't',
+	);
 
 	$type = $types[$type_key];
-
 
 	# emoji.img = acbd-1234.png
 	# facebook  = abcd_1234.png
@@ -79,7 +94,7 @@ function fetch_single($img, $alt_img, $type_key, $dir, $size, $ratio){
 
 function build_url($type, $size, $pixelRatio, $img){
 
-	$schemaAuth = "https://www.facebook.com/images/emoji.php/v7";
+	$schemaAuth = "https://static.xx.fbcdn.net/images/emoji.php/v9";
 
 	$path = $pixelRatio . '/' . $size . '/' . $img;
 	$check = checksum($path);
@@ -125,6 +140,7 @@ function unescape($str) {
 function checksum($subpath) {
 	$checksumBase = 317426846;
 	$base = $checksumBase;
+
 //	$subpath = unescape(encodeURIComponent($subpath)); 
 	for ($pos = 0; $pos < strlen($subpath); $pos++) {
 		$base = ($base << 5) - $base + ord(substr($subpath, $pos, 1));
