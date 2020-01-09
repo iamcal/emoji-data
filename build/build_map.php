@@ -397,6 +397,9 @@
 	# include everything from emoji-data.txt
 	#
 
+	$GLOBALS['skip_components'] = [];
+	$GLOBALS['missing_emoji'] = [];
+
 	echo "Checking emoji-data.txt for missing emoji : ";
 
 	parse_unicode_specfile('unicode/emoji-data.txt', function($fields, $comment){
@@ -429,15 +432,25 @@
 			if ($cp >= 0x0030 && $cp <= 0x0039) continue; # 0-9
 			if ($cp >= 0x1F1E6 && $cp <= 0x1F1FF) continue; # flag letters
 
-			if ($fields[1] == 'Extended_Pictographic') continue;
+			if ($fields[1] == 'Extended_Pictographic' || $fields[1] == 'Emoji_Component'){
+				$GLOBALS['skip_components'][$hex_low] = 1;
+				continue;
+			}
 
-			$hex_up = StrToUpper($hex_low);
-			$line = shell_exec("grep -e ^{$hex_up}\\; unicode/UnicodeData.txt");
-			$line = trim($line);
-
-			echo "\nno data for $cp/$hex_low from emoji-data.txt: $fields[0];$fields[1] : $line\n";
+			$GLOBALS['missing_emoji'][] = $hex_low;
 		}
 	});
+
+	foreach ($GLOBALS['missing_emoji'] as $hex_low){
+
+		if (isset($GLOBALS['skip_components'][$hex_low])) continue;
+
+		$hex_up = StrToUpper($hex_low);
+		$line = shell_exec("grep -e ^{$hex_up}\\; unicode/UnicodeData.txt");
+		$line = trim($line);
+
+		echo "\nno data for $cp/$hex_low from emoji-data.txt: $fields[0];$fields[1] : $line\n";
+	}
 
 	echo "DONE\n";
 
