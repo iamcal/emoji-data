@@ -1502,7 +1502,7 @@
         "sort_order": 34,
         "added_in": "2.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true,
         "has_img_messenger": true
@@ -1606,7 +1606,7 @@
         "sort_order": 38,
         "added_in": "2.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true,
         "has_img_messenger": true
@@ -2362,7 +2362,7 @@
         "sort_order": 67,
         "added_in": "2.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true,
         "has_img_messenger": true
@@ -2518,7 +2518,7 @@
         "sort_order": 73,
         "added_in": "2.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true,
         "has_img_messenger": true
@@ -2622,7 +2622,7 @@
         "sort_order": 77,
         "added_in": "2.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true,
         "has_img_messenger": true
@@ -2805,7 +2805,7 @@
         "sort_order": 84,
         "added_in": "2.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true,
         "has_img_messenger": true
@@ -3016,7 +3016,7 @@
         "sort_order": 92,
         "added_in": "2.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true,
         "has_img_messenger": true
@@ -3198,7 +3198,7 @@
         "sort_order": 99,
         "added_in": "2.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true,
         "has_img_messenger": true
@@ -3276,7 +3276,7 @@
         "sort_order": 102,
         "added_in": "2.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true,
         "has_img_messenger": true
@@ -4631,7 +4631,7 @@
         "sort_order": 154,
         "added_in": "2.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true,
         "has_img_messenger": true
@@ -4865,7 +4865,7 @@
         "sort_order": 163,
         "added_in": "2.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true,
         "has_img_messenger": true
@@ -5151,7 +5151,7 @@
         "sort_order": 174,
         "added_in": "2.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true,
         "has_img_messenger": true
@@ -5645,7 +5645,7 @@
         "sort_order": 193,
         "added_in": "2.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true,
         "has_img_messenger": true
@@ -5853,7 +5853,7 @@
         "sort_order": 201,
         "added_in": "2.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true,
         "has_img_messenger": true
@@ -6608,7 +6608,7 @@
         "sort_order": 230,
         "added_in": "2.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true,
         "has_img_messenger": true
@@ -7337,7 +7337,7 @@
         "sort_order": 258,
         "added_in": "2.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true,
         "has_img_messenger": true
@@ -7389,7 +7389,7 @@
         "sort_order": 260,
         "added_in": "2.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true,
         "has_img_messenger": true
@@ -7441,7 +7441,7 @@
         "sort_order": 262,
         "added_in": "2.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true,
         "has_img_messenger": true
@@ -15556,7 +15556,7 @@
         "sort_order": 7,
         "added_in": "11.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -16492,7 +16492,7 @@
         "sort_order": 8,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -21318,7 +21318,7 @@
         "sort_order": 220,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -21331,7 +21331,7 @@
                 "sheet_y": 34,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21344,7 +21344,7 @@
                 "sheet_y": 35,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21357,7 +21357,7 @@
                 "sheet_y": 36,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21370,7 +21370,7 @@
                 "sheet_y": 37,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21383,7 +21383,7 @@
                 "sheet_y": 38,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21411,7 +21411,7 @@
         "sort_order": 57,
         "added_in": "11.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -21424,7 +21424,7 @@
                 "sheet_y": 40,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21437,7 +21437,7 @@
                 "sheet_y": 41,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21450,7 +21450,7 @@
                 "sheet_y": 42,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21463,7 +21463,7 @@
                 "sheet_y": 43,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21476,7 +21476,7 @@
                 "sheet_y": 44,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21504,7 +21504,7 @@
         "sort_order": 58,
         "added_in": "11.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -21517,7 +21517,7 @@
                 "sheet_y": 46,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21530,7 +21530,7 @@
                 "sheet_y": 47,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21543,7 +21543,7 @@
                 "sheet_y": 48,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21556,7 +21556,7 @@
                 "sheet_y": 49,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21569,7 +21569,7 @@
                 "sheet_y": 50,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21597,7 +21597,7 @@
         "sort_order": 60,
         "added_in": "11.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -21610,7 +21610,7 @@
                 "sheet_y": 52,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21623,7 +21623,7 @@
                 "sheet_y": 53,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21636,7 +21636,7 @@
                 "sheet_y": 54,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21649,7 +21649,7 @@
                 "sheet_y": 55,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21662,7 +21662,7 @@
                 "sheet_y": 0,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21690,7 +21690,7 @@
         "sort_order": 59,
         "added_in": "11.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -21703,7 +21703,7 @@
                 "sheet_y": 2,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21716,7 +21716,7 @@
                 "sheet_y": 3,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21729,7 +21729,7 @@
                 "sheet_y": 4,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21742,7 +21742,7 @@
                 "sheet_y": 5,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21755,7 +21755,7 @@
                 "sheet_y": 6,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21783,7 +21783,7 @@
         "sort_order": 223,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -21796,7 +21796,7 @@
                 "sheet_y": 8,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21809,7 +21809,7 @@
                 "sheet_y": 9,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21822,7 +21822,7 @@
                 "sheet_y": 10,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21835,7 +21835,7 @@
                 "sheet_y": 11,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21848,7 +21848,7 @@
                 "sheet_y": 12,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21876,7 +21876,7 @@
         "sort_order": 226,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -21889,7 +21889,7 @@
                 "sheet_y": 14,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21902,7 +21902,7 @@
                 "sheet_y": 15,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21915,7 +21915,7 @@
                 "sheet_y": 16,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21928,7 +21928,7 @@
                 "sheet_y": 17,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -21941,7 +21941,7 @@
                 "sheet_y": 18,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -23862,7 +23862,7 @@
         "sort_order": 221,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -23875,7 +23875,7 @@
                 "sheet_y": 22,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -23888,7 +23888,7 @@
                 "sheet_y": 23,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -23901,7 +23901,7 @@
                 "sheet_y": 24,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -23914,7 +23914,7 @@
                 "sheet_y": 25,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -23927,7 +23927,7 @@
                 "sheet_y": 26,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -23955,7 +23955,7 @@
         "sort_order": 62,
         "added_in": "11.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -23968,7 +23968,7 @@
                 "sheet_y": 28,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -23981,7 +23981,7 @@
                 "sheet_y": 29,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -23994,7 +23994,7 @@
                 "sheet_y": 30,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -24007,7 +24007,7 @@
                 "sheet_y": 31,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -24020,7 +24020,7 @@
                 "sheet_y": 32,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -24048,7 +24048,7 @@
         "sort_order": 64,
         "added_in": "11.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -24061,7 +24061,7 @@
                 "sheet_y": 34,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -24074,7 +24074,7 @@
                 "sheet_y": 35,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -24087,7 +24087,7 @@
                 "sheet_y": 36,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -24100,7 +24100,7 @@
                 "sheet_y": 37,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -24113,7 +24113,7 @@
                 "sheet_y": 38,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -24141,7 +24141,7 @@
         "sort_order": 68,
         "added_in": "11.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -24154,7 +24154,7 @@
                 "sheet_y": 40,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -24167,7 +24167,7 @@
                 "sheet_y": 41,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -24180,7 +24180,7 @@
                 "sheet_y": 42,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -24193,7 +24193,7 @@
                 "sheet_y": 43,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -24206,7 +24206,7 @@
                 "sheet_y": 44,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -24234,7 +24234,7 @@
         "sort_order": 66,
         "added_in": "11.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -24247,7 +24247,7 @@
                 "sheet_y": 46,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -24260,7 +24260,7 @@
                 "sheet_y": 47,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -24273,7 +24273,7 @@
                 "sheet_y": 48,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -24286,7 +24286,7 @@
                 "sheet_y": 49,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -24299,7 +24299,7 @@
                 "sheet_y": 50,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -24327,7 +24327,7 @@
         "sort_order": 224,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -24340,7 +24340,7 @@
                 "sheet_y": 52,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -24353,7 +24353,7 @@
                 "sheet_y": 53,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -24366,7 +24366,7 @@
                 "sheet_y": 54,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -24379,7 +24379,7 @@
                 "sheet_y": 55,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -24392,7 +24392,7 @@
                 "sheet_y": 0,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -24420,7 +24420,7 @@
         "sort_order": 227,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -24433,7 +24433,7 @@
                 "sheet_y": 2,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -24446,7 +24446,7 @@
                 "sheet_y": 3,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -24459,7 +24459,7 @@
                 "sheet_y": 4,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -24472,7 +24472,7 @@
                 "sheet_y": 5,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -24485,7 +24485,7 @@
                 "sheet_y": 6,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -25033,7 +25033,7 @@
                 "sheet_y": 37,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -25046,7 +25046,7 @@
                 "sheet_y": 38,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -25059,7 +25059,7 @@
                 "sheet_y": 39,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -25072,7 +25072,7 @@
                 "sheet_y": 40,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -25085,7 +25085,7 @@
                 "sheet_y": 41,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -25126,7 +25126,7 @@
                 "sheet_y": 43,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -25139,7 +25139,7 @@
                 "sheet_y": 44,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -25152,7 +25152,7 @@
                 "sheet_y": 45,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -25165,7 +25165,7 @@
                 "sheet_y": 46,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -25178,7 +25178,7 @@
                 "sheet_y": 47,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -25219,7 +25219,7 @@
                 "sheet_y": 49,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -25232,7 +25232,7 @@
                 "sheet_y": 50,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -25245,7 +25245,7 @@
                 "sheet_y": 51,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -25258,7 +25258,7 @@
                 "sheet_y": 52,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -25271,7 +25271,7 @@
                 "sheet_y": 53,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -42959,7 +42959,7 @@
         "sort_order": 43,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -43401,7 +43401,7 @@
         "sort_order": 99,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -43427,7 +43427,7 @@
         "sort_order": 96,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -43453,7 +43453,7 @@
         "sort_order": 185,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -43479,7 +43479,7 @@
         "sort_order": 186,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -43505,7 +43505,7 @@
         "sort_order": 187,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -43531,7 +43531,7 @@
         "sort_order": 189,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -43557,7 +43557,7 @@
         "sort_order": 190,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -43583,7 +43583,7 @@
         "sort_order": 193,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -43609,7 +43609,7 @@
         "sort_order": 197,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -43635,7 +43635,7 @@
         "sort_order": 194,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -43661,7 +43661,7 @@
         "sort_order": 195,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -43687,7 +43687,7 @@
         "sort_order": 196,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -43713,7 +43713,7 @@
         "sort_order": 198,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -43739,7 +43739,7 @@
         "sort_order": 199,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -43765,7 +43765,7 @@
         "sort_order": 135,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -43791,7 +43791,7 @@
         "sort_order": 133,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -43817,7 +43817,7 @@
         "sort_order": 7,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -43830,7 +43830,7 @@
                 "sheet_y": 51,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -43843,7 +43843,7 @@
                 "sheet_y": 52,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -43856,7 +43856,7 @@
                 "sheet_y": 53,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -43869,7 +43869,7 @@
                 "sheet_y": 54,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -43882,7 +43882,7 @@
                 "sheet_y": 55,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -47625,7 +47625,7 @@
         "sort_order": 50,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -47963,7 +47963,7 @@
         "sort_order": 41,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -47989,7 +47989,7 @@
         "sort_order": 30,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -48015,7 +48015,7 @@
         "sort_order": 36,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -48769,7 +48769,7 @@
         "sort_order": 25,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -48795,7 +48795,7 @@
         "sort_order": 8,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -48821,7 +48821,7 @@
         "sort_order": 75,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -48847,7 +48847,7 @@
         "sort_order": 36,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -48873,7 +48873,7 @@
         "sort_order": 14,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -48899,7 +48899,7 @@
         "sort_order": 86,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -48925,7 +48925,7 @@
         "sort_order": 59,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -48951,7 +48951,7 @@
         "sort_order": 55,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -48977,7 +48977,7 @@
         "sort_order": 53,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -49003,7 +49003,7 @@
         "sort_order": 54,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -49029,7 +49029,7 @@
         "sort_order": 71,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -49055,7 +49055,7 @@
         "sort_order": 15,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -49081,7 +49081,7 @@
         "sort_order": 4,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -49107,7 +49107,7 @@
         "sort_order": 3,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -49133,7 +49133,7 @@
         "sort_order": 28,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -49159,7 +49159,7 @@
         "sort_order": 29,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -49809,7 +49809,7 @@
         "sort_order": 57,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -49835,7 +49835,7 @@
         "sort_order": 37,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -49861,7 +49861,7 @@
         "sort_order": 74,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -49887,7 +49887,7 @@
         "sort_order": 41,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -49913,7 +49913,7 @@
         "sort_order": 75,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -49939,7 +49939,7 @@
         "sort_order": 12,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -49965,7 +49965,7 @@
         "sort_order": 81,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -49991,7 +49991,7 @@
         "sort_order": 104,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -50017,7 +50017,7 @@
         "sort_order": 105,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -50043,7 +50043,7 @@
         "sort_order": 58,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -50069,7 +50069,7 @@
         "sort_order": 71,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -50095,7 +50095,7 @@
         "sort_order": 54,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -50121,7 +50121,7 @@
         "sort_order": 55,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -50147,7 +50147,7 @@
         "sort_order": 4,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -50173,7 +50173,7 @@
         "sort_order": 56,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -50199,7 +50199,7 @@
         "sort_order": 73,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -50225,7 +50225,7 @@
         "sort_order": 84,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -50251,7 +50251,7 @@
         "sort_order": 7,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -50277,7 +50277,7 @@
         "sort_order": 196,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -50303,7 +50303,7 @@
         "sort_order": 44,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -50329,7 +50329,7 @@
         "sort_order": 37,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -50342,7 +50342,7 @@
                 "sheet_y": 45,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50355,7 +50355,7 @@
                 "sheet_y": 46,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50368,7 +50368,7 @@
                 "sheet_y": 47,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50381,7 +50381,7 @@
                 "sheet_y": 48,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50394,7 +50394,7 @@
                 "sheet_y": 49,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50422,7 +50422,7 @@
         "sort_order": 38,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -50435,7 +50435,7 @@
                 "sheet_y": 51,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50448,7 +50448,7 @@
                 "sheet_y": 52,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50461,7 +50461,7 @@
                 "sheet_y": 53,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50474,7 +50474,7 @@
                 "sheet_y": 54,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50487,7 +50487,7 @@
                 "sheet_y": 55,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50515,7 +50515,7 @@
         "sort_order": 43,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -50541,7 +50541,7 @@
         "sort_order": 180,
         "added_in": "11.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -50554,7 +50554,7 @@
                 "sheet_y": 2,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50567,7 +50567,7 @@
                 "sheet_y": 3,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50580,7 +50580,7 @@
                 "sheet_y": 4,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50593,7 +50593,7 @@
                 "sheet_y": 5,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50606,7 +50606,7 @@
                 "sheet_y": 6,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50634,7 +50634,7 @@
         "sort_order": 179,
         "added_in": "11.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -50647,7 +50647,7 @@
                 "sheet_y": 8,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50660,7 +50660,7 @@
                 "sheet_y": 9,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50673,7 +50673,7 @@
                 "sheet_y": 10,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50686,7 +50686,7 @@
                 "sheet_y": 11,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50699,7 +50699,7 @@
                 "sheet_y": 12,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50727,7 +50727,7 @@
         "sort_order": 182,
         "added_in": "11.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -50740,7 +50740,7 @@
                 "sheet_y": 14,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50753,7 +50753,7 @@
                 "sheet_y": 15,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50766,7 +50766,7 @@
                 "sheet_y": 16,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50779,7 +50779,7 @@
                 "sheet_y": 17,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50792,7 +50792,7 @@
                 "sheet_y": 18,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50820,7 +50820,7 @@
         "sort_order": 181,
         "added_in": "11.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -50833,7 +50833,7 @@
                 "sheet_y": 20,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50846,7 +50846,7 @@
                 "sheet_y": 21,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50859,7 +50859,7 @@
                 "sheet_y": 22,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50872,7 +50872,7 @@
                 "sheet_y": 23,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50885,7 +50885,7 @@
                 "sheet_y": 24,
                 "added_in": "11.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50913,7 +50913,7 @@
         "sort_order": 5,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -50939,7 +50939,7 @@
         "sort_order": 40,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -50952,7 +50952,7 @@
                 "sheet_y": 27,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50965,7 +50965,7 @@
                 "sheet_y": 28,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50978,7 +50978,7 @@
                 "sheet_y": 29,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -50991,7 +50991,7 @@
                 "sheet_y": 30,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51004,7 +51004,7 @@
                 "sheet_y": 31,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51032,7 +51032,7 @@
         "sort_order": 95,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -51058,7 +51058,7 @@
         "sort_order": 94,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -51084,7 +51084,7 @@
         "sort_order": 35,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -51110,7 +51110,7 @@
         "sort_order": 36,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -51162,7 +51162,7 @@
         "sort_order": 92,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -51188,7 +51188,7 @@
         "sort_order": 61,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -51214,7 +51214,7 @@
         "sort_order": 113,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -51240,7 +51240,7 @@
         "sort_order": 27,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -51266,7 +51266,7 @@
         "sort_order": 28,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -51292,7 +51292,7 @@
         "sort_order": 52,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -51318,7 +51318,7 @@
         "sort_order": 38,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -51344,7 +51344,7 @@
         "sort_order": 60,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -51370,7 +51370,7 @@
         "sort_order": 114,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -51396,7 +51396,7 @@
         "sort_order": 115,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -51422,7 +51422,7 @@
         "sort_order": 215,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -51435,7 +51435,7 @@
                 "sheet_y": 48,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51448,7 +51448,7 @@
                 "sheet_y": 49,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51461,7 +51461,7 @@
                 "sheet_y": 50,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51474,7 +51474,7 @@
                 "sheet_y": 51,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51487,7 +51487,7 @@
                 "sheet_y": 52,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51515,7 +51515,7 @@
         "sort_order": 214,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -51528,7 +51528,7 @@
                 "sheet_y": 54,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51541,7 +51541,7 @@
                 "sheet_y": 55,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51554,7 +51554,7 @@
                 "sheet_y": 0,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51567,7 +51567,7 @@
                 "sheet_y": 1,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51580,7 +51580,7 @@
                 "sheet_y": 2,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51608,7 +51608,7 @@
         "sort_order": 213,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -51621,7 +51621,7 @@
                 "sheet_y": 4,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51634,7 +51634,7 @@
                 "sheet_y": 5,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51647,7 +51647,7 @@
                 "sheet_y": 6,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51660,7 +51660,7 @@
                 "sheet_y": 7,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51673,7 +51673,7 @@
                 "sheet_y": 8,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51701,7 +51701,7 @@
         "sort_order": 218,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -51714,7 +51714,7 @@
                 "sheet_y": 10,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51727,7 +51727,7 @@
                 "sheet_y": 11,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51740,7 +51740,7 @@
                 "sheet_y": 12,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51753,7 +51753,7 @@
                 "sheet_y": 13,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51766,7 +51766,7 @@
                 "sheet_y": 14,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51794,7 +51794,7 @@
         "sort_order": 217,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -51807,7 +51807,7 @@
                 "sheet_y": 16,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51820,7 +51820,7 @@
                 "sheet_y": 17,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51833,7 +51833,7 @@
                 "sheet_y": 18,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51846,7 +51846,7 @@
                 "sheet_y": 19,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51859,7 +51859,7 @@
                 "sheet_y": 20,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51887,7 +51887,7 @@
         "sort_order": 216,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -51900,7 +51900,7 @@
                 "sheet_y": 22,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51913,7 +51913,7 @@
                 "sheet_y": 23,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51926,7 +51926,7 @@
                 "sheet_y": 24,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51939,7 +51939,7 @@
                 "sheet_y": 25,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51952,7 +51952,7 @@
                 "sheet_y": 26,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -51980,7 +51980,7 @@
         "sort_order": 95,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -51993,7 +51993,7 @@
                 "sheet_y": 28,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -52006,7 +52006,7 @@
                 "sheet_y": 29,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -52019,7 +52019,7 @@
                 "sheet_y": 30,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -52032,7 +52032,7 @@
                 "sheet_y": 31,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -52045,7 +52045,7 @@
                 "sheet_y": 32,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -52073,7 +52073,7 @@
         "sort_order": 94,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -52086,7 +52086,7 @@
                 "sheet_y": 34,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -52099,7 +52099,7 @@
                 "sheet_y": 35,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -52112,7 +52112,7 @@
                 "sheet_y": 36,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -52125,7 +52125,7 @@
                 "sheet_y": 37,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -52138,7 +52138,7 @@
                 "sheet_y": 38,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -52166,7 +52166,7 @@
         "sort_order": 93,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false,
@@ -52179,7 +52179,7 @@
                 "sheet_y": 40,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -52192,7 +52192,7 @@
                 "sheet_y": 41,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -52205,7 +52205,7 @@
                 "sheet_y": 42,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -52218,7 +52218,7 @@
                 "sheet_y": 43,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -52231,7 +52231,7 @@
                 "sheet_y": 44,
                 "added_in": "12.1",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
                 "has_img_messenger": false
@@ -53494,7 +53494,7 @@
         "sort_order": 291,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -57585,7 +57585,7 @@
         "sort_order": 16,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -57611,7 +57611,7 @@
         "sort_order": 5,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -57637,7 +57637,7 @@
         "sort_order": 65,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -57663,7 +57663,7 @@
         "sort_order": 202,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -57689,7 +57689,7 @@
         "sort_order": 203,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -57715,7 +57715,7 @@
         "sort_order": 204,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -57741,7 +57741,7 @@
         "sort_order": 7,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -57767,7 +57767,7 @@
         "sort_order": 87,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -57793,7 +57793,7 @@
         "sort_order": 228,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -57819,7 +57819,7 @@
         "sort_order": 199,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -57845,7 +57845,7 @@
         "sort_order": 20,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -57871,7 +57871,7 @@
         "sort_order": 200,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -57897,7 +57897,7 @@
         "sort_order": 132,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -57923,7 +57923,7 @@
         "sort_order": 221,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -57949,7 +57949,7 @@
         "sort_order": 78,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -57975,7 +57975,7 @@
         "sort_order": 79,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -58001,7 +58001,7 @@
         "sort_order": 222,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -58027,7 +58027,7 @@
         "sort_order": 66,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -58053,7 +58053,7 @@
         "sort_order": 223,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -58079,7 +58079,7 @@
         "sort_order": 224,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -58105,7 +58105,7 @@
         "sort_order": 225,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -58131,7 +58131,7 @@
         "sort_order": 226,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -58157,7 +58157,7 @@
         "sort_order": 227,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -58183,7 +58183,7 @@
         "sort_order": 128,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -58209,7 +58209,7 @@
         "sort_order": 60,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -58235,7 +58235,7 @@
         "sort_order": 32,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -58261,7 +58261,7 @@
         "sort_order": 16,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -58287,7 +58287,7 @@
         "sort_order": 17,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -58313,7 +58313,7 @@
         "sort_order": 18,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -58339,7 +58339,7 @@
         "sort_order": 209,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -58365,7 +58365,7 @@
         "sort_order": 211,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -58391,7 +58391,7 @@
         "sort_order": 212,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -58417,7 +58417,7 @@
         "sort_order": 56,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -58443,7 +58443,7 @@
         "sort_order": 57,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -58469,7 +58469,7 @@
         "sort_order": 122,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -58495,7 +58495,7 @@
         "sort_order": 180,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -58521,7 +58521,7 @@
         "sort_order": 216,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -58547,7 +58547,7 @@
         "sort_order": 220,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -58573,7 +58573,7 @@
         "sort_order": 182,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -58599,7 +58599,7 @@
         "sort_order": 103,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -58625,7 +58625,7 @@
         "sort_order": 67,
         "added_in": "12.1",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -60643,7 +60643,7 @@
         "sort_order": 71,
         "added_in": "11.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
@@ -60825,7 +60825,7 @@
         "sort_order": 100,
         "added_in": "11.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "has_img_messenger": false
