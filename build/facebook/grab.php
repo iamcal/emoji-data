@@ -3,8 +3,6 @@
 # ********** SETTINGS **********
 
 $fetch_incremental = false;
-$fetch_messenger = false;
-$fetch_facebook = true;
 
 # ******************************
 
@@ -13,8 +11,7 @@ $fetch_facebook = true;
 $json = file_get_contents('../../emoji.json');
 $data = json_decode($json, true);
 
-if ((!$fetch_incremental) && $fetch_messenger) shell_exec("rm -f ../../img-messenger-128/*.png");
-if ((!$fetch_incremental) && $fetch_facebook ) shell_exec("rm -f ../../img-facebook-96/*.png");
+if (!$fetch_incremental) shell_exec("rm -f ../../img-facebook-96/*.png");
 
 
 foreach ($data as $row){
@@ -39,8 +36,7 @@ function fetch($row){
 		$alt_img = StrToLower($row['non_qualified']).'.png';
 	}
 
-	if ($GLOBALS['fetch_messenger']) fetch_single($img, $alt_img, 'MESSENGER', 'img-messenger-128', 28, 2);
-	if ($GLOBALS['fetch_facebook' ]) fetch_single($img, $alt_img, 'EMOJI_3', 'img-facebook-96', 32, 3);
+	fetch_single($img, $alt_img, 'EMOJI_3', 'img-facebook-96', 32, 3);
 }
 
 

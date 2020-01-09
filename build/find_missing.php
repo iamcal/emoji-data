@@ -10,7 +10,6 @@
 		'google',
 		'twitter',
 		'facebook',
-		'messenger',
 	);
 
 	$json = file_get_contents('../emoji.json');

@@ -41,7 +41,6 @@
 		create_sheet('twitter', $sz);
 		create_sheet('google', $sz);
 		create_sheet('facebook', $sz);
-		create_sheet('messenger', $sz);
 	}
 
 
@@ -60,7 +59,7 @@
 		# those are missing
 		#
 
-		$try_order = array($type, 'apple', 'google', 'twitter', 'facebook', 'messenger');
+		$try_order = array($type, 'apple', 'google', 'twitter', 'facebook');
 
 
 		#
