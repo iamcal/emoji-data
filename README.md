@@ -5,7 +5,7 @@
 This project provides easy-to-parse data about emoji, along with a spritesheet-style 
 images for use on the web.
 
-The current version supports Unicode version 11.0.0.
+The current version supports Unicode version 12.1 (October 2019)
 
 You can see a catalog of the emoji data here: http://unicodey.com/emoji-data/table.htm
 
@@ -98,7 +98,7 @@ The meaning of each field is as follows:
 | `text` | An ASCII version of the emoji (e.g. `:)`), or null where none exists. |
 | `texts` | An array of ASCII emoji that should convert into this emoji. Each ASCII emoji will only appear against a single emoji entry. |
 | `has_img_*` | A flag for whether the given image set has an image (named by the image prop) available. |
-| `added_id` | Unicode version in which this codepoint/sequence was added. |
+| `added_id` | Emoji version in which this codepoint/sequence was added (previously Unicode version). |
 | `skin_variations` | For emoji with multiple skin tone variations, a list of alternative glyphs, keyed by the skin tone. |
 | `obsoletes`, `obsoleted_by` | Emoji that are no longer used, in preference of gendered versions. |
 

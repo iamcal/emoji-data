@@ -1,9 +1,10 @@
 # Change Log
 
-## 2018-11-?? : v4.1.1
+## 2020-01-?? : v4.2.0
 
-* Updated to Unicode v11.0.0
-* Updated Apple images to iOS 12.1 / macOS Mojave 10.14.1
+* Updated to Unicode v12.1
+* Updated Apple images to iOS ?? / macOS ??
+* Changed the `added_in` field to specify Emoji spec version rather than Unicode version (the underlying Unicode data changed)
 
 
 ## 2018-07-05 : v4.1.0

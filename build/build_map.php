@@ -170,7 +170,7 @@
 			$hex_lows = array(StrToLower(implode('-', $cps)));
 		}
 
-		if (preg_match('!^\s*(\d+\.\d+)!', $comment, $m)){
+		if (preg_match('!^\s*E?(\d+\.\d+)!', $comment, $m)){
 			foreach ($hex_lows as $hex_low){
 				$GLOBALS['versions'][$hex_low] = $m[1];
 			}
