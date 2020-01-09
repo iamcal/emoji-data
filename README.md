@@ -16,7 +16,7 @@ The git repo is pretty big (almost 4GB), but contains everything. If you want to
 
     npm install emoji-datasource
 
-This will only install the 32px full-fidelity spritesheets. If you want different size sheets (16,20 or 64px),
+This will only install the 32px full-fidelity spritesheets. If you want different size sheets (16, 20 or 64px),
 quantized sheets (128 or 256 color) or the individual images (at 64px) then you'll need to install additional
 npm modules:
 ```bash
@@ -24,10 +24,10 @@ npm install emoji-datasource-apple
 npm install emoji-datasource-google
 npm install emoji-datasource-twitter
 npm install emoji-datasource-facebook
-npm install emoji-datasource-messenger
 ```
 
-You can also use it without downloading via [jsDelivr CDN](https://www.jsdelivr.com/package/npm/emoji-datasource?path=img) (different sizes [here](https://www.jsdelivr.com/?query=emoji-datasource%20author%3A%20iamcal)).
+You can also use it without downloading via [jsDelivr CDN](https://www.jsdelivr.com/package/npm/emoji-datasource?path=img)
+(different sizes [here](https://www.jsdelivr.com/?query=emoji-datasource%20author%3A%20iamcal)).
 
 ## Using the data
 
@@ -60,7 +60,6 @@ look like this:
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": false,
-        "has_img_messenger": false,
         "skin_variations": {
             "1F3FB": {
                 "unified": "261D-1F3FB",
@@ -72,9 +71,8 @@ look like this:
                 "has_img_google": false,
                 "has_img_twitter": false,
                 "has_img_facebook": false,
-                "has_img_messenger": false,
-                ...
             }
+            ...
         },
         "obsoletes": "ABCD-1234",
         "obsoleted_by": "5678-90EF"
@@ -115,11 +113,14 @@ available versions. If you're looking for older versions of Apple or Android ima
 (such as the Hairy Heart) then you'll need to look at previous revisions.
 
 * Apple Emoji: Copyright &copy; Apple Inc. - macOS 10.14 (Mojave)
-* Android Emoji: Copyright &copy; [The Android Open Source Project](https://s3-eu-west-1.amazonaws.com/tw-font/android/NOTICE) - 11275b5 / 2017-10-30
-* Twitter Emoji: Copyright &copy; Twitter, Inc. - v2.3.1 2017-10-31
-* Facebook/Messenger Emoji: Copyright &copy; Facebook, Inc. - v7, fetched 2017-11-15
+* Android Emoji: Copyright &copy; [The Android Open Source Project](https://s3-eu-west-1.amazonaws.com/tw-font/android/NOTICE) - v2019-11-19-unicode12
+* Twitter Emoji: Copyright &copy; Twitter, Inc. - v12.1.4 2019-11-13
+* Facebook Emoji: Copyright &copy; Facebook, Inc. - v9, fetched 2020-01-09
 
-Apple images are not licensed for commercial usage. Android/Google/Noto emoji are available under the [Apache License 2.0](https://github.com/googlei18n/noto-emoji/blob/master/LICENSE). Twitter emoji are available under the [Creative Commons Attribution 4.0 license](https://github.com/twitter/twemoji/blob/gh-pages/LICENSE-GRAPHICS). Facebook and Messenger emoji have no clear licensing.
+Apple images are not licensed for commercial usage.
+Android/Google/Noto emoji are available under the [Apache License 2.0](https://github.com/googlei18n/noto-emoji/blob/master/LICENSE).
+Twitter emoji are available under the [Creative Commons Attribution 4.0 license](https://github.com/twitter/twemoji/blob/gh-pages/LICENSE-GRAPHICS).
+Facebook emoji have no clear licensing.
 
 
 ## Libraries which use this data

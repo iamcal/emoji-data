@@ -3,7 +3,11 @@
 ## 2020-01-?? : v4.2.0
 
 * Updated to Unicode v12.1
-* Updated Apple images to iOS ?? / macOS ??
+* Updated Apple images to ???
+* Updated Twemoji images to v12.1.4
+* Updated Android images to v2019-11-19-unicode12
+* Updated Facebook images to v9 / EMOJI_3
+* Removed Messenger images (now unified with Facebook)
 * Changed the `added_in` field to specify Emoji spec version rather than Unicode version (the underlying Unicode data changed)
 
 
