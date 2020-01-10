@@ -3,7 +3,7 @@
 ## 2020-01-?? : v4.2.0
 
 * Updated to Unicode v12.1
-* Updated Apple images to ???
+* Updated Apple images to macOS 10.15.1
 * Updated Twemoji images to v12.1.4
 * Updated Android images to v2019-11-19-unicode12
 * Updated Facebook images to v9 / EMOJI_3
