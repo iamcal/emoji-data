@@ -125,7 +125,7 @@ table tbody td {
 		image_cell($row['has_img_twitter'  ], "img-twitter-64/{$row['image']}");
 		image_cell($row['has_img_facebook' ], "img-facebook-64/{$row['image']}");
 		echo "\t\t<td>".unicode_bytes($row['unified'])."</td>\n";
-		echo "\t\t<td>".HtmlSpecialChars(StrToLower($row['name']))."</td>\n";
+		echo "\t\t<td>".HtmlSpecialChars(mb_strtolower($row['name'], 'UTF-8'))."</td>\n";
 		echo "\t\t<td>:{$row['short_name']}:</td>\n";
 		echo "\t\t<td>".format_codepoints($row['unified'])."</td>\n";
 		echo "\t\t<td>{$row['image']}</td>\n";
