@@ -505,7 +505,9 @@
 
 	$short_name_map = array();
 	foreach ($out as $k => $row){
-		$short_name_map[$row['short_name']] = $k;
+		foreach ($row['short_names'] as $n){
+			$short_name_map[$n] = $k;
+		}
 	}
 
 	$skin_codepoints = array(
