@@ -663,12 +663,13 @@
 
 		$row = simple_row($img_key, $short_names, $props);
 
-    // TODO: This causes emoji to be silently discarded. Bad!
-    if ($row != null) {
-      $GLOBALS['out'][] = $row;
-      $GLOBALS['out_unis'][$img_key] = 1;
-      if ($row['non_qualified']) $GLOBALS['out_unis'][StrToLower($row['non_qualified'])] = 1;
-    }
+		if ($row != null) {
+			$GLOBALS['out'][] = $row;
+			$GLOBALS['out_unis'][$img_key] = 1;
+			if ($row['non_qualified']) $GLOBALS['out_unis'][StrToLower($row['non_qualified'])] = 1;
+		}else{
+			echo "\nERROR: silently discardng $img_key / ".implode('/', $short_names)."\n";
+		}
 	}
 
 	function simple_row($img_key, $shorts, $props){
@@ -698,12 +699,12 @@
 		}
 
 		$category = $GLOBALS['category_map'][$img_key];
-    // TODO: Make sure every emoji has a category! Currently man/woman super
-    // hero/villian do not.
-    if (!$category) {
-      print "\nNot in category map! $img_key\n";
-      return null;
-    }
+		// TODO: Make sure every emoji has a category! Currently man/woman super
+		// hero/villian do not.
+ 		if (!$category) {
+			print "\nNot in category map! $img_key\n";
+			return null;
+		}
 
 		if ($props['name']){
 			if (preg_match("!^REGIONAL INDICATOR SYMBOL LETTERS !", $props['name'])){
