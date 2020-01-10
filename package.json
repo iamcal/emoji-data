@@ -1,6 +1,6 @@
 {
   "name": "emoji-datasource",
-  "version": "4.1.0",
+  "version": "4.2.0",
   "description": "Emoji data and images",
   "main": "emoji.json",
   "repository": {
@@ -29,10 +29,6 @@
     "sheet_facebook_20.png",
     "sheet_facebook_32.png",
     "sheet_facebook_64.png",
-    "sheet_messenger_16.png",
-    "sheet_messenger_20.png",
-    "sheet_messenger_32.png",
-    "sheet_messenger_64.png",
     "sheet_twitter_16.png",
     "sheet_twitter_20.png",
     "sheet_twitter_32.png",
