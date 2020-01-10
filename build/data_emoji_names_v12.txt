@@ -62,13 +62,13 @@
 
 # these are duplicated since they all need to either have zero or two skin tones
 1F9D1-200D-1F91D-200D-1F9D1;people_holding_hands
-1F468-200D-1F91D-200D-1F468;men_holding_hands
-1F469-200D-1F91D-200D-1F469;women_holding_hands
-1F469-200D-1F91D-200D-1F468;woman_and_man_holding_hands
-1F9D1{SKIN!}-200D-1F91D-200D-1F9D1{SKIN!};people_holding_hands
-1F468{SKIN!}-200D-1F91D-200D-1F468{SKIN!};men_holding_hands
-1F469{SKIN!}-200D-1F91D-200D-1F469{SKIN!};women_holding_hands
-1F469{SKIN!}-200D-1F91D-200D-1F468{SKIN!};woman_and_man_holding_hands
+#1F468-200D-1F91D-200D-1F468;men_holding_hands
+#1F469-200D-1F91D-200D-1F469;women_holding_hands
+#1F469-200D-1F91D-200D-1F468;woman_and_man_holding_hands
+1F9D1{SKIN!}-200D-1F91D-200D-1F9D1{SKIN2};people_holding_hands
+1F468{SKIN!}-200D-1F91D-200D-1F468{SKIN2};men_holding_hands
+1F469{SKIN!}-200D-1F91D-200D-1F469{SKIN2};women_holding_hands
+1F469{SKIN!}-200D-1F91D-200D-1F468{SKIN2};woman_and_man_holding_hands
 
 1F9D1{SKIN}-200D-2695-FE0F;health_worker
 1F9D1{SKIN}-200D-2696-FE0F;judge
