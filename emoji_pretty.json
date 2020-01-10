@@ -48306,9 +48306,9 @@
         "sort_order": 179,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
-        "has_img_twitter": false,
-        "has_img_facebook": false,
+        "has_img_google": true,
+        "has_img_twitter": true,
+        "has_img_facebook": true,
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F9B8-1F3FB",
@@ -48317,10 +48317,10 @@
                 "sheet_x": 43,
                 "sheet_y": 14,
                 "added_in": "11.0",
-                "has_img_apple": false,
-                "has_img_google": false,
-                "has_img_twitter": false,
-                "has_img_facebook": false
+                "has_img_apple": true,
+                "has_img_google": true,
+                "has_img_twitter": true,
+                "has_img_facebook": true
             },
             "1F3FC": {
                 "unified": "1F9B8-1F3FC",
@@ -48329,10 +48329,10 @@
                 "sheet_x": 43,
                 "sheet_y": 15,
                 "added_in": "11.0",
-                "has_img_apple": false,
-                "has_img_google": false,
-                "has_img_twitter": false,
-                "has_img_facebook": false
+                "has_img_apple": true,
+                "has_img_google": true,
+                "has_img_twitter": true,
+                "has_img_facebook": true
             },
             "1F3FD": {
                 "unified": "1F9B8-1F3FD",
@@ -48341,10 +48341,10 @@
                 "sheet_x": 43,
                 "sheet_y": 16,
                 "added_in": "11.0",
-                "has_img_apple": false,
-                "has_img_google": false,
-                "has_img_twitter": false,
-                "has_img_facebook": false
+                "has_img_apple": true,
+                "has_img_google": true,
+                "has_img_twitter": true,
+                "has_img_facebook": true
             },
             "1F3FE": {
                 "unified": "1F9B8-1F3FE",
@@ -48353,10 +48353,10 @@
                 "sheet_x": 43,
                 "sheet_y": 17,
                 "added_in": "11.0",
-                "has_img_apple": false,
-                "has_img_google": false,
-                "has_img_twitter": false,
-                "has_img_facebook": false
+                "has_img_apple": true,
+                "has_img_google": true,
+                "has_img_twitter": true,
+                "has_img_facebook": true
             },
             "1F3FF": {
                 "unified": "1F9B8-1F3FF",
@@ -48365,10 +48365,10 @@
                 "sheet_x": 43,
                 "sheet_y": 18,
                 "added_in": "11.0",
-                "has_img_apple": false,
-                "has_img_google": false,
-                "has_img_twitter": false,
-                "has_img_facebook": false
+                "has_img_apple": true,
+                "has_img_google": true,
+                "has_img_twitter": true,
+                "has_img_facebook": true
             }
         }
     },
@@ -48567,9 +48567,9 @@
         "sort_order": 182,
         "added_in": "11.0",
         "has_img_apple": true,
-        "has_img_google": false,
-        "has_img_twitter": false,
-        "has_img_facebook": false,
+        "has_img_google": true,
+        "has_img_twitter": true,
+        "has_img_facebook": true,
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F9B9-1F3FB",
@@ -48578,10 +48578,10 @@
                 "sheet_x": 43,
                 "sheet_y": 32,
                 "added_in": "11.0",
-                "has_img_apple": false,
-                "has_img_google": false,
-                "has_img_twitter": false,
-                "has_img_facebook": false
+                "has_img_apple": true,
+                "has_img_google": true,
+                "has_img_twitter": true,
+                "has_img_facebook": true
             },
             "1F3FC": {
                 "unified": "1F9B9-1F3FC",
@@ -48590,10 +48590,10 @@
                 "sheet_x": 43,
                 "sheet_y": 33,
                 "added_in": "11.0",
-                "has_img_apple": false,
-                "has_img_google": false,
-                "has_img_twitter": false,
-                "has_img_facebook": false
+                "has_img_apple": true,
+                "has_img_google": true,
+                "has_img_twitter": true,
+                "has_img_facebook": true
             },
             "1F3FD": {
                 "unified": "1F9B9-1F3FD",
@@ -48602,10 +48602,10 @@
                 "sheet_x": 43,
                 "sheet_y": 34,
                 "added_in": "11.0",
-                "has_img_apple": false,
-                "has_img_google": false,
-                "has_img_twitter": false,
-                "has_img_facebook": false
+                "has_img_apple": true,
+                "has_img_google": true,
+                "has_img_twitter": true,
+                "has_img_facebook": true
             },
             "1F3FE": {
                 "unified": "1F9B9-1F3FE",
@@ -48614,10 +48614,10 @@
                 "sheet_x": 43,
                 "sheet_y": 35,
                 "added_in": "11.0",
-                "has_img_apple": false,
-                "has_img_google": false,
-                "has_img_twitter": false,
-                "has_img_facebook": false
+                "has_img_apple": true,
+                "has_img_google": true,
+                "has_img_twitter": true,
+                "has_img_facebook": true
             },
             "1F3FF": {
                 "unified": "1F9B9-1F3FF",
@@ -48626,10 +48626,10 @@
                 "sheet_x": 43,
                 "sheet_y": 36,
                 "added_in": "11.0",
-                "has_img_apple": false,
-                "has_img_google": false,
-                "has_img_twitter": false,
-                "has_img_facebook": false
+                "has_img_apple": true,
+                "has_img_google": true,
+                "has_img_twitter": true,
+                "has_img_facebook": true
             }
         }
     },
