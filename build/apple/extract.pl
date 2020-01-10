@@ -14,6 +14,8 @@ $Font::TTF::Font::tables{'morx'} = 'Font::TTF::Morx';
 
 my $filename = "apple_color_emoji_10_15_1.ttc";
 
+my $incremental_mode = 0;
+
 my $f = Font::TTF::TTC->openCollection($filename) || die "Unable to read $filename : $!";
 $f->readCollection(0);
 
@@ -197,7 +199,9 @@ if (0){
 $f->{'sbix'}->read();
 $f->{'maxp'}->read();
 
-`rm -f ../../img-apple-160/*.png`;
+if (!$incremental_mode){
+	`rm -f ../../img-apple-160/*.png`;
+}
 
 for my $glyph_id(0..$f->{'maxp'}->{'numGlyphs'}-1){
 
@@ -221,12 +225,19 @@ sub store_image {
 	my $strike = $f->{'sbix'}->read_strike(160, 0 + $glyph_id, 1);
 
 	if ($strike->{'graphicType'} eq 'png '){
-		# all good - save it
-		print "ok - $filename\n";
 
-		open(my $fh, '>', "../../img-apple-160/$filename");
-		print($fh  $strike->{'data'});
-		close($fh);
+		if ($incremental_mode && -e "../../img-apple-160/$filename"){
+
+			print "skip, exists - $filename\n";
+
+		}else{
+			# all good - save it
+			print "ok - $filename\n";
+
+			open(my $fh, '>', "../../img-apple-160/$filename");
+			print($fh  $strike->{'data'});
+			close($fh);
+		}
 
 	}elsif ($strike->{'graphicType'} eq 'zero-length'){
 
