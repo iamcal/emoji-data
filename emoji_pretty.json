@@ -51807,12 +51807,24 @@
         "has_img_twitter": true,
         "has_img_facebook": true,
         "skin_variations": {
+            "1F3FB-1F3FB": {
+                "unified": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FB",
+                "non_qualified": null,
+                "image": "1f9d1-1f3fb-200d-1f91d-200d-1f9d1-1f3fb.png",
+                "sheet_x": 46,
+                "sheet_y": 39,
+                "added_in": "12.1",
+                "has_img_apple": false,
+                "has_img_google": false,
+                "has_img_twitter": false,
+                "has_img_facebook": false
+            },
             "1F3FB-1F3FC": {
                 "unified": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FC",
                 "non_qualified": null,
                 "image": "1f9d1-1f3fb-200d-1f91d-200d-1f9d1-1f3fc.png",
                 "sheet_x": 46,
-                "sheet_y": 39,
+                "sheet_y": 40,
                 "added_in": "12.1",
                 "has_img_apple": false,
                 "has_img_google": false,
@@ -51824,7 +51836,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fb-200d-1f91d-200d-1f9d1-1f3fd.png",
                 "sheet_x": 46,
-                "sheet_y": 40,
+                "sheet_y": 41,
                 "added_in": "12.1",
                 "has_img_apple": false,
                 "has_img_google": false,
@@ -51836,7 +51848,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fb-200d-1f91d-200d-1f9d1-1f3fe.png",
                 "sheet_x": 46,
-                "sheet_y": 41,
+                "sheet_y": 42,
                 "added_in": "12.1",
                 "has_img_apple": false,
                 "has_img_google": false,
@@ -51848,7 +51860,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fb-200d-1f91d-200d-1f9d1-1f3ff.png",
                 "sheet_x": 46,
-                "sheet_y": 42,
+                "sheet_y": 43,
                 "added_in": "12.1",
                 "has_img_apple": false,
                 "has_img_google": false,
@@ -51860,7 +51872,19 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fc-200d-1f91d-200d-1f9d1-1f3fb.png",
                 "sheet_x": 46,
-                "sheet_y": 43,
+                "sheet_y": 44,
+                "added_in": "12.1",
+                "has_img_apple": false,
+                "has_img_google": false,
+                "has_img_twitter": false,
+                "has_img_facebook": false
+            },
+            "1F3FC-1F3FC": {
+                "unified": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FC",
+                "non_qualified": null,
+                "image": "1f9d1-1f3fc-200d-1f91d-200d-1f9d1-1f3fc.png",
+                "sheet_x": 46,
+                "sheet_y": 45,
                 "added_in": "12.1",
                 "has_img_apple": false,
                 "has_img_google": false,
@@ -51872,7 +51896,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fc-200d-1f91d-200d-1f9d1-1f3fd.png",
                 "sheet_x": 46,
-                "sheet_y": 44,
+                "sheet_y": 46,
                 "added_in": "12.1",
                 "has_img_apple": false,
                 "has_img_google": false,
@@ -51884,7 +51908,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fc-200d-1f91d-200d-1f9d1-1f3fe.png",
                 "sheet_x": 46,
-                "sheet_y": 45,
+                "sheet_y": 47,
                 "added_in": "12.1",
                 "has_img_apple": false,
                 "has_img_google": false,
@@ -51896,7 +51920,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fc-200d-1f91d-200d-1f9d1-1f3ff.png",
                 "sheet_x": 46,
-                "sheet_y": 46,
+                "sheet_y": 48,
                 "added_in": "12.1",
                 "has_img_apple": false,
                 "has_img_google": false,
@@ -51908,7 +51932,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fd-200d-1f91d-200d-1f9d1-1f3fb.png",
                 "sheet_x": 46,
-                "sheet_y": 47,
+                "sheet_y": 49,
                 "added_in": "12.1",
                 "has_img_apple": false,
                 "has_img_google": false,
@@ -51920,7 +51944,19 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fd-200d-1f91d-200d-1f9d1-1f3fc.png",
                 "sheet_x": 46,
-                "sheet_y": 48,
+                "sheet_y": 50,
+                "added_in": "12.1",
+                "has_img_apple": false,
+                "has_img_google": false,
+                "has_img_twitter": false,
+                "has_img_facebook": false
+            },
+            "1F3FD-1F3FD": {
+                "unified": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FD",
+                "non_qualified": null,
+                "image": "1f9d1-1f3fd-200d-1f91d-200d-1f9d1-1f3fd.png",
+                "sheet_x": 46,
+                "sheet_y": 51,
                 "added_in": "12.1",
                 "has_img_apple": false,
                 "has_img_google": false,
@@ -51932,7 +51968,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fd-200d-1f91d-200d-1f9d1-1f3fe.png",
                 "sheet_x": 46,
-                "sheet_y": 49,
+                "sheet_y": 52,
                 "added_in": "12.1",
                 "has_img_apple": false,
                 "has_img_google": false,
@@ -51944,7 +51980,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fd-200d-1f91d-200d-1f9d1-1f3ff.png",
                 "sheet_x": 46,
-                "sheet_y": 50,
+                "sheet_y": 53,
                 "added_in": "12.1",
                 "has_img_apple": false,
                 "has_img_google": false,
@@ -51956,7 +51992,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fe-200d-1f91d-200d-1f9d1-1f3fb.png",
                 "sheet_x": 46,
-                "sheet_y": 51,
+                "sheet_y": 54,
                 "added_in": "12.1",
                 "has_img_apple": false,
                 "has_img_google": false,
@@ -51968,7 +52004,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fe-200d-1f91d-200d-1f9d1-1f3fc.png",
                 "sheet_x": 46,
-                "sheet_y": 52,
+                "sheet_y": 55,
                 "added_in": "12.1",
                 "has_img_apple": false,
                 "has_img_google": false,
@@ -51980,7 +52016,19 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fe-200d-1f91d-200d-1f9d1-1f3fd.png",
                 "sheet_x": 46,
-                "sheet_y": 53,
+                "sheet_y": 56,
+                "added_in": "12.1",
+                "has_img_apple": false,
+                "has_img_google": false,
+                "has_img_twitter": false,
+                "has_img_facebook": false
+            },
+            "1F3FE-1F3FE": {
+                "unified": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FE",
+                "non_qualified": null,
+                "image": "1f9d1-1f3fe-200d-1f91d-200d-1f9d1-1f3fe.png",
+                "sheet_x": 47,
+                "sheet_y": 0,
                 "added_in": "12.1",
                 "has_img_apple": false,
                 "has_img_google": false,
@@ -51991,8 +52039,8 @@
                 "unified": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FF",
                 "non_qualified": null,
                 "image": "1f9d1-1f3fe-200d-1f91d-200d-1f9d1-1f3ff.png",
-                "sheet_x": 46,
-                "sheet_y": 54,
+                "sheet_x": 47,
+                "sheet_y": 1,
                 "added_in": "12.1",
                 "has_img_apple": false,
                 "has_img_google": false,
@@ -52003,8 +52051,8 @@
                 "unified": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FB",
                 "non_qualified": null,
                 "image": "1f9d1-1f3ff-200d-1f91d-200d-1f9d1-1f3fb.png",
-                "sheet_x": 46,
-                "sheet_y": 55,
+                "sheet_x": 47,
+                "sheet_y": 2,
                 "added_in": "12.1",
                 "has_img_apple": false,
                 "has_img_google": false,
@@ -52015,8 +52063,8 @@
                 "unified": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FC",
                 "non_qualified": null,
                 "image": "1f9d1-1f3ff-200d-1f91d-200d-1f9d1-1f3fc.png",
-                "sheet_x": 46,
-                "sheet_y": 56,
+                "sheet_x": 47,
+                "sheet_y": 3,
                 "added_in": "12.1",
                 "has_img_apple": false,
                 "has_img_google": false,
@@ -52028,7 +52076,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3ff-200d-1f91d-200d-1f9d1-1f3fd.png",
                 "sheet_x": 47,
-                "sheet_y": 0,
+                "sheet_y": 4,
                 "added_in": "12.1",
                 "has_img_apple": false,
                 "has_img_google": false,
@@ -52040,7 +52088,19 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3ff-200d-1f91d-200d-1f9d1-1f3fe.png",
                 "sheet_x": 47,
-                "sheet_y": 1,
+                "sheet_y": 5,
+                "added_in": "12.1",
+                "has_img_apple": false,
+                "has_img_google": false,
+                "has_img_twitter": false,
+                "has_img_facebook": false
+            },
+            "1F3FF-1F3FF": {
+                "unified": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FF",
+                "non_qualified": null,
+                "image": "1f9d1-1f3ff-200d-1f91d-200d-1f9d1-1f3ff.png",
+                "sheet_x": 47,
+                "sheet_y": 6,
                 "added_in": "12.1",
                 "has_img_apple": false,
                 "has_img_google": false,
@@ -52059,7 +52119,7 @@
         "google": null,
         "image": "1f9d1-200d-1f9af.png",
         "sheet_x": 47,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "person_with_probing_cane",
         "short_names": [
             "person_with_probing_cane"
@@ -52079,7 +52139,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fb-200d-1f9af.png",
                 "sheet_x": 47,
-                "sheet_y": 3,
+                "sheet_y": 8,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52091,7 +52151,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fc-200d-1f9af.png",
                 "sheet_x": 47,
-                "sheet_y": 4,
+                "sheet_y": 9,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52103,7 +52163,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fd-200d-1f9af.png",
                 "sheet_x": 47,
-                "sheet_y": 5,
+                "sheet_y": 10,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52115,7 +52175,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fe-200d-1f9af.png",
                 "sheet_x": 47,
-                "sheet_y": 6,
+                "sheet_y": 11,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52127,7 +52187,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3ff-200d-1f9af.png",
                 "sheet_x": 47,
-                "sheet_y": 7,
+                "sheet_y": 12,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52146,7 +52206,7 @@
         "google": null,
         "image": "1f9d1-200d-1f9b0.png",
         "sheet_x": 47,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "red_haired_person",
         "short_names": [
             "red_haired_person"
@@ -52166,7 +52226,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fb-200d-1f9b0.png",
                 "sheet_x": 47,
-                "sheet_y": 9,
+                "sheet_y": 14,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52178,7 +52238,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fc-200d-1f9b0.png",
                 "sheet_x": 47,
-                "sheet_y": 10,
+                "sheet_y": 15,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52190,7 +52250,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fd-200d-1f9b0.png",
                 "sheet_x": 47,
-                "sheet_y": 11,
+                "sheet_y": 16,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52202,7 +52262,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fe-200d-1f9b0.png",
                 "sheet_x": 47,
-                "sheet_y": 12,
+                "sheet_y": 17,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52214,7 +52274,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3ff-200d-1f9b0.png",
                 "sheet_x": 47,
-                "sheet_y": 13,
+                "sheet_y": 18,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52233,7 +52293,7 @@
         "google": null,
         "image": "1f9d1-200d-1f9b1.png",
         "sheet_x": 47,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "curly_haired_person",
         "short_names": [
             "curly_haired_person"
@@ -52253,7 +52313,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fb-200d-1f9b1.png",
                 "sheet_x": 47,
-                "sheet_y": 15,
+                "sheet_y": 20,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52265,7 +52325,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fc-200d-1f9b1.png",
                 "sheet_x": 47,
-                "sheet_y": 16,
+                "sheet_y": 21,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52277,7 +52337,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fd-200d-1f9b1.png",
                 "sheet_x": 47,
-                "sheet_y": 17,
+                "sheet_y": 22,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52289,7 +52349,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fe-200d-1f9b1.png",
                 "sheet_x": 47,
-                "sheet_y": 18,
+                "sheet_y": 23,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52301,7 +52361,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3ff-200d-1f9b1.png",
                 "sheet_x": 47,
-                "sheet_y": 19,
+                "sheet_y": 24,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52320,7 +52380,7 @@
         "google": null,
         "image": "1f9d1-200d-1f9b2.png",
         "sheet_x": 47,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "bald_person",
         "short_names": [
             "bald_person"
@@ -52340,7 +52400,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fb-200d-1f9b2.png",
                 "sheet_x": 47,
-                "sheet_y": 21,
+                "sheet_y": 26,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52352,7 +52412,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fc-200d-1f9b2.png",
                 "sheet_x": 47,
-                "sheet_y": 22,
+                "sheet_y": 27,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52364,7 +52424,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fd-200d-1f9b2.png",
                 "sheet_x": 47,
-                "sheet_y": 23,
+                "sheet_y": 28,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52376,7 +52436,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fe-200d-1f9b2.png",
                 "sheet_x": 47,
-                "sheet_y": 24,
+                "sheet_y": 29,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52388,7 +52448,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3ff-200d-1f9b2.png",
                 "sheet_x": 47,
-                "sheet_y": 25,
+                "sheet_y": 30,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52407,7 +52467,7 @@
         "google": null,
         "image": "1f9d1-200d-1f9b3.png",
         "sheet_x": 47,
-        "sheet_y": 26,
+        "sheet_y": 31,
         "short_name": "white_haired_person",
         "short_names": [
             "white_haired_person"
@@ -52427,7 +52487,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fb-200d-1f9b3.png",
                 "sheet_x": 47,
-                "sheet_y": 27,
+                "sheet_y": 32,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52439,7 +52499,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fc-200d-1f9b3.png",
                 "sheet_x": 47,
-                "sheet_y": 28,
+                "sheet_y": 33,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52451,7 +52511,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fd-200d-1f9b3.png",
                 "sheet_x": 47,
-                "sheet_y": 29,
+                "sheet_y": 34,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52463,7 +52523,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fe-200d-1f9b3.png",
                 "sheet_x": 47,
-                "sheet_y": 30,
+                "sheet_y": 35,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52475,7 +52535,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3ff-200d-1f9b3.png",
                 "sheet_x": 47,
-                "sheet_y": 31,
+                "sheet_y": 36,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52494,7 +52554,7 @@
         "google": null,
         "image": "1f9d1-200d-1f9bc.png",
         "sheet_x": 47,
-        "sheet_y": 32,
+        "sheet_y": 37,
         "short_name": "person_in_motorized_wheelchair",
         "short_names": [
             "person_in_motorized_wheelchair"
@@ -52514,7 +52574,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fb-200d-1f9bc.png",
                 "sheet_x": 47,
-                "sheet_y": 33,
+                "sheet_y": 38,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52526,7 +52586,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fc-200d-1f9bc.png",
                 "sheet_x": 47,
-                "sheet_y": 34,
+                "sheet_y": 39,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52538,7 +52598,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fd-200d-1f9bc.png",
                 "sheet_x": 47,
-                "sheet_y": 35,
+                "sheet_y": 40,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52550,7 +52610,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fe-200d-1f9bc.png",
                 "sheet_x": 47,
-                "sheet_y": 36,
+                "sheet_y": 41,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52562,7 +52622,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3ff-200d-1f9bc.png",
                 "sheet_x": 47,
-                "sheet_y": 37,
+                "sheet_y": 42,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52581,7 +52641,7 @@
         "google": null,
         "image": "1f9d1-200d-1f9bd.png",
         "sheet_x": 47,
-        "sheet_y": 38,
+        "sheet_y": 43,
         "short_name": "person_in_manual_wheelchair",
         "short_names": [
             "person_in_manual_wheelchair"
@@ -52601,7 +52661,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fb-200d-1f9bd.png",
                 "sheet_x": 47,
-                "sheet_y": 39,
+                "sheet_y": 44,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52613,7 +52673,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fc-200d-1f9bd.png",
                 "sheet_x": 47,
-                "sheet_y": 40,
+                "sheet_y": 45,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52625,7 +52685,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fd-200d-1f9bd.png",
                 "sheet_x": 47,
-                "sheet_y": 41,
+                "sheet_y": 46,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52637,7 +52697,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fe-200d-1f9bd.png",
                 "sheet_x": 47,
-                "sheet_y": 42,
+                "sheet_y": 47,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52649,7 +52709,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3ff-200d-1f9bd.png",
                 "sheet_x": 47,
-                "sheet_y": 43,
+                "sheet_y": 48,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52668,7 +52728,7 @@
         "google": null,
         "image": "1f9d1-200d-2695-fe0f.png",
         "sheet_x": 47,
-        "sheet_y": 44,
+        "sheet_y": 49,
         "short_name": "health_worker",
         "short_names": [
             "health_worker"
@@ -52688,7 +52748,7 @@
                 "non_qualified": "1F9D1-1F3FB-200D-2695",
                 "image": "1f9d1-1f3fb-200d-2695-fe0f.png",
                 "sheet_x": 47,
-                "sheet_y": 45,
+                "sheet_y": 50,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52700,7 +52760,7 @@
                 "non_qualified": "1F9D1-1F3FC-200D-2695",
                 "image": "1f9d1-1f3fc-200d-2695-fe0f.png",
                 "sheet_x": 47,
-                "sheet_y": 46,
+                "sheet_y": 51,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52712,7 +52772,7 @@
                 "non_qualified": "1F9D1-1F3FD-200D-2695",
                 "image": "1f9d1-1f3fd-200d-2695-fe0f.png",
                 "sheet_x": 47,
-                "sheet_y": 47,
+                "sheet_y": 52,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52724,7 +52784,7 @@
                 "non_qualified": "1F9D1-1F3FE-200D-2695",
                 "image": "1f9d1-1f3fe-200d-2695-fe0f.png",
                 "sheet_x": 47,
-                "sheet_y": 48,
+                "sheet_y": 53,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52736,7 +52796,7 @@
                 "non_qualified": "1F9D1-1F3FF-200D-2695",
                 "image": "1f9d1-1f3ff-200d-2695-fe0f.png",
                 "sheet_x": 47,
-                "sheet_y": 49,
+                "sheet_y": 54,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52755,7 +52815,7 @@
         "google": null,
         "image": "1f9d1-200d-2696-fe0f.png",
         "sheet_x": 47,
-        "sheet_y": 50,
+        "sheet_y": 55,
         "short_name": "judge",
         "short_names": [
             "judge"
@@ -52775,7 +52835,7 @@
                 "non_qualified": "1F9D1-1F3FB-200D-2696",
                 "image": "1f9d1-1f3fb-200d-2696-fe0f.png",
                 "sheet_x": 47,
-                "sheet_y": 51,
+                "sheet_y": 56,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52786,8 +52846,8 @@
                 "unified": "1F9D1-1F3FC-200D-2696-FE0F",
                 "non_qualified": "1F9D1-1F3FC-200D-2696",
                 "image": "1f9d1-1f3fc-200d-2696-fe0f.png",
-                "sheet_x": 47,
-                "sheet_y": 52,
+                "sheet_x": 48,
+                "sheet_y": 0,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52798,8 +52858,8 @@
                 "unified": "1F9D1-1F3FD-200D-2696-FE0F",
                 "non_qualified": "1F9D1-1F3FD-200D-2696",
                 "image": "1f9d1-1f3fd-200d-2696-fe0f.png",
-                "sheet_x": 47,
-                "sheet_y": 53,
+                "sheet_x": 48,
+                "sheet_y": 1,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52810,8 +52870,8 @@
                 "unified": "1F9D1-1F3FE-200D-2696-FE0F",
                 "non_qualified": "1F9D1-1F3FE-200D-2696",
                 "image": "1f9d1-1f3fe-200d-2696-fe0f.png",
-                "sheet_x": 47,
-                "sheet_y": 54,
+                "sheet_x": 48,
+                "sheet_y": 2,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52822,8 +52882,8 @@
                 "unified": "1F9D1-1F3FF-200D-2696-FE0F",
                 "non_qualified": "1F9D1-1F3FF-200D-2696",
                 "image": "1f9d1-1f3ff-200d-2696-fe0f.png",
-                "sheet_x": 47,
-                "sheet_y": 55,
+                "sheet_x": 48,
+                "sheet_y": 3,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52841,8 +52901,8 @@
         "softbank": null,
         "google": null,
         "image": "1f9d1-200d-2708-fe0f.png",
-        "sheet_x": 47,
-        "sheet_y": 56,
+        "sheet_x": 48,
+        "sheet_y": 4,
         "short_name": "pilot",
         "short_names": [
             "pilot"
@@ -52862,7 +52922,7 @@
                 "non_qualified": "1F9D1-1F3FB-200D-2708",
                 "image": "1f9d1-1f3fb-200d-2708-fe0f.png",
                 "sheet_x": 48,
-                "sheet_y": 0,
+                "sheet_y": 5,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52874,7 +52934,7 @@
                 "non_qualified": "1F9D1-1F3FC-200D-2708",
                 "image": "1f9d1-1f3fc-200d-2708-fe0f.png",
                 "sheet_x": 48,
-                "sheet_y": 1,
+                "sheet_y": 6,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52886,7 +52946,7 @@
                 "non_qualified": "1F9D1-1F3FD-200D-2708",
                 "image": "1f9d1-1f3fd-200d-2708-fe0f.png",
                 "sheet_x": 48,
-                "sheet_y": 2,
+                "sheet_y": 7,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52898,7 +52958,7 @@
                 "non_qualified": "1F9D1-1F3FE-200D-2708",
                 "image": "1f9d1-1f3fe-200d-2708-fe0f.png",
                 "sheet_x": 48,
-                "sheet_y": 3,
+                "sheet_y": 8,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52910,7 +52970,7 @@
                 "non_qualified": "1F9D1-1F3FF-200D-2708",
                 "image": "1f9d1-1f3ff-200d-2708-fe0f.png",
                 "sheet_x": 48,
-                "sheet_y": 4,
+                "sheet_y": 9,
                 "added_in": "12.1",
                 "has_img_apple": true,
                 "has_img_google": false,
@@ -52929,7 +52989,7 @@
         "google": null,
         "image": "1f9d1.png",
         "sheet_x": 48,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "adult",
         "short_names": [
             "adult"
@@ -52949,7 +53009,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fb.png",
                 "sheet_x": 48,
-                "sheet_y": 6,
+                "sheet_y": 11,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -52961,7 +53021,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fc.png",
                 "sheet_x": 48,
-                "sheet_y": 7,
+                "sheet_y": 12,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -52973,7 +53033,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fd.png",
                 "sheet_x": 48,
-                "sheet_y": 8,
+                "sheet_y": 13,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -52985,7 +53045,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3fe.png",
                 "sheet_x": 48,
-                "sheet_y": 9,
+                "sheet_y": 14,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -52997,7 +53057,7 @@
                 "non_qualified": null,
                 "image": "1f9d1-1f3ff.png",
                 "sheet_x": 48,
-                "sheet_y": 10,
+                "sheet_y": 15,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53016,7 +53076,7 @@
         "google": null,
         "image": "1f9d2.png",
         "sheet_x": 48,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "child",
         "short_names": [
             "child"
@@ -53036,7 +53096,7 @@
                 "non_qualified": null,
                 "image": "1f9d2-1f3fb.png",
                 "sheet_x": 48,
-                "sheet_y": 12,
+                "sheet_y": 17,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53048,7 +53108,7 @@
                 "non_qualified": null,
                 "image": "1f9d2-1f3fc.png",
                 "sheet_x": 48,
-                "sheet_y": 13,
+                "sheet_y": 18,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53060,7 +53120,7 @@
                 "non_qualified": null,
                 "image": "1f9d2-1f3fd.png",
                 "sheet_x": 48,
-                "sheet_y": 14,
+                "sheet_y": 19,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53072,7 +53132,7 @@
                 "non_qualified": null,
                 "image": "1f9d2-1f3fe.png",
                 "sheet_x": 48,
-                "sheet_y": 15,
+                "sheet_y": 20,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53084,7 +53144,7 @@
                 "non_qualified": null,
                 "image": "1f9d2-1f3ff.png",
                 "sheet_x": 48,
-                "sheet_y": 16,
+                "sheet_y": 21,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53103,7 +53163,7 @@
         "google": null,
         "image": "1f9d3.png",
         "sheet_x": 48,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "older_adult",
         "short_names": [
             "older_adult"
@@ -53123,7 +53183,7 @@
                 "non_qualified": null,
                 "image": "1f9d3-1f3fb.png",
                 "sheet_x": 48,
-                "sheet_y": 18,
+                "sheet_y": 23,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53135,7 +53195,7 @@
                 "non_qualified": null,
                 "image": "1f9d3-1f3fc.png",
                 "sheet_x": 48,
-                "sheet_y": 19,
+                "sheet_y": 24,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53147,7 +53207,7 @@
                 "non_qualified": null,
                 "image": "1f9d3-1f3fd.png",
                 "sheet_x": 48,
-                "sheet_y": 20,
+                "sheet_y": 25,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53159,7 +53219,7 @@
                 "non_qualified": null,
                 "image": "1f9d3-1f3fe.png",
                 "sheet_x": 48,
-                "sheet_y": 21,
+                "sheet_y": 26,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53171,7 +53231,7 @@
                 "non_qualified": null,
                 "image": "1f9d3-1f3ff.png",
                 "sheet_x": 48,
-                "sheet_y": 22,
+                "sheet_y": 27,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53190,7 +53250,7 @@
         "google": null,
         "image": "1f9d4.png",
         "sheet_x": 48,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "bearded_person",
         "short_names": [
             "bearded_person"
@@ -53210,7 +53270,7 @@
                 "non_qualified": null,
                 "image": "1f9d4-1f3fb.png",
                 "sheet_x": 48,
-                "sheet_y": 24,
+                "sheet_y": 29,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53222,7 +53282,7 @@
                 "non_qualified": null,
                 "image": "1f9d4-1f3fc.png",
                 "sheet_x": 48,
-                "sheet_y": 25,
+                "sheet_y": 30,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53234,7 +53294,7 @@
                 "non_qualified": null,
                 "image": "1f9d4-1f3fd.png",
                 "sheet_x": 48,
-                "sheet_y": 26,
+                "sheet_y": 31,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53246,7 +53306,7 @@
                 "non_qualified": null,
                 "image": "1f9d4-1f3fe.png",
                 "sheet_x": 48,
-                "sheet_y": 27,
+                "sheet_y": 32,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53258,7 +53318,7 @@
                 "non_qualified": null,
                 "image": "1f9d4-1f3ff.png",
                 "sheet_x": 48,
-                "sheet_y": 28,
+                "sheet_y": 33,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53277,7 +53337,7 @@
         "google": null,
         "image": "1f9d5.png",
         "sheet_x": 48,
-        "sheet_y": 29,
+        "sheet_y": 34,
         "short_name": "person_with_headscarf",
         "short_names": [
             "person_with_headscarf"
@@ -53297,7 +53357,7 @@
                 "non_qualified": null,
                 "image": "1f9d5-1f3fb.png",
                 "sheet_x": 48,
-                "sheet_y": 30,
+                "sheet_y": 35,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53309,7 +53369,7 @@
                 "non_qualified": null,
                 "image": "1f9d5-1f3fc.png",
                 "sheet_x": 48,
-                "sheet_y": 31,
+                "sheet_y": 36,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53321,7 +53381,7 @@
                 "non_qualified": null,
                 "image": "1f9d5-1f3fd.png",
                 "sheet_x": 48,
-                "sheet_y": 32,
+                "sheet_y": 37,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53333,7 +53393,7 @@
                 "non_qualified": null,
                 "image": "1f9d5-1f3fe.png",
                 "sheet_x": 48,
-                "sheet_y": 33,
+                "sheet_y": 38,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53345,7 +53405,7 @@
                 "non_qualified": null,
                 "image": "1f9d5-1f3ff.png",
                 "sheet_x": 48,
-                "sheet_y": 34,
+                "sheet_y": 39,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53364,7 +53424,7 @@
         "google": null,
         "image": "1f9d6-200d-2640-fe0f.png",
         "sheet_x": 48,
-        "sheet_y": 35,
+        "sheet_y": 40,
         "short_name": "woman_in_steamy_room",
         "short_names": [
             "woman_in_steamy_room"
@@ -53384,7 +53444,7 @@
                 "non_qualified": "1F9D6-1F3FB-200D-2640",
                 "image": "1f9d6-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 48,
-                "sheet_y": 36,
+                "sheet_y": 41,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53396,7 +53456,7 @@
                 "non_qualified": "1F9D6-1F3FC-200D-2640",
                 "image": "1f9d6-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 48,
-                "sheet_y": 37,
+                "sheet_y": 42,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53408,7 +53468,7 @@
                 "non_qualified": "1F9D6-1F3FD-200D-2640",
                 "image": "1f9d6-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 48,
-                "sheet_y": 38,
+                "sheet_y": 43,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53420,7 +53480,7 @@
                 "non_qualified": "1F9D6-1F3FE-200D-2640",
                 "image": "1f9d6-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 48,
-                "sheet_y": 39,
+                "sheet_y": 44,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53432,7 +53492,7 @@
                 "non_qualified": "1F9D6-1F3FF-200D-2640",
                 "image": "1f9d6-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 48,
-                "sheet_y": 40,
+                "sheet_y": 45,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53451,7 +53511,7 @@
         "google": null,
         "image": "1f9d6-200d-2642-fe0f.png",
         "sheet_x": 48,
-        "sheet_y": 41,
+        "sheet_y": 46,
         "short_name": "man_in_steamy_room",
         "short_names": [
             "man_in_steamy_room"
@@ -53471,7 +53531,7 @@
                 "non_qualified": "1F9D6-1F3FB-200D-2642",
                 "image": "1f9d6-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 48,
-                "sheet_y": 42,
+                "sheet_y": 47,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53484,7 +53544,7 @@
                 "non_qualified": "1F9D6-1F3FC-200D-2642",
                 "image": "1f9d6-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 48,
-                "sheet_y": 43,
+                "sheet_y": 48,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53497,7 +53557,7 @@
                 "non_qualified": "1F9D6-1F3FD-200D-2642",
                 "image": "1f9d6-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 48,
-                "sheet_y": 44,
+                "sheet_y": 49,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53510,7 +53570,7 @@
                 "non_qualified": "1F9D6-1F3FE-200D-2642",
                 "image": "1f9d6-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 48,
-                "sheet_y": 45,
+                "sheet_y": 50,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53523,7 +53583,7 @@
                 "non_qualified": "1F9D6-1F3FF-200D-2642",
                 "image": "1f9d6-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 48,
-                "sheet_y": 46,
+                "sheet_y": 51,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53544,7 +53604,7 @@
         "google": null,
         "image": "1f9d6.png",
         "sheet_x": 48,
-        "sheet_y": 47,
+        "sheet_y": 52,
         "short_name": "person_in_steamy_room",
         "short_names": [
             "person_in_steamy_room"
@@ -53564,7 +53624,7 @@
                 "non_qualified": null,
                 "image": "1f9d6-1f3fb.png",
                 "sheet_x": 48,
-                "sheet_y": 48,
+                "sheet_y": 53,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53577,7 +53637,7 @@
                 "non_qualified": null,
                 "image": "1f9d6-1f3fc.png",
                 "sheet_x": 48,
-                "sheet_y": 49,
+                "sheet_y": 54,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53590,7 +53650,7 @@
                 "non_qualified": null,
                 "image": "1f9d6-1f3fd.png",
                 "sheet_x": 48,
-                "sheet_y": 50,
+                "sheet_y": 55,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53603,7 +53663,7 @@
                 "non_qualified": null,
                 "image": "1f9d6-1f3fe.png",
                 "sheet_x": 48,
-                "sheet_y": 51,
+                "sheet_y": 56,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53615,8 +53675,8 @@
                 "unified": "1F9D6-1F3FF",
                 "non_qualified": null,
                 "image": "1f9d6-1f3ff.png",
-                "sheet_x": 48,
-                "sheet_y": 52,
+                "sheet_x": 49,
+                "sheet_y": 0,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53636,8 +53696,8 @@
         "softbank": null,
         "google": null,
         "image": "1f9d7-200d-2640-fe0f.png",
-        "sheet_x": 48,
-        "sheet_y": 53,
+        "sheet_x": 49,
+        "sheet_y": 1,
         "short_name": "woman_climbing",
         "short_names": [
             "woman_climbing"
@@ -53656,8 +53716,8 @@
                 "unified": "1F9D7-1F3FB-200D-2640-FE0F",
                 "non_qualified": "1F9D7-1F3FB-200D-2640",
                 "image": "1f9d7-1f3fb-200d-2640-fe0f.png",
-                "sheet_x": 48,
-                "sheet_y": 54,
+                "sheet_x": 49,
+                "sheet_y": 2,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53669,8 +53729,8 @@
                 "unified": "1F9D7-1F3FC-200D-2640-FE0F",
                 "non_qualified": "1F9D7-1F3FC-200D-2640",
                 "image": "1f9d7-1f3fc-200d-2640-fe0f.png",
-                "sheet_x": 48,
-                "sheet_y": 55,
+                "sheet_x": 49,
+                "sheet_y": 3,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53682,8 +53742,8 @@
                 "unified": "1F9D7-1F3FD-200D-2640-FE0F",
                 "non_qualified": "1F9D7-1F3FD-200D-2640",
                 "image": "1f9d7-1f3fd-200d-2640-fe0f.png",
-                "sheet_x": 48,
-                "sheet_y": 56,
+                "sheet_x": 49,
+                "sheet_y": 4,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53696,7 +53756,7 @@
                 "non_qualified": "1F9D7-1F3FE-200D-2640",
                 "image": "1f9d7-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 49,
-                "sheet_y": 0,
+                "sheet_y": 5,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53709,7 +53769,7 @@
                 "non_qualified": "1F9D7-1F3FF-200D-2640",
                 "image": "1f9d7-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 49,
-                "sheet_y": 1,
+                "sheet_y": 6,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53730,7 +53790,7 @@
         "google": null,
         "image": "1f9d7-200d-2642-fe0f.png",
         "sheet_x": 49,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "man_climbing",
         "short_names": [
             "man_climbing"
@@ -53750,7 +53810,7 @@
                 "non_qualified": "1F9D7-1F3FB-200D-2642",
                 "image": "1f9d7-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 49,
-                "sheet_y": 3,
+                "sheet_y": 8,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53762,7 +53822,7 @@
                 "non_qualified": "1F9D7-1F3FC-200D-2642",
                 "image": "1f9d7-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 49,
-                "sheet_y": 4,
+                "sheet_y": 9,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53774,7 +53834,7 @@
                 "non_qualified": "1F9D7-1F3FD-200D-2642",
                 "image": "1f9d7-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 49,
-                "sheet_y": 5,
+                "sheet_y": 10,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53786,7 +53846,7 @@
                 "non_qualified": "1F9D7-1F3FE-200D-2642",
                 "image": "1f9d7-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 49,
-                "sheet_y": 6,
+                "sheet_y": 11,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53798,7 +53858,7 @@
                 "non_qualified": "1F9D7-1F3FF-200D-2642",
                 "image": "1f9d7-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 49,
-                "sheet_y": 7,
+                "sheet_y": 12,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53817,7 +53877,7 @@
         "google": null,
         "image": "1f9d7.png",
         "sheet_x": 49,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "person_climbing",
         "short_names": [
             "person_climbing"
@@ -53837,7 +53897,7 @@
                 "non_qualified": null,
                 "image": "1f9d7-1f3fb.png",
                 "sheet_x": 49,
-                "sheet_y": 9,
+                "sheet_y": 14,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53850,7 +53910,7 @@
                 "non_qualified": null,
                 "image": "1f9d7-1f3fc.png",
                 "sheet_x": 49,
-                "sheet_y": 10,
+                "sheet_y": 15,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53863,7 +53923,7 @@
                 "non_qualified": null,
                 "image": "1f9d7-1f3fd.png",
                 "sheet_x": 49,
-                "sheet_y": 11,
+                "sheet_y": 16,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53876,7 +53936,7 @@
                 "non_qualified": null,
                 "image": "1f9d7-1f3fe.png",
                 "sheet_x": 49,
-                "sheet_y": 12,
+                "sheet_y": 17,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53889,7 +53949,7 @@
                 "non_qualified": null,
                 "image": "1f9d7-1f3ff.png",
                 "sheet_x": 49,
-                "sheet_y": 13,
+                "sheet_y": 18,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53910,7 +53970,7 @@
         "google": null,
         "image": "1f9d8-200d-2640-fe0f.png",
         "sheet_x": 49,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "woman_in_lotus_position",
         "short_names": [
             "woman_in_lotus_position"
@@ -53930,7 +53990,7 @@
                 "non_qualified": "1F9D8-1F3FB-200D-2640",
                 "image": "1f9d8-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 49,
-                "sheet_y": 15,
+                "sheet_y": 20,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53943,7 +54003,7 @@
                 "non_qualified": "1F9D8-1F3FC-200D-2640",
                 "image": "1f9d8-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 49,
-                "sheet_y": 16,
+                "sheet_y": 21,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53956,7 +54016,7 @@
                 "non_qualified": "1F9D8-1F3FD-200D-2640",
                 "image": "1f9d8-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 49,
-                "sheet_y": 17,
+                "sheet_y": 22,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53969,7 +54029,7 @@
                 "non_qualified": "1F9D8-1F3FE-200D-2640",
                 "image": "1f9d8-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 49,
-                "sheet_y": 18,
+                "sheet_y": 23,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -53982,7 +54042,7 @@
                 "non_qualified": "1F9D8-1F3FF-200D-2640",
                 "image": "1f9d8-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 49,
-                "sheet_y": 19,
+                "sheet_y": 24,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54003,7 +54063,7 @@
         "google": null,
         "image": "1f9d8-200d-2642-fe0f.png",
         "sheet_x": 49,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "man_in_lotus_position",
         "short_names": [
             "man_in_lotus_position"
@@ -54023,7 +54083,7 @@
                 "non_qualified": "1F9D8-1F3FB-200D-2642",
                 "image": "1f9d8-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 49,
-                "sheet_y": 21,
+                "sheet_y": 26,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54035,7 +54095,7 @@
                 "non_qualified": "1F9D8-1F3FC-200D-2642",
                 "image": "1f9d8-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 49,
-                "sheet_y": 22,
+                "sheet_y": 27,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54047,7 +54107,7 @@
                 "non_qualified": "1F9D8-1F3FD-200D-2642",
                 "image": "1f9d8-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 49,
-                "sheet_y": 23,
+                "sheet_y": 28,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54059,7 +54119,7 @@
                 "non_qualified": "1F9D8-1F3FE-200D-2642",
                 "image": "1f9d8-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 49,
-                "sheet_y": 24,
+                "sheet_y": 29,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54071,7 +54131,7 @@
                 "non_qualified": "1F9D8-1F3FF-200D-2642",
                 "image": "1f9d8-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 49,
-                "sheet_y": 25,
+                "sheet_y": 30,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54090,7 +54150,7 @@
         "google": null,
         "image": "1f9d8.png",
         "sheet_x": 49,
-        "sheet_y": 26,
+        "sheet_y": 31,
         "short_name": "person_in_lotus_position",
         "short_names": [
             "person_in_lotus_position"
@@ -54110,7 +54170,7 @@
                 "non_qualified": null,
                 "image": "1f9d8-1f3fb.png",
                 "sheet_x": 49,
-                "sheet_y": 27,
+                "sheet_y": 32,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54123,7 +54183,7 @@
                 "non_qualified": null,
                 "image": "1f9d8-1f3fc.png",
                 "sheet_x": 49,
-                "sheet_y": 28,
+                "sheet_y": 33,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54136,7 +54196,7 @@
                 "non_qualified": null,
                 "image": "1f9d8-1f3fd.png",
                 "sheet_x": 49,
-                "sheet_y": 29,
+                "sheet_y": 34,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54149,7 +54209,7 @@
                 "non_qualified": null,
                 "image": "1f9d8-1f3fe.png",
                 "sheet_x": 49,
-                "sheet_y": 30,
+                "sheet_y": 35,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54162,7 +54222,7 @@
                 "non_qualified": null,
                 "image": "1f9d8-1f3ff.png",
                 "sheet_x": 49,
-                "sheet_y": 31,
+                "sheet_y": 36,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54183,7 +54243,7 @@
         "google": null,
         "image": "1f9d9-200d-2640-fe0f.png",
         "sheet_x": 49,
-        "sheet_y": 32,
+        "sheet_y": 37,
         "short_name": "female_mage",
         "short_names": [
             "female_mage"
@@ -54203,7 +54263,7 @@
                 "non_qualified": "1F9D9-1F3FB-200D-2640",
                 "image": "1f9d9-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 49,
-                "sheet_y": 33,
+                "sheet_y": 38,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54216,7 +54276,7 @@
                 "non_qualified": "1F9D9-1F3FC-200D-2640",
                 "image": "1f9d9-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 49,
-                "sheet_y": 34,
+                "sheet_y": 39,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54229,7 +54289,7 @@
                 "non_qualified": "1F9D9-1F3FD-200D-2640",
                 "image": "1f9d9-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 49,
-                "sheet_y": 35,
+                "sheet_y": 40,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54242,7 +54302,7 @@
                 "non_qualified": "1F9D9-1F3FE-200D-2640",
                 "image": "1f9d9-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 49,
-                "sheet_y": 36,
+                "sheet_y": 41,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54255,7 +54315,7 @@
                 "non_qualified": "1F9D9-1F3FF-200D-2640",
                 "image": "1f9d9-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 49,
-                "sheet_y": 37,
+                "sheet_y": 42,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54276,7 +54336,7 @@
         "google": null,
         "image": "1f9d9-200d-2642-fe0f.png",
         "sheet_x": 49,
-        "sheet_y": 38,
+        "sheet_y": 43,
         "short_name": "male_mage",
         "short_names": [
             "male_mage"
@@ -54296,7 +54356,7 @@
                 "non_qualified": "1F9D9-1F3FB-200D-2642",
                 "image": "1f9d9-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 49,
-                "sheet_y": 39,
+                "sheet_y": 44,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54308,7 +54368,7 @@
                 "non_qualified": "1F9D9-1F3FC-200D-2642",
                 "image": "1f9d9-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 49,
-                "sheet_y": 40,
+                "sheet_y": 45,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54320,7 +54380,7 @@
                 "non_qualified": "1F9D9-1F3FD-200D-2642",
                 "image": "1f9d9-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 49,
-                "sheet_y": 41,
+                "sheet_y": 46,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54332,7 +54392,7 @@
                 "non_qualified": "1F9D9-1F3FE-200D-2642",
                 "image": "1f9d9-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 49,
-                "sheet_y": 42,
+                "sheet_y": 47,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54344,7 +54404,7 @@
                 "non_qualified": "1F9D9-1F3FF-200D-2642",
                 "image": "1f9d9-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 49,
-                "sheet_y": 43,
+                "sheet_y": 48,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54363,7 +54423,7 @@
         "google": null,
         "image": "1f9d9.png",
         "sheet_x": 49,
-        "sheet_y": 44,
+        "sheet_y": 49,
         "short_name": "mage",
         "short_names": [
             "mage"
@@ -54383,7 +54443,7 @@
                 "non_qualified": null,
                 "image": "1f9d9-1f3fb.png",
                 "sheet_x": 49,
-                "sheet_y": 45,
+                "sheet_y": 50,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54396,7 +54456,7 @@
                 "non_qualified": null,
                 "image": "1f9d9-1f3fc.png",
                 "sheet_x": 49,
-                "sheet_y": 46,
+                "sheet_y": 51,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54409,7 +54469,7 @@
                 "non_qualified": null,
                 "image": "1f9d9-1f3fd.png",
                 "sheet_x": 49,
-                "sheet_y": 47,
+                "sheet_y": 52,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54422,7 +54482,7 @@
                 "non_qualified": null,
                 "image": "1f9d9-1f3fe.png",
                 "sheet_x": 49,
-                "sheet_y": 48,
+                "sheet_y": 53,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54435,7 +54495,7 @@
                 "non_qualified": null,
                 "image": "1f9d9-1f3ff.png",
                 "sheet_x": 49,
-                "sheet_y": 49,
+                "sheet_y": 54,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54456,7 +54516,7 @@
         "google": null,
         "image": "1f9da-200d-2640-fe0f.png",
         "sheet_x": 49,
-        "sheet_y": 50,
+        "sheet_y": 55,
         "short_name": "female_fairy",
         "short_names": [
             "female_fairy"
@@ -54476,7 +54536,7 @@
                 "non_qualified": "1F9DA-1F3FB-200D-2640",
                 "image": "1f9da-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 49,
-                "sheet_y": 51,
+                "sheet_y": 56,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54488,8 +54548,8 @@
                 "unified": "1F9DA-1F3FC-200D-2640-FE0F",
                 "non_qualified": "1F9DA-1F3FC-200D-2640",
                 "image": "1f9da-1f3fc-200d-2640-fe0f.png",
-                "sheet_x": 49,
-                "sheet_y": 52,
+                "sheet_x": 50,
+                "sheet_y": 0,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54501,8 +54561,8 @@
                 "unified": "1F9DA-1F3FD-200D-2640-FE0F",
                 "non_qualified": "1F9DA-1F3FD-200D-2640",
                 "image": "1f9da-1f3fd-200d-2640-fe0f.png",
-                "sheet_x": 49,
-                "sheet_y": 53,
+                "sheet_x": 50,
+                "sheet_y": 1,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54514,8 +54574,8 @@
                 "unified": "1F9DA-1F3FE-200D-2640-FE0F",
                 "non_qualified": "1F9DA-1F3FE-200D-2640",
                 "image": "1f9da-1f3fe-200d-2640-fe0f.png",
-                "sheet_x": 49,
-                "sheet_y": 54,
+                "sheet_x": 50,
+                "sheet_y": 2,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54527,8 +54587,8 @@
                 "unified": "1F9DA-1F3FF-200D-2640-FE0F",
                 "non_qualified": "1F9DA-1F3FF-200D-2640",
                 "image": "1f9da-1f3ff-200d-2640-fe0f.png",
-                "sheet_x": 49,
-                "sheet_y": 55,
+                "sheet_x": 50,
+                "sheet_y": 3,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54548,8 +54608,8 @@
         "softbank": null,
         "google": null,
         "image": "1f9da-200d-2642-fe0f.png",
-        "sheet_x": 49,
-        "sheet_y": 56,
+        "sheet_x": 50,
+        "sheet_y": 4,
         "short_name": "male_fairy",
         "short_names": [
             "male_fairy"
@@ -54569,7 +54629,7 @@
                 "non_qualified": "1F9DA-1F3FB-200D-2642",
                 "image": "1f9da-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 0,
+                "sheet_y": 5,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54581,7 +54641,7 @@
                 "non_qualified": "1F9DA-1F3FC-200D-2642",
                 "image": "1f9da-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 1,
+                "sheet_y": 6,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54593,7 +54653,7 @@
                 "non_qualified": "1F9DA-1F3FD-200D-2642",
                 "image": "1f9da-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 2,
+                "sheet_y": 7,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54605,7 +54665,7 @@
                 "non_qualified": "1F9DA-1F3FE-200D-2642",
                 "image": "1f9da-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 3,
+                "sheet_y": 8,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54617,7 +54677,7 @@
                 "non_qualified": "1F9DA-1F3FF-200D-2642",
                 "image": "1f9da-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 4,
+                "sheet_y": 9,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54636,7 +54696,7 @@
         "google": null,
         "image": "1f9da.png",
         "sheet_x": 50,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "fairy",
         "short_names": [
             "fairy"
@@ -54656,7 +54716,7 @@
                 "non_qualified": null,
                 "image": "1f9da-1f3fb.png",
                 "sheet_x": 50,
-                "sheet_y": 6,
+                "sheet_y": 11,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54669,7 +54729,7 @@
                 "non_qualified": null,
                 "image": "1f9da-1f3fc.png",
                 "sheet_x": 50,
-                "sheet_y": 7,
+                "sheet_y": 12,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54682,7 +54742,7 @@
                 "non_qualified": null,
                 "image": "1f9da-1f3fd.png",
                 "sheet_x": 50,
-                "sheet_y": 8,
+                "sheet_y": 13,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54695,7 +54755,7 @@
                 "non_qualified": null,
                 "image": "1f9da-1f3fe.png",
                 "sheet_x": 50,
-                "sheet_y": 9,
+                "sheet_y": 14,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54708,7 +54768,7 @@
                 "non_qualified": null,
                 "image": "1f9da-1f3ff.png",
                 "sheet_x": 50,
-                "sheet_y": 10,
+                "sheet_y": 15,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54729,7 +54789,7 @@
         "google": null,
         "image": "1f9db-200d-2640-fe0f.png",
         "sheet_x": 50,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "female_vampire",
         "short_names": [
             "female_vampire"
@@ -54749,7 +54809,7 @@
                 "non_qualified": "1F9DB-1F3FB-200D-2640",
                 "image": "1f9db-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 12,
+                "sheet_y": 17,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54762,7 +54822,7 @@
                 "non_qualified": "1F9DB-1F3FC-200D-2640",
                 "image": "1f9db-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 13,
+                "sheet_y": 18,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54775,7 +54835,7 @@
                 "non_qualified": "1F9DB-1F3FD-200D-2640",
                 "image": "1f9db-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 14,
+                "sheet_y": 19,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54788,7 +54848,7 @@
                 "non_qualified": "1F9DB-1F3FE-200D-2640",
                 "image": "1f9db-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 15,
+                "sheet_y": 20,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54801,7 +54861,7 @@
                 "non_qualified": "1F9DB-1F3FF-200D-2640",
                 "image": "1f9db-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 16,
+                "sheet_y": 21,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54822,7 +54882,7 @@
         "google": null,
         "image": "1f9db-200d-2642-fe0f.png",
         "sheet_x": 50,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "male_vampire",
         "short_names": [
             "male_vampire"
@@ -54842,7 +54902,7 @@
                 "non_qualified": "1F9DB-1F3FB-200D-2642",
                 "image": "1f9db-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 18,
+                "sheet_y": 23,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54854,7 +54914,7 @@
                 "non_qualified": "1F9DB-1F3FC-200D-2642",
                 "image": "1f9db-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 19,
+                "sheet_y": 24,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54866,7 +54926,7 @@
                 "non_qualified": "1F9DB-1F3FD-200D-2642",
                 "image": "1f9db-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 20,
+                "sheet_y": 25,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54878,7 +54938,7 @@
                 "non_qualified": "1F9DB-1F3FE-200D-2642",
                 "image": "1f9db-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 21,
+                "sheet_y": 26,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54890,7 +54950,7 @@
                 "non_qualified": "1F9DB-1F3FF-200D-2642",
                 "image": "1f9db-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 22,
+                "sheet_y": 27,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54909,7 +54969,7 @@
         "google": null,
         "image": "1f9db.png",
         "sheet_x": 50,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "vampire",
         "short_names": [
             "vampire"
@@ -54929,7 +54989,7 @@
                 "non_qualified": null,
                 "image": "1f9db-1f3fb.png",
                 "sheet_x": 50,
-                "sheet_y": 24,
+                "sheet_y": 29,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54942,7 +55002,7 @@
                 "non_qualified": null,
                 "image": "1f9db-1f3fc.png",
                 "sheet_x": 50,
-                "sheet_y": 25,
+                "sheet_y": 30,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54955,7 +55015,7 @@
                 "non_qualified": null,
                 "image": "1f9db-1f3fd.png",
                 "sheet_x": 50,
-                "sheet_y": 26,
+                "sheet_y": 31,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54968,7 +55028,7 @@
                 "non_qualified": null,
                 "image": "1f9db-1f3fe.png",
                 "sheet_x": 50,
-                "sheet_y": 27,
+                "sheet_y": 32,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -54981,7 +55041,7 @@
                 "non_qualified": null,
                 "image": "1f9db-1f3ff.png",
                 "sheet_x": 50,
-                "sheet_y": 28,
+                "sheet_y": 33,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55002,7 +55062,7 @@
         "google": null,
         "image": "1f9dc-200d-2640-fe0f.png",
         "sheet_x": 50,
-        "sheet_y": 29,
+        "sheet_y": 34,
         "short_name": "mermaid",
         "short_names": [
             "mermaid"
@@ -55022,7 +55082,7 @@
                 "non_qualified": "1F9DC-1F3FB-200D-2640",
                 "image": "1f9dc-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 30,
+                "sheet_y": 35,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55034,7 +55094,7 @@
                 "non_qualified": "1F9DC-1F3FC-200D-2640",
                 "image": "1f9dc-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 31,
+                "sheet_y": 36,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55046,7 +55106,7 @@
                 "non_qualified": "1F9DC-1F3FD-200D-2640",
                 "image": "1f9dc-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 32,
+                "sheet_y": 37,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55058,7 +55118,7 @@
                 "non_qualified": "1F9DC-1F3FE-200D-2640",
                 "image": "1f9dc-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 33,
+                "sheet_y": 38,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55070,7 +55130,7 @@
                 "non_qualified": "1F9DC-1F3FF-200D-2640",
                 "image": "1f9dc-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 34,
+                "sheet_y": 39,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55089,7 +55149,7 @@
         "google": null,
         "image": "1f9dc-200d-2642-fe0f.png",
         "sheet_x": 50,
-        "sheet_y": 35,
+        "sheet_y": 40,
         "short_name": "merman",
         "short_names": [
             "merman"
@@ -55109,7 +55169,7 @@
                 "non_qualified": "1F9DC-1F3FB-200D-2642",
                 "image": "1f9dc-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 36,
+                "sheet_y": 41,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55122,7 +55182,7 @@
                 "non_qualified": "1F9DC-1F3FC-200D-2642",
                 "image": "1f9dc-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 37,
+                "sheet_y": 42,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55135,7 +55195,7 @@
                 "non_qualified": "1F9DC-1F3FD-200D-2642",
                 "image": "1f9dc-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 38,
+                "sheet_y": 43,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55148,7 +55208,7 @@
                 "non_qualified": "1F9DC-1F3FE-200D-2642",
                 "image": "1f9dc-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 39,
+                "sheet_y": 44,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55161,7 +55221,7 @@
                 "non_qualified": "1F9DC-1F3FF-200D-2642",
                 "image": "1f9dc-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 40,
+                "sheet_y": 45,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55182,7 +55242,7 @@
         "google": null,
         "image": "1f9dc.png",
         "sheet_x": 50,
-        "sheet_y": 41,
+        "sheet_y": 46,
         "short_name": "merperson",
         "short_names": [
             "merperson"
@@ -55202,7 +55262,7 @@
                 "non_qualified": null,
                 "image": "1f9dc-1f3fb.png",
                 "sheet_x": 50,
-                "sheet_y": 42,
+                "sheet_y": 47,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55215,7 +55275,7 @@
                 "non_qualified": null,
                 "image": "1f9dc-1f3fc.png",
                 "sheet_x": 50,
-                "sheet_y": 43,
+                "sheet_y": 48,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55228,7 +55288,7 @@
                 "non_qualified": null,
                 "image": "1f9dc-1f3fd.png",
                 "sheet_x": 50,
-                "sheet_y": 44,
+                "sheet_y": 49,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55241,7 +55301,7 @@
                 "non_qualified": null,
                 "image": "1f9dc-1f3fe.png",
                 "sheet_x": 50,
-                "sheet_y": 45,
+                "sheet_y": 50,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55254,7 +55314,7 @@
                 "non_qualified": null,
                 "image": "1f9dc-1f3ff.png",
                 "sheet_x": 50,
-                "sheet_y": 46,
+                "sheet_y": 51,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55275,7 +55335,7 @@
         "google": null,
         "image": "1f9dd-200d-2640-fe0f.png",
         "sheet_x": 50,
-        "sheet_y": 47,
+        "sheet_y": 52,
         "short_name": "female_elf",
         "short_names": [
             "female_elf"
@@ -55295,7 +55355,7 @@
                 "non_qualified": "1F9DD-1F3FB-200D-2640",
                 "image": "1f9dd-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 48,
+                "sheet_y": 53,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55307,7 +55367,7 @@
                 "non_qualified": "1F9DD-1F3FC-200D-2640",
                 "image": "1f9dd-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 49,
+                "sheet_y": 54,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55319,7 +55379,7 @@
                 "non_qualified": "1F9DD-1F3FD-200D-2640",
                 "image": "1f9dd-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 50,
+                "sheet_y": 55,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55331,7 +55391,7 @@
                 "non_qualified": "1F9DD-1F3FE-200D-2640",
                 "image": "1f9dd-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 50,
-                "sheet_y": 51,
+                "sheet_y": 56,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55342,8 +55402,8 @@
                 "unified": "1F9DD-1F3FF-200D-2640-FE0F",
                 "non_qualified": "1F9DD-1F3FF-200D-2640",
                 "image": "1f9dd-1f3ff-200d-2640-fe0f.png",
-                "sheet_x": 50,
-                "sheet_y": 52,
+                "sheet_x": 51,
+                "sheet_y": 0,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55361,8 +55421,8 @@
         "softbank": null,
         "google": null,
         "image": "1f9dd-200d-2642-fe0f.png",
-        "sheet_x": 50,
-        "sheet_y": 53,
+        "sheet_x": 51,
+        "sheet_y": 1,
         "short_name": "male_elf",
         "short_names": [
             "male_elf"
@@ -55381,8 +55441,8 @@
                 "unified": "1F9DD-1F3FB-200D-2642-FE0F",
                 "non_qualified": "1F9DD-1F3FB-200D-2642",
                 "image": "1f9dd-1f3fb-200d-2642-fe0f.png",
-                "sheet_x": 50,
-                "sheet_y": 54,
+                "sheet_x": 51,
+                "sheet_y": 2,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55394,8 +55454,8 @@
                 "unified": "1F9DD-1F3FC-200D-2642-FE0F",
                 "non_qualified": "1F9DD-1F3FC-200D-2642",
                 "image": "1f9dd-1f3fc-200d-2642-fe0f.png",
-                "sheet_x": 50,
-                "sheet_y": 55,
+                "sheet_x": 51,
+                "sheet_y": 3,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55407,8 +55467,8 @@
                 "unified": "1F9DD-1F3FD-200D-2642-FE0F",
                 "non_qualified": "1F9DD-1F3FD-200D-2642",
                 "image": "1f9dd-1f3fd-200d-2642-fe0f.png",
-                "sheet_x": 50,
-                "sheet_y": 56,
+                "sheet_x": 51,
+                "sheet_y": 4,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55421,7 +55481,7 @@
                 "non_qualified": "1F9DD-1F3FE-200D-2642",
                 "image": "1f9dd-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 51,
-                "sheet_y": 0,
+                "sheet_y": 5,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55434,7 +55494,7 @@
                 "non_qualified": "1F9DD-1F3FF-200D-2642",
                 "image": "1f9dd-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 51,
-                "sheet_y": 1,
+                "sheet_y": 6,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55455,7 +55515,7 @@
         "google": null,
         "image": "1f9dd.png",
         "sheet_x": 51,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "elf",
         "short_names": [
             "elf"
@@ -55475,7 +55535,7 @@
                 "non_qualified": null,
                 "image": "1f9dd-1f3fb.png",
                 "sheet_x": 51,
-                "sheet_y": 3,
+                "sheet_y": 8,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55488,7 +55548,7 @@
                 "non_qualified": null,
                 "image": "1f9dd-1f3fc.png",
                 "sheet_x": 51,
-                "sheet_y": 4,
+                "sheet_y": 9,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55501,7 +55561,7 @@
                 "non_qualified": null,
                 "image": "1f9dd-1f3fd.png",
                 "sheet_x": 51,
-                "sheet_y": 5,
+                "sheet_y": 10,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55514,7 +55574,7 @@
                 "non_qualified": null,
                 "image": "1f9dd-1f3fe.png",
                 "sheet_x": 51,
-                "sheet_y": 6,
+                "sheet_y": 11,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55527,7 +55587,7 @@
                 "non_qualified": null,
                 "image": "1f9dd-1f3ff.png",
                 "sheet_x": 51,
-                "sheet_y": 7,
+                "sheet_y": 12,
                 "added_in": "5.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -55548,7 +55608,7 @@
         "google": null,
         "image": "1f9de-200d-2640-fe0f.png",
         "sheet_x": 51,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "female_genie",
         "short_names": [
             "female_genie"
@@ -55573,7 +55633,7 @@
         "google": null,
         "image": "1f9de-200d-2642-fe0f.png",
         "sheet_x": 51,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "male_genie",
         "short_names": [
             "male_genie"
@@ -55599,7 +55659,7 @@
         "google": null,
         "image": "1f9de.png",
         "sheet_x": 51,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "genie",
         "short_names": [
             "genie"
@@ -55625,7 +55685,7 @@
         "google": null,
         "image": "1f9df-200d-2640-fe0f.png",
         "sheet_x": 51,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "female_zombie",
         "short_names": [
             "female_zombie"
@@ -55650,7 +55710,7 @@
         "google": null,
         "image": "1f9df-200d-2642-fe0f.png",
         "sheet_x": 51,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "male_zombie",
         "short_names": [
             "male_zombie"
@@ -55676,7 +55736,7 @@
         "google": null,
         "image": "1f9df.png",
         "sheet_x": 51,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "zombie",
         "short_names": [
             "zombie"
@@ -55702,7 +55762,7 @@
         "google": null,
         "image": "1f9e0.png",
         "sheet_x": 51,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "brain",
         "short_names": [
             "brain"
@@ -55727,7 +55787,7 @@
         "google": null,
         "image": "1f9e1.png",
         "sheet_x": 51,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "orange_heart",
         "short_names": [
             "orange_heart"
@@ -55752,7 +55812,7 @@
         "google": null,
         "image": "1f9e2.png",
         "sheet_x": 51,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "billed_cap",
         "short_names": [
             "billed_cap"
@@ -55777,7 +55837,7 @@
         "google": null,
         "image": "1f9e3.png",
         "sheet_x": 51,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "scarf",
         "short_names": [
             "scarf"
@@ -55802,7 +55862,7 @@
         "google": null,
         "image": "1f9e4.png",
         "sheet_x": 51,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "gloves",
         "short_names": [
             "gloves"
@@ -55827,7 +55887,7 @@
         "google": null,
         "image": "1f9e5.png",
         "sheet_x": 51,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "coat",
         "short_names": [
             "coat"
@@ -55852,7 +55912,7 @@
         "google": null,
         "image": "1f9e6.png",
         "sheet_x": 51,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "socks",
         "short_names": [
             "socks"
@@ -55877,7 +55937,7 @@
         "google": null,
         "image": "1f9e7.png",
         "sheet_x": 51,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "red_envelope",
         "short_names": [
             "red_envelope"
@@ -55902,7 +55962,7 @@
         "google": null,
         "image": "1f9e8.png",
         "sheet_x": 51,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "firecracker",
         "short_names": [
             "firecracker"
@@ -55927,7 +55987,7 @@
         "google": null,
         "image": "1f9e9.png",
         "sheet_x": 51,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "jigsaw",
         "short_names": [
             "jigsaw"
@@ -55952,7 +56012,7 @@
         "google": null,
         "image": "1f9ea.png",
         "sheet_x": 51,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "test_tube",
         "short_names": [
             "test_tube"
@@ -55977,7 +56037,7 @@
         "google": null,
         "image": "1f9eb.png",
         "sheet_x": 51,
-        "sheet_y": 25,
+        "sheet_y": 30,
         "short_name": "petri_dish",
         "short_names": [
             "petri_dish"
@@ -56002,7 +56062,7 @@
         "google": null,
         "image": "1f9ec.png",
         "sheet_x": 51,
-        "sheet_y": 26,
+        "sheet_y": 31,
         "short_name": "dna",
         "short_names": [
             "dna"
@@ -56027,7 +56087,7 @@
         "google": null,
         "image": "1f9ed.png",
         "sheet_x": 51,
-        "sheet_y": 27,
+        "sheet_y": 32,
         "short_name": "compass",
         "short_names": [
             "compass"
@@ -56052,7 +56112,7 @@
         "google": null,
         "image": "1f9ee.png",
         "sheet_x": 51,
-        "sheet_y": 28,
+        "sheet_y": 33,
         "short_name": "abacus",
         "short_names": [
             "abacus"
@@ -56077,7 +56137,7 @@
         "google": null,
         "image": "1f9ef.png",
         "sheet_x": 51,
-        "sheet_y": 29,
+        "sheet_y": 34,
         "short_name": "fire_extinguisher",
         "short_names": [
             "fire_extinguisher"
@@ -56102,7 +56162,7 @@
         "google": null,
         "image": "1f9f0.png",
         "sheet_x": 51,
-        "sheet_y": 30,
+        "sheet_y": 35,
         "short_name": "toolbox",
         "short_names": [
             "toolbox"
@@ -56127,7 +56187,7 @@
         "google": null,
         "image": "1f9f1.png",
         "sheet_x": 51,
-        "sheet_y": 31,
+        "sheet_y": 36,
         "short_name": "bricks",
         "short_names": [
             "bricks"
@@ -56152,7 +56212,7 @@
         "google": null,
         "image": "1f9f2.png",
         "sheet_x": 51,
-        "sheet_y": 32,
+        "sheet_y": 37,
         "short_name": "magnet",
         "short_names": [
             "magnet"
@@ -56177,7 +56237,7 @@
         "google": null,
         "image": "1f9f3.png",
         "sheet_x": 51,
-        "sheet_y": 33,
+        "sheet_y": 38,
         "short_name": "luggage",
         "short_names": [
             "luggage"
@@ -56202,7 +56262,7 @@
         "google": null,
         "image": "1f9f4.png",
         "sheet_x": 51,
-        "sheet_y": 34,
+        "sheet_y": 39,
         "short_name": "lotion_bottle",
         "short_names": [
             "lotion_bottle"
@@ -56227,7 +56287,7 @@
         "google": null,
         "image": "1f9f5.png",
         "sheet_x": 51,
-        "sheet_y": 35,
+        "sheet_y": 40,
         "short_name": "thread",
         "short_names": [
             "thread"
@@ -56252,7 +56312,7 @@
         "google": null,
         "image": "1f9f6.png",
         "sheet_x": 51,
-        "sheet_y": 36,
+        "sheet_y": 41,
         "short_name": "yarn",
         "short_names": [
             "yarn"
@@ -56277,7 +56337,7 @@
         "google": null,
         "image": "1f9f7.png",
         "sheet_x": 51,
-        "sheet_y": 37,
+        "sheet_y": 42,
         "short_name": "safety_pin",
         "short_names": [
             "safety_pin"
@@ -56302,7 +56362,7 @@
         "google": null,
         "image": "1f9f8.png",
         "sheet_x": 51,
-        "sheet_y": 38,
+        "sheet_y": 43,
         "short_name": "teddy_bear",
         "short_names": [
             "teddy_bear"
@@ -56327,7 +56387,7 @@
         "google": null,
         "image": "1f9f9.png",
         "sheet_x": 51,
-        "sheet_y": 39,
+        "sheet_y": 44,
         "short_name": "broom",
         "short_names": [
             "broom"
@@ -56352,7 +56412,7 @@
         "google": null,
         "image": "1f9fa.png",
         "sheet_x": 51,
-        "sheet_y": 40,
+        "sheet_y": 45,
         "short_name": "basket",
         "short_names": [
             "basket"
@@ -56377,7 +56437,7 @@
         "google": null,
         "image": "1f9fb.png",
         "sheet_x": 51,
-        "sheet_y": 41,
+        "sheet_y": 46,
         "short_name": "roll_of_paper",
         "short_names": [
             "roll_of_paper"
@@ -56402,7 +56462,7 @@
         "google": null,
         "image": "1f9fc.png",
         "sheet_x": 51,
-        "sheet_y": 42,
+        "sheet_y": 47,
         "short_name": "soap",
         "short_names": [
             "soap"
@@ -56427,7 +56487,7 @@
         "google": null,
         "image": "1f9fd.png",
         "sheet_x": 51,
-        "sheet_y": 43,
+        "sheet_y": 48,
         "short_name": "sponge",
         "short_names": [
             "sponge"
@@ -56452,7 +56512,7 @@
         "google": null,
         "image": "1f9fe.png",
         "sheet_x": 51,
-        "sheet_y": 44,
+        "sheet_y": 49,
         "short_name": "receipt",
         "short_names": [
             "receipt"
@@ -56477,7 +56537,7 @@
         "google": null,
         "image": "1f9ff.png",
         "sheet_x": 51,
-        "sheet_y": 45,
+        "sheet_y": 50,
         "short_name": "nazar_amulet",
         "short_names": [
             "nazar_amulet"
@@ -56502,7 +56562,7 @@
         "google": null,
         "image": "1fa70.png",
         "sheet_x": 51,
-        "sheet_y": 46,
+        "sheet_y": 51,
         "short_name": "ballet_shoes",
         "short_names": [
             "ballet_shoes"
@@ -56527,7 +56587,7 @@
         "google": null,
         "image": "1fa71.png",
         "sheet_x": 51,
-        "sheet_y": 47,
+        "sheet_y": 52,
         "short_name": "one-piece_swimsuit",
         "short_names": [
             "one-piece_swimsuit"
@@ -56552,7 +56612,7 @@
         "google": null,
         "image": "1fa72.png",
         "sheet_x": 51,
-        "sheet_y": 48,
+        "sheet_y": 53,
         "short_name": "briefs",
         "short_names": [
             "briefs"
@@ -56577,7 +56637,7 @@
         "google": null,
         "image": "1fa73.png",
         "sheet_x": 51,
-        "sheet_y": 49,
+        "sheet_y": 54,
         "short_name": "shorts",
         "short_names": [
             "shorts"
@@ -56602,7 +56662,7 @@
         "google": null,
         "image": "1fa78.png",
         "sheet_x": 51,
-        "sheet_y": 50,
+        "sheet_y": 55,
         "short_name": "drop_of_blood",
         "short_names": [
             "drop_of_blood"
@@ -56627,7 +56687,7 @@
         "google": null,
         "image": "1fa79.png",
         "sheet_x": 51,
-        "sheet_y": 51,
+        "sheet_y": 56,
         "short_name": "adhesive_bandage",
         "short_names": [
             "adhesive_bandage"
@@ -56651,8 +56711,8 @@
         "softbank": null,
         "google": null,
         "image": "1fa7a.png",
-        "sheet_x": 51,
-        "sheet_y": 52,
+        "sheet_x": 52,
+        "sheet_y": 0,
         "short_name": "stethoscope",
         "short_names": [
             "stethoscope"
@@ -56676,8 +56736,8 @@
         "softbank": null,
         "google": null,
         "image": "1fa80.png",
-        "sheet_x": 51,
-        "sheet_y": 53,
+        "sheet_x": 52,
+        "sheet_y": 1,
         "short_name": "yo-yo",
         "short_names": [
             "yo-yo"
@@ -56701,8 +56761,8 @@
         "softbank": null,
         "google": null,
         "image": "1fa81.png",
-        "sheet_x": 51,
-        "sheet_y": 54,
+        "sheet_x": 52,
+        "sheet_y": 2,
         "short_name": "kite",
         "short_names": [
             "kite"
@@ -56726,8 +56786,8 @@
         "softbank": null,
         "google": null,
         "image": "1fa82.png",
-        "sheet_x": 51,
-        "sheet_y": 55,
+        "sheet_x": 52,
+        "sheet_y": 3,
         "short_name": "parachute",
         "short_names": [
             "parachute"
@@ -56751,8 +56811,8 @@
         "softbank": null,
         "google": null,
         "image": "1fa90.png",
-        "sheet_x": 51,
-        "sheet_y": 56,
+        "sheet_x": 52,
+        "sheet_y": 4,
         "short_name": "ringed_planet",
         "short_names": [
             "ringed_planet"
@@ -56777,7 +56837,7 @@
         "google": null,
         "image": "1fa91.png",
         "sheet_x": 52,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "chair",
         "short_names": [
             "chair"
@@ -56802,7 +56862,7 @@
         "google": null,
         "image": "1fa92.png",
         "sheet_x": 52,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "razor",
         "short_names": [
             "razor"
@@ -56827,7 +56887,7 @@
         "google": null,
         "image": "1fa93.png",
         "sheet_x": 52,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "axe",
         "short_names": [
             "axe"
@@ -56852,7 +56912,7 @@
         "google": null,
         "image": "1fa94.png",
         "sheet_x": 52,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "diya_lamp",
         "short_names": [
             "diya_lamp"
@@ -56877,7 +56937,7 @@
         "google": null,
         "image": "1fa95.png",
         "sheet_x": 52,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "banjo",
         "short_names": [
             "banjo"
@@ -56902,7 +56962,7 @@
         "google": "FEB06",
         "image": "203c-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "bangbang",
         "short_names": [
             "bangbang"
@@ -56927,7 +56987,7 @@
         "google": "FEB05",
         "image": "2049-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "interrobang",
         "short_names": [
             "interrobang"
@@ -56952,7 +57012,7 @@
         "google": "FEB2A",
         "image": "2122-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "tm",
         "short_names": [
             "tm"
@@ -56977,7 +57037,7 @@
         "google": "FEB47",
         "image": "2139-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "information_source",
         "short_names": [
             "information_source"
@@ -57002,7 +57062,7 @@
         "google": "FEAF6",
         "image": "2194-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "left_right_arrow",
         "short_names": [
             "left_right_arrow"
@@ -57027,7 +57087,7 @@
         "google": "FEAF7",
         "image": "2195-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "arrow_up_down",
         "short_names": [
             "arrow_up_down"
@@ -57052,7 +57112,7 @@
         "google": "FEAF2",
         "image": "2196-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "arrow_upper_left",
         "short_names": [
             "arrow_upper_left"
@@ -57077,7 +57137,7 @@
         "google": "FEAF0",
         "image": "2197-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "arrow_upper_right",
         "short_names": [
             "arrow_upper_right"
@@ -57102,7 +57162,7 @@
         "google": "FEAF1",
         "image": "2198-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "arrow_lower_right",
         "short_names": [
             "arrow_lower_right"
@@ -57127,7 +57187,7 @@
         "google": "FEAF3",
         "image": "2199-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "arrow_lower_left",
         "short_names": [
             "arrow_lower_left"
@@ -57152,7 +57212,7 @@
         "google": "FEB83",
         "image": "21a9-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "leftwards_arrow_with_hook",
         "short_names": [
             "leftwards_arrow_with_hook"
@@ -57177,7 +57237,7 @@
         "google": "FEB88",
         "image": "21aa-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "arrow_right_hook",
         "short_names": [
             "arrow_right_hook"
@@ -57202,7 +57262,7 @@
         "google": "FE01D",
         "image": "231a.png",
         "sheet_x": 52,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "watch",
         "short_names": [
             "watch"
@@ -57227,7 +57287,7 @@
         "google": "FE01C",
         "image": "231b.png",
         "sheet_x": 52,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "hourglass",
         "short_names": [
             "hourglass"
@@ -57252,7 +57312,7 @@
         "google": null,
         "image": "2328-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "keyboard",
         "short_names": [
             "keyboard"
@@ -57277,7 +57337,7 @@
         "google": null,
         "image": "23cf-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "eject",
         "short_names": [
             "eject"
@@ -57302,7 +57362,7 @@
         "google": "FEAFE",
         "image": "23e9.png",
         "sheet_x": 52,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "fast_forward",
         "short_names": [
             "fast_forward"
@@ -57327,7 +57387,7 @@
         "google": "FEAFF",
         "image": "23ea.png",
         "sheet_x": 52,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "rewind",
         "short_names": [
             "rewind"
@@ -57352,7 +57412,7 @@
         "google": "FEB03",
         "image": "23eb.png",
         "sheet_x": 52,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "arrow_double_up",
         "short_names": [
             "arrow_double_up"
@@ -57377,7 +57437,7 @@
         "google": "FEB02",
         "image": "23ec.png",
         "sheet_x": 52,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "arrow_double_down",
         "short_names": [
             "arrow_double_down"
@@ -57402,7 +57462,7 @@
         "google": null,
         "image": "23ed-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 25,
+        "sheet_y": 30,
         "short_name": "black_right_pointing_double_triangle_with_vertical_bar",
         "short_names": [
             "black_right_pointing_double_triangle_with_vertical_bar"
@@ -57427,7 +57487,7 @@
         "google": null,
         "image": "23ee-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 26,
+        "sheet_y": 31,
         "short_name": "black_left_pointing_double_triangle_with_vertical_bar",
         "short_names": [
             "black_left_pointing_double_triangle_with_vertical_bar"
@@ -57452,7 +57512,7 @@
         "google": null,
         "image": "23ef-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 27,
+        "sheet_y": 32,
         "short_name": "black_right_pointing_triangle_with_double_vertical_bar",
         "short_names": [
             "black_right_pointing_triangle_with_double_vertical_bar"
@@ -57477,7 +57537,7 @@
         "google": "FE02A",
         "image": "23f0.png",
         "sheet_x": 52,
-        "sheet_y": 28,
+        "sheet_y": 33,
         "short_name": "alarm_clock",
         "short_names": [
             "alarm_clock"
@@ -57502,7 +57562,7 @@
         "google": null,
         "image": "23f1-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 29,
+        "sheet_y": 34,
         "short_name": "stopwatch",
         "short_names": [
             "stopwatch"
@@ -57527,7 +57587,7 @@
         "google": null,
         "image": "23f2-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 30,
+        "sheet_y": 35,
         "short_name": "timer_clock",
         "short_names": [
             "timer_clock"
@@ -57552,7 +57612,7 @@
         "google": "FE01B",
         "image": "23f3.png",
         "sheet_x": 52,
-        "sheet_y": 31,
+        "sheet_y": 36,
         "short_name": "hourglass_flowing_sand",
         "short_names": [
             "hourglass_flowing_sand"
@@ -57577,7 +57637,7 @@
         "google": null,
         "image": "23f8-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 32,
+        "sheet_y": 37,
         "short_name": "double_vertical_bar",
         "short_names": [
             "double_vertical_bar"
@@ -57602,7 +57662,7 @@
         "google": null,
         "image": "23f9-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 33,
+        "sheet_y": 38,
         "short_name": "black_square_for_stop",
         "short_names": [
             "black_square_for_stop"
@@ -57627,7 +57687,7 @@
         "google": null,
         "image": "23fa-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 34,
+        "sheet_y": 39,
         "short_name": "black_circle_for_record",
         "short_names": [
             "black_circle_for_record"
@@ -57652,7 +57712,7 @@
         "google": "FE7E1",
         "image": "24c2-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 35,
+        "sheet_y": 40,
         "short_name": "m",
         "short_names": [
             "m"
@@ -57677,7 +57737,7 @@
         "google": "FEB6E",
         "image": "25aa-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 36,
+        "sheet_y": 41,
         "short_name": "black_small_square",
         "short_names": [
             "black_small_square"
@@ -57702,7 +57762,7 @@
         "google": "FEB6D",
         "image": "25ab-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 37,
+        "sheet_y": 42,
         "short_name": "white_small_square",
         "short_names": [
             "white_small_square"
@@ -57727,7 +57787,7 @@
         "google": "FEAFC",
         "image": "25b6-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 38,
+        "sheet_y": 43,
         "short_name": "arrow_forward",
         "short_names": [
             "arrow_forward"
@@ -57752,7 +57812,7 @@
         "google": "FEAFD",
         "image": "25c0-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 39,
+        "sheet_y": 44,
         "short_name": "arrow_backward",
         "short_names": [
             "arrow_backward"
@@ -57777,7 +57837,7 @@
         "google": "FEB71",
         "image": "25fb-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 40,
+        "sheet_y": 45,
         "short_name": "white_medium_square",
         "short_names": [
             "white_medium_square"
@@ -57802,7 +57862,7 @@
         "google": "FEB72",
         "image": "25fc-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 41,
+        "sheet_y": 46,
         "short_name": "black_medium_square",
         "short_names": [
             "black_medium_square"
@@ -57827,7 +57887,7 @@
         "google": "FEB6F",
         "image": "25fd.png",
         "sheet_x": 52,
-        "sheet_y": 42,
+        "sheet_y": 47,
         "short_name": "white_medium_small_square",
         "short_names": [
             "white_medium_small_square"
@@ -57852,7 +57912,7 @@
         "google": "FEB70",
         "image": "25fe.png",
         "sheet_x": 52,
-        "sheet_y": 43,
+        "sheet_y": 48,
         "short_name": "black_medium_small_square",
         "short_names": [
             "black_medium_small_square"
@@ -57877,7 +57937,7 @@
         "google": "FE000",
         "image": "2600-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 44,
+        "sheet_y": 49,
         "short_name": "sunny",
         "short_names": [
             "sunny"
@@ -57902,7 +57962,7 @@
         "google": "FE001",
         "image": "2601-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 45,
+        "sheet_y": 50,
         "short_name": "cloud",
         "short_names": [
             "cloud"
@@ -57927,7 +57987,7 @@
         "google": null,
         "image": "2602-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 46,
+        "sheet_y": 51,
         "short_name": "umbrella",
         "short_names": [
             "umbrella"
@@ -57952,7 +58012,7 @@
         "google": null,
         "image": "2603-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 47,
+        "sheet_y": 52,
         "short_name": "snowman",
         "short_names": [
             "snowman"
@@ -57977,7 +58037,7 @@
         "google": null,
         "image": "2604-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 48,
+        "sheet_y": 53,
         "short_name": "comet",
         "short_names": [
             "comet"
@@ -58002,7 +58062,7 @@
         "google": "FE523",
         "image": "260e-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 49,
+        "sheet_y": 54,
         "short_name": "phone",
         "short_names": [
             "phone",
@@ -58028,7 +58088,7 @@
         "google": "FEB8B",
         "image": "2611-fe0f.png",
         "sheet_x": 52,
-        "sheet_y": 50,
+        "sheet_y": 55,
         "short_name": "ballot_box_with_check",
         "short_names": [
             "ballot_box_with_check"
@@ -58053,7 +58113,7 @@
         "google": "FE002",
         "image": "2614.png",
         "sheet_x": 52,
-        "sheet_y": 51,
+        "sheet_y": 56,
         "short_name": "umbrella_with_rain_drops",
         "short_names": [
             "umbrella_with_rain_drops"
@@ -58077,8 +58137,8 @@
         "softbank": "E045",
         "google": "FE981",
         "image": "2615.png",
-        "sheet_x": 52,
-        "sheet_y": 52,
+        "sheet_x": 53,
+        "sheet_y": 0,
         "short_name": "coffee",
         "short_names": [
             "coffee"
@@ -58102,8 +58162,8 @@
         "softbank": null,
         "google": null,
         "image": "2618-fe0f.png",
-        "sheet_x": 52,
-        "sheet_y": 53,
+        "sheet_x": 53,
+        "sheet_y": 1,
         "short_name": "shamrock",
         "short_names": [
             "shamrock"
@@ -58127,8 +58187,8 @@
         "softbank": "E00F",
         "google": "FEB98",
         "image": "261d-fe0f.png",
-        "sheet_x": 52,
-        "sheet_y": 54,
+        "sheet_x": 53,
+        "sheet_y": 2,
         "short_name": "point_up",
         "short_names": [
             "point_up"
@@ -58147,8 +58207,8 @@
                 "unified": "261D-1F3FB",
                 "non_qualified": null,
                 "image": "261d-1f3fb.png",
-                "sheet_x": 52,
-                "sheet_y": 55,
+                "sheet_x": 53,
+                "sheet_y": 3,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -58159,8 +58219,8 @@
                 "unified": "261D-1F3FC",
                 "non_qualified": null,
                 "image": "261d-1f3fc.png",
-                "sheet_x": 52,
-                "sheet_y": 56,
+                "sheet_x": 53,
+                "sheet_y": 4,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -58172,7 +58232,7 @@
                 "non_qualified": null,
                 "image": "261d-1f3fd.png",
                 "sheet_x": 53,
-                "sheet_y": 0,
+                "sheet_y": 5,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -58184,7 +58244,7 @@
                 "non_qualified": null,
                 "image": "261d-1f3fe.png",
                 "sheet_x": 53,
-                "sheet_y": 1,
+                "sheet_y": 6,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -58196,7 +58256,7 @@
                 "non_qualified": null,
                 "image": "261d-1f3ff.png",
                 "sheet_x": 53,
-                "sheet_y": 2,
+                "sheet_y": 7,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -58215,7 +58275,7 @@
         "google": null,
         "image": "2620-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "skull_and_crossbones",
         "short_names": [
             "skull_and_crossbones"
@@ -58240,7 +58300,7 @@
         "google": null,
         "image": "2622-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "radioactive_sign",
         "short_names": [
             "radioactive_sign"
@@ -58265,7 +58325,7 @@
         "google": null,
         "image": "2623-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "biohazard_sign",
         "short_names": [
             "biohazard_sign"
@@ -58290,7 +58350,7 @@
         "google": null,
         "image": "2626-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "orthodox_cross",
         "short_names": [
             "orthodox_cross"
@@ -58315,7 +58375,7 @@
         "google": null,
         "image": "262a-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "star_and_crescent",
         "short_names": [
             "star_and_crescent"
@@ -58340,7 +58400,7 @@
         "google": null,
         "image": "262e-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "peace_symbol",
         "short_names": [
             "peace_symbol"
@@ -58365,7 +58425,7 @@
         "google": null,
         "image": "262f-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "yin_yang",
         "short_names": [
             "yin_yang"
@@ -58390,7 +58450,7 @@
         "google": null,
         "image": "2638-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "wheel_of_dharma",
         "short_names": [
             "wheel_of_dharma"
@@ -58415,7 +58475,7 @@
         "google": null,
         "image": "2639-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "white_frowning_face",
         "short_names": [
             "white_frowning_face"
@@ -58440,7 +58500,7 @@
         "google": "FE336",
         "image": "263a-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "relaxed",
         "short_names": [
             "relaxed"
@@ -58465,7 +58525,7 @@
         "google": null,
         "image": "2640-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "female_sign",
         "short_names": [
             "female_sign"
@@ -58490,7 +58550,7 @@
         "google": null,
         "image": "2642-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "male_sign",
         "short_names": [
             "male_sign"
@@ -58515,7 +58575,7 @@
         "google": "FE02B",
         "image": "2648.png",
         "sheet_x": 53,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "aries",
         "short_names": [
             "aries"
@@ -58540,7 +58600,7 @@
         "google": "FE02C",
         "image": "2649.png",
         "sheet_x": 53,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "taurus",
         "short_names": [
             "taurus"
@@ -58565,7 +58625,7 @@
         "google": "FE02D",
         "image": "264a.png",
         "sheet_x": 53,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "gemini",
         "short_names": [
             "gemini"
@@ -58590,7 +58650,7 @@
         "google": "FE02E",
         "image": "264b.png",
         "sheet_x": 53,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "cancer",
         "short_names": [
             "cancer"
@@ -58615,7 +58675,7 @@
         "google": "FE02F",
         "image": "264c.png",
         "sheet_x": 53,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "leo",
         "short_names": [
             "leo"
@@ -58640,7 +58700,7 @@
         "google": "FE030",
         "image": "264d.png",
         "sheet_x": 53,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "virgo",
         "short_names": [
             "virgo"
@@ -58665,7 +58725,7 @@
         "google": "FE031",
         "image": "264e.png",
         "sheet_x": 53,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "libra",
         "short_names": [
             "libra"
@@ -58690,7 +58750,7 @@
         "google": "FE032",
         "image": "264f.png",
         "sheet_x": 53,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "scorpius",
         "short_names": [
             "scorpius"
@@ -58715,7 +58775,7 @@
         "google": "FE033",
         "image": "2650.png",
         "sheet_x": 53,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "sagittarius",
         "short_names": [
             "sagittarius"
@@ -58740,7 +58800,7 @@
         "google": "FE034",
         "image": "2651.png",
         "sheet_x": 53,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "capricorn",
         "short_names": [
             "capricorn"
@@ -58765,7 +58825,7 @@
         "google": "FE035",
         "image": "2652.png",
         "sheet_x": 53,
-        "sheet_y": 25,
+        "sheet_y": 30,
         "short_name": "aquarius",
         "short_names": [
             "aquarius"
@@ -58790,7 +58850,7 @@
         "google": "FE036",
         "image": "2653.png",
         "sheet_x": 53,
-        "sheet_y": 26,
+        "sheet_y": 31,
         "short_name": "pisces",
         "short_names": [
             "pisces"
@@ -58815,7 +58875,7 @@
         "google": null,
         "image": "265f-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 27,
+        "sheet_y": 32,
         "short_name": "chess_pawn",
         "short_names": [
             "chess_pawn"
@@ -58840,7 +58900,7 @@
         "google": "FEB1B",
         "image": "2660-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 28,
+        "sheet_y": 33,
         "short_name": "spades",
         "short_names": [
             "spades"
@@ -58865,7 +58925,7 @@
         "google": "FEB1D",
         "image": "2663-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 29,
+        "sheet_y": 34,
         "short_name": "clubs",
         "short_names": [
             "clubs"
@@ -58890,7 +58950,7 @@
         "google": "FEB1A",
         "image": "2665-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 30,
+        "sheet_y": 35,
         "short_name": "hearts",
         "short_names": [
             "hearts"
@@ -58915,7 +58975,7 @@
         "google": "FEB1C",
         "image": "2666-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 31,
+        "sheet_y": 36,
         "short_name": "diamonds",
         "short_names": [
             "diamonds"
@@ -58940,7 +59000,7 @@
         "google": "FE7FA",
         "image": "2668-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 32,
+        "sheet_y": 37,
         "short_name": "hotsprings",
         "short_names": [
             "hotsprings"
@@ -58965,7 +59025,7 @@
         "google": "FEB2C",
         "image": "267b-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 33,
+        "sheet_y": 38,
         "short_name": "recycle",
         "short_names": [
             "recycle"
@@ -58990,7 +59050,7 @@
         "google": null,
         "image": "267e-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 34,
+        "sheet_y": 39,
         "short_name": "infinity",
         "short_names": [
             "infinity"
@@ -59015,7 +59075,7 @@
         "google": "FEB20",
         "image": "267f.png",
         "sheet_x": 53,
-        "sheet_y": 35,
+        "sheet_y": 40,
         "short_name": "wheelchair",
         "short_names": [
             "wheelchair"
@@ -59040,7 +59100,7 @@
         "google": null,
         "image": "2692-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 36,
+        "sheet_y": 41,
         "short_name": "hammer_and_pick",
         "short_names": [
             "hammer_and_pick"
@@ -59065,7 +59125,7 @@
         "google": "FE4C1",
         "image": "2693.png",
         "sheet_x": 53,
-        "sheet_y": 37,
+        "sheet_y": 42,
         "short_name": "anchor",
         "short_names": [
             "anchor"
@@ -59090,7 +59150,7 @@
         "google": null,
         "image": "2694-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 38,
+        "sheet_y": 43,
         "short_name": "crossed_swords",
         "short_names": [
             "crossed_swords"
@@ -59115,7 +59175,7 @@
         "google": null,
         "image": "2695-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 39,
+        "sheet_y": 44,
         "short_name": "medical_symbol",
         "short_names": [
             "medical_symbol",
@@ -59141,7 +59201,7 @@
         "google": null,
         "image": "2696-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 40,
+        "sheet_y": 45,
         "short_name": "scales",
         "short_names": [
             "scales"
@@ -59166,7 +59226,7 @@
         "google": null,
         "image": "2697-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 41,
+        "sheet_y": 46,
         "short_name": "alembic",
         "short_names": [
             "alembic"
@@ -59191,7 +59251,7 @@
         "google": null,
         "image": "2699-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 42,
+        "sheet_y": 47,
         "short_name": "gear",
         "short_names": [
             "gear"
@@ -59216,7 +59276,7 @@
         "google": null,
         "image": "269b-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 43,
+        "sheet_y": 48,
         "short_name": "atom_symbol",
         "short_names": [
             "atom_symbol"
@@ -59241,7 +59301,7 @@
         "google": null,
         "image": "269c-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 44,
+        "sheet_y": 49,
         "short_name": "fleur_de_lis",
         "short_names": [
             "fleur_de_lis"
@@ -59266,7 +59326,7 @@
         "google": "FEB23",
         "image": "26a0-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 45,
+        "sheet_y": 50,
         "short_name": "warning",
         "short_names": [
             "warning"
@@ -59291,7 +59351,7 @@
         "google": "FE004",
         "image": "26a1.png",
         "sheet_x": 53,
-        "sheet_y": 46,
+        "sheet_y": 51,
         "short_name": "zap",
         "short_names": [
             "zap"
@@ -59316,7 +59376,7 @@
         "google": "FEB65",
         "image": "26aa.png",
         "sheet_x": 53,
-        "sheet_y": 47,
+        "sheet_y": 52,
         "short_name": "white_circle",
         "short_names": [
             "white_circle"
@@ -59341,7 +59401,7 @@
         "google": "FEB66",
         "image": "26ab.png",
         "sheet_x": 53,
-        "sheet_y": 48,
+        "sheet_y": 53,
         "short_name": "black_circle",
         "short_names": [
             "black_circle"
@@ -59366,7 +59426,7 @@
         "google": null,
         "image": "26b0-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 49,
+        "sheet_y": 54,
         "short_name": "coffin",
         "short_names": [
             "coffin"
@@ -59391,7 +59451,7 @@
         "google": null,
         "image": "26b1-fe0f.png",
         "sheet_x": 53,
-        "sheet_y": 50,
+        "sheet_y": 55,
         "short_name": "funeral_urn",
         "short_names": [
             "funeral_urn"
@@ -59416,7 +59476,7 @@
         "google": "FE7D4",
         "image": "26bd.png",
         "sheet_x": 53,
-        "sheet_y": 51,
+        "sheet_y": 56,
         "short_name": "soccer",
         "short_names": [
             "soccer"
@@ -59440,8 +59500,8 @@
         "softbank": "E016",
         "google": "FE7D1",
         "image": "26be.png",
-        "sheet_x": 53,
-        "sheet_y": 52,
+        "sheet_x": 54,
+        "sheet_y": 0,
         "short_name": "baseball",
         "short_names": [
             "baseball"
@@ -59465,8 +59525,8 @@
         "softbank": "E048",
         "google": "FE003",
         "image": "26c4.png",
-        "sheet_x": 53,
-        "sheet_y": 53,
+        "sheet_x": 54,
+        "sheet_y": 1,
         "short_name": "snowman_without_snow",
         "short_names": [
             "snowman_without_snow"
@@ -59490,8 +59550,8 @@
         "softbank": null,
         "google": "FE00F",
         "image": "26c5.png",
-        "sheet_x": 53,
-        "sheet_y": 54,
+        "sheet_x": 54,
+        "sheet_y": 2,
         "short_name": "partly_sunny",
         "short_names": [
             "partly_sunny"
@@ -59515,8 +59575,8 @@
         "softbank": null,
         "google": null,
         "image": "26c8-fe0f.png",
-        "sheet_x": 53,
-        "sheet_y": 55,
+        "sheet_x": 54,
+        "sheet_y": 3,
         "short_name": "thunder_cloud_and_rain",
         "short_names": [
             "thunder_cloud_and_rain"
@@ -59540,8 +59600,8 @@
         "softbank": "E24B",
         "google": "FE037",
         "image": "26ce.png",
-        "sheet_x": 53,
-        "sheet_y": 56,
+        "sheet_x": 54,
+        "sheet_y": 4,
         "short_name": "ophiuchus",
         "short_names": [
             "ophiuchus"
@@ -59566,7 +59626,7 @@
         "google": null,
         "image": "26cf-fe0f.png",
         "sheet_x": 54,
-        "sheet_y": 0,
+        "sheet_y": 5,
         "short_name": "pick",
         "short_names": [
             "pick"
@@ -59591,7 +59651,7 @@
         "google": null,
         "image": "26d1-fe0f.png",
         "sheet_x": 54,
-        "sheet_y": 1,
+        "sheet_y": 6,
         "short_name": "helmet_with_white_cross",
         "short_names": [
             "helmet_with_white_cross"
@@ -59616,7 +59676,7 @@
         "google": null,
         "image": "26d3-fe0f.png",
         "sheet_x": 54,
-        "sheet_y": 2,
+        "sheet_y": 7,
         "short_name": "chains",
         "short_names": [
             "chains"
@@ -59641,7 +59701,7 @@
         "google": "FEB26",
         "image": "26d4.png",
         "sheet_x": 54,
-        "sheet_y": 3,
+        "sheet_y": 8,
         "short_name": "no_entry",
         "short_names": [
             "no_entry"
@@ -59666,7 +59726,7 @@
         "google": null,
         "image": "26e9-fe0f.png",
         "sheet_x": 54,
-        "sheet_y": 4,
+        "sheet_y": 9,
         "short_name": "shinto_shrine",
         "short_names": [
             "shinto_shrine"
@@ -59691,7 +59751,7 @@
         "google": "FE4BB",
         "image": "26ea.png",
         "sheet_x": 54,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "church",
         "short_names": [
             "church"
@@ -59716,7 +59776,7 @@
         "google": null,
         "image": "26f0-fe0f.png",
         "sheet_x": 54,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "mountain",
         "short_names": [
             "mountain"
@@ -59741,7 +59801,7 @@
         "google": null,
         "image": "26f1-fe0f.png",
         "sheet_x": 54,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "umbrella_on_ground",
         "short_names": [
             "umbrella_on_ground"
@@ -59766,7 +59826,7 @@
         "google": "FE4BC",
         "image": "26f2.png",
         "sheet_x": 54,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "fountain",
         "short_names": [
             "fountain"
@@ -59791,7 +59851,7 @@
         "google": "FE7D2",
         "image": "26f3.png",
         "sheet_x": 54,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "golf",
         "short_names": [
             "golf"
@@ -59816,7 +59876,7 @@
         "google": null,
         "image": "26f4-fe0f.png",
         "sheet_x": 54,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "ferry",
         "short_names": [
             "ferry"
@@ -59841,7 +59901,7 @@
         "google": "FE7EA",
         "image": "26f5.png",
         "sheet_x": 54,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "boat",
         "short_names": [
             "boat",
@@ -59867,7 +59927,7 @@
         "google": null,
         "image": "26f7-fe0f.png",
         "sheet_x": 54,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "skier",
         "short_names": [
             "skier"
@@ -59892,7 +59952,7 @@
         "google": null,
         "image": "26f8-fe0f.png",
         "sheet_x": 54,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "ice_skate",
         "short_names": [
             "ice_skate"
@@ -59917,7 +59977,7 @@
         "google": null,
         "image": "26f9-fe0f-200d-2640-fe0f.png",
         "sheet_x": 54,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "woman-bouncing-ball",
         "short_names": [
             "woman-bouncing-ball"
@@ -59937,7 +59997,7 @@
                 "non_qualified": "26F9-1F3FB-200D-2640",
                 "image": "26f9-1f3fb-200d-2640-fe0f.png",
                 "sheet_x": 54,
-                "sheet_y": 15,
+                "sheet_y": 20,
                 "added_in": "4.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -59949,7 +60009,7 @@
                 "non_qualified": "26F9-1F3FC-200D-2640",
                 "image": "26f9-1f3fc-200d-2640-fe0f.png",
                 "sheet_x": 54,
-                "sheet_y": 16,
+                "sheet_y": 21,
                 "added_in": "4.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -59961,7 +60021,7 @@
                 "non_qualified": "26F9-1F3FD-200D-2640",
                 "image": "26f9-1f3fd-200d-2640-fe0f.png",
                 "sheet_x": 54,
-                "sheet_y": 17,
+                "sheet_y": 22,
                 "added_in": "4.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -59973,7 +60033,7 @@
                 "non_qualified": "26F9-1F3FE-200D-2640",
                 "image": "26f9-1f3fe-200d-2640-fe0f.png",
                 "sheet_x": 54,
-                "sheet_y": 18,
+                "sheet_y": 23,
                 "added_in": "4.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -59985,7 +60045,7 @@
                 "non_qualified": "26F9-1F3FF-200D-2640",
                 "image": "26f9-1f3ff-200d-2640-fe0f.png",
                 "sheet_x": 54,
-                "sheet_y": 19,
+                "sheet_y": 24,
                 "added_in": "4.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60004,7 +60064,7 @@
         "google": null,
         "image": "26f9-fe0f-200d-2642-fe0f.png",
         "sheet_x": 54,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "man-bouncing-ball",
         "short_names": [
             "man-bouncing-ball"
@@ -60024,7 +60084,7 @@
                 "non_qualified": "26F9-1F3FB-200D-2642",
                 "image": "26f9-1f3fb-200d-2642-fe0f.png",
                 "sheet_x": 54,
-                "sheet_y": 21,
+                "sheet_y": 26,
                 "added_in": "4.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60036,7 +60096,7 @@
                 "non_qualified": "26F9-1F3FC-200D-2642",
                 "image": "26f9-1f3fc-200d-2642-fe0f.png",
                 "sheet_x": 54,
-                "sheet_y": 22,
+                "sheet_y": 27,
                 "added_in": "4.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60048,7 +60108,7 @@
                 "non_qualified": "26F9-1F3FD-200D-2642",
                 "image": "26f9-1f3fd-200d-2642-fe0f.png",
                 "sheet_x": 54,
-                "sheet_y": 23,
+                "sheet_y": 28,
                 "added_in": "4.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60060,7 +60120,7 @@
                 "non_qualified": "26F9-1F3FE-200D-2642",
                 "image": "26f9-1f3fe-200d-2642-fe0f.png",
                 "sheet_x": 54,
-                "sheet_y": 24,
+                "sheet_y": 29,
                 "added_in": "4.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60072,7 +60132,7 @@
                 "non_qualified": "26F9-1F3FF-200D-2642",
                 "image": "26f9-1f3ff-200d-2642-fe0f.png",
                 "sheet_x": 54,
-                "sheet_y": 25,
+                "sheet_y": 30,
                 "added_in": "4.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60092,7 +60152,7 @@
         "google": null,
         "image": "26f9-fe0f.png",
         "sheet_x": 54,
-        "sheet_y": 26,
+        "sheet_y": 31,
         "short_name": "person_with_ball",
         "short_names": [
             "person_with_ball"
@@ -60112,7 +60172,7 @@
                 "non_qualified": null,
                 "image": "26f9-1f3fb.png",
                 "sheet_x": 54,
-                "sheet_y": 27,
+                "sheet_y": 32,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60124,7 +60184,7 @@
                 "non_qualified": null,
                 "image": "26f9-1f3fc.png",
                 "sheet_x": 54,
-                "sheet_y": 28,
+                "sheet_y": 33,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60136,7 +60196,7 @@
                 "non_qualified": null,
                 "image": "26f9-1f3fd.png",
                 "sheet_x": 54,
-                "sheet_y": 29,
+                "sheet_y": 34,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60148,7 +60208,7 @@
                 "non_qualified": null,
                 "image": "26f9-1f3fe.png",
                 "sheet_x": 54,
-                "sheet_y": 30,
+                "sheet_y": 35,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60160,7 +60220,7 @@
                 "non_qualified": null,
                 "image": "26f9-1f3ff.png",
                 "sheet_x": 54,
-                "sheet_y": 31,
+                "sheet_y": 36,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60180,7 +60240,7 @@
         "google": "FE7FB",
         "image": "26fa.png",
         "sheet_x": 54,
-        "sheet_y": 32,
+        "sheet_y": 37,
         "short_name": "tent",
         "short_names": [
             "tent"
@@ -60205,7 +60265,7 @@
         "google": "FE7F5",
         "image": "26fd.png",
         "sheet_x": 54,
-        "sheet_y": 33,
+        "sheet_y": 38,
         "short_name": "fuelpump",
         "short_names": [
             "fuelpump"
@@ -60230,7 +60290,7 @@
         "google": "FE53E",
         "image": "2702-fe0f.png",
         "sheet_x": 54,
-        "sheet_y": 34,
+        "sheet_y": 39,
         "short_name": "scissors",
         "short_names": [
             "scissors"
@@ -60255,7 +60315,7 @@
         "google": "FEB4A",
         "image": "2705.png",
         "sheet_x": 54,
-        "sheet_y": 35,
+        "sheet_y": 40,
         "short_name": "white_check_mark",
         "short_names": [
             "white_check_mark"
@@ -60280,7 +60340,7 @@
         "google": "FE7E9",
         "image": "2708-fe0f.png",
         "sheet_x": 54,
-        "sheet_y": 36,
+        "sheet_y": 41,
         "short_name": "airplane",
         "short_names": [
             "airplane"
@@ -60305,7 +60365,7 @@
         "google": "FE529",
         "image": "2709-fe0f.png",
         "sheet_x": 54,
-        "sheet_y": 37,
+        "sheet_y": 42,
         "short_name": "email",
         "short_names": [
             "email",
@@ -60331,7 +60391,7 @@
         "google": "FEB93",
         "image": "270a.png",
         "sheet_x": 54,
-        "sheet_y": 38,
+        "sheet_y": 43,
         "short_name": "fist",
         "short_names": [
             "fist"
@@ -60351,7 +60411,7 @@
                 "non_qualified": null,
                 "image": "270a-1f3fb.png",
                 "sheet_x": 54,
-                "sheet_y": 39,
+                "sheet_y": 44,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60363,7 +60423,7 @@
                 "non_qualified": null,
                 "image": "270a-1f3fc.png",
                 "sheet_x": 54,
-                "sheet_y": 40,
+                "sheet_y": 45,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60375,7 +60435,7 @@
                 "non_qualified": null,
                 "image": "270a-1f3fd.png",
                 "sheet_x": 54,
-                "sheet_y": 41,
+                "sheet_y": 46,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60387,7 +60447,7 @@
                 "non_qualified": null,
                 "image": "270a-1f3fe.png",
                 "sheet_x": 54,
-                "sheet_y": 42,
+                "sheet_y": 47,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60399,7 +60459,7 @@
                 "non_qualified": null,
                 "image": "270a-1f3ff.png",
                 "sheet_x": 54,
-                "sheet_y": 43,
+                "sheet_y": 48,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60418,7 +60478,7 @@
         "google": "FEB95",
         "image": "270b.png",
         "sheet_x": 54,
-        "sheet_y": 44,
+        "sheet_y": 49,
         "short_name": "hand",
         "short_names": [
             "hand",
@@ -60439,7 +60499,7 @@
                 "non_qualified": null,
                 "image": "270b-1f3fb.png",
                 "sheet_x": 54,
-                "sheet_y": 45,
+                "sheet_y": 50,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60451,7 +60511,7 @@
                 "non_qualified": null,
                 "image": "270b-1f3fc.png",
                 "sheet_x": 54,
-                "sheet_y": 46,
+                "sheet_y": 51,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60463,7 +60523,7 @@
                 "non_qualified": null,
                 "image": "270b-1f3fd.png",
                 "sheet_x": 54,
-                "sheet_y": 47,
+                "sheet_y": 52,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60475,7 +60535,7 @@
                 "non_qualified": null,
                 "image": "270b-1f3fe.png",
                 "sheet_x": 54,
-                "sheet_y": 48,
+                "sheet_y": 53,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60487,7 +60547,7 @@
                 "non_qualified": null,
                 "image": "270b-1f3ff.png",
                 "sheet_x": 54,
-                "sheet_y": 49,
+                "sheet_y": 54,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60506,7 +60566,7 @@
         "google": "FEB94",
         "image": "270c-fe0f.png",
         "sheet_x": 54,
-        "sheet_y": 50,
+        "sheet_y": 55,
         "short_name": "v",
         "short_names": [
             "v"
@@ -60526,7 +60586,7 @@
                 "non_qualified": null,
                 "image": "270c-1f3fb.png",
                 "sheet_x": 54,
-                "sheet_y": 51,
+                "sheet_y": 56,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60537,8 +60597,8 @@
                 "unified": "270C-1F3FC",
                 "non_qualified": null,
                 "image": "270c-1f3fc.png",
-                "sheet_x": 54,
-                "sheet_y": 52,
+                "sheet_x": 55,
+                "sheet_y": 0,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60549,8 +60609,8 @@
                 "unified": "270C-1F3FD",
                 "non_qualified": null,
                 "image": "270c-1f3fd.png",
-                "sheet_x": 54,
-                "sheet_y": 53,
+                "sheet_x": 55,
+                "sheet_y": 1,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60561,8 +60621,8 @@
                 "unified": "270C-1F3FE",
                 "non_qualified": null,
                 "image": "270c-1f3fe.png",
-                "sheet_x": 54,
-                "sheet_y": 54,
+                "sheet_x": 55,
+                "sheet_y": 2,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60573,8 +60633,8 @@
                 "unified": "270C-1F3FF",
                 "non_qualified": null,
                 "image": "270c-1f3ff.png",
-                "sheet_x": 54,
-                "sheet_y": 55,
+                "sheet_x": 55,
+                "sheet_y": 3,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60592,8 +60652,8 @@
         "softbank": null,
         "google": null,
         "image": "270d-fe0f.png",
-        "sheet_x": 54,
-        "sheet_y": 56,
+        "sheet_x": 55,
+        "sheet_y": 4,
         "short_name": "writing_hand",
         "short_names": [
             "writing_hand"
@@ -60613,7 +60673,7 @@
                 "non_qualified": null,
                 "image": "270d-1f3fb.png",
                 "sheet_x": 55,
-                "sheet_y": 0,
+                "sheet_y": 5,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60625,7 +60685,7 @@
                 "non_qualified": null,
                 "image": "270d-1f3fc.png",
                 "sheet_x": 55,
-                "sheet_y": 1,
+                "sheet_y": 6,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60637,7 +60697,7 @@
                 "non_qualified": null,
                 "image": "270d-1f3fd.png",
                 "sheet_x": 55,
-                "sheet_y": 2,
+                "sheet_y": 7,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60649,7 +60709,7 @@
                 "non_qualified": null,
                 "image": "270d-1f3fe.png",
                 "sheet_x": 55,
-                "sheet_y": 3,
+                "sheet_y": 8,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60661,7 +60721,7 @@
                 "non_qualified": null,
                 "image": "270d-1f3ff.png",
                 "sheet_x": 55,
-                "sheet_y": 4,
+                "sheet_y": 9,
                 "added_in": "2.0",
                 "has_img_apple": true,
                 "has_img_google": true,
@@ -60680,7 +60740,7 @@
         "google": "FE539",
         "image": "270f-fe0f.png",
         "sheet_x": 55,
-        "sheet_y": 5,
+        "sheet_y": 10,
         "short_name": "pencil2",
         "short_names": [
             "pencil2"
@@ -60705,7 +60765,7 @@
         "google": "FE536",
         "image": "2712-fe0f.png",
         "sheet_x": 55,
-        "sheet_y": 6,
+        "sheet_y": 11,
         "short_name": "black_nib",
         "short_names": [
             "black_nib"
@@ -60730,7 +60790,7 @@
         "google": "FEB49",
         "image": "2714-fe0f.png",
         "sheet_x": 55,
-        "sheet_y": 7,
+        "sheet_y": 12,
         "short_name": "heavy_check_mark",
         "short_names": [
             "heavy_check_mark"
@@ -60755,7 +60815,7 @@
         "google": "FEB53",
         "image": "2716-fe0f.png",
         "sheet_x": 55,
-        "sheet_y": 8,
+        "sheet_y": 13,
         "short_name": "heavy_multiplication_x",
         "short_names": [
             "heavy_multiplication_x"
@@ -60780,7 +60840,7 @@
         "google": null,
         "image": "271d-fe0f.png",
         "sheet_x": 55,
-        "sheet_y": 9,
+        "sheet_y": 14,
         "short_name": "latin_cross",
         "short_names": [
             "latin_cross"
@@ -60805,7 +60865,7 @@
         "google": null,
         "image": "2721-fe0f.png",
         "sheet_x": 55,
-        "sheet_y": 10,
+        "sheet_y": 15,
         "short_name": "star_of_david",
         "short_names": [
             "star_of_david"
@@ -60830,7 +60890,7 @@
         "google": "FEB60",
         "image": "2728.png",
         "sheet_x": 55,
-        "sheet_y": 11,
+        "sheet_y": 16,
         "short_name": "sparkles",
         "short_names": [
             "sparkles"
@@ -60855,7 +60915,7 @@
         "google": "FEB62",
         "image": "2733-fe0f.png",
         "sheet_x": 55,
-        "sheet_y": 12,
+        "sheet_y": 17,
         "short_name": "eight_spoked_asterisk",
         "short_names": [
             "eight_spoked_asterisk"
@@ -60880,7 +60940,7 @@
         "google": "FEB61",
         "image": "2734-fe0f.png",
         "sheet_x": 55,
-        "sheet_y": 13,
+        "sheet_y": 18,
         "short_name": "eight_pointed_black_star",
         "short_names": [
             "eight_pointed_black_star"
@@ -60905,7 +60965,7 @@
         "google": "FE00E",
         "image": "2744-fe0f.png",
         "sheet_x": 55,
-        "sheet_y": 14,
+        "sheet_y": 19,
         "short_name": "snowflake",
         "short_names": [
             "snowflake"
@@ -60930,7 +60990,7 @@
         "google": "FEB77",
         "image": "2747-fe0f.png",
         "sheet_x": 55,
-        "sheet_y": 15,
+        "sheet_y": 20,
         "short_name": "sparkle",
         "short_names": [
             "sparkle"
@@ -60955,7 +61015,7 @@
         "google": "FEB45",
         "image": "274c.png",
         "sheet_x": 55,
-        "sheet_y": 16,
+        "sheet_y": 21,
         "short_name": "x",
         "short_names": [
             "x"
@@ -60980,7 +61040,7 @@
         "google": "FEB46",
         "image": "274e.png",
         "sheet_x": 55,
-        "sheet_y": 17,
+        "sheet_y": 22,
         "short_name": "negative_squared_cross_mark",
         "short_names": [
             "negative_squared_cross_mark"
@@ -61005,7 +61065,7 @@
         "google": "FEB09",
         "image": "2753.png",
         "sheet_x": 55,
-        "sheet_y": 18,
+        "sheet_y": 23,
         "short_name": "question",
         "short_names": [
             "question"
@@ -61030,7 +61090,7 @@
         "google": "FEB0A",
         "image": "2754.png",
         "sheet_x": 55,
-        "sheet_y": 19,
+        "sheet_y": 24,
         "short_name": "grey_question",
         "short_names": [
             "grey_question"
@@ -61055,7 +61115,7 @@
         "google": "FEB0B",
         "image": "2755.png",
         "sheet_x": 55,
-        "sheet_y": 20,
+        "sheet_y": 25,
         "short_name": "grey_exclamation",
         "short_names": [
             "grey_exclamation"
@@ -61080,7 +61140,7 @@
         "google": "FEB04",
         "image": "2757.png",
         "sheet_x": 55,
-        "sheet_y": 21,
+        "sheet_y": 26,
         "short_name": "exclamation",
         "short_names": [
             "exclamation",
@@ -61106,7 +61166,7 @@
         "google": null,
         "image": "2763-fe0f.png",
         "sheet_x": 55,
-        "sheet_y": 22,
+        "sheet_y": 27,
         "short_name": "heavy_heart_exclamation_mark_ornament",
         "short_names": [
             "heavy_heart_exclamation_mark_ornament"
@@ -61131,7 +61191,7 @@
         "google": "FEB0C",
         "image": "2764-fe0f.png",
         "sheet_x": 55,
-        "sheet_y": 23,
+        "sheet_y": 28,
         "short_name": "heart",
         "short_names": [
             "heart"
@@ -61158,7 +61218,7 @@
         "google": "FEB51",
         "image": "2795.png",
         "sheet_x": 55,
-        "sheet_y": 24,
+        "sheet_y": 29,
         "short_name": "heavy_plus_sign",
         "short_names": [
             "heavy_plus_sign"
@@ -61183,7 +61243,7 @@
         "google": "FEB52",
         "image": "2796.png",
         "sheet_x": 55,
-        "sheet_y": 25,
+        "sheet_y": 30,
         "short_name": "heavy_minus_sign",
         "short_names": [
             "heavy_minus_sign"
@@ -61208,7 +61268,7 @@
         "google": "FEB54",
         "image": "2797.png",
         "sheet_x": 55,
-        "sheet_y": 26,
+        "sheet_y": 31,
         "short_name": "heavy_division_sign",
         "short_names": [
             "heavy_division_sign"
@@ -61233,7 +61293,7 @@
         "google": "FEAFA",
         "image": "27a1-fe0f.png",
         "sheet_x": 55,
-        "sheet_y": 27,
+        "sheet_y": 32,
         "short_name": "arrow_right",
         "short_names": [
             "arrow_right"
@@ -61258,7 +61318,7 @@
         "google": "FEB08",
         "image": "27b0.png",
         "sheet_x": 55,
-        "sheet_y": 28,
+        "sheet_y": 33,
         "short_name": "curly_loop",
         "short_names": [
             "curly_loop"
@@ -61283,7 +61343,7 @@
         "google": "FE82B",
         "image": "27bf.png",
         "sheet_x": 55,
-        "sheet_y": 29,
+        "sheet_y": 34,
         "short_name": "loop",
         "short_names": [
             "loop"
@@ -61308,7 +61368,7 @@
         "google": "FEAF4",
         "image": "2934-fe0f.png",
         "sheet_x": 55,
-        "sheet_y": 30,
+        "sheet_y": 35,
         "short_name": "arrow_heading_up",
         "short_names": [
             "arrow_heading_up"
@@ -61333,7 +61393,7 @@
         "google": "FEAF5",
         "image": "2935-fe0f.png",
         "sheet_x": 55,
-        "sheet_y": 31,
+        "sheet_y": 36,
         "short_name": "arrow_heading_down",
         "short_names": [
             "arrow_heading_down"
@@ -61358,7 +61418,7 @@
         "google": "FEAFB",
         "image": "2b05-fe0f.png",
         "sheet_x": 55,
-        "sheet_y": 32,
+        "sheet_y": 37,
         "short_name": "arrow_left",
         "short_names": [
             "arrow_left"
@@ -61383,7 +61443,7 @@
         "google": "FEAF8",
         "image": "2b06-fe0f.png",
         "sheet_x": 55,
-        "sheet_y": 33,
+        "sheet_y": 38,
         "short_name": "arrow_up",
         "short_names": [
             "arrow_up"
@@ -61408,7 +61468,7 @@
         "google": "FEAF9",
         "image": "2b07-fe0f.png",
         "sheet_x": 55,
-        "sheet_y": 34,
+        "sheet_y": 39,
         "short_name": "arrow_down",
         "short_names": [
             "arrow_down"
@@ -61433,7 +61493,7 @@
         "google": "FEB6C",
         "image": "2b1b.png",
         "sheet_x": 55,
-        "sheet_y": 35,
+        "sheet_y": 40,
         "short_name": "black_large_square",
         "short_names": [
             "black_large_square"
@@ -61458,7 +61518,7 @@
         "google": "FEB6B",
         "image": "2b1c.png",
         "sheet_x": 55,
-        "sheet_y": 36,
+        "sheet_y": 41,
         "short_name": "white_large_square",
         "short_names": [
             "white_large_square"
@@ -61483,7 +61543,7 @@
         "google": "FEB68",
         "image": "2b50.png",
         "sheet_x": 55,
-        "sheet_y": 37,
+        "sheet_y": 42,
         "short_name": "star",
         "short_names": [
             "star"
@@ -61508,7 +61568,7 @@
         "google": "FEB44",
         "image": "2b55.png",
         "sheet_x": 55,
-        "sheet_y": 38,
+        "sheet_y": 43,
         "short_name": "o",
         "short_names": [
             "o"
@@ -61533,7 +61593,7 @@
         "google": "FEB07",
         "image": "3030-fe0f.png",
         "sheet_x": 55,
-        "sheet_y": 39,
+        "sheet_y": 44,
         "short_name": "wavy_dash",
         "short_names": [
             "wavy_dash"
@@ -61558,7 +61618,7 @@
         "google": "FE81B",
         "image": "303d-fe0f.png",
         "sheet_x": 55,
-        "sheet_y": 40,
+        "sheet_y": 45,
         "short_name": "part_alternation_mark",
         "short_names": [
             "part_alternation_mark"
@@ -61583,7 +61643,7 @@
         "google": "FEB43",
         "image": "3297-fe0f.png",
         "sheet_x": 55,
-        "sheet_y": 41,
+        "sheet_y": 46,
         "short_name": "congratulations",
         "short_names": [
             "congratulations"
@@ -61608,7 +61668,7 @@
         "google": "FEB2B",
         "image": "3299-fe0f.png",
         "sheet_x": 55,
-        "sheet_y": 42,
+        "sheet_y": 47,
         "short_name": "secret",
         "short_names": [
             "secret"
