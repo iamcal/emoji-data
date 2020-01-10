@@ -130,7 +130,7 @@ Images are extracted from their sources and this library attempts to track the l
 available versions. If you're looking for older versions of Apple or Android images
 (such as the Hairy Heart) then you'll need to look at previous revisions.
 
-* Apple Emoji: Copyright &copy; Apple Inc. - macOS 10.14 (Mojave)
+* Apple Emoji: Copyright &copy; Apple Inc. - macOS 10.15.1 (Catalina)
 * Android Emoji: Copyright &copy; [The Android Open Source Project](https://s3-eu-west-1.amazonaws.com/tw-font/android/NOTICE) - v2019-11-19-unicode12
 * Twitter Emoji: Copyright &copy; Twitter, Inc. - v12.1.4 2019-11-13
 * Facebook Emoji: Copyright &copy; Facebook, Inc. - v9, fetched 2020-01-09
