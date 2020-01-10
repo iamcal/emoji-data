@@ -231,31 +231,52 @@
 			);
 		}
 
-		# expand optional skin tones
-		if (preg_match('#{SKIN}#', $line, $m)){
-			$out = array();
-			$out[] = str_replace('{SKIN}', '', $line);
-			$out[] = str_replace('{SKIN}', '-1F3FB', $line).':skin-2';
-			$out[] = str_replace('{SKIN}', '-1F3FC', $line).':skin-3';
-			$out[] = str_replace('{SKIN}', '-1F3FD', $line).':skin-4';
-			$out[] = str_replace('{SKIN}', '-1F3FE', $line).':skin-5';
-			$out[] = str_replace('{SKIN}', '-1F3FF', $line).':skin-6';
-			return $out;
-		}
-
-		# expand required skin tones
-		if (preg_match('#{SKIN!}#', $line, $m)){
-			$out = array();
-			$out[] = str_replace('{SKIN!}', '-1F3FB', $line).':skin-2';
-			$out[] = str_replace('{SKIN!}', '-1F3FC', $line).':skin-3';
-			$out[] = str_replace('{SKIN!}', '-1F3FD', $line).':skin-4';
-			$out[] = str_replace('{SKIN!}', '-1F3FE', $line).':skin-5';
-			$out[] = str_replace('{SKIN!}', '-1F3FF', $line).':skin-6';
-			return $out;
+		# expand optional and required skin tones
+		if (preg_match('#{SKIN[!2]?}#', $line, $m)){
+			return expand_skin_choices(array($line));
 		}
 
 		# give up
 		return array($line);
+	}
+
+
+	function expand_skin_choices($lines){
+
+		# given a list of lines, expand the list my multiplying out skin tones.
+		# we can take multiple passes is there are multiple matching tags.
+
+		$out = array();
+
+		foreach ($lines as $line){
+
+			if (preg_match('#{SKIN[!2]?}#', $line, $m)){
+
+				$temp = [];
+				if ($m[0] == '{SKIN}'){
+					$temp[] = preg_replace('#{SKIN}#', '', $line, 1);
+				}
+				if ($m[0] == '{SKIN2}'){
+					if (strpos($line, '-1F3FB') === false) $temp[] = preg_replace('#{SKIN2}#', '-1F3FB', $line, 1).':skin-2';
+					if (strpos($line, '-1F3FC') === false) $temp[] = preg_replace('#{SKIN2}#', '-1F3FC', $line, 1).':skin-3';
+					if (strpos($line, '-1F3FD') === false) $temp[] = preg_replace('#{SKIN2}#', '-1F3FD', $line, 1).':skin-4';
+					if (strpos($line, '-1F3FE') === false) $temp[] = preg_replace('#{SKIN2}#', '-1F3FE', $line, 1).':skin-5';
+					if (strpos($line, '-1F3FF') === false) $temp[] = preg_replace('#{SKIN2}#', '-1F3FF', $line, 1).':skin-6';
+				}else{
+					$temp[] = preg_replace('#{SKIN!?}#', '-1F3FB', $line, 1).':skin-2';
+					$temp[] = preg_replace('#{SKIN!?}#', '-1F3FC', $line, 1).':skin-3';
+					$temp[] = preg_replace('#{SKIN!?}#', '-1F3FD', $line, 1).':skin-4';
+					$temp[] = preg_replace('#{SKIN!?}#', '-1F3FE', $line, 1).':skin-5';
+					$temp[] = preg_replace('#{SKIN!?}#', '-1F3FF', $line, 1).':skin-6';
+				}
+
+				$out = array_merge($out, expand_skin_choices($temp));
+			}else{
+				$out[] = $line;
+			}
+		}
+
+		return $out;
 	}
 
 	function load_short_name($line){
@@ -510,7 +531,7 @@
 		}
 	}
 
-	$skin_codepoints = array(
+	$skin_codepoints_base = array(
 		'skin-2' => '1F3FB',
 		'skin-3' => '1F3FC',
 		'skin-4' => '1F3FD',
@@ -518,15 +539,28 @@
 		'skin-6' => '1F3FF',
 	);
 
+	$skin_codepoints = array();
+
+	foreach ($skin_codepoints_base as $k1 => $v1){
+		$skin_codepoints[$k1] = $v1;
+		foreach ($skin_codepoints_base as $k2 => $v2){
+			$skin_codepoints[$k1.':'.$k2] = $v1.'-'.$v2;
+		}
+	}
+
 	foreach ($variations as $row){
-		list($name, $skin) = explode(':', $row['short_name']);
+		list($name, $skin) = explode(':', $row['short_name'], 2);
 		$skin_cp = $skin_codepoints[$skin];
 		$key = $short_name_map[$name];
+
+		if (!$skin_cp){
+			echo "\nERROR: unable to find skin codepoint match for {$skin}\n";
+		}
 
 		if (isset($key) && isset($out[$key])){
 			$out[$key]['skin_variations'][$skin_cp] = simplify_row($row);
 		}else{
-			echo "\nERROR: unable to find parent for {$row['short_name']}\n";
+			echo "\nERROR: unable to find parent for {$row['short_name']} / $name / $skin\n";
 		}
 	}
 
