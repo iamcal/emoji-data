@@ -101,6 +101,24 @@ The meaning of each field is as follows:
 | `obsoletes`, `obsoleted_by` | Emoji that are no longer used, in preference of gendered versions. |
 
 
+## Understanding the spritesheets
+
+For each image set (Apple, Google, etc) we generate several different "sprite sheets" - large images of all emoji stitched together.
+
+Inside the Git repo you'll find some sheets in the root directory and some in the `sheets-indexed-128` and `sheets-indexed-256` directories. In the NPM packages, you'll find them under the `img/{$set}/sheets*` paths. For example:
+
+| Git Repo | NPM Packages |
+| -------- | ------------ |
+| /sheet_apple_16.png | /img/apple/sheets/16.png |
+| /sheets-indexed-128/sheet_apple_16_indexed_128.png | /img/apple/sheets-128/16.png |
+
+In these examples, the image set is from Apple and the images are 16px on a side.
+The sheets on the top row are 24 bit color, while the sheets on the bottom row use an indexed color palette with only 128 colors.
+This makes the image much smaller, but sacrifices a lot of quality.
+Both 128 color and 256 color sheets are provided.
+
+
+
 ## Version history
 
 See [CHANGES.md](CHANGES.md)
