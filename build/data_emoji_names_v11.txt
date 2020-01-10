@@ -10,6 +10,8 @@
 {MAN/WOMAN}{SKIN}-200D-1F9B3;white_haired_{M/W}
 1F9B8{SKIN}-200D-{MALE/FEMALE};{GENDER}_superhero
 1F9B9{SKIN}-200D-{MALE/FEMALE};{GENDER}_supervillain
+1F9B8{SKIN};superhero
+1F9B9{SKIN};supervillain
 1F9B5{SKIN};leg
 1F9B6{SKIN};foot
 1F9B4;bone
