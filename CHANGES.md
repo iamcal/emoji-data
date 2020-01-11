@@ -1,6 +1,6 @@
 # Change Log
 
-## 2020-01-?? : v4.2.0
+## 2020-01-?? : v5.0.0
 
 * Updated to Unicode v12.1
 * Updated Apple images to macOS 10.15.1
@@ -9,6 +9,7 @@
 * Updated Facebook images to v9 / EMOJI_3
 * Removed Messenger images (now unified with Facebook)
 * Changed the `added_in` field to specify Emoji spec version rather than Unicode version (the underlying Unicode data changed)
+* Support for emoji with multiple skin tones within a single emoji
 
 
 ## 2018-07-05 : v4.1.0

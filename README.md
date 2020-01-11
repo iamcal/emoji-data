@@ -73,6 +73,9 @@ look like this:
                 "has_img_facebook": false,
             }
             ...
+            "1F3FB-1F3FC": {
+                ...
+            }
         },
         "obsoletes": "ABCD-1234",
         "obsoleted_by": "5678-90EF"
@@ -97,7 +100,7 @@ The meaning of each field is as follows:
 | `texts` | An array of ASCII emoji that should convert into this emoji. Each ASCII emoji will only appear against a single emoji entry. |
 | `has_img_*` | A flag for whether the given image set has an image (named by the image prop) available. |
 | `added_id` | Emoji version in which this codepoint/sequence was added (previously Unicode version). |
-| `skin_variations` | For emoji with multiple skin tone variations, a list of alternative glyphs, keyed by the skin tone. |
+| `skin_variations` | For emoji with multiple skin tone variations, a list of alternative glyphs, keyed by the skin tone. For emoji that support multiple skin tones within a single emoji, each skin tone is separated by a dash character. |
 | `obsoletes`, `obsoleted_by` | Emoji that are no longer used, in preference of gendered versions. |
 
 
