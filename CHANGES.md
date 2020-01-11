@@ -1,6 +1,6 @@
 # Change Log
 
-## 2020-01-?? : v5.0.0
+## 2020-01-10 : v5.0.0
 
 * Updated to Unicode v12.1
 * Updated Apple images to macOS 10.15.1
