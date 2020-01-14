@@ -27,7 +27,7 @@ You can rebuild by following these steps:
 	./quant_sheets.sh
 
 	parallel ./optimize.sh ::: ../sheet_*.png (about 23 mins)
-	parallel ./optimize.sh ::: ../sheets-indexed-*/*.png
+	parallel ./optimize.sh ::: ../sheets-*/*.png
 	parallel ./optimize.sh ::: ../img-*-64/*
 
 
