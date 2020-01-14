@@ -108,18 +108,21 @@ The meaning of each field is as follows:
 
 For each image set (Apple, Google, etc) we generate several different "sprite sheets" - large images of all emoji stitched together.
 
-Inside the Git repo you'll find some sheets in the root directory and some in the `sheets-indexed-128` and `sheets-indexed-256` directories. In the NPM packages, you'll find them under the `img/{$set}/sheets*` paths. For example:
+Inside the Git repo you'll find some sheets in the root directory and some in the `sheets-indexed-128`, `sheets-indexed-256` and `sheets-clean` directories.
+In the NPM packages, you'll find them under the `img/{$set}/sheets*` paths. For example:
 
 | Git Repo | NPM Packages |
 | -------- | ------------ |
 | /sheet_apple_16.png | /img/apple/sheets/16.png |
 | /sheets-indexed-128/sheet_apple_16_indexed_128.png | /img/apple/sheets-128/16.png |
+| /sheets-clean/sheet_apple_16_clean.png | /img/apple/sheets-clean/16.png |
 
 In these examples, the image set is from Apple and the images are 16px on a side.
-The sheets on the top row are 24 bit color, while the sheets on the bottom row use an indexed color palette with only 128 colors.
+The sheets on the top row are 24 bit color, while the sheets in the middle row use an indexed color palette with only 128 colors.
 This makes the image much smaller, but sacrifices a lot of quality.
 Both 128 color and 256 color sheets are provided.
-
+The sheets on the bottom row do not contain fallbacks for missing images, so the Google sheet only contains Google images (and no Apple fallbacks).
+This means that some images are replaced with the fallback character (a question mark), but the usage rights are simpler.
 
 
 ## Version history
@@ -142,6 +145,9 @@ Apple images are not licensed for commercial usage.
 Android/Google/Noto emoji are available under the [Apache License 2.0](https://github.com/googlei18n/noto-emoji/blob/master/LICENSE).
 Twitter emoji are available under the [Creative Commons Attribution 4.0 license](https://github.com/twitter/twemoji/blob/gh-pages/LICENSE-GRAPHICS).
 Facebook emoji have no clear licensing.
+
+If you use the spritesheet images and are concerned about usage rights, please use the 'clean' versions, which avoid using fallback images for
+missing emoji (see the spritesheet section above for more details).
 
 
 ## Libraries which use this data
