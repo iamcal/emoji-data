@@ -39,6 +39,7 @@
 		mkdir("{$dir}/../packages/{$name}/img/{$name}/sheets");
 		mkdir("{$dir}/../packages/{$name}/img/{$name}/sheets-128");
 		mkdir("{$dir}/../packages/{$name}/img/{$name}/sheets-256");
+		mkdir("{$dir}/../packages/{$name}/img/{$name}/sheets-clean");
 
 		copy("{$dir}/../sheet_{$name}_16.png", "{$dir}/../packages/{$name}/img/{$name}/sheets/16.png");
 		copy("{$dir}/../sheet_{$name}_20.png", "{$dir}/../packages/{$name}/img/{$name}/sheets/20.png");
@@ -54,6 +55,11 @@
 		copy("{$dir}/../sheets-indexed-256/sheet_{$name}_20_indexed_256.png", "{$dir}/../packages/{$name}/img/{$name}/sheets-256/20.png");
 		copy("{$dir}/../sheets-indexed-256/sheet_{$name}_32_indexed_256.png", "{$dir}/../packages/{$name}/img/{$name}/sheets-256/32.png");
 		copy("{$dir}/../sheets-indexed-256/sheet_{$name}_64_indexed_256.png", "{$dir}/../packages/{$name}/img/{$name}/sheets-256/64.png");
+
+		copy("{$dir}/../sheets-clean/sheet_{$name}_16_clean.png", "{$dir}/../packages/{$name}/img/{$name}/sheets-clean/16.png");
+		copy("{$dir}/../sheets-clean/sheet_{$name}_20_clean.png", "{$dir}/../packages/{$name}/img/{$name}/sheets-clean/20.png");
+		copy("{$dir}/../sheets-clean/sheet_{$name}_32_clean.png", "{$dir}/../packages/{$name}/img/{$name}/sheets-clean/32.png");
+		copy("{$dir}/../sheets-clean/sheet_{$name}_64_clean.png", "{$dir}/../packages/{$name}/img/{$name}/sheets-clean/64.png");
 
 		shell_exec("cp {$dir}/../img-{$name}-64/*.png {$dir}/../packages/{$name}/img/{$name}/64/");
 

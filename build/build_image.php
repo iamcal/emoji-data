@@ -36,20 +36,24 @@
 	# bake sheets
 	#
 
-	foreach (array(64, 32, 20, 16) as $sz){
-		create_sheet('apple', $sz);
-		create_sheet('twitter', $sz);
-		create_sheet('google', $sz);
-		create_sheet('facebook', $sz);
+	foreach (array(false, true) as $clean){
+		foreach (array(64, 32, 20, 16) as $sz){
+			create_sheet('apple', $sz, $clean);
+			create_sheet('twitter', $sz, $clean);
+			create_sheet('google', $sz, $clean);
+			create_sheet('facebook', $sz, $clean);
+		}
 	}
 
 
-	function create_sheet($type, $img_w){
+	function create_sheet($type, $img_w, $clean){
 
 		#$img_w = 64;
 		$space = 1;
 
-		echo "Creating $type/$img_w : ";
+		$mode = $clean ? 'clean' : 'simple';
+
+		echo "Creating $type/$img_w/$mode : ";
 
 		global $catalog, $size;
 
@@ -59,7 +63,11 @@
 		# those are missing
 		#
 
-		$try_order = array($type, 'apple', 'google', 'twitter', 'facebook');
+		if ($clean){
+			$try_order = array($type);
+		}else{
+			$try_order = array($type, 'apple', 'google', 'twitter', 'facebook');
+		}
 
 
 		#
@@ -106,8 +114,13 @@
 
 		$geom = escapeshellarg("{$img_w}x{$img_w}+{$space}+{$space}");
 		$tile = escapeshellarg("{$size}x{$size}");
-		$dst = escapeshellarg("sheet_{$type}_{$img_w}.png");
-		
+
+		if ($clean){
+			$dst = escapeshellarg("sheets-clean/sheet_{$type}_{$img_w}_clean.png");
+		}else{
+			$dst = escapeshellarg("sheet_{$type}_{$img_w}.png");
+		}
+
 		# Build the montage input (list of filenames)
 		$files = '';
 		foreach ($comp as $index => $file){
@@ -123,11 +136,11 @@
 				#echo "\n";
 			}
 		}
-    
-    $cmd = "montage {$files} -geometry {$geom} -tile {$tile} -background none png32:{$dst}";
-    $fd_spec = array();
-    $pipes = array();
-    $cwd = __DIR__.'/..'; # chdir into parent directory first
+
+		$cmd = "montage {$files} -geometry {$geom} -tile {$tile} -background none png32:{$dst}";
+		$fd_spec = array();
+		$pipes = array();
+		$cwd = __DIR__.'/..'; # chdir into parent directory first
 
 		$res = proc_open($cmd, $fd_spec, $pipes, $cwd);
 
@@ -178,3 +191,4 @@
 
 		return 'MISSING.png';
 	}
+
