@@ -1,6 +1,6 @@
 # Change Log
 
-## 2020-01-?? : v5.0.1
+## 2020-01-14 : v5.0.1
 
 * Added 'clean' spritesheets, containing no fallback images https://github.com/iamcal/emoji-data/issues/162
 
