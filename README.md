@@ -16,9 +16,10 @@ The git repo is pretty big (almost 4GB), but contains everything. If you want to
 
     npm install emoji-datasource
 
-This will only install the 32px full-fidelity spritesheets. If you want different size sheets (16, 20 or 64px),
-quantized sheets (128 or 256 color) or the individual images (at 64px) then you'll need to install additional
-npm modules:
+This will only install the 32px full-fidelity spritesheets (with fallback images). If you want different
+size sheets (16, 20 or 64px), quantized sheets (128 or 256 color), non-fallback (clean) sheets, or the
+individual images (at 64px) then you'll need to install additional npm modules:
+
 ```bash
 npm install emoji-datasource-apple
 npm install emoji-datasource-google
