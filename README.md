@@ -169,3 +169,5 @@ missing emoji (see the spritesheet section above for more details).
 * https://github.com/afeld/emoji-css/ - an easy way to include emoji in your HTML
 * https://github.com/alexmick/emoji-data-python - Python emoji library
 * https://github.com/nulab/emoji-data-ts - TypeScript emoji library
+* https://github.com/maxoumime/emoji-data-ios - Swift emoji library
+* https://github.com/maxoumime/emoji-data-java - Java/Kotlin emoji library
