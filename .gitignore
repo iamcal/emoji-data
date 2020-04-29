@@ -2,3 +2,4 @@ build/apple/apple_color_emoji_*.ttf
 build/apple/apple_color_emoji_*.ttc
 build/windows10/seguiemj.ttf
 packages/
+.DS_Store

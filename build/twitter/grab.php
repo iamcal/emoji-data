@@ -25,6 +25,7 @@
 
 
 	function fetch($img, $alt_img=null){
+		$alt_svg = str_replace(".png", ".svg", $alt_img);
 
 		$src_img = $img;
 		if (substr($src_img, 0, 2) == '00') $src_img = substr($src_img, 2, 2) . '-20e3.png';
@@ -35,12 +36,21 @@
 		$dst = "../../img-twitter-72/{$img}";
 		$src = "twemoji/assets/72x72/{$src_img}";
 
+		$svg_img = str_replace(".png", ".svg", $img);
+		$svg_src_img = str_replace(".png", ".svg", $src_img);
+		$svg_dst = "../../svg-twitter/{$svg_img}";
+		$svg_src = "twemoji/assets/svg/{$svg_src_img}";
+
 		#echo "$src -> $dst\n";
 		#return;
 
 		if (!file_exists($src) && $alt_img){
 			$new_src = "twemoji/assets/72x72/{$alt_img}";
-			if (file_exists($new_src)) $src = $new_src;
+			$new_svg_src = "twemoji/assets/svg/{$alt_svg}";
+			if (file_exists($new_src)){
+				$src = $new_src;
+				$svg_src = $new_svg_src;
+			};
 		}
 
 		if (!file_exists($src)){
@@ -49,5 +59,6 @@
 		}
 
 		copy($src, $dst);
+		copy($svg_src, $svg_dst);
 		echo '.';
 	}
