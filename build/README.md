@@ -23,12 +23,12 @@ You can rebuild by following these steps:
 	# update!
 	php build_image.php
 
-	# create quantized sheets and optimize them all (_very_ slow)
-	./quant_sheets.sh
+	# create quantized sheets and optimize them all
+	./quant_sheets.sh (~2 mins)
 
-	parallel ./optimize.sh ::: ../sheet_*.png (about 23 mins)
-	parallel ./optimize.sh ::: ../sheets-*/*.png
-	parallel ./optimize.sh ::: ../img-*-64/*
+	parallel ./optimize.sh ::: ../sheet_*.png (~18 mins)
+	parallel ./optimize.sh ::: ../sheets-*/*.png (~25 mins)
+	parallel ./optimize.sh ::: ../img-*-64/* (~92 mins)
 
 
 To find out how to extract the original source glyphs, look inside the sub
