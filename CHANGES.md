@@ -1,5 +1,11 @@
 # Change Log
 
+## 2020-??-?? : v6.0.1
+
+* Fixes image set versions in the README
+* Updated the build steps to not forget that in the future
+
+
 ## 2020-10-09 : v6.0.0
 
 * Updated to Unicode/Emoji 13.0
