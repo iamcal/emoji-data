@@ -6,6 +6,8 @@
 * Updated Android images to v2020-07-22-unicode13_0
 * Updated Twemoji images to v13.0.1
 * Updated Facebook images to latest
+* Updated Apple images to Mac OS 11 Beta 20A5384c
+  * The mixed skin tone couples are broken in this beta font, so I'm using those 60 images from 10.15 instead
 
 
 ## 2020-01-14 : v5.0.1
