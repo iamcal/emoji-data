@@ -5,7 +5,7 @@
 This project provides easy-to-parse data about emoji, along with a spritesheet-style 
 images for use on the web.
 
-The current version supports Unicode version 12.1 (October 2019)
+The current version supports Emoji version 13 (2020)
 
 You can see a catalog of the emoji data here: http://unicodey.com/emoji-data/table.htm
 
