@@ -52,9 +52,11 @@ directories under `build/`.
 1. Land new commits onto master
 2. Update `CHANGES.md` with version history
 3. Update `package.json` with new version number (now in only 1 place)
-4. Add a git tag
-5. Publish to npm: `php npm_prep.php` and `php npm_publish.php`
-6. Update downstream libraries
+4. Update `README.md` with the correct Unicode/Emoji version
+4. Update `README.md` and `CHANGES.md` with the correct source versions for all image sets
+5. Add a git tag
+6. Publish to npm: `php npm_prep.php` and `php npm_publish.php`
+7. Update downstream libraries
 
 
 ## Install the optimization tools
