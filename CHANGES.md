@@ -1,6 +1,6 @@
 # Change Log
 
-## 2020-??-?? : v6.0.0
+## 2020-10-09 : v6.0.0
 
 * Updated to Unicode/Emoji 13.0
 * Updated Android images to v2020-07-22-unicode13_0
