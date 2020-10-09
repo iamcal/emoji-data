@@ -14890,7 +14890,7 @@
         "category": "Flags",
         "sort_order": 7,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": false
@@ -15515,7 +15515,7 @@
         "category": "Animals & Nature",
         "sort_order": 15,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -16844,7 +16844,7 @@
         "category": "Animals & Nature",
         "sort_order": 56,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -19129,7 +19129,7 @@
         "category": "People & Body",
         "sort_order": 185,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true,
@@ -19141,7 +19141,7 @@
                 "sheet_x": 14,
                 "sheet_y": 40,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -19153,7 +19153,7 @@
                 "sheet_x": 14,
                 "sheet_y": 41,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -19165,7 +19165,7 @@
                 "sheet_x": 14,
                 "sheet_y": 42,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -19177,7 +19177,7 @@
                 "sheet_x": 14,
                 "sheet_y": 43,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -19189,7 +19189,7 @@
                 "sheet_x": 14,
                 "sheet_y": 44,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -21731,7 +21731,7 @@
         "category": "People & Body",
         "sort_order": 184,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true,
@@ -21743,7 +21743,7 @@
                 "sheet_x": 17,
                 "sheet_y": 33,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -21755,7 +21755,7 @@
                 "sheet_x": 17,
                 "sheet_y": 34,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -21767,7 +21767,7 @@
                 "sheet_x": 17,
                 "sheet_y": 35,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -21779,7 +21779,7 @@
                 "sheet_x": 17,
                 "sheet_y": 36,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -21791,7 +21791,7 @@
                 "sheet_x": 17,
                 "sheet_y": 37,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -25436,7 +25436,7 @@
         "category": "People & Body",
         "sort_order": 181,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true,
@@ -25448,7 +25448,7 @@
                 "sheet_x": 21,
                 "sheet_y": 53,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -25460,7 +25460,7 @@
                 "sheet_x": 21,
                 "sheet_y": 54,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -25472,7 +25472,7 @@
                 "sheet_x": 21,
                 "sheet_y": 55,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -25484,7 +25484,7 @@
                 "sheet_x": 21,
                 "sheet_y": 56,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -25496,7 +25496,7 @@
                 "sheet_x": 21,
                 "sheet_y": 57,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -25523,7 +25523,7 @@
         "category": "People & Body",
         "sort_order": 180,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true,
@@ -25535,7 +25535,7 @@
                 "sheet_x": 22,
                 "sheet_y": 1,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -25547,7 +25547,7 @@
                 "sheet_x": 22,
                 "sheet_y": 2,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -25559,7 +25559,7 @@
                 "sheet_x": 22,
                 "sheet_y": 3,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -25571,7 +25571,7 @@
                 "sheet_x": 22,
                 "sheet_y": 4,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -25583,7 +25583,7 @@
                 "sheet_x": 22,
                 "sheet_y": 5,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -42096,7 +42096,7 @@
         "category": "Travel & Places",
         "sort_order": 23,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -42121,7 +42121,7 @@
         "category": "Objects",
         "sort_order": 222,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -42596,7 +42596,7 @@
         "category": "Travel & Places",
         "sort_order": 91,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -42621,7 +42621,7 @@
         "category": "Travel & Places",
         "sort_order": 104,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -42946,7 +42946,7 @@
         "category": "People & Body",
         "sort_order": 7,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true,
@@ -42958,7 +42958,7 @@
                 "sheet_x": 37,
                 "sheet_y": 10,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -42970,7 +42970,7 @@
                 "sheet_x": 37,
                 "sheet_y": 11,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -42982,7 +42982,7 @@
                 "sheet_x": 37,
                 "sheet_y": 12,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -42994,7 +42994,7 @@
                 "sheet_x": 37,
                 "sheet_y": 13,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -43006,7 +43006,7 @@
                 "sheet_x": 37,
                 "sheet_y": 14,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -45085,7 +45085,7 @@
         "category": "People & Body",
         "sort_order": 178,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true,
@@ -45097,7 +45097,7 @@
                 "sheet_x": 39,
                 "sheet_y": 22,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -45109,7 +45109,7 @@
                 "sheet_x": 39,
                 "sheet_y": 23,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -45121,7 +45121,7 @@
                 "sheet_x": 39,
                 "sheet_y": 24,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -45133,7 +45133,7 @@
                 "sheet_x": 39,
                 "sheet_y": 25,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -45145,7 +45145,7 @@
                 "sheet_x": 39,
                 "sheet_y": 26,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -45172,7 +45172,7 @@
         "category": "People & Body",
         "sort_order": 177,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true,
@@ -45184,7 +45184,7 @@
                 "sheet_x": 39,
                 "sheet_y": 28,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -45196,7 +45196,7 @@
                 "sheet_x": 39,
                 "sheet_y": 29,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -45208,7 +45208,7 @@
                 "sheet_x": 39,
                 "sheet_y": 30,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -45220,7 +45220,7 @@
                 "sheet_x": 39,
                 "sheet_y": 31,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -45232,7 +45232,7 @@
                 "sheet_x": 39,
                 "sheet_y": 32,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -48089,7 +48089,7 @@
         "category": "Smileys & Emotion",
         "sort_order": 22,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -48214,7 +48214,7 @@
         "category": "People & Body",
         "sort_order": 165,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true,
@@ -48226,7 +48226,7 @@
                 "sheet_x": 42,
                 "sheet_y": 21,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -48238,7 +48238,7 @@
                 "sheet_x": 42,
                 "sheet_y": 22,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -48250,7 +48250,7 @@
                 "sheet_x": 42,
                 "sheet_y": 23,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -48262,7 +48262,7 @@
                 "sheet_x": 42,
                 "sheet_y": 24,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -48274,7 +48274,7 @@
                 "sheet_x": 42,
                 "sheet_y": 25,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -48301,7 +48301,7 @@
         "category": "Smileys & Emotion",
         "sort_order": 61,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -49351,7 +49351,7 @@
         "category": "Animals & Nature",
         "sort_order": 42,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -49376,7 +49376,7 @@
         "category": "Animals & Nature",
         "sort_order": 78,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -49551,7 +49551,7 @@
         "category": "Animals & Nature",
         "sort_order": 52,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -49576,7 +49576,7 @@
         "category": "Animals & Nature",
         "sort_order": 25,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -49601,7 +49601,7 @@
         "category": "Animals & Nature",
         "sort_order": 95,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -50909,7 +50909,7 @@
         "category": "Food & Drink",
         "sort_order": 120,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -51916,7 +51916,7 @@
         "category": "People & Body",
         "sort_order": 186,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true,
@@ -51928,7 +51928,7 @@
                 "sheet_x": 45,
                 "sheet_y": 48,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -51940,7 +51940,7 @@
                 "sheet_x": 45,
                 "sheet_y": 49,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -51952,7 +51952,7 @@
                 "sheet_x": 45,
                 "sheet_y": 50,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -51964,7 +51964,7 @@
                 "sheet_x": 45,
                 "sheet_y": 51,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -51976,7 +51976,7 @@
                 "sheet_x": 45,
                 "sheet_y": 52,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -52003,7 +52003,7 @@
         "category": "People & Body",
         "sort_order": 190,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true,
@@ -52015,7 +52015,7 @@
                 "sheet_x": 45,
                 "sheet_y": 54,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -52027,7 +52027,7 @@
                 "sheet_x": 45,
                 "sheet_y": 55,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -52039,7 +52039,7 @@
                 "sheet_x": 45,
                 "sheet_y": 56,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -52051,7 +52051,7 @@
                 "sheet_x": 45,
                 "sheet_y": 57,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -52063,7 +52063,7 @@
                 "sheet_x": 46,
                 "sheet_y": 0,
                 "added_in": "13.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
                 "has_img_facebook": true
@@ -57917,7 +57917,7 @@
         "category": "Objects",
         "sort_order": 26,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58092,7 +58092,7 @@
         "category": "Objects",
         "sort_order": 192,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58117,7 +58117,7 @@
         "category": "Activities",
         "sort_order": 60,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58142,7 +58142,7 @@
         "category": "Activities",
         "sort_order": 68,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58167,7 +58167,7 @@
         "category": "Activities",
         "sort_order": 69,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58342,7 +58342,7 @@
         "category": "Objects",
         "sort_order": 40,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58367,7 +58367,7 @@
         "category": "Objects",
         "sort_order": 65,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58392,7 +58392,7 @@
         "category": "Objects",
         "sort_order": 72,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58417,7 +58417,7 @@
         "category": "Objects",
         "sort_order": 126,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58442,7 +58442,7 @@
         "category": "Objects",
         "sort_order": 195,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58467,7 +58467,7 @@
         "category": "Objects",
         "sort_order": 197,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58492,7 +58492,7 @@
         "category": "Objects",
         "sort_order": 208,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58517,7 +58517,7 @@
         "category": "Objects",
         "sort_order": 205,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58542,7 +58542,7 @@
         "category": "Objects",
         "sort_order": 223,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58567,7 +58567,7 @@
         "category": "Objects",
         "sort_order": 224,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58592,7 +58592,7 @@
         "category": "Objects",
         "sort_order": 229,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58617,7 +58617,7 @@
         "category": "Activities",
         "sort_order": 82,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58642,7 +58642,7 @@
         "category": "Activities",
         "sort_order": 84,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58667,7 +58667,7 @@
         "category": "Objects",
         "sort_order": 239,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58692,7 +58692,7 @@
         "category": "Objects",
         "sort_order": 232,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58717,7 +58717,7 @@
         "category": "Objects",
         "sort_order": 241,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58742,7 +58742,7 @@
         "category": "Objects",
         "sort_order": 247,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58767,7 +58767,7 @@
         "category": "Objects",
         "sort_order": 250,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58792,7 +58792,7 @@
         "category": "Travel & Places",
         "sort_order": 21,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58817,7 +58817,7 @@
         "category": "Animals & Nature",
         "sort_order": 115,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58842,7 +58842,7 @@
         "category": "Animals & Nature",
         "sort_order": 116,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58867,7 +58867,7 @@
         "category": "Animals & Nature",
         "sort_order": 108,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58892,7 +58892,7 @@
         "category": "Animals & Nature",
         "sort_order": 110,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58917,7 +58917,7 @@
         "category": "Animals & Nature",
         "sort_order": 129,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58942,7 +58942,7 @@
         "category": "Travel & Places",
         "sort_order": 22,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58967,7 +58967,7 @@
         "category": "Animals & Nature",
         "sort_order": 79,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -58992,7 +58992,7 @@
         "category": "People & Body",
         "sort_order": 44,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -59017,7 +59017,7 @@
         "category": "People & Body",
         "sort_order": 45,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -59042,7 +59042,7 @@
         "category": "People & Body",
         "sort_order": 346,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -59067,7 +59067,7 @@
         "category": "Food & Drink",
         "sort_order": 15,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -59092,7 +59092,7 @@
         "category": "Food & Drink",
         "sort_order": 26,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -59117,7 +59117,7 @@
         "category": "Food & Drink",
         "sort_order": 18,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -59142,7 +59142,7 @@
         "category": "Food & Drink",
         "sort_order": 38,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -59167,7 +59167,7 @@
         "category": "Food & Drink",
         "sort_order": 55,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -59192,7 +59192,7 @@
         "category": "Food & Drink",
         "sort_order": 62,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -59217,7 +59217,7 @@
         "category": "Food & Drink",
         "sort_order": 108,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
@@ -61656,7 +61656,7 @@
         "category": "Symbols",
         "sort_order": 99,
         "added_in": "13.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
         "has_img_facebook": true
