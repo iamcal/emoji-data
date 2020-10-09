@@ -1,5 +1,13 @@
 # Change Log
 
+## 2020-??-?? : v6.0.0
+
+* Updated to Unicode/Emoji 13.0
+* Updated Android images to v2020-07-22-unicode13_0 (incomplete)
+* Updated Twemoji images to v13.0.1
+* Updated Facebook images to latest
+
+
 ## 2020-01-14 : v5.0.1
 
 * Added 'clean' spritesheets, containing no fallback images https://github.com/iamcal/emoji-data/issues/162
