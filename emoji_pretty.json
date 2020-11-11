@@ -45249,14 +45249,14 @@
         "image": "1f935.png",
         "sheet_x": 39,
         "sheet_y": 33,
-        "short_name": "man_in_tuxedo",
+        "short_name": "person_in_tuxedo",
         "short_names": [
-            "man_in_tuxedo"
+            "person_in_tuxedo"
         ],
         "text": null,
         "texts": null,
         "category": "People & Body",
-        "sort_order": 1409,
+        "sort_order": 176,
         "added_in": "3.0",
         "has_img_apple": true,
         "has_img_google": true,

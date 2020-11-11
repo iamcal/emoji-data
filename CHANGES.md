@@ -7,6 +7,7 @@
 * Switched `U+1F41E LADY BEETLE` to use `:ladybug:`/`:lady_beetle:` as a short code (`:beetle:` is now used by `U+1FAB2 BEETLE`)
 * Codepoint `U+1F46A FAMILY` now only has the shortcode `:family:`, as it is no longer considered gendered (previous also had `:man-woman-boy:`)
 * Sequence `1F468-200D-1F469-200D-1F466` now only has the shortcode `man-woman-boy` (previously had `:family:`)
+* Codepoint `U+1F935 MANY IN TUXEDO` now has the shortcode `:person_in_tuxedo:` (since `:man_in_tuxedo:` is used by sequence `1F935*-200D-2642-FE0F`. The Emoji standard and the Unicode standard appear to disagree here, but this choice seems reasonable)
 
 
 ## 2020-10-09 : v6.0.0

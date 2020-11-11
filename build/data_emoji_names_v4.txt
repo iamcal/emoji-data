@@ -25,7 +25,7 @@
 1F930;pregnant_woman
 1F933;selfie
 1F934;prince
-1F935;man_in_tuxedo
+1F935;person_in_tuxedo
 1F936;mrs_claus/mother_christmas
 1F937;shrug
 1F938;person_doing_cartwheel
