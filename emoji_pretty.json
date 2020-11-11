@@ -16107,14 +16107,15 @@
         "image": "1f41e.png",
         "sheet_x": 11,
         "sheet_y": 50,
-        "short_name": "beetle",
+        "short_name": "ladybug",
         "short_names": [
-            "beetle"
+            "ladybug",
+            "lady_beetle"
         ],
         "text": null,
         "texts": null,
         "category": "Animals & Nature",
-        "sort_order": 2767,
+        "sort_order": 108,
         "added_in": "0.6",
         "has_img_apple": true,
         "has_img_google": true,
@@ -58865,7 +58866,7 @@
         "text": null,
         "texts": null,
         "category": "Animals & Nature",
-        "sort_order": 108,
+        "sort_order": 107,
         "added_in": "13.0",
         "has_img_apple": true,
         "has_img_google": true,

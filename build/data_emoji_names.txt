@@ -271,7 +271,7 @@
 1F41B;bug
 1F41C;ant
 1F41D;bee/honeybee
-1F41E;beetle
+1F41E;ladybug/lady_beetle
 1F41F;fish
 1F420;tropical_fish
 1F421;blowfish

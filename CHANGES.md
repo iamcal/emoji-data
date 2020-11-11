@@ -4,6 +4,7 @@
 
 * Fixes image set versions in the README
 * Updated the build steps to not forget that in the future
+* Switched `U+1F41E LADY BEETLE` to use `:ladybug:`/`:lady_beetle:` as a short code (`:beetle:` is now used by `U+1FAB2 BEETLE`)
 
 
 ## 2020-10-09 : v6.0.0
