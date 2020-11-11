@@ -24101,11 +24101,11 @@
         "image": "1f46b.png",
         "sheet_x": 20,
         "sheet_y": 11,
-        "short_name": "couple",
+        "short_name": "man_and_woman_holding_hands",
         "short_names": [
-            "couple",
             "man_and_woman_holding_hands",
-            "woman_and_man_holding_hands"
+            "woman_and_man_holding_hands",
+            "couple"
         ],
         "text": null,
         "texts": null,

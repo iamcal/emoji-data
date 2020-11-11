@@ -346,7 +346,7 @@
 1F468;man
 1F469;woman
 1F46A;family
-1F46B;couple/man_and_woman_holding_hands/woman_and_man_holding_hands
+1F46B;man_and_woman_holding_hands/woman_and_man_holding_hands/couple
 1F46C;two_men_holding_hands/men_holding_hands
 1F46D;two_women_holding_hands/women_holding_hands
 1F46E;cop
