@@ -19895,8 +19895,7 @@
         "sheet_y": 27,
         "short_name": "man-woman-boy",
         "short_names": [
-            "man-woman-boy",
-            "family"
+            "man-woman-boy"
         ],
         "text": null,
         "texts": null,
@@ -24078,8 +24077,7 @@
         "sheet_y": 10,
         "short_name": "family",
         "short_names": [
-            "family",
-            "man-woman-boy"
+            "family"
         ],
         "text": null,
         "texts": null,

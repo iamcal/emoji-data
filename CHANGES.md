@@ -5,6 +5,8 @@
 * Fixes image set versions in the README
 * Updated the build steps to not forget that in the future
 * Switched `U+1F41E LADY BEETLE` to use `:ladybug:`/`:lady_beetle:` as a short code (`:beetle:` is now used by `U+1FAB2 BEETLE`)
+* Codepoint `U+1F46A FAMILY` now only has the shortcode `:family:`, as it is no longer considered gendered (previous also had `:man-woman-boy:`)
+* Sequence `1F468-200D-1F469-200D-1F466` now only has the shortcode `man-woman-boy` (previously had `:family:`)
 
 
 ## 2020-10-09 : v6.0.0
