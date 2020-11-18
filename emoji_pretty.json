@@ -25,7 +25,7 @@
         "has_img_facebook": false
     },
     {
-        "name": null,
+        "name": "KEYCAP: *",
         "unified": "002A-FE0F-20E3",
         "non_qualified": "002A-20E3",
         "docomo": null,
@@ -8437,7 +8437,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "THERMOMETER",
         "unified": "1F321-FE0F",
         "non_qualified": "1F321",
         "docomo": null,
@@ -8462,7 +8462,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "SUN BEHIND SMALL CLOUD",
         "unified": "1F324-FE0F",
         "non_qualified": "1F324",
         "docomo": null,
@@ -8488,7 +8488,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "SUN BEHIND LARGE CLOUD",
         "unified": "1F325-FE0F",
         "non_qualified": "1F325",
         "docomo": null,
@@ -8514,7 +8514,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "SUN BEHIND RAIN CLOUD",
         "unified": "1F326-FE0F",
         "non_qualified": "1F326",
         "docomo": null,
@@ -8540,7 +8540,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "CLOUD WITH RAIN",
         "unified": "1F327-FE0F",
         "non_qualified": "1F327",
         "docomo": null,
@@ -8565,7 +8565,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "CLOUD WITH SNOW",
         "unified": "1F328-FE0F",
         "non_qualified": "1F328",
         "docomo": null,
@@ -8590,7 +8590,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "CLOUD WITH LIGHTNING",
         "unified": "1F329-FE0F",
         "non_qualified": "1F329",
         "docomo": null,
@@ -8616,7 +8616,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "TORNADO",
         "unified": "1F32A-FE0F",
         "non_qualified": "1F32A",
         "docomo": null,
@@ -8642,7 +8642,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FOG",
         "unified": "1F32B-FE0F",
         "non_qualified": "1F32B",
         "docomo": null,
@@ -8667,7 +8667,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "WIND FACE",
         "unified": "1F32C-FE0F",
         "non_qualified": "1F32C",
         "docomo": null,
@@ -8917,7 +8917,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "HOT PEPPER",
         "unified": "1F336-FE0F",
         "non_qualified": "1F336",
         "docomo": null,
@@ -10693,7 +10693,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FORK AND KNIFE WITH PLATE",
         "unified": "1F37D-FE0F",
         "non_qualified": "1F37D",
         "docomo": null,
@@ -11330,7 +11330,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "MILITARY MEDAL",
         "unified": "1F396-FE0F",
         "non_qualified": "1F396",
         "docomo": null,
@@ -11355,7 +11355,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "REMINDER RIBBON",
         "unified": "1F397-FE0F",
         "non_qualified": "1F397",
         "docomo": null,
@@ -11380,7 +11380,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "STUDIO MICROPHONE",
         "unified": "1F399-FE0F",
         "non_qualified": "1F399",
         "docomo": null,
@@ -11405,7 +11405,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "LEVEL SLIDER",
         "unified": "1F39A-FE0F",
         "non_qualified": "1F39A",
         "docomo": null,
@@ -11430,7 +11430,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "CONTROL KNOBS",
         "unified": "1F39B-FE0F",
         "non_qualified": "1F39B",
         "docomo": null,
@@ -11455,7 +11455,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FILM FRAMES",
         "unified": "1F39E-FE0F",
         "non_qualified": "1F39E",
         "docomo": null,
@@ -11480,7 +11480,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "ADMISSION TICKETS",
         "unified": "1F39F-FE0F",
         "non_qualified": "1F39F",
         "docomo": null,
@@ -12442,7 +12442,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN RUNNING",
         "unified": "1F3C3-200D-2640-FE0F",
         "non_qualified": "1F3C3-200D-2640",
         "docomo": null,
@@ -12529,7 +12529,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN RUNNING",
         "unified": "1F3C3-200D-2642-FE0F",
         "non_qualified": "1F3C3-200D-2642",
         "docomo": null,
@@ -12706,7 +12706,7 @@
         "obsoleted_by": "1F3C3-200D-2642-FE0F"
     },
     {
-        "name": null,
+        "name": "WOMAN SURFING",
         "unified": "1F3C4-200D-2640-FE0F",
         "non_qualified": "1F3C4-200D-2640",
         "docomo": null,
@@ -12793,7 +12793,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN SURFING",
         "unified": "1F3C4-200D-2642-FE0F",
         "non_qualified": "1F3C4-200D-2642",
         "docomo": null,
@@ -13156,7 +13156,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "WOMAN SWIMMING",
         "unified": "1F3CA-200D-2640-FE0F",
         "non_qualified": "1F3CA-200D-2640",
         "docomo": null,
@@ -13243,7 +13243,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN SWIMMING",
         "unified": "1F3CA-200D-2642-FE0F",
         "non_qualified": "1F3CA-200D-2642",
         "docomo": null,
@@ -13419,7 +13419,7 @@
         "obsoleted_by": "1F3CA-200D-2642-FE0F"
     },
     {
-        "name": null,
+        "name": "WOMAN LIFTING WEIGHTS",
         "unified": "1F3CB-FE0F-200D-2640-FE0F",
         "non_qualified": null,
         "docomo": null,
@@ -13506,7 +13506,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN LIFTING WEIGHTS",
         "unified": "1F3CB-FE0F-200D-2642-FE0F",
         "non_qualified": null,
         "docomo": null,
@@ -13594,7 +13594,7 @@
         "obsoletes": "1F3CB-FE0F"
     },
     {
-        "name": null,
+        "name": "PERSON LIFTING WEIGHTS",
         "unified": "1F3CB-FE0F",
         "non_qualified": "1F3CB",
         "docomo": null,
@@ -13682,7 +13682,7 @@
         "obsoleted_by": "1F3CB-FE0F-200D-2642-FE0F"
     },
     {
-        "name": null,
+        "name": "WOMAN GOLFING",
         "unified": "1F3CC-FE0F-200D-2640-FE0F",
         "non_qualified": null,
         "docomo": null,
@@ -13769,7 +13769,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN GOLFING",
         "unified": "1F3CC-FE0F-200D-2642-FE0F",
         "non_qualified": null,
         "docomo": null,
@@ -13857,7 +13857,7 @@
         "obsoletes": "1F3CC-FE0F"
     },
     {
-        "name": null,
+        "name": "PERSON GOLFING",
         "unified": "1F3CC-FE0F",
         "non_qualified": "1F3CC",
         "docomo": null,
@@ -13945,7 +13945,7 @@
         "obsoleted_by": "1F3CC-FE0F-200D-2642-FE0F"
     },
     {
-        "name": null,
+        "name": "MOTORCYCLE",
         "unified": "1F3CD-FE0F",
         "non_qualified": "1F3CD",
         "docomo": null,
@@ -13970,7 +13970,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "RACING CAR",
         "unified": "1F3CE-FE0F",
         "non_qualified": "1F3CE",
         "docomo": null,
@@ -14120,7 +14120,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "SNOW-CAPPED MOUNTAIN",
         "unified": "1F3D4-FE0F",
         "non_qualified": "1F3D4",
         "docomo": null,
@@ -14145,7 +14145,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "CAMPING",
         "unified": "1F3D5-FE0F",
         "non_qualified": "1F3D5",
         "docomo": null,
@@ -14170,7 +14170,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "BEACH WITH UMBRELLA",
         "unified": "1F3D6-FE0F",
         "non_qualified": "1F3D6",
         "docomo": null,
@@ -14195,7 +14195,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "BUILDING CONSTRUCTION",
         "unified": "1F3D7-FE0F",
         "non_qualified": "1F3D7",
         "docomo": null,
@@ -14220,7 +14220,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "HOUSES",
         "unified": "1F3D8-FE0F",
         "non_qualified": "1F3D8",
         "docomo": null,
@@ -14245,7 +14245,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "CITYSCAPE",
         "unified": "1F3D9-FE0F",
         "non_qualified": "1F3D9",
         "docomo": null,
@@ -14270,7 +14270,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "DERELICT HOUSE",
         "unified": "1F3DA-FE0F",
         "non_qualified": "1F3DA",
         "docomo": null,
@@ -14295,7 +14295,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "CLASSICAL BUILDING",
         "unified": "1F3DB-FE0F",
         "non_qualified": "1F3DB",
         "docomo": null,
@@ -14320,7 +14320,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "DESERT",
         "unified": "1F3DC-FE0F",
         "non_qualified": "1F3DC",
         "docomo": null,
@@ -14345,7 +14345,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "DESERT ISLAND",
         "unified": "1F3DD-FE0F",
         "non_qualified": "1F3DD",
         "docomo": null,
@@ -14370,7 +14370,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "NATIONAL PARK",
         "unified": "1F3DE-FE0F",
         "non_qualified": "1F3DE",
         "docomo": null,
@@ -14395,7 +14395,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "STADIUM",
         "unified": "1F3DF-FE0F",
         "non_qualified": "1F3DF",
         "docomo": null,
@@ -14846,7 +14846,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "RAINBOW FLAG",
         "unified": "1F3F3-FE0F-200D-1F308",
         "non_qualified": "1F3F3-200D-1F308",
         "docomo": null,
@@ -14871,7 +14871,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "TRANSGENDER FLAG",
         "unified": "1F3F3-FE0F-200D-26A7-FE0F",
         "non_qualified": null,
         "docomo": null,
@@ -14896,7 +14896,7 @@
         "has_img_facebook": false
     },
     {
-        "name": null,
+        "name": "WHITE FLAG",
         "unified": "1F3F3-FE0F",
         "non_qualified": "1F3F3",
         "docomo": null,
@@ -14921,7 +14921,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "PIRATE FLAG",
         "unified": "1F3F4-200D-2620-FE0F",
         "non_qualified": "1F3F4-200D-2620",
         "docomo": null,
@@ -15046,7 +15046,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "ROSETTE",
         "unified": "1F3F5-FE0F",
         "non_qualified": "1F3F5",
         "docomo": null,
@@ -15071,7 +15071,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "LABEL",
         "unified": "1F3F7-FE0F",
         "non_qualified": "1F3F7",
         "docomo": null,
@@ -15496,7 +15496,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "BLACK CAT",
         "unified": "1F408-200D-2B1B",
         "non_qualified": null,
         "docomo": null,
@@ -15846,7 +15846,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "SERVICE DOG",
         "unified": "1F415-200D-1F9BA",
         "non_qualified": null,
         "docomo": null,
@@ -16826,7 +16826,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "POLAR BEAR",
         "unified": "1F43B-200D-2744-FE0F",
         "non_qualified": "1F43B-200D-2744",
         "docomo": null,
@@ -16952,7 +16952,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "CHIPMUNK",
         "unified": "1F43F-FE0F",
         "non_qualified": "1F43F",
         "docomo": null,
@@ -17002,7 +17002,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "EYE IN SPEECH BUBBLE",
         "unified": "1F441-FE0F-200D-1F5E8-FE0F",
         "non_qualified": null,
         "docomo": null,
@@ -17027,7 +17027,7 @@
         "has_img_facebook": false
     },
     {
-        "name": null,
+        "name": "EYE",
         "unified": "1F441-FE0F",
         "non_qualified": "1F441",
         "docomo": null,
@@ -18937,7 +18937,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN FARMER",
         "unified": "1F468-200D-1F33E",
         "non_qualified": null,
         "docomo": null,
@@ -19024,7 +19024,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN COOK",
         "unified": "1F468-200D-1F373",
         "non_qualified": null,
         "docomo": null,
@@ -19111,7 +19111,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN FEEDING BABY",
         "unified": "1F468-200D-1F37C",
         "non_qualified": null,
         "docomo": null,
@@ -19198,7 +19198,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN STUDENT",
         "unified": "1F468-200D-1F393",
         "non_qualified": null,
         "docomo": null,
@@ -19285,7 +19285,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN SINGER",
         "unified": "1F468-200D-1F3A4",
         "non_qualified": null,
         "docomo": null,
@@ -19372,7 +19372,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN ARTIST",
         "unified": "1F468-200D-1F3A8",
         "non_qualified": null,
         "docomo": null,
@@ -19459,7 +19459,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN TEACHER",
         "unified": "1F468-200D-1F3EB",
         "non_qualified": null,
         "docomo": null,
@@ -19546,7 +19546,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN FACTORY WORKER",
         "unified": "1F468-200D-1F3ED",
         "non_qualified": null,
         "docomo": null,
@@ -19633,7 +19633,7 @@
         }
     },
     {
-        "name": null,
+        "name": "FAMILY: MAN, BOY, BOY",
         "unified": "1F468-200D-1F466-200D-1F466",
         "non_qualified": null,
         "docomo": null,
@@ -19658,7 +19658,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FAMILY: MAN, BOY",
         "unified": "1F468-200D-1F466",
         "non_qualified": null,
         "docomo": null,
@@ -19683,7 +19683,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FAMILY: MAN, GIRL, BOY",
         "unified": "1F468-200D-1F467-200D-1F466",
         "non_qualified": null,
         "docomo": null,
@@ -19708,7 +19708,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FAMILY: MAN, GIRL, GIRL",
         "unified": "1F468-200D-1F467-200D-1F467",
         "non_qualified": null,
         "docomo": null,
@@ -19733,7 +19733,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FAMILY: MAN, GIRL",
         "unified": "1F468-200D-1F467",
         "non_qualified": null,
         "docomo": null,
@@ -19758,7 +19758,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FAMILY: MAN, MAN, BOY",
         "unified": "1F468-200D-1F468-200D-1F466",
         "non_qualified": null,
         "docomo": null,
@@ -19783,7 +19783,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FAMILY: MAN, MAN, BOY, BOY",
         "unified": "1F468-200D-1F468-200D-1F466-200D-1F466",
         "non_qualified": null,
         "docomo": null,
@@ -19808,7 +19808,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FAMILY: MAN, MAN, GIRL",
         "unified": "1F468-200D-1F468-200D-1F467",
         "non_qualified": null,
         "docomo": null,
@@ -19833,7 +19833,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FAMILY: MAN, MAN, GIRL, BOY",
         "unified": "1F468-200D-1F468-200D-1F467-200D-1F466",
         "non_qualified": null,
         "docomo": null,
@@ -19858,7 +19858,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FAMILY: MAN, MAN, GIRL, GIRL",
         "unified": "1F468-200D-1F468-200D-1F467-200D-1F467",
         "non_qualified": null,
         "docomo": null,
@@ -19883,7 +19883,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FAMILY: MAN, WOMAN, BOY",
         "unified": "1F468-200D-1F469-200D-1F466",
         "non_qualified": null,
         "docomo": null,
@@ -19909,7 +19909,7 @@
         "obsoletes": "1F46A"
     },
     {
-        "name": null,
+        "name": "FAMILY: MAN, WOMAN, BOY, BOY",
         "unified": "1F468-200D-1F469-200D-1F466-200D-1F466",
         "non_qualified": null,
         "docomo": null,
@@ -19934,7 +19934,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FAMILY: MAN, WOMAN, GIRL",
         "unified": "1F468-200D-1F469-200D-1F467",
         "non_qualified": null,
         "docomo": null,
@@ -19959,7 +19959,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FAMILY: MAN, WOMAN, GIRL, BOY",
         "unified": "1F468-200D-1F469-200D-1F467-200D-1F466",
         "non_qualified": null,
         "docomo": null,
@@ -19984,7 +19984,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FAMILY: MAN, WOMAN, GIRL, GIRL",
         "unified": "1F468-200D-1F469-200D-1F467-200D-1F467",
         "non_qualified": null,
         "docomo": null,
@@ -20009,7 +20009,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "MAN TECHNOLOGIST",
         "unified": "1F468-200D-1F4BB",
         "non_qualified": null,
         "docomo": null,
@@ -20096,7 +20096,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN OFFICE WORKER",
         "unified": "1F468-200D-1F4BC",
         "non_qualified": null,
         "docomo": null,
@@ -20183,7 +20183,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN MECHANIC",
         "unified": "1F468-200D-1F527",
         "non_qualified": null,
         "docomo": null,
@@ -20270,7 +20270,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN SCIENTIST",
         "unified": "1F468-200D-1F52C",
         "non_qualified": null,
         "docomo": null,
@@ -20357,7 +20357,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN ASTRONAUT",
         "unified": "1F468-200D-1F680",
         "non_qualified": null,
         "docomo": null,
@@ -20444,7 +20444,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN FIREFIGHTER",
         "unified": "1F468-200D-1F692",
         "non_qualified": null,
         "docomo": null,
@@ -20531,7 +20531,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN WITH WHITE CANE",
         "unified": "1F468-200D-1F9AF",
         "non_qualified": null,
         "docomo": null,
@@ -20618,7 +20618,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN: RED HAIR",
         "unified": "1F468-200D-1F9B0",
         "non_qualified": null,
         "docomo": null,
@@ -20705,7 +20705,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN: CURLY HAIR",
         "unified": "1F468-200D-1F9B1",
         "non_qualified": null,
         "docomo": null,
@@ -20792,7 +20792,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN: BALD",
         "unified": "1F468-200D-1F9B2",
         "non_qualified": null,
         "docomo": null,
@@ -20879,7 +20879,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN: WHITE HAIR",
         "unified": "1F468-200D-1F9B3",
         "non_qualified": null,
         "docomo": null,
@@ -20966,7 +20966,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN IN MOTORIZED WHEELCHAIR",
         "unified": "1F468-200D-1F9BC",
         "non_qualified": null,
         "docomo": null,
@@ -21053,7 +21053,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN IN MANUAL WHEELCHAIR",
         "unified": "1F468-200D-1F9BD",
         "non_qualified": null,
         "docomo": null,
@@ -21140,7 +21140,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN HEALTH WORKER",
         "unified": "1F468-200D-2695-FE0F",
         "non_qualified": "1F468-200D-2695",
         "docomo": null,
@@ -21227,7 +21227,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN JUDGE",
         "unified": "1F468-200D-2696-FE0F",
         "non_qualified": "1F468-200D-2696",
         "docomo": null,
@@ -21314,7 +21314,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN PILOT",
         "unified": "1F468-200D-2708-FE0F",
         "non_qualified": "1F468-200D-2708",
         "docomo": null,
@@ -21401,7 +21401,7 @@
         }
     },
     {
-        "name": null,
+        "name": "COUPLE WITH HEART: MAN, MAN",
         "unified": "1F468-200D-2764-FE0F-200D-1F468",
         "non_qualified": "1F468-200D-2764-200D-1F468",
         "docomo": null,
@@ -21426,7 +21426,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "KISS: MAN, MAN",
         "unified": "1F468-200D-2764-FE0F-200D-1F48B-200D-1F468",
         "non_qualified": "1F468-200D-2764-200D-1F48B-200D-1F468",
         "docomo": null,
@@ -21538,7 +21538,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN FARMER",
         "unified": "1F469-200D-1F33E",
         "non_qualified": null,
         "docomo": null,
@@ -21625,7 +21625,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN COOK",
         "unified": "1F469-200D-1F373",
         "non_qualified": null,
         "docomo": null,
@@ -21712,7 +21712,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN FEEDING BABY",
         "unified": "1F469-200D-1F37C",
         "non_qualified": null,
         "docomo": null,
@@ -21799,7 +21799,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN STUDENT",
         "unified": "1F469-200D-1F393",
         "non_qualified": null,
         "docomo": null,
@@ -21886,7 +21886,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN SINGER",
         "unified": "1F469-200D-1F3A4",
         "non_qualified": null,
         "docomo": null,
@@ -21973,7 +21973,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN ARTIST",
         "unified": "1F469-200D-1F3A8",
         "non_qualified": null,
         "docomo": null,
@@ -22060,7 +22060,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN TEACHER",
         "unified": "1F469-200D-1F3EB",
         "non_qualified": null,
         "docomo": null,
@@ -22147,7 +22147,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN FACTORY WORKER",
         "unified": "1F469-200D-1F3ED",
         "non_qualified": null,
         "docomo": null,
@@ -22234,7 +22234,7 @@
         }
     },
     {
-        "name": null,
+        "name": "FAMILY: WOMAN, BOY, BOY",
         "unified": "1F469-200D-1F466-200D-1F466",
         "non_qualified": null,
         "docomo": null,
@@ -22259,7 +22259,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FAMILY: WOMAN, BOY",
         "unified": "1F469-200D-1F466",
         "non_qualified": null,
         "docomo": null,
@@ -22284,7 +22284,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FAMILY: WOMAN, GIRL, BOY",
         "unified": "1F469-200D-1F467-200D-1F466",
         "non_qualified": null,
         "docomo": null,
@@ -22309,7 +22309,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FAMILY: WOMAN, GIRL, GIRL",
         "unified": "1F469-200D-1F467-200D-1F467",
         "non_qualified": null,
         "docomo": null,
@@ -22334,7 +22334,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FAMILY: WOMAN, GIRL",
         "unified": "1F469-200D-1F467",
         "non_qualified": null,
         "docomo": null,
@@ -22359,7 +22359,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FAMILY: WOMAN, WOMAN, BOY",
         "unified": "1F469-200D-1F469-200D-1F466",
         "non_qualified": null,
         "docomo": null,
@@ -22384,7 +22384,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FAMILY: WOMAN, WOMAN, BOY, BOY",
         "unified": "1F469-200D-1F469-200D-1F466-200D-1F466",
         "non_qualified": null,
         "docomo": null,
@@ -22409,7 +22409,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FAMILY: WOMAN, WOMAN, GIRL",
         "unified": "1F469-200D-1F469-200D-1F467",
         "non_qualified": null,
         "docomo": null,
@@ -22434,7 +22434,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FAMILY: WOMAN, WOMAN, GIRL, BOY",
         "unified": "1F469-200D-1F469-200D-1F467-200D-1F466",
         "non_qualified": null,
         "docomo": null,
@@ -22459,7 +22459,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FAMILY: WOMAN, WOMAN, GIRL, GIRL",
         "unified": "1F469-200D-1F469-200D-1F467-200D-1F467",
         "non_qualified": null,
         "docomo": null,
@@ -22484,7 +22484,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "WOMAN TECHNOLOGIST",
         "unified": "1F469-200D-1F4BB",
         "non_qualified": null,
         "docomo": null,
@@ -22571,7 +22571,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN OFFICE WORKER",
         "unified": "1F469-200D-1F4BC",
         "non_qualified": null,
         "docomo": null,
@@ -22658,7 +22658,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN MECHANIC",
         "unified": "1F469-200D-1F527",
         "non_qualified": null,
         "docomo": null,
@@ -22745,7 +22745,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN SCIENTIST",
         "unified": "1F469-200D-1F52C",
         "non_qualified": null,
         "docomo": null,
@@ -22832,7 +22832,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN ASTRONAUT",
         "unified": "1F469-200D-1F680",
         "non_qualified": null,
         "docomo": null,
@@ -22919,7 +22919,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN FIREFIGHTER",
         "unified": "1F469-200D-1F692",
         "non_qualified": null,
         "docomo": null,
@@ -23006,7 +23006,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN WITH WHITE CANE",
         "unified": "1F469-200D-1F9AF",
         "non_qualified": null,
         "docomo": null,
@@ -23093,7 +23093,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN: RED HAIR",
         "unified": "1F469-200D-1F9B0",
         "non_qualified": null,
         "docomo": null,
@@ -23180,7 +23180,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN: CURLY HAIR",
         "unified": "1F469-200D-1F9B1",
         "non_qualified": null,
         "docomo": null,
@@ -23267,7 +23267,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN: BALD",
         "unified": "1F469-200D-1F9B2",
         "non_qualified": null,
         "docomo": null,
@@ -23354,7 +23354,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN: WHITE HAIR",
         "unified": "1F469-200D-1F9B3",
         "non_qualified": null,
         "docomo": null,
@@ -23441,7 +23441,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN IN MOTORIZED WHEELCHAIR",
         "unified": "1F469-200D-1F9BC",
         "non_qualified": null,
         "docomo": null,
@@ -23528,7 +23528,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN IN MANUAL WHEELCHAIR",
         "unified": "1F469-200D-1F9BD",
         "non_qualified": null,
         "docomo": null,
@@ -23615,7 +23615,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN HEALTH WORKER",
         "unified": "1F469-200D-2695-FE0F",
         "non_qualified": "1F469-200D-2695",
         "docomo": null,
@@ -23702,7 +23702,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN JUDGE",
         "unified": "1F469-200D-2696-FE0F",
         "non_qualified": "1F469-200D-2696",
         "docomo": null,
@@ -23789,7 +23789,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN PILOT",
         "unified": "1F469-200D-2708-FE0F",
         "non_qualified": "1F469-200D-2708",
         "docomo": null,
@@ -23876,7 +23876,7 @@
         }
     },
     {
-        "name": null,
+        "name": "COUPLE WITH HEART: WOMAN, MAN",
         "unified": "1F469-200D-2764-FE0F-200D-1F468",
         "non_qualified": "1F469-200D-2764-200D-1F468",
         "docomo": null,
@@ -23902,7 +23902,7 @@
         "obsoletes": "1F491"
     },
     {
-        "name": null,
+        "name": "COUPLE WITH HEART: WOMAN, WOMAN",
         "unified": "1F469-200D-2764-FE0F-200D-1F469",
         "non_qualified": "1F469-200D-2764-200D-1F469",
         "docomo": null,
@@ -23927,7 +23927,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "KISS: WOMAN, MAN",
         "unified": "1F469-200D-2764-FE0F-200D-1F48B-200D-1F468",
         "non_qualified": "1F469-200D-2764-200D-1F48B-200D-1F468",
         "docomo": null,
@@ -23953,7 +23953,7 @@
         "obsoletes": "1F48F"
     },
     {
-        "name": null,
+        "name": "KISS: WOMAN, WOMAN",
         "unified": "1F469-200D-2764-FE0F-200D-1F48B-200D-1F469",
         "non_qualified": "1F469-200D-2764-200D-1F48B-200D-1F469",
         "docomo": null,
@@ -25076,7 +25076,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN POLICE OFFICER",
         "unified": "1F46E-200D-2640-FE0F",
         "non_qualified": "1F46E-200D-2640",
         "docomo": null,
@@ -25163,7 +25163,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN POLICE OFFICER",
         "unified": "1F46E-200D-2642-FE0F",
         "non_qualified": "1F46E-200D-2642",
         "docomo": null,
@@ -25339,7 +25339,7 @@
         "obsoleted_by": "1F46E-200D-2642-FE0F"
     },
     {
-        "name": null,
+        "name": "WOMEN WITH BUNNY EARS",
         "unified": "1F46F-200D-2640-FE0F",
         "non_qualified": "1F46F-200D-2640",
         "docomo": null,
@@ -25365,7 +25365,7 @@
         "obsoletes": "1F46F"
     },
     {
-        "name": null,
+        "name": "MEN WITH BUNNY EARS",
         "unified": "1F46F-200D-2642-FE0F",
         "non_qualified": "1F46F-200D-2642",
         "docomo": null,
@@ -25416,7 +25416,7 @@
         "obsoleted_by": "1F46F-200D-2640-FE0F"
     },
     {
-        "name": null,
+        "name": "WOMAN WITH VEIL",
         "unified": "1F470-200D-2640-FE0F",
         "non_qualified": "1F470-200D-2640",
         "docomo": null,
@@ -25503,7 +25503,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN WITH VEIL",
         "unified": "1F470-200D-2642-FE0F",
         "non_qualified": "1F470-200D-2642",
         "docomo": null,
@@ -25677,7 +25677,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN: BLOND HAIR",
         "unified": "1F471-200D-2640-FE0F",
         "non_qualified": "1F471-200D-2640",
         "docomo": null,
@@ -25764,7 +25764,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN: BLOND HAIR",
         "unified": "1F471-200D-2642-FE0F",
         "non_qualified": "1F471-200D-2642",
         "docomo": null,
@@ -26027,7 +26027,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN WEARING TURBAN",
         "unified": "1F473-200D-2640-FE0F",
         "non_qualified": "1F473-200D-2640",
         "docomo": null,
@@ -26114,7 +26114,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN WEARING TURBAN",
         "unified": "1F473-200D-2642-FE0F",
         "non_qualified": "1F473-200D-2642",
         "docomo": null,
@@ -26551,7 +26551,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN CONSTRUCTION WORKER",
         "unified": "1F477-200D-2640-FE0F",
         "non_qualified": "1F477-200D-2640",
         "docomo": null,
@@ -26638,7 +26638,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN CONSTRUCTION WORKER",
         "unified": "1F477-200D-2642-FE0F",
         "non_qualified": "1F477-200D-2642",
         "docomo": null,
@@ -27163,7 +27163,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "WOMAN TIPPING HAND",
         "unified": "1F481-200D-2640-FE0F",
         "non_qualified": "1F481-200D-2640",
         "docomo": null,
@@ -27251,7 +27251,7 @@
         "obsoletes": "1F481"
     },
     {
-        "name": null,
+        "name": "MAN TIPPING HAND",
         "unified": "1F481-200D-2642-FE0F",
         "non_qualified": "1F481-200D-2642",
         "docomo": null,
@@ -27426,7 +27426,7 @@
         "obsoleted_by": "1F481-200D-2640-FE0F"
     },
     {
-        "name": null,
+        "name": "WOMAN GUARD",
         "unified": "1F482-200D-2640-FE0F",
         "non_qualified": "1F482-200D-2640",
         "docomo": null,
@@ -27513,7 +27513,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN GUARD",
         "unified": "1F482-200D-2642-FE0F",
         "non_qualified": "1F482-200D-2642",
         "docomo": null,
@@ -27888,7 +27888,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN GETTING MASSAGE",
         "unified": "1F486-200D-2640-FE0F",
         "non_qualified": "1F486-200D-2640",
         "docomo": null,
@@ -27976,7 +27976,7 @@
         "obsoletes": "1F486"
     },
     {
-        "name": null,
+        "name": "MAN GETTING MASSAGE",
         "unified": "1F486-200D-2642-FE0F",
         "non_qualified": "1F486-200D-2642",
         "docomo": null,
@@ -28151,7 +28151,7 @@
         "obsoleted_by": "1F486-200D-2640-FE0F"
     },
     {
-        "name": null,
+        "name": "WOMAN GETTING HAIRCUT",
         "unified": "1F487-200D-2640-FE0F",
         "non_qualified": "1F487-200D-2640",
         "docomo": null,
@@ -28239,7 +28239,7 @@
         "obsoletes": "1F487"
     },
     {
-        "name": null,
+        "name": "MAN GETTING HAIRCUT",
         "unified": "1F487-200D-2642-FE0F",
         "non_qualified": "1F487-200D-2642",
         "docomo": null,
@@ -31410,7 +31410,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FILM PROJECTOR",
         "unified": "1F4FD-FE0F",
         "non_qualified": "1F4FD",
         "docomo": null,
@@ -33011,7 +33011,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "OM",
         "unified": "1F549-FE0F",
         "non_qualified": "1F549",
         "docomo": null,
@@ -33036,7 +33036,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "DOVE",
         "unified": "1F54A-FE0F",
         "non_qualified": "1F54A",
         "docomo": null,
@@ -33761,7 +33761,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "CANDLE",
         "unified": "1F56F-FE0F",
         "non_qualified": "1F56F",
         "docomo": null,
@@ -33786,7 +33786,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "MANTELPIECE CLOCK",
         "unified": "1F570-FE0F",
         "non_qualified": "1F570",
         "docomo": null,
@@ -33811,7 +33811,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "HOLE",
         "unified": "1F573-FE0F",
         "non_qualified": "1F573",
         "docomo": null,
@@ -33836,7 +33836,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "PERSON IN SUIT LEVITATING",
         "unified": "1F574-FE0F",
         "non_qualified": "1F574",
         "docomo": null,
@@ -33923,7 +33923,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN DETECTIVE",
         "unified": "1F575-FE0F-200D-2640-FE0F",
         "non_qualified": null,
         "docomo": null,
@@ -34010,7 +34010,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN DETECTIVE",
         "unified": "1F575-FE0F-200D-2642-FE0F",
         "non_qualified": null,
         "docomo": null,
@@ -34098,7 +34098,7 @@
         "obsoletes": "1F575-FE0F"
     },
     {
-        "name": null,
+        "name": "DETECTIVE",
         "unified": "1F575-FE0F",
         "non_qualified": "1F575",
         "docomo": null,
@@ -34186,7 +34186,7 @@
         "obsoleted_by": "1F575-FE0F-200D-2642-FE0F"
     },
     {
-        "name": null,
+        "name": "SUNGLASSES",
         "unified": "1F576-FE0F",
         "non_qualified": "1F576",
         "docomo": null,
@@ -34211,7 +34211,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "SPIDER",
         "unified": "1F577-FE0F",
         "non_qualified": "1F577",
         "docomo": null,
@@ -34236,7 +34236,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "SPIDER WEB",
         "unified": "1F578-FE0F",
         "non_qualified": "1F578",
         "docomo": null,
@@ -34261,7 +34261,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "JOYSTICK",
         "unified": "1F579-FE0F",
         "non_qualified": "1F579",
         "docomo": null,
@@ -34373,7 +34373,7 @@
         }
     },
     {
-        "name": null,
+        "name": "LINKED PAPERCLIPS",
         "unified": "1F587-FE0F",
         "non_qualified": "1F587",
         "docomo": null,
@@ -34398,7 +34398,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "PEN",
         "unified": "1F58A-FE0F",
         "non_qualified": "1F58A",
         "docomo": null,
@@ -34423,7 +34423,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FOUNTAIN PEN",
         "unified": "1F58B-FE0F",
         "non_qualified": "1F58B",
         "docomo": null,
@@ -34448,7 +34448,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "PAINTBRUSH",
         "unified": "1F58C-FE0F",
         "non_qualified": "1F58C",
         "docomo": null,
@@ -34473,7 +34473,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "CRAYON",
         "unified": "1F58D-FE0F",
         "non_qualified": "1F58D",
         "docomo": null,
@@ -34498,7 +34498,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "HAND WITH FINGERS SPLAYED",
         "unified": "1F590-FE0F",
         "non_qualified": "1F590",
         "docomo": null,
@@ -34785,7 +34785,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "DESKTOP COMPUTER",
         "unified": "1F5A5-FE0F",
         "non_qualified": "1F5A5",
         "docomo": null,
@@ -34810,7 +34810,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "PRINTER",
         "unified": "1F5A8-FE0F",
         "non_qualified": "1F5A8",
         "docomo": null,
@@ -34835,7 +34835,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "COMPUTER MOUSE",
         "unified": "1F5B1-FE0F",
         "non_qualified": "1F5B1",
         "docomo": null,
@@ -34860,7 +34860,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "TRACKBALL",
         "unified": "1F5B2-FE0F",
         "non_qualified": "1F5B2",
         "docomo": null,
@@ -34885,7 +34885,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FRAMED PICTURE",
         "unified": "1F5BC-FE0F",
         "non_qualified": "1F5BC",
         "docomo": null,
@@ -34910,7 +34910,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "CARD INDEX DIVIDERS",
         "unified": "1F5C2-FE0F",
         "non_qualified": "1F5C2",
         "docomo": null,
@@ -34935,7 +34935,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "CARD FILE BOX",
         "unified": "1F5C3-FE0F",
         "non_qualified": "1F5C3",
         "docomo": null,
@@ -34960,7 +34960,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FILE CABINET",
         "unified": "1F5C4-FE0F",
         "non_qualified": "1F5C4",
         "docomo": null,
@@ -34985,7 +34985,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "WASTEBASKET",
         "unified": "1F5D1-FE0F",
         "non_qualified": "1F5D1",
         "docomo": null,
@@ -35010,7 +35010,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "SPIRAL NOTEPAD",
         "unified": "1F5D2-FE0F",
         "non_qualified": "1F5D2",
         "docomo": null,
@@ -35035,7 +35035,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "SPIRAL CALENDAR",
         "unified": "1F5D3-FE0F",
         "non_qualified": "1F5D3",
         "docomo": null,
@@ -35060,7 +35060,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "CLAMP",
         "unified": "1F5DC-FE0F",
         "non_qualified": "1F5DC",
         "docomo": null,
@@ -35085,7 +35085,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "OLD KEY",
         "unified": "1F5DD-FE0F",
         "non_qualified": "1F5DD",
         "docomo": null,
@@ -35110,7 +35110,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "ROLLED-UP NEWSPAPER",
         "unified": "1F5DE-FE0F",
         "non_qualified": "1F5DE",
         "docomo": null,
@@ -35135,7 +35135,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "DAGGER",
         "unified": "1F5E1-FE0F",
         "non_qualified": "1F5E1",
         "docomo": null,
@@ -35160,7 +35160,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "SPEAKING HEAD",
         "unified": "1F5E3-FE0F",
         "non_qualified": "1F5E3",
         "docomo": null,
@@ -35185,7 +35185,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "LEFT SPEECH BUBBLE",
         "unified": "1F5E8-FE0F",
         "non_qualified": "1F5E8",
         "docomo": null,
@@ -35210,7 +35210,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "RIGHT ANGER BUBBLE",
         "unified": "1F5EF-FE0F",
         "non_qualified": "1F5EF",
         "docomo": null,
@@ -35235,7 +35235,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "BALLOT BOX WITH BALLOT",
         "unified": "1F5F3-FE0F",
         "non_qualified": "1F5F3",
         "docomo": null,
@@ -35260,7 +35260,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "WORLD MAP",
         "unified": "1F5FA-FE0F",
         "non_qualified": "1F5FA",
         "docomo": null,
@@ -37197,7 +37197,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "WOMAN GESTURING NO",
         "unified": "1F645-200D-2640-FE0F",
         "non_qualified": "1F645-200D-2640",
         "docomo": null,
@@ -37285,7 +37285,7 @@
         "obsoletes": "1F645"
     },
     {
-        "name": null,
+        "name": "MAN GESTURING NO",
         "unified": "1F645-200D-2642-FE0F",
         "non_qualified": "1F645-200D-2642",
         "docomo": null,
@@ -37460,7 +37460,7 @@
         "obsoleted_by": "1F645-200D-2640-FE0F"
     },
     {
-        "name": null,
+        "name": "WOMAN GESTURING OK",
         "unified": "1F646-200D-2640-FE0F",
         "non_qualified": "1F646-200D-2640",
         "docomo": null,
@@ -37548,7 +37548,7 @@
         "obsoletes": "1F646"
     },
     {
-        "name": null,
+        "name": "MAN GESTURING OK",
         "unified": "1F646-200D-2642-FE0F",
         "non_qualified": "1F646-200D-2642",
         "docomo": null,
@@ -37723,7 +37723,7 @@
         "obsoleted_by": "1F646-200D-2640-FE0F"
     },
     {
-        "name": null,
+        "name": "WOMAN BOWING",
         "unified": "1F647-200D-2640-FE0F",
         "non_qualified": "1F647-200D-2640",
         "docomo": null,
@@ -37810,7 +37810,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN BOWING",
         "unified": "1F647-200D-2642-FE0F",
         "non_qualified": "1F647-200D-2642",
         "docomo": null,
@@ -38061,7 +38061,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "WOMAN RAISING HAND",
         "unified": "1F64B-200D-2640-FE0F",
         "non_qualified": "1F64B-200D-2640",
         "docomo": null,
@@ -38149,7 +38149,7 @@
         "obsoletes": "1F64B"
     },
     {
-        "name": null,
+        "name": "MAN RAISING HAND",
         "unified": "1F64B-200D-2642-FE0F",
         "non_qualified": "1F64B-200D-2642",
         "docomo": null,
@@ -38411,7 +38411,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN FROWNING",
         "unified": "1F64D-200D-2640-FE0F",
         "non_qualified": "1F64D-200D-2640",
         "docomo": null,
@@ -38499,7 +38499,7 @@
         "obsoletes": "1F64D"
     },
     {
-        "name": null,
+        "name": "MAN FROWNING",
         "unified": "1F64D-200D-2642-FE0F",
         "non_qualified": "1F64D-200D-2642",
         "docomo": null,
@@ -38674,7 +38674,7 @@
         "obsoleted_by": "1F64D-200D-2640-FE0F"
     },
     {
-        "name": null,
+        "name": "WOMAN POUTING",
         "unified": "1F64E-200D-2640-FE0F",
         "non_qualified": "1F64E-200D-2640",
         "docomo": null,
@@ -38762,7 +38762,7 @@
         "obsoletes": "1F64E"
     },
     {
-        "name": null,
+        "name": "MAN POUTING",
         "unified": "1F64E-200D-2642-FE0F",
         "non_qualified": "1F64E-200D-2642",
         "docomo": null,
@@ -39900,7 +39900,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "WOMAN ROWING BOAT",
         "unified": "1F6A3-200D-2640-FE0F",
         "non_qualified": "1F6A3-200D-2640",
         "docomo": null,
@@ -39987,7 +39987,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN ROWING BOAT",
         "unified": "1F6A3-200D-2642-FE0F",
         "non_qualified": "1F6A3-200D-2642",
         "docomo": null,
@@ -40563,7 +40563,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "WOMAN BIKING",
         "unified": "1F6B4-200D-2640-FE0F",
         "non_qualified": "1F6B4-200D-2640",
         "docomo": null,
@@ -40650,7 +40650,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN BIKING",
         "unified": "1F6B4-200D-2642-FE0F",
         "non_qualified": "1F6B4-200D-2642",
         "docomo": null,
@@ -40826,7 +40826,7 @@
         "obsoleted_by": "1F6B4-200D-2642-FE0F"
     },
     {
-        "name": null,
+        "name": "WOMAN MOUNTAIN BIKING",
         "unified": "1F6B5-200D-2640-FE0F",
         "non_qualified": "1F6B5-200D-2640",
         "docomo": null,
@@ -40913,7 +40913,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN MOUNTAIN BIKING",
         "unified": "1F6B5-200D-2642-FE0F",
         "non_qualified": "1F6B5-200D-2642",
         "docomo": null,
@@ -41089,7 +41089,7 @@
         "obsoleted_by": "1F6B5-200D-2642-FE0F"
     },
     {
-        "name": null,
+        "name": "WOMAN WALKING",
         "unified": "1F6B6-200D-2640-FE0F",
         "non_qualified": "1F6B6-200D-2640",
         "docomo": null,
@@ -41176,7 +41176,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN WALKING",
         "unified": "1F6B6-200D-2642-FE0F",
         "non_qualified": "1F6B6-200D-2642",
         "docomo": null,
@@ -41789,7 +41789,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "COUCH AND LAMP",
         "unified": "1F6CB-FE0F",
         "non_qualified": "1F6CB",
         "docomo": null,
@@ -41901,7 +41901,7 @@
         }
     },
     {
-        "name": null,
+        "name": "SHOPPING BAGS",
         "unified": "1F6CD-FE0F",
         "non_qualified": "1F6CD",
         "docomo": null,
@@ -41926,7 +41926,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "BELLHOP BELL",
         "unified": "1F6CE-FE0F",
         "non_qualified": "1F6CE",
         "docomo": null,
@@ -41951,7 +41951,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "BED",
         "unified": "1F6CF-FE0F",
         "non_qualified": "1F6CF",
         "docomo": null,
@@ -42126,7 +42126,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "HAMMER AND WRENCH",
         "unified": "1F6E0-FE0F",
         "non_qualified": "1F6E0",
         "docomo": null,
@@ -42151,7 +42151,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "SHIELD",
         "unified": "1F6E1-FE0F",
         "non_qualified": "1F6E1",
         "docomo": null,
@@ -42176,7 +42176,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "OIL DRUM",
         "unified": "1F6E2-FE0F",
         "non_qualified": "1F6E2",
         "docomo": null,
@@ -42201,7 +42201,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "MOTORWAY",
         "unified": "1F6E3-FE0F",
         "non_qualified": "1F6E3",
         "docomo": null,
@@ -42226,7 +42226,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "RAILWAY TRACK",
         "unified": "1F6E4-FE0F",
         "non_qualified": "1F6E4",
         "docomo": null,
@@ -42251,7 +42251,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "MOTOR BOAT",
         "unified": "1F6E5-FE0F",
         "non_qualified": "1F6E5",
         "docomo": null,
@@ -42276,7 +42276,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "SMALL AIRPLANE",
         "unified": "1F6E9-FE0F",
         "non_qualified": "1F6E9",
         "docomo": null,
@@ -42351,7 +42351,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "SATELLITE",
         "unified": "1F6F0-FE0F",
         "non_qualified": "1F6F0",
         "docomo": null,
@@ -42376,7 +42376,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "PASSENGER SHIP",
         "unified": "1F6F3-FE0F",
         "non_qualified": "1F6F3",
         "docomo": null,
@@ -44136,7 +44136,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "WOMAN FACEPALMING",
         "unified": "1F926-200D-2640-FE0F",
         "non_qualified": "1F926-200D-2640",
         "docomo": null,
@@ -44223,7 +44223,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN FACEPALMING",
         "unified": "1F926-200D-2642-FE0F",
         "non_qualified": "1F926-200D-2642",
         "docomo": null,
@@ -45065,7 +45065,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN IN TUXEDO",
         "unified": "1F935-200D-2640-FE0F",
         "non_qualified": "1F935-200D-2640",
         "docomo": null,
@@ -45152,7 +45152,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN IN TUXEDO",
         "unified": "1F935-200D-2642-FE0F",
         "non_qualified": "1F935-200D-2642",
         "docomo": null,
@@ -45414,7 +45414,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN SHRUGGING",
         "unified": "1F937-200D-2640-FE0F",
         "non_qualified": "1F937-200D-2640",
         "docomo": null,
@@ -45501,7 +45501,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN SHRUGGING",
         "unified": "1F937-200D-2642-FE0F",
         "non_qualified": "1F937-200D-2642",
         "docomo": null,
@@ -45675,7 +45675,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN CARTWHEELING",
         "unified": "1F938-200D-2640-FE0F",
         "non_qualified": "1F938-200D-2640",
         "docomo": null,
@@ -45762,7 +45762,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN CARTWHEELING",
         "unified": "1F938-200D-2642-FE0F",
         "non_qualified": "1F938-200D-2642",
         "docomo": null,
@@ -45936,7 +45936,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN JUGGLING",
         "unified": "1F939-200D-2640-FE0F",
         "non_qualified": "1F939-200D-2640",
         "docomo": null,
@@ -46023,7 +46023,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN JUGGLING",
         "unified": "1F939-200D-2642-FE0F",
         "non_qualified": "1F939-200D-2642",
         "docomo": null,
@@ -46222,7 +46222,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "WOMEN WRESTLING",
         "unified": "1F93C-200D-2640-FE0F",
         "non_qualified": "1F93C-200D-2640",
         "docomo": null,
@@ -46247,7 +46247,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "MEN WRESTLING",
         "unified": "1F93C-200D-2642-FE0F",
         "non_qualified": "1F93C-200D-2642",
         "docomo": null,
@@ -46297,7 +46297,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "WOMAN PLAYING WATER POLO",
         "unified": "1F93D-200D-2640-FE0F",
         "non_qualified": "1F93D-200D-2640",
         "docomo": null,
@@ -46384,7 +46384,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN PLAYING WATER POLO",
         "unified": "1F93D-200D-2642-FE0F",
         "non_qualified": "1F93D-200D-2642",
         "docomo": null,
@@ -46558,7 +46558,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN PLAYING HANDBALL",
         "unified": "1F93E-200D-2640-FE0F",
         "non_qualified": "1F93E-200D-2640",
         "docomo": null,
@@ -46645,7 +46645,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN PLAYING HANDBALL",
         "unified": "1F93E-200D-2642-FE0F",
         "non_qualified": "1F93E-200D-2642",
         "docomo": null,
@@ -49880,7 +49880,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "WOMAN SUPERHERO",
         "unified": "1F9B8-200D-2640-FE0F",
         "non_qualified": "1F9B8-200D-2640",
         "docomo": null,
@@ -49967,7 +49967,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN SUPERHERO",
         "unified": "1F9B8-200D-2642-FE0F",
         "non_qualified": "1F9B8-200D-2642",
         "docomo": null,
@@ -50141,7 +50141,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN SUPERVILLAIN",
         "unified": "1F9B9-200D-2640-FE0F",
         "non_qualified": "1F9B9-200D-2640",
         "docomo": null,
@@ -50228,7 +50228,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN SUPERVILLAIN",
         "unified": "1F9B9-200D-2642-FE0F",
         "non_qualified": "1F9B9-200D-2642",
         "docomo": null,
@@ -50914,7 +50914,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "WOMAN STANDING",
         "unified": "1F9CD-200D-2640-FE0F",
         "non_qualified": "1F9CD-200D-2640",
         "docomo": null,
@@ -51001,7 +51001,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN STANDING",
         "unified": "1F9CD-200D-2642-FE0F",
         "non_qualified": "1F9CD-200D-2642",
         "docomo": null,
@@ -51175,7 +51175,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN KNEELING",
         "unified": "1F9CE-200D-2640-FE0F",
         "non_qualified": "1F9CE-200D-2640",
         "docomo": null,
@@ -51262,7 +51262,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN KNEELING",
         "unified": "1F9CE-200D-2642-FE0F",
         "non_qualified": "1F9CE-200D-2642",
         "docomo": null,
@@ -51436,7 +51436,7 @@
         }
     },
     {
-        "name": null,
+        "name": "DEAF WOMAN",
         "unified": "1F9CF-200D-2640-FE0F",
         "non_qualified": "1F9CF-200D-2640",
         "docomo": null,
@@ -51523,7 +51523,7 @@
         }
     },
     {
-        "name": null,
+        "name": "DEAF MAN",
         "unified": "1F9CF-200D-2642-FE0F",
         "non_qualified": "1F9CF-200D-2642",
         "docomo": null,
@@ -51722,7 +51722,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FARMER",
         "unified": "1F9D1-200D-1F33E",
         "non_qualified": null,
         "docomo": null,
@@ -51809,7 +51809,7 @@
         }
     },
     {
-        "name": null,
+        "name": "COOK",
         "unified": "1F9D1-200D-1F373",
         "non_qualified": null,
         "docomo": null,
@@ -51896,7 +51896,7 @@
         }
     },
     {
-        "name": null,
+        "name": "PERSON FEEDING BABY",
         "unified": "1F9D1-200D-1F37C",
         "non_qualified": null,
         "docomo": null,
@@ -51983,7 +51983,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MX CLAUS",
         "unified": "1F9D1-200D-1F384",
         "non_qualified": null,
         "docomo": null,
@@ -52070,7 +52070,7 @@
         }
     },
     {
-        "name": null,
+        "name": "STUDENT",
         "unified": "1F9D1-200D-1F393",
         "non_qualified": null,
         "docomo": null,
@@ -52157,7 +52157,7 @@
         }
     },
     {
-        "name": null,
+        "name": "SINGER",
         "unified": "1F9D1-200D-1F3A4",
         "non_qualified": null,
         "docomo": null,
@@ -52244,7 +52244,7 @@
         }
     },
     {
-        "name": null,
+        "name": "ARTIST",
         "unified": "1F9D1-200D-1F3A8",
         "non_qualified": null,
         "docomo": null,
@@ -52331,7 +52331,7 @@
         }
     },
     {
-        "name": null,
+        "name": "TEACHER",
         "unified": "1F9D1-200D-1F3EB",
         "non_qualified": null,
         "docomo": null,
@@ -52418,7 +52418,7 @@
         }
     },
     {
-        "name": null,
+        "name": "FACTORY WORKER",
         "unified": "1F9D1-200D-1F3ED",
         "non_qualified": null,
         "docomo": null,
@@ -52505,7 +52505,7 @@
         }
     },
     {
-        "name": null,
+        "name": "TECHNOLOGIST",
         "unified": "1F9D1-200D-1F4BB",
         "non_qualified": null,
         "docomo": null,
@@ -52592,7 +52592,7 @@
         }
     },
     {
-        "name": null,
+        "name": "OFFICE WORKER",
         "unified": "1F9D1-200D-1F4BC",
         "non_qualified": null,
         "docomo": null,
@@ -52679,7 +52679,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MECHANIC",
         "unified": "1F9D1-200D-1F527",
         "non_qualified": null,
         "docomo": null,
@@ -52766,7 +52766,7 @@
         }
     },
     {
-        "name": null,
+        "name": "SCIENTIST",
         "unified": "1F9D1-200D-1F52C",
         "non_qualified": null,
         "docomo": null,
@@ -52853,7 +52853,7 @@
         }
     },
     {
-        "name": null,
+        "name": "ASTRONAUT",
         "unified": "1F9D1-200D-1F680",
         "non_qualified": null,
         "docomo": null,
@@ -52940,7 +52940,7 @@
         }
     },
     {
-        "name": null,
+        "name": "FIREFIGHTER",
         "unified": "1F9D1-200D-1F692",
         "non_qualified": null,
         "docomo": null,
@@ -53027,7 +53027,7 @@
         }
     },
     {
-        "name": null,
+        "name": "PEOPLE HOLDING HANDS",
         "unified": "1F9D1-200D-1F91D-200D-1F9D1",
         "non_qualified": null,
         "docomo": null,
@@ -53354,7 +53354,7 @@
         }
     },
     {
-        "name": null,
+        "name": "PERSON WITH WHITE CANE",
         "unified": "1F9D1-200D-1F9AF",
         "non_qualified": null,
         "docomo": null,
@@ -53441,7 +53441,7 @@
         }
     },
     {
-        "name": null,
+        "name": "PERSON: RED HAIR",
         "unified": "1F9D1-200D-1F9B0",
         "non_qualified": null,
         "docomo": null,
@@ -53528,7 +53528,7 @@
         }
     },
     {
-        "name": null,
+        "name": "PERSON: CURLY HAIR",
         "unified": "1F9D1-200D-1F9B1",
         "non_qualified": null,
         "docomo": null,
@@ -53615,7 +53615,7 @@
         }
     },
     {
-        "name": null,
+        "name": "PERSON: BALD",
         "unified": "1F9D1-200D-1F9B2",
         "non_qualified": null,
         "docomo": null,
@@ -53702,7 +53702,7 @@
         }
     },
     {
-        "name": null,
+        "name": "PERSON: WHITE HAIR",
         "unified": "1F9D1-200D-1F9B3",
         "non_qualified": null,
         "docomo": null,
@@ -53789,7 +53789,7 @@
         }
     },
     {
-        "name": null,
+        "name": "PERSON IN MOTORIZED WHEELCHAIR",
         "unified": "1F9D1-200D-1F9BC",
         "non_qualified": null,
         "docomo": null,
@@ -53876,7 +53876,7 @@
         }
     },
     {
-        "name": null,
+        "name": "PERSON IN MANUAL WHEELCHAIR",
         "unified": "1F9D1-200D-1F9BD",
         "non_qualified": null,
         "docomo": null,
@@ -53963,7 +53963,7 @@
         }
     },
     {
-        "name": null,
+        "name": "HEALTH WORKER",
         "unified": "1F9D1-200D-2695-FE0F",
         "non_qualified": "1F9D1-200D-2695",
         "docomo": null,
@@ -54050,7 +54050,7 @@
         }
     },
     {
-        "name": null,
+        "name": "JUDGE",
         "unified": "1F9D1-200D-2696-FE0F",
         "non_qualified": "1F9D1-200D-2696",
         "docomo": null,
@@ -54137,7 +54137,7 @@
         }
     },
     {
-        "name": null,
+        "name": "PILOT",
         "unified": "1F9D1-200D-2708-FE0F",
         "non_qualified": "1F9D1-200D-2708",
         "docomo": null,
@@ -54659,7 +54659,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WOMAN IN STEAMY ROOM",
         "unified": "1F9D6-200D-2640-FE0F",
         "non_qualified": "1F9D6-200D-2640",
         "docomo": null,
@@ -54746,7 +54746,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN IN STEAMY ROOM",
         "unified": "1F9D6-200D-2642-FE0F",
         "non_qualified": "1F9D6-200D-2642",
         "docomo": null,
@@ -54932,7 +54932,7 @@
         "obsoleted_by": "1F9D6-200D-2642-FE0F"
     },
     {
-        "name": null,
+        "name": "WOMAN CLIMBING",
         "unified": "1F9D7-200D-2640-FE0F",
         "non_qualified": "1F9D7-200D-2640",
         "docomo": null,
@@ -55025,7 +55025,7 @@
         "obsoletes": "1F9D7"
     },
     {
-        "name": null,
+        "name": "MAN CLIMBING",
         "unified": "1F9D7-200D-2642-FE0F",
         "non_qualified": "1F9D7-200D-2642",
         "docomo": null,
@@ -55205,7 +55205,7 @@
         "obsoleted_by": "1F9D7-200D-2640-FE0F"
     },
     {
-        "name": null,
+        "name": "WOMAN IN LOTUS POSITION",
         "unified": "1F9D8-200D-2640-FE0F",
         "non_qualified": "1F9D8-200D-2640",
         "docomo": null,
@@ -55298,7 +55298,7 @@
         "obsoletes": "1F9D8"
     },
     {
-        "name": null,
+        "name": "MAN IN LOTUS POSITION",
         "unified": "1F9D8-200D-2642-FE0F",
         "non_qualified": "1F9D8-200D-2642",
         "docomo": null,
@@ -55478,7 +55478,7 @@
         "obsoleted_by": "1F9D8-200D-2640-FE0F"
     },
     {
-        "name": null,
+        "name": "WOMAN MAGE",
         "unified": "1F9D9-200D-2640-FE0F",
         "non_qualified": "1F9D9-200D-2640",
         "docomo": null,
@@ -55571,7 +55571,7 @@
         "obsoletes": "1F9D9"
     },
     {
-        "name": null,
+        "name": "MAN MAGE",
         "unified": "1F9D9-200D-2642-FE0F",
         "non_qualified": "1F9D9-200D-2642",
         "docomo": null,
@@ -55751,7 +55751,7 @@
         "obsoleted_by": "1F9D9-200D-2640-FE0F"
     },
     {
-        "name": null,
+        "name": "WOMAN FAIRY",
         "unified": "1F9DA-200D-2640-FE0F",
         "non_qualified": "1F9DA-200D-2640",
         "docomo": null,
@@ -55844,7 +55844,7 @@
         "obsoletes": "1F9DA"
     },
     {
-        "name": null,
+        "name": "MAN FAIRY",
         "unified": "1F9DA-200D-2642-FE0F",
         "non_qualified": "1F9DA-200D-2642",
         "docomo": null,
@@ -56024,7 +56024,7 @@
         "obsoleted_by": "1F9DA-200D-2640-FE0F"
     },
     {
-        "name": null,
+        "name": "WOMAN VAMPIRE",
         "unified": "1F9DB-200D-2640-FE0F",
         "non_qualified": "1F9DB-200D-2640",
         "docomo": null,
@@ -56117,7 +56117,7 @@
         "obsoletes": "1F9DB"
     },
     {
-        "name": null,
+        "name": "MAN VAMPIRE",
         "unified": "1F9DB-200D-2642-FE0F",
         "non_qualified": "1F9DB-200D-2642",
         "docomo": null,
@@ -56297,7 +56297,7 @@
         "obsoleted_by": "1F9DB-200D-2640-FE0F"
     },
     {
-        "name": null,
+        "name": "MERMAID",
         "unified": "1F9DC-200D-2640-FE0F",
         "non_qualified": "1F9DC-200D-2640",
         "docomo": null,
@@ -56384,7 +56384,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MERMAN",
         "unified": "1F9DC-200D-2642-FE0F",
         "non_qualified": "1F9DC-200D-2642",
         "docomo": null,
@@ -56570,7 +56570,7 @@
         "obsoleted_by": "1F9DC-200D-2642-FE0F"
     },
     {
-        "name": null,
+        "name": "WOMAN ELF",
         "unified": "1F9DD-200D-2640-FE0F",
         "non_qualified": "1F9DD-200D-2640",
         "docomo": null,
@@ -56657,7 +56657,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN ELF",
         "unified": "1F9DD-200D-2642-FE0F",
         "non_qualified": "1F9DD-200D-2642",
         "docomo": null,
@@ -56843,7 +56843,7 @@
         "obsoleted_by": "1F9DD-200D-2642-FE0F"
     },
     {
-        "name": null,
+        "name": "WOMAN GENIE",
         "unified": "1F9DE-200D-2640-FE0F",
         "non_qualified": "1F9DE-200D-2640",
         "docomo": null,
@@ -56868,7 +56868,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "MAN GENIE",
         "unified": "1F9DE-200D-2642-FE0F",
         "non_qualified": "1F9DE-200D-2642",
         "docomo": null,
@@ -56920,7 +56920,7 @@
         "obsoleted_by": "1F9DE-200D-2642-FE0F"
     },
     {
-        "name": null,
+        "name": "WOMAN ZOMBIE",
         "unified": "1F9DF-200D-2640-FE0F",
         "non_qualified": "1F9DF-200D-2640",
         "docomo": null,
@@ -56945,7 +56945,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "MAN ZOMBIE",
         "unified": "1F9DF-200D-2642-FE0F",
         "non_qualified": "1F9DF-200D-2642",
         "docomo": null,
@@ -59572,7 +59572,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "KEYBOARD",
         "unified": "2328-FE0F",
         "non_qualified": "2328",
         "docomo": null,
@@ -59597,7 +59597,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "EJECT BUTTON",
         "unified": "23CF-FE0F",
         "non_qualified": "23CF",
         "docomo": null,
@@ -59722,7 +59722,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "NEXT TRACK BUTTON",
         "unified": "23ED-FE0F",
         "non_qualified": "23ED",
         "docomo": null,
@@ -59747,7 +59747,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "LAST TRACK BUTTON",
         "unified": "23EE-FE0F",
         "non_qualified": "23EE",
         "docomo": null,
@@ -59772,7 +59772,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "PLAY OR PAUSE BUTTON",
         "unified": "23EF-FE0F",
         "non_qualified": "23EF",
         "docomo": null,
@@ -59822,7 +59822,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "STOPWATCH",
         "unified": "23F1-FE0F",
         "non_qualified": "23F1",
         "docomo": null,
@@ -59847,7 +59847,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "TIMER CLOCK",
         "unified": "23F2-FE0F",
         "non_qualified": "23F2",
         "docomo": null,
@@ -59897,7 +59897,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "PAUSE BUTTON",
         "unified": "23F8-FE0F",
         "non_qualified": "23F8",
         "docomo": null,
@@ -59922,7 +59922,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "STOP BUTTON",
         "unified": "23F9-FE0F",
         "non_qualified": "23F9",
         "docomo": null,
@@ -59947,7 +59947,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "RECORD BUTTON",
         "unified": "23FA-FE0F",
         "non_qualified": "23FA",
         "docomo": null,
@@ -60247,7 +60247,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "UMBRELLA",
         "unified": "2602-FE0F",
         "non_qualified": "2602",
         "docomo": null,
@@ -60272,7 +60272,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "SNOWMAN",
         "unified": "2603-FE0F",
         "non_qualified": "2603",
         "docomo": null,
@@ -60297,7 +60297,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "COMET",
         "unified": "2604-FE0F",
         "non_qualified": "2604",
         "docomo": null,
@@ -60423,7 +60423,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "SHAMROCK",
         "unified": "2618-FE0F",
         "non_qualified": "2618",
         "docomo": null,
@@ -60535,7 +60535,7 @@
         }
     },
     {
-        "name": null,
+        "name": "SKULL AND CROSSBONES",
         "unified": "2620-FE0F",
         "non_qualified": "2620",
         "docomo": null,
@@ -60560,7 +60560,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "RADIOACTIVE",
         "unified": "2622-FE0F",
         "non_qualified": "2622",
         "docomo": null,
@@ -60585,7 +60585,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "BIOHAZARD",
         "unified": "2623-FE0F",
         "non_qualified": "2623",
         "docomo": null,
@@ -60610,7 +60610,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "ORTHODOX CROSS",
         "unified": "2626-FE0F",
         "non_qualified": "2626",
         "docomo": null,
@@ -60635,7 +60635,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "STAR AND CRESCENT",
         "unified": "262A-FE0F",
         "non_qualified": "262A",
         "docomo": null,
@@ -60660,7 +60660,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "PEACE SYMBOL",
         "unified": "262E-FE0F",
         "non_qualified": "262E",
         "docomo": null,
@@ -60685,7 +60685,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "YIN YANG",
         "unified": "262F-FE0F",
         "non_qualified": "262F",
         "docomo": null,
@@ -60710,7 +60710,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "WHEEL OF DHARMA",
         "unified": "2638-FE0F",
         "non_qualified": "2638",
         "docomo": null,
@@ -60735,7 +60735,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FROWNING FACE",
         "unified": "2639-FE0F",
         "non_qualified": "2639",
         "docomo": null,
@@ -60785,7 +60785,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FEMALE SIGN",
         "unified": "2640-FE0F",
         "non_qualified": "2640",
         "docomo": null,
@@ -60810,7 +60810,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "MALE SIGN",
         "unified": "2642-FE0F",
         "non_qualified": "2642",
         "docomo": null,
@@ -61135,7 +61135,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "CHESS PAWN",
         "unified": "265F-FE0F",
         "non_qualified": "265F",
         "docomo": null,
@@ -61310,7 +61310,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "INFINITY",
         "unified": "267E-FE0F",
         "non_qualified": "267E",
         "docomo": null,
@@ -61360,7 +61360,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "HAMMER AND PICK",
         "unified": "2692-FE0F",
         "non_qualified": "2692",
         "docomo": null,
@@ -61410,7 +61410,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "CROSSED SWORDS",
         "unified": "2694-FE0F",
         "non_qualified": "2694",
         "docomo": null,
@@ -61435,7 +61435,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "MEDICAL SYMBOL",
         "unified": "2695-FE0F",
         "non_qualified": "2695",
         "docomo": null,
@@ -61461,7 +61461,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "BALANCE SCALE",
         "unified": "2696-FE0F",
         "non_qualified": "2696",
         "docomo": null,
@@ -61486,7 +61486,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "ALEMBIC",
         "unified": "2697-FE0F",
         "non_qualified": "2697",
         "docomo": null,
@@ -61511,7 +61511,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "GEAR",
         "unified": "2699-FE0F",
         "non_qualified": "2699",
         "docomo": null,
@@ -61536,7 +61536,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "ATOM SYMBOL",
         "unified": "269B-FE0F",
         "non_qualified": "269B",
         "docomo": null,
@@ -61561,7 +61561,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FLEUR-DE-LIS",
         "unified": "269C-FE0F",
         "non_qualified": "269C",
         "docomo": null,
@@ -61636,7 +61636,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "TRANSGENDER SYMBOL",
         "unified": "26A7-FE0F",
         "non_qualified": "26A7",
         "docomo": null,
@@ -61711,7 +61711,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "COFFIN",
         "unified": "26B0-FE0F",
         "non_qualified": "26B0",
         "docomo": null,
@@ -61736,7 +61736,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FUNERAL URN",
         "unified": "26B1-FE0F",
         "non_qualified": "26B1",
         "docomo": null,
@@ -61861,7 +61861,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "CLOUD WITH LIGHTNING AND RAIN",
         "unified": "26C8-FE0F",
         "non_qualified": "26C8",
         "docomo": null,
@@ -61911,7 +61911,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "PICK",
         "unified": "26CF-FE0F",
         "non_qualified": "26CF",
         "docomo": null,
@@ -61936,7 +61936,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "RESCUE WORKER\u2019S HELMET",
         "unified": "26D1-FE0F",
         "non_qualified": "26D1",
         "docomo": null,
@@ -61961,7 +61961,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "CHAINS",
         "unified": "26D3-FE0F",
         "non_qualified": "26D3",
         "docomo": null,
@@ -62011,7 +62011,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "SHINTO SHRINE",
         "unified": "26E9-FE0F",
         "non_qualified": "26E9",
         "docomo": null,
@@ -62061,7 +62061,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "MOUNTAIN",
         "unified": "26F0-FE0F",
         "non_qualified": "26F0",
         "docomo": null,
@@ -62086,7 +62086,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "UMBRELLA ON GROUND",
         "unified": "26F1-FE0F",
         "non_qualified": "26F1",
         "docomo": null,
@@ -62161,7 +62161,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "FERRY",
         "unified": "26F4-FE0F",
         "non_qualified": "26F4",
         "docomo": null,
@@ -62212,7 +62212,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "SKIER",
         "unified": "26F7-FE0F",
         "non_qualified": "26F7",
         "docomo": null,
@@ -62237,7 +62237,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "ICE SKATE",
         "unified": "26F8-FE0F",
         "non_qualified": "26F8",
         "docomo": null,
@@ -62262,7 +62262,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "WOMAN BOUNCING BALL",
         "unified": "26F9-FE0F-200D-2640-FE0F",
         "non_qualified": null,
         "docomo": null,
@@ -62349,7 +62349,7 @@
         }
     },
     {
-        "name": null,
+        "name": "MAN BOUNCING BALL",
         "unified": "26F9-FE0F-200D-2642-FE0F",
         "non_qualified": null,
         "docomo": null,
@@ -62437,7 +62437,7 @@
         "obsoletes": "26F9-FE0F"
     },
     {
-        "name": null,
+        "name": "PERSON BOUNCING BALL",
         "unified": "26F9-FE0F",
         "non_qualified": "26F9",
         "docomo": null,
@@ -62938,7 +62938,7 @@
         }
     },
     {
-        "name": null,
+        "name": "WRITING HAND",
         "unified": "270D-FE0F",
         "non_qualified": "270D",
         "docomo": null,
@@ -63125,7 +63125,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "LATIN CROSS",
         "unified": "271D-FE0F",
         "non_qualified": "271D",
         "docomo": null,
@@ -63150,7 +63150,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "STAR OF DAVID",
         "unified": "2721-FE0F",
         "non_qualified": "2721",
         "docomo": null,
@@ -63451,7 +63451,7 @@
         "has_img_facebook": true
     },
     {
-        "name": null,
+        "name": "HEART EXCLAMATION",
         "unified": "2763-FE0F",
         "non_qualified": "2763",
         "docomo": null,

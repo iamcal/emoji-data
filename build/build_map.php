@@ -755,6 +755,10 @@
 					}
 				}
 			}
+		}else{
+			if ($GLOBALS['sequence_names'][$img_key]){
+				$props['name'] = StrToUpper($GLOBALS['sequence_names'][$img_key]);
+			}
 		}
 
 
