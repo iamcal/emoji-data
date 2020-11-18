@@ -9,6 +9,7 @@
 * Sequence `1F468-200D-1F469-200D-1F466` now only has the shortcode `man-woman-boy` (previously had `:family:`)
 * Codepoint `U+1F935 MANY IN TUXEDO` now has the shortcode `:person_in_tuxedo:` (since `:man_in_tuxedo:` is used by sequence `1F935*-200D-2642-FE0F`. The Emoji standard and the Unicode standard appear to disagree here, but this choice seems reasonable)
 * Codepoint `U+1F46B MAN AND WOMAN HOLDING HANDS` now has `:couple:` as a secondary shortcode, rather than the primary
+* Added names for all sequences (fixes #180)
 
 
 ## 2020-10-09 : v6.0.0
