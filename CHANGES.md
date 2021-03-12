@@ -1,6 +1,6 @@
 # Change Log
 
-## 2020-??-?? : v6.0.1
+## 2021-03-12 : v6.0.1
 
 * Fixes image set versions in the README
 * Updated the build steps to not forget that in the future
