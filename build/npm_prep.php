@@ -108,6 +108,7 @@
 			'CHANGES.md',
 			'emoji.json',
 			'emoji_pretty.json',
+			'categories.json',
 		);
 
 		foreach ($files as $file){

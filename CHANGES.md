@@ -1,5 +1,11 @@
 # Change Log
 
+
+## 2021-??-?? : v6.0.2
+
+* NPM packages now include categories.json (fixes #187)
+
+
 ## 2021-03-12 : v6.0.1
 
 * Fixes image set versions in the README
