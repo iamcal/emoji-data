@@ -1,5 +1,7 @@
 # emoji-data - Easy to consume Emoji data and images
 
+<span class="badge-npmversion"><a href="https://npmjs.org/package/emoji-datasource" title="View this project on NPM"><img src="https://img.shields.io/npm/v/emoji-datasource.svg" alt="NPM version" /></a></span>
+<span class="badge-npmdownloads"><a href="https://npmjs.org/package/emoji-datasource" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/emoji-datasource.svg" alt="NPM downloads" /></a></span>
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fiamcal%2Femoji-data.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fiamcal%2Femoji-data?ref=badge_shield)
 
 This project provides easy-to-parse data about emoji, along with a spritesheet-style 
