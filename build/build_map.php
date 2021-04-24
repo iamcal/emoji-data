@@ -70,10 +70,13 @@
 
 	$category_map = array();	# CP => (Category-name, Global-order)
 	$categories = array();		# Category-name => []
+	$subcategory_map = array();	# CP => (Subcategory-name, Global-order)
+	$subcategories = array();		# Subcategory-name => []
 	$qualified_map = array();	# non-qualified-CP => fully-qualified-CP
 
 	$lines = file('unicode/emoji-test.txt');
 	$last_cat = '?';
+	$last_subcat = '?';
 	$p = 1;
 	foreach ($lines as $line){
 		if (!strlen(trim($line))) continue;
@@ -81,6 +84,9 @@
 		if (substr($line, 0, 9) == '# group: '){
 			$last_cat = substr($line, 9);
 			$categories[$last_cat] = array();
+        }elseif (substr($line, 0, 12) == '# subgroup: '){
+			$last_subcat = substr($line, 12);
+			$sub_categories[$last_subcat] = array();
 		}elseif (substr($line, 0, 1) == '#'){
 			continue;
 		}else{
@@ -88,6 +94,7 @@
 			$cp = trim(StrToLower($cp));
 			$cp = preg_replace('!\s+!', '-', $cp);
 			$category_map[$cp] = array($last_cat, $p);
+			$subcategory_map[$cp] = array($last_subcat, $p);
 			$p++;
 
 			$cp_nq = str_replace('-fe0f', '', $cp);
@@ -743,6 +750,13 @@
 			return null;
 		}
 
+		$subcategory = $GLOBALS['subcategory_map'][$img_key];
+		// TODO: Make sure every emoji has a subcategory!
+ 		if (!$subcategory) {
+			print "\nNot in subcategory map! $img_key\n";
+			return null;
+		}
+
 		if ($props['name']){
 			if (preg_match("!^REGIONAL INDICATOR SYMBOL LETTERS !", $props['name'])){
 
@@ -778,6 +792,7 @@
 			'text'		=> $GLOBALS['text'][$short],
 			'texts'		=> $GLOBALS['texts'][$short],
 			'category'	=> is_array($category) ? $category[0] : null,
+			'subcategory'	=> is_array($subcategory) ? $subcategory[0] : null,
 			'sort_order'	=> is_array($category) ? $category[1] : null,
 			'added_in'	=> $added,
 		);
