@@ -117,7 +117,7 @@ function parse_unicode($elt) {
 function parse_char_name($elt) {
 	$lines = array_filter(array_map('trim', explode("\n", $elt->textContent)));
 
-	if(count($lines[0])>0) {
+	if (count($lines) > 0) {
 		$result['title'] = $lines[0];
 		unset($lines[0]);
 		$result['desc'] = join("\n", $lines);

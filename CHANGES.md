@@ -1,5 +1,36 @@
 # Change Log
 
+
+## 2021-05-08 : v6.1.1
+
+* NPM packages now include `categories.json` (fixes #187)
+* Added `subcategory` property for all emoji (thanks to @ekohilas)
+* Switched `sort_order` to be globally unique
+* `categories.json` now includes sub-categories - data structure is _not_ backwards compatible
+
+
+## 2021-03-12 : v6.0.1
+
+* Fixes image set versions in the README
+* Updated the build steps to not forget that in the future
+* Switched `U+1F41E LADY BEETLE` to use `:ladybug:`/`:lady_beetle:` as a short code (`:beetle:` is now used by `U+1FAB2 BEETLE`)
+* Codepoint `U+1F46A FAMILY` now only has the shortcode `:family:`, as it is no longer considered gendered (previous also had `:man-woman-boy:`)
+* Sequence `1F468-200D-1F469-200D-1F466` now only has the shortcode `man-woman-boy` (previously had `:family:`)
+* Codepoint `U+1F935 MANY IN TUXEDO` now has the shortcode `:person_in_tuxedo:` (since `:man_in_tuxedo:` is used by sequence `1F935*-200D-2642-FE0F`. The Emoji standard and the Unicode standard appear to disagree here, but this choice seems reasonable)
+* Codepoint `U+1F46B MAN AND WOMAN HOLDING HANDS` now has `:couple:` as a secondary shortcode, rather than the primary
+* Added names for all sequences (fixes #180)
+
+
+## 2020-10-09 : v6.0.0
+
+* Updated to Unicode/Emoji 13.0
+* Updated Android images to v2020-07-22-unicode13_0
+* Updated Twemoji images to v13.0.1
+* Updated Facebook images to latest
+* Updated Apple images to Mac OS 11 Beta 20A5384c
+  * The mixed skin tone couples are broken in this beta font, so I'm using those 60 images from 10.15 instead
+
+
 ## 2020-01-14 : v5.0.1
 
 * Added 'clean' spritesheets, containing no fallback images https://github.com/iamcal/emoji-data/issues/162
