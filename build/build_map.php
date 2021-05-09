@@ -101,13 +101,6 @@
 		}
 	}
 
-	# add categories for the skin tone patches
-	$category_map['1f3fb'] = array('Skin Tones', $p++);
-	$category_map['1f3fc'] = array('Skin Tones', $p++);
-	$category_map['1f3fd'] = array('Skin Tones', $p++);
-	$category_map['1f3fe'] = array('Skin Tones', $p++);
-	$category_map['1f3ff'] = array('Skin Tones', $p++);
-
 	# patch in some CPs missing from the data file
 	$qualified_map['0023-20e3'] = '0023-fe0f-20e3';
 	$qualified_map['002a-20e3'] = '002a-fe0f-20e3';

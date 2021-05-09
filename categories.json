@@ -564,7 +564,13 @@
         ]
     },
     "Component": {
-        "skin-tone": [],
+        "skin-tone": [
+            "skin-tone-2",
+            "skin-tone-3",
+            "skin-tone-4",
+            "skin-tone-5",
+            "skin-tone-6"
+        ],
         "hair-style": []
     },
     "Animals & Nature": {
@@ -2020,15 +2026,6 @@
             "flag-england",
             "flag-scotland",
             "flag-wales"
-        ]
-    },
-    "Skin Tones": {
-        "skin-tone": [
-            "skin-tone-2",
-            "skin-tone-3",
-            "skin-tone-4",
-            "skin-tone-5",
-            "skin-tone-6"
         ]
     }
 }
