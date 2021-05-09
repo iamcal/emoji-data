@@ -986,7 +986,7 @@
 	$total = 0;
 	foreach ($out as $row){
 		$total++;
-		$total += count($row['skin_variations']);
+		$total += isset($row['skin_variations']) ? count($row['skin_variations']) : 0;
 	}
 	$num = ceil(sqrt($total));
 
@@ -1000,7 +1000,7 @@
 			$y = 0;
 		}
 
-		if (count($out[$k]['skin_variations'])){
+		if (isset($out[$k]['skin_variations']) && count($out[$k]['skin_variations'])){
 			foreach ($out[$k]['skin_variations'] as $k2 => $v2){
 				$out[$k]['skin_variations'][$k2]['sheet_x'] = $x;
 				$out[$k]['skin_variations'][$k2]['sheet_y'] = $y;
