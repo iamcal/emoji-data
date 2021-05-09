@@ -171,3 +171,4 @@ missing emoji (see the spritesheet section above for more details).
 * https://github.com/nulab/emoji-data-ts - TypeScript emoji library
 * https://github.com/maxoumime/emoji-data-ios - Swift emoji library
 * https://github.com/maxoumime/emoji-data-java - Java/Kotlin emoji library
+* https://github.com/kyokomi/emoji - Golang emoji library
