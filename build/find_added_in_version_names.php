@@ -1,9 +1,24 @@
 <?php
 	# needs to match the relevant lines in unicode/emoji-data.txt
-	$version = '12.1 ';
+	$version = '13.0 ';
 
 
 	include('common.php');
+
+	#
+	# load the names of all simple characters
+	#
+
+	$names_map = array();
+
+	$fh = fopen('unicode/UnicodeData.txt', 'r');
+	while (($line = fgets($fh)) !== false){
+		list($cp, $name) = explode(';', $line);
+		$names_map[$cp] = $name;
+	}
+	fclose($fh);
+
+
 
 	$done = [];
 
@@ -49,8 +64,32 @@
 
 		if (strpos($comment, $GLOBALS['version']) === false) return;
 
-                $uni = str_replace(' ', '-', trim($fields[0]));
-                $name = trim($fields[2]);
+		$cp = trim($fields[0]);
+		$name = trim($fields[2]);
+
+		if (strpos($cp, '..') !== false){
+
+			list($lo, $hi) = explode('..', $cp);
+			$lo = hexdec($lo);
+			$hi = hexdec($hi);
+
+			for ($i=$lo; $i<=$hi; $i++){
+				$cp = StrToUpper(dechex($i));
+				$name = $GLOBALS['names_map'][$cp];
+				got_sequence($cp, $name);
+			}
+
+		}else{
+			got_sequence($cp, $name);
+		}
+	}
+
+
+	function got_sequence($cp, $name){
+
+		$cp = StrToUpper($cp);
+
+                $uni = str_replace(' ', '-', $cp);
 
 		if (preg_match('! skin tone$!', $name)) return;
 

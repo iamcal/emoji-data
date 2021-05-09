@@ -1,11 +1,13 @@
 # emoji-data - Easy to consume Emoji data and images
 
+<span class="badge-npmversion"><a href="https://npmjs.org/package/emoji-datasource" title="View this project on NPM"><img src="https://img.shields.io/npm/v/emoji-datasource.svg" alt="NPM version" /></a></span>
+<span class="badge-npmdownloads"><a href="https://npmjs.org/package/emoji-datasource" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/emoji-datasource.svg" alt="NPM downloads" /></a></span>
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fiamcal%2Femoji-data.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fiamcal%2Femoji-data?ref=badge_shield)
 
 This project provides easy-to-parse data about emoji, along with a spritesheet-style 
 images for use on the web.
 
-The current version supports Unicode version 12.1 (October 2019)
+The current version supports Emoji version 13 (2020)
 
 You can see a catalog of the emoji data here: http://unicodey.com/emoji-data/table.htm
 
@@ -54,8 +56,9 @@ look like this:
         ],
         "text": null,
         "texts": null,
-        "category": "Smileys & People",
-        "sort_order": 116,
+        "category": "People & Body",
+        "subcategory": "hand-single-finger",
+        "sort_order": 170,
         "added_in": "1.4",
         "has_img_apple": true,
         "has_img_google": true,
@@ -99,8 +102,10 @@ The meaning of each field is as follows:
 | `short_names` | An array of all the known short names. |
 | `text` | An ASCII version of the emoji (e.g. `:)`), or null where none exists. |
 | `texts` | An array of ASCII emoji that should convert into this emoji. Each ASCII emoji will only appear against a single emoji entry. |
+| `category`, `subcategory` | Category and sub-category group names. |
+| `sort_order` | Global sorting index for all emoji, based on Unicode CLDR ordering. |
+| `added_in` | Emoji version in which this codepoint/sequence was added (previously Unicode version). |
 | `has_img_*` | A flag for whether the given image set has an image (named by the image prop) available. |
-| `added_id` | Emoji version in which this codepoint/sequence was added (previously Unicode version). |
 | `skin_variations` | For emoji with multiple skin tone variations, a list of alternative glyphs, keyed by the skin tone. For emoji that support multiple skin tones within a single emoji, each skin tone is separated by a dash character. |
 | `obsoletes`, `obsoleted_by` | Emoji that are no longer used, in preference of gendered versions. |
 
@@ -137,10 +142,10 @@ Images are extracted from their sources and this library attempts to track the l
 available versions. If you're looking for older versions of Apple or Android images
 (such as the Hairy Heart) then you'll need to look at previous revisions.
 
-* Apple Emoji: Copyright &copy; Apple Inc. - macOS 10.15.1 (Catalina)
-* Android Emoji: Copyright &copy; [The Android Open Source Project](https://s3-eu-west-1.amazonaws.com/tw-font/android/NOTICE) - v2019-11-19-unicode12
-* Twitter Emoji: Copyright &copy; Twitter, Inc. - v12.1.4 2019-11-13
-* Facebook Emoji: Copyright &copy; Facebook, Inc. - v9, fetched 2020-01-09
+* Apple Emoji: Copyright &copy; Apple Inc. - macOS 11 Beta 20A5384c (Big Sur)
+* Android Emoji: Copyright &copy; [The Android Open Source Project](https://s3-eu-west-1.amazonaws.com/tw-font/android/NOTICE) - v2020-07-22-unicode13_0
+* Twitter Emoji: Copyright &copy; Twitter, Inc. - v13.0.1
+* Facebook Emoji: Copyright &copy; Facebook, Inc. - v9, fetched 2020-10-08
 
 Apple images are not licensed for commercial usage.
 Android/Google/Noto emoji are available under the [Apache License 2.0](https://github.com/googlei18n/noto-emoji/blob/master/LICENSE).
@@ -164,4 +169,6 @@ missing emoji (see the spritesheet section above for more details).
 * https://github.com/afeld/emoji-css/ - an easy way to include emoji in your HTML
 * https://github.com/alexmick/emoji-data-python - Python emoji library
 * https://github.com/nulab/emoji-data-ts - TypeScript emoji library
+* https://github.com/maxoumime/emoji-data-ios - Swift emoji library
+* https://github.com/maxoumime/emoji-data-java - Java/Kotlin emoji library
 * https://github.com/kyokomi/emoji - Golang emoji library

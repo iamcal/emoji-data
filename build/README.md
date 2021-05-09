@@ -23,16 +23,28 @@ You can rebuild by following these steps:
 	# update!
 	php build_image.php
 
-	# create quantized sheets and optimize them all (_very_ slow)
-	./quant_sheets.sh
+	# create quantized sheets and optimize them all
+	./quant_sheets.sh (~2 mins)
 
-	parallel ./optimize.sh ::: ../sheet_*.png (about 23 mins)
-	parallel ./optimize.sh ::: ../sheets-*/*.png
-	parallel ./optimize.sh ::: ../img-*-64/*
+	parallel ./optimize.sh ::: ../sheet_*.png (~18 mins)
+	parallel ./optimize.sh ::: ../sheets-*/*.png (~25 mins)
+	parallel ./optimize.sh ::: ../img-*-64/* (~92 mins)
 
 
 To find out how to extract the original source glyphs, look inside the sub
 directories under `build/`.
+
+## Upgrading to a new version of the Unicode & Emoji standard
+
+* Update `./download_spec_files.sh` to point to the latest source files, then run it
+* Edit `find_added_in_version_names.php` to point to the version you care about, then generate names, e.g. `php find_added_in_version_names.php > data_emoji_names_v13.txt`
+* Manually edit the names file to use the expansions for gender and skin tone(s)
+* Edit `build_map.php` to load the new names list
+* Run `build_map.php` and check for missing names. Errors look like this:
+    `Found sequence not supported: 1f935-1f3fb-200d-2642-fe0f / E13.0  [1]`
+* Run `build_map.php` to generate a new catalog
+* Update images for all images set (see READMEs in theri sub-dirs)
+* Re-run `build_map.php` and then follow the rest of the build steps
 
 
 ## Cutting a new release
@@ -40,9 +52,11 @@ directories under `build/`.
 1. Land new commits onto master
 2. Update `CHANGES.md` with version history
 3. Update `package.json` with new version number (now in only 1 place)
-4. Add a git tag
-5. Publish to npm: `php npm_prep.php` and `php npm_publish.php`
-6. Update downstream libraries
+4. Update `README.md` with the correct Unicode/Emoji version
+4. Update `README.md` and `CHANGES.md` with the correct source versions for all image sets
+5. Add a git tag
+6. Publish to npm: `php npm_prep.php` and `php npm_publish.php`
+7. Update downstream libraries
 
 
 ## Install the optimization tools

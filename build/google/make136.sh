@@ -6,14 +6,7 @@ set -e
 # cd to project root
 cd "$(dirname -- "$0")/../.."
 
-noto_emoji='build/google/noto-emoji'
-
-# Build noto-emoji
-cd "$noto_emoji"
-make -j "$(nproc)" compressed
-cd -
-
-src="$noto_emoji"'/build/compressed_pngs'
+src='build/google/noto-emoji/build/compressed_pngs'
 dst='img-google-136'
 
 rm -rf "$dst"

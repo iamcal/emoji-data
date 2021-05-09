@@ -69,11 +69,13 @@
 	#
 
 	$category_map = array();	# CP => (Category-name, Global-order)
-	$categories = array();		# Category-name => []
+	$subcategory_map = array();	# CP => (Subcategory-name, Global-order)
 	$qualified_map = array();	# non-qualified-CP => fully-qualified-CP
+	$categories = array();		# Category-name => Subcategory-name => []
 
 	$lines = file('unicode/emoji-test.txt');
 	$last_cat = '?';
+	$last_subcat = '?';
 	$p = 1;
 	foreach ($lines as $line){
 		if (!strlen(trim($line))) continue;
@@ -81,6 +83,9 @@
 		if (substr($line, 0, 9) == '# group: '){
 			$last_cat = substr($line, 9);
 			$categories[$last_cat] = array();
+        }elseif (substr($line, 0, 12) == '# subgroup: '){
+			$last_subcat = substr($line, 12);
+			$categories[$last_cat][$last_subcat] = array();
 		}elseif (substr($line, 0, 1) == '#'){
 			continue;
 		}else{
@@ -88,19 +93,13 @@
 			$cp = trim(StrToLower($cp));
 			$cp = preg_replace('!\s+!', '-', $cp);
 			$category_map[$cp] = array($last_cat, $p);
+			$subcategory_map[$cp] = array($last_subcat, $p);
 			$p++;
 
 			$cp_nq = str_replace('-fe0f', '', $cp);
 			if ($cp != $cp_nq) $qualified_map[$cp_nq] = $cp;
 		}
 	}
-
-	# add categories for the skin tone patches
-	$category_map['1f3fb'] = array('Skin Tones', $p++);
-	$category_map['1f3fc'] = array('Skin Tones', $p++);
-	$category_map['1f3fd'] = array('Skin Tones', $p++);
-	$category_map['1f3fe'] = array('Skin Tones', $p++);
-	$category_map['1f3ff'] = array('Skin Tones', $p++);
 
 	# patch in some CPs missing from the data file
 	$qualified_map['0023-20e3'] = '0023-fe0f-20e3';
@@ -195,6 +194,7 @@
 	load_short_names('data_emoji_names_v5.txt');
 	load_short_names('data_emoji_names_v11.txt');
 	load_short_names('data_emoji_names_v12.txt');
+	load_short_names('data_emoji_names_v13.txt');
 	echo "DONE\n";
 
 	function load_short_names($file){
@@ -742,6 +742,13 @@
 			return null;
 		}
 
+		$subcategory = $GLOBALS['subcategory_map'][$img_key];
+		// TODO: Make sure every emoji has a subcategory!
+ 		if (!$subcategory) {
+			print "\nNot in subcategory map! $img_key\n";
+			return null;
+		}
+
 		if ($props['name']){
 			if (preg_match("!^REGIONAL INDICATOR SYMBOL LETTERS !", $props['name'])){
 
@@ -753,6 +760,10 @@
 						$props['name'] = $GLOBALS['sequence_names'][$img_key].' Flag';
 					}
 				}
+			}
+		}else{
+			if ($GLOBALS['sequence_names'][$img_key]){
+				$props['name'] = StrToUpper($GLOBALS['sequence_names'][$img_key]);
 			}
 		}
 
@@ -773,6 +784,7 @@
 			'text'		=> $GLOBALS['text'][$short],
 			'texts'		=> $GLOBALS['texts'][$short],
 			'category'	=> is_array($category) ? $category[0] : null,
+			'subcategory'	=> is_array($subcategory) ? $subcategory[0] : null,
 			'sort_order'	=> is_array($category) ? $category[1] : null,
 			'added_in'	=> $added,
 		);
@@ -844,16 +856,18 @@
 
 	foreach ($out as $k => $row){
 		$shortname_map[$row['short_name']] = $k;
-		if ($row['category']){
+		if ($row['category'] && $row['subcategory']){
 			$sort_key = sprintf('%05d', $row['sort_order']).'_'.$row['short_name'];
-			$categories[$row['category']][$sort_key] = $row['short_name'];
+			$categories[$row['category']][$row['subcategory']][$sort_key] = $row['short_name'];
 		}else{
 			$missing_categories[$row['short_name']] = 1;
 		}
 	}
-	foreach ($categories as $k => $v){
-		ksort($v);
-		$categories[$k] = array_values($v);
+	foreach ($categories as $k1 => $subcats){
+		foreach ($subcats as $k2 => $v){
+			ksort($v);
+			$categories[$k1][$k2] = array_values($v);
+		}
 	}
 
 
@@ -872,9 +886,9 @@
 		if ($row['obsoletes']){
 			$idx = $cp_map[$row['obsoletes']];
 			$row2 = $out[$idx];
-			$cat = find_assigned_cat($row2['short_name']);
-			if ($cat){
-				$categories[$cat][] = $row['short_name'];
+			list($cat, $subcat) = find_assigned_cat($row2['short_name']);
+			if ($cat && $subcat){
+				$categories[$cat][$subcat][] = $row['short_name'];
 				unset($missing_categories[$row['short_name']]);
 			}
 		}
@@ -882,9 +896,9 @@
 		if ($row['obsoleted_by']){
 			$idx = $cp_map[$row['obsoleted_by']];
 			$row2 = $out[$idx];
-			$cat = find_assigned_cat($row2['short_name']);
-			if ($cat){
-				$categories[$cat][] = $row['short_name'];
+			list($cat, $subcat) = find_assigned_cat($row2['short_name']);
+			if ($cat && $subcat){
+				$categories[$cat][$subcat][] = $row['short_name'];
 				unset($missing_categories[$row['short_name']]);
 			}
 		}
@@ -892,12 +906,14 @@
 
 	function find_assigned_cat($short_name){
 		global $categories;
-		foreach ($categories as $cat => $ids){
-			foreach ($ids as $id){
-				if ($id == $short_name) return $cat;
+		foreach ($categories as $cat => $subcats){
+			foreach ($subcats as $subcat => $ids){
+				foreach ($ids as $id){
+					if ($id == $short_name) return array($cat, $subcat);
+				}
 			}
 		}
-		return null;
+		return array(null, null);
 	}
 
 	echo "DONE\n";
@@ -918,16 +934,17 @@
 
 
 	#
-	# apply categories back into the output hash
+	# apply global sort ordering back into the output hash
 	#
 
-	echo "Setting categories : ";
-
-	foreach ($categories as $cat => $names){
-		foreach ($names as $p => $name){
-			$index = $shortname_map[$name];
-			$out[$index]['category'] = $cat;
-			$out[$index]['sort_order'] = $p+1;
+	echo "Setting global sort order : ";
+	$z = 1;
+	foreach ($categories as $cat => $subcats){
+		foreach ($subcats as $subcat => $names){
+			foreach ($names as $p => $name){
+				$index = $shortname_map[$name];
+				$out[$index]['sort_order'] = $z++;
+			}
 		}
 	}
 
@@ -981,7 +998,7 @@
 	$total = 0;
 	foreach ($out as $row){
 		$total++;
-		$total += count($row['skin_variations']);
+		$total += isset($row['skin_variations']) ? count($row['skin_variations']) : 0;
 	}
 	$num = ceil(sqrt($total));
 
@@ -995,7 +1012,7 @@
 			$y = 0;
 		}
 
-		if (count($out[$k]['skin_variations'])){
+		if (isset($out[$k]['skin_variations']) && count($out[$k]['skin_variations'])){
 			foreach ($out[$k]['skin_variations'] as $k2 => $v2){
 				$out[$k]['skin_variations'][$k2]['sheet_x'] = $x;
 				$out[$k]['skin_variations'][$k2]['sheet_y'] = $y;
