@@ -1,9 +1,12 @@
 # Change Log
 
 
-## 2021-??-?? : v6.0.2
+## 2021-05-08 : v6.1.0
 
-* NPM packages now include categories.json (fixes #187)
+* NPM packages now include `categories.json` (fixes #187)
+* Added `subcategory` property for all emoji (thanks to @ekohilas)
+* Switched `sort_order` to be globally unique
+* `categories.json` now includes sub-categories - data structure is _not_ backwards compatible
 
 
 ## 2021-03-12 : v6.0.1
