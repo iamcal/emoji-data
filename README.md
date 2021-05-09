@@ -56,8 +56,9 @@ look like this:
         ],
         "text": null,
         "texts": null,
-        "category": "Smileys & People",
-        "sort_order": 116,
+        "category": "People & Body",
+        "subcategory": "hand-single-finger",
+        "sort_order": 170,
         "added_in": "1.4",
         "has_img_apple": true,
         "has_img_google": true,
@@ -101,8 +102,10 @@ The meaning of each field is as follows:
 | `short_names` | An array of all the known short names. |
 | `text` | An ASCII version of the emoji (e.g. `:)`), or null where none exists. |
 | `texts` | An array of ASCII emoji that should convert into this emoji. Each ASCII emoji will only appear against a single emoji entry. |
-| `has_img_*` | A flag for whether the given image set has an image (named by the image prop) available. |
+| `category`, `subcategory` | Category and sub-category group names. |
+| `sort_order` | Global sorting index for all emoji, based on Unicode CLDR ordering. |
 | `added_in` | Emoji version in which this codepoint/sequence was added (previously Unicode version). |
+| `has_img_*` | A flag for whether the given image set has an image (named by the image prop) available. |
 | `skin_variations` | For emoji with multiple skin tone variations, a list of alternative glyphs, keyed by the skin tone. For emoji that support multiple skin tones within a single emoji, each skin tone is separated by a dash character. |
 | `obsoletes`, `obsoleted_by` | Emoji that are no longer used, in preference of gendered versions. |
 
