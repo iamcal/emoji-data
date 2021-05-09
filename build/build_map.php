@@ -69,10 +69,9 @@
 	#
 
 	$category_map = array();	# CP => (Category-name, Global-order)
-	$categories = array();		# Category-name => []
 	$subcategory_map = array();	# CP => (Subcategory-name, Global-order)
-	$subcategories = array();		# Subcategory-name => []
 	$qualified_map = array();	# non-qualified-CP => fully-qualified-CP
+	$categories = array();		# Category-name => Subcategory-name => []
 
 	$lines = file('unicode/emoji-test.txt');
 	$last_cat = '?';
@@ -86,7 +85,7 @@
 			$categories[$last_cat] = array();
         }elseif (substr($line, 0, 12) == '# subgroup: '){
 			$last_subcat = substr($line, 12);
-			$sub_categories[$last_subcat] = array();
+			$categories[$last_cat][$last_subcat] = array();
 		}elseif (substr($line, 0, 1) == '#'){
 			continue;
 		}else{
@@ -864,16 +863,18 @@
 
 	foreach ($out as $k => $row){
 		$shortname_map[$row['short_name']] = $k;
-		if ($row['category']){
+		if ($row['category'] && $row['subcategory']){
 			$sort_key = sprintf('%05d', $row['sort_order']).'_'.$row['short_name'];
-			$categories[$row['category']][$sort_key] = $row['short_name'];
+			$categories[$row['category']][$row['subcategory']][$sort_key] = $row['short_name'];
 		}else{
 			$missing_categories[$row['short_name']] = 1;
 		}
 	}
-	foreach ($categories as $k => $v){
-		ksort($v);
-		$categories[$k] = array_values($v);
+	foreach ($categories as $k1 => $subcats){
+		foreach ($subcats as $k2 => $v){
+			ksort($v);
+			$categories[$k1][$k2] = array_values($v);
+		}
 	}
 
 
@@ -892,9 +893,9 @@
 		if ($row['obsoletes']){
 			$idx = $cp_map[$row['obsoletes']];
 			$row2 = $out[$idx];
-			$cat = find_assigned_cat($row2['short_name']);
-			if ($cat){
-				$categories[$cat][] = $row['short_name'];
+			list($cat, $subcat) = find_assigned_cat($row2['short_name']);
+			if ($cat && $subcat){
+				$categories[$cat][$subcat][] = $row['short_name'];
 				unset($missing_categories[$row['short_name']]);
 			}
 		}
@@ -902,9 +903,9 @@
 		if ($row['obsoleted_by']){
 			$idx = $cp_map[$row['obsoleted_by']];
 			$row2 = $out[$idx];
-			$cat = find_assigned_cat($row2['short_name']);
-			if ($cat){
-				$categories[$cat][] = $row['short_name'];
+			list($cat, $subcat) = find_assigned_cat($row2['short_name']);
+			if ($cat && $subcat){
+				$categories[$cat][$subcat][] = $row['short_name'];
 				unset($missing_categories[$row['short_name']]);
 			}
 		}
@@ -912,12 +913,14 @@
 
 	function find_assigned_cat($short_name){
 		global $categories;
-		foreach ($categories as $cat => $ids){
-			foreach ($ids as $id){
-				if ($id == $short_name) return $cat;
+		foreach ($categories as $cat => $subcats){
+			foreach ($subcats as $subcat => $ids){
+				foreach ($ids as $id){
+					if ($id == $short_name) return array($cat, $subcat);
+				}
 			}
 		}
-		return null;
+		return array(null, null);
 	}
 
 	echo "DONE\n";
@@ -938,16 +941,17 @@
 
 
 	#
-	# apply categories back into the output hash
+	# apply global sort ordering back into the output hash
 	#
 
-	echo "Setting categories : ";
-
-	foreach ($categories as $cat => $names){
-		foreach ($names as $p => $name){
-			$index = $shortname_map[$name];
-			$out[$index]['category'] = $cat;
-			$out[$index]['sort_order'] = $p+1;
+	echo "Setting global sort order : ";
+	$z = 1;
+	foreach ($categories as $cat => $subcats){
+		foreach ($subcats as $subcat => $names){
+			foreach ($names as $p => $name){
+				$index = $shortname_map[$name];
+				$out[$index]['sort_order'] = $z++;
+			}
 		}
 	}
 
