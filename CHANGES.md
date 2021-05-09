@@ -1,7 +1,7 @@
 # Change Log
 
 
-## 2021-05-08 : v6.1.0
+## 2021-05-08 : v6.1.1
 
 * NPM packages now include `categories.json` (fixes #187)
 * Added `subcategory` property for all emoji (thanks to @ekohilas)
