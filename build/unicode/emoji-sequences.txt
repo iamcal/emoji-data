@@ -1,11 +1,11 @@
 # emoji-sequences.txt
-# Date: 2020-01-28, 20:48:43 GMT
+# Date: 2020-08-31, 01:06:24 GMT
 # © 2020 Unicode®, Inc.
 # Unicode and the Unicode Logo are registered trademarks of Unicode, Inc. in the U.S. and other countries.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
 #
 # Emoji Sequence Data for UTS #51
-# Version: 13.0
+# Version: 13.1
 #
 # For documentation and usage, see http://www.unicode.org/reports/tr51
 #
@@ -63,8 +63,8 @@
 2728          ; Basic_Emoji                  ; sparkles                                                       # E0.6   [1] (✨)
 274C          ; Basic_Emoji                  ; cross mark                                                     # E0.6   [1] (❌)
 274E          ; Basic_Emoji                  ; cross mark button                                              # E0.6   [1] (❎)
-2753..2755    ; Basic_Emoji                  ; question mark                                                  # E0.6   [3] (❓..❕)
-2757          ; Basic_Emoji                  ; exclamation mark                                               # E0.6   [1] (❗)
+2753..2755    ; Basic_Emoji                  ; red question mark                                              # E0.6   [3] (❓..❕)
+2757          ; Basic_Emoji                  ; red exclamation mark                                           # E0.6   [1] (❗)
 2795..2797    ; Basic_Emoji                  ; plus                                                           # E0.6   [3] (➕..➗)
 27B0          ; Basic_Emoji                  ; curly loop                                                     # E0.6   [1] (➰)
 27BF          ; Basic_Emoji                  ; double curly loop                                              # E1.0   [1] (➿)
@@ -193,7 +193,7 @@
 1F62E..1F62F  ; Basic_Emoji                  ; face with open mouth                                           # E1.0   [2] (😮..😯)
 1F630..1F633  ; Basic_Emoji                  ; anxious face with sweat                                        # E0.6   [4] (😰..😳)
 1F634         ; Basic_Emoji                  ; sleeping face                                                  # E1.0   [1] (😴)
-1F635         ; Basic_Emoji                  ; dizzy face                                                     # E0.6   [1] (😵)
+1F635         ; Basic_Emoji                  ; knocked-out face                                               # E0.6   [1] (😵)
 1F636         ; Basic_Emoji                  ; face without mouth                                             # E1.0   [1] (😶)
 1F637..1F640  ; Basic_Emoji                  ; face with medical mask                                         # E0.6  [10] (😷..🙀)
 1F641..1F644  ; Basic_Emoji                  ; slightly frowning face                                         # E1.0   [4] (🙁..🙄)
@@ -1062,6 +1062,16 @@
 1F487 1F3FD   ; RGI_Emoji_Modifier_Sequence  ; person getting haircut: medium skin tone                       # E1.0   [1] (💇🏽)
 1F487 1F3FE   ; RGI_Emoji_Modifier_Sequence  ; person getting haircut: medium-dark skin tone                  # E1.0   [1] (💇🏾)
 1F487 1F3FF   ; RGI_Emoji_Modifier_Sequence  ; person getting haircut: dark skin tone                         # E1.0   [1] (💇🏿)
+1F48F 1F3FB   ; RGI_Emoji_Modifier_Sequence  ; kiss: light skin tone                                          # E13.1  [1] (💏🏻)
+1F48F 1F3FC   ; RGI_Emoji_Modifier_Sequence  ; kiss: medium-light skin tone                                   # E13.1  [1] (💏🏼)
+1F48F 1F3FD   ; RGI_Emoji_Modifier_Sequence  ; kiss: medium skin tone                                         # E13.1  [1] (💏🏽)
+1F48F 1F3FE   ; RGI_Emoji_Modifier_Sequence  ; kiss: medium-dark skin tone                                    # E13.1  [1] (💏🏾)
+1F48F 1F3FF   ; RGI_Emoji_Modifier_Sequence  ; kiss: dark skin tone                                           # E13.1  [1] (💏🏿)
+1F491 1F3FB   ; RGI_Emoji_Modifier_Sequence  ; couple with heart: light skin tone                             # E13.1  [1] (💑🏻)
+1F491 1F3FC   ; RGI_Emoji_Modifier_Sequence  ; couple with heart: medium-light skin tone                      # E13.1  [1] (💑🏼)
+1F491 1F3FD   ; RGI_Emoji_Modifier_Sequence  ; couple with heart: medium skin tone                            # E13.1  [1] (💑🏽)
+1F491 1F3FE   ; RGI_Emoji_Modifier_Sequence  ; couple with heart: medium-dark skin tone                       # E13.1  [1] (💑🏾)
+1F491 1F3FF   ; RGI_Emoji_Modifier_Sequence  ; couple with heart: dark skin tone                              # E13.1  [1] (💑🏿)
 1F4AA 1F3FB   ; RGI_Emoji_Modifier_Sequence  ; flexed biceps: light skin tone                                 # E1.0   [1] (💪🏻)
 1F4AA 1F3FC   ; RGI_Emoji_Modifier_Sequence  ; flexed biceps: medium-light skin tone                          # E1.0   [1] (💪🏼)
 1F4AA 1F3FD   ; RGI_Emoji_Modifier_Sequence  ; flexed biceps: medium skin tone                                # E1.0   [1] (💪🏽)
@@ -1337,11 +1347,11 @@
 1F9D3 1F3FD   ; RGI_Emoji_Modifier_Sequence  ; older person: medium skin tone                                 # E5.0   [1] (🧓🏽)
 1F9D3 1F3FE   ; RGI_Emoji_Modifier_Sequence  ; older person: medium-dark skin tone                            # E5.0   [1] (🧓🏾)
 1F9D3 1F3FF   ; RGI_Emoji_Modifier_Sequence  ; older person: dark skin tone                                   # E5.0   [1] (🧓🏿)
-1F9D4 1F3FB   ; RGI_Emoji_Modifier_Sequence  ; man: light skin tone, beard                                    # E5.0   [1] (🧔🏻)
-1F9D4 1F3FC   ; RGI_Emoji_Modifier_Sequence  ; man: medium-light skin tone, beard                             # E5.0   [1] (🧔🏼)
-1F9D4 1F3FD   ; RGI_Emoji_Modifier_Sequence  ; man: medium skin tone, beard                                   # E5.0   [1] (🧔🏽)
-1F9D4 1F3FE   ; RGI_Emoji_Modifier_Sequence  ; man: medium-dark skin tone, beard                              # E5.0   [1] (🧔🏾)
-1F9D4 1F3FF   ; RGI_Emoji_Modifier_Sequence  ; man: dark skin tone, beard                                     # E5.0   [1] (🧔🏿)
+1F9D4 1F3FB   ; RGI_Emoji_Modifier_Sequence  ; person: light skin tone, beard                                 # E5.0   [1] (🧔🏻)
+1F9D4 1F3FC   ; RGI_Emoji_Modifier_Sequence  ; person: medium-light skin tone, beard                          # E5.0   [1] (🧔🏼)
+1F9D4 1F3FD   ; RGI_Emoji_Modifier_Sequence  ; person: medium skin tone, beard                                # E5.0   [1] (🧔🏽)
+1F9D4 1F3FE   ; RGI_Emoji_Modifier_Sequence  ; person: medium-dark skin tone, beard                           # E5.0   [1] (🧔🏾)
+1F9D4 1F3FF   ; RGI_Emoji_Modifier_Sequence  ; person: dark skin tone, beard                                  # E5.0   [1] (🧔🏿)
 1F9D5 1F3FB   ; RGI_Emoji_Modifier_Sequence  ; woman with headscarf: light skin tone                          # E5.0   [1] (🧕🏻)
 1F9D5 1F3FC   ; RGI_Emoji_Modifier_Sequence  ; woman with headscarf: medium-light skin tone                   # E5.0   [1] (🧕🏼)
 1F9D5 1F3FD   ; RGI_Emoji_Modifier_Sequence  ; woman with headscarf: medium skin tone                         # E5.0   [1] (🧕🏽)
@@ -1388,6 +1398,6 @@
 1F9DD 1F3FE   ; RGI_Emoji_Modifier_Sequence  ; elf: medium-dark skin tone                                     # E5.0   [1] (🧝🏾)
 1F9DD 1F3FF   ; RGI_Emoji_Modifier_Sequence  ; elf: dark skin tone                                            # E5.0   [1] (🧝🏿)
 
-# Total elements: 580
+# Total elements: 590
 
 #EOF
