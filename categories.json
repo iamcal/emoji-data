@@ -46,10 +46,12 @@
             "neutral_face",
             "expressionless",
             "no_mouth",
+            "face_in_clouds",
             "smirk",
             "unamused",
             "face_with_rolling_eyes",
             "grimacing",
+            "face_exhaling",
             "lying_face"
         ],
         "face-sleepy": [
@@ -70,6 +72,7 @@
             "cold_face",
             "woozy_face",
             "dizzy_face",
+            "face_with_spiral_eyes",
             "exploding_head"
         ],
         "face-hat": [
@@ -157,6 +160,8 @@
             "heart_decoration",
             "heavy_heart_exclamation_mark_ornament",
             "broken_heart",
+            "heart_on_fire",
+            "mending_heart",
             "heart",
             "orange_heart",
             "yellow_heart",
@@ -257,6 +262,8 @@
             "person_with_blond_hair",
             "man",
             "bearded_person",
+            "man_with_beard",
+            "woman_with_beard",
             "red_haired_man",
             "curly_haired_man",
             "white_haired_man",
