@@ -3,7 +3,7 @@
 ## 2021-06-?? : v7.0.0
 
 * Updated to Emoji 13.1
-* Updated Android images to ???
+* Updated Android images to v2020-09-16-unicode13_1
 * Updated Twemoji images to 13.1
 * Updated Apple images to Mac OS 11.4
 
