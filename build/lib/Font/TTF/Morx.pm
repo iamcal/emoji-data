@@ -404,26 +404,26 @@ sub resolve_contextual_table {
 		my ($next, $class) = @{pop @{$stack}};
 		my $entry = $table->{'tables'}->{'stateArray'}->[$state]->[$class];
 
-		print "state $state: idx $next, cls $class, ent $entry\n";
+		#print "state $state: idx $next, cls $class, ent $entry\n";
 
 		my ($next_state, $flags, $markIndex, $currentIndex) = @{$table->{'tables'}->{'entryTable'}->[$entry]};
 
-		printf "\tnext: %d, flags: %04x, mark: %d, current: %d\n", $next_state, $flags, $markIndex, $currentIndex;
+		#printf "\tnext: %d, flags: %04x, mark: %d, current: %d\n", $next_state, $flags, $markIndex, $currentIndex;
 
 		if ($markIndex != 0xffff){
 			my $replace = $table->{'tables'}->{'lookupTables'}->[$markIndex]->{$mark->[0]};
 			push @{$out_stack}, $replace;
 
-			print "\treplace mark ($mark->[0]/$mark->[1]) from table $markIndex\n";
-			print "\t\treplacement is $replace\n";
+			#print "\treplace mark ($mark->[0]/$mark->[1]) from table $markIndex\n";
+			#print "\t\treplacement is $replace\n";
 		}
 
 		if ($currentIndex != 0xffff){
 			my $replace = $table->{'tables'}->{'lookupTables'}->[$currentIndex]->{$next};
 			push @{$out_stack}, $replace;
 
-			print "\treplace current ($next/$class) from table $currentIndex\n";
-			print "\t\treplacement is $replace\n";
+			#print "\treplace current ($next/$class) from table $currentIndex\n";
+			#print "\t\treplacement is $replace\n";
 		}
 
 
