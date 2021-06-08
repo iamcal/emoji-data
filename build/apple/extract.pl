@@ -27,6 +27,9 @@ $f->readCollection(0);
 my $filenames = {};
 my $duplicates = [];
 
+my $composites = {}; # $filename -> [glyph_id, glyph_id]
+my $components = {}; # glyph_id -> usage_count
+
 
 #
 # first we'll process ligatures we know about
@@ -120,20 +123,36 @@ for my $line(@lines){
 for my $lig(@ligatures){
 	my $glyph = $f->{'morx'}->resolve_ligature($lig);
 	if ($glyph){
-		my $key = ''.$glyph;
+
 		my $path = &cps_to_path($lig);
 
-		if ($path_maps->{$path}){
-			$path = $path_maps->{$path};
-		}
+		if (ref $glyph eq 'ARRAY'){
 
-		if ($filenames->{$key}){
-			push @{$duplicates}, [$key, $path];
+			$composites->{$path} = $glyph;
+			for my $glyph_id (@{$glyph}){
+				$components->{$glyph_id}++;
+			}
+
 		}else{
-			$filenames->{$key} = $path;
+
+			my $key = ''.$glyph;
+
+			if ($path_maps->{$path}){
+				$path = $path_maps->{$path};
+			}
+
+			if ($filenames->{$key}){
+				push @{$duplicates}, [$key, $path];
+			}else{
+				$filenames->{$key} = $path;
+			}
 		}
 	}
 }
+
+#print Dumper $composites;
+#print Dumper $components;
+#exit;
 
 
 #
@@ -205,12 +224,24 @@ if (!$incremental_mode){
 
 for my $glyph_id(0..$f->{'maxp'}->{'numGlyphs'}-1){
 
+	my $used = 0;
+
 	my $filename = $filenames->{$glyph_id};
-	unless ($filename){
-		$filename = $glyph_id."_UNKNOWN.png";
+	if ($filename){
+		&store_image($glyph_id, $filename);
+		$used = 1;
 	}
 
-	&store_image($glyph_id, $filename);
+	if ($components->{$glyph_id}){
+		$filename = $glyph_id."_COMPONENT.png";
+		&store_image($glyph_id, $filename);
+		$used = 1;
+	}
+
+	if (!$used){
+		$filename = $glyph_id."_UNKNOWN.png";
+		&store_image($glyph_id, $filename);
+	}
 }
 
 for my $pair(@{$duplicates}){
