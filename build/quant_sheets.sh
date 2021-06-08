@@ -2,7 +2,7 @@
 
 quant_sheet() {
 	rm -f "$OUT"
-	/usr/local/bin/pngquant $COLORS --nofs --skip-if-larger --output "$OUT" -- "$IN"
+	/usr/bin/pngquant $COLORS --nofs --skip-if-larger --output "$OUT" -- "$IN"
 
 	STATUS=$?
 

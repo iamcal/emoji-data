@@ -111,8 +111,8 @@ zopfli() {
 		FILTERS="--filters=bp"
 	fi
 
-	#CMD="/usr/local/bin/zopflipng --timelimit=$TIMELIMIT"
-	CMD="/usr/local/bin/zopflipng"
+	#CMD="/usr/bin/zopflipng --timelimit=$TIMELIMIT"
+	CMD="/usr/bin/zopflipng"
 	if [ $ITERATIONS -gt 0 ]; then
 		CMD="$CMD --iterations=$ITERATIONS"
 	fi
