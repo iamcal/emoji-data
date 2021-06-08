@@ -192,22 +192,37 @@ sub read_contextual_subs
 		push @{$tables->{'entryTable'}}, [unpack('nnnn', $dat)];
 	}
 
-	# read substitution table
+	# figure out how many lookup tables we have
 	my $len = $endOffset - $header->{'substitutionTable'};
-	# TODO: these are lookup tables!
-#	$fh->seek($start + $header->{'substitutionTable'}, 0);
-#	my $subs = $len / 8;
-#	$tables->{'subs'} = [];
-#	for my $i(1..$subs){
-#		$fh->read($dat, 8);
-#		push @{$tables->{'subs'}}, [unpack('nnnn', $dat)];
-#	}
 
-	$tables->{'subs'} = [];
+	$fh->seek($start + $header->{'substitutionTable'}, 0);
+	$fh->read($dat, 4);
+	my ($firstOffset) = unpack('N', $dat);
+	my $lookupTables = $firstOffset / 4;
+
+	# get the offset for each table
+	$fh->seek($start + $header->{'substitutionTable'}, 0);
+	$fh->read($dat, 4*$lookupTables);
+	$tables->{'lookupOffsets'} = [unpack('N*', $dat)];
+
+	my $end_offset = $len - (4*$lookupTables);
+
+	# read each lookup table
+	$tables->{'lookupTables'} = [];
+	for my $i(0..$lookupTables-1){
+		my $tbl_start = $tables->{'lookupOffsets'}->[$i];
+		my $tbl_end = $i == $lookupTables-1 ? $end_offset : $tables->{'lookupOffsets'}->[$i+1];
+		my $tbl_len = $tbl_end - $tbl_start;
+
+		#print "loading lookup table $i, from $tbl_start to $tbl_end\n";
+
+		$fh->seek($start + $header->{'substitutionTable'} + $tbl_start, 0);
+		my ($subFormat, $subLookup) = Font::TTF::AATutils::AAT_read_lookup($fh, 2, $tbl_len, 0);
+
+		$tables->{'lookupTables'}->[$i] = $subLookup;
+	}
 
 	$subtable->{'tables'} = $tables;
-
-	#print Dumper $subtable;
 }
 
 sub resolve_ligature {
@@ -220,11 +235,11 @@ sub resolve_ligature {
 
 			#print "  scanning subtable ${subtable_id}...\n";
 
-			#my $ret = $self->resolve_ligature_table($cps, $self->{'header'}->{'chains'}->[$chain_id]->{'subtables'}->[$subtable_id]);
-			#return $ret if $ret;
+			my $ret = $self->resolve_ligature_table($cps, $self->{'header'}->{'chains'}->[$chain_id]->{'subtables'}->[$subtable_id]);
+			return $ret if $ret;
 
 			my $ret = $self->resolve_contextual_table($cps, $self->{'header'}->{'chains'}->[$chain_id]->{'subtables'}->[$subtable_id]);
-			return $ret if $ret;
+			return $ret if scalar @{$ret};
 		}
 	}
 
@@ -239,7 +254,7 @@ sub resolve_ligature_table {
 	#
 
 	if ($table->{'type'} != 2){
-		print "not a lig table (type=$table->{'type'}, length=$table->{'length'})\n";
+		#print "not a lig table (type=$table->{'type'}, length=$table->{'length'})\n";
 		return 0;
 	}
 
@@ -292,7 +307,7 @@ sub resolve_ligature_table {
 			push @{$stack}, [$next, $class];
 		}
 		if ($flags & 0x2000){
-			print "running lig action $action!\n";
+			#print "running lig action $action!\n";
 
 			my $acc = 0;
 
@@ -301,10 +316,10 @@ sub resolve_ligature_table {
 				my $idx = pop @{$proc_stack};
 				my $action_val = $table->{'tables'}->{'ligActions'}->[$action];
 
-				print "processing idx $idx with action value $action_val\n";
+				#print "processing idx $idx with action value $action_val\n";
 
 				my $offset = $self->sign_extend_30($action_val & 0x3FFFFFFF);
-				print "num = $offset\n";
+				#print "num = $offset\n";
 
 				my $component = $idx + $offset;
 				my $component_value = $table->{'tables'}->{'components'}->[$component];
@@ -349,7 +364,7 @@ sub resolve_contextual_table {
 
 	if ($table->{'type'} != 1){
 		#print "not a contextual table (type=$table->{'type'}, length=$table->{'length'})\n";
-		return 0;
+		return [];
 	}
 
 
@@ -370,14 +385,14 @@ sub resolve_contextual_table {
 		my $index = $cmap->{'Tables'}[0]{'val'}->{$cp};
 		my $class = $table->{'tables'}->{'classTable'}->{$index};
 
-		if (!$index || !$class){ return 0; }
+		if (!$index || !$class){ return []; }
 
 		unshift @{$stack}, [$index, $class];
 	}
 
-	my $proc_stack = [];
 	my $state = 1;
 	my $mark = [];
+	my $out_stack = [];
 
 
 	#
@@ -396,13 +411,19 @@ sub resolve_contextual_table {
 		printf "\tnext: %d, flags: %04x, mark: %d, current: %d\n", $next_state, $flags, $markIndex, $currentIndex;
 
 		if ($markIndex != 0xffff){
+			my $replace = $table->{'tables'}->{'lookupTables'}->[$markIndex]->{$mark->[0]};
+			push @{$out_stack}, $replace;
+
 			print "\treplace mark ($mark->[0]/$mark->[1]) from table $markIndex\n";
-	#		my $mark_lookup = $table->{'tables'}->{'substitutionTable'}->{$markIndex};
-	#		print "\tmarkIndex lookup -> $mark_lookup\n";
+			print "\t\treplacement is $replace\n";
 		}
 
 		if ($currentIndex != 0xffff){
+			my $replace = $table->{'tables'}->{'lookupTables'}->[$currentIndex]->{$next};
+			push @{$out_stack}, $replace;
+
 			print "\treplace current ($next/$class) from table $currentIndex\n";
+			print "\t\treplacement is $replace\n";
 		}
 
 
@@ -416,15 +437,14 @@ sub resolve_contextual_table {
 		}
 
 		$state = $next_state;
-	#	if ($state == 0 || $state == 1){
-	#		print "exited - no next state\n";
-	#		return 0;
-	#	}
 	}
 
-	print "exited - stack empty\n";
+	if (scalar @{$out_stack}){
+		return $out_stack;
+	}
 
-	return 0;
+	#print "exited - stack empty\n";
+	return [];
 }
 
 sub sign_extend_30 {
