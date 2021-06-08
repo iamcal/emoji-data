@@ -125,8 +125,9 @@ for my $lig(@ligatures){
 	if ($glyph){
 
 		my $path = &cps_to_path($lig);
+		my $num = scalar @{$glyph};
 
-		if (ref $glyph eq 'ARRAY'){
+		if ($num > 1){
 
 			$composites->{$path} = $glyph;
 			for my $glyph_id (@{$glyph}){
@@ -134,8 +135,7 @@ for my $lig(@ligatures){
 			}
 
 		}else{
-
-			my $key = ''.$glyph;
+			my $key = ''.$glyph->[0];
 
 			if ($path_maps->{$path}){
 				$path = $path_maps->{$path};
@@ -225,6 +225,9 @@ if (!$incremental_mode){
 for my $glyph_id(0..$f->{'maxp'}->{'numGlyphs'}-1){
 
 	my $used = 0;
+
+	# uncomment this to dump all glyphs by ID
+	#&store_image($glyph_id, $glyph_id."_GLYPH.png");
 
 	my $filename = $filenames->{$glyph_id};
 	if ($filename){
