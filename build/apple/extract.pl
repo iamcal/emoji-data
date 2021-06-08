@@ -252,6 +252,23 @@ for my $pair(@{$duplicates}){
 	&store_image($pair->[0], $pair->[1]);
 }
 
+for my $filename (keys %{$composites}){
+	my $glyphs = $composites->{$filename};
+	print "creating composite $filename from @{$glyphs} ... ";
+
+	my $out = "../../img-apple-160/$filename";
+	my $in = [];
+	for my $idx(@{$glyphs}){
+		push @{$in}, "../../img-apple-160/${idx}_COMPONENT.png";
+	}
+
+	my $first = shift @{$in};
+	my $cmd = "convert -size 160x160 $first ".join(" -composite ", @{$in})." -composite $out";
+	print `$cmd`;
+
+	print "ok\n";
+}
+
 
 sub store_image {
 	my ($glyph_id, $filename) = @_;
