@@ -228,6 +228,22 @@ sub read_contextual_subs
 sub resolve_ligature {
 	my ($self, $cps) = @_;
 
+
+	# first, turn cp list into glyph list
+
+	my $cmap = $self->{' PARENT'}->{'cmap'};
+
+	my $glyphs = [];
+	for my $cp (@{$cps}){
+		my $index = $cmap->{'Tables'}[0]{'val'}->{$cp};
+		if (!$index){ return 0; }
+		push @{$glyphs}, $index;
+	}
+	
+
+
+	# now, loop over each chain, applying transforms
+
 	for my $chain_id(0..scalar(@{$self->{'header'}->{'chains'}})-1){
 		#print "scanning chain ${chain_id}...\n";
 
@@ -235,10 +251,10 @@ sub resolve_ligature {
 
 			#print "  scanning subtable ${subtable_id}...\n";
 
-			my $ret = $self->resolve_ligature_table($cps, $self->{'header'}->{'chains'}->[$chain_id]->{'subtables'}->[$subtable_id]);
+			my $ret = $self->resolve_ligature_table($glyphs, $self->{'header'}->{'chains'}->[$chain_id]->{'subtables'}->[$subtable_id]);
 			return $ret if $ret;
 
-			my $ret = $self->resolve_contextual_table($cps, $self->{'header'}->{'chains'}->[$chain_id]->{'subtables'}->[$subtable_id]);
+			my $ret = $self->resolve_contextual_table($glyphs, $self->{'header'}->{'chains'}->[$chain_id]->{'subtables'}->[$subtable_id]);
 			return $ret if scalar @{$ret};
 		}
 	}
@@ -247,7 +263,7 @@ sub resolve_ligature {
 }
 
 sub resolve_ligature_table {
-	my ($self, $cps, $table) = @_;
+	my ($self, $glyphs, $table) = @_;
 
 	#
 	# only resolve from ligature subtables, not swashes, etc.
@@ -258,25 +274,16 @@ sub resolve_ligature_table {
 		return 0;
 	}
 
-
 	#
-	# we need the cmap for getting the cp indexes
-	#
-
-	my $cmap = $self->{' PARENT'}->{'cmap'};
-
-
-	#
-	# we reverse the codepoints into a stack and change them from codepoints to character indexes.
+	# we reverse the glyphs into a stack, with classes.
 	# start with $state of 1. if we get back to state 0 or 1 then give up.
 	#
 
 	my $stack = [];
-	for my $cp (@{$cps}){
-		my $index = $cmap->{'Tables'}[0]{'val'}->{$cp};
+	for my $index (@{$glyphs}){
 		my $class = $table->{'tables'}->{'classTable'}->{$index};
 
-		if (!$index || !$class){ return 0; }
+		if (!$class){ return 0; }
 
 		unshift @{$stack}, [$index, $class];
 	}
@@ -356,7 +363,7 @@ sub resolve_ligature_table {
 }
 
 sub resolve_contextual_table {
-	my ($self, $cps, $table) = @_;
+	my ($self, $glyphs, $table) = @_;
 
 	#
 	# only resolve from contextual subtables, not swashes, etc.
@@ -369,27 +376,20 @@ sub resolve_contextual_table {
 
 
 	#
-	# we need the cmap for getting the cp indexes
-	#
-
-	my $cmap = $self->{' PARENT'}->{'cmap'};
-
-
-	#
-	# we reverse the codepoints into a stack and change them from codepoints to character indexes.
+	# we reverse the glyphs into a stack.
 	# start with $state of 1. if we get back to state 0 or 1 then give up.
 	#
-
+#print "trying to map stack...\n";
 	my $stack = [];
-	for my $cp (@{$cps}){
-		my $index = $cmap->{'Tables'}[0]{'val'}->{$cp};
+	for my $index (@{$glyphs}){
 		my $class = $table->{'tables'}->{'classTable'}->{$index};
 
-		if (!$index || !$class){ return []; }
+		if (!$class){ return []; }
 
 		unshift @{$stack}, [$index, $class];
 	}
-
+#print Dumper $stack;
+#exit;
 	my $state = 1;
 	my $mark = [];
 	my $out_stack = [];
