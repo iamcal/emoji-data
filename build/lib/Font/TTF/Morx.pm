@@ -268,7 +268,7 @@ sub resolve_ligature {
 sub resolve_glyph_list {
 	my ($self, $glyphs) = @_;
 
-	print "processing @{$glyphs}\n";
+	#print "processing @{$glyphs}\n";
 
 	# now, loop over each chain, applying transforms
 
@@ -287,30 +287,29 @@ sub resolve_glyph_list {
 
 			my $transformed = 0;
 
-			print "scanning chain ${chain_id}...\n";
+			#print "scanning chain ${chain_id}...\n";
 
 
 			my $subtables = $chain->{'subtables'};
 			my @ids = (0 .. scalar(@{$subtables}) - 1);
 
 			for my $subtable_id(@ids){
-			#for my $subtable_id(reverse @ids){
 
 				my $subtable = $subtables->[$subtable_id];
 
 				if (($subtable->{'subFeatureFlags'} & $featureFlags) == 0){
-					print "  skipping subtable ${subtable_id}\n";
+					#print "  skipping subtable ${subtable_id}\n";
 					next;
 				}
 
-				print "  scanning subtable ${subtable_id} (type $subtable->{'type'})...\n";
+				#print "  scanning subtable ${subtable_id} (type $subtable->{'type'})...\n";
 
 				# resolve ligatures
 				if ($subtable->{'type'} == 2){
 					while (1){
-						my $ret = $self->resolve_ligature_table($glyphs, $subtable);
+						my $ret = $self->resolve_subligature_table($glyphs, $subtable);
 						if (scalar @{$ret}){
-							print "    changed to @{$ret}\n";
+							#print "    changed (lig) to @{$ret}\n";
 							$transformed = 1;
 							$glyphs = $ret;
 						}else{
@@ -324,7 +323,7 @@ sub resolve_glyph_list {
 					while (1){
 						my $ret = $self->resolve_contextual_table($glyphs, $subtable);
 						if (scalar @{$ret}){
-							print "    changed to @{$ret}\n";
+							#print "    changed (con) to @{$ret}\n";
 							$transformed = 1;
 							$glyphs = $ret;
 						}else{
@@ -338,7 +337,7 @@ sub resolve_glyph_list {
 					while (1){
 						my $ret = $self->resolve_noncontextual_table($glyphs, $subtable);
 						if (scalar @{$ret}){
-							print "    changed to @{$ret}\n";
+							#print "    changed (ncn) to @{$ret}\n";
 							$transformed = 1;
 							$glyphs = $ret;
 						}else{
@@ -359,8 +358,34 @@ sub resolve_glyph_list {
 		return $glyphs;
 	}
 
-	print "reached end of processing...\n";
+	#print "reached end of processing...\n";
 	return 0;
+}
+
+sub resolve_subligature_table {
+	my ($self, $glyphs, $table) = @_;
+
+	my $pre = [];
+	my $post = [];
+
+	push @{$pre}, $_ for @{$glyphs};
+
+	while (scalar @{$pre}){
+
+		my $ret = $self->resolve_ligature_table($pre, $table);
+		if (scalar @{$ret}){
+
+			my $out = [];
+			push @{$out}, $_ for @{$ret};
+			unshift @{$out}, $_ for @{$post};
+
+			return $out;
+		}
+
+		unshift(@{$post}, shift(@{$pre}));
+	}
+
+	return [];
 }
 
 sub resolve_ligature_table {
@@ -381,10 +406,26 @@ sub resolve_ligature_table {
 	#
 
 	my $stack = [];
+	my $post = [];
+	my $reached_end = 0;
+
 	for my $index (@{$glyphs}){
+		if ($reached_end){
+			push @{$post}, $index;
+			next;
+		}
+
 		my $class = $table->{'tables'}->{'classTable'}->{$index};
 
-		if (!$class){ return []; }
+		if (!$class){
+			if (!scalar @{$stack}){
+				return [];
+			}
+
+			$reached_end = 1;
+			push @{$post}, $index;
+			next;
+		}
 
 		unshift @{$stack}, [$index, $class];
 	}
@@ -448,7 +489,10 @@ sub resolve_ligature_table {
 					my $out = [$glyph];
 					while (scalar(@{$stack})){
 						my ($final_idx, $final_class) = @{pop @{$stack}};
-						push @{$out}, $final_idx;
+						unshift @{$out}, $final_idx;
+					}
+					while (scalar(@{$post})){
+						push @{$out}, shift @{$post};
 					}
 
 					return $out;
