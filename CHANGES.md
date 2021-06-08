@@ -1,5 +1,12 @@
 # Change Log
 
+## 2021-06-?? : v7.0.0
+
+* Updated to Emoji 13.1
+* Updated Android images to ???
+* Updated Twemoji images to 13.1
+* Updated Apple images to Mac OS 11.4
+
 
 ## 2021-05-08 : v6.1.1
 

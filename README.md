@@ -7,9 +7,9 @@
 This project provides easy-to-parse data about emoji, along with a spritesheet-style 
 images for use on the web.
 
-The current version supports Emoji version 13 (2020)
+The current version supports Emoji version 13.1 (2021)
 
-You can see a catalog of the emoji data here: http://unicodey.com/emoji-data/table.htm
+You can see a catalog of the emoji data here: http://projects.iamcal.com/emoji-data/table.htm
 
 
 ## Installation
@@ -142,10 +142,10 @@ Images are extracted from their sources and this library attempts to track the l
 available versions. If you're looking for older versions of Apple or Android images
 (such as the Hairy Heart) then you'll need to look at previous revisions.
 
-* Apple Emoji: Copyright &copy; Apple Inc. - macOS 11 Beta 20A5384c (Big Sur)
-* Android Emoji: Copyright &copy; [The Android Open Source Project](https://s3-eu-west-1.amazonaws.com/tw-font/android/NOTICE) - v2020-07-22-unicode13_0
-* Twitter Emoji: Copyright &copy; Twitter, Inc. - v13.0.1
-* Facebook Emoji: Copyright &copy; Facebook, Inc. - v9, fetched 2020-10-08
+* Apple Emoji: Copyright &copy; Apple Inc. - macOS 11.4 Big Sur (20F71)
+* Android Emoji: Copyright &copy; [The Android Open Source Project](https://s3-eu-west-1.amazonaws.com/tw-font/android/NOTICE) - v2020-07-22-unicode13_0 TODO
+* Twitter Emoji: Copyright &copy; Twitter, Inc. - v13.1
+* Facebook Emoji: Copyright &copy; Facebook, Inc. - v9, fetched 2020-10-08 (no 13.1 support)
 
 Apple images are not licensed for commercial usage.
 Android/Google/Noto emoji are available under the [Apache License 2.0](https://github.com/googlei18n/noto-emoji/blob/master/LICENSE).
