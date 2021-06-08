@@ -2,6 +2,7 @@
 
 show_block("Components", '../../img-apple-160/*_COMPONENT.png');
 show_block("Unknowns", '../../img-apple-160/*_UNKNOWN.png');
+show_block("Glyphs", '../../img-apple-160/*_GLYPH.png');
 
 function show_block($title, $glob){
 
