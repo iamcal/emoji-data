@@ -377,6 +377,7 @@ sub resolve_contextual_table {
 
 	my $proc_stack = [];
 	my $state = 1;
+	my $mark = [];
 
 
 	#
@@ -392,28 +393,33 @@ sub resolve_contextual_table {
 
 		my ($next_state, $flags, $markIndex, $currentIndex) = @{$table->{'tables'}->{'entryTable'}->[$entry]};
 
-		printf "\tnext: $next_state, flags: %x, mark: %d, current: %d\n", $next_state, $flags, $markIndex, $currentIndex;
+		printf "\tnext: %d, flags: %04x, mark: %d, current: %d\n", $next_state, $flags, $markIndex, $currentIndex;
 
-	#	if ($markIndex != 0xffff){
+		if ($markIndex != 0xffff){
+			print "\treplace mark ($mark->[0]/$mark->[1]) from table $markIndex\n";
 	#		my $mark_lookup = $table->{'tables'}->{'substitutionTable'}->{$markIndex};
 	#		print "\tmarkIndex lookup -> $mark_lookup\n";
-	#	}
+		}
+
+		if ($currentIndex != 0xffff){
+			print "\treplace current ($next/$class) from table $currentIndex\n";
+		}
 
 
 		if ($flags & 0x8000){
-			print "SET MARK\n";
-			#push @{$proc_stack}, $next;
+			#print "SET MARK\n";
+			$mark = [$next, $class];
 		}
 		if ($flags & 0x4000){
-			print "don't advance\n";
+			#print "don't advance\n";
 			push @{$stack}, [$next, $class];
 		}
 
 		$state = $next_state;
-		if ($state == 0 || $state == 1){
-			print "exited - no next state\n";
-			return 0;
-		}
+	#	if ($state == 0 || $state == 1){
+	#		print "exited - no next state\n";
+	#		return 0;
+	#	}
 	}
 
 	print "exited - stack empty\n";
