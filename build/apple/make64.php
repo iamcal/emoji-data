@@ -11,6 +11,8 @@
 		$bits = explode('/', $src);
 		$final = array_pop($bits);
 		if (strpos($final, 'UNKNOWN')) continue;
+		if (strpos($final, 'COMPONENT')) continue;
+		if (strpos($final, 'GLPYH')) continue;
 
 		$dst = '../../img-apple-64/'.$final;
 
