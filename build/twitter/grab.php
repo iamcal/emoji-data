@@ -44,6 +44,11 @@
 		}
 
 		if (!file_exists($src)){
+			$new_src = "twemoji/assets/72x72/".str_replace('-fe0f', '', $src_img);
+			if (file_exists($new_src)) $src = $new_src;
+		}
+
+		if (!file_exists($src)){
 			echo "\nNot found: $src\n";
 			return;
 		}
