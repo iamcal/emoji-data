@@ -62,6 +62,7 @@ sub read
 
             if ($subtable->{'type'} == 1){ $self->read_contextual_subs($subtable, $fh, $cursor); }
             if ($subtable->{'type'} == 2){ $self->read_ligatures($subtable, $fh, $cursor); }
+            if ($subtable->{'type'} == 4){ $self->read_noncontextual_subs($subtable, $fh, $cursor); }
 
             push @{$chain->{'subtables'}}, $subtable;
             $fh->seek($cursor, 0);
@@ -225,6 +226,26 @@ sub read_contextual_subs
 	$subtable->{'tables'} = $tables;
 }
 
+sub read_noncontextual_subs
+{
+	my ($self, $subtable, $fh, $endOffset) = @_;
+
+	my $dat;
+	my $start = $fh->tell();
+	my $len = $endOffset - $start;
+
+	my ($format, $table) = Font::TTF::AATutils::AAT_read_lookup($fh, 2, $len, 0);
+
+	$subtable->{'lookupTable'} = {};
+
+	# only keep ones which actually make changes
+	for my $k(keys %{$table}){
+		if ($k != $table->{$k}){
+			$subtable->{'lookupTable'}->{$k} = $table->{$k};
+		}
+	}
+}
+
 sub resolve_ligature {
 	my ($self, $cps) = @_;
 
@@ -239,26 +260,106 @@ sub resolve_ligature {
 		if (!$index){ return 0; }
 		push @{$glyphs}, $index;
 	}
-	
 
+
+	return $self->resolve_glyph_list($glyphs);
+}
+
+sub resolve_glyph_list {
+	my ($self, $glyphs) = @_;
+
+	print "processing @{$glyphs}\n";
 
 	# now, loop over each chain, applying transforms
 
+	my $ever_transformed = 0;
+
 	for my $chain_id(0..scalar(@{$self->{'header'}->{'chains'}})-1){
-		#print "scanning chain ${chain_id}...\n";
 
-		for my $subtable_id(0..scalar(@{$self->{'header'}->{'chains'}->[$chain_id]->{'subtables'}})-1){
+		# for each chain, determine our feature flags so we know which subtables to process
 
-			#print "  scanning subtable ${subtable_id}...\n";
+		my $chain = $self->{'header'}->{'chains'}->[$chain_id];
 
-			my $ret = $self->resolve_ligature_table($glyphs, $self->{'header'}->{'chains'}->[$chain_id]->{'subtables'}->[$subtable_id]);
-			return $ret if $ret;
+		my $featureFlags = $self->getChainFeatureFlags($chain, {});		
 
-			my $ret = $self->resolve_contextual_table($glyphs, $self->{'header'}->{'chains'}->[$chain_id]->{'subtables'}->[$subtable_id]);
-			return $ret if scalar @{$ret};
+
+		while (1){
+
+			my $transformed = 0;
+
+			print "scanning chain ${chain_id}...\n";
+
+
+			my $subtables = $chain->{'subtables'};
+			my @ids = (0 .. scalar(@{$subtables}) - 1);
+
+			for my $subtable_id(@ids){
+			#for my $subtable_id(reverse @ids){
+
+				my $subtable = $subtables->[$subtable_id];
+
+				if (($subtable->{'subFeatureFlags'} & $featureFlags) == 0){
+					print "  skipping subtable ${subtable_id}\n";
+					next;
+				}
+
+				print "  scanning subtable ${subtable_id} (type $subtable->{'type'})...\n";
+
+				# resolve ligatures
+				if ($subtable->{'type'} == 2){
+					while (1){
+						my $ret = $self->resolve_ligature_table($glyphs, $subtable);
+						if (scalar @{$ret}){
+							print "    changed to @{$ret}\n";
+							$transformed = 1;
+							$glyphs = $ret;
+						}else{
+							last;
+						}
+					}
+				}
+
+				# resolve contextual swaps
+				if ($subtable->{'type'} == 1){
+					while (1){
+						my $ret = $self->resolve_contextual_table($glyphs, $subtable);
+						if (scalar @{$ret}){
+							print "    changed to @{$ret}\n";
+							$transformed = 1;
+							$glyphs = $ret;
+						}else{
+							last;
+						}
+					}
+				}
+
+				# resolve non-contextual swaps
+				if ($subtable->{'type'} == 4){
+					while (1){
+						my $ret = $self->resolve_noncontextual_table($glyphs, $subtable);
+						if (scalar @{$ret}){
+							print "    changed to @{$ret}\n";
+							$transformed = 1;
+							$glyphs = $ret;
+						}else{
+							last;
+						}
+					}
+				}
+
+			}
+
+			if ($transformed){ $ever_transformed = 1; }
+			if (!$transformed){ last; }
 		}
+
 	}
 
+	if ($ever_transformed){
+		return $glyphs;
+	}
+
+	print "reached end of processing...\n";
 	return 0;
 }
 
@@ -271,7 +372,7 @@ sub resolve_ligature_table {
 
 	if ($table->{'type'} != 2){
 		#print "not a lig table (type=$table->{'type'}, length=$table->{'length'})\n";
-		return 0;
+		return [];
 	}
 
 	#
@@ -283,7 +384,7 @@ sub resolve_ligature_table {
 	for my $index (@{$glyphs}){
 		my $class = $table->{'tables'}->{'classTable'}->{$index};
 
-		if (!$class){ return 0; }
+		if (!$class){ return []; }
 
 		unshift @{$stack}, [$index, $class];
 	}
@@ -344,22 +445,27 @@ sub resolve_ligature_table {
 					#print "\n";
 
 					#print Dumper $table->{'tables'}->{'ligatures'};
+					my $out = [$glyph];
+					while (scalar(@{$stack})){
+						my ($final_idx, $final_class) = @{pop @{$stack}};
+						push @{$out}, $final_idx;
+					}
 
-					return $glyph;
+					return $out;
 				}
 			}
 
 			#print Dumper $table->{'tables'}->{'ligActions'};
-			return 0;
+			return [];
 		}
 
 		$state = $next_state;
 		if ($state == 0 || $state == 1){
-			return 0;
+		#	return [];
 		}
 	}
 
-	return 0;
+	return [];
 }
 
 sub resolve_contextual_table {
@@ -379,7 +485,7 @@ sub resolve_contextual_table {
 	# we reverse the glyphs into a stack.
 	# start with $state of 1. if we get back to state 0 or 1 then give up.
 	#
-#print "trying to map stack...\n";
+
 	my $stack = [];
 	for my $index (@{$glyphs}){
 		my $class = $table->{'tables'}->{'classTable'}->{$index};
@@ -388,8 +494,7 @@ sub resolve_contextual_table {
 
 		unshift @{$stack}, [$index, $class];
 	}
-#print Dumper $stack;
-#exit;
+
 	my $state = 1;
 	my $mark = [];
 	my $out_stack = [];
@@ -447,6 +552,27 @@ sub resolve_contextual_table {
 	return [];
 }
 
+sub resolve_noncontextual_table
+{
+	my ($self, $glyphs, $table) = @_;
+
+	my $matched = 0;
+
+	my $out = [];
+	for my $idx(@{$glyphs}){
+		my $map = $table->{'lookupTable'}->{$idx};
+		if ($map){
+			if ($map != 0xffff){
+				push @{$out}, $map;
+			}
+			$matched = 1;
+		}else{
+			push @{$out}, $idx;
+		}
+	}
+	return $matched ? $out : [];
+}
+
 sub sign_extend_30 {
 	my ($self, $num) = @_;
 
@@ -460,5 +586,22 @@ sub sign_extend_30 {
 	return $num;
 }
 
+sub getChainFeatureFlags {
+	my ($self, $chain, $settings) = @_;
+
+	my $state = $chain->{'defaultFlags'};
+
+	for my $feature (@{$chain->{'features'}}){
+
+		my $setting = $settings->{$feature->{'featureType'}} | 0;
+		if ($setting == $feature->{'featureSetting'}){
+
+			$state &= $feature->{'disableFlags'};
+			$state |= $feature->{'enableFlags'};
+		}
+	}
+
+	return $state;
+}
 
 1;
