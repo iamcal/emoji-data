@@ -44,6 +44,8 @@ sub scan_tables {
 			#print "  subtable ${subtable_id}, type=$sub->{'type'}, length=$sub->{'length'}\n";
 
 			$sizes->{$sub->{'type'}} += $sub->{'length'};
+
+			print "subtable ${subtable_id}, type=$sub->{'type'}, coverage=".sprintf('%08x', $sub->{'coverage'}).", subFeatureFlags=".sprintf('%08x', $sub->{'subFeatureFlags'})."\n";
 		}
 	}
 
