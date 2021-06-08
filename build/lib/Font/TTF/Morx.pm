@@ -60,6 +60,7 @@ sub read
 
             my $cursor = $fh->tell() + $subtable->{'length'} - 12;
 
+            if ($subtable->{'type'} == 1){ $self->read_contextual_subs($subtable, $fh, $cursor); }
             if ($subtable->{'type'} == 2){ $self->read_ligatures($subtable, $fh, $cursor); }
 
             push @{$chain->{'subtables'}}, $subtable;
@@ -142,6 +143,73 @@ sub read_ligatures
 	$subtable->{'tables'} = $tables;
 }
 
+sub read_contextual_subs
+{
+	my ($self, $subtable, $fh, $endOffset) = @_;
+
+	my $dat;
+	my $start = $fh->tell();
+
+	$fh->read($dat, 5 * 4);
+
+	my $header = {};
+	($header->{'nClasses'},
+	 $header->{'classTableOffset'},
+	 $header->{'stateArrayOffset'},
+	 $header->{'entryTableOffset'},
+	 $header->{'substitutionTable'}) = unpack('NNNNN', $dat);
+	$subtable->{'header'} = $header;
+
+
+	# we'll read the 4 tables, which we can later use to walk
+	# and resolve replacements
+	my $tables = {};
+
+	# read class table
+	my $len = $header->{'stateArrayOffset'} - $header->{'classTableOffset'};
+	$fh->seek($start + $header->{'classTableOffset'}, 0);
+	my ($classFormat, $classLookup) = Font::TTF::AATutils::AAT_read_lookup($fh, 2, $len, 0);
+	$tables->{'classTable'} = $classLookup;
+	$tables->{'classFormat'} = $classFormat;
+
+	# read state array
+	my $len = $header->{'entryTableOffset'} - $header->{'stateArrayOffset'};
+	$fh->seek($start + $header->{'stateArrayOffset'}, 0);
+	my $nStates = $len / (2 * $header->{'nClasses'});
+	$tables->{'stateArray'} = [];
+	for my $i(1..$nStates){
+		$fh->read($dat, $header->{'nClasses'} * 2);
+		push @{$tables->{'stateArray'}}, [unpack('n*', $dat)];
+	}
+
+	# read entry table
+	my $len = $header->{'substitutionTable'} - $header->{'entryTableOffset'};
+	$fh->seek($start + $header->{'entryTableOffset'}, 0);
+	my $entries = $len / 8;
+	$tables->{'entryTable'} = [];
+	for my $i(1..$entries){
+		$fh->read($dat, 8);
+		push @{$tables->{'entryTable'}}, [unpack('nnnn', $dat)];
+	}
+
+	# read substitution table
+	my $len = $endOffset - $header->{'substitutionTable'};
+	# TODO: these are lookup tables!
+#	$fh->seek($start + $header->{'substitutionTable'}, 0);
+#	my $subs = $len / 8;
+#	$tables->{'subs'} = [];
+#	for my $i(1..$subs){
+#		$fh->read($dat, 8);
+#		push @{$tables->{'subs'}}, [unpack('nnnn', $dat)];
+#	}
+
+	$tables->{'subs'} = [];
+
+	$subtable->{'tables'} = $tables;
+
+	#print Dumper $subtable;
+}
+
 sub resolve_ligature {
 	my ($self, $cps) = @_;
 
@@ -152,7 +220,10 @@ sub resolve_ligature {
 
 			#print "  scanning subtable ${subtable_id}...\n";
 
-			my $ret = $self->resolve_ligature_table($cps, $self->{'header'}->{'chains'}->[$chain_id]->{'subtables'}->[$subtable_id]);
+			#my $ret = $self->resolve_ligature_table($cps, $self->{'header'}->{'chains'}->[$chain_id]->{'subtables'}->[$subtable_id]);
+			#return $ret if $ret;
+
+			my $ret = $self->resolve_contextual_table($cps, $self->{'header'}->{'chains'}->[$chain_id]->{'subtables'}->[$subtable_id]);
 			return $ret if $ret;
 		}
 	}
@@ -168,7 +239,7 @@ sub resolve_ligature_table {
 	#
 
 	if ($table->{'type'} != 2){
-		#print "not a lig table\n";
+		print "not a lig table (type=$table->{'type'}, length=$table->{'length'})\n";
 		return 0;
 	}
 
@@ -212,6 +283,8 @@ sub resolve_ligature_table {
 
 		my ($next_state, $flags, $action) = @{$table->{'tables'}->{'entryTable'}->[$entry]};
 
+		#printf "\tflags: %x\n", $flags;
+
 		if ($flags & 0x8000){
 			push @{$proc_stack}, $next;
 		}
@@ -219,7 +292,7 @@ sub resolve_ligature_table {
 			push @{$stack}, [$next, $class];
 		}
 		if ($flags & 0x2000){
-			#print "running lig action $action!\n";
+			print "running lig action $action!\n";
 
 			my $acc = 0;
 
@@ -228,10 +301,10 @@ sub resolve_ligature_table {
 				my $idx = pop @{$proc_stack};
 				my $action_val = $table->{'tables'}->{'ligActions'}->[$action];
 
-				#print "processing idx $idx with action value $action_val\n";
+				print "processing idx $idx with action value $action_val\n";
 
 				my $offset = $self->sign_extend_30($action_val & 0x3FFFFFFF);
-				#print "num = $offset\n";
+				print "num = $offset\n";
 
 				my $component = $idx + $offset;
 				my $component_value = $table->{'tables'}->{'components'}->[$component];
@@ -263,6 +336,87 @@ sub resolve_ligature_table {
 			return 0;
 		}
 	}
+
+	return 0;
+}
+
+sub resolve_contextual_table {
+	my ($self, $cps, $table) = @_;
+
+	#
+	# only resolve from contextual subtables, not swashes, etc.
+	#
+
+	if ($table->{'type'} != 1){
+		#print "not a contextual table (type=$table->{'type'}, length=$table->{'length'})\n";
+		return 0;
+	}
+
+
+	#
+	# we need the cmap for getting the cp indexes
+	#
+
+	my $cmap = $self->{' PARENT'}->{'cmap'};
+
+
+	#
+	# we reverse the codepoints into a stack and change them from codepoints to character indexes.
+	# start with $state of 1. if we get back to state 0 or 1 then give up.
+	#
+
+	my $stack = [];
+	for my $cp (@{$cps}){
+		my $index = $cmap->{'Tables'}[0]{'val'}->{$cp};
+		my $class = $table->{'tables'}->{'classTable'}->{$index};
+
+		if (!$index || !$class){ return 0; }
+
+		unshift @{$stack}, [$index, $class];
+	}
+
+	my $proc_stack = [];
+	my $state = 1;
+
+
+	#
+	# now loop
+	#
+
+	while (scalar(@{$stack})){
+
+		my ($next, $class) = @{pop @{$stack}};
+		my $entry = $table->{'tables'}->{'stateArray'}->[$state]->[$class];
+
+		print "state $state: idx $next, cls $class, ent $entry\n";
+
+		my ($next_state, $flags, $markIndex, $currentIndex) = @{$table->{'tables'}->{'entryTable'}->[$entry]};
+
+		printf "\tnext: $next_state, flags: %x, mark: %d, current: %d\n", $next_state, $flags, $markIndex, $currentIndex;
+
+	#	if ($markIndex != 0xffff){
+	#		my $mark_lookup = $table->{'tables'}->{'substitutionTable'}->{$markIndex};
+	#		print "\tmarkIndex lookup -> $mark_lookup\n";
+	#	}
+
+
+		if ($flags & 0x8000){
+			print "SET MARK\n";
+			#push @{$proc_stack}, $next;
+		}
+		if ($flags & 0x4000){
+			print "don't advance\n";
+			push @{$stack}, [$next, $class];
+		}
+
+		$state = $next_state;
+		if ($state == 0 || $state == 1){
+			print "exited - no next state\n";
+			return 0;
+		}
+	}
+
+	print "exited - stack empty\n";
 
 	return 0;
 }
