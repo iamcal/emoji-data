@@ -61,38 +61,7 @@ directories under `build/`.
 
 ## Install the optimization tools
 
-We need newer versions of everything than e.g. Debian has:
-
-    wget https://github.com/amadvance/advancecomp/releases/download/v1.20/advancecomp-1.20.tar.gz
-    tar xzf advancecomp-1.20.tar.gz
-    cd advancecomp-1.20/
-    ./configure
-    make
-    sudo make install
-    cd ..
-    rm -rf advancecomp-1.20*
-
-    wget -Opngcrush-1.8.13.tar.gz "https://downloads.sourceforge.net/project/pmt/pngcrush/1.8.13/pngcrush-1.8.13.tar.gz?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fpmt%2Ffiles%2Fpngcrush%2F1.8.13%2Fpngcrush-1.8.13.tar.gz%2Fdownload&ts=1558118588"
-    tar xzf pngcrush-1.8.13.tar.gz
-    cd pngcrush-1.8.13/
-    make
-    sudo cp pngcrush /usr/local/bin/
-    cd ..
-    rm -rf pngcrush-1.8.13*
-
-    wget http://static.jonof.id.au/dl/kenutils/pngout-20150319-linux-static.tar.gz
-    tar xzf pngout-20150319-linux-static.tar.gz
-    sudo cp pngout-20150319-linux-static/x86_64/pngout-static /usr/local/bin
-    rm -rf pngout-20150319-linux-static*
-
-    wget -Ooptipng-0.7.6.tar.gz "http://downloads.sourceforge.net/project/optipng/OptiPNG/optipng-0.7.6/optipng-0.7.6.tar.gz?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Foptipng%2Ffiles%2FOptiPNG%2Foptipng-0.7.6%2F&ts=1465493988&use_mirror=heanet"
-    tar xzf optipng-0.7.6.tar.gz
-    cd optipng-0.7.6
-    ./configure
-    make
-    sudo make install
-    cd ..
-    rm -rf optipng-0.7.6*
+You can install the very latest versions of the optimization tools manually:
 
     wget https://download.sourceforge.net/libpng/libpng-1.6.37.tar.gz
     tar xzf libpng-1.6.37.tar.gz
@@ -118,14 +87,16 @@ We need newer versions of everything than e.g. Debian has:
     cd ..
     rm -rf zopfli
 
-## Setting up a fresh Amazon Linux instance to process the images
+## Setting up a fresh VM to process the images
 
-Since it requires some time and a lot of CPU & memory, I usually do it in EC2:
+Since it requires some time and a lot of CPU & memory, I usually spin up a temporary EC2 instance for image optimization.
+As of Ubuntu 20.04, you can install recent versions of all dependencies via apt:
 
-    sudo yum install -y git
-    sudo yum install -y php
-    sudo yum install -y ImageMagick
-    sudo yum install -y gcc
-    sudo yum install -y gcc-c++
-    sudo yum install -y zlib-devel
-    sudo yum install -y parallel
+    sudo apt-get update
+    sudo apt-get install -y git php imagemagick parallel
+    sudo apt-get install -y pngquant zopfli
+
+Don't forget to set up your git config before committing anything!
+
+    git config --global user.name "Cal Henderson"
+    git config --global user.email "cal@iamcal.com"
