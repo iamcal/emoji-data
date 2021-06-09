@@ -1,6 +1,6 @@
 # Change Log
 
-## 2021-06-?? : v7.0.0
+## 2021-06-09 : v7.0.0
 
 * Updated to Emoji 13.1
 * Updated Android images to v2020-09-16-unicode13_1
