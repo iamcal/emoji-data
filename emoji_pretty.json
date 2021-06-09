@@ -26111,8 +26111,9 @@
         "image": "1f46f-200d-2640-fe0f.png",
         "sheet_x": 21,
         "sheet_y": 49,
-        "short_name": "woman-with-bunny-ears-partying",
+        "short_name": "women-with-bunny-ears-partying",
         "short_names": [
+            "women-with-bunny-ears-partying",
             "woman-with-bunny-ears-partying"
         ],
         "text": null,
@@ -26138,8 +26139,9 @@
         "image": "1f46f-200d-2642-fe0f.png",
         "sheet_x": 21,
         "sheet_y": 50,
-        "short_name": "man-with-bunny-ears-partying",
+        "short_name": "men-with-bunny-ears-partying",
         "short_names": [
+            "men-with-bunny-ears-partying",
             "man-with-bunny-ears-partying"
         ],
         "text": null,

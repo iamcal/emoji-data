@@ -125,7 +125,6 @@
 1F3CB{SKIN!}-200D-{MALE/FEMALE};{M/W}-lifting-weights
 1F3CC-FE0F-200D-{MALE/FEMALE};{M/W}-golfing
 1F3CC{SKIN!}-200D-{MALE/FEMALE};{M/W}-golfing
-1F46F-200D-{MALE/FEMALE};{M/W}-with-bunny-ears-partying
 1F93C-200D-{MALE/FEMALE};{M/W}-wrestling
 1F3C3{SKIN}-200D-{MALE/FEMALE};{M/W}-running
 1F3C4{SKIN}-200D-{MALE/FEMALE};{M/W}-surfing
@@ -140,6 +139,9 @@
 1F939{SKIN}-200D-{MALE/FEMALE};{M/W}-juggling
 1F93D{SKIN}-200D-{MALE/FEMALE};{M/W}-playing-water-polo
 1F93E{SKIN}-200D-{MALE/FEMALE};{M/W}-playing-handball
+
+1F46F-200D-2640-FE0F;women-with-bunny-ears-partying/woman-with-bunny-ears-partying
+1F46F-200D-2642-FE0F;men-with-bunny-ears-partying/man-with-bunny-ears-partying
 
 # Gendered Gestures
 1F481{SKIN}-200D-{MALE/FEMALE};{M/W}-tipping-hand
