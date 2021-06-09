@@ -26,9 +26,9 @@ You can rebuild by following these steps:
 	# create quantized sheets and optimize them all
 	./quant_sheets.sh (~2 mins)
 
-	parallel ./optimize.sh ::: ../sheet_*.png (~18 mins)
-	parallel ./optimize.sh ::: ../sheets-*/*.png (~25 mins)
-	parallel ./optimize.sh ::: ../img-*-64/* (~92 mins)
+	parallel ./optimize.sh ::: ../sheet_*.png (~11 mins)
+	parallel ./optimize.sh ::: ../sheets-*/*.png (~12 mins)
+	parallel ./optimize.sh ::: ../img-*-64/* (~88 mins)
 
 
 To find out how to extract the original source glyphs, look inside the sub
