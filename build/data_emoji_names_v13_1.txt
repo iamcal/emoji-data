@@ -6,12 +6,18 @@
 1F636-200D-1F32B-FE0F;face_in_clouds
 
 
-# we don't use full expansion here, because it only supports one gender per line
+# we don't use gender expansion here, because a) we only support one per line and b) we don't want the man-x-woman sequences
+# since they were in a previous version and are simple codepoints.
 
-{MAN/WOMAN}{SKIN!}-200d-2764-fe0f-200d-1f48b-200d-1F468{SKIN2x};{M/W}-kiss-man
-{MAN/WOMAN}{SKIN!}-200d-2764-fe0f-200d-1f48b-200d-1F469{SKIN2x};{M/W}-kiss-woman
-1F9D1{SKIN!}-200d-2764-fe0f-200d-1f48b-200d-1F9D1{SKIN2x};couplekiss
+# the gendered pairs have variations where the skin types match (e.g. both partoes are type 3), but the non-gendered couples
+# do not, because those variations were included in a previous version.
 
-{MAN/WOMAN}{SKIN!}-200d-2764-fe0f-200d-1F468{SKIN2x};{M/W}-heart-man
-{MAN/WOMAN}{SKIN!}-200d-2764-fe0f-200d-1F469{SKIN2x};{M/W}-heart-woman
-1F9D1{SKIN!}-200d-2764-fe0f-200d-1F9D1{SKIN2x};couple_with_heart
+1F468{SKIN!}-200d-2764-fe0f-200d-1f48b-200d-1F468{SKIN2x};man-kiss-man
+1F469{SKIN!}-200d-2764-fe0f-200d-1f48b-200d-1F469{SKIN2x};woman-kiss-woman
+1F469{SKIN!}-200d-2764-fe0f-200d-1f48b-200d-1F468{SKIN2x};woman-kiss-man
+1F9D1{SKIN!}-200d-2764-fe0f-200d-1f48b-200d-1F9D1{SKIN2};couplekiss
+
+1F468{SKIN!}-200d-2764-fe0f-200d-1F468{SKIN2x};man-heart-man
+1F469{SKIN!}-200d-2764-fe0f-200d-1F469{SKIN2x};woman-heart-woman
+1F469{SKIN!}-200d-2764-fe0f-200d-1F468{SKIN2x};woman-heart-man
+1F9D1{SKIN!}-200d-2764-fe0f-200d-1F9D1{SKIN2};couple_with_heart
