@@ -360,6 +360,7 @@
 
 	$out = array();
 	$out_unis = array();
+	$out_skins = array();
 	$c = 0;
 
 	foreach ($catalog as $row){
@@ -494,11 +495,11 @@
 		# single codepoints are not a sequence
 		if (count($cps) == 1) return;
 
-		# skip skin tone variations - we treat those specially
-		if (in_array($last, $GLOBALS['skin_variation_suffixes'])) return;
-
 		# is this already on the output list?
 		if ($GLOBALS['out_unis'][$hex_low]) return;
+
+		# is this already on the output list for skin tone variations?
+		if ($GLOBALS['out_skins'][$hex_low]) return;
 
 		# is this an explicit variation we've already added to the output map?
 		if ($GLOBALS['variations_handled'][$hex_low]) return;
@@ -824,6 +825,7 @@
 					$var_nq = mb_strtoupper($GLOBALS['rev_qualified_map'][$var_img_key]);
 				}
 
+				$GLOBALS['out_skins'][$var_img_key] = 1;
 
 				$variation = array(
 					'unified'		=> $var_uni,
