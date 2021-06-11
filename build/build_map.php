@@ -220,6 +220,20 @@
 		}
 	}
 
+	#
+	# Token expansion in name files:
+	#
+	# {MAN/WOMAN} -> 1F468/1F469
+	# {MALE/FEMALE} -> 2642-FE0F/2640-FE0F
+	# {GENDER} -> male/female
+	# {M/W} -> man/woman
+	#
+	# {SKIN}	- optional skin tone
+	# {SKIN!}	- non-optional skin tone
+	# {SKIN2}	- second (non-optional) skin tone, not allowing matches with the first skin tone
+	# {SKIN2x}	- second (non-optional) skin tone, allowing matches with the first skin tone
+	#
+
 	function expand_short_name_line($line){
 
 		# expand gender first
@@ -233,7 +247,7 @@
 		}
 
 		# expand optional and required skin tones
-		if (preg_match('#{SKIN[!2]?}#', $line, $m)){
+		if (preg_match('#{SKIN(!|2|2x)?}#', $line, $m)){
 			return expand_skin_choices(array($line));
 		}
 
@@ -245,13 +259,13 @@
 	function expand_skin_choices($lines){
 
 		# given a list of lines, expand the list my multiplying out skin tones.
-		# we can take multiple passes is there are multiple matching tags.
+		# we can take multiple passes if there are multiple matching tags.
 
 		$out = array();
 
 		foreach ($lines as $line){
 
-			if (preg_match('#{SKIN[!2]?}#', $line, $m)){
+			if (preg_match('#{SKIN(!|2|2x)?}#', $line, $m)){
 
 				$temp = [];
 				if ($m[0] == '{SKIN}'){
@@ -263,6 +277,12 @@
 					if (strpos($line, '-1F3FD') === false) $temp[] = preg_replace('#{SKIN2}#', '-1F3FD', $line, 1).':skin-4';
 					if (strpos($line, '-1F3FE') === false) $temp[] = preg_replace('#{SKIN2}#', '-1F3FE', $line, 1).':skin-5';
 					if (strpos($line, '-1F3FF') === false) $temp[] = preg_replace('#{SKIN2}#', '-1F3FF', $line, 1).':skin-6';
+				}elseif ($m[0] == '{SKIN2x}'){
+					$temp[] = preg_replace('#{SKIN2x}#', '-1F3FB', $line, 1).':skin-2';
+					$temp[] = preg_replace('#{SKIN2x}#', '-1F3FC', $line, 1).':skin-3';
+					$temp[] = preg_replace('#{SKIN2x}#', '-1F3FD', $line, 1).':skin-4';
+					$temp[] = preg_replace('#{SKIN2x}#', '-1F3FE', $line, 1).':skin-5';
+					$temp[] = preg_replace('#{SKIN2x}#', '-1F3FF', $line, 1).':skin-6';
 				}else{
 					$temp[] = preg_replace('#{SKIN!?}#', '-1F3FB', $line, 1).':skin-2';
 					$temp[] = preg_replace('#{SKIN!?}#', '-1F3FC', $line, 1).':skin-3';
