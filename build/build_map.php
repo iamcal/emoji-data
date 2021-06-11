@@ -958,9 +958,15 @@
 
 	echo "Saving categories : ";
 
-	$fh = fopen('../categories.json', 'w');
-	fwrite($fh, json_encode($categories, JSON_PRETTY_PRINT));
-	fclose($fh);
+	$json_cat = json_encode($categories, JSON_PRETTY_PRINT);
+	if ($json_cat) {
+		$fh = fopen('../categories.json', 'w');
+		fwrite($fh, $json_cat);
+		fclose($fh);
+	} else {
+		$json_err = json_last_error();
+		echo "\nERROR: json encode error: {$json_err}\n";
+	}
 
 	echo "DONE\n";
 
@@ -1036,18 +1042,30 @@
 
 	echo "Writing map : ";
 
-	$fh = fopen('../emoji.json', 'w');
-	fwrite($fh, json_encode($out));
-	fclose($fh);
+	$json_emoji = json_encode($out);
+	if ($json_emoji) {
+		$fh = fopen('../emoji.json', 'w');
+		fwrite($fh, $json_emoji);
+		fclose($fh);
+	} else {
+		$json_err = json_last_error();
+		echo "\nERROR: json encode error: {$json_err}\n";
+	}
 
 	echo "DONE\n";
 
 
 	echo "Writing pretty map : ";
 
-	$fh = fopen('../emoji_pretty.json', 'w');
-	fwrite($fh, json_encode($out, JSON_PRETTY_PRINT));
-	fclose($fh);
+	$json_pretty = json_encode($out, JSON_PRETTY_PRINT);
+	if ($json_pretty) {
+		$fh = fopen('../emoji_pretty.json', 'w');
+		fwrite($fh, $json_pretty);
+		fclose($fh);
+	} else {
+		$json_err = json_last_error();
+		echo "\nERROR: json encode error: {$json_err}\n";
+	}
 
 	echo "DONE\n";
 
