@@ -1,5 +1,10 @@
 # Change Log
 
+## 2021-06-11 : v7.0.1
+
+* Correctly handle UTF-8 encoding when running under PHP 5 (thanks to @jwheare)
+
+
 ## 2021-06-09 : v7.0.0
 
 * Updated to Emoji 13.1
