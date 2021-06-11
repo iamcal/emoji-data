@@ -25555,8 +25555,7 @@
                 "has_img_twitter": true,
                 "has_img_facebook": false
             }
-        },
-        "obsoletes": "1F491"
+        }
     },
     {
         "name": "COUPLE WITH HEART: WOMAN, WOMAN",
@@ -26212,8 +26211,7 @@
                 "has_img_twitter": true,
                 "has_img_facebook": false
             }
-        },
-        "obsoletes": "1F48F"
+        }
     },
     {
         "name": "KISS: WOMAN, WOMAN",
@@ -31540,8 +31538,7 @@
                 "has_img_twitter": true,
                 "has_img_facebook": false
             }
-        },
-        "obsoleted_by": "1F469-200D-2764-FE0F-200D-1F48B-200D-1F468"
+        }
     },
     {
         "name": "BOUQUET",
@@ -31895,8 +31892,7 @@
                 "has_img_twitter": true,
                 "has_img_facebook": false
             }
-        },
-        "obsoleted_by": "1F469-200D-2764-FE0F-200D-1F468"
+        }
     },
     {
         "name": "WEDDING",
