@@ -2,7 +2,8 @@
 
 ## 2021-06-11 : v7.0.1
 
-* Correctly handle UTF-8 encoding when running under PHP 5 (thanks to @jwheare)
+* Added 190 missing skin tone variations from 13.1 (thanks to @jwheare)
+* Correctly handle UTF-8 encoding in emoji names (thanks to @jwheare)
 
 
 ## 2021-06-09 : v7.0.0
