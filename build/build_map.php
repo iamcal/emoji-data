@@ -306,7 +306,7 @@
 
 	foreach ($raw as $line){
 		list($line, $junk) = explode('#', $line);
-		list($key, $var) = explode(';', StrToUpper(trim($line)));
+		list($key, $var) = explode(';', mb_strtoupper(trim($line)));
 		if (strlen($key)){
 			$obsoleted_by[$key] = $var;
 			$obsoletes[$var] = $key;
@@ -365,7 +365,7 @@
 	foreach ($catalog as $row){
 
 		$img_key = StrToLower(encode_points($row['unicode']));
-		$shorts = $short_names[StrToUpper($img_key)];
+		$shorts = $short_names[mb_strtoupper($img_key)];
 		$name = $row['char_name']['title'];
 
 		if (preg_match("!^REGIONAL INDICATOR SYMBOL LETTERS !", $name)){
@@ -404,7 +404,7 @@
 
 			add_row($img_key, $names, array(
 				'unified'	=> $uid,
-				'name'		=> "REGIONAL INDICATOR SYMBOL LETTERS ".StrToUpper(substr($names[0], 5)),
+				'name'		=> "REGIONAL INDICATOR SYMBOL LETTERS ".mb_strtoupper(substr($names[0], 5)),
 			));
 		}else{
 			add_row($img_key, $names);
@@ -467,7 +467,7 @@
 
 		if (isset($GLOBALS['skip_components'][$hex_low])) continue;
 
-		$hex_up = StrToUpper($hex_low);
+		$hex_up = mb_strtoupper($hex_low);
 		$line = shell_exec("grep -e ^{$hex_up}\\; unicode/UnicodeData.txt");
 		$line = trim($line);
 
@@ -692,10 +692,10 @@
 		}
 
 		if (!isset($props['name'])){
-			$props['name'] = $GLOBALS['names_map'][StrToUpper($img_key)];
+			$props['name'] = $GLOBALS['names_map'][mb_strtoupper($img_key)];
 		}
 		if (!isset($props['unified'])){
-			$props['unified'] = StrToUpper($img_key);
+			$props['unified'] = mb_strtoupper($img_key);
 		}
 
 		$row = simple_row($img_key, $short_names, $props);
@@ -718,7 +718,7 @@
 
 		$nq = null;
 		if ($GLOBALS['rev_qualified_map'][$img_key]){
-			$nq = StrToUpper($GLOBALS['rev_qualified_map'][$img_key]);
+			$nq = mb_strtoupper($GLOBALS['rev_qualified_map'][$img_key]);
 			if (!$added){
 				$added = $GLOBALS['versions'][StrToLower($nq)];
 			}
@@ -764,7 +764,7 @@
 			}
 		}else{
 			if ($GLOBALS['sequence_names'][$img_key]){
-				$props['name'] = StrToUpper($GLOBALS['sequence_names'][$img_key]);
+				$props['name'] = mb_strtoupper($GLOBALS['sequence_names'][$img_key]);
 			}
 		}
 
@@ -815,13 +815,13 @@
 
 			foreach ($GLOBALS['skin_variation_suffixes'] as $suffix){
 
-				$var_uni	= StrToUpper($skin_vars_base.'-'.$suffix);
+				$var_uni	= mb_strtoupper($skin_vars_base.'-'.$suffix);
 				$var_img_key	= StrToLower($skin_vars_base.'-'.$suffix);
 				$var_img	= $var_img_key.'.png';
 
 				$var_nq = null;
 				if ($GLOBALS['rev_qualified_map'][$var_img_key]){
-					$var_nq = StrToUpper($GLOBALS['rev_qualified_map'][$var_img_key]);
+					$var_nq = mb_strtoupper($GLOBALS['rev_qualified_map'][$var_img_key]);
 				}
 
 
