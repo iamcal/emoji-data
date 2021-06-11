@@ -114,6 +114,12 @@ The meaning of each field is as follows:
 
 For each image set (Apple, Google, etc) we generate several different "sprite sheets" - large images of all emoji stitched together.
 
+Every emoji image in the sheet has a 1 pixel transparent border around it, so the 64px sheet is really made up of 66px squares, while the 16px sheet is really made up of 18px squares, etc.
+You can find the position of any given image on a sheet using the `sheet_x` and `sheet_y` properties, as follows:
+
+    x = (sheet_x * (sheet_size + 2)) + 1;
+    y = (sheet_y * (sheet_size + 2)) + 1;
+
 Inside the Git repo you'll find some sheets in the root directory and some in the `sheets-indexed-128`, `sheets-indexed-256` and `sheets-clean` directories.
 In the NPM packages, you'll find them under the `img/{$set}/sheets*` paths. For example:
 
