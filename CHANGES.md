@@ -1,5 +1,10 @@
 # Change Log
 
+## 2021-xx-xx : v7.0.2
+
+* Gender neutral `:couplekiss:` and `:couple_with_heart:` are no longer obsoleted by gendered versions (thanks to @jwheare)
+
+
 ## 2021-06-11 : v7.0.1
 
 * Added 190 missing skin tone variations from 13.1 (thanks to @jwheare)
