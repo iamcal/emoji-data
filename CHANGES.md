@@ -190,7 +190,7 @@
 ## 2015-11-04 : v2.2.1
 
 * Fixed :scorpion: name
-* Eemoved the duplicate family emoji
+* Removed the duplicate family emoji
 
 
 ## 2015-10-22 : v2.2.0
