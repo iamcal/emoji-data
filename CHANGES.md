@@ -1,6 +1,6 @@
 # Change Log
 
-## 2021-xx-xx : v7.0.2
+## 2021-06-15 : v7.0.2
 
 * Gender neutral `:couplekiss:` and `:couple_with_heart:` are no longer obsoleted by gendered versions (thanks to @jwheare)
 
