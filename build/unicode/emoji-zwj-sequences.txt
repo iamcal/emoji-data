@@ -1,11 +1,11 @@
 # emoji-zwj-sequences.txt
-# Date: 2020-08-30, 17:14:54 GMT
-# © 2020 Unicode®, Inc.
+# Date: 2021-06-08, 05:19:16 GMT
+# © 2021 Unicode®, Inc.
 # Unicode and the Unicode Logo are registered trademarks of Unicode, Inc. in the U.S. and other countries.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
 #
 # Emoji ZWJ Sequences for UTS #51
-# Version: 13.1
+# Version: 14.0
 #
 # For documentation and usage, see http://www.unicode.org/reports/tr51
 #
@@ -339,8 +339,28 @@
 1F9D1 1F3FF 200D 1F91D 200D 1F9D1 1F3FD     ; RGI_Emoji_ZWJ_Sequence  ; people holding hands: dark skin tone, medium skin tone         # E12.0  [1] (🧑🏿‍🤝‍🧑🏽)
 1F9D1 1F3FF 200D 1F91D 200D 1F9D1 1F3FE     ; RGI_Emoji_ZWJ_Sequence  ; people holding hands: dark skin tone, medium-dark skin tone    # E12.0  [1] (🧑🏿‍🤝‍🧑🏾)
 1F9D1 1F3FF 200D 1F91D 200D 1F9D1 1F3FF     ; RGI_Emoji_ZWJ_Sequence  ; people holding hands: dark skin tone                           # E12.0  [1] (🧑🏿‍🤝‍🧑🏿)
+1FAF1 1F3FB 200D 1FAF2 1F3FC                ; RGI_Emoji_ZWJ_Sequence  ; handshake: light skin tone, medium-light skin tone             # E14.0  [1] (🫱🏻‍🫲🏼)
+1FAF1 1F3FB 200D 1FAF2 1F3FD                ; RGI_Emoji_ZWJ_Sequence  ; handshake: light skin tone, medium skin tone                   # E14.0  [1] (🫱🏻‍🫲🏽)
+1FAF1 1F3FB 200D 1FAF2 1F3FE                ; RGI_Emoji_ZWJ_Sequence  ; handshake: light skin tone, medium-dark skin tone              # E14.0  [1] (🫱🏻‍🫲🏾)
+1FAF1 1F3FB 200D 1FAF2 1F3FF                ; RGI_Emoji_ZWJ_Sequence  ; handshake: light skin tone, dark skin tone                     # E14.0  [1] (🫱🏻‍🫲🏿)
+1FAF1 1F3FC 200D 1FAF2 1F3FB                ; RGI_Emoji_ZWJ_Sequence  ; handshake: medium-light skin tone, light skin tone             # E14.0  [1] (🫱🏼‍🫲🏻)
+1FAF1 1F3FC 200D 1FAF2 1F3FD                ; RGI_Emoji_ZWJ_Sequence  ; handshake: medium-light skin tone, medium skin tone            # E14.0  [1] (🫱🏼‍🫲🏽)
+1FAF1 1F3FC 200D 1FAF2 1F3FE                ; RGI_Emoji_ZWJ_Sequence  ; handshake: medium-light skin tone, medium-dark skin tone       # E14.0  [1] (🫱🏼‍🫲🏾)
+1FAF1 1F3FC 200D 1FAF2 1F3FF                ; RGI_Emoji_ZWJ_Sequence  ; handshake: medium-light skin tone, dark skin tone              # E14.0  [1] (🫱🏼‍🫲🏿)
+1FAF1 1F3FD 200D 1FAF2 1F3FB                ; RGI_Emoji_ZWJ_Sequence  ; handshake: medium skin tone, light skin tone                   # E14.0  [1] (🫱🏽‍🫲🏻)
+1FAF1 1F3FD 200D 1FAF2 1F3FC                ; RGI_Emoji_ZWJ_Sequence  ; handshake: medium skin tone, medium-light skin tone            # E14.0  [1] (🫱🏽‍🫲🏼)
+1FAF1 1F3FD 200D 1FAF2 1F3FE                ; RGI_Emoji_ZWJ_Sequence  ; handshake: medium skin tone, medium-dark skin tone             # E14.0  [1] (🫱🏽‍🫲🏾)
+1FAF1 1F3FD 200D 1FAF2 1F3FF                ; RGI_Emoji_ZWJ_Sequence  ; handshake: medium skin tone, dark skin tone                    # E14.0  [1] (🫱🏽‍🫲🏿)
+1FAF1 1F3FE 200D 1FAF2 1F3FB                ; RGI_Emoji_ZWJ_Sequence  ; handshake: medium-dark skin tone, light skin tone              # E14.0  [1] (🫱🏾‍🫲🏻)
+1FAF1 1F3FE 200D 1FAF2 1F3FC                ; RGI_Emoji_ZWJ_Sequence  ; handshake: medium-dark skin tone, medium-light skin tone       # E14.0  [1] (🫱🏾‍🫲🏼)
+1FAF1 1F3FE 200D 1FAF2 1F3FD                ; RGI_Emoji_ZWJ_Sequence  ; handshake: medium-dark skin tone, medium skin tone             # E14.0  [1] (🫱🏾‍🫲🏽)
+1FAF1 1F3FE 200D 1FAF2 1F3FF                ; RGI_Emoji_ZWJ_Sequence  ; handshake: medium-dark skin tone, dark skin tone               # E14.0  [1] (🫱🏾‍🫲🏿)
+1FAF1 1F3FF 200D 1FAF2 1F3FB                ; RGI_Emoji_ZWJ_Sequence  ; handshake: dark skin tone, light skin tone                     # E14.0  [1] (🫱🏿‍🫲🏻)
+1FAF1 1F3FF 200D 1FAF2 1F3FC                ; RGI_Emoji_ZWJ_Sequence  ; handshake: dark skin tone, medium-light skin tone              # E14.0  [1] (🫱🏿‍🫲🏼)
+1FAF1 1F3FF 200D 1FAF2 1F3FD                ; RGI_Emoji_ZWJ_Sequence  ; handshake: dark skin tone, medium skin tone                    # E14.0  [1] (🫱🏿‍🫲🏽)
+1FAF1 1F3FF 200D 1FAF2 1F3FE                ; RGI_Emoji_ZWJ_Sequence  ; handshake: dark skin tone, medium-dark skin tone               # E14.0  [1] (🫱🏿‍🫲🏾)
 
-# Total elements: 312
+# Total elements: 332
 
 # ================================================
 
