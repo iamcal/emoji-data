@@ -1,5 +1,11 @@
 # Change Log
 
+
+## 2021-10-?? : v8.0.0
+
+* Updated to Emoji 14.0
+
+
 ## 2021-06-15 : v7.0.2
 
 * Gender neutral `:couplekiss:` and `:couple_with_heart:` are no longer obsoleted by gendered versions (thanks to @jwheare)
