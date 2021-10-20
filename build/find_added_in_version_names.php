@@ -1,6 +1,6 @@
 <?php
 	# needs to match the relevant lines in unicode/emoji-data.txt
-	$version = '13.0 ';
+	$version = '14.0 ';
 
 
 	include('common.php');
@@ -91,7 +91,12 @@
 
                 $uni = str_replace(' ', '-', $cp);
 
-		if (preg_match('! skin tone$!', $name)) return;
+		# skip over all but one skin tone - this makes it easier
+		# for us to turn the remaining single-case into an expansion
+		if (strpos($name, 'medium-light skin tone') !== false) return;
+		if (strpos($name, 'medium skin tone') !== false) return;
+		if (strpos($name, 'medium-dark skin tone') !== false) return;
+		if (strpos($name, 'dark skin tone') !== false) return;
 
 		if (isset($GLOBALS['done'][$uni])) return;
 		$GLOBALS['done'][$uni] = 1;
