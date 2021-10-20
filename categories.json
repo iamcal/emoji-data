@@ -11,6 +11,7 @@
             "joy",
             "slightly_smiling_face",
             "upside_down_face",
+            "melting_face",
             "wink",
             "blush",
             "innocent"
@@ -37,8 +38,11 @@
         "face-hand": [
             "hugging_face",
             "face_with_hand_over_mouth",
+            "face_with_open_eyes_and_hand_over_mouth",
+            "face_with_peeking_eye",
             "shushing_face",
-            "thinking_face"
+            "thinking_face",
+            "saluting_face"
         ],
         "face-neutral-skeptical": [
             "zipper_mouth_face",
@@ -46,6 +50,7 @@
             "neutral_face",
             "expressionless",
             "no_mouth",
+            "dotted_line_face",
             "face_in_clouds",
             "smirk",
             "unamused",
@@ -87,6 +92,7 @@
         ],
         "face-concerned": [
             "confused",
+            "face_with_diagonal_mouth",
             "worried",
             "slightly_frowning_face",
             "white_frowning_face",
@@ -95,6 +101,7 @@
             "astonished",
             "flushed",
             "pleading_face",
+            "face_holding_back_tears",
             "frowning",
             "anguished",
             "fearful",
@@ -193,7 +200,11 @@
             "raised_back_of_hand",
             "raised_hand_with_fingers_splayed",
             "hand",
-            "spock-hand"
+            "spock-hand",
+            "rightwards_hand",
+            "leftwards_hand",
+            "palm_down_hand",
+            "palm_up_hand"
         ],
         "hand-fingers-partial": [
             "ok_hand",
@@ -201,6 +212,7 @@
             "pinching_hand",
             "v",
             "crossed_fingers",
+            "hand_with_index_finger_and_thumb_crossed",
             "i_love_you_hand_sign",
             "the_horns",
             "call_me_hand"
@@ -211,7 +223,8 @@
             "point_up_2",
             "middle_finger",
             "point_down",
-            "point_up"
+            "point_up",
+            "index_pointing_at_the_viewer"
         ],
         "hand-fingers-closed": [
             "+1",
@@ -224,6 +237,7 @@
         "hands": [
             "clap",
             "raised_hands",
+            "heart_hands",
             "open_hands",
             "palms_up_together",
             "handshake",
@@ -251,7 +265,8 @@
             "eyes",
             "eye",
             "tongue",
-            "lips"
+            "lips",
+            "biting_lip"
         ],
         "person": [
             "baby",
@@ -377,6 +392,7 @@
             "construction_worker",
             "male-construction-worker",
             "female-construction-worker",
+            "person_with_crown",
             "prince",
             "princess",
             "man_with_turban",
@@ -391,6 +407,8 @@
             "man_with_veil",
             "woman_with_veil",
             "pregnant_woman",
+            "pregnant_man",
+            "pregnant_person",
             "breast-feeding",
             "woman_feeding_baby",
             "man_feeding_baby",
@@ -427,7 +445,8 @@
             "female_genie",
             "zombie",
             "male_zombie",
-            "female_zombie"
+            "female_zombie",
+            "troll"
         ],
         "person-activity": [
             "massage",
@@ -690,7 +709,8 @@
             "blowfish",
             "shark",
             "octopus",
-            "shell"
+            "shell",
+            "coral"
         ],
         "animal-bug": [
             "snail",
@@ -714,6 +734,7 @@
             "bouquet",
             "cherry_blossom",
             "white_flower",
+            "lotus",
             "rosette",
             "rose",
             "wilted_flower",
@@ -735,7 +756,9 @@
             "four_leaf_clover",
             "maple_leaf",
             "fallen_leaf",
-            "leaves"
+            "leaves",
+            "empty_nest",
+            "nest_with_eggs"
         ]
     },
     "Food & Drink": {
@@ -775,6 +798,7 @@
             "onion",
             "mushroom",
             "peanuts",
+            "beans",
             "chestnut"
         ],
         "food-prepared": [
@@ -870,6 +894,7 @@
             "beers",
             "clinking_glasses",
             "tumbler_glass",
+            "pouring_liquid",
             "cup_with_straw",
             "bubble_tea",
             "beverage_box",
@@ -882,6 +907,7 @@
             "fork_and_knife",
             "spoon",
             "hocho",
+            "jar",
             "amphora"
         ]
     },
@@ -956,6 +982,7 @@
             "bridge_at_night",
             "hotsprings",
             "carousel_horse",
+            "playground_slide",
             "ferris_wheel",
             "roller_coaster",
             "barber",
@@ -1006,6 +1033,7 @@
             "railway_track",
             "oil_drum",
             "fuelpump",
+            "wheel",
             "rotating_light",
             "traffic_light",
             "vertical_traffic_light",
@@ -1014,6 +1042,7 @@
         ],
         "transport-water": [
             "anchor",
+            "ring_buoy",
             "boat",
             "canoe",
             "speedboat",
@@ -1193,6 +1222,7 @@
             "crystal_ball",
             "magic_wand",
             "nazar_amulet",
+            "hamsa",
             "video_game",
             "joystick",
             "slot_machine",
@@ -1200,6 +1230,7 @@
             "jigsaw",
             "teddy_bear",
             "pinata",
+            "mirror_ball",
             "nesting_dolls",
             "spades",
             "hearts",
@@ -1311,6 +1342,7 @@
         ],
         "computer": [
             "battery",
+            "low_battery",
             "electric_plug",
             "computer",
             "desktop_computer",
@@ -1471,7 +1503,9 @@
             "drop_of_blood",
             "pill",
             "adhesive_bandage",
-            "stethoscope"
+            "crutch",
+            "stethoscope",
+            "x-ray"
         ],
         "household": [
             "door",
@@ -1494,6 +1528,7 @@
             "roll_of_paper",
             "bucket",
             "soap",
+            "bubbles",
             "toothbrush",
             "sponge",
             "fire_extinguisher",
@@ -1505,7 +1540,8 @@
             "headstone",
             "funeral_urn",
             "moyai",
-            "placard"
+            "placard",
+            "identification_card"
         ]
     },
     "Symbols": {
@@ -1627,6 +1663,7 @@
             "heavy_plus_sign",
             "heavy_minus_sign",
             "heavy_division_sign",
+            "heavy_equals_sign",
             "infinity"
         ],
         "punctuation": [
