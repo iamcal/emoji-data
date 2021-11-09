@@ -4,6 +4,7 @@
 ## 2021-10-?? : v8.0.0
 
 * Updated to Emoji 14.0
+* Updated Android images to v2.034
 
 
 ## 2021-06-15 : v7.0.2
