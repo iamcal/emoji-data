@@ -149,7 +149,7 @@ available versions. If you're looking for older versions of Apple or Android ima
 (such as the Hairy Heart) then you'll need to look at previous revisions.
 
 * Apple Emoji: Copyright &copy; Apple Inc. - macOS 11.4 Big Sur (20F71)
-* Android Emoji: Copyright &copy; [The Android Open Source Project](https://s3-eu-west-1.amazonaws.com/tw-font/android/NOTICE) - v2020-09-16-unicode13_1
+* Android Emoji: Copyright &copy; [The Android Open Source Project](https://s3-eu-west-1.amazonaws.com/tw-font/android/NOTICE) - v2.034 (Unicode 14.0)
 * Twitter Emoji: Copyright &copy; Twitter, Inc. - v13.1
 * Facebook Emoji: Copyright &copy; Facebook, Inc. - v9, fetched 2020-10-08 (no 13.1 support)
 
