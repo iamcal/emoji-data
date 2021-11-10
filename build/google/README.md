@@ -11,18 +11,7 @@ These steps should allow you to get them building on a completely fresh Ubuntu 2
     sudo apt-get upgrade
     sudo apt-get install -y python3-venv python3-pip zopfli libcairo2-dev imagemagick pngquant
 
-    # setup nototools
-    cd
-    git clone https://github.com/googlei18n/nototools.git
-    cd nototools/
-    git checkout v0.2.13
-    pip3 install launchpadlib
-    pip3 install -r requirements.txt
-    sudo python3 setup.py install
-
     # build noto-emoji
-    cd
-    git clone https://github.com/googlefonts/noto-emoji.git
     cd noto-emoji/
     python3 -m venv venv
     source venv/bin/activate
