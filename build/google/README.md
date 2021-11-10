@@ -18,8 +18,8 @@ These steps should allow you to get them building on a completely fresh Ubuntu 2
     pip3 install -r requirements.txt
     time make -j
 
-The final command will take quite a while to run (15 minutes on a large EC2 instance).
-You can list files inside `build/compressed_pngs/` to check progress; there are 3,573 in the 13.0 version.
+The final command will take quite a while to run (30+ minutes on a large EC2 instance).
+You can list files inside `build/compressed_pngs/` to check progress; there are 3,681 in the 14.0 version.
 
 
 ## Extracting images
