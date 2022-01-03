@@ -179,3 +179,4 @@ missing emoji (see the spritesheet section above for more details).
 * https://github.com/maxoumime/emoji-data-java - Java/Kotlin emoji library
 * https://github.com/kyokomi/emoji - Golang emoji library
 * https://github.com/joeattardi/emoji-button - Plain JavaScript emoji picker
+* https://github.com/missive/emoji-mart - React emoji picker components
