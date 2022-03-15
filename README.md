@@ -150,7 +150,7 @@ available versions. If you're looking for older versions of Apple or Android ima
 
 * Apple Emoji: Copyright &copy; Apple Inc. - macOS Monterey 12.3
 * Android Emoji: Copyright &copy; [The Android Open Source Project](https://s3-eu-west-1.amazonaws.com/tw-font/android/NOTICE) - v2.034 (Unicode 14.0)
-* Twitter Emoji: Copyright &copy; Twitter, Inc. - v13.1
+* Twitter Emoji: Copyright &copy; Twitter, Inc. - v14.0.0
 * Facebook Emoji: Copyright &copy; Facebook, Inc. - v9, fetched 2020-10-08 (no 13.1 support)
 
 Apple images are not licensed for commercial usage.
