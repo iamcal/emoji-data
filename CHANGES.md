@@ -1,10 +1,14 @@
 # Change Log
 
 
-## 2021-10-?? : v8.0.0
+## 2022-03-15 : v14.0.0
 
+* Changed version numbering to match Unicode/Emoji version numbers
 * Updated to Emoji 14.0
 * Updated Android images to v2.034
+* Updated Apple images for macOS Monterey 12.3
+* Updated Twemoji to v14.0.0
+* Added some recent Facebook emoji (still no broad 13.1 or 14.0 support)
 
 
 ## 2021-06-15 : v7.0.2
