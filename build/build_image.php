@@ -123,12 +123,15 @@
 
 		# Build the montage input (list of filenames)
 		$files = '';
+		$file_list = [];
 		foreach ($comp as $index => $file){
 			if ($file !== null){
 				$files = $files." {$file}";
+				$file_list[] = $file;
 				#echo '.';
 			}else{
 				$files = $files." null:";
+				$file_list[] = "null:";
 				#echo ' ';
 			}
 
@@ -137,15 +140,24 @@
 			}
 		}
 
-		$cmd = "montage {$files} -geometry {$geom} -tile {$tile} -background none png32:{$dst}";
+		$fh = fopen(__DIR__.'/../input.txt', 'w');
+		foreach ($file_list as $file){
+			fputs($fh, "$file\n");
+		}
+		fclose($fh);
+
+		$cmd = "montage @input.txt -geometry {$geom} -tile {$tile} -background none png32:{$dst}";
 		$fd_spec = array();
 		$pipes = array();
 		$cwd = __DIR__.'/..'; # chdir into parent directory first
 
 		$res = proc_open($cmd, $fd_spec, $pipes, $cwd);
 
+		unlink(__DIR__.'/../input.txt');
+
 		if (proc_close($res) > 0) {
 			echo "Something went wrong\n\n";
+			exit;
 			return;
 		}
 
