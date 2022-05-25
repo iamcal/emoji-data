@@ -41525,8 +41525,7 @@
                 "has_img_twitter": true,
                 "has_img_facebook": true
             }
-        },
-        "obsoletes": "1F647"
+        }
     },
     {
         "name": "PERSON BOWING DEEPLY",
@@ -41614,8 +41613,7 @@
                 "has_img_twitter": true,
                 "has_img_facebook": true
             }
-        },
-        "obsoleted_by": "1F647-200D-2642-FE0F"
+        }
     },
     {
         "name": "SEE-NO-EVIL MONKEY",

@@ -1,6 +1,11 @@
 # Change Log
 
 
+## ????-??-?? : v14.0.1
+
+* Gender neutral `:bow:` is no longer obsoleted by gendered versions (thanks to @whrazer)
+
+
 ## 2022-03-15 : v14.0.0
 
 * Changed version numbering to match Unicode/Emoji version numbers
