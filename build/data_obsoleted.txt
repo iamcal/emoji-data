@@ -24,7 +24,6 @@
 1f481;1f481-200d-2640-fe0f # :woman-tipping-hand:
 1f645;1f645-200d-2640-fe0f # :woman-gesturing-no:
 1f646;1f646-200d-2640-fe0f # :woman-gesturing-ok:
-1f647;1f647-200d-2642-fe0f # :man-bowing:
 1f64b;1f64b-200d-2640-fe0f # :woman-raising-hand:
 1f64d;1f64d-200d-2640-fe0f # :woman-frowning:
 1f64e;1f64e-200d-2640-fe0f # :woman-pouting:
