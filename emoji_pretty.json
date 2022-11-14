@@ -27000,7 +27000,9 @@
         "short_name": "two_men_holding_hands",
         "short_names": [
             "two_men_holding_hands",
-            "men_holding_hands"
+            "men_holding_hands",
+            "man_and_man_holding_hands",
+            "couple"
         ],
         "text": null,
         "texts": null,
@@ -27329,7 +27331,9 @@
         "short_name": "two_women_holding_hands",
         "short_names": [
             "two_women_holding_hands",
-            "women_holding_hands"
+            "women_holding_hands",
+            "woman_and_woman_holding_hands",
+            "couple"
         ],
         "text": null,
         "texts": null,
