@@ -13076,7 +13076,7 @@
     {
         "name": "WOMAN RUNNING FACING RIGHT",
         "unified": "1F3C3-200D-2640-FE0F-200D-27A1-FE0F",
-        "non_qualified": null,
+        "non_qualified": "1F3C3-200D-2640-200D-27A1",
         "docomo": null,
         "au": null,
         "softbank": null,
@@ -13101,7 +13101,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F3C3-1F3FB-200D-2640-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F3C3-1F3FB-200D-2640-200D-27A1",
                 "image": "1f3c3-1f3fb-200d-2640-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 8,
                 "sheet_y": 15,
@@ -13113,7 +13113,7 @@
             },
             "1F3FC": {
                 "unified": "1F3C3-1F3FC-200D-2640-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F3C3-1F3FC-200D-2640-200D-27A1",
                 "image": "1f3c3-1f3fc-200d-2640-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 8,
                 "sheet_y": 16,
@@ -13125,7 +13125,7 @@
             },
             "1F3FD": {
                 "unified": "1F3C3-1F3FD-200D-2640-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F3C3-1F3FD-200D-2640-200D-27A1",
                 "image": "1f3c3-1f3fd-200d-2640-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 8,
                 "sheet_y": 17,
@@ -13137,7 +13137,7 @@
             },
             "1F3FE": {
                 "unified": "1F3C3-1F3FE-200D-2640-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F3C3-1F3FE-200D-2640-200D-27A1",
                 "image": "1f3c3-1f3fe-200d-2640-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 8,
                 "sheet_y": 18,
@@ -13149,7 +13149,7 @@
             },
             "1F3FF": {
                 "unified": "1F3C3-1F3FF-200D-2640-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F3C3-1F3FF-200D-2640-200D-27A1",
                 "image": "1f3c3-1f3ff-200d-2640-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 8,
                 "sheet_y": 19,
@@ -13253,7 +13253,7 @@
     {
         "name": "MAN RUNNING FACING RIGHT",
         "unified": "1F3C3-200D-2642-FE0F-200D-27A1-FE0F",
-        "non_qualified": null,
+        "non_qualified": "1F3C3-200D-2642-200D-27A1",
         "docomo": null,
         "au": null,
         "softbank": null,
@@ -13278,7 +13278,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F3C3-1F3FB-200D-2642-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F3C3-1F3FB-200D-2642-200D-27A1",
                 "image": "1f3c3-1f3fb-200d-2642-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 8,
                 "sheet_y": 27,
@@ -13290,7 +13290,7 @@
             },
             "1F3FC": {
                 "unified": "1F3C3-1F3FC-200D-2642-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F3C3-1F3FC-200D-2642-200D-27A1",
                 "image": "1f3c3-1f3fc-200d-2642-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 8,
                 "sheet_y": 28,
@@ -13302,7 +13302,7 @@
             },
             "1F3FD": {
                 "unified": "1F3C3-1F3FD-200D-2642-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F3C3-1F3FD-200D-2642-200D-27A1",
                 "image": "1f3c3-1f3fd-200d-2642-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 8,
                 "sheet_y": 29,
@@ -13314,7 +13314,7 @@
             },
             "1F3FE": {
                 "unified": "1F3C3-1F3FE-200D-2642-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F3C3-1F3FE-200D-2642-200D-27A1",
                 "image": "1f3c3-1f3fe-200d-2642-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 8,
                 "sheet_y": 30,
@@ -13326,7 +13326,7 @@
             },
             "1F3FF": {
                 "unified": "1F3C3-1F3FF-200D-2642-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F3C3-1F3FF-200D-2642-200D-27A1",
                 "image": "1f3c3-1f3ff-200d-2642-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 8,
                 "sheet_y": 31,
@@ -14243,7 +14243,7 @@
     {
         "name": "WOMAN LIFTING WEIGHTS",
         "unified": "1F3CB-FE0F-200D-2640-FE0F",
-        "non_qualified": null,
+        "non_qualified": "1F3CB-200D-2640",
         "docomo": null,
         "au": null,
         "softbank": null,
@@ -14331,7 +14331,7 @@
     {
         "name": "MAN LIFTING WEIGHTS",
         "unified": "1F3CB-FE0F-200D-2642-FE0F",
-        "non_qualified": null,
+        "non_qualified": "1F3CB-200D-2642",
         "docomo": null,
         "au": null,
         "softbank": null,
@@ -14509,7 +14509,7 @@
     {
         "name": "WOMAN GOLFING",
         "unified": "1F3CC-FE0F-200D-2640-FE0F",
-        "non_qualified": null,
+        "non_qualified": "1F3CC-200D-2640",
         "docomo": null,
         "au": null,
         "softbank": null,
@@ -14597,7 +14597,7 @@
     {
         "name": "MAN GOLFING",
         "unified": "1F3CC-FE0F-200D-2642-FE0F",
-        "non_qualified": null,
+        "non_qualified": "1F3CC-200D-2642",
         "docomo": null,
         "au": null,
         "softbank": null,
@@ -15738,7 +15738,7 @@
     {
         "name": "TRANSGENDER FLAG",
         "unified": "1F3F3-FE0F-200D-26A7-FE0F",
-        "non_qualified": null,
+        "non_qualified": "1F3F3-200D-26A7",
         "docomo": null,
         "au": null,
         "softbank": null,
@@ -18006,7 +18006,7 @@
     {
         "name": "EYE IN SPEECH BUBBLE",
         "unified": "1F441-FE0F-200D-1F5E8-FE0F",
-        "non_qualified": null,
+        "non_qualified": "1F441-200D-1F5E8",
         "docomo": null,
         "au": null,
         "softbank": null,
@@ -38255,7 +38255,7 @@
     {
         "name": "WOMAN DETECTIVE",
         "unified": "1F575-FE0F-200D-2640-FE0F",
-        "non_qualified": null,
+        "non_qualified": "1F575-200D-2640",
         "docomo": null,
         "au": null,
         "softbank": null,
@@ -38343,7 +38343,7 @@
     {
         "name": "MAN DETECTIVE",
         "unified": "1F575-FE0F-200D-2642-FE0F",
-        "non_qualified": null,
+        "non_qualified": "1F575-200D-2642",
         "docomo": null,
         "au": null,
         "softbank": null,
@@ -45831,7 +45831,7 @@
     {
         "name": "WOMAN WALKING FACING RIGHT",
         "unified": "1F6B6-200D-2640-FE0F-200D-27A1-FE0F",
-        "non_qualified": null,
+        "non_qualified": "1F6B6-200D-2640-200D-27A1",
         "docomo": null,
         "au": null,
         "softbank": null,
@@ -45856,7 +45856,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F6B6-1F3FB-200D-2640-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F6B6-1F3FB-200D-2640-200D-27A1",
                 "image": "1f6b6-1f3fb-200d-2640-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 37,
                 "sheet_y": 45,
@@ -45868,7 +45868,7 @@
             },
             "1F3FC": {
                 "unified": "1F6B6-1F3FC-200D-2640-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F6B6-1F3FC-200D-2640-200D-27A1",
                 "image": "1f6b6-1f3fc-200d-2640-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 37,
                 "sheet_y": 46,
@@ -45880,7 +45880,7 @@
             },
             "1F3FD": {
                 "unified": "1F6B6-1F3FD-200D-2640-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F6B6-1F3FD-200D-2640-200D-27A1",
                 "image": "1f6b6-1f3fd-200d-2640-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 37,
                 "sheet_y": 47,
@@ -45892,7 +45892,7 @@
             },
             "1F3FE": {
                 "unified": "1F6B6-1F3FE-200D-2640-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F6B6-1F3FE-200D-2640-200D-27A1",
                 "image": "1f6b6-1f3fe-200d-2640-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 37,
                 "sheet_y": 48,
@@ -45904,7 +45904,7 @@
             },
             "1F3FF": {
                 "unified": "1F6B6-1F3FF-200D-2640-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F6B6-1F3FF-200D-2640-200D-27A1",
                 "image": "1f6b6-1f3ff-200d-2640-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 37,
                 "sheet_y": 49,
@@ -46008,7 +46008,7 @@
     {
         "name": "MAN WALKING FACING RIGHT",
         "unified": "1F6B6-200D-2642-FE0F-200D-27A1-FE0F",
-        "non_qualified": null,
+        "non_qualified": "1F6B6-200D-2642-200D-27A1",
         "docomo": null,
         "au": null,
         "softbank": null,
@@ -46033,7 +46033,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F6B6-1F3FB-200D-2642-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F6B6-1F3FB-200D-2642-200D-27A1",
                 "image": "1f6b6-1f3fb-200d-2642-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 37,
                 "sheet_y": 57,
@@ -46045,7 +46045,7 @@
             },
             "1F3FC": {
                 "unified": "1F6B6-1F3FC-200D-2642-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F6B6-1F3FC-200D-2642-200D-27A1",
                 "image": "1f6b6-1f3fc-200d-2642-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 37,
                 "sheet_y": 58,
@@ -46057,7 +46057,7 @@
             },
             "1F3FD": {
                 "unified": "1F6B6-1F3FD-200D-2642-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F6B6-1F3FD-200D-2642-200D-27A1",
                 "image": "1f6b6-1f3fd-200d-2642-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 37,
                 "sheet_y": 59,
@@ -46069,7 +46069,7 @@
             },
             "1F3FE": {
                 "unified": "1F6B6-1F3FE-200D-2642-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F6B6-1F3FE-200D-2642-200D-27A1",
                 "image": "1f6b6-1f3fe-200d-2642-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 37,
                 "sheet_y": 60,
@@ -46081,7 +46081,7 @@
             },
             "1F3FF": {
                 "unified": "1F6B6-1F3FF-200D-2642-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F6B6-1F3FF-200D-2642-200D-27A1",
                 "image": "1f6b6-1f3ff-200d-2642-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 37,
                 "sheet_y": 61,
@@ -56934,7 +56934,7 @@
     {
         "name": "WOMAN KNEELING FACING RIGHT",
         "unified": "1F9CE-200D-2640-FE0F-200D-27A1-FE0F",
-        "non_qualified": null,
+        "non_qualified": "1F9CE-200D-2640-200D-27A1",
         "docomo": null,
         "au": null,
         "softbank": null,
@@ -56959,7 +56959,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F9CE-1F3FB-200D-2640-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F9CE-1F3FB-200D-2640-200D-27A1",
                 "image": "1f9ce-1f3fb-200d-2640-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 47,
                 "sheet_y": 14,
@@ -56971,7 +56971,7 @@
             },
             "1F3FC": {
                 "unified": "1F9CE-1F3FC-200D-2640-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F9CE-1F3FC-200D-2640-200D-27A1",
                 "image": "1f9ce-1f3fc-200d-2640-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 47,
                 "sheet_y": 15,
@@ -56983,7 +56983,7 @@
             },
             "1F3FD": {
                 "unified": "1F9CE-1F3FD-200D-2640-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F9CE-1F3FD-200D-2640-200D-27A1",
                 "image": "1f9ce-1f3fd-200d-2640-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 47,
                 "sheet_y": 16,
@@ -56995,7 +56995,7 @@
             },
             "1F3FE": {
                 "unified": "1F9CE-1F3FE-200D-2640-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F9CE-1F3FE-200D-2640-200D-27A1",
                 "image": "1f9ce-1f3fe-200d-2640-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 47,
                 "sheet_y": 17,
@@ -57007,7 +57007,7 @@
             },
             "1F3FF": {
                 "unified": "1F9CE-1F3FF-200D-2640-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F9CE-1F3FF-200D-2640-200D-27A1",
                 "image": "1f9ce-1f3ff-200d-2640-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 47,
                 "sheet_y": 18,
@@ -57110,7 +57110,7 @@
     {
         "name": "MAN KNEELING FACING RIGHT",
         "unified": "1F9CE-200D-2642-FE0F-200D-27A1-FE0F",
-        "non_qualified": null,
+        "non_qualified": "1F9CE-200D-2642-200D-27A1",
         "docomo": null,
         "au": null,
         "softbank": null,
@@ -57135,7 +57135,7 @@
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F9CE-1F3FB-200D-2642-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F9CE-1F3FB-200D-2642-200D-27A1",
                 "image": "1f9ce-1f3fb-200d-2642-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 47,
                 "sheet_y": 26,
@@ -57147,7 +57147,7 @@
             },
             "1F3FC": {
                 "unified": "1F9CE-1F3FC-200D-2642-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F9CE-1F3FC-200D-2642-200D-27A1",
                 "image": "1f9ce-1f3fc-200d-2642-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 47,
                 "sheet_y": 27,
@@ -57159,7 +57159,7 @@
             },
             "1F3FD": {
                 "unified": "1F9CE-1F3FD-200D-2642-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F9CE-1F3FD-200D-2642-200D-27A1",
                 "image": "1f9ce-1f3fd-200d-2642-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 47,
                 "sheet_y": 28,
@@ -57171,7 +57171,7 @@
             },
             "1F3FE": {
                 "unified": "1F9CE-1F3FE-200D-2642-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F9CE-1F3FE-200D-2642-200D-27A1",
                 "image": "1f9ce-1f3fe-200d-2642-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 47,
                 "sheet_y": 29,
@@ -57183,7 +57183,7 @@
             },
             "1F3FF": {
                 "unified": "1F9CE-1F3FF-200D-2642-FE0F-200D-27A1-FE0F",
-                "non_qualified": null,
+                "non_qualified": "1F9CE-1F3FF-200D-2642-200D-27A1",
                 "image": "1f9ce-1f3ff-200d-2642-fe0f-200d-27a1-fe0f.png",
                 "sheet_x": 47,
                 "sheet_y": 30,
@@ -71087,7 +71087,7 @@
     {
         "name": "WOMAN BOUNCING BALL",
         "unified": "26F9-FE0F-200D-2640-FE0F",
-        "non_qualified": null,
+        "non_qualified": "26F9-200D-2640",
         "docomo": null,
         "au": null,
         "softbank": null,
@@ -71175,7 +71175,7 @@
     {
         "name": "MAN BOUNCING BALL",
         "unified": "26F9-FE0F-200D-2642-FE0F",
-        "non_qualified": null,
+        "non_qualified": "26F9-200D-2642",
         "docomo": null,
         "au": null,
         "softbank": null,
