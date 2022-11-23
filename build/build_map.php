@@ -97,7 +97,9 @@
 			$p++;
 
 			$cp_nq = str_replace('-fe0f', '', $cp);
-			if ($cp != $cp_nq) $qualified_map[$cp_nq] = $cp;
+			if ($cp != $cp_nq && !isset($qualified_map[$cp_nq])){
+				$qualified_map[$cp_nq] = $cp;
+			}
 		}
 	}
 
