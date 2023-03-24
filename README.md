@@ -169,7 +169,7 @@ missing emoji (see the spritesheet section above for more details).
 * https://github.com/iamcal/js-emoji - JavaScript emoji library
 * https://github.com/iamcal/php-emoji - PHP emoji library
 * https://github.com/mroth/emoji-data-js - NodeJS emoji library
-* https://github.com/mroth/emoji_data.rb - Ruby emoji library
+* https://github.com/jpalumickas/emoji-datasource-ruby - Ruby emoji library
 * https://github.com/mroth/exmoji - Elixir/Erlang emoji library
 * https://github.com/needim/wdt-emoji-bundle - a Slack-style JavaScript emoji picker
 * https://github.com/mroth/emojistatic - emoji image CDN
