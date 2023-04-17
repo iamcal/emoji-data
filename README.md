@@ -7,7 +7,7 @@
 This project provides easy-to-parse data about emoji, along with a spritesheet-style 
 images for use on the web.
 
-The current version supports Emoji version 14.0 (Sept 2021)
+The current version supports Emoji version 15.0 (Sept 2022)
 
 You can see a catalog of the emoji data here: http://projects.iamcal.com/emoji-data/table.htm
 
