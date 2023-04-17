@@ -1,6 +1,33 @@
 <?php
-	$src = "noto-emoji/build/compressed_pngs";
+	$src = "noto-emoji/png/128";
+	$src_flags = "noto-emoji/build/resized_flags";
 	$dst = "../../img-google-136";
+
+	$flag_map = [
+		'us' => 'US',
+		'cn' => 'CN',
+		'de' => 'DE',
+		'es' => 'ES',
+		'fr' => 'FR',
+		'gb' => 'GB',
+		'it' => 'IT',
+		'jp' => 'JP',
+		'kr' => 'KR',
+		'ru' => 'RU',
+		'us' => 'US',
+		'flag-england'	=> 'GB-ENG',
+		'flag-wales'	=> 'GB-WLS',
+
+		// from noto-emoji/emoji_aliases.txt
+		'flag-bv' => 'NO',
+		'flag-cp' => 'FR',
+		'flag-dg' => 'IO',
+		'flag-ea' => 'ES',
+		'flag-hm' => 'AU',
+		'flag-mf' => 'FR',
+		'flag-sj' => 'NO',
+		'flag-um' => 'US',
+	];
 
 	# remove existing
 	shell_exec("rm -f $dst/*.png");
@@ -32,9 +59,11 @@
 		}
 	}
 
+	echo "\nAll done\n";
+
 	function try_fetch($row){
 
-		global $src, $dst, $aliases;
+		global $src, $src_flags, $dst, $aliases, $flag_map;
 
 		$out = $row['image'];
 
@@ -76,5 +105,33 @@
 			}
 		}
 
+
+		#
+		# flags come from elsewhere...
+		#
+
+		if (preg_match('!flag-(..)!', $row['short_name'], $m)){
+
+			$cc = StrToUpper($m[1]);
+
+			if (file_exists("{$src_flags}/{$cc}.png")){
+				copy("{$src_flags}/{$cc}.png", "$dst/$out");
+				echo ',';
+				return;
+			}
+		}
+
+		if (isset($flag_map[$row['short_name']])){
+			$cc = $flag_map[$row['short_name']];
+
+			if (file_exists("{$src_flags}/{$cc}.png")){
+				copy("{$src_flags}/{$cc}.png", "$dst/$out");
+				echo ':';
+				return;
+			}
+		}
+
+
 		echo 'X';
+		echo "({$row['short_name']})";
 	}
