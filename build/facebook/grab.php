@@ -2,7 +2,7 @@
 
 # ********** SETTINGS **********
 
-$fetch_incremental = false;
+$fetch_incremental = true;
 
 # ******************************
 
