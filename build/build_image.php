@@ -79,7 +79,7 @@
 		$image_map = array();
 		foreach ($catalog as $row){
 			$image_map[$row['unified']] = $row;
-			if (is_array($row['skin_variations'])){
+			if (is_array($row['skin_variations'] ?? null)){
 				foreach ($row['skin_variations'] as $row2){
 					$image_map[$row2['unified']] = $row2;
 				}
@@ -153,9 +153,11 @@
 
 		$res = proc_open($cmd, $fd_spec, $pipes, $cwd);
 
+		$code = proc_close($res);
+
 		unlink(__DIR__.'/../input.txt');
 
-		if (proc_close($res) > 0) {
+		if ($code > 0) {
 			echo "Something went wrong\n\n";
 			exit;
 			return;
@@ -180,7 +182,7 @@
 			if ($row["has_img_{$try_type}"]){
 				return "img-{$try_type}-64/{$row['image']}";
 			}
-			if ($row['obsoleted_by']){
+			if (isset($row['obsoleted_by'])){
 				$row2 = $map[$row['obsoleted_by']];
 				if ($row2["has_img_{$try_type}"]){
 
