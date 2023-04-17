@@ -197,6 +197,7 @@
 	load_short_names('data_emoji_names_v13.txt');
 	load_short_names('data_emoji_names_v13_1.txt');
 	load_short_names('data_emoji_names_v14.txt');
+	load_short_names('data_emoji_names_v15.txt');
 	echo "DONE\n";
 
 	function load_short_names($file){
