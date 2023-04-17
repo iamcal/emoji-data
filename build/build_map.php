@@ -327,11 +327,13 @@
 	$obsoletes = array();
 
 	foreach ($raw as $line){
-		list($line, $junk) = explode('#', $line);
-		list($key, $var) = explode(';', mb_strtoupper(trim($line)));
-		if (strlen($key)){
-			$obsoleted_by[$key] = $var;
-			$obsoletes[$var] = $key;
+		list($line) = explode('#', $line);
+		if (strpos($line, ';')){
+			list($key, $var) = explode(';', mb_strtoupper(trim($line)));
+			if (strlen($key)){
+				$obsoleted_by[$key] = $var;
+				$obsoletes[$var] = $key;
+			}
 		}
 	}
 
@@ -399,9 +401,9 @@
 
 		add_row($img_key, $shorts, array(
 			'name'		=> $name,
-			'docomo'	=> encode_points($row['docomo'  ]['unicode']),
-			'au'		=> encode_points($row['au'      ]['unicode']),
-			'google'	=> encode_points($row['google'  ]['unicode']),
+			'docomo'	=> encode_points($row['docomo'  ]['unicode'] ?? null),
+			'au'		=> encode_points($row['au'      ]['unicode'] ?? null),
+			'google'	=> encode_points($row['google'  ]['unicode'] ?? null),
 		));
 
 		$c++;
@@ -421,7 +423,7 @@
 	foreach ($short_names as $uid => $names){
 
 		$img_key = StrToLower($uid);
-		if ($out_unis[$img_key]) continue;
+		if (isset($out_unis[$img_key])) continue;
 
 		if (substr($names[0], 0, 5) == 'flag-'){
 
@@ -470,7 +472,7 @@
 
 			$hex_low = sprintf('%04x', $cp);
 
-			if ($out_unis[$hex_low]) continue;
+			if (isset($out_unis[$hex_low])) continue;
 
 			if ($cp == 0x0023) continue; # number sign
 			if ($cp == 0x002A) continue; # asterisk
@@ -518,13 +520,13 @@
 		if (count($cps) == 1) return;
 
 		# is this already on the output list?
-		if ($GLOBALS['out_unis'][$hex_low]) return;
+		if (isset($GLOBALS['out_unis'][$hex_low])) return;
 
 		# is this already on the output list for skin tone variations?
-		if ($GLOBALS['out_skins'][$hex_low]) return;
+		if (isset($GLOBALS['out_skins'][$hex_low])) return;
 
 		# is this an explicit variation we've already added to the output map?
-		if ($GLOBALS['variations_handled'][$hex_low]) return;
+		if (isset($GLOBALS['variations_handled'][$hex_low])) return;
 
 		echo "\nFound sequence not supported: $hex_low / {$comment}\n";
 	}
@@ -622,7 +624,7 @@
 	}
 
 	foreach ($obsoleted_by as $k => $v){
-		$idx = $cp_map[$k];
+		$idx = $cp_map[$k] ?? null;
 		if ($idx){
 			$out[$idx]['obsoleted_by'] = $v;
 		}else{
@@ -636,7 +638,7 @@
 	}
 
 	foreach ($obsoletes as $k => $v){
-		$idx = $cp_map[$k];
+		$idx = $cp_map[$k] ?? null;
 		if ($idx){
 			$out[$idx]['obsoletes'] = $v;
 		}else{
@@ -672,7 +674,7 @@
 
 			foreach ($row['short_names'] as $sn){
 
-				if ($uniq[$sn]){
+				if (isset($uniq[$sn])){
 					echo "\nDuplicate shortname :{$sn}: for {$uniq[$sn]} and $k\n";
 				}else{
 					$uniq[$sn] = $k;
@@ -715,7 +717,7 @@
 		}
 
 		if (!isset($props['name'])){
-			$props['name'] = $GLOBALS['names_map'][mb_strtoupper($img_key)];
+			$props['name'] = $GLOBALS['names_map'][mb_strtoupper($img_key)] ?? null;
 		}
 		if (!isset($props['unified'])){
 			$props['unified'] = mb_strtoupper($img_key);
@@ -740,7 +742,7 @@
 		$added = $GLOBALS['versions'][$img_key];
 
 		$nq = null;
-		if ($GLOBALS['rev_qualified_map'][$img_key]){
+		if (isset($GLOBALS['rev_qualified_map'][$img_key])){
 			$nq = mb_strtoupper($GLOBALS['rev_qualified_map'][$img_key]);
 			if (!$added){
 				$added = $GLOBALS['versions'][StrToLower($nq)];
@@ -748,11 +750,11 @@
 		}
 
 		$softbank = null;
-		if ($GLOBALS['softbank_map'][$img_key]){
+		if (isset($GLOBALS['softbank_map'][$img_key])){
 			$softbank = $GLOBALS['softbank_map'][$img_key];
 			unset($GLOBALS['softbank_map'][$img_key]);
 		}else{
-			if ($nq && $GLOBALS['softbank_map'][StrToLower($nq)]){
+			if ($nq && isset($GLOBALS['softbank_map'][StrToLower($nq)])){
 				$softbank = $GLOBALS['softbank_map'][StrToLower($nq)];
 				 unset($GLOBALS['softbank_map'][StrToLower($nq)]);
 			}
@@ -805,8 +807,8 @@
 			'sheet_y'	=> 0,
 			'short_name'	=> $short,
 			'short_names'	=> $shorts,
-			'text'		=> $GLOBALS['text'][$short],
-			'texts'		=> $GLOBALS['texts'][$short],
+			'text'		=> $GLOBALS['text'][$short] ?? null,
+			'texts'		=> $GLOBALS['texts'][$short] ?? null,
 			'category'	=> is_array($category) ? $category[0] : null,
 			'subcategory'	=> is_array($subcategory) ? $subcategory[0] : null,
 			'sort_order'	=> is_array($category) ? $category[1] : null,
@@ -823,10 +825,10 @@
 		$has_skin_vars = false;
 		$skin_vars_base = $img_key;
 
-		if ($GLOBALS['skin_variations'][$img_key]) $has_skin_vars = true;
+		if (isset($GLOBALS['skin_variations'][$img_key])) $has_skin_vars = true;
 		if (file_exists("../img-apple-64/{$img_key}-1f3fb.png")) $has_skin_vars = true;
 		if ($nq){
-			if ($GLOBALS['skin_variations'][StrTolower($nq)]){
+			if (isset($GLOBALS['skin_variations'][StrTolower($nq)])){
 				$has_skin_vars = true;
 				$skin_vars_base = StrTolower($nq);
 			}
@@ -843,7 +845,7 @@
 				$var_img	= $var_img_key.'.png';
 
 				$var_nq = null;
-				if ($GLOBALS['rev_qualified_map'][$var_img_key]){
+				if (isset($GLOBALS['rev_qualified_map'][$var_img_key])){
 					$var_nq = mb_strtoupper($GLOBALS['rev_qualified_map'][$var_img_key]);
 				}
 
