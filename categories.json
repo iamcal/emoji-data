@@ -57,7 +57,8 @@
             "face_with_rolling_eyes",
             "grimacing",
             "face_exhaling",
-            "lying_face"
+            "lying_face",
+            "shaking_face"
         ],
         "face-sleepy": [
             "relieved",
@@ -154,8 +155,7 @@
             "hear_no_evil",
             "speak_no_evil"
         ],
-        "emotion": [
-            "kiss",
+        "heart": [
             "love_letter",
             "cupid",
             "gift_heart",
@@ -170,14 +170,20 @@
             "heart_on_fire",
             "mending_heart",
             "heart",
+            "pink_heart",
             "orange_heart",
             "yellow_heart",
             "green_heart",
             "blue_heart",
+            "light_blue_heart",
             "purple_heart",
             "brown_heart",
             "black_heart",
-            "white_heart",
+            "grey_heart",
+            "white_heart"
+        ],
+        "emotion": [
+            "kiss",
             "100",
             "anger",
             "boom",
@@ -185,7 +191,6 @@
             "sweat_drops",
             "dash",
             "hole",
-            "bomb",
             "speech_balloon",
             "eye-in-speech-bubble",
             "left_speech_bubble",
@@ -204,7 +209,9 @@
             "rightwards_hand",
             "leftwards_hand",
             "palm_down_hand",
-            "palm_up_hand"
+            "palm_up_hand",
+            "leftwards_pushing_hand",
+            "rightwards_pushing_hand"
         ],
         "hand-fingers-partial": [
             "ok_hand",
@@ -621,6 +628,8 @@
             "tiger2",
             "leopard",
             "horse",
+            "moose",
+            "donkey",
             "racehorse",
             "unicorn_face",
             "zebra_face",
@@ -684,7 +693,10 @@
             "feather",
             "flamingo",
             "peacock",
-            "parrot"
+            "parrot",
+            "wing",
+            "black_bird",
+            "goose"
         ],
         "animal-amphibian": [
             "frog"
@@ -710,7 +722,8 @@
             "shark",
             "octopus",
             "shell",
-            "coral"
+            "coral",
+            "jellyfish"
         ],
         "animal-bug": [
             "snail",
@@ -741,7 +754,8 @@
             "hibiscus",
             "sunflower",
             "blossom",
-            "tulip"
+            "tulip",
+            "hyacinth"
         ],
         "plant-other": [
             "seedling",
@@ -758,7 +772,8 @@
             "fallen_leaf",
             "leaves",
             "empty_nest",
-            "nest_with_eggs"
+            "nest_with_eggs",
+            "mushroom"
         ]
     },
     "Food & Drink": {
@@ -796,10 +811,11 @@
             "broccoli",
             "garlic",
             "onion",
-            "mushroom",
             "peanuts",
             "beans",
-            "chestnut"
+            "chestnut",
+            "ginger_root",
+            "pea_pod"
         ],
         "food-prepared": [
             "bread",
@@ -1218,11 +1234,10 @@
             "dart",
             "yo-yo",
             "kite",
+            "gun",
             "8ball",
             "crystal_ball",
             "magic_wand",
-            "nazar_amulet",
-            "hamsa",
             "video_game",
             "joystick",
             "slot_machine",
@@ -1273,6 +1288,7 @@
             "shorts",
             "bikini",
             "womans_clothes",
+            "folding_hand_fan",
             "purse",
             "handbag",
             "pouch",
@@ -1287,6 +1303,7 @@
             "sandal",
             "ballet_shoes",
             "boot",
+            "hair_pick",
             "crown",
             "womans_hat",
             "tophat",
@@ -1330,7 +1347,9 @@
             "violin",
             "banjo",
             "drum_with_drumsticks",
-            "long_drum"
+            "long_drum",
+            "maracas",
+            "flute"
         ],
         "phone": [
             "iphone",
@@ -1470,7 +1489,7 @@
             "hammer_and_wrench",
             "dagger_knife",
             "crossed_swords",
-            "gun",
+            "bomb",
             "boomerang",
             "bow_and_arrow",
             "shield",
@@ -1539,6 +1558,8 @@
             "coffin",
             "headstone",
             "funeral_urn",
+            "nazar_amulet",
+            "hamsa",
             "moyai",
             "placard",
             "identification_card"
@@ -1610,7 +1631,8 @@
             "star_and_crescent",
             "peace_symbol",
             "menorah_with_nine_branches",
-            "six_pointed_star"
+            "six_pointed_star",
+            "khanda"
         ],
         "zodiac": [
             "aries",
@@ -1650,6 +1672,7 @@
             "low_brightness",
             "high_brightness",
             "signal_strength",
+            "wireless",
             "vibration_mode",
             "mobile_phone_off"
         ],
