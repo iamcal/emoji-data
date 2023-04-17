@@ -16925,7 +16925,7 @@
         "sort_order": 620,
         "added_in": "15.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
     },
@@ -22175,7 +22175,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FC": {
                 "unified": "1F468-1F3FB-200D-2764-FE0F-200D-1F468-1F3FC",
@@ -22187,7 +22187,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FD": {
                 "unified": "1F468-1F3FB-200D-2764-FE0F-200D-1F468-1F3FD",
@@ -22199,7 +22199,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FE": {
                 "unified": "1F468-1F3FB-200D-2764-FE0F-200D-1F468-1F3FE",
@@ -22211,7 +22211,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FF": {
                 "unified": "1F468-1F3FB-200D-2764-FE0F-200D-1F468-1F3FF",
@@ -22223,7 +22223,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FB": {
                 "unified": "1F468-1F3FC-200D-2764-FE0F-200D-1F468-1F3FB",
@@ -22235,7 +22235,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FC": {
                 "unified": "1F468-1F3FC-200D-2764-FE0F-200D-1F468-1F3FC",
@@ -22247,7 +22247,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FD": {
                 "unified": "1F468-1F3FC-200D-2764-FE0F-200D-1F468-1F3FD",
@@ -22259,7 +22259,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FE": {
                 "unified": "1F468-1F3FC-200D-2764-FE0F-200D-1F468-1F3FE",
@@ -22271,7 +22271,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FF": {
                 "unified": "1F468-1F3FC-200D-2764-FE0F-200D-1F468-1F3FF",
@@ -22283,7 +22283,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FB": {
                 "unified": "1F468-1F3FD-200D-2764-FE0F-200D-1F468-1F3FB",
@@ -22295,7 +22295,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FC": {
                 "unified": "1F468-1F3FD-200D-2764-FE0F-200D-1F468-1F3FC",
@@ -22307,7 +22307,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FD": {
                 "unified": "1F468-1F3FD-200D-2764-FE0F-200D-1F468-1F3FD",
@@ -22319,7 +22319,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FE": {
                 "unified": "1F468-1F3FD-200D-2764-FE0F-200D-1F468-1F3FE",
@@ -22331,7 +22331,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FF": {
                 "unified": "1F468-1F3FD-200D-2764-FE0F-200D-1F468-1F3FF",
@@ -22343,7 +22343,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FB": {
                 "unified": "1F468-1F3FE-200D-2764-FE0F-200D-1F468-1F3FB",
@@ -22355,7 +22355,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FC": {
                 "unified": "1F468-1F3FE-200D-2764-FE0F-200D-1F468-1F3FC",
@@ -22367,7 +22367,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FD": {
                 "unified": "1F468-1F3FE-200D-2764-FE0F-200D-1F468-1F3FD",
@@ -22379,7 +22379,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FE": {
                 "unified": "1F468-1F3FE-200D-2764-FE0F-200D-1F468-1F3FE",
@@ -22391,7 +22391,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FF": {
                 "unified": "1F468-1F3FE-200D-2764-FE0F-200D-1F468-1F3FF",
@@ -22403,7 +22403,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FB": {
                 "unified": "1F468-1F3FF-200D-2764-FE0F-200D-1F468-1F3FB",
@@ -22415,7 +22415,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FC": {
                 "unified": "1F468-1F3FF-200D-2764-FE0F-200D-1F468-1F3FC",
@@ -22427,7 +22427,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FD": {
                 "unified": "1F468-1F3FF-200D-2764-FE0F-200D-1F468-1F3FD",
@@ -22439,7 +22439,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FE": {
                 "unified": "1F468-1F3FF-200D-2764-FE0F-200D-1F468-1F3FE",
@@ -22451,7 +22451,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FF": {
                 "unified": "1F468-1F3FF-200D-2764-FE0F-200D-1F468-1F3FF",
@@ -22463,7 +22463,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             }
         }
     },
@@ -22503,7 +22503,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FC": {
                 "unified": "1F468-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC",
@@ -22515,7 +22515,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FD": {
                 "unified": "1F468-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD",
@@ -22527,7 +22527,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FE": {
                 "unified": "1F468-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE",
@@ -22539,7 +22539,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FF": {
                 "unified": "1F468-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF",
@@ -22551,7 +22551,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FB": {
                 "unified": "1F468-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB",
@@ -22563,7 +22563,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FC": {
                 "unified": "1F468-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC",
@@ -22575,7 +22575,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FD": {
                 "unified": "1F468-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD",
@@ -22587,7 +22587,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FE": {
                 "unified": "1F468-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE",
@@ -22599,7 +22599,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FF": {
                 "unified": "1F468-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF",
@@ -22611,7 +22611,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FB": {
                 "unified": "1F468-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB",
@@ -22623,7 +22623,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FC": {
                 "unified": "1F468-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC",
@@ -22635,7 +22635,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FD": {
                 "unified": "1F468-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD",
@@ -22647,7 +22647,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FE": {
                 "unified": "1F468-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE",
@@ -22659,7 +22659,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FF": {
                 "unified": "1F468-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF",
@@ -22671,7 +22671,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FB": {
                 "unified": "1F468-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB",
@@ -22683,7 +22683,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FC": {
                 "unified": "1F468-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC",
@@ -22695,7 +22695,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FD": {
                 "unified": "1F468-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD",
@@ -22707,7 +22707,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FE": {
                 "unified": "1F468-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE",
@@ -22719,7 +22719,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FF": {
                 "unified": "1F468-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF",
@@ -22731,7 +22731,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FB": {
                 "unified": "1F468-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB",
@@ -22743,7 +22743,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FC": {
                 "unified": "1F468-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC",
@@ -22755,7 +22755,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FD": {
                 "unified": "1F468-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD",
@@ -22767,7 +22767,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FE": {
                 "unified": "1F468-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE",
@@ -22779,7 +22779,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FF": {
                 "unified": "1F468-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF",
@@ -22791,7 +22791,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             }
         }
     },
@@ -25291,7 +25291,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FC": {
                 "unified": "1F469-1F3FB-200D-2764-FE0F-200D-1F468-1F3FC",
@@ -25303,7 +25303,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FD": {
                 "unified": "1F469-1F3FB-200D-2764-FE0F-200D-1F468-1F3FD",
@@ -25315,7 +25315,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FE": {
                 "unified": "1F469-1F3FB-200D-2764-FE0F-200D-1F468-1F3FE",
@@ -25327,7 +25327,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FF": {
                 "unified": "1F469-1F3FB-200D-2764-FE0F-200D-1F468-1F3FF",
@@ -25339,7 +25339,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FB": {
                 "unified": "1F469-1F3FC-200D-2764-FE0F-200D-1F468-1F3FB",
@@ -25351,7 +25351,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FC": {
                 "unified": "1F469-1F3FC-200D-2764-FE0F-200D-1F468-1F3FC",
@@ -25363,7 +25363,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FD": {
                 "unified": "1F469-1F3FC-200D-2764-FE0F-200D-1F468-1F3FD",
@@ -25375,7 +25375,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FE": {
                 "unified": "1F469-1F3FC-200D-2764-FE0F-200D-1F468-1F3FE",
@@ -25387,7 +25387,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FF": {
                 "unified": "1F469-1F3FC-200D-2764-FE0F-200D-1F468-1F3FF",
@@ -25399,7 +25399,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FB": {
                 "unified": "1F469-1F3FD-200D-2764-FE0F-200D-1F468-1F3FB",
@@ -25411,7 +25411,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FC": {
                 "unified": "1F469-1F3FD-200D-2764-FE0F-200D-1F468-1F3FC",
@@ -25423,7 +25423,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FD": {
                 "unified": "1F469-1F3FD-200D-2764-FE0F-200D-1F468-1F3FD",
@@ -25435,7 +25435,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FE": {
                 "unified": "1F469-1F3FD-200D-2764-FE0F-200D-1F468-1F3FE",
@@ -25447,7 +25447,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FF": {
                 "unified": "1F469-1F3FD-200D-2764-FE0F-200D-1F468-1F3FF",
@@ -25459,7 +25459,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FB": {
                 "unified": "1F469-1F3FE-200D-2764-FE0F-200D-1F468-1F3FB",
@@ -25471,7 +25471,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FC": {
                 "unified": "1F469-1F3FE-200D-2764-FE0F-200D-1F468-1F3FC",
@@ -25483,7 +25483,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FD": {
                 "unified": "1F469-1F3FE-200D-2764-FE0F-200D-1F468-1F3FD",
@@ -25495,7 +25495,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FE": {
                 "unified": "1F469-1F3FE-200D-2764-FE0F-200D-1F468-1F3FE",
@@ -25507,7 +25507,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FF": {
                 "unified": "1F469-1F3FE-200D-2764-FE0F-200D-1F468-1F3FF",
@@ -25519,7 +25519,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FB": {
                 "unified": "1F469-1F3FF-200D-2764-FE0F-200D-1F468-1F3FB",
@@ -25531,7 +25531,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FC": {
                 "unified": "1F469-1F3FF-200D-2764-FE0F-200D-1F468-1F3FC",
@@ -25543,7 +25543,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FD": {
                 "unified": "1F469-1F3FF-200D-2764-FE0F-200D-1F468-1F3FD",
@@ -25555,7 +25555,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FE": {
                 "unified": "1F469-1F3FF-200D-2764-FE0F-200D-1F468-1F3FE",
@@ -25567,7 +25567,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FF": {
                 "unified": "1F469-1F3FF-200D-2764-FE0F-200D-1F468-1F3FF",
@@ -25579,7 +25579,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             }
         }
     },
@@ -25619,7 +25619,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FC": {
                 "unified": "1F469-1F3FB-200D-2764-FE0F-200D-1F469-1F3FC",
@@ -25631,7 +25631,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FD": {
                 "unified": "1F469-1F3FB-200D-2764-FE0F-200D-1F469-1F3FD",
@@ -25643,7 +25643,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FE": {
                 "unified": "1F469-1F3FB-200D-2764-FE0F-200D-1F469-1F3FE",
@@ -25655,7 +25655,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FF": {
                 "unified": "1F469-1F3FB-200D-2764-FE0F-200D-1F469-1F3FF",
@@ -25667,7 +25667,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FB": {
                 "unified": "1F469-1F3FC-200D-2764-FE0F-200D-1F469-1F3FB",
@@ -25679,7 +25679,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FC": {
                 "unified": "1F469-1F3FC-200D-2764-FE0F-200D-1F469-1F3FC",
@@ -25691,7 +25691,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FD": {
                 "unified": "1F469-1F3FC-200D-2764-FE0F-200D-1F469-1F3FD",
@@ -25703,7 +25703,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FE": {
                 "unified": "1F469-1F3FC-200D-2764-FE0F-200D-1F469-1F3FE",
@@ -25715,7 +25715,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FF": {
                 "unified": "1F469-1F3FC-200D-2764-FE0F-200D-1F469-1F3FF",
@@ -25727,7 +25727,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FB": {
                 "unified": "1F469-1F3FD-200D-2764-FE0F-200D-1F469-1F3FB",
@@ -25739,7 +25739,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FC": {
                 "unified": "1F469-1F3FD-200D-2764-FE0F-200D-1F469-1F3FC",
@@ -25751,7 +25751,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FD": {
                 "unified": "1F469-1F3FD-200D-2764-FE0F-200D-1F469-1F3FD",
@@ -25763,7 +25763,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FE": {
                 "unified": "1F469-1F3FD-200D-2764-FE0F-200D-1F469-1F3FE",
@@ -25775,7 +25775,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FF": {
                 "unified": "1F469-1F3FD-200D-2764-FE0F-200D-1F469-1F3FF",
@@ -25787,7 +25787,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FB": {
                 "unified": "1F469-1F3FE-200D-2764-FE0F-200D-1F469-1F3FB",
@@ -25799,7 +25799,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FC": {
                 "unified": "1F469-1F3FE-200D-2764-FE0F-200D-1F469-1F3FC",
@@ -25811,7 +25811,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FD": {
                 "unified": "1F469-1F3FE-200D-2764-FE0F-200D-1F469-1F3FD",
@@ -25823,7 +25823,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FE": {
                 "unified": "1F469-1F3FE-200D-2764-FE0F-200D-1F469-1F3FE",
@@ -25835,7 +25835,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FF": {
                 "unified": "1F469-1F3FE-200D-2764-FE0F-200D-1F469-1F3FF",
@@ -25847,7 +25847,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FB": {
                 "unified": "1F469-1F3FF-200D-2764-FE0F-200D-1F469-1F3FB",
@@ -25859,7 +25859,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FC": {
                 "unified": "1F469-1F3FF-200D-2764-FE0F-200D-1F469-1F3FC",
@@ -25871,7 +25871,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FD": {
                 "unified": "1F469-1F3FF-200D-2764-FE0F-200D-1F469-1F3FD",
@@ -25883,7 +25883,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FE": {
                 "unified": "1F469-1F3FF-200D-2764-FE0F-200D-1F469-1F3FE",
@@ -25895,7 +25895,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FF": {
                 "unified": "1F469-1F3FF-200D-2764-FE0F-200D-1F469-1F3FF",
@@ -25907,7 +25907,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             }
         }
     },
@@ -25947,7 +25947,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FC": {
                 "unified": "1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC",
@@ -25959,7 +25959,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FD": {
                 "unified": "1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD",
@@ -25971,7 +25971,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FE": {
                 "unified": "1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE",
@@ -25983,7 +25983,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FF": {
                 "unified": "1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF",
@@ -25995,7 +25995,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FB": {
                 "unified": "1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB",
@@ -26007,7 +26007,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FC": {
                 "unified": "1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC",
@@ -26019,7 +26019,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FD": {
                 "unified": "1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD",
@@ -26031,7 +26031,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FE": {
                 "unified": "1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE",
@@ -26043,7 +26043,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FF": {
                 "unified": "1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF",
@@ -26055,7 +26055,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FB": {
                 "unified": "1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB",
@@ -26067,7 +26067,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FC": {
                 "unified": "1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC",
@@ -26079,7 +26079,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FD": {
                 "unified": "1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD",
@@ -26091,7 +26091,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FE": {
                 "unified": "1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE",
@@ -26103,7 +26103,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FF": {
                 "unified": "1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF",
@@ -26115,7 +26115,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FB": {
                 "unified": "1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB",
@@ -26127,7 +26127,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FC": {
                 "unified": "1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC",
@@ -26139,7 +26139,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FD": {
                 "unified": "1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD",
@@ -26151,7 +26151,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FE": {
                 "unified": "1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE",
@@ -26163,7 +26163,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FF": {
                 "unified": "1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF",
@@ -26175,7 +26175,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FB": {
                 "unified": "1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FB",
@@ -26187,7 +26187,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FC": {
                 "unified": "1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FC",
@@ -26199,7 +26199,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FD": {
                 "unified": "1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FD",
@@ -26211,7 +26211,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FE": {
                 "unified": "1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FE",
@@ -26223,7 +26223,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FF": {
                 "unified": "1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F468-1F3FF",
@@ -26235,7 +26235,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             }
         }
     },
@@ -26275,7 +26275,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FC": {
                 "unified": "1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FC",
@@ -26287,7 +26287,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FD": {
                 "unified": "1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FD",
@@ -26299,7 +26299,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FE": {
                 "unified": "1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FE",
@@ -26311,7 +26311,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FF": {
                 "unified": "1F469-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FF",
@@ -26323,7 +26323,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FB": {
                 "unified": "1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FB",
@@ -26335,7 +26335,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FC": {
                 "unified": "1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FC",
@@ -26347,7 +26347,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FD": {
                 "unified": "1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FD",
@@ -26359,7 +26359,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FE": {
                 "unified": "1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FE",
@@ -26371,7 +26371,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FF": {
                 "unified": "1F469-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FF",
@@ -26383,7 +26383,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FB": {
                 "unified": "1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FB",
@@ -26395,7 +26395,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FC": {
                 "unified": "1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FC",
@@ -26407,7 +26407,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FD": {
                 "unified": "1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FD",
@@ -26419,7 +26419,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FE": {
                 "unified": "1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FE",
@@ -26431,7 +26431,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FF": {
                 "unified": "1F469-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FF",
@@ -26443,7 +26443,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FB": {
                 "unified": "1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FB",
@@ -26455,7 +26455,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FC": {
                 "unified": "1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FC",
@@ -26467,7 +26467,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FD": {
                 "unified": "1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FD",
@@ -26479,7 +26479,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FE": {
                 "unified": "1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FE",
@@ -26491,7 +26491,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FF": {
                 "unified": "1F469-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FF",
@@ -26503,7 +26503,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FB": {
                 "unified": "1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FB",
@@ -26515,7 +26515,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FC": {
                 "unified": "1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FC",
@@ -26527,7 +26527,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FD": {
                 "unified": "1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FD",
@@ -26539,7 +26539,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FE": {
                 "unified": "1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FE",
@@ -26551,7 +26551,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FF": {
                 "unified": "1F469-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F469-1F3FF",
@@ -26563,7 +26563,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             }
         }
     },
@@ -27109,7 +27109,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FD": {
                 "unified": "1F468-1F3FB-200D-1F91D-200D-1F468-1F3FD",
@@ -27121,7 +27121,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FE": {
                 "unified": "1F468-1F3FB-200D-1F91D-200D-1F468-1F3FE",
@@ -27133,7 +27133,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FF": {
                 "unified": "1F468-1F3FB-200D-1F91D-200D-1F468-1F3FF",
@@ -27145,7 +27145,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FB": {
                 "unified": "1F468-1F3FC-200D-1F91D-200D-1F468-1F3FB",
@@ -27169,7 +27169,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FE": {
                 "unified": "1F468-1F3FC-200D-1F91D-200D-1F468-1F3FE",
@@ -27181,7 +27181,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FF": {
                 "unified": "1F468-1F3FC-200D-1F91D-200D-1F468-1F3FF",
@@ -27193,7 +27193,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FB": {
                 "unified": "1F468-1F3FD-200D-1F91D-200D-1F468-1F3FB",
@@ -27229,7 +27229,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FF": {
                 "unified": "1F468-1F3FD-200D-1F91D-200D-1F468-1F3FF",
@@ -27241,7 +27241,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FB": {
                 "unified": "1F468-1F3FE-200D-1F91D-200D-1F468-1F3FB",
@@ -27289,7 +27289,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FB": {
                 "unified": "1F468-1F3FF-200D-1F91D-200D-1F468-1F3FB",
@@ -27438,7 +27438,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FD": {
                 "unified": "1F469-1F3FB-200D-1F91D-200D-1F469-1F3FD",
@@ -27450,7 +27450,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FE": {
                 "unified": "1F469-1F3FB-200D-1F91D-200D-1F469-1F3FE",
@@ -27462,7 +27462,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FF": {
                 "unified": "1F469-1F3FB-200D-1F91D-200D-1F469-1F3FF",
@@ -27474,7 +27474,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FB": {
                 "unified": "1F469-1F3FC-200D-1F91D-200D-1F469-1F3FB",
@@ -27498,7 +27498,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FE": {
                 "unified": "1F469-1F3FC-200D-1F91D-200D-1F469-1F3FE",
@@ -27510,7 +27510,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FF": {
                 "unified": "1F469-1F3FC-200D-1F91D-200D-1F469-1F3FF",
@@ -27522,7 +27522,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FB": {
                 "unified": "1F469-1F3FD-200D-1F91D-200D-1F469-1F3FB",
@@ -27558,7 +27558,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FF": {
                 "unified": "1F469-1F3FD-200D-1F91D-200D-1F469-1F3FF",
@@ -27570,7 +27570,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FB": {
                 "unified": "1F469-1F3FE-200D-1F91D-200D-1F469-1F3FB",
@@ -27618,7 +27618,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FB": {
                 "unified": "1F469-1F3FF-200D-1F91D-200D-1F469-1F3FB",
@@ -31334,7 +31334,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FD": {
                 "unified": "1F9D1-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FD",
@@ -31346,7 +31346,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FE": {
                 "unified": "1F9D1-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FE",
@@ -31358,7 +31358,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FF": {
                 "unified": "1F9D1-1F3FB-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FF",
@@ -31370,7 +31370,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FB": {
                 "unified": "1F9D1-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FB",
@@ -31382,7 +31382,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FD": {
                 "unified": "1F9D1-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FD",
@@ -31394,7 +31394,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FE": {
                 "unified": "1F9D1-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FE",
@@ -31406,7 +31406,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FF": {
                 "unified": "1F9D1-1F3FC-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FF",
@@ -31418,7 +31418,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FB": {
                 "unified": "1F9D1-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FB",
@@ -31430,7 +31430,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FC": {
                 "unified": "1F9D1-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FC",
@@ -31442,7 +31442,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FE": {
                 "unified": "1F9D1-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FE",
@@ -31454,7 +31454,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FF": {
                 "unified": "1F9D1-1F3FD-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FF",
@@ -31466,7 +31466,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FB": {
                 "unified": "1F9D1-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FB",
@@ -31478,7 +31478,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FC": {
                 "unified": "1F9D1-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FC",
@@ -31490,7 +31490,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FD": {
                 "unified": "1F9D1-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FD",
@@ -31502,7 +31502,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FF": {
                 "unified": "1F9D1-1F3FE-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FF",
@@ -31514,7 +31514,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FB": {
                 "unified": "1F9D1-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FB",
@@ -31526,7 +31526,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FC": {
                 "unified": "1F9D1-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FC",
@@ -31538,7 +31538,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FD": {
                 "unified": "1F9D1-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FD",
@@ -31550,7 +31550,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FE": {
                 "unified": "1F9D1-1F3FF-200D-2764-FE0F-200D-1F48B-200D-1F9D1-1F3FE",
@@ -31562,7 +31562,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             }
         }
     },
@@ -31688,7 +31688,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FD": {
                 "unified": "1F9D1-1F3FB-200D-2764-FE0F-200D-1F9D1-1F3FD",
@@ -31700,7 +31700,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FE": {
                 "unified": "1F9D1-1F3FB-200D-2764-FE0F-200D-1F9D1-1F3FE",
@@ -31712,7 +31712,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FF": {
                 "unified": "1F9D1-1F3FB-200D-2764-FE0F-200D-1F9D1-1F3FF",
@@ -31724,7 +31724,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FB": {
                 "unified": "1F9D1-1F3FC-200D-2764-FE0F-200D-1F9D1-1F3FB",
@@ -31736,7 +31736,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FD": {
                 "unified": "1F9D1-1F3FC-200D-2764-FE0F-200D-1F9D1-1F3FD",
@@ -31748,7 +31748,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FE": {
                 "unified": "1F9D1-1F3FC-200D-2764-FE0F-200D-1F9D1-1F3FE",
@@ -31760,7 +31760,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FF": {
                 "unified": "1F9D1-1F3FC-200D-2764-FE0F-200D-1F9D1-1F3FF",
@@ -31772,7 +31772,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FB": {
                 "unified": "1F9D1-1F3FD-200D-2764-FE0F-200D-1F9D1-1F3FB",
@@ -31784,7 +31784,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FC": {
                 "unified": "1F9D1-1F3FD-200D-2764-FE0F-200D-1F9D1-1F3FC",
@@ -31796,7 +31796,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FE": {
                 "unified": "1F9D1-1F3FD-200D-2764-FE0F-200D-1F9D1-1F3FE",
@@ -31808,7 +31808,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FF": {
                 "unified": "1F9D1-1F3FD-200D-2764-FE0F-200D-1F9D1-1F3FF",
@@ -31820,7 +31820,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FB": {
                 "unified": "1F9D1-1F3FE-200D-2764-FE0F-200D-1F9D1-1F3FB",
@@ -31832,7 +31832,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FC": {
                 "unified": "1F9D1-1F3FE-200D-2764-FE0F-200D-1F9D1-1F3FC",
@@ -31844,7 +31844,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FD": {
                 "unified": "1F9D1-1F3FE-200D-2764-FE0F-200D-1F9D1-1F3FD",
@@ -31856,7 +31856,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FF": {
                 "unified": "1F9D1-1F3FE-200D-2764-FE0F-200D-1F9D1-1F3FF",
@@ -31868,7 +31868,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FB": {
                 "unified": "1F9D1-1F3FF-200D-2764-FE0F-200D-1F9D1-1F3FB",
@@ -31880,7 +31880,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FC": {
                 "unified": "1F9D1-1F3FF-200D-2764-FE0F-200D-1F9D1-1F3FC",
@@ -31892,7 +31892,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FD": {
                 "unified": "1F9D1-1F3FF-200D-2764-FE0F-200D-1F9D1-1F3FD",
@@ -31904,7 +31904,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FE": {
                 "unified": "1F9D1-1F3FF-200D-2764-FE0F-200D-1F9D1-1F3FE",
@@ -31916,7 +31916,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             }
         }
     },
@@ -40184,7 +40184,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "FACE WITH OPEN MOUTH",
@@ -40397,7 +40397,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "DIZZY FACE",
@@ -40449,7 +40449,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "FACE WITHOUT MOUTH",
@@ -45906,7 +45906,7 @@
         "sort_order": 1479,
         "added_in": "15.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
     },
@@ -45934,7 +45934,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "WHEEL",
@@ -45960,7 +45960,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "RING BUOY",
@@ -45986,7 +45986,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "HAMMER AND WRENCH",
@@ -46844,7 +46844,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "PINCHED FINGERS",
@@ -47819,7 +47819,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FD": {
                 "unified": "1FAF1-1F3FB-200D-1FAF2-1F3FD",
@@ -47831,7 +47831,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FE": {
                 "unified": "1FAF1-1F3FB-200D-1FAF2-1F3FE",
@@ -47843,7 +47843,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FF": {
                 "unified": "1FAF1-1F3FB-200D-1FAF2-1F3FF",
@@ -47855,7 +47855,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FB": {
                 "unified": "1FAF1-1F3FC-200D-1FAF2-1F3FB",
@@ -47867,7 +47867,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FD": {
                 "unified": "1FAF1-1F3FC-200D-1FAF2-1F3FD",
@@ -47879,7 +47879,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FE": {
                 "unified": "1FAF1-1F3FC-200D-1FAF2-1F3FE",
@@ -47891,7 +47891,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FF": {
                 "unified": "1FAF1-1F3FC-200D-1FAF2-1F3FF",
@@ -47903,7 +47903,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FB": {
                 "unified": "1FAF1-1F3FD-200D-1FAF2-1F3FB",
@@ -47915,7 +47915,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FC": {
                 "unified": "1FAF1-1F3FD-200D-1FAF2-1F3FC",
@@ -47927,7 +47927,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FE": {
                 "unified": "1FAF1-1F3FD-200D-1FAF2-1F3FE",
@@ -47939,7 +47939,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FF": {
                 "unified": "1FAF1-1F3FD-200D-1FAF2-1F3FF",
@@ -47951,7 +47951,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FB": {
                 "unified": "1FAF1-1F3FE-200D-1FAF2-1F3FB",
@@ -47963,7 +47963,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FC": {
                 "unified": "1FAF1-1F3FE-200D-1FAF2-1F3FC",
@@ -47975,7 +47975,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FD": {
                 "unified": "1FAF1-1F3FE-200D-1FAF2-1F3FD",
@@ -47987,7 +47987,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FF": {
                 "unified": "1FAF1-1F3FE-200D-1FAF2-1F3FF",
@@ -47999,7 +47999,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FB": {
                 "unified": "1FAF1-1F3FF-200D-1FAF2-1F3FB",
@@ -48011,7 +48011,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FC": {
                 "unified": "1FAF1-1F3FF-200D-1FAF2-1F3FC",
@@ -48023,7 +48023,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FD": {
                 "unified": "1FAF1-1F3FF-200D-1FAF2-1F3FD",
@@ -48035,7 +48035,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FE": {
                 "unified": "1FAF1-1F3FF-200D-1FAF2-1F3FE",
@@ -48047,7 +48047,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             }
         }
     },
@@ -52675,7 +52675,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "FACE WITH PLEADING EYES",
@@ -55391,7 +55391,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "WOMAN STANDING",
@@ -57579,7 +57579,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FD": {
                 "unified": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FD",
@@ -57591,7 +57591,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FE": {
                 "unified": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FE",
@@ -57603,7 +57603,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FB-1F3FF": {
                 "unified": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FF",
@@ -57615,7 +57615,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FB": {
                 "unified": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FB",
@@ -57651,7 +57651,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FE": {
                 "unified": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FE",
@@ -57663,7 +57663,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC-1F3FF": {
                 "unified": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FF",
@@ -57675,7 +57675,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FB": {
                 "unified": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FB",
@@ -57723,7 +57723,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD-1F3FF": {
                 "unified": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FF",
@@ -57735,7 +57735,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE-1F3FB": {
                 "unified": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FB",
@@ -57795,7 +57795,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF-1F3FB": {
                 "unified": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FB",
@@ -58147,7 +58147,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F9D1-1F3FB-200D-1F9B2",
@@ -58159,7 +58159,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC": {
                 "unified": "1F9D1-1F3FC-200D-1F9B2",
@@ -58171,7 +58171,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD": {
                 "unified": "1F9D1-1F3FD-200D-1F9B2",
@@ -58183,7 +58183,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE": {
                 "unified": "1F9D1-1F3FE-200D-1F9B2",
@@ -58195,7 +58195,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF": {
                 "unified": "1F9D1-1F3FF-200D-1F9B2",
@@ -58207,7 +58207,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             }
         }
     },
@@ -58235,7 +58235,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F9D1-1F3FB-200D-1F9B3",
@@ -58247,7 +58247,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC": {
                 "unified": "1F9D1-1F3FC-200D-1F9B3",
@@ -58259,7 +58259,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD": {
                 "unified": "1F9D1-1F3FD-200D-1F9B3",
@@ -58271,7 +58271,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE": {
                 "unified": "1F9D1-1F3FE-200D-1F9B3",
@@ -58283,7 +58283,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF": {
                 "unified": "1F9D1-1F3FF-200D-1F9B3",
@@ -58295,7 +58295,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             }
         }
     },
@@ -59027,7 +59027,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F9D4-1F3FB-200D-2640-FE0F",
@@ -59039,7 +59039,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC": {
                 "unified": "1F9D4-1F3FC-200D-2640-FE0F",
@@ -59051,7 +59051,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD": {
                 "unified": "1F9D4-1F3FD-200D-2640-FE0F",
@@ -59063,7 +59063,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE": {
                 "unified": "1F9D4-1F3FE-200D-2640-FE0F",
@@ -59075,7 +59075,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF": {
                 "unified": "1F9D4-1F3FF-200D-2640-FE0F",
@@ -59087,7 +59087,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             }
         }
     },
@@ -59115,7 +59115,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F9D4-1F3FB-200D-2642-FE0F",
@@ -59127,7 +59127,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC": {
                 "unified": "1F9D4-1F3FC-200D-2642-FE0F",
@@ -59139,7 +59139,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD": {
                 "unified": "1F9D4-1F3FD-200D-2642-FE0F",
@@ -59151,7 +59151,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE": {
                 "unified": "1F9D4-1F3FE-200D-2642-FE0F",
@@ -59163,7 +59163,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF": {
                 "unified": "1F9D4-1F3FF-200D-2642-FE0F",
@@ -59175,7 +59175,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             }
         }
     },
@@ -62707,7 +62707,7 @@
         "sort_order": 147,
         "added_in": "15.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
     },
@@ -62733,7 +62733,7 @@
         "sort_order": 151,
         "added_in": "15.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
     },
@@ -62759,7 +62759,7 @@
         "sort_order": 142,
         "added_in": "15.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
     },
@@ -62865,7 +62865,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "CRUTCH",
@@ -62891,7 +62891,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "YO-YO",
@@ -63097,7 +63097,7 @@
         "sort_order": 1197,
         "added_in": "15.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
     },
@@ -63123,7 +63123,7 @@
         "sort_order": 1198,
         "added_in": "15.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
     },
@@ -63801,7 +63801,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "IDENTIFICATION CARD",
@@ -63827,7 +63827,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "LOW BATTERY",
@@ -63853,7 +63853,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "HAMSA",
@@ -63879,7 +63879,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "FOLDING HAND FAN",
@@ -63903,7 +63903,7 @@
         "sort_order": 1143,
         "added_in": "15.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
     },
@@ -63929,7 +63929,7 @@
         "sort_order": 1158,
         "added_in": "15.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
     },
@@ -63955,7 +63955,7 @@
         "sort_order": 1443,
         "added_in": "15.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
     },
@@ -64165,7 +64165,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "CORAL",
@@ -64191,7 +64191,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "EMPTY NEST",
@@ -64217,7 +64217,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "NEST WITH EGGS",
@@ -64243,7 +64243,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "HYACINTH",
@@ -64267,7 +64267,7 @@
         "sort_order": 670,
         "added_in": "15.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
     },
@@ -64293,7 +64293,7 @@
         "sort_order": 642,
         "added_in": "15.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
     },
@@ -64319,7 +64319,7 @@
         "sort_order": 619,
         "added_in": "15.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
     },
@@ -64345,7 +64345,7 @@
         "sort_order": 621,
         "added_in": "15.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
     },
@@ -64451,7 +64451,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "skin_variations": {
             "1F3FB": {
                 "unified": "1FAC3-1F3FB",
@@ -64463,7 +64463,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC": {
                 "unified": "1FAC3-1F3FC",
@@ -64475,7 +64475,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD": {
                 "unified": "1FAC3-1F3FD",
@@ -64487,7 +64487,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE": {
                 "unified": "1FAC3-1F3FE",
@@ -64499,7 +64499,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF": {
                 "unified": "1FAC3-1F3FF",
@@ -64511,7 +64511,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             }
         }
     },
@@ -64539,7 +64539,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "skin_variations": {
             "1F3FB": {
                 "unified": "1FAC4-1F3FB",
@@ -64551,7 +64551,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC": {
                 "unified": "1FAC4-1F3FC",
@@ -64563,7 +64563,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD": {
                 "unified": "1FAC4-1F3FD",
@@ -64575,7 +64575,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE": {
                 "unified": "1FAC4-1F3FE",
@@ -64587,7 +64587,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF": {
                 "unified": "1FAC4-1F3FF",
@@ -64599,7 +64599,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             }
         }
     },
@@ -64627,7 +64627,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "skin_variations": {
             "1F3FB": {
                 "unified": "1FAC5-1F3FB",
@@ -64639,7 +64639,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC": {
                 "unified": "1FAC5-1F3FC",
@@ -64651,7 +64651,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD": {
                 "unified": "1FAC5-1F3FD",
@@ -64663,7 +64663,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE": {
                 "unified": "1FAC5-1F3FE",
@@ -64675,7 +64675,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF": {
                 "unified": "1FAC5-1F3FF",
@@ -64687,7 +64687,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             }
         }
     },
@@ -64713,7 +64713,7 @@
         "sort_order": 555,
         "added_in": "15.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
     },
@@ -64739,7 +64739,7 @@
         "sort_order": 556,
         "added_in": "15.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
     },
@@ -64949,7 +64949,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "BEANS",
@@ -64975,7 +64975,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "JAR",
@@ -65001,7 +65001,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "GINGER ROOT",
@@ -65025,7 +65025,7 @@
         "sort_order": 721,
         "added_in": "15.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
     },
@@ -65051,7 +65051,7 @@
         "sort_order": 722,
         "added_in": "15.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
     },
@@ -65079,7 +65079,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "SALUTING FACE",
@@ -65105,7 +65105,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "FACE WITH OPEN EYES AND HAND OVER MOUTH",
@@ -65131,7 +65131,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "FACE WITH PEEKING EYE",
@@ -65157,7 +65157,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "FACE WITH DIAGONAL MOUTH",
@@ -65183,7 +65183,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "DOTTED LINE FACE",
@@ -65209,7 +65209,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "BITING LIP",
@@ -65235,7 +65235,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "BUBBLES",
@@ -65261,7 +65261,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "SHAKING FACE",
@@ -65285,7 +65285,7 @@
         "sort_order": 50,
         "added_in": "15.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
     },
@@ -65313,7 +65313,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "skin_variations": {
             "1F3FB": {
                 "unified": "1FAF0-1F3FB",
@@ -65325,7 +65325,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC": {
                 "unified": "1FAF0-1F3FC",
@@ -65337,7 +65337,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD": {
                 "unified": "1FAF0-1F3FD",
@@ -65349,7 +65349,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE": {
                 "unified": "1FAF0-1F3FE",
@@ -65361,7 +65361,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF": {
                 "unified": "1FAF0-1F3FF",
@@ -65373,7 +65373,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             }
         }
     },
@@ -65401,7 +65401,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "skin_variations": {
             "1F3FB": {
                 "unified": "1FAF1-1F3FB",
@@ -65413,7 +65413,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC": {
                 "unified": "1FAF1-1F3FC",
@@ -65425,7 +65425,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD": {
                 "unified": "1FAF1-1F3FD",
@@ -65437,7 +65437,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE": {
                 "unified": "1FAF1-1F3FE",
@@ -65449,7 +65449,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF": {
                 "unified": "1FAF1-1F3FF",
@@ -65461,7 +65461,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             }
         }
     },
@@ -65489,7 +65489,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "skin_variations": {
             "1F3FB": {
                 "unified": "1FAF2-1F3FB",
@@ -65501,7 +65501,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC": {
                 "unified": "1FAF2-1F3FC",
@@ -65513,7 +65513,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD": {
                 "unified": "1FAF2-1F3FD",
@@ -65525,7 +65525,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE": {
                 "unified": "1FAF2-1F3FE",
@@ -65537,7 +65537,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF": {
                 "unified": "1FAF2-1F3FF",
@@ -65549,7 +65549,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             }
         }
     },
@@ -65577,7 +65577,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "skin_variations": {
             "1F3FB": {
                 "unified": "1FAF3-1F3FB",
@@ -65589,7 +65589,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC": {
                 "unified": "1FAF3-1F3FC",
@@ -65601,7 +65601,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD": {
                 "unified": "1FAF3-1F3FD",
@@ -65613,7 +65613,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE": {
                 "unified": "1FAF3-1F3FE",
@@ -65625,7 +65625,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF": {
                 "unified": "1FAF3-1F3FF",
@@ -65637,7 +65637,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             }
         }
     },
@@ -65665,7 +65665,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "skin_variations": {
             "1F3FB": {
                 "unified": "1FAF4-1F3FB",
@@ -65677,7 +65677,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC": {
                 "unified": "1FAF4-1F3FC",
@@ -65689,7 +65689,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD": {
                 "unified": "1FAF4-1F3FD",
@@ -65701,7 +65701,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE": {
                 "unified": "1FAF4-1F3FE",
@@ -65713,7 +65713,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF": {
                 "unified": "1FAF4-1F3FF",
@@ -65725,7 +65725,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             }
         }
     },
@@ -65753,7 +65753,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "skin_variations": {
             "1F3FB": {
                 "unified": "1FAF5-1F3FB",
@@ -65765,7 +65765,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC": {
                 "unified": "1FAF5-1F3FC",
@@ -65777,7 +65777,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD": {
                 "unified": "1FAF5-1F3FD",
@@ -65789,7 +65789,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE": {
                 "unified": "1FAF5-1F3FE",
@@ -65801,7 +65801,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF": {
                 "unified": "1FAF5-1F3FF",
@@ -65813,7 +65813,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             }
         }
     },
@@ -65841,7 +65841,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "skin_variations": {
             "1F3FB": {
                 "unified": "1FAF6-1F3FB",
@@ -65853,7 +65853,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FC": {
                 "unified": "1FAF6-1F3FC",
@@ -65865,7 +65865,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD": {
                 "unified": "1FAF6-1F3FD",
@@ -65877,7 +65877,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE": {
                 "unified": "1FAF6-1F3FE",
@@ -65889,7 +65889,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF": {
                 "unified": "1FAF6-1F3FF",
@@ -65901,7 +65901,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             }
         }
     },
@@ -65927,7 +65927,7 @@
         "sort_order": 176,
         "added_in": "15.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "skin_variations": {
@@ -65939,7 +65939,7 @@
                 "sheet_y": 21,
                 "added_in": "15.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false
             },
@@ -65951,7 +65951,7 @@
                 "sheet_y": 22,
                 "added_in": "15.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false
             },
@@ -65963,7 +65963,7 @@
                 "sheet_y": 23,
                 "added_in": "15.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false
             },
@@ -65975,7 +65975,7 @@
                 "sheet_y": 24,
                 "added_in": "15.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false
             },
@@ -65987,7 +65987,7 @@
                 "sheet_y": 25,
                 "added_in": "15.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false
             }
@@ -66015,7 +66015,7 @@
         "sort_order": 177,
         "added_in": "15.0",
         "has_img_apple": false,
-        "has_img_google": false,
+        "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
         "skin_variations": {
@@ -66027,7 +66027,7 @@
                 "sheet_y": 27,
                 "added_in": "15.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false
             },
@@ -66039,7 +66039,7 @@
                 "sheet_y": 28,
                 "added_in": "15.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false
             },
@@ -66051,7 +66051,7 @@
                 "sheet_y": 29,
                 "added_in": "15.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false
             },
@@ -66063,7 +66063,7 @@
                 "sheet_y": 30,
                 "added_in": "15.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false
             },
@@ -66075,7 +66075,7 @@
                 "sheet_y": 31,
                 "added_in": "15.0",
                 "has_img_apple": false,
-                "has_img_google": false,
+                "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false
             }
@@ -70509,7 +70509,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "MENDING HEART",
@@ -70535,7 +70535,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "HEAVY BLACK HEART",
