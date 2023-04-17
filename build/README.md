@@ -43,7 +43,7 @@ directories under `build/`.
 * Run `build_map.php` and check for missing names. Errors look like this:
     `Found sequence not supported: 1f935-1f3fb-200d-2642-fe0f / E13.0  [1]`
 * Run `build_map.php` to generate a new catalog
-* Update images for all images set (see READMEs in theri sub-dirs)
+* Update images for all images set (see READMEs in their sub-dirs)
 * Re-run `build_map.php` and then follow the rest of the build steps
 
 
