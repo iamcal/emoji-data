@@ -1,8 +1,12 @@
 # Change Log
 
 
-## ????-??-?? : v14.0.1
+## 2023-??-?? : v15.0.0
 
+* Update to Emoji 15.0
+* Updated Android images to ???
+* Updated Apple images for macOS ???
+* Updated Twemoji to ???
 * Gender neutral `:bow:` is no longer obsoleted by gendered versions (thanks to @whrazer)
 
 
