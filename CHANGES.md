@@ -5,8 +5,7 @@
 
 * Update to Emoji 15.0
 * Updated Android images to v2.038
-* Updated Apple images for macOS ???
-* Updated Twemoji to ???
+* Updated Apple images for macOS 13.3.1
 * Updated Facebook images to v9 / Unicode 14.0
 * Gender neutral `:bow:` is no longer obsoleted by gendered versions (thanks to @whrazer)
 
