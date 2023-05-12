@@ -16924,7 +16924,7 @@
         "subcategory": "animal-bird",
         "sort_order": 620,
         "added_in": "15.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
@@ -45905,7 +45905,7 @@
         "subcategory": "av-symbol",
         "sort_order": 1479,
         "added_in": "15.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
@@ -62706,7 +62706,7 @@
         "subcategory": "heart",
         "sort_order": 147,
         "added_in": "15.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
@@ -62732,7 +62732,7 @@
         "subcategory": "heart",
         "sort_order": 151,
         "added_in": "15.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
@@ -62758,7 +62758,7 @@
         "subcategory": "heart",
         "sort_order": 142,
         "added_in": "15.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
@@ -63096,7 +63096,7 @@
         "subcategory": "musical-instrument",
         "sort_order": 1197,
         "added_in": "15.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
@@ -63122,7 +63122,7 @@
         "subcategory": "musical-instrument",
         "sort_order": 1198,
         "added_in": "15.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
@@ -63902,7 +63902,7 @@
         "subcategory": "clothing",
         "sort_order": 1143,
         "added_in": "15.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
@@ -63928,7 +63928,7 @@
         "subcategory": "clothing",
         "sort_order": 1158,
         "added_in": "15.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
@@ -63954,7 +63954,7 @@
         "subcategory": "religion",
         "sort_order": 1443,
         "added_in": "15.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
@@ -64266,7 +64266,7 @@
         "subcategory": "plant-flower",
         "sort_order": 670,
         "added_in": "15.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
@@ -64292,7 +64292,7 @@
         "subcategory": "animal-marine",
         "sort_order": 642,
         "added_in": "15.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
@@ -64318,7 +64318,7 @@
         "subcategory": "animal-bird",
         "sort_order": 619,
         "added_in": "15.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
@@ -64344,7 +64344,7 @@
         "subcategory": "animal-bird",
         "sort_order": 621,
         "added_in": "15.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
@@ -64712,7 +64712,7 @@
         "subcategory": "animal-mammal",
         "sort_order": 555,
         "added_in": "15.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
@@ -64738,7 +64738,7 @@
         "subcategory": "animal-mammal",
         "sort_order": 556,
         "added_in": "15.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
@@ -65024,7 +65024,7 @@
         "subcategory": "food-vegetable",
         "sort_order": 721,
         "added_in": "15.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
@@ -65050,7 +65050,7 @@
         "subcategory": "food-vegetable",
         "sort_order": 722,
         "added_in": "15.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
@@ -65284,7 +65284,7 @@
         "subcategory": "face-neutral-skeptical",
         "sort_order": 50,
         "added_in": "15.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
@@ -65926,7 +65926,7 @@
         "subcategory": "hand-fingers-open",
         "sort_order": 176,
         "added_in": "15.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
@@ -65938,7 +65938,7 @@
                 "sheet_x": 56,
                 "sheet_y": 21,
                 "added_in": "15.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false
@@ -65950,7 +65950,7 @@
                 "sheet_x": 56,
                 "sheet_y": 22,
                 "added_in": "15.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false
@@ -65962,7 +65962,7 @@
                 "sheet_x": 56,
                 "sheet_y": 23,
                 "added_in": "15.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false
@@ -65974,7 +65974,7 @@
                 "sheet_x": 56,
                 "sheet_y": 24,
                 "added_in": "15.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false
@@ -65986,7 +65986,7 @@
                 "sheet_x": 56,
                 "sheet_y": 25,
                 "added_in": "15.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false
@@ -66014,7 +66014,7 @@
         "subcategory": "hand-fingers-open",
         "sort_order": 177,
         "added_in": "15.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false,
@@ -66026,7 +66026,7 @@
                 "sheet_x": 56,
                 "sheet_y": 27,
                 "added_in": "15.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false
@@ -66038,7 +66038,7 @@
                 "sheet_x": 56,
                 "sheet_y": 28,
                 "added_in": "15.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false
@@ -66050,7 +66050,7 @@
                 "sheet_x": 56,
                 "sheet_y": 29,
                 "added_in": "15.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false
@@ -66062,7 +66062,7 @@
                 "sheet_x": 56,
                 "sheet_y": 30,
                 "added_in": "15.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false
@@ -66074,7 +66074,7 @@
                 "sheet_x": 56,
                 "sheet_y": 31,
                 "added_in": "15.0",
-                "has_img_apple": false,
+                "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": false,
                 "has_img_facebook": false
