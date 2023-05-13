@@ -1,7 +1,7 @@
 # Change Log
 
 
-## 2023-??-?? : v15.0.0
+## 2023-05-12 : v15.0.0
 
 * Update to Emoji 15.0
 * Updated Android images to v2.038
