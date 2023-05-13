@@ -24,11 +24,11 @@ You can rebuild by following these steps:
 	php build_image.php
 
 	# create quantized sheets and optimize them all
-	./quant_sheets.sh (~2 mins)
+	time ./quant_sheets.sh (~1 min)
 
-	parallel ./optimize.sh ::: ../sheet_*.png (~11 mins)
-	parallel ./optimize.sh ::: ../sheets-*/*.png (~12 mins)
-	parallel ./optimize.sh ::: ../img-*-64/* (~88 mins)
+	time parallel ./optimize.sh ::: ../sheet_*.png (~19 mins)
+	time parallel ./optimize.sh ::: ../sheets-*/*.png (~25 mins)
+	time parallel ./optimize.sh ::: ../img-*-64/* (~95 mins)
 
 
 To find out how to extract the original source glyphs, look inside the sub
@@ -59,38 +59,10 @@ directories under `build/`.
 7. Update downstream libraries
 
 
-## Install the optimization tools
-
-You can install the very latest versions of the optimization tools manually:
-
-    wget https://download.sourceforge.net/libpng/libpng-1.6.37.tar.gz
-    tar xzf libpng-1.6.37.tar.gz
-    cd libpng-1.6.37/
-    ./configure
-    make --prefix=/usr
-    sudo make install
-    cd ../
-    rm -rf libpng-1.6.37
-
-    git clone git://github.com/pornel/pngquant.git
-    cd pngquant/
-    ./configure
-    make
-    sudo make install
-    cd ..
-    rm -rf pngquant
-
-    git clone https://github.com/google/zopfli.git
-    cd zopfli
-    make zopflipng
-    sudo cp zopflipng /usr/local/bin
-    cd ..
-    rm -rf zopfli
-
 ## Setting up a fresh VM to process the images
 
 Since it requires some time and a lot of CPU & memory, I usually spin up a temporary EC2 instance for image optimization.
-As of Ubuntu 20.04, you can install recent versions of all dependencies via apt:
+As of Ubuntu 22.04, you can install recent versions of all dependencies via apt:
 
     sudo apt-get update
     sudo apt-get install -y git php imagemagick parallel
