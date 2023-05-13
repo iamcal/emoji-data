@@ -148,17 +148,17 @@ Images are extracted from their sources and this library attempts to track the l
 available versions. If you're looking for older versions of Apple or Android images
 (such as the Hairy Heart) then you'll need to look at previous revisions.
 
-| Image Set | Ownership                                                                                      | Version                                                         | Supported Version | Missing Images |
-|-----------|------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|-------------------|----------------|
-| Apple     | © Apple Inc.                                                                                   | macOS Ventura 13.3.1                                            | Emoji 15.0        | 3              |
-| Google    | © [The Android Open Source Project](https://s3-eu-west-1.amazonaws.com/tw-font/android/NOTICE) | [Noto Emoji](https://github.com/googlefonts/noto-emoji), v2.038 | Emoji 15.0        | 0              |
-| Twitter   | © Twitter, Inc.                                                                                | [Twemoji](https://github.com/twitter/twemoji), v14.0.0          | Emoji 14.0        | 31             |
-| Facebook  | © Facebook, Inc.                                                                               | v9, fetched 2023-04-17                                          | Emoji 14.0        | 55             |
+| Image Set | Source Version                                                  | Supported Emoji | Missing Images |
+|-----------|-----------------------------------------------------------------|-----------------|----------------|
+| Apple     | macOS Ventura 13.3.1                                            | Emoji 15.0      | 3              |
+| Google    | [Noto Emoji](https://github.com/googlefonts/noto-emoji), v2.038 | Emoji 15.0      | 0              |
+| Twitter   | [Twemoji](https://github.com/twitter/twemoji), v14.0.0          | Emoji 14.0      | 31             |
+| Facebook  | v9, fetched 2023-04-17                                          | Emoji 14.0      | 55             |
 
-Apple images are not licensed for commercial usage.
-Android/Google/Noto emoji are available under the [Apache License 2.0](https://github.com/googlei18n/noto-emoji/blob/master/LICENSE).
-Twitter emoji are available under the [Creative Commons Attribution 4.0 license](https://github.com/twitter/twemoji/blob/gh-pages/LICENSE-GRAPHICS).
-Facebook emoji have no clear licensing.
+* Apple images, Copyright © Apple Inc., are not licensed for commercial usage.
+* Android/Google/Noto images, are available under the [Apache License 2.0](https://github.com/googlei18n/noto-emoji/blob/master/LICENSE).
+* Twitter images are available under the [Creative Commons Attribution 4.0 license](https://github.com/twitter/twemoji/blob/gh-pages/LICENSE-GRAPHICS).
+* Facebook images, © Facebook, Inc., have no clear licensing.
 
 If you use the spritesheet images and are concerned about usage rights, please use the 'clean' versions, which avoid using fallback images for
 missing emoji (see the spritesheet section above for more details).
