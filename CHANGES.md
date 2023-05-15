@@ -1,5 +1,10 @@
 # Change Log
 
+## 2022-11-14 : v14.0.2
+
+* Codepoint `U+1F46C TWO MEN HOLDING HANDS` now has `:couple:` and `:man_and_man_holding_hands:` as an alias
+* Codepoint `U+1F46D TWO WOMEN HOLDING HANDS` now has `:couple:` and `:woman_and_woman_holding_hands:` as an alias
+
 
 ## 2023-05-12 : v15.0.0
 
