@@ -1,5 +1,9 @@
 # Change Log
 
+## 2023-05-31 : v15.0.1
+
+* Rebuilt Google quanitized sheets - 128 & 256 color vserions (thanks to @susnux)
+
 
 ## 2023-05-12 : v15.0.0
 
