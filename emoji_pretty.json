@@ -35614,9 +35614,10 @@
         "image": "1f51e.png",
         "sheet_x": 29,
         "sheet_y": 56,
-        "short_name": "underage",
+        "short_name": "no_underage",
         "short_names": [
-            "underage"
+            "no_underage",
+            "no_one_under_eighteen"
         ],
         "text": null,
         "texts": null,

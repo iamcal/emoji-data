@@ -521,7 +521,7 @@
 1F51B;on
 1F51C;soon
 1F51D;top
-1F51E;underage
+1F51E;no_underage/no_one_under_eighteen
 1F51F;keycap_ten
 1F520;capital_abcd
 1F521;abcd

@@ -1592,7 +1592,7 @@
             "non-potable_water",
             "no_pedestrians",
             "no_mobile_phones",
-            "underage",
+            "no_underage",
             "radioactive_sign",
             "biohazard_sign"
         ],
