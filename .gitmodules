@@ -4,3 +4,6 @@
 [submodule "build/twitter/twemoji"]
 	path = build/twitter/twemoji
 	url = https://github.com/twitter/twemoji.git
+[submodule "build/microsoft/fluent-emoji"]
+	path = build/microsoft/fluent-emoji
+	url = https://github.com/microsoft/fluentui-emoji.git

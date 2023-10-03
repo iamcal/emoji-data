@@ -27,6 +27,7 @@ npm install emoji-datasource-apple
 npm install emoji-datasource-google
 npm install emoji-datasource-twitter
 npm install emoji-datasource-facebook
+npm install emoji-datasource-microsoft
 ```
 
 You can also use it without downloading via [jsDelivr CDN](https://www.jsdelivr.com/package/npm/emoji-datasource?path=img)
@@ -47,9 +48,9 @@ look like this:
         "au": "E4F6",
         "softbank": "E00F",
         "google": "FEB98",
-        "image": "261d.png",
-        "sheet_x": 1,
-        "sheet_y": 2,
+        "image": "261d-fe0f.png",
+        "sheet_x": 57,
+        "sheet_y": 20,
         "short_name": "point_up",
         "short_names": [
             "point_up"
@@ -58,24 +59,27 @@ look like this:
         "texts": null,
         "category": "People & Body",
         "subcategory": "hand-single-finger",
-        "sort_order": 170,
-        "added_in": "1.4",
+        "sort_order": 192,
+        "added_in": "0.6",
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
+        "has_img_microsoft": true,
         "skin_variations": {
             "1F3FB": {
                 "unified": "261D-1F3FB",
+                "non_qualified": null,
                 "image": "261d-1f3fb.png",
-                "sheet_x": 1,
-                "sheet_y": 3,
-                "added_in": "6.0",
+                "sheet_x": 57,
+                "sheet_y": 21,
+                "added_in": "1.0",
                 "has_img_apple": true,
-                "has_img_google": false,
-                "has_img_twitter": false,
-                "has_img_facebook": false,
-            }
+                "has_img_google": true,
+                "has_img_twitter": true,
+                "has_img_facebook": true,
+                "has_img_microsoft": true
+            },
             ...
             "1F3FB-1F3FC": {
                 ...
@@ -148,17 +152,19 @@ Images are extracted from their sources and this library attempts to track the l
 available versions. If you're looking for older versions of Apple or Android images
 (such as the Hairy Heart) then you'll need to look at previous revisions.
 
-| Image Set | Source Version                                                  | Supported Emoji | Missing Images |
-|-----------|-----------------------------------------------------------------|-----------------|----------------|
-| Apple     | macOS Ventura 13.3.1                                            | Emoji 15.0      | 3              |
-| Google    | [Noto Emoji](https://github.com/googlefonts/noto-emoji), v2.038 | Emoji 15.0      | 0              |
-| Twitter   | [Twemoji](https://github.com/twitter/twemoji), v14.0.0          | Emoji 14.0      | 31             |
-| Facebook  | v9, fetched 2023-04-17                                          | Emoji 14.0      | 55             |
+| Image Set | Source Version                                                                                                                                                        | Supported Emoji  | Missing Images |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | -------------- |
+| Apple     | macOS Ventura 13.3.1                                                                                                                                                  | Emoji 15.0       | 3              |
+| Google    | [Noto Emoji](https://github.com/googlefonts/noto-emoji), v2.038                                                                                                       | Emoji 15.0       | 0              |
+| Twitter   | [Twemoji](https://github.com/twitter/twemoji), v14.0.0                                                                                                                | Emoji 14.0       | 31             |
+| Facebook  | v9, fetched 2023-04-17                                                                                                                                                | Emoji 14.0       | 55             |
+| Microsoft | [fluent-emoji](https://github.com/microsoft/fluentui-emoji), [`dfb5c3b`](https://github.com/microsoft/fluentui-emoji/commit/dfb5c3b7b10e20878a3fee6e3b05660e4d3bd9d5) | No clear version | 650            |
 
 * Apple images, Copyright © Apple Inc., are not licensed for commercial usage.
 * Android/Google/Noto images, are available under the [Apache License 2.0](https://github.com/googlei18n/noto-emoji/blob/master/LICENSE).
 * Twitter images are available under the [Creative Commons Attribution 4.0 license](https://github.com/twitter/twemoji/blob/gh-pages/LICENSE-GRAPHICS).
 * Facebook images, © Facebook, Inc., have no clear licensing.
+* Microsoft images are available under the [MIT License](https://github.com/microsoft/fluentui-emoji/blob/main/LICENSE).
 
 If you use the spritesheet images and are concerned about usage rights, please use the 'clean' versions, which avoid using fallback images for
 missing emoji (see the spritesheet section above for more details).

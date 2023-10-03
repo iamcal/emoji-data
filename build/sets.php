@@ -4,4 +4,5 @@
 		'google',
 		'twitter',
 		'facebook',
+		'microsoft',
 	);

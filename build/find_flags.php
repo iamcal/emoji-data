@@ -7,8 +7,9 @@
 	$b = find_flags("../img-google-64/1f1*-1f1*.png");
 	$c = find_flags("../img-twitter-64/1f1*-1f1*.png");
 	$d = find_flags("../img-facebook-64/1f1*-1f1*.png");
+	$e = find_flags("../img-microsoft-64/1f1*-1f1*.png");
 
-	$all = array_unique(array_merge($a, $b, $c, $d));
+	$all = array_unique(array_merge($a, $b, $c, $d, $e));
 	sort($all);
 
 	foreach ($all as $line) echo $line;
