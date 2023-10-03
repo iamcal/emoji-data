@@ -42,6 +42,7 @@
 			create_sheet('twitter', $sz, $clean);
 			create_sheet('google', $sz, $clean);
 			create_sheet('facebook', $sz, $clean);
+			create_sheet('microsoft', $sz, $clean);
 		}
 	}
 
@@ -66,7 +67,7 @@
 		if ($clean){
 			$try_order = array($type);
 		}else{
-			$try_order = array($type, 'apple', 'google', 'twitter', 'facebook');
+			$try_order = array($type, 'apple', 'google', 'twitter', 'facebook', 'microsoft');
 		}
 
 

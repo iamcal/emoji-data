@@ -10,6 +10,7 @@
 		'google',
 		'twitter',
 		'facebook',
+		'microsoft'
 	);
 
 	$json = file_get_contents('../emoji.json');
@@ -19,13 +20,13 @@
 	foreach ($obj as $row){
 
 		if (!$row["has_img_$p"]){
-			echo "$p missing {$row['unified']} / {$row['short_name']}\n";
+			echo "$p missing {$row['unified']} / {$row['short_name']} [{$row['added_in']}]\n";
 		}
 
 		if (isset($row['skin_variations'])){
 			foreach ($row['skin_variations'] as $row2){
 				if (!$row2["has_img_$p"]){
-					echo "$p missing {$row2['unified']} / {$row['short_name']} (tone)\n";
+					echo "$p missing {$row2['unified']} / {$row['short_name']} (tone) [{$row['added_in']}]\n";
 				}
 			}
 		}
