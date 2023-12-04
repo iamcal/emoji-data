@@ -3,4 +3,4 @@
 	url = https://github.com/googlei18n/noto-emoji.git
 [submodule "build/twitter/twemoji"]
 	path = build/twitter/twemoji
-	url = https://github.com/twitter/twemoji.git
+	url = https://github.com/jdecked/twemoji.git
