@@ -149,15 +149,15 @@ available versions. If you're looking for older versions of Apple or Android ima
 (such as the Hairy Heart) then you'll need to look at previous revisions.
 
 | Image Set | Source Version                                                  | Supported Emoji | Missing Images |
-|-----------|-----------------------------------------------------------------|-----------------|----------------|
+| --------- | --------------------------------------------------------------- | --------------- | -------------- |
 | Apple     | macOS Ventura 13.3.1                                            | Emoji 15.0      | 3              |
 | Google    | [Noto Emoji](https://github.com/googlefonts/noto-emoji), v2.038 | Emoji 15.0      | 0              |
-| Twitter   | [Twemoji](https://github.com/twitter/twemoji), v14.0.0          | Emoji 14.0      | 31             |
+| Twitter   | [Twemoji (fork)](https://github.com/jdecked/twemoji), v15.0.2   | Emoji 15.0      | 0              |
 | Facebook  | v9, fetched 2023-04-17                                          | Emoji 14.0      | 55             |
 
 * Apple images, Copyright © Apple Inc., are not licensed for commercial usage.
 * Android/Google/Noto images, are available under the [Apache License 2.0](https://github.com/googlei18n/noto-emoji/blob/master/LICENSE).
-* Twitter images are available under the [Creative Commons Attribution 4.0 license](https://github.com/twitter/twemoji/blob/gh-pages/LICENSE-GRAPHICS).
+* Twitter images are available under the [Creative Commons Attribution 4.0 license](https://github.com/jdecked/twemoji/blob/v15.0.2/LICENSE-GRAPHICS).
 * Facebook images, © Facebook, Inc., have no clear licensing.
 
 If you use the spritesheet images and are concerned about usage rights, please use the 'clean' versions, which avoid using fallback images for
