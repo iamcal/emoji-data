@@ -152,7 +152,7 @@ available versions. If you're looking for older versions of Apple or Android ima
 | --------- | --------------------------------------------------------------- | --------------- | -------------- |
 | Apple     | macOS Ventura 13.3.1                                            | Emoji 15.0      | 3              |
 | Google    | [Noto Emoji](https://github.com/googlefonts/noto-emoji), v2.038 | Emoji 15.0      | 0              |
-| Twitter   | [Twemoji (fork)](https://github.com/jdecked/twemoji), v15.0.2   | Emoji 15.0      | 0              |
+| Twitter   | [Twemoji (fork)](https://github.com/jdecked/twemoji), v15.0.3   | Emoji 15.0      | 0              |
 | Facebook  | v9, fetched 2023-04-17                                          | Emoji 14.0      | 55             |
 
 * Apple images, Copyright © Apple Inc., are not licensed for commercial usage.
