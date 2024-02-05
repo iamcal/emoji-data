@@ -12,7 +12,7 @@ use Font::TTF::TTC;
 $Font::TTF::Font::tables{'sbix'} = 'Font::TTF::Sbix';
 $Font::TTF::Font::tables{'morx'} = 'Font::TTF::Morx';
 
-my $filename = "apple_color_emoji_macos_13_3_1.ttc";
+my $filename = "Apple Color Emoji.ttc";
 
 my $incremental_mode = 0;
 

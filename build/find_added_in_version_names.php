@@ -1,6 +1,6 @@
 <?php
 	# needs to match the relevant lines in unicode/emoji-data.txt
-	$version = '15.0 ';
+	$version = '15.1 ';
 
 
 	include('common.php');
@@ -26,19 +26,19 @@
 
 		if (strpos($comment, $GLOBALS['version']) === false) return;
 
-                if (strpos($fields[0], '..')){
-                        list($a, $b) = explode('..', $fields[0]);
-                        $a = hexdec($a);
-                        $b = hexdec($b);
+		if (strpos($fields[0], '..')){
+			list($a, $b) = explode('..', $fields[0]);
+			$a = hexdec($a);
+			$b = hexdec($b);
 
-                        $cps = array();
-                        for ($i=$a; $i<=$b; $i++){
-                                $cps[] = $i;
-                        }
-                }else{
-                        $cp = sprintf('%04x', hexdec($fields[0]));
-                        $cps = array(hexdec($fields[0]));
-                }
+			$cps = array();
+			for ($i=$a; $i<=$b; $i++){
+				$cps[] = $i;
+			}
+		}else{
+			$cp = sprintf('%04x', hexdec($fields[0]));
+			$cps = array(hexdec($fields[0]));
+		}
 
 		foreach ($cps as $cp){
 			$hex_low = sprintf('%04x', $cp);
@@ -56,11 +56,10 @@
 	});
 
 
+	parse_unicode_specfile('unicode/emoji-sequences.txt', 'get_sequence_names');
+	parse_unicode_specfile('unicode/emoji-zwj-sequences.txt', 'get_sequence_names');
 
-        parse_unicode_specfile('unicode/emoji-sequences.txt', 'get_sequence_names');
-        parse_unicode_specfile('unicode/emoji-zwj-sequences.txt', 'get_sequence_names');
-
-        function get_sequence_names($fields, $comment){
+	function get_sequence_names($fields, $comment){
 
 		if (strpos($comment, $GLOBALS['version']) === false) return;
 
@@ -89,7 +88,7 @@
 
 		$cp = StrToUpper($cp);
 
-                $uni = str_replace(' ', '-', $cp);
+		$uni = str_replace(' ', '-', $cp);
 
 		# skip over all but one skin tone - this makes it easier
 		# for us to turn the remaining single-case into an expansion
@@ -102,7 +101,7 @@
 		$GLOBALS['done'][$uni] = 1;
 
 		echo "$uni;".format_name($name)."\n";
-        }
+	}
 
 
 
