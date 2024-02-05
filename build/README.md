@@ -65,7 +65,7 @@ Since it requires some time and a lot of CPU & memory, I usually spin up a tempo
 As of Ubuntu 22.04, you can install recent versions of all dependencies via apt:
 
     sudo apt-get update
-    sudo apt-get install -y git php php-mbstring imagemagick parallel
+    sudo apt-get install -y git php php-mbstring php-curl imagemagick parallel
     sudo apt-get install -y pngquant zopfli
 
 Don't forget to set up your git config before committing anything!
