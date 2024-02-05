@@ -6,6 +6,7 @@
 * Updated Apple images, supporting 15.1
 * Updated Google images, supporting 15.1
 * Update Twitter images to repo fork, supporting 15.0
+* Added some missing Facebook images, supporting _most of_ 15.0
 
 ## 2023-05-31 : v15.0.1
 

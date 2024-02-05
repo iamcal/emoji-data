@@ -17269,7 +17269,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "BIRD",
@@ -47094,7 +47094,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "PLAYGROUND SLIDE",
@@ -64917,7 +64917,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "FLUTE",
@@ -64943,7 +64943,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "RINGED PLANET",
@@ -65775,7 +65775,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "FLY",
@@ -66113,7 +66113,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "WING",
@@ -67747,7 +67747,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "skin_variations": {
             "1F3FB": {
                 "unified": "1FAF7-1F3FB",
@@ -67771,7 +67771,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD": {
                 "unified": "1FAF7-1F3FD",
@@ -67783,7 +67783,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE": {
                 "unified": "1FAF7-1F3FE",
@@ -67795,7 +67795,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF": {
                 "unified": "1FAF7-1F3FF",
@@ -67807,7 +67807,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             }
         }
     },
@@ -67835,7 +67835,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "skin_variations": {
             "1F3FB": {
                 "unified": "1FAF8-1F3FB",
@@ -67859,7 +67859,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FD": {
                 "unified": "1FAF8-1F3FD",
@@ -67871,7 +67871,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FE": {
                 "unified": "1FAF8-1F3FE",
@@ -67883,7 +67883,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             },
             "1F3FF": {
                 "unified": "1FAF8-1F3FF",
@@ -67895,7 +67895,7 @@
                 "has_img_apple": true,
                 "has_img_google": true,
                 "has_img_twitter": true,
-                "has_img_facebook": false
+                "has_img_facebook": true
             }
         }
     },
