@@ -11,7 +11,7 @@ $fetch_incremental = true;
 $json = file_get_contents('../../emoji.json');
 $data = json_decode($json, true);
 
-if (!$fetch_incremental) shell_exec("rm -f ../../img-facebook-96/*.png");
+if (!$fetch_incremental) shell_exec("rm -f ../../img-facebook-96/"."*.png");
 
 
 foreach ($data as $row){
