@@ -12,7 +12,7 @@
 			exec("convert {$src} -resize 64x64 png32:{$dst}", $out, $code);
 			if ($code){
 				echo "ERROR:\n";
-				echo "   ".$out."\n";
+				echo "   ".implode("\n", $out)."\n";
 			}else{
 				echo ".";
 			}
