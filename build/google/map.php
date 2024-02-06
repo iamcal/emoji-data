@@ -17,6 +17,7 @@
 		'us' => 'US',
 		'flag-england'	=> 'GB-ENG',
 		'flag-wales'	=> 'GB-WLS',
+		'flag-scotland'	=> 'GB-SCT',
 
 		// from noto-emoji/emoji_aliases.txt
 		'flag-bv' => 'NO',
