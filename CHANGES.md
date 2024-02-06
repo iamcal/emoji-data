@@ -3,6 +3,8 @@
 ## 2024-02-?? : v15.1.1
 
 * Fixed incorrect Scotland flag (thanks to @andersk)
+* Fixed missingnon_qualified fields for gendered emoji (thanks to @andersk)
+* Updated link to Ruby library (thansk to @envek)
 
 
 ## 2024-02-06 : v15.1.0
