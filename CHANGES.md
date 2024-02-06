@@ -1,6 +1,6 @@
 # Change Log
 
-## 2024-02-05 : v15.1.0
+## 2024-02-06 : v15.1.0
 
 * Update to Emoji 15.1 (thanks to @susnux)
 * Updated Apple images, supporting 15.1
