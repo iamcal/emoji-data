@@ -100,6 +100,7 @@
 
 			$inx = 'emoji_u'.$root.'.png';
 			if (file_exists("$src/$inx")){
+
 				copy("$src/$inx", "$dst/$out");
 				echo '.';
 				return;
@@ -108,7 +109,22 @@
 
 
 		#
-		# flags come from elsewhere...
+		# manually mapped flags next...
+		#
+
+		if (isset($flag_map[$row['short_name']])){
+			$cc = $flag_map[$row['short_name']];
+
+			if (file_exists("{$src_flags}/{$cc}.png")){
+				copy("{$src_flags}/{$cc}.png", "$dst/$out");
+				echo ':';
+				return;
+			}
+		}
+
+
+		#
+		# flags based just on cc
 		#
 
 		if (preg_match('!flag-(..)!', $row['short_name'], $m)){
@@ -118,16 +134,6 @@
 			if (file_exists("{$src_flags}/{$cc}.png")){
 				copy("{$src_flags}/{$cc}.png", "$dst/$out");
 				echo ',';
-				return;
-			}
-		}
-
-		if (isset($flag_map[$row['short_name']])){
-			$cc = $flag_map[$row['short_name']];
-
-			if (file_exists("{$src_flags}/{$cc}.png")){
-				copy("{$src_flags}/{$cc}.png", "$dst/$out");
-				echo ':';
 				return;
 			}
 		}
