@@ -1,6 +1,6 @@
 # Change Log
 
-## 2024-02-?? : v15.1.1
+## 2024-02-13 : v15.1.1
 
 * Fixed incorrect Scotland flag (thanks to @andersk)
 * Fixed missingnon_qualified fields for gendered emoji (thanks to @andersk)
