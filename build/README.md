@@ -50,13 +50,14 @@ directories under `build/`.
 ## Cutting a new release
 
 1. Land new commits onto master
-2. Update `CHANGES.md` with version history
-3. Update `package.json` with new version number (now in only 1 place)
-4. Update `README.md` with the correct Unicode/Emoji version
-4. Update `README.md` and `CHANGES.md` with the correct source versions for all image sets
-5. Add a git tag
-6. Publish to npm: `php npm_prep.php` and `php npm_publish.php`
-7. Update downstream libraries
+2. Verify that all sheets match as expected (`build/preview_sheets.htm`)
+3. Update `CHANGES.md` with version history
+4. Update `package.json` with new version number (now in only 1 place)
+5. Update `README.md` with the correct Unicode/Emoji version
+6. Update `README.md` and `CHANGES.md` with the correct source versions for all image sets
+7. Add a git tag
+8. Publish to npm: `php npm_prep.php` and `php npm_publish.php`
+9. Update downstream libraries
 
 
 ## Setting up a fresh VM to process the images
