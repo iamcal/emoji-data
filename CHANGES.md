@@ -1,5 +1,11 @@
 # Change Log
 
+## 2024-02-26 : v15.1.2
+
+* Rebuilt Twitter sheets to the correct layout (thanks to @andersk)
+* Rebuilt Facebook sheets to include missing images (thanks to @andersk)
+
+
 ## 2024-02-13 : v15.1.1
 
 * Fixed incorrect Scotland flag (thanks to @andersk)
