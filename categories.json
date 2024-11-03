@@ -67,7 +67,8 @@
             "pensive",
             "sleepy",
             "drooling_face",
-            "sleeping"
+            "sleeping",
+            "face_with_bags_under_eyes"
         ],
         "face-unwell": [
             "mask",
@@ -617,7 +618,8 @@
             "family_adult_adult_child_child",
             "family_adult_child",
             "family_adult_child_child",
-            "footprints"
+            "footprints",
+            "fingerprint"
         ]
     },
     "Component": {
@@ -748,7 +750,12 @@
             "octopus",
             "shell",
             "coral",
-            "jellyfish"
+            "jellyfish",
+            "crab",
+            "lobster",
+            "shrimp",
+            "squid",
+            "oyster"
         ],
         "animal-bug": [
             "snail",
@@ -798,7 +805,8 @@
             "leaves",
             "empty_nest",
             "nest_with_eggs",
-            "mushroom"
+            "mushroom",
+            "leafless_tree"
         ]
     },
     "Food & Drink": {
@@ -842,7 +850,8 @@
             "chestnut",
             "ginger_root",
             "pea_pod",
-            "brown_mushroom"
+            "brown_mushroom",
+            "root_vegetable"
         ],
         "food-prepared": [
             "bread",
@@ -898,13 +907,6 @@
             "dumpling",
             "fortune_cookie",
             "takeout_box"
-        ],
-        "food-marine": [
-            "crab",
-            "lobster",
-            "shrimp",
-            "squid",
-            "oyster"
         ],
         "food-sweet": [
             "icecream",
@@ -1376,7 +1378,8 @@
             "drum_with_drumsticks",
             "long_drum",
             "maracas",
-            "flute"
+            "flute",
+            "harp"
         ],
         "phone": [
             "iphone",
@@ -1534,7 +1537,8 @@
             "hook",
             "toolbox",
             "magnet",
-            "ladder"
+            "ladder",
+            "shovel"
         ],
         "science": [
             "alembic",
@@ -1751,7 +1755,8 @@
             "sparkle",
             "copyright",
             "registered",
-            "tm"
+            "tm",
+            "splatter"
         ],
         "keycap": [
             "hash",
@@ -1909,6 +1914,7 @@
             "cn",
             "flag-co",
             "flag-cp",
+            "flag-sark",
             "flag-cr",
             "flag-cu",
             "flag-cv",

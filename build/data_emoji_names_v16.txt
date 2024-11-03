@@ -1,0 +1,8 @@
+1FA89;harp
+1FA8F;shovel
+1FABE;leafless_tree
+1FAC6;fingerprint
+1FADC;root_vegetable
+1FADF;splatter
+1FAE9;face_with_bags_under_eyes
+1F1E8-1F1F6;flag-sark
