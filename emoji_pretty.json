@@ -2153,7 +2153,7 @@
         "subcategory": "country-flag",
         "sort_order": 1701,
         "added_in": "16.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
@@ -14290,7 +14290,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F3CB-1F3FB-200D-2640-FE0F",
@@ -14378,7 +14378,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F3CB-1F3FB-200D-2642-FE0F",
@@ -14556,7 +14556,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F3CC-1F3FB-200D-2640-FE0F",
@@ -14644,7 +14644,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F3CC-1F3FB-200D-2642-FE0F",
@@ -15785,7 +15785,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false
+        "has_img_facebook": true
     },
     {
         "name": "WHITE FLAG",
@@ -38302,7 +38302,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F575-1F3FB-200D-2640-FE0F",
@@ -38390,7 +38390,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "skin_variations": {
             "1F3FB": {
                 "unified": "1F575-1F3FB-200D-2642-FE0F",
@@ -64992,7 +64992,7 @@
         "subcategory": "musical-instrument",
         "sort_order": 1230,
         "added_in": "16.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
@@ -65018,7 +65018,7 @@
         "subcategory": "tool",
         "sort_order": 1369,
         "added_in": "16.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
@@ -66240,7 +66240,7 @@
         "subcategory": "plant-other",
         "sort_order": 719,
         "added_in": "16.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
@@ -66634,7 +66634,7 @@
         "subcategory": "person-symbol",
         "sort_order": 555,
         "added_in": "16.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
@@ -67024,7 +67024,7 @@
         "subcategory": "food-vegetable",
         "sort_order": 758,
         "added_in": "16.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
@@ -67050,7 +67050,7 @@
         "subcategory": "other-symbol",
         "sort_order": 1555,
         "added_in": "16.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
@@ -67310,7 +67310,7 @@
         "subcategory": "face-sleepy",
         "sort_order": 58,
         "added_in": "16.0",
-        "has_img_apple": false,
+        "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": false,
         "has_img_facebook": false
@@ -71316,7 +71316,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "skin_variations": {
             "1F3FB": {
                 "unified": "26F9-1F3FB-200D-2640-FE0F",
@@ -71404,7 +71404,7 @@
         "has_img_apple": true,
         "has_img_google": true,
         "has_img_twitter": true,
-        "has_img_facebook": false,
+        "has_img_facebook": true,
         "skin_variations": {
             "1F3FB": {
                 "unified": "26F9-1F3FB-200D-2642-FE0F",

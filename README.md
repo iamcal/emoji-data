@@ -150,10 +150,10 @@ available versions. If you're looking for older versions of Apple or Android ima
 
 | Image Set | Source Version                                                  | Supported Emoji | Missing Images |
 | --------- | --------------------------------------------------------------- | --------------- | -------------- |
-| Apple     | iOS 17.4 beta                                                   | Emoji 15.1      | 11             |
+| Apple     | iOS 17.4 beta                                                   | Emoji 15.1      | 3              |
 | Google    | [Noto Emoji](https://github.com/googlefonts/noto-emoji), v2.047 | Emoji 16.0      | 0              |
-| Twitter   | [Twemoji (fork)](https://github.com/jdecked/twemoji), v15.1     | Emoji 15.1      | 8            |
-| Facebook  | v9, fetched 2024-02-05                                          | Emoji 15.0      | 150            |
+| Twitter   | [Twemoji (fork)](https://github.com/jdecked/twemoji), v15.1     | Emoji 15.1      | 8              |
+| Facebook  | v9, fetched 2024-02-05                                          | Emoji 15.0      | 141            |
 
 * Apple images, Copyright © Apple Inc., are not licensed for commercial usage.
 * Android/Google/Noto images, are available under the [Apache License 2.0](https://github.com/googlei18n/noto-emoji/blob/master/LICENSE).
