@@ -1,6 +1,6 @@
 <?php
 	# needs to match the relevant lines in unicode/emoji-data.txt
-	$version = '15.1 ';
+	$version = '17.0 ';
 
 
 	include('common.php');

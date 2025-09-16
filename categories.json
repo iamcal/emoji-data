@@ -67,7 +67,8 @@
             "pensive",
             "sleepy",
             "drooling_face",
-            "sleeping"
+            "sleeping",
+            "face_with_bags_under_eyes"
         ],
         "face-unwell": [
             "mask",
@@ -103,6 +104,7 @@
             "hushed",
             "astonished",
             "flushed",
+            "distorted_face",
             "pleading_face",
             "face_holding_back_tears",
             "frowning",
@@ -188,6 +190,7 @@
             "kiss",
             "100",
             "anger",
+            "fight_cloud",
             "boom",
             "dizzy",
             "sweat_drops",
@@ -455,7 +458,8 @@
             "zombie",
             "male_zombie",
             "female_zombie",
-            "troll"
+            "troll",
+            "hairy_creature"
         ],
         "person-activity": [
             "massage",
@@ -503,6 +507,7 @@
             "person_running_facing_right",
             "woman_running_facing_right",
             "man_running_facing_right",
+            "ballet_dancer",
             "dancer",
             "man_dancing",
             "man_in_business_suit_levitating",
@@ -617,7 +622,8 @@
             "family_adult_adult_child_child",
             "family_adult_child",
             "family_adult_child_child",
-            "footprints"
+            "footprints",
+            "fingerprint"
         ]
     },
     "Component": {
@@ -740,6 +746,7 @@
             "whale",
             "whale2",
             "dolphin",
+            "orca",
             "seal",
             "fish",
             "tropical_fish",
@@ -748,7 +755,12 @@
             "octopus",
             "shell",
             "coral",
-            "jellyfish"
+            "jellyfish",
+            "crab",
+            "lobster",
+            "shrimp",
+            "squid",
+            "oyster"
         ],
         "animal-bug": [
             "snail",
@@ -798,7 +810,8 @@
             "leaves",
             "empty_nest",
             "nest_with_eggs",
-            "mushroom"
+            "mushroom",
+            "leafless_tree"
         ]
     },
     "Food & Drink": {
@@ -842,7 +855,8 @@
             "chestnut",
             "ginger_root",
             "pea_pod",
-            "brown_mushroom"
+            "brown_mushroom",
+            "root_vegetable"
         ],
         "food-prepared": [
             "bread",
@@ -898,13 +912,6 @@
             "dumpling",
             "fortune_cookie",
             "takeout_box"
-        ],
-        "food-marine": [
-            "crab",
-            "lobster",
-            "shrimp",
-            "squid",
-            "oyster"
         ],
         "food-sweet": [
             "icecream",
@@ -967,6 +974,7 @@
         "place-geographic": [
             "snow_capped_mountain",
             "mountain",
+            "landslide",
             "volcano",
             "mount_fuji",
             "camping",
@@ -1367,16 +1375,18 @@
         ],
         "musical-instrument": [
             "saxophone",
+            "trumpet",
+            "trombone",
             "accordion",
             "guitar",
             "musical_keyboard",
-            "trumpet",
             "violin",
             "banjo",
             "drum_with_drumsticks",
             "long_drum",
             "maracas",
-            "flute"
+            "flute",
+            "harp"
         ],
         "phone": [
             "iphone",
@@ -1440,8 +1450,9 @@
             "label"
         ],
         "money": [
-            "moneybag",
             "coin",
+            "moneybag",
+            "treasure_chest",
             "yen",
             "dollar",
             "euro",
@@ -1534,7 +1545,8 @@
             "hook",
             "toolbox",
             "magnet",
-            "ladder"
+            "ladder",
+            "shovel"
         ],
         "science": [
             "alembic",
@@ -1751,7 +1763,8 @@
             "sparkle",
             "copyright",
             "registered",
-            "tm"
+            "tm",
+            "splatter"
         ],
         "keycap": [
             "hash",
@@ -1909,6 +1922,7 @@
             "cn",
             "flag-co",
             "flag-cp",
+            "flag-sark",
             "flag-cr",
             "flag-cu",
             "flag-cv",
