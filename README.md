@@ -7,7 +7,7 @@
 This project provides easy-to-parse data about emoji, along with a spritesheet-style 
 images for use on the web.
 
-The current version supports Emoji version 16.0 (Oct 2024)
+The current version supports Emoji version 17.0 (Sep 2025)
 
 You can see a catalog of the emoji data here: http://projects.iamcal.com/emoji-data/table.htm
 
@@ -150,10 +150,10 @@ available versions. If you're looking for older versions of Apple or Android ima
 
 | Image Set | Source Version                                                  | Supported Emoji | Missing Images |
 | --------- | --------------------------------------------------------------- | --------------- | -------------- |
-| Apple     | iOS 18.4 beta                                                   | Emoji 16.0      | 3              |
-| Google    | [Noto Emoji](https://github.com/googlefonts/noto-emoji), v2.047 | Emoji 16.0      | 0              |
-| Twitter   | [Twemoji (fork)](https://github.com/jdecked/twemoji), v16.0.1   | Emoji 16.0      | 0              |
-| Facebook  | v9, fetched 2024-02-05                                          | Emoji 15.0      | 141            |
+| Apple     | iOS 18.4 beta                                                   | Emoji 16.0      | 166            |
+| Google    | [Noto Emoji](https://github.com/googlefonts/noto-emoji), v2.051 | Emoji 17.0      | 0              |
+| Twitter   | [Twemoji (fork)](https://github.com/jdecked/twemoji), v16.0.1   | Emoji 16.0      | 163            |
+| Facebook  | v9, fetched 2024-02-05                                          | Emoji 15.0      | 304            |
 
 * Apple images, Copyright © Apple Inc., are not licensed for commercial usage.
 * Android/Google/Noto images, are available under the [Apache License 2.0](https://github.com/googlei18n/noto-emoji/blob/master/LICENSE).
