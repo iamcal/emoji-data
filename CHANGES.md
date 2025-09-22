@@ -1,5 +1,12 @@
 # Change Log
 
+## 2025-09-?? : v16.0.0
+
+* Update to Emoji 16.0 (thanks to @nerixyz)
+* Updated Google images, supporting 16.0 (thanks to @nerixyz)
+* Updated Twitter images, supporting 16.0 (thanks to @nerixyz)
+
+
 ## 2024-02-26 : v15.1.2
 
 * Rebuilt Twitter sheets to the correct layout (thanks to @andersk)
