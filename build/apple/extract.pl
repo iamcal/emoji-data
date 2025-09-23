@@ -13,7 +13,7 @@ $Font::TTF::Font::tables{'sbix'} = 'Font::TTF::Sbix';
 $Font::TTF::Font::tables{'morx'} = 'Font::TTF::Morx';
 
 my $filename = "Apple Color Emoji.ttc";
-$filename = "apple_color_emoji_ios_17_4_beta.ttc";
+$filename = "apple_color_emoji_macos_15_5.ttc";
 
 my $incremental_mode = 0;
 
@@ -287,13 +287,32 @@ sub store_image {
 			print "ok - $filename\n";
 
 			open(my $fh, '>', "../../img-apple-160/$filename");
-			print($fh  $strike->{'data'});
+			print($fh $strike->{'data'});
 			close($fh);
 		}
 
 	}elsif ($strike->{'graphicType'} eq 'zero-length'){
 
 		print "no glyph for $filename\n";
+
+	}elsif ($strike->{'graphicType'} eq 'flip'){
+
+		# image is flipped left-to-right and the strike data contains a (little endian unsigned short)
+		# ID of the glyph to flip
+
+		my ($original_glyph_id) = unpack('n', $strike->{'data'});
+		my $original_strike = $f->{'sbix'}->read_strike(160, 0 + $original_glyph_id, 1);
+
+		print "ok - flipped $filename ... ";
+
+		open(my $fh, '>', "../../img-apple-160/$filename");
+		print($fh $original_strike->{'data'});
+		close($fh);
+
+		my $cmd = "convert ../../img-apple-160/$filename -flop ../../img-apple-160/$filename";
+		print `$cmd`;
+
+		print "ok\n";
 
 	}else{
 		# something we don't expect
