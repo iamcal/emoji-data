@@ -14,7 +14,7 @@ You can see a catalog of the emoji data here: http://projects.iamcal.com/emoji-d
 
 ## Installation
 
-The git repo is pretty big (almost 4GB), but contains everything. If you want to use `npm`, you can:
+The git repo is pretty big (almost 10GB), but contains everything. If you want to use `npm`, you can:
 
     npm install emoji-datasource
 
