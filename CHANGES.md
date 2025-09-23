@@ -3,6 +3,7 @@
 ## 2025-09-?? : v16.0.0
 
 * Update to Emoji 16.0 (thanks to @nerixyz)
+* Updated Apple images, supporting 16.0
 * Updated Google images, supporting 16.0 (thanks to @nerixyz)
 * Updated Twitter images, supporting 16.0 (thanks to @nerixyz)
 
