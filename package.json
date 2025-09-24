@@ -1,6 +1,6 @@
 {
   "name": "emoji-datasource",
-  "version": "15.1.2",
+  "version": "16.0.0",
   "description": "Emoji data and images",
   "main": "emoji.json",
   "repository": {
