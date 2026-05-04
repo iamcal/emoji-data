@@ -104,6 +104,7 @@
             "hushed",
             "astonished",
             "flushed",
+            "distorted_face",
             "pleading_face",
             "face_holding_back_tears",
             "frowning",
@@ -189,6 +190,7 @@
             "kiss",
             "100",
             "anger",
+            "fight_cloud",
             "boom",
             "dizzy",
             "sweat_drops",
@@ -456,7 +458,8 @@
             "zombie",
             "male_zombie",
             "female_zombie",
-            "troll"
+            "troll",
+            "hairy_creature"
         ],
         "person-activity": [
             "massage",
@@ -504,6 +507,7 @@
             "person_running_facing_right",
             "woman_running_facing_right",
             "man_running_facing_right",
+            "ballet_dancer",
             "dancer",
             "man_dancing",
             "man_in_business_suit_levitating",
@@ -742,6 +746,7 @@
             "whale",
             "whale2",
             "dolphin",
+            "orca",
             "seal",
             "fish",
             "tropical_fish",
@@ -969,6 +974,7 @@
         "place-geographic": [
             "snow_capped_mountain",
             "mountain",
+            "landslide",
             "volcano",
             "mount_fuji",
             "camping",
@@ -1369,10 +1375,11 @@
         ],
         "musical-instrument": [
             "saxophone",
+            "trumpet",
+            "trombone",
             "accordion",
             "guitar",
             "musical_keyboard",
-            "trumpet",
             "violin",
             "banjo",
             "drum_with_drumsticks",
@@ -1443,8 +1450,9 @@
             "label"
         ],
         "money": [
-            "moneybag",
             "coin",
+            "moneybag",
+            "treasure_chest",
             "yen",
             "dollar",
             "euro",

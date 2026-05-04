@@ -188,6 +188,7 @@
 	#
 
 	$short_names = array();
+	$short_name_parents = array();
 
 	echo "Loading short names : ";
 	load_short_names('data_emoji_names.txt');
@@ -202,6 +203,7 @@
 	load_short_names('data_emoji_names_v15.txt');
 	load_short_names('data_emoji_names_v15_1.txt');
 	load_short_names('data_emoji_names_v16.txt');
+	load_short_names('data_emoji_names_v17.txt');
 	echo "DONE\n";
 
 	function load_short_names($file){
@@ -307,6 +309,13 @@
 	}
 
 	function load_short_name($line){
+		# "! child -> parent"
+		if (strpos($line, '!') === 0) {
+			list($child, $parent) = explode('->', substr($line, 1));
+			$GLOBALS['short_name_parents'][trim($child)] = trim($parent);
+			return;
+		}
+
 
 		list($cp, $names) = explode(';', $line);
 
@@ -559,6 +568,9 @@
 		foreach ($row['short_names'] as $n){
 			$short_name_map[$n] = $k;
 		}
+	}
+	foreach ($short_name_parents as $k => $v){
+		$short_name_map[$k] = $short_name_map[$v];
 	}
 
 	$skin_codepoints_base = array(

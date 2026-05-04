@@ -1,0 +1,26 @@
+1F6D8;landslide
+1FA8A;trombone
+1FA8E;treasure_chest
+1FAC8;hairy_creature
+1FACD;orca
+1FAEA;distorted_face
+1FAEF;fight_cloud
+1F46F{SKIN!};people_with_bunny_ears
+1F9D1{SKIN!}-200D-1F430-200D-1F9D1{SKIN2};people_with_bunny_ears
+1F46F{SKIN!}-200D-{MALE/FEMALE};{M/W}_with_bunny_ears
+{MAN/WOMAN}{SKIN!}-200D-1F430-200D-{MAN/WOMAN}{SKIN2};{M/W}_with_bunny_ears
+1F93C{SKIN!};people_wrestling
+1F9D1{SKIN!}-200D-1FAEF-200D-1F9D1{SKIN2};people_wrestling
+1F93C{SKIN!}-200D-{MALE/FEMALE};{M/W}_wrestling
+{MAN/WOMAN}{SKIN!}-200D-1FAEF-200D-{MAN/WOMAN}{SKIN2};{M/W}_wrestling
+1F9D1-200D-1FA70;ballet_dancer
+1F9D1{SKIN!}-200D-1FA70;ballet_dancer
+
+# Unicode 17.0 added a bunch of skin variations to existing emojis with different parent names.
+# This remaps the new emojis to their parent.
+
+! people_with_bunny_ears -> dancers
+! man_with_bunny_ears -> men-with-bunny-ears-partying
+! woman_with_bunny_ears -> women-with-bunny-ears-partying
+! people_wrestling -> wrestlers
+! {M/W}_wrestling -> {M/W}-wrestling
