@@ -872,6 +872,10 @@
 			}
 		}
 
+		if (in_array(strtolower($props['name']), $GLOBALS['outline_symbols'])){
+			$ret['image'] = $img_key.'-outline.png';
+		}
+
 		return $ret;
 	}
 
