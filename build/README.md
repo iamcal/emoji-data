@@ -14,6 +14,9 @@ You can rebuild by following these steps:
 	./download_spec_files.sh
 	php build_map.php
 
+	# Generate versions of images with white outline (requires ImageMagick)
+	php build_outline.php
+
 	# From the final mapping, build a preview table
 	php build_table.php > ../table.htm
 
