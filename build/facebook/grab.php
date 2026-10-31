@@ -166,7 +166,6 @@ function http_fetch($url, $filename){
 	curl_setopt_array($ch, $options);
 	curl_exec($ch);
 	$ret = curl_getinfo($ch);
-	curl_close($ch);
 
 	fclose($fh);
 

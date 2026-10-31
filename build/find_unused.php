@@ -1,5 +1,5 @@
 <?php
-	error_reporting((E_ALL | E_STRICT) ^ E_NOTICE);
+	error_reporting(E_ALL ^ E_NOTICE);
 
 	#
 	# first, build a list of every image referenced in the final JSON
