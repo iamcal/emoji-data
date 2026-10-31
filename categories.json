@@ -12,6 +12,7 @@
             "slightly_smiling_face",
             "upside_down_face",
             "melting_face",
+            "cracking_face",
             "wink",
             "blush",
             "innocent"
@@ -241,6 +242,8 @@
         "hand-fingers-closed": [
             "+1",
             "-1",
+            "leftwards_thumb_sign",
+            "rightwards_thumb_sign",
             "fist",
             "facepunch",
             "left-facing_fist",
@@ -765,6 +768,7 @@
         "animal-bug": [
             "snail",
             "butterfly",
+            "monarch_butterfly",
             "bug",
             "ant",
             "bee",
@@ -846,6 +850,7 @@
             "hot_pepper",
             "bell_pepper",
             "cucumber",
+            "pickle",
             "leafy_green",
             "broccoli",
             "garlic",
@@ -1092,6 +1097,7 @@
             "construction"
         ],
         "transport-water": [
+            "lighthouse",
             "anchor",
             "ring_buoy",
             "boat",
@@ -1199,6 +1205,7 @@
             "snowman",
             "snowman_without_snow",
             "comet",
+            "meteor",
             "fire",
             "droplet",
             "ocean"
@@ -1484,7 +1491,8 @@
             "lower_left_ballpoint_pen",
             "lower_left_paintbrush",
             "lower_left_crayon",
-            "memo"
+            "memo",
+            "eraser"
         ],
         "office": [
             "briefcase",
@@ -1520,6 +1528,7 @@
             "old_key"
         ],
         "tool": [
+            "net_with_handle",
             "hammer",
             "axe",
             "pick",

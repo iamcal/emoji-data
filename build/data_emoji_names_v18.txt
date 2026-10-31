@@ -1,0 +1,9 @@
+1F6D9;lighthouse
+1FA8B;meteor
+1FA8C;eraser
+1FA8D;net_with_handle
+1FACC;monarch_butterfly
+1FADD;pickle
+1FAEB;cracking_face
+1FAF9{SKIN};leftwards_thumb_sign
+1FAFA{SKIN};rightwards_thumb_sign
